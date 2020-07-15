@@ -13,6 +13,8 @@ Collection of useful Datascience things across the web
 
 # Paid Courses
 - Jose Portilla, Udemy, 25h [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
+- https://www.udemy.com/course/datascience
 
+# Free interactive learning websites
 - Learnpython [Learnpython.org](https://www.learnpython.org/)
 - W3 Schools [SQL](https://www.w3schools.com/sql/)
