@@ -26,6 +26,8 @@ Collection of useful Datascience things across the web
 - [Bayesian Methods for Hackers](https://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838)
 - [Naked Statistics: Stripping the Dread from the Data](https://www.amazon.com/Naked-Statistics-Stripping-Dread-Data-ebook/dp/B007Q6XLF2)
 - [How to lie with statistics](https://www.amazon.com/How-Lie-Statistics-Darrell-Huff-ebook-dp-B00351DSX2/dp/B00351DSX2)
+- [An Introduction to Statistical Learning: with Applications in R](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370)
+- [Naked Statistics: Stripping the Dread from the Data](https://www.amazon.com/Naked-Statistics-Stripping-Dread-Data/dp/039334777X/)
 
 ### Data Visualization
 - [Effective Data Visualization: The Right Chart for the Right Data](https://www.amazon.com/Effective-Data-Visualization-Right-Chart/dp/1544350880)
@@ -37,13 +39,18 @@ Collection of useful Datascience things across the web
 - [The Art of Data Science](https://www.amazon.com/Art-Data-Science-Roger-Peng/dp/1365061469)
 - [Python: Data Analytics and Visualization](https://www.amazon.com/Python-Analytics-Visualization-Phuong-Vo-T-H/dp/1788290097)
 
-
-### Python
+### Data Science in general
 - [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057)
+- [Big Data Science & Analytics: A Hands-On Approach](https://www.amazon.com/Big-Data-Science-Analytics-Hands/dp/0996025537)
+- [Data Science from Scratch: First Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/1492041130)
+- [Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are](https://www.amazon.com/Everybody-Lies-Internet-About-Really-ebook/dp/B01AFXZ2F4)
 
 ### Machine Learning
 - [Deep Learning (Adaptive Computation and Machine Learning series)](https://www.amazon.com/Deep-Learning-NONE-Ian-Goodfellow-ebook/dp/B01MRVFGX4)
+- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/)
 
+### Data Architecture
+- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 # Libraries
 ## Python
