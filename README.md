@@ -75,3 +75,13 @@ Collection of useful Datascience things across the web
 - Klipfolio
 - Geckoboard
 - Google Data Studio
+- Sisense
+- Looker
+- Canopy.cloud
+- KNIME
+- Knowage
+- Microsoft R Open
+- Orange3
+- RanalyticFlow
+- Rapidminer Studio
+- RStudio
