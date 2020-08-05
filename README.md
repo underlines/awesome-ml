@@ -57,6 +57,21 @@ Collection of useful Datascience things across the web
 ### Visualization
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.
 
-
 ### Machine Learning
 - [MLBox](https://github.com/AxeldeRomblay/MLBox), powerful Automated Machine Learning python library
+
+# Software
+## ETL
+- Talend Open Studio
+- Tibco Jaspersoft ETL
+
+## BI/Analytics Suites
+- Tibco Spotfire Analytics
+- Power BI
+- Tableau
+- Pentaho
+- Panoply
+- QlikView
+- Klipfolio
+- Geckoboard
+- Google Data Studio
