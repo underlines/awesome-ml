@@ -59,12 +59,14 @@ Collection of useful Datascience things across the web
 
 ### Machine Learning
 - [MLBox](https://github.com/AxeldeRomblay/MLBox), powerful Automated Machine Learning python library
+- [PyCaret | open source low-code machine learning library in Python](https://github.com/pycaret/pycaret)
 
 # Software
 ## ETL
 - Talend Open Studio
 - Tibco Jaspersoft ETL
 - [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
+- [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
 
 ## BI/Analytics Suites
 - Tibco Spotfire Analytics
@@ -92,3 +94,5 @@ Collection of useful Datascience things across the web
 
 ## Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
+- [EventNative | open source, high-performance, event collection service](https://github.com/ksensehq/eventnative)
+- 
