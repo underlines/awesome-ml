@@ -64,6 +64,7 @@ Collection of useful Datascience things across the web
 ## ETL
 - Talend Open Studio
 - Tibco Jaspersoft ETL
+- [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
 
 ## BI/Analytics Suites
 - Tibco Spotfire Analytics
@@ -85,3 +86,6 @@ Collection of useful Datascience things across the web
 - RanalyticFlow
 - Rapidminer Studio
 - RStudio
+
+## Deployment Environments
+- [dstack - an open-source framework for building data science applications using Python and R](https://github.com/dstackai/dstack)
