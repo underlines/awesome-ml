@@ -62,11 +62,18 @@ Collection of useful Datascience things across the web
 - [PyCaret | open source low-code machine learning library in Python](https://github.com/pycaret/pycaret)
 
 # Software
-## ETL
+## Data Architecture
+- [Snowplow | Open enterprise-strength marketing and product analytics platform](https://github.com/snowplow/snowplow)
+
+### ETL
 - Talend Open Studio
 - Tibco Jaspersoft ETL
 - [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
 - [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
+### Datastores / Databases
+- [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
+- [EventNative | open source, high-performance, event collection service](https://github.com/ksensehq/eventnative)
+
 
 ## BI/Analytics Suites
 - Tibco Spotfire Analytics
@@ -93,7 +100,4 @@ Collection of useful Datascience things across the web
 ## Deployment Environments
 - [dstack - an open-source framework for building data science applications using Python and R](https://github.com/dstackai/dstack)
 
-## Datastores / Databases
-- [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
-- [EventNative | open source, high-performance, event collection service](https://github.com/ksensehq/eventnative)
-- 
+
