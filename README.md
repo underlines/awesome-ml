@@ -76,6 +76,7 @@ Collection of useful Datascience things across the web
 - Tibco Jaspersoft ETL
 - [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
 - [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
+
 ### Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
 - [EventNative | open source, high-performance, event collection service](https://github.com/ksensehq/eventnative)
@@ -87,22 +88,25 @@ Collection of useful Datascience things across the web
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
 - [Apache Oozie | Workflow scheduler to manage Hadoop jobs as Directed Acyclical Graphs in Java and XML](oozie.apache.org)
 
-## BI/Analytics Suites
-- Tibco Spotfire Analytics
-- Power BI
-- Tableau
-- Pentaho
-- Panoply
-- QlikView
-- Klipfolio
-- Geckoboard
-- Google Data Studio
-- Sisense
-- Looker
-- Canopy.cloud
-- KNIME
-- Knowage
-- Microsoft R Open
+## Product Analytics
+- [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
+
+## BI / Data Visualization / Reporting
+- [Tibco Spotfire Analytics | AI-powered, search-driven experience with built-in data wrangling and advanced analytics](https://www.tibco.com/products/tibco-spotfire)
+- [Power BI](https://powerbi.microsoft.com/en-us/)
+- [Tableau](https://www.tableau.com/)
+- [Pentaho Business Analytics](https://www.hitachivantara.com/en-us/products/data-management-analytics/pentaho-platform/pentaho-business-analytics.html)
+- [Panoply | Full service Analytics Stack](https://panoply.io/platform/)
+- [QlikSense | Assisted BI Analytics suite](https://www.qlik.com/us/products/qlik-sense)
+- [Klipfolio | metrics, meaningful dashboards, and actionable reports](https://www.klipfolio.com/)
+- [Geckoboard | Self service dashboards for various Data Sources](https://www.geckoboard.com/)
+- [Google Data Studio | Free dashboard and reporting service focused on marketing data sources](https://datastudio.google.com/)
+- [Sisense | BI Analytics suite](https://www.sisense.com/)
+- [Looker | BI Analytics suite](https://looker.com/)
+- [Canopy.cloud | Reporting and Analytics for Investors and Wealth managers](https://canopy.cloud/)
+- [KNIME Analytics | open source software for creating visual data science workflows](https://www.knime.com/knime-analytics-platform)
+- [Knowage | Open source BI and Analytics suite](https://www.knowage-suite.com/site/)
+- [Microsoft R Open | open source platform for statistical analysis and data science](https://mran.microsoft.com/open)
 - Orange3
 - RanalyticFlow
 - Rapidminer Studio
