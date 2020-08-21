@@ -91,6 +91,17 @@ Collection of useful Datascience things across the web
 ## Product Analytics
 - [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
 
+## Machine Learning IDEs
+- [KNIME Analytics | open source software for creating visual data science workflows](https://www.knime.com/knime-analytics-platform)
+- [Jupyter Hub / Lab / Notebooks | Open source single & multiuser IDE for data science and machine learning supporting Python and more](https://jupyter.org/)
+- [Knowage | Open source BI and Analytics suite](https://www.knowage-suite.com/site/)
+- [Microsoft R Open | open source platform for statistical analysis and data science](https://mran.microsoft.com/open)
+- [Orange3 | Open source machine learning and data visualization and visual data analysis workflows](https://orange.biolab.si/)
+- [RanalyticFlow | Open source data analysis software built on R, for interactive data analysis with or without R programming](https://r.analyticflow.com/en/)
+- [Rapidminer Studio | data science platform that unites data prep, machine learning & predictive model deployment](https://rapidminer.com/)
+- [RStudio | Desktop and cloud based single or collaborative IDE for R](https://rstudio.com/)
+
+
 ## BI / Data Visualization / Reporting
 - [Tibco Spotfire Analytics | AI-powered, search-driven experience with built-in data wrangling and advanced analytics](https://www.tibco.com/products/tibco-spotfire)
 - [Power BI](https://powerbi.microsoft.com/en-us/)
@@ -104,14 +115,7 @@ Collection of useful Datascience things across the web
 - [Sisense | BI Analytics suite](https://www.sisense.com/)
 - [Looker | BI Analytics suite](https://looker.com/)
 - [Canopy.cloud | Reporting and Analytics for Investors and Wealth managers](https://canopy.cloud/)
-- [KNIME Analytics | open source software for creating visual data science workflows](https://www.knime.com/knime-analytics-platform)
-- [Knowage | Open source BI and Analytics suite](https://www.knowage-suite.com/site/)
-- [Microsoft R Open | open source platform for statistical analysis and data science](https://mran.microsoft.com/open)
-- Orange3
-- RanalyticFlow
-- Rapidminer Studio
-- RStudio
-- Chartio
+- [Chartio | Dashboard and Reporting platform](https://chartio.com/)
 
 ## Deployment Environments
 - [dstack - an open-source framework for building data science applications using Python and R](https://github.com/dstackai/dstack)
