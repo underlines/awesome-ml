@@ -21,6 +21,9 @@ Collection of useful Datascience things across the web
 - Learnpython [Learnpython.org](https://www.learnpython.org/)
 - W3 Schools [SQL](https://www.w3schools.com/sql/)
 
+## Paid interactive learning websites
+- [Qwiklabs | Learn on cloud environments and instances of aws, google cloud](https://www.qwiklabs.com/)
+
 ## Books
 ### Statistics & Mathematics
 - [Bayesian Methods for Hackers](https://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838)
@@ -64,6 +67,9 @@ Collection of useful Datascience things across the web
 # Software
 ## Data Architecture
 - [Snowplow | Open enterprise-strength marketing and product analytics platform](https://github.com/snowplow/snowplow)
+- [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
+- [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
+- [Databricks | Cloud platform for data engineering and data science by the makers of Spark](https://databricks.com/)
 
 ### ETL
 - Talend Open Studio
@@ -74,6 +80,9 @@ Collection of useful Datascience things across the web
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
 - [EventNative | open source, high-performance, event collection service](https://github.com/ksensehq/eventnative)
 
+### Job Scheduling
+- [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
+- [Apache Oozie | Workflow scheduler to manage Hadoop jobs as Directed Acyclical Graphs in Java and XML](oozie.apache.org)
 
 ## BI/Analytics Suites
 - Tibco Spotfire Analytics
