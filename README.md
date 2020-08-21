@@ -21,12 +21,12 @@ Collection of useful Datascience things across the web
      - [Paid Courses](#paid-courses)
      - [Free interactive learning websites](#free-interactive-learning-websites)
      - [Paid interactive learning websites](#paid-interactive-learning-websites)
-  - [Books](#books)
-    - [Statistics & Mathematics](#statistics--mathematics)
-    - [Data Visualization](#data-visualization)
-    - [Data Science in general](#data-science-in-general)
-    - [Machine Learning](#machine-learning)
-    - [Data Architecture](#data-architecture)
+   - [Books](#books)
+     - [Statistics & Mathematics](#statistics--mathematics)
+     - [Data Visualization](#data-visualization)
+     - [Data Science in general](#data-science-in-general)
+     - [Machine Learning](#machine-learning)
+     - [Data Architecture](#data-architecture)
 
 # Software
 ## Data Architecture
