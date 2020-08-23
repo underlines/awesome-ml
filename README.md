@@ -90,8 +90,9 @@ Collection of useful Datascience things across the web
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.
 
 ### Machine Learning
-- [MLBox](https://github.com/AxeldeRomblay/MLBox), powerful Automated Machine Learning python library
+- [MLBox | powerful Automated Machine Learning python library](https://github.com/AxeldeRomblay/MLBox)
 - [PyCaret | open source low-code machine learning library in Python](https://github.com/pycaret/pycaret)
+- [PyTorch Lightning | open-source Python library as a high-level interface for PyTorch](https://github.com/PyTorchLightning/pytorch-lightning)
 
 
 # Learning
