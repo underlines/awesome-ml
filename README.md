@@ -15,6 +15,7 @@ Collection of useful Datascience things across the web
    - [Python](#python)
      - [Visualization](#visualization)
      - [Machine Learning](#machine-learning)
+     - [Digital Marketing](#digital-marketing)
  - [Learning](#learning)
    - [Courses](#courses)
      - [Free Courses](#free-courses)
