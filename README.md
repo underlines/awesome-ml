@@ -94,6 +94,18 @@ Collection of useful Datascience things across the web
 - [PyCaret | open source low-code machine learning library in Python](https://github.com/pycaret/pycaret)
 - [PyTorch Lightning | open-source Python library as a high-level interface for PyTorch](https://github.com/PyTorchLightning/pytorch-lightning)
 
+### Digital Marketing
+- [Google Ads Performance Pipeline | Data integration pipeline from GAds to PostgreSQL](https://github.com/mara/google-ads-performance-pipeline)
+- [Text-Mining-Search-Query | segements search terms to search words and summarizes performance metrics](https://github.com/RachelPengmkt/Text-Mining-Search-Query)
+- [CRMint | reliable data integration and processing for advertisers](https://github.com/google/crmint)
+- [Official Google Ads Python library | client library for Google Ads API](https://github.com/googleads/google-ads-python)
+- [Official Google Ads Python library | SOAP Ads APIs for AdWords and DoubleClick for Publishers](https://github.com/googleads/googleads-python-lib)
+- [GAQL CLI| Running GoogleAds queries](https://github.com/getyourguide/gaql-cli)
+- [advertools | SEM, SEO, Social productivity & analysis tools to scale your online marketing](https://github.com/eliasdabbas/advertools)
+- [pyaw-reporting | AdWords API large scale reporting tool written in Python](https://pypi.org/project/pyaw-reporting/)
+
+
+
 
 # Learning
 ## Courses
