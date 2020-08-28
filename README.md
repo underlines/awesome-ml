@@ -31,7 +31,6 @@ Collection of useful Datascience things across the web
 
 # Software
 ## Data Architecture
-- [Snowplow | Open enterprise-strength marketing and product analytics platform](https://github.com/snowplow/snowplow)
 - [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
 - [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark](https://databricks.com/)
@@ -55,6 +54,8 @@ Collection of useful Datascience things across the web
 
 ## Product Analytics
 - [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
+- [Amplitude | Digital product and user analytics platform](https://amplitude.com/)
+- [Snowplow | Open source Web, mobile and event analytics for AWS and GCP](https://github.com/snowplow/snowplow)
 
 ## Machine Learning IDEs
 - [KNIME Analytics | open source software for creating visual data science workflows](https://www.knime.com/knime-analytics-platform)
