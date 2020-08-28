@@ -34,6 +34,7 @@ Collection of useful Datascience things across the web
 - [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
 - [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark](https://databricks.com/)
+- [Segment | Customer Data Platform for Marketing, Product and Engineering Teams](https://segment.com/)
 
 ### ETL
 - Talend Open Studio
@@ -66,7 +67,6 @@ Collection of useful Datascience things across the web
 - [RanalyticFlow | Open source data analysis software built on R, for interactive data analysis with or without R programming](https://r.analyticflow.com/en/)
 - [Rapidminer Studio | data science platform that unites data prep, machine learning & predictive model deployment](https://rapidminer.com/)
 - [RStudio | Desktop and cloud based single or collaborative IDE for R](https://rstudio.com/)
-
 
 ## BI / Data Visualization / Reporting
 - [Tibco Spotfire Analytics | AI-powered, search-driven experience with built-in data wrangling and advanced analytics](https://www.tibco.com/products/tibco-spotfire)
