@@ -57,6 +57,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
 - [Amplitude | Digital product and user analytics platform](https://amplitude.com/)
 - [Snowplow | Open source Web, mobile and event analytics for AWS and GCP](https://github.com/snowplow/snowplow)
+- [RRWeb | Open source web session recorder & player for user behaviour analysis](https://github.com/rrweb-io/rrweb)
 
 ## Machine Learning IDEs
 - [KNIME Analytics | open source software for creating visual data science workflows](https://www.knime.com/knime-analytics-platform)
