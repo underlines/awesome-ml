@@ -1,5 +1,5 @@
-# awesome-datascience
-Collection of useful Datascience things across the web
+# awesome-datascience for Marketing & Advertisement
+Collection of all things "Data Science" leaning towards Marketing & Advertisement (Digital Marketers, Agencies, Web Designers and Web Analysts)
 
 # Table of Contents
 - [Software](#software)
