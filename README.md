@@ -36,11 +36,20 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark](https://databricks.com/)
 - [Segment | Customer Data Platform for Marketing, Product and Engineering Teams](https://segment.com/)
 
-### ETL
+### Classic ETL
 - Talend Open Studio
 - Tibco Jaspersoft ETL
 - [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
 - [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
+
+### Cloud ETL
+- [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
+- [Fivetran](https://fivetran.com/)
+- [Stitchdata](https://www.stitchdata.com/)
+- [Panoply](https://panoply.io/)
+- [Electrik.ai | Extract Raw hit level Google Anayltics data](https://electrik.ai/)
+- [OWOX | ETL specialized for Digital Marketing purposes](https://www.owox.com/)
+- [Scitylana | Extract Raw hit level Google Analytics data](https://www.scitylana.com/)
 
 ### Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
