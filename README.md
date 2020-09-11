@@ -5,6 +5,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Software](#software)
   - [Data Architecture](#data-architecture)
     - [ETL](#etl)
+    - [Cloud ETL](#cloud-etl)
     - [Datastores / Databases](#datastores--databases)
     - [Job Scheduling / Workflows](#job-scheduling--workflows--orchestration)
   - [Product Analytics](#product-analytics)
@@ -58,6 +59,9 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Redis | open source in-memory advanced key-value store used as a database, cache and message broker](https://redis.io/)
 - [Apache Kafka | Open-source distributed event streaming platform for high-performance data pipelines, streaming analytics, data integration](https://kafka.apache.org/)
 - [InfluxDB | open-source time series database](https://github.com/influxdata/influxdb)
+
+### Customer Data Platforms
+- 
 
 ### Job Scheduling / Workflows / Orchestration
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
