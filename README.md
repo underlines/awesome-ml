@@ -6,7 +6,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
   - [Data Architecture](#data-architecture)
     - [ETL](#etl)
     - [Datastores / Databases](#datastores--databases)
-    - [Job Scheduling / Workflows](#job-scheduling--workflows)
+    - [Job Scheduling / Workflows](#job-scheduling--workflows--orchestration)
   - [Product Analytics](#product-analytics)
   - [Machine Learning IDEs](#machine-learning-ides)
   - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
@@ -48,10 +48,12 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Ignite | open-source in-memory distributed database, caching, and processing platform for transactional, analytical, and streaming workloads ](https://ignite.apache.org/)
 - [Redis | open source in-memory advanced key-value store used as a database, cache and message broker](https://redis.io/)
 - [Apache Kafka | Open-source distributed event streaming platform for high-performance data pipelines, streaming analytics, data integration](https://kafka.apache.org/)
+- [InfluxDB | open-source time series database](https://github.com/influxdata/influxdb)
 
-### Job Scheduling / Workflows
+### Job Scheduling / Workflows / Orchestration
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
 - [Apache Oozie | Workflow scheduler to manage Hadoop jobs as Directed Acyclical Graphs in Java and XML](oozie.apache.org)
+- [Luigi | open-source pipeline and batch job management](https://github.com/spotify/luigi)
 
 ## Product Analytics
 - [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
