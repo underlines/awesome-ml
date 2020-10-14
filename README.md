@@ -112,6 +112,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [PyCaret | open source low-code machine learning library in Python](https://github.com/pycaret/pycaret)
 - [PyTorch Lightning | open-source Python library as a high-level interface for PyTorch](https://github.com/PyTorchLightning/pytorch-lightning)
 - [igel | machine learning tool to train/fit, test and use models without writing code](https://github.com/nidhaloff/igel)
+- [Ludwig | toolbox to train and evaluate deep learning models without writing code built on TensorFlow](https://github.com/uber/ludwig)
 
 ### Digital Marketing
 - [Google Ads Performance Pipeline | Data integration pipeline from GAds to PostgreSQL](https://github.com/mara/google-ads-performance-pipeline)
