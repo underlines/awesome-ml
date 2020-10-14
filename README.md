@@ -123,7 +123,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [advertools | SEM, SEO, Social productivity & analysis tools to scale your online marketing](https://github.com/eliasdabbas/advertools)
 - [pyaw-reporting | AdWords API large scale reporting tool written in Python](https://pypi.org/project/pyaw-reporting/)
 
-
+### Search
+- [Typesense | fast, small, typo-tolerant search engine, when Elasticsearch is too big](https://github.com/typesense/typesense)
+- [Elasticsearch | distributed RESTful search engine built for the cloud](https://github.com/elastic/elasticsearch)
+- [Lucene Solr | enterprise search platform written in Java and using Apache Lucene](https://github.com/apache/lucene-solr)
 
 
 # Learning
