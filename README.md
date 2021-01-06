@@ -35,7 +35,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
 - [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark (Community Edition available)](https://databricks.com/)
-- [Segment | Customer Data Platform for Marketing, Product and Engineering Teams](https://segment.com/)
+
 
 ### Classic ETL
 - Talend Open Studio
@@ -63,7 +63,16 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [InfluxDB | open-source time series database](https://github.com/influxdata/influxdb)
 
 ### Customer Data Platforms
-- 
+- [Segment | Marketing CDP](https://segment.com/)
+- [Ascent360 | Full-stack CEP/CDP](https://www.ascent360.com/)
+- [SAP Emarsys | Full-stack CDP](https://emarsys.com/)
+- [Firsthive | Marketing CDP to take control of first-party data from online and offline, and enable personalized campaigns](https://firsthive.com/)
+- [Dynamics 365 Customer Insights | Full-stack CDP ](https://dynamics.microsoft.com/en-us/ai/customer-insights/)
+- [Piwik.pro | Marketing CDP](https://piwik.pro/customer-data-platform/)
+- [Salesforce Customer Interaction | Full-stack CDP](https://www.salesforce.com/products/marketing-cloud/customer-interaction/)
+- [Tealium Audience Stream | Marketing CDP](https://tealium.com/products/audiencestream/)
+- [Treasuredata | Full-stack CDP](https://www.treasuredata.com/)
+- [Full-stack & Marketing CDP](https://blueshift.com/)
 
 ### Job Scheduling / Workflows / Orchestration / Transformation
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
