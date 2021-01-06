@@ -34,7 +34,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 ## Data Architecture
 - [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
 - [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
-- [Databricks | Cloud platform for data engineering and data science by the makers of Spark](https://databricks.com/)
+- [Databricks | Cloud platform for data engineering and data science by the makers of Spark (Community Edition available)](https://databricks.com/)
 - [Segment | Customer Data Platform for Marketing, Product and Engineering Teams](https://segment.com/)
 
 ### Classic ETL
@@ -42,6 +42,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - Tibco Jaspersoft ETL
 - [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
 - [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
+- [DBT | Open-source tool to organize, cleanse, denormalize, filter, rename, and pre-aggregate raw data in warehouse for analysis.](https://github.com/fishtown-analytics/dbt)
 
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
@@ -51,6 +52,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Electrik.ai | Extract Raw hit level Google Anayltics data](https://electrik.ai/)
 - [OWOX | ETL specialized for Digital Marketing purposes](https://www.owox.com/)
 - [Scitylana | Extract Raw hit level Google Analytics data](https://www.scitylana.com/)
+- [Matillion |](https://www.matillion.com/)
 
 ### Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
@@ -63,7 +65,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 ### Customer Data Platforms
 - 
 
-### Job Scheduling / Workflows / Orchestration
+### Job Scheduling / Workflows / Orchestration / Transformation
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
 - [Apache Oozie | Workflow scheduler to manage Hadoop jobs as Directed Acyclical Graphs in Java and XML](oozie.apache.org)
 - [Luigi | open-source pipeline and batch job management](https://github.com/spotify/luigi)
