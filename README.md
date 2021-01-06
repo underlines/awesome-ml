@@ -74,7 +74,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Salesforce Customer Interaction | Full-stack CDP](https://www.salesforce.com/products/marketing-cloud/customer-interaction/)
 - [Tealium Audience Stream | Marketing CDP](https://tealium.com/products/audiencestream/)
 - [Treasuredata | Full-stack CDP](https://www.treasuredata.com/)
-- [Full-stack & Marketing CDP](https://blueshift.com/)
+- [Blueshift | Full-stack & Marketing CDP](https://blueshift.com/)
 - [Exponea | Marketing CDP](https://exponea.com/)
 
 ### Job Scheduling / Workflows / Orchestration / Transformation
