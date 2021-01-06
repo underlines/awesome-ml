@@ -52,7 +52,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Electrik.ai | Extract Raw hit level Google Anayltics data](https://electrik.ai/)
 - [OWOX | ETL specialized for Digital Marketing purposes](https://www.owox.com/)
 - [Scitylana | Extract Raw hit level Google Analytics data](https://www.scitylana.com/)
-- [Matillion |](https://www.matillion.com/)
+- [Matillion | ETL & Transformation](https://www.matillion.com/)
+- [funnel.io | Marketing Data Extraction](https://funnel.io/)
 
 ### Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
@@ -73,6 +74,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Tealium Audience Stream | Marketing CDP](https://tealium.com/products/audiencestream/)
 - [Treasuredata | Full-stack CDP](https://www.treasuredata.com/)
 - [Full-stack & Marketing CDP](https://blueshift.com/)
+- [Exponea | Marketing CDP](https://exponea.com/)
 
 ### Job Scheduling / Workflows / Orchestration / Transformation
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
