@@ -4,7 +4,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 # Table of Contents
 - [Software](#software)
   - [Data Architecture](#data-architecture)
-    - [ETL](#etl)
+    - [Classic ETL](#classic-etl)
     - [Cloud ETL](#cloud-etl)
     - [Datastores / Databases](#datastores--databases)
     - [Customer Data Platforms](#customer-data-platforms)
@@ -44,6 +44,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Halzelcast Jet-start.sh - Distributed Streaming](https://jet-start.sh/)
 - [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
 - [DBT | Open-source tool to organize, cleanse, denormalize, filter, rename, and pre-aggregate raw data in warehouse for analysis.](https://github.com/fishtown-analytics/dbt)
+- [AirByte | Open-source ELT solution for simple data integration, owned by you](https://github.com/airbytehq/airbyte)
 
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
