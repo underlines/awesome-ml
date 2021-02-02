@@ -12,6 +12,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
   - [Product Analytics](#product-analytics)
   - [Machine Learning IDEs](#machine-learning-ides)
   - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
+  - [SaaS Marketing Reporting Solutions](#SaaS-Marketing-Reporting-Solutions)
   - [Deployment Environments](#deployment-environments)
  - [Libraries](#libraries)
    - [Python](#python)
@@ -113,6 +114,20 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Looker | BI Analytics suite](https://looker.com/)
 - [Canopy.cloud | Reporting and Analytics for Investors and Wealth managers](https://canopy.cloud/)
 - [Chartio | Dashboard and Reporting platform](https://chartio.com/)
+- [Cyfe](https://www.cyfe.com/)
+
+## SaaS Marketing Reporting Solutions
+- [AgencyAnalytics](https://agencyanalytics.com/)
+- [WhatGraph](https://whatagraph.com/)
+- [Reportz.io](https://reportz.io/)
+- [Swydo](https://www.swydo.com/)
+- [Megalytic](https://www.megalytic.com/)
+- [Octoboard](https://www.octoboard.com/)
+- [ReportingNinja](http://www.reportingninja.com/)
+- [SuperDash](https://www.superdash.com/)
+- [ReportGarden](https://reportgarden.com/)
+- [DashThis](https://dashthis.com/)
+
 
 ## Deployment Environments
 - [dstack - an open-source framework for building data science applications using Python and R](https://github.com/dstackai/dstack)
