@@ -99,6 +99,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Google Analytics 4 | Cookie & Cookie-less App & Web Analytics platform with flexible event model and tight Google Marketing Cloud integration](https://searchengineland.com/google-analytics-4-adds-new-integrations-with-ads-ai-powered-insights-and-predictions-342048)
 - [Cloudflare Web Analytics | Free cookie-less privacy respecting Google Analytics alternative](https://www.cloudflare.com/web-analytics/)
 - [Panelbear | Paid Cookie-less Google Analytics alternative](https://panelbear.com/)
+- [Open Web Analytics | Open-source Google Analytics alternative](https://github.com/Open-Web-Analytics/Open-Web-Analytics)
+- [GoAccess | Open-source realtime web-log analytics for terminal and web](https://goaccess.io/)
+- [Matomo | (Formerly Piwik) Open-source Google Analytics alternative](https://matomo.org/)
+- [Analytics | Lightweight Open-source abstraction layer for web analytics and marketing tracking](https://github.com/DavidWells/analytics)
 
 
 
