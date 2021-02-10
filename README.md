@@ -153,6 +153,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 
 ## Deployment Environments
 - [dstack - an open-source framework for building data science applications using Python and R](https://github.com/dstackai/dstack)
+- [Analytics Zoo | Unified Data Analytics and AI stack with TensorFlow, Keras and Pytorch and seamless deployment](https://github.com/intel-analytics/analytics-zoo)
 
 # Libraries
 ## Python
