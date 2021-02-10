@@ -103,7 +103,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [GoAccess | Open-source realtime web-log analytics for terminal and web](https://goaccess.io/)
 - [Matomo | (Formerly Piwik) Open-source Google Analytics alternative](https://matomo.org/)
 - [Analytics | Lightweight Open-source abstraction layer for web analytics and marketing tracking](https://github.com/DavidWells/analytics)
-
+- [Umami | Open-source, light weight Google Analytics alternative](https://github.com/mikecao/umami)
 
 
 ## Machine Learning IDEs
@@ -131,6 +131,12 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Canopy.cloud | Reporting and Analytics for Investors and Wealth managers](https://canopy.cloud/)
 - [Chartio | Dashboard and Reporting platform](https://chartio.com/)
 - [Cyfe](https://www.cyfe.com/)
+- [Metabase | Open-source data query and visualization for non-tech people](https://github.com/metabase/metabase)
+- [Redash | Open-source data query and visualization for non-tech people](https://github.com/getredash/redash)
+- [Looker | Google acquired data visualization](https://looker.com)
+- [Apache Grafana | Open-source data visualization and monitoring](https://github.com/grafana/grafana)
+- [Apache Superset | Open-source enterprise grade web based BI solution](https://github.com/apache/superset)
+
 
 ## SaaS Marketing Reporting Solutions
 - [AgencyAnalytics](https://agencyanalytics.com/)
