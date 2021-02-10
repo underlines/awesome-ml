@@ -243,8 +243,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 
 # Other Resources
-https://github.com/onurakpolat/awesome-analytics
-https://github.com/onurakpolat/awesome-bigdata
-https://github.com/academic/awesome-datascience
-https://github.com/fasouto/awesome-dataviz
-https://github.com/thenaturalist/awesome-business-intelligence
+- https://github.com/onurakpolat/awesome-analytics
+- https://github.com/onurakpolat/awesome-bigdata
+- https://github.com/academic/awesome-datascience
+- https://github.com/fasouto/awesome-dataviz
+- https://github.com/thenaturalist/awesome-business-intelligence
