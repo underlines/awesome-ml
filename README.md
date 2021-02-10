@@ -1,4 +1,4 @@
-# awesome-datascience for Marketing & Advertisement
+# awesome-datascience Collection for Marketing & Advertisement
 Collection of all things "Data Science" leaning towards Marketing & Advertisement (Digital Marketers, Agencies, Web Designers and Web Analysts)
 
 # Table of Contents
@@ -9,7 +9,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
     - [Datastores / Databases](#datastores--databases)
     - [Customer Data Platforms](#customer-data-platforms)
     - [Job Scheduling / Workflows / Orchestration / Transformation](#job-scheduling--workflows--orchestration--transformation)
-  - [Product Analytics](#product-analytics)
+  - [Web Analytics / App Analytics](#web-analytics--app-analytics)
   - [Machine Learning IDEs](#machine-learning-ides)
   - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
   - [SaaS Marketing Reporting Solutions](#SaaS-Marketing-Reporting-Solutions)
@@ -65,6 +65,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Redis | open source in-memory advanced key-value store used as a database, cache and message broker](https://redis.io/)
 - [Apache Kafka | Open-source distributed event streaming platform for high-performance data pipelines, streaming analytics, data integration](https://kafka.apache.org/)
 - [InfluxDB | open-source time series database](https://github.com/influxdata/influxdb)
+- [ClickHouse | open-source column oriented OLAP DBMS for realtime querying in SQL](https://github.com/ClickHouse/ClickHouse)
+
 
 ### Customer Data Platforms
 - [Segment | Marketing CDP](https://segment.com/)
@@ -84,11 +86,21 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Oozie | Workflow scheduler to manage Hadoop jobs as Directed Acyclical Graphs in Java and XML](oozie.apache.org)
 - [Luigi | open-source pipeline and batch job management](https://github.com/spotify/luigi)
 
-## Product Analytics
+## Web Analytics / App Analytics
 - [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
 - [Amplitude | Digital product and user analytics platform](https://amplitude.com/)
 - [Snowplow | Open source Web, mobile and event analytics for AWS and GCP](https://github.com/snowplow/snowplow)
 - [RRWeb | Open source web session recorder & player for user behaviour analysis](https://github.com/rrweb-io/rrweb)
+- [Plausible Analytics | Open-source lightweight, privacy respecting cookie-less Google Analytics alternative](https://github.com/plausible/analytics)
+- [Simple Analytics | Paid cookie-less, privacy respecting Google Analytics alternative](https://simpleanalytics.com/)
+- [Fathom Lite | Open-source self hosted Google Analytics alternative](https://github.com/usefathom/fathom)
+- [Shynet | Open-source cookie-less Google Analytics alternative](https://github.com/milesmcc/shynet)
+- [Friendly Analytics | Paid privacy respecting Matomo/Piwik fork](https://friendly.is/en/analytics)
+- [Google Analytics 4 | Cookie & Cookie-less App & Web Analytics platform with flexible event model and tight Google Marketing Cloud integration](https://searchengineland.com/google-analytics-4-adds-new-integrations-with-ads-ai-powered-insights-and-predictions-342048)
+- [Cloudflare Web Analytics | Free cookie-less privacy respecting Google Analytics alternative](https://www.cloudflare.com/web-analytics/)
+- [Panelbear | Paid Cookie-less Google Analytics alternative](https://panelbear.com/)
+
+
 
 ## Machine Learning IDEs
 - [KNIME Analytics | open source software for creating visual data science workflows](https://www.knime.com/knime-analytics-platform)
