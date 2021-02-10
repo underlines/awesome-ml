@@ -2,18 +2,18 @@
 Collection of all things "Data Science" leaning towards Marketing & Advertisement (Digital Marketers, Agencies, Web Designers and Web Analysts)
 
 # Table of Contents
-- [Software](#software)
-  - [Data Architecture](#data-architecture)
-    - [Classic ETL](#classic-etl)
-    - [Cloud ETL](#cloud-etl)
-    - [Datastores / Databases](#datastores--databases)
-    - [Customer Data Platforms](#customer-data-platforms)
-    - [Job Scheduling / Workflows / Orchestration / Transformation](#job-scheduling--workflows--orchestration--transformation)
-  - [Web Analytics / App Analytics](#web-analytics--app-analytics)
-  - [Machine Learning IDEs](#machine-learning-ides)
-  - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
-  - [SaaS Marketing Reporting Solutions](#SaaS-Marketing-Reporting-Solutions)
-  - [Deployment Environments](#deployment-environments)
+ - [Software](#software)
+   - [Data Architecture](#data-architecture)
+     - [Classic ETL](#classic-etl)
+     - [Cloud ETL](#cloud-etl)
+     - [Datastores / Databases](#datastores--databases)
+     - [Customer Data Platforms](#customer-data-platforms)
+     - [Job Scheduling / Workflows / Orchestration / Transformation](#job-scheduling--workflows--orchestration--transformation)
+   - [Web Analytics / App Analytics](#web-analytics--app-analytics)
+   - [Machine Learning IDEs](#machine-learning-ides)
+   - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
+   - [SaaS Marketing Reporting Solutions](#SaaS-Marketing-Reporting-Solutions)
+   - [Deployment Environments](#deployment-environments)
  - [Libraries](#libraries)
    - [Python](#python)
      - [Visualization](#visualization)
@@ -31,6 +31,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
      - [Data Science in general](#data-science-in-general)
      - [Machine Learning](#machine-learning)
      - [Data Architecture](#data-architecture)
+   - [Other Resources](#other-resources)
 
 # Software
 ## Data Architecture
@@ -80,6 +81,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Treasuredata | Full-stack CDP](https://www.treasuredata.com/)
 - [Blueshift | Full-stack & Marketing CDP](https://blueshift.com/)
 - [Exponea | Marketing CDP](https://exponea.com/)
+- [Rudderstack | Paid Customer Data Pipeline for Event streaming, Warehouse sync and ETL, open-source community edition available](https://rudderstack.com/)
 
 ### Job Scheduling / Workflows / Orchestration / Transformation
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
@@ -104,6 +106,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Matomo | (Formerly Piwik) Open-source Google Analytics alternative](https://matomo.org/)
 - [Analytics | Lightweight Open-source abstraction layer for web analytics and marketing tracking](https://github.com/DavidWells/analytics)
 - [Umami | Open-source, light weight Google Analytics alternative](https://github.com/mikecao/umami)
+- [Google Analytics Beacon | A proxy for Universal Analytics allows to track via image pixel, when no javascript is allowed](https://github.com/igrigorik/ga-beacon)
 
 
 ## Machine Learning IDEs
@@ -238,3 +241,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 
 ### Data Architecture
 - [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+
+# Other Resources
+https://github.com/onurakpolat/awesome-analytics
+https://github.com/onurakpolat/awesome-bigdata
+https://github.com/academic/awesome-datascience
+https://github.com/fasouto/awesome-dataviz
+https://github.com/thenaturalist/awesome-business-intelligence
