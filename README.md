@@ -224,6 +224,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures](https://www.amazon.com/Fundamentals-Data-Visualization-Informative-Compelling/dp/1492031089)
 - [The Art of Data Science](https://www.amazon.com/Art-Data-Science-Roger-Peng/dp/1365061469)
 - [Python: Data Analytics and Visualization](https://www.amazon.com/Python-Analytics-Visualization-Phuong-Vo-T-H/dp/1788290097)
+- [Dash for Python | Build web analytics application in Python in a few hours](https://dash-docs.herokuapp.com/introduction)
 
 ### Data Science in general
 - [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057)
