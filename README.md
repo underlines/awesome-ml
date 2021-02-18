@@ -58,6 +58,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Scitylana | Extract Raw hit level Google Analytics data](https://www.scitylana.com/)
 - [Matillion | ETL & Transformation](https://www.matillion.com/)
 - [funnel.io | Marketing Data Extraction](https://funnel.io/)
+- [Adverity | Marketing Data Integration, Reporting and Analytics](https://www.adverity.com/)
 
 ### Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
