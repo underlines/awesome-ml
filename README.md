@@ -108,6 +108,9 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Analytics | Lightweight Open-source abstraction layer for web analytics and marketing tracking](https://github.com/DavidWells/analytics)
 - [Umami | Open-source, light weight Google Analytics alternative](https://github.com/mikecao/umami)
 - [Google Analytics Beacon | A proxy for Universal Analytics allows to track via image pixel, when no javascript is allowed](https://github.com/igrigorik/ga-beacon)
+- [Getinsights | Privacy-focused, cookie free analytics, free for up to 5k events/month.](https://getinsights.io/)
+- [Keen.io | Managed Event Streaming Platform, built on Kafka, Storm, and Cassandra](https://keen.io/)
+- [Quantcast Analytics | Audience Analytics with 3rd party data exchange](https://www.quantcast.com/products/measure-audience-insights/)
 
 
 ## Machine Learning IDEs
