@@ -48,6 +48,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [DBT | Open-source tool to organize, cleanse, denormalize, filter, rename, and pre-aggregate raw data in warehouse for analysis.](https://github.com/fishtown-analytics/dbt)
 - [AirByte | Open-source ELT solution for simple data integration, owned by you](https://github.com/airbytehq/airbyte)
 
+### Metadata
+- [Metacat | Open-source Metadata management for Hive, RDS, Teradata, Redshift, S3 and Cassandra](https://github.com/Netflix/metacat)
+- [Amundsen Frontend Service | Open-source Metadata indexing for tables, dashboards, streams, etc. with page-rank style search](https://github.com/amundsen-io/amundsenfrontendlibrary)
+
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
 - [Fivetran](https://fivetran.com/)
