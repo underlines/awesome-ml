@@ -6,6 +6,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
    - [Data Architecture](#data-architecture)
      - [Classic ETL](#classic-etl)
      - [Cloud ETL](#cloud-etl)
+     - [Metadata](#metadata)
      - [Datastores / Databases](#datastores--databases)
      - [Customer Data Platforms](#customer-data-platforms)
      - [Job Scheduling / Workflows / Orchestration / Transformation](#job-scheduling--workflows--orchestration--transformation)
@@ -48,10 +49,6 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [DBT | Open-source tool to organize, cleanse, denormalize, filter, rename, and pre-aggregate raw data in warehouse for analysis.](https://github.com/fishtown-analytics/dbt)
 - [AirByte | Open-source ELT solution for simple data integration, owned by you](https://github.com/airbytehq/airbyte)
 
-### Metadata
-- [Metacat | Open-source Metadata management for Hive, RDS, Teradata, Redshift, S3 and Cassandra](https://github.com/Netflix/metacat)
-- [Amundsen Frontend Service | Open-source Metadata indexing for tables, dashboards, streams, etc. with page-rank style search](https://github.com/amundsen-io/amundsenfrontendlibrary)
-
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
 - [Fivetran](https://fivetran.com/)
@@ -63,6 +60,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Matillion | ETL & Transformation](https://www.matillion.com/)
 - [funnel.io | Marketing Data Extraction](https://funnel.io/)
 - [Adverity | Marketing Data Integration, Reporting and Analytics](https://www.adverity.com/)
+
+### Metadata
+- [Metacat | Open-source Metadata management for Hive, RDS, Teradata, Redshift, S3 and Cassandra](https://github.com/Netflix/metacat)
+- [Amundsen Frontend Service | Open-source Metadata indexing for tables, dashboards, streams, etc. with page-rank style search](https://github.com/amundsen-io/amundsenfrontendlibrary)
 
 ### Datastores / Databases
 - [TimescaleDB | open-source database for scalable SQL time-series based on PostgreSQL](https://github.com/timescale/timescaledb)
