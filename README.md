@@ -39,6 +39,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
 - [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark (Community Edition available)](https://databricks.com/)
+- [Arc | Opensource Databricks alternative](https://arc.tripl.ai/)
 - [Supabase | open source Firebase alternative](https://github.com/supabase/supabase)
 
 
