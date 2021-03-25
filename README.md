@@ -39,7 +39,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Snowflake | Cloud Data Platform](https://www.snowflake.com/)
 - [Spark | Distributed data processing framework for ML, analytics and more](https://spark.apache.org/)
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark (Community Edition available)](https://databricks.com/)
-- [Arc | Opensource Databricks alternative](https://arc.tripl.ai/)
+- [Arc | Open-source Databricks alternative](https://arc.tripl.ai/)
 - [Supabase | open source Firebase alternative](https://github.com/supabase/supabase)
 
 
@@ -181,6 +181,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [igel | machine learning tool to train/fit, test and use models without writing code](https://github.com/nidhaloff/igel)
 - [Ludwig | toolbox to train and evaluate deep learning models without writing code built on TensorFlow](https://github.com/uber/ludwig)
 - [fast.ai | training fast and accurate neural nets using modern best practices](https://github.com/fastai/fastai)
+- [Apache Arrow | Open-source cross-language development platform for in-memory analytics](https://arrow.apache.org/)
 
 ### Digital Marketing
 - [Google Ads Performance Pipeline | Data integration pipeline from GAds to PostgreSQL](https://github.com/mara/google-ads-performance-pipeline)
