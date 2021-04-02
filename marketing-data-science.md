@@ -118,6 +118,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Getinsights | Privacy-focused, cookie free analytics, free for up to 5k events/month.](https://getinsights.io/)
 - [Keen.io | Managed Event Streaming Platform, built on Kafka, Storm, and Cassandra](https://keen.io/)
 - [Quantcast Analytics | Audience Analytics with 3rd party data exchange](https://www.quantcast.com/products/measure-audience-insights/)
+- [Engauge | Open-source single binary app and web analytics with minimal requirements](https://github.com/EngaugeAI/engauge)
 
 
 ## Machine Learning IDEs
