@@ -75,6 +75,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Kafka | Open-source distributed event streaming platform for high-performance data pipelines, streaming analytics, data integration](https://kafka.apache.org/)
 - [InfluxDB | open-source time series database](https://github.com/influxdata/influxdb)
 - [ClickHouse | open-source column oriented OLAP DBMS for realtime querying in SQL](https://github.com/ClickHouse/ClickHouse)
+- [RQLite | open-source Lightweight, distributed SQLite database handling leader elections, tolerates failures of machines, including leader available for Linux, macOS, and Microsoft Windows](https://github.com/rqlite/rqlite)
 
 
 ### Customer Data Platforms
