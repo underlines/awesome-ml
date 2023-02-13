@@ -1,4 +1,6 @@
-# awesome-datascience Collection for Marketing & Advertisement
+
+# awesome-datascience
+
 Collection of all things "Data Science" leaning towards Marketing & Advertisement (Digital Marketers, Agencies, Web Designers and Web Analysts)
 
 # Table of Contents
@@ -184,6 +186,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Ludwig | toolbox to train and evaluate deep learning models without writing code built on TensorFlow](https://github.com/uber/ludwig)
 - [fast.ai | training fast and accurate neural nets using modern best practices](https://github.com/fastai/fastai)
 - [Apache Arrow | Open-source cross-language development platform for in-memory analytics](https://arrow.apache.org/)
+- [auto-sklearn](https://github.com/automl/auto-sklearn) | Automated Machine Learning for Python
 
 ### Digital Marketing
 - [Google Ads Performance Pipeline | Data integration pipeline from GAds to PostgreSQL](https://github.com/mara/google-ads-performance-pipeline)
