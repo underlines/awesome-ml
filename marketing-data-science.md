@@ -52,6 +52,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Mode | Interactive data science meets modern BI for fast, exploratory analysis company-wide](https://mode.com/)
 - [DBT | Open-source tool to organize, cleanse, denormalize, filter, rename, and pre-aggregate raw data in warehouse for analysis.](https://github.com/fishtown-analytics/dbt)
 - [AirByte | Open-source ELT solution for simple data integration, owned by you](https://github.com/airbytehq/airbyte)
+- [PRQL | a modern language for transforming data — a simple, powerful, pipelined SQL replacement](https://prql-lang.org/)
 
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
@@ -78,6 +79,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [InfluxDB | open-source time series database](https://github.com/influxdata/influxdb)
 - [ClickHouse | open-source column oriented OLAP DBMS for realtime querying in SQL](https://github.com/ClickHouse/ClickHouse)
 - [RQLite | open-source Lightweight, distributed SQLite database handling leader elections, tolerates failures of machines, including leader available for Linux, macOS, and Microsoft Windows](https://github.com/rqlite/rqlite)
+
 
 
 ### Customer Data Platforms
