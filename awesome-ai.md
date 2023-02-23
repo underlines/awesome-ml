@@ -46,13 +46,13 @@
 - 
 
 # Optimization
-## Distributed Inference
+## Inference
 - https://github.com/bigscience-workshop/petals
 - https://github.com/chavinlo/distributed-diffusion
 - https://github.com/VoltaML/voltaML-fast-stable-diffusion
-- 
+- https://github.com/FMInference/FlexGen
 
-## Distributed Training
+## Training
 - https://github.com/learning-at-home/hivemind
 
 ## Other Optimization
