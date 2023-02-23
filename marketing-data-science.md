@@ -102,6 +102,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Airflow | Workflow scheduler using Directed Acyclical Graphs in Python](https://airflow.apache.org/)
 - [Apache Oozie | Workflow scheduler to manage Hadoop jobs as Directed Acyclical Graphs in Java and XML](oozie.apache.org)
 - [Luigi | open-source pipeline and batch job management](https://github.com/spotify/luigi)
+- [ActivePieces | Open Source Zapier alternative for business automation](https://github.com/activepieces/activepieces)
 
 ## Web Analytics / App Analytics
 - [Mixpanel | self-serve product analytics to help you convert, engage, and retain more users](https://mixpanel.com/home/)
