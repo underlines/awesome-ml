@@ -53,6 +53,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [DBT | Open-source tool to organize, cleanse, denormalize, filter, rename, and pre-aggregate raw data in warehouse for analysis.](https://github.com/fishtown-analytics/dbt)
 - [AirByte | Open-source ELT solution for simple data integration, owned by you](https://github.com/airbytehq/airbyte)
 - [PRQL | a modern language for transforming data — a simple, powerful, pipelined SQL replacement](https://prql-lang.org/)
+- [YoBulk | Opensource CSV importer powered by GPT3, flatfile alternative](https://github.com/yobulkdev/yobulkdev)
+- 
 
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
@@ -179,6 +181,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 ## Python
 ### Visualization
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.
+- [PyGWalker | TUrn pandas dataframe into Tableau-style UI for Data Analysis](https://github.com?Kanaries/pygwalker)
 
 ### Machine Learning
 - [MLBox | powerful Automated Machine Learning python library](https://github.com/AxeldeRomblay/MLBox)
