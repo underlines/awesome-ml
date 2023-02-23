@@ -10,7 +10,7 @@
 ## Wrappers & GUIs
 - https://github.com/brycedrennan/imaginAIry/blob/master/README.md
 - https://github.com/invoke-ai/InvokeAI
-- 
+- https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
