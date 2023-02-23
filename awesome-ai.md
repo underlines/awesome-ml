@@ -45,6 +45,9 @@
 - https://github.com/openai/whisper
 - 
 
+# AI DevOps
+- https://www.steamship.com/
+
 # Optimization
 ## Inference
 - https://github.com/bigscience-workshop/petals
