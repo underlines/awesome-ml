@@ -67,6 +67,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Matillion | ETL & Transformation](https://www.matillion.com/)
 - [funnel.io | Marketing Data Extraction](https://funnel.io/)
 - [Adverity | Marketing Data Integration, Reporting and Analytics](https://www.adverity.com/)
+- [Singer | Open Source Data Integration](https://github.com/singer-io)
 
 ### Metadata
 - [Metacat | Open-source Metadata management for Hive, RDS, Teradata, Redshift, S3 and Cassandra](https://github.com/Netflix/metacat)
