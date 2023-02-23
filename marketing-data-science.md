@@ -211,6 +211,9 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Elasticsearch | distributed RESTful search engine built for the cloud](https://github.com/elastic/elasticsearch)
 - [Lucene Solr | enterprise search platform written in Java and using Apache Lucene](https://github.com/apache/lucene-solr)
 
+### Query Engine
+- [Trustfall | Query almost any data source as if it's SQL](https://github.com/obi1kenobi/trustfall)
+
 
 # Learning
 ## Courses
