@@ -54,6 +54,7 @@
 - https://github.com/chavinlo/distributed-diffusion
 - https://github.com/VoltaML/voltaML-fast-stable-diffusion
 - https://github.com/FMInference/FlexGen
+- https://github.com/alpa-projects/alpa
 
 ## Training
 - https://github.com/learning-at-home/hivemind
