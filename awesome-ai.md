@@ -55,6 +55,7 @@
 - https://github.com/VoltaML/voltaML-fast-stable-diffusion
 - https://github.com/FMInference/FlexGen
 - https://github.com/alpa-projects/alpa
+- https://github.com/kir-gadjello/zipslicer
 
 ## Training
 - https://github.com/learning-at-home/hivemind
