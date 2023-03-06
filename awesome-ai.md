@@ -1,6 +1,7 @@
 # Large Language Models
 - https://github.com/borzunov/chat.petals.ml / http://chat.petals.ml/
 - https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io
+- https://github.com/oobabooga/text-generation-webui
 
 # Image Generation
 
