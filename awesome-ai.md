@@ -57,6 +57,7 @@
 - https://github.com/alpa-projects/alpa
 - https://github.com/kir-gadjello/zipslicer
 - https://github.com/modular-ml/wrapyfi-examples_llama
+- https://github.com/tloen/llama-int8
 
 ## Training
 - https://github.com/learning-at-home/hivemind
