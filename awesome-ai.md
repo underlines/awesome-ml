@@ -3,6 +3,10 @@
 - https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io
 - https://github.com/oobabooga/text-generation-webui ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 
+## Model research & comparisons
+- [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
+
+
 # Image Generation
 
 ## Models
