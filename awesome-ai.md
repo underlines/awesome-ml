@@ -59,7 +59,7 @@
 - https://github.com/kir-gadjello/zipslicer
 - https://github.com/modular-ml/wrapyfi-examples_llama
 - https://github.com/tloen/llama-int8
-- [4 bits quantization of LLaMa using GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa)
+- [4 bits quantization of LLaMa using GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa) ([discussion](https://github.com/oobabooga/text-generation-webui/issues/177))
 
 ## Training
 - https://github.com/learning-at-home/hivemind
