@@ -1,7 +1,8 @@
-#
+# How to run LLaMA 4bit models on Windows
+
 Guide: https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
 
-# Installation Windows 11 WSL2 Ubuntu + Anaconda + build-essentials
+## Installation Windows 11 WSL2 Ubuntu + Anaconda + build-essentials
 1. Install WSL2 on Windows Store
 2. Install Ubuntu
 3. Start Windows Terminal in Ubuntu
@@ -36,10 +37,13 @@ Start (disable streaming, due to an [issue](https://github.com/oobabooga/text-ge
 1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream`
 
 
-# Problem solving
+## Problem solving
 
 - [text-generation-webui general LLaMA support](https://github.com/oobabooga/text-generation-webui/issues/147)
 - [text-generation-webui GPTQ 4bit support for LLaMA issues](https://github.com/oobabooga/text-generation-webui/issues/177)
 - [text-generation-webui GPTQ 4bit support for LLaMA pull request](https://github.com/oobabooga/text-generation-webui/pull/206)
+
+If you don't want to use WSL2 Ubuntu, but run natively on windows, these resources might be helpful:
+
 - [Windows Wheels to compile GPTQ for LLaMA](https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666) for quant_cuda in order to install GPTQ-for-LLaMA
 - Prebuilt [Windows Binaries](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) for bitsandbytes with cuda support
