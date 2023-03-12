@@ -42,6 +42,7 @@ Start (disable streaming, due to an [issue](https://github.com/oobabooga/text-ge
 - [text-generation-webui general LLaMA support](https://github.com/oobabooga/text-generation-webui/issues/147)
 - [text-generation-webui GPTQ 4bit support for LLaMA issues](https://github.com/oobabooga/text-generation-webui/issues/177)
 - [text-generation-webui GPTQ 4bit support for LLaMA pull request](https://github.com/oobabooga/text-generation-webui/pull/206)
+- [4channel thread, might contain NSFW discussions, but has some useful info](https://boards.4channel.org/vg/thread/421001187/aids-ai-dynamic-storytelling-general)
 
 If you don't want to use WSL2 Ubuntu, but run natively on windows, these resources might be helpful:
 
