@@ -32,5 +32,13 @@ Download the 4bit model itself from [this](https://huggingface.co/decapoda-resea
 1. In the Windows Terminal on Ubuntu enter `explorer.exe .` to open Windows Explorer showing the Ubuntu folder.
 2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
 
-Start (disable streaming, due to a memory problem in 4 bit mode:
-2. `python server.py --model llama-13b-hf --load-in-4bit --no-stream`
+Start (disable streaming, due to an [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode):
+1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream`
+
+
+# Problem solving
+
+- [text-generation-webui general LLaMA support](https://github.com/oobabooga/text-generation-webui/issues/147)
+- [text-generation-webui GPTQ 4bit support for LLaMA issues](https://github.com/oobabooga/text-generation-webui/issues/177)
+- [text-generation-webui GPTQ 4bit support for LLaMA pull request](https://github.com/oobabooga/text-generation-webui/pull/206)
+- [Windows Wheels to compile GPTQ for LLaMA](https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666) for quant_cuda in order to install GPTQ-for-LLaMA
