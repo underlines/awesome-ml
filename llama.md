@@ -1,8 +1,11 @@
 # How to run LLaMA 4bit models on Windows
 
-Other guides:
-- https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
-- Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
+## Table of contents
+
+- [Windows 11 WSL2 Ubuntu / Native Ubuntu](#windows-11-wsl2-ubuntu--native-ubuntu)
+- [Windows 11 native](#windows-11-native)
+- [Troubleshooting](#troubleshooting)
+- [Resources](#resources)
 
 # Windows 11 WSL2 Ubuntu / Native Ubuntu
 
@@ -135,7 +138,9 @@ If you're looking for Apple Silicon support:
 
 - https://news.ycombinator.com/item?id=35100086
 
-# LLaMA settings presets:
+# Resources
+
+## text-generation-webui settings presets:
 1. `explorer.exe .` to open the Ubuntu path to the text-generation-webui in Windows Explorer
 2. navigate to `/presets` and make a copy of `NovelAI-Sphinx Moth.txt` and name it for example `llama-13b-4bit.txt`
 3. Edit the settings according to some examples below
@@ -149,3 +154,8 @@ temperature=0.62
 repetition_penalty=1.08
 typical_p=1.0
 ```
+
+## Other guides
+- https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
+- Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
+
