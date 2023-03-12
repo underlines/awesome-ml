@@ -37,8 +37,9 @@ Download the 4bit model itself from [this](https://huggingface.co/decapoda-resea
 1. In the Windows Terminal on Ubuntu enter `explorer.exe .` to open Windows Explorer showing the Ubuntu folder.
 2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
 
-Start (disable streaming, due to an [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode):
-1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream`
+Various ways to run LLaMA in text-generation-webui:
+1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` disabled streaming, due to an [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode becoming constantly slower over time
+2. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode
 
 
 ## Troubleshooting
