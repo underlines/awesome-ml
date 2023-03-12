@@ -1,6 +1,7 @@
 # How to run LLaMA 4bit models on Windows
 
 Guide: https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
+Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
 
 ## Installation Windows 11 WSL2 Ubuntu + Anaconda + build-essentials
 1. Install WSL2 on Windows Store
