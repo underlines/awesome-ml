@@ -63,7 +63,7 @@ Various ways to run LLaMA in text-generation-webui:
 If you don't want to use WSL2 Ubuntu, but run natively on windows, these resources might be helpful:
 
 - [Windows Wheels to compile GPTQ for LLaMA](https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666) for quant_cuda in order to install GPTQ-for-LLaMA
-- Prebuilt [Windows Binaries](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) for bitsandbytes with cuda support
+- Prebuilt [Windows Binaries](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) for bitsandbytes with cuda support (only step 5-6)
 
 If you're looking for Apple Silicon support:
 
