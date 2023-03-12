@@ -10,8 +10,15 @@ Other guides:
 3. Start Windows Terminal in Ubuntu
 
 ## Install Anaconda + Build Essentials
-1. Install Anaconda3
-2. `sudo apt install build-essential`
+1. `sudo apt update`
+2. `sudo apt upgrade`
+3. `mkdir Downloads`
+4. `cd Downloads/`
+5. `wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh`
+6. `chmod +x ./Anaconda3-2022.05-Linux-x86_64.sh`
+7. `./Anaconda3-2022.05-Linux-x86_64.sh`
+8. `sudo apt install build-essential`
+9. `cd ..`
 
 ## Install text-generation-webui
 Follow text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui)
