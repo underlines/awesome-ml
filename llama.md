@@ -47,3 +47,19 @@ If you don't want to use WSL2 Ubuntu, but run natively on windows, these resourc
 
 - [Windows Wheels to compile GPTQ for LLaMA](https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666) for quant_cuda in order to install GPTQ-for-LLaMA
 - Prebuilt [Windows Binaries](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) for bitsandbytes with cuda support
+
+If you're looking for Apple Silicon support:
+
+- https://news.ycombinator.com/item?id=35100086
+
+## LLaMA settings presets:
+1. `explorer.exe .` to open the Ubuntu path to the text-generation-webui in Windows Explorer
+2. navigate to `/presets` and make a copy of `NovelAI-Sphinx Moth.txt` and name it for example `llama-13b-4bit.txt`
+
+[Szpadel @ HN](https://news.ycombinator.com/item?id=35101869)
+do_sample=True
+top_p=0.9
+top_k=30
+temperature=0.62
+repetition_penalty=1.08
+typical_p=1.0
