@@ -13,6 +13,7 @@ Other guides:
 1. Install Anaconda3
 2. `sudo apt install build-essential`
 
+## Install text-generation-webui
 Follow text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui)
 1. `conda create -n textgen`
 2. `conda activate textgen`
@@ -21,6 +22,7 @@ Follow text-generation-webui install [instructions](https://github.com/oobabooga
 5. `cd text-generation-webui`
 6. `pip install -r requirements.txt`
 
+## Build GPTQ for LLaMA to enable 4bit support
 Follow the 4-bit installation [instructions](https://github.com/oobabooga/text-generation-webui/wiki/LLaMA-model#4-bit-mode)
 1. `pip uninstall transformers`
 2. `pip install git+https://github.com/zphang/transformers@llama_push`
@@ -30,6 +32,7 @@ Follow the 4-bit installation [instructions](https://github.com/oobabooga/text-g
 6. `cd GPTQ-for-LLaMa`
 7. `python setup_cuda.py install`
 
+## Download the model files
 Download the tokenizer and config files for the model size you want and change the size in the command below accordingly: 7b / 13b / 30b / 65b
 1. `python download-model.py --text-only decapoda-research/llama-13b-hf`
 
@@ -37,12 +40,13 @@ Download the 4bit model itself from [this](https://huggingface.co/decapoda-resea
 1. In the Windows Terminal on Ubuntu enter `explorer.exe .` to open Windows Explorer showing the Ubuntu folder.
 2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
 
+## Run
 Various ways to run LLaMA in text-generation-webui:
 1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` disabled streaming, due to an [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode becoming constantly slower over time
 2. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode
 
 
-## Troubleshooting
+# Troubleshooting
 
 - [text-generation-webui general LLaMA support](https://github.com/oobabooga/text-generation-webui/issues/147)
 - [text-generation-webui GPTQ 4bit support for LLaMA issues](https://github.com/oobabooga/text-generation-webui/issues/177)
@@ -58,14 +62,15 @@ If you're looking for Apple Silicon support:
 
 - https://news.ycombinator.com/item?id=35100086
 
-## LLaMA settings presets:
+# LLaMA settings presets:
 1. `explorer.exe .` to open the Ubuntu path to the text-generation-webui in Windows Explorer
 2. navigate to `/presets` and make a copy of `NovelAI-Sphinx Moth.txt` and name it for example `llama-13b-4bit.txt`
+3. Edit the settings according to some examples below
 
 [Szpadel @ HN](https://news.ycombinator.com/item?id=35101869)
-do_sample=True
+```do_sample=True
 top_p=0.9
 top_k=30
 temperature=0.62
 repetition_penalty=1.08
-typical_p=1.0
+typical_p=1.0```
