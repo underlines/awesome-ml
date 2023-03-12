@@ -68,9 +68,9 @@ If you're looking for Apple Silicon support:
 3. Edit the settings according to some examples below
 
 [Szpadel @ HN](https://news.ycombinator.com/item?id=35101869)
-```do_sample=True
+``do_sample=True
 top_p=0.9
 top_k=30
 temperature=0.62
 repetition_penalty=1.08
-typical_p=1.0```
+typical_p=1.0``
