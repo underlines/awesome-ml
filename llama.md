@@ -4,7 +4,9 @@ Other guides:
 - https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
 - Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
 
-## Windows 11 only, install WSL2 Ubuntu
+# Windows 11 WSL2 Ubuntu / Native Ubuntu
+
+## Windows only
 1. Install WSL2 on Windows Store
 2. Install Ubuntu
 3. Start Windows Terminal in Ubuntu
@@ -21,7 +23,7 @@ Other guides:
 9. `cd ..`
 
 ## Install text-generation-webui
-Follow text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui)
+text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui):
 1. `conda create -n textgen`
 2. `conda activate textgen`
 3. `conda install torchvision torchaudio pytorch-cuda=11.7 git -c pytorch -c nvidia`
@@ -30,7 +32,7 @@ Follow text-generation-webui install [instructions](https://github.com/oobabooga
 6. `pip install -r requirements.txt`
 
 ## Build GPTQ for LLaMA to enable 4bit support
-Follow the 4-bit installation [instructions](https://github.com/oobabooga/text-generation-webui/wiki/LLaMA-model#4-bit-mode)
+4-bit installation [instructions](https://github.com/oobabooga/text-generation-webui/wiki/LLaMA-model#4-bit-mode):
 1. `pip uninstall transformers`
 2. `pip install git+https://github.com/zphang/transformers@llama_push`
 3. `mkdir repositories`
@@ -41,17 +43,81 @@ Follow the 4-bit installation [instructions](https://github.com/oobabooga/text-g
 
 ## Download the model files
 Download the tokenizer and config files for the model size you want and change the size in the command below accordingly: 7b / 13b / 30b / 65b
-1. `python download-model.py --text-only decapoda-research/llama-13b-hf`
+1. `cd ../../`
+2. `python download-model.py --text-only decapoda-research/llama-13b-hf`
 
 Download the 4bit model itself from [this](https://huggingface.co/decapoda-research/llama-13b-hf-int4/tree/main) repo, change the url accordingly: 7b / 13b / 30b / 65b
-1. In the Windows Terminal on Ubuntu enter `explorer.exe .` to open Windows Explorer showing the Ubuntu folder.
+1. `explorer.exe .` to open Windows Explorer showing the Ubuntu folder. (windows only)
 2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
+
+The folder structure should be:
+```
+\text-generation-webui\models\llama-13b-4bit.pt
+\text-generation-webui\models\llama-13b-hf\config.json
+\text-generation-webui\models\llama-13b-hf\generation_config.json
+\text-generation-webui\models\llama-13b-hf\pytorch_model.bin.index.json
+\text-generation-webui\models\llama-13b-hf\special_tokens_map.json
+\text-generation-webui\models\llama-13b-hf\tokenizer.model
+\text-generation-webui\models\llama-13b-hf\tokenizer_config.json
+```
 
 ## Run
 Various ways to run LLaMA in text-generation-webui:
-1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` disabled streaming, due to an [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode becoming constantly slower over time
-2. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode
+1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` if generation becomes very slow after some time, due to [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode, turn off streaming
+2. `python server.py --model llama-13b-hf --load-in-4bit` if there are not slow down issues
+3. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode, also possible both with or without --no-stream 
 
+# Windows 11 native
+
+## Install Miniconda
+1. Download and install [miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
+2. Open `Anaconda Prompt (Miniconda 3)` from the Start Menu
+
+## Install text-generation-webui
+text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui):
+1. In the Anaconda Prompt run: `conda create -n textgen`
+2. `conda activate textgen`
+3. `conda install torchvision torchaudio pytorch-cuda=11.7 git -c pytorch -c nvidia`
+4. `git clone https://github.com/oobabooga/text-generation-webui`
+5. `cd text-generation-webui`
+6. `pip install -r requirements.txt`
+
+## Install GPTQ for LLaMA to enable 4bit support
+Alternatively, you can use [prebuilt GPTQ Wheels for Windows](https://github.com/oobabooga/text-generation-webui/issues/177#issuecomment-1464844721):
+1. `pip uninstall transformers`
+2. `pip install git+https://github.com/zphang/transformers@llama_push`
+3. `mkdir repositories`
+4. `cd repositories`
+5. `git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa`
+6. `cd GPTQ-for-LLaMa`
+7. Download the [prebuilt wheels](https://github.com/oobabooga/text-generation-webui/files/10947842/quant_cuda-0.0.0-cp310-cp310-win_amd64.whl.zip) and unzip in the same directory C:\Users\yourname\text-generation-webui\repositories\GPTQ-for-LLaMa\
+8. `python -m pip install quant_cuda-0.0.0-cp310-cp310-win_amd64.whl`
+9. Don't run python setup_cuda install.
+
+Download the tokenizer and config files for the model size you want and change the size in the command below accordingly: 7b / 13b / 30b / 65b
+1. `cd ..\..\`
+2. `python download-model.py --text-only decapoda-research/llama-13b-hf`
+
+Download the 4bit model itself from [this](https://huggingface.co/decapoda-research/llama-13b-hf-int4/tree/main) repo, change the url accordingly: 7b / 13b / 30b / 65b
+1. `explorer.exe .` to open Windows Explorer showing the current folder.
+2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
+
+The folder structure should be:
+```
+\text-generation-webui\models\llama-13b-4bit.pt
+\text-generation-webui\models\llama-13b-hf\config.json
+\text-generation-webui\models\llama-13b-hf\generation_config.json
+\text-generation-webui\models\llama-13b-hf\pytorch_model.bin.index.json
+\text-generation-webui\models\llama-13b-hf\special_tokens_map.json
+\text-generation-webui\models\llama-13b-hf\tokenizer.model
+\text-generation-webui\models\llama-13b-hf\tokenizer_config.json
+```
+
+## Run
+Various ways to run LLaMA in text-generation-webui:
+1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` if generation becomes very slow after some time, due to [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode, turn off streaming
+2. `python server.py --model llama-13b-hf --load-in-4bit` if there are not slow down issues
+3. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode, also possible both with or without --no-stream 
 
 # Troubleshooting
 
