@@ -1,14 +1,17 @@
 # How to run LLaMA 4bit models on Windows
 
-Guide: https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
-Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
+Other guides:
+- https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
+- Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
 
-## Installation Windows 11 WSL2 Ubuntu + Anaconda + build-essentials
+## Windows 11 only, install WSL2 Ubuntu
 1. Install WSL2 on Windows Store
 2. Install Ubuntu
 3. Start Windows Terminal in Ubuntu
-4. Install Anaconda3
-5. `sudo apt install build-essential`
+
+## Install Anaconda + Build Essentials
+1. Install Anaconda3
+2. `sudo apt install build-essential`
 
 Follow text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui)
 1. `conda create -n textgen`
