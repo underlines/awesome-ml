@@ -37,7 +37,7 @@ Start (disable streaming, due to an [issue](https://github.com/oobabooga/text-ge
 1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream`
 
 
-## Problem solving
+## Troubleshooting
 
 - [text-generation-webui general LLaMA support](https://github.com/oobabooga/text-generation-webui/issues/147)
 - [text-generation-webui GPTQ 4bit support for LLaMA issues](https://github.com/oobabooga/text-generation-webui/issues/177)
