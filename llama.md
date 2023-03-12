@@ -9,7 +9,7 @@
 
 # Windows 11 WSL2 Ubuntu / Native Ubuntu
 
-## Windows only
+## Install Ubuntu WSL2 on Windows 11
 1. Install WSL2 on Windows Store
 2. Install Ubuntu
 3. Start Windows Terminal in Ubuntu
