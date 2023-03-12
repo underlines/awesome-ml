@@ -159,3 +159,6 @@ typical_p=1.0
 - https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
 - Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
 
+## Building stuff
+- https://github.com/hwchase17/langchain ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s))
+- 
