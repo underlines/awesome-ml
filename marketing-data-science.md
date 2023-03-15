@@ -130,6 +130,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Keen.io | Managed Event Streaming Platform, built on Kafka, Storm, and Cassandra](https://keen.io/)
 - [Quantcast Analytics | Audience Analytics with 3rd party data exchange](https://www.quantcast.com/products/measure-audience-insights/)
 - [Engauge | Open-source single binary app and web analytics with minimal requirements](https://github.com/EngaugeAI/engauge)
+- [Counter.dev | Basic, open source non-intrusive web analytics](https://github.com/ihucos/counter.dev)
 
 
 ## Machine Learning IDEs
