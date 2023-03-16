@@ -159,6 +159,10 @@ typical_p=1.0
 - https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
 - Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
 
-## Building stuff
+## Other tools
 - https://github.com/hwchase17/langchain ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s))
+- [ChatLLaMA 📢 Open source implementation for LLaMA-based ChatGPT runnable in a single GPU. 15x faster training process than ChatGPT](https://github.com/juncongmoo/chatllama)
+- [pyllama: a hacked version of LLaMA based on original Facebook's implementation but more convenient to run in a Single consumer grade GPU.](https://github.com/juncongmoo/pyllama)
+- [alpaca-lora: reproducing the Stanford Alpaca InstructLLaMA result on consumer hardware](https://github.com/tloen/alpaca-lora)
 - 
+
