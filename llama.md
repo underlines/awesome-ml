@@ -141,8 +141,8 @@ If you're looking for Apple Silicon support:
 # Resources
 
 ## alpaca-lora
-[alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using LoRa based fine tuning with llama-7b and even llama-13b:
-- 7b model
+[alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using [LoRa fine tuning](https://github.com/tloen/alpaca-lora) with llama-7b and even llama-13b:
+- [alpaca-lora-7b model](https://huggingface.co/tloen/alpaca-lora-7b/tree/main)
 - [13b model discussion](https://github.com/tloen/alpaca-lora/issues/28), [baruga/alpaca-lora-13b](https://huggingface.co/baruga/alpaca-lora-13b), [chansung/alpaca-lora-13b](https://huggingface.co/chansung/alpaca-lora-13b), [Draff/llama-alpaca-stuff](https://huggingface.co/Draff/llama-alpaca-stuff/tree/main/Alpaca-Loras)
 
 ## text-generation-webui settings presets:
