@@ -8,7 +8,7 @@
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
 - [GPTs are GPTs: An early look at the labor market impact potential of LLMs](https://arxiv.org/abs/2303.10130)
 - [ViperGPT Visual Inference via Python Execution for reasoning](https://viper.cs.columbia.edu/)
-- 
+- [Emergent Abilities of LLMs ](https://openreview.net/forum?id=yzkSU5zdwD), [blog post](https://www.jasonwei.net/blog/emergence)
 
 ## LLM Interfaces
 ### OpenAI
