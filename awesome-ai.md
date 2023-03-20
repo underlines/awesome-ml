@@ -7,11 +7,25 @@
 ## Model research & comparisons
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
 
+## LLM Interfaces
+### OpenAI
+- [chatgptui/desktop](https://github.com/chatgptui/desktop)
+- [TypingMind](https://www.typingmind.com/)
+- [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
+- [Abdallah-Ragab/VoiceGPT](https://github.com/Abdallah-Ragab/VoiceGPT)
+- [LlmKira/Openaibot](https://github.com/LlmKira/Openaibot)
+
+## LLM Wrappers
+- [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
 
 # Image Generation
 
 ## Models
 - https://github.com/kakaobrain/karlo
+
+## Showcases
+- [Opinionate.io AI Debating AI](https://opinionate.io/)
+- 
 
 ## Wrappers & GUIs
 - https://github.com/brycedrennan/imaginAIry/blob/master/README.md
