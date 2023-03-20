@@ -1,36 +1,49 @@
 # Large Language Models
 - https://github.com/borzunov/chat.petals.ml / http://chat.petals.ml/
 - https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io
-- https://github.com/oobabooga/text-generation-webui ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 - https://github.com/microsoft/visual-chatgpt
+- [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
 
-## Model research & comparisons
+## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
+- [GPTs are GPTs: An early look at the labor market impact potential of LLMs](https://arxiv.org/abs/2303.10130)
+- [ViperGPT Visual Inference via Python Execution for reasoning](https://viper.cs.columbia.edu/)
+- 
 
 ## LLM Interfaces
 ### OpenAI
 - [chatgptui/desktop](https://github.com/chatgptui/desktop)
 - [TypingMind](https://www.typingmind.com/)
+- [Chatwithme.chat](https://www.chatwithme.chat/)
 - [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
 - [Abdallah-Ragab/VoiceGPT](https://github.com/Abdallah-Ragab/VoiceGPT)
 - [LlmKira/Openaibot](https://github.com/LlmKira/Openaibot)
+- [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
+- [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
+- [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
+
+### Others
+- [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
+- https://github.com/oobabooga/text-generation-webui ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
+- [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
+
+## Showcases
+- [Opinionate.io AI Debating AI](https://opinionate.io/)
+- 
 
 # Image Generation
 
 ## Models
 - https://github.com/kakaobrain/karlo
 
-## Showcases
-- [Opinionate.io AI Debating AI](https://opinionate.io/)
-- 
-
 ## Wrappers & GUIs
 - https://github.com/brycedrennan/imaginAIry/blob/master/README.md
 - https://github.com/invoke-ai/InvokeAI
 - https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
@@ -43,6 +56,9 @@
 - https://paperswithcode.com/
 
 # Video
+## Text to video generation
+- [ModelScope Text to video synthesis](https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis)
+
 ## Frame Interpolation (Temporal Interpolation)
 - https://github.com/google-research/frame-interpolation
 - https://github.com/ltkong218/ifrnet
