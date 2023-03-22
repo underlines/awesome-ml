@@ -171,7 +171,9 @@ If you're looking for Apple Silicon support:
 ## Run alpaca
 [alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using [LoRa fine tuning](https://github.com/tloen/alpaca-lora) with llama-7b and even llama-13b:
 
-Note that some people fine-tuned on the original alpaca dataset, which has many low quality examples, while people on [this issue](https://github.com/tloen/alpaca-lora/pull/32) made a huge effort cleaning and improving the original alpaca dataset for better RLHF.
+Note that some people fine-tuned on the original alpaca dataset, which has many low quality examples, while people on [this issue](https://github.com/tloen/alpaca-lora/pull/32) made a huge effort cleaning and improving the original alpaca dataset for better example instructions.
+
+open-assistant.io and other are working on RLHF as well, and alpaca could benefit from such systems. It would further improve the quality of llama/alpaca by reinforcement learning with human feedback.
 
 [Alpaca-lora discord](https://discord.com/invite/prbq284xX5)
 
