@@ -142,9 +142,18 @@ If you're looking for Apple Silicon support:
 
 ## alpaca-lora
 [alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using [LoRa fine tuning](https://github.com/tloen/alpaca-lora) with llama-7b and even llama-13b:
-- [alpaca-lora-7b model](https://huggingface.co/tloen/alpaca-lora-7b/tree/main)
-- [13b model discussion](https://github.com/tloen/alpaca-lora/issues/28), [baruga/alpaca-lora-13b](https://huggingface.co/baruga/alpaca-lora-13b), [chansung/alpaca-lora-13b](https://huggingface.co/chansung/alpaca-lora-13b), [Draff/llama-alpaca-stuff](https://huggingface.co/Draff/llama-alpaca-stuff/tree/main/Alpaca-Loras)
-- [30b fine tuned with alpaca dataset](https://huggingface.co/baseten/alpaca-30b)
+
+Note that some people fine-tuned on the original alpaca dataset, which has many low quality examples, while people on [this issue](https://github.com/tloen/alpaca-lora/pull/32) made a huge effort cleaning and improving the original alpaca dataset for better RLHF:
+
+- [tloen/alpaca-lora-7b](https://huggingface.co/tloen/alpaca-lora-7b/tree/main)
+- [baruga/alpaca-lora-13b](https://huggingface.co/baruga/alpaca-lora-13b)
+- [chansung/alpaca-lora-13b](https://huggingface.co/chansung/alpaca-lora-13b)
+- [Draff/llama-alpaca-stuff](https://huggingface.co/Draff/llama-alpaca-stuff/tree/main/Alpaca-Loras)
+- [baseten/alpaca-30b](https://huggingface.co/baseten/alpaca-30b)
+- [Pi3141/alpaca-30B-ggml](https://huggingface.co/Pi3141/alpaca-30B-ggml)
+- [Dogge/alpaca-13b](https://huggingface.co/Dogge/alpaca-13b)
+- [alpaca-native-4bit](https://huggingface.co/ozcur/alpaca-native-4bit)
+- [samwit/alpaca13B-lora](https://huggingface.co/samwit/alpaca13B-lora)
 
 ## text-generation-webui settings presets:
 1. `explorer.exe .` to open the Ubuntu path to the text-generation-webui in Windows Explorer
