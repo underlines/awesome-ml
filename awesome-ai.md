@@ -27,6 +27,7 @@
 - https://github.com/oobabooga/text-generation-webui ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 - [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [Dalai](https://github.com/cocktailpeanut/dalai)
 - 
 
 ## LLM Wrappers
