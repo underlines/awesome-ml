@@ -46,6 +46,7 @@
 
 ## Models
 - https://github.com/kakaobrain/karlo
+- https://lukashoel.github.io/text-to-room/
 
 ## Wrappers & GUIs
 - https://github.com/brycedrennan/imaginAIry/blob/master/README.md
