@@ -38,6 +38,10 @@
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
 - 
 
+## Fine Tuning
+- [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
+- 
+
 # Image Generation
 
 ## Models
