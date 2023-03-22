@@ -168,10 +168,14 @@ If you're looking for Apple Silicon support:
 | llama  | 30b  | 4bit GPTQ    | none        | [Pi3141/llama-30B-ggml](https://huggingface.co/Pi3141/llama-30B-ggml)                   | [kuleshov/llama-30b-4bit](https://huggingface.co/kuleshov/llama-30b-4bit)<br>[elinas/llama-30b-int4](https://huggingface.co/elinas/llama-30b-int4)<br>[TianXxx/llama-30b-int4](https://huggingface.co/TianXxx/llama-30b-int4) |                                                                                                                                                                                                                                                                                                                                       |
 | llama  | 65b  | 4bit GPTQ    | none        | [Pi3141/llama-65B-ggml](https://huggingface.co/Pi3141/llama-65B-ggml)                   |                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                       |
 
-## alpaca
+## Run alpaca
 [alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using [LoRa fine tuning](https://github.com/tloen/alpaca-lora) with llama-7b and even llama-13b:
 
-Note that some people fine-tuned on the original alpaca dataset, which has many low quality examples, while people on [this issue](https://github.com/tloen/alpaca-lora/pull/32) made a huge effort cleaning and improving the original alpaca dataset for better RLHF:
+Note that some people fine-tuned on the original alpaca dataset, which has many low quality examples, while people on [this issue](https://github.com/tloen/alpaca-lora/pull/32) made a huge effort cleaning and improving the original alpaca dataset for better RLHF.
+
+[Alpaca-lora discord](https://discord.com/invite/prbq284xX5)
+
+[Alpaca-LoRa-Serve Gradio GUI](https://github.com/deep-diver/Alpaca-LoRA-Serve)
 
 ## text-generation-webui settings presets:
 1. `explorer.exe .` to open the Ubuntu path to the text-generation-webui in Windows Explorer
