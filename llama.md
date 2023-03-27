@@ -206,6 +206,8 @@ typical_p=1.0
 - [pyllama: a hacked version of LLaMA based on original Facebook's implementation but more convenient to run in a Single consumer grade GPU.](https://github.com/juncongmoo/pyllama)
 - [alpaca-lora: reproducing the Stanford Alpaca InstructLLaMA result on consumer hardware](https://github.com/tloen/alpaca-lora)
 - [Implementation of Toolformer, Language Models That Can Use Tools, by MetaAI](https://github.com/lucidrains/toolformer-pytorch)
+- [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
+- [codealpaca Instruction training data to fine-tune llama with alpaca but for code generation](https://github.com/sahil280114/codealpaca)
 
 
 
