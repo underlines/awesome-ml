@@ -208,6 +208,6 @@ typical_p=1.0
 - [Implementation of Toolformer, Language Models That Can Use Tools, by MetaAI](https://github.com/lucidrains/toolformer-pytorch)
 - [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 - [codealpaca Instruction training data to fine-tune llama with alpaca but for code generation](https://github.com/sahil280114/codealpaca)
-- [LangFlow | Chat Frontend for Langchain](https://github.com/logspace-ai/langflow)
+- [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
 
 
