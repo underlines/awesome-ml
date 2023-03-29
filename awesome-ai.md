@@ -30,9 +30,8 @@
   - [Other Optimization](#other-optimization)
 
 # Large Language Models
-- https://github.com/borzunov/chat.petals.ml / http://chat.petals.ml/
-- https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io
-- https://github.com/microsoft/visual-chatgpt
+
+
 
 ## LLaMA models
 | Model  | Size | Quantization | Fine-Tuning | ggml .bin                                                                               | hf .pt                                                                                                                                                                                                                        | native .bin                                                                                                                                                                                                                                                                                                                           |
@@ -65,12 +64,14 @@
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
 - [codealpaca Instruction training data set for code generation](https://github.com/sahil280114/codealpaca)
+- [LAION AI creates a cowd sourced fine-tuning data set for a future open source instruction based LLM](https://open-assistant.io) (https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
 - [GPTs are GPTs: An early look at the labor market impact potential of LLMs](https://arxiv.org/abs/2303.10130)
 - [ViperGPT Visual Inference via Python Execution for reasoning](https://viper.cs.columbia.edu/)
 - [Emergent Abilities of LLMs ](https://openreview.net/forum?id=yzkSU5zdwD), [blog post](https://www.jasonwei.net/blog/emergence)
+- [visualchatgpt | Microsoft research proposes a multi-modal architecture to give chatgpt the ability to interpret and generate images based on open source foundation models](https://github.com/microsoft/visual-chatgpt)
 
 ## LLM GUIs
 ### OpenAI
@@ -92,6 +93,7 @@
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [Dalai](https://github.com/cocktailpeanut/dalai)
 - [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
+- [Chatbot web app + HTTP and Websocket endpoints for BLOOM-176B inference with the Petals client](https://github.com/borzunov/chat.petals.ml)
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -172,6 +174,7 @@
 - https://github.com/modular-ml/wrapyfi-examples_llama
 - https://github.com/tloen/llama-int8
 - [4 bits quantization of LLaMa using GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa) ([discussion](https://github.com/oobabooga/text-generation-webui/issues/177))
+- https://petals.ml/
 
 ## Training
 - https://github.com/learning-at-home/hivemind
