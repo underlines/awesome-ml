@@ -1,3 +1,34 @@
+# Table of Contents
+
+- [Large Language Models](#large-language-models)
+  - [LLaMA models](#llama-models)
+  - [Data sets](#data-sets)
+  - [Research](#research)
+  - [LLM GUIs](#llm-guis)
+    - [OpenAI](#openai)
+    - [Others](#others)
+  - [LLM Wrappers](#llm-wrappers)
+  - [Showcases](#showcases)
+  - [Fine Tuning](#fine-tuning)
+- [Image Generation](#image-generation)
+  - [Models](#models)
+  - [Wrappers & GUIs](#wrappers--guis)
+  - [Fine Tuning](#fine-tuning-1)
+- [Benchmarking](#benchmarking)
+- [Video](#video)
+  - [Text to video generation](#text-to-video-generation)
+  - [Frame Interpolation (Temporal Interpolation)](#frame-interpolation-temporal-interpolation)
+  - [Super Resolution (Spacial Interpolation)](#super-resolution-spacial-interpolation)
+  - [Spacio Temporal Interpolation](#spacio-temporal-interpolation)
+- [Audio](#audio)
+  - [Compression](#compression)
+  - [Speech Recognition](#speech-recognition)
+- [AI DevOps](#ai-devops)
+- [Optimization](#optimization)
+  - [Inference](#inference)
+  - [Training](#training)
+  - [Other Optimization](#other-optimization)
+
 # Large Language Models
 - https://github.com/borzunov/chat.petals.ml / http://chat.petals.ml/
 - https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io
