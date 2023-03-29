@@ -2,6 +2,7 @@
 
 - [Large Language Models](#large-language-models)
   - [LLaMA models](#llama-models)
+  - [Other SOTA Open Source Models](#other-sota-open-source-models)
   - [Data sets](#data-sets)
   - [Research](#research)
   - [LLM GUIs](#llm-guis)
@@ -60,6 +61,8 @@
 | llama  | 30b  | 4bit GPTQ    | none        | [Pi3141/llama-30B-ggml](https://huggingface.co/Pi3141/llama-30B-ggml)                   | [kuleshov/llama-30b-4bit](https://huggingface.co/kuleshov/llama-30b-4bit)<br>[elinas/llama-30b-int4](https://huggingface.co/elinas/llama-30b-int4)<br>[TianXxx/llama-30b-int4](https://huggingface.co/TianXxx/llama-30b-int4) |                                                                                                                                                                                                                                                                                                                                       |
 | llama  | 65b  | 4bit GPTQ    | none        | [Pi3141/llama-65B-ggml](https://huggingface.co/Pi3141/llama-65B-ggml)                   |                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                       |
 
+## Other SOTA Open Source models
+- [Cerebras GPT-13b](https://huggingface.co/cerebras) ([release notes](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/))
 
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
