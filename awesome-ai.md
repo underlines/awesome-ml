@@ -2,7 +2,10 @@
 - https://github.com/borzunov/chat.petals.ml / http://chat.petals.ml/
 - https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io
 - https://github.com/microsoft/visual-chatgpt
+
+## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
+- [codealpaca Instruction training data set for code generation](https://github.com/sahil280114/codealpaca)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -10,7 +13,7 @@
 - [ViperGPT Visual Inference via Python Execution for reasoning](https://viper.cs.columbia.edu/)
 - [Emergent Abilities of LLMs ](https://openreview.net/forum?id=yzkSU5zdwD), [blog post](https://www.jasonwei.net/blog/emergence)
 
-## LLM Interfaces
+## LLM GUIs
 ### OpenAI
 - [chatgptui/desktop](https://github.com/chatgptui/desktop)
 - [TypingMind](https://www.typingmind.com/)
@@ -24,15 +27,21 @@
 
 ### Others
 - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
-- https://github.com/oobabooga/text-generation-webui ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
+- [Text Generation Webui | An all purpose UI to run LLMs of all sorts with optimizations](https://github.com/oobabooga/text-generation-webui) ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 - [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
+- [ChatLLaMA | another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [Dalai](https://github.com/cocktailpeanut/dalai)
-- 
+- [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
 - [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
+- [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s))
+- [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
+- [pyllama | hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs](https://github.com/juncongmoo/pyllama)
+- [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
+- [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
