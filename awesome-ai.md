@@ -130,6 +130,7 @@
 - [Vicuna FastChat](https://github.com/lm-sys/FastChat)
 - [Lit-llama](https://github.com/Lightning-AI/lit-llama)
 - [gpt4all](https://github.com/nomic-ai/gpt4all)
+- [openplayground Try out almost any LLM in a gui](https://github.com/nat/openplayground)
 
 
 ## LLM Wrappers
