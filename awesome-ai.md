@@ -35,35 +35,39 @@
 
 
 ## LLaMA models
-| Model                                                                                        | Author            | Foundation | Size | Quantization | Fine Tuning Dataset                   | Format      | LoRa |
-|----------------------------------------------------------------------------------------------|-------------------|------------|------|--------------|---------------------------------------|-------------|------|
-| [Vicuna-13B](https://huggingface.co/ShreyasBrill/Vicuna-13B)                                 | SheryasBrill      | vicuna     | 13b  | 4bit (GPTQ?) | Vicuna without ethical safety filters | ggml .bin   |      |
-| [Vicuna-13b](https://huggingface.co/titan087/Vicuna-13b)                                     | titan087          | vicuna     | 13b  | 16bit        |                                       | native .bin |      |
-| [vicuna-13b-delta-v0](https://huggingface.co/lmsys/vicuna-13b-delta-v0)                      | lmsys             | vicuna     | 13b  | 16bit        |                                       | native .bin |      |
-| [vicuna-7b](https://huggingface.co/AlekseyKorshuk/vicuna-7b)                                 | AlekseyKorshuk    | vicuna     | 7b   | ?            |                                       | native .bin |      |
-| [alpaca-30B-ggml](https://huggingface.co/Pi3141/alpaca-30B-ggml)                             | Pi3141            | alpaca     | 30b  | 4bit GPTQ    |                                       | ggml .bin   |      |
-| [alpaca-30b](https://huggingface.co/baseten/alpaca-30b)                                      | baseten           | alpaca     | 30b  | 16bit        |                                       | native .bin | yes  |
-| [alpaca-13B-ggml](https://huggingface.co/Pi3141/alpaca-13B-ggml)                             | Pi3141            | alpaca     | 13b  | 4bit GPTQ    |                                       | ggml .bin   | yes  |
-| [alpaca-30b-lora-int4](https://huggingface.co/elinas/alpaca-30b-lora-int4)                   | elinas            | alpaca     | 13b  | 4bit GPTQ    |                                       | hf .pt      | yes  |
-| [alpaca-13b](https://huggingface.co/Dogge/alpaca-13b)                                        | Dogge             | alpaca     | 13b  | 4bit GPTQ    |                                       | native .bin |      |
-| [alpaca-lora-13b](https://huggingface.co/baruga/alpaca-lora-13b)                             | baruga            | alpaca     | 13b  | 8bit         |                                       | native .bin | yes  |
-| [alpaca-lora-13b](https://huggingface.co/chansung/alpaca-lora-13b)                           | chansung          | alpaca     | 13b  | 8bit         |                                       | native .bin | yes  |
-| [llama-alpaca-stuff](https://huggingface.co/Draff/llama-alpaca-stuff/tree/main/Alpaca-Loras) | Draff             | alpaca     | 13b  | 8bit         |                                       | native .bin | yes  |
-| [alpaca13B-lora](https://huggingface.co/samwit/alpaca13B-lora)                               | samwit            | alpaca     | 13b  | 8bit         |                                       | native .bin | yes  |
-| [Alpaca-native-4bit-ggml](https://huggingface.co/Sosaka/Alpaca-native-4bit-ggml)             | Sosaka            | alpaca     | 7b   | 4bit GPTQ    |                                       | ggml .bin   |      |
-| [alpaca-7B-ggml](https://huggingface.co/Pi3141/alpaca-7B-ggml)                               | Pi3141            | alpaca     | 7b   | 4bit GPTQ    |                                       | ggml .bin   | yes  |
-| [alpaca-native-4bit](https://huggingface.co/ozcur/alpaca-native-4bit)                        | ozcur             | alpaca     | 7b   | 4bit GPTQ    |                                       | hf .pt      |      |
-| [alpaca-13b-lora-int4](https://huggingface.co/elinas/alpaca-13b-lora-int4)                   | elinas            | alpaca     | 7b   | 4bit GPTQ    |                                       | hf .pt      | yes  |
-| [alpaca-native](https://huggingface.co/chavinlo/alpaca-native)                               | chavinlo          | alpaca     | 7b   | 16bit        |                                       | native .bin |      |
-| [alpaca-lora-7b](https://huggingface.co/tloen/alpaca-lora-7b/)                               | tloen             | alpaca     | 7b   | 4bit GPTQ    |                                       | native .bin | yes  |
-| [llama-65B-ggml](https://huggingface.co/Pi3141/llama-65B-ggml)                               | Pi3141            | llama      | 65b  | 4bit GPTQ    | none                                  | ggml .bin   |      |
-| [llama-30B-ggml](https://huggingface.co/Pi3141/llama-30B-ggml)                               | Pi3141            | llama      | 30b  | 4bit GPTQ    | none                                  | ggml .bin   |      |
-| [llama-30b-4bit](https://huggingface.co/kuleshov/llama-30b-4bit)                             | kuleshov          | llama      | 13b  | 4bit GPTQ    | none                                  | hf .pt      |      |
-| [llama-30b-int4](https://huggingface.co/elinas/llama-30b-int4)                               | elinas            | llama      | 13b  | 4bit GPTQ    | none                                  | hf .pt      |      |
-| [llama-30b-int4](https://huggingface.co/TianXxx/llama-30b-int4)                              | TianXxx           | llama      | 13b  | 4bit GPTQ    | none                                  | hf .pt      |      |
-| [llama-13B-ggml](https://huggingface.co/Pi3141/llama-13B-ggml)                               | Pi3141            | llama      | 13b  | 4bit GPTQ    | none                                  | ggml .bin   |      |
-| [llama-7B-ggml](https://huggingface.co/Pi3141/llama-7B-ggml)                                 | Pi3141            | llama      | 7b   | 4bit GPTQ    | none                                  | ggml .bin   |      |
-| [llama-7b-hf](https://huggingface.co/decapoda-research/llama-7b-hf)                          | decapoda-research | llama      | 7b   | 16bit        | none                                  | hf .pt      |
+| Model                                                                                                          | Author            | Foundation | Size | Quantization | Fine Tuning Dataset                   | Format        | LoRa |
+|----------------------------------------------------------------------------------------------------------------|-------------------|------------|------|--------------|---------------------------------------|---------------|------|
+| [vicuna-13b-GPTQ-4bit-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)                   | anon8231489123    | vicuna     | 13b  | 4bit GPTQ    | Vicuna                                | safetensors   |      |
+| [Vicuna-13B](https://huggingface.co/ShreyasBrill/Vicuna-13B)                                                   | SheryasBrill      | vicuna     | 13b  | 4bit (GPTQ?) | Vicuna without ethical safety filters | ggml .bin     |      |
+| [vicuna-13b-8bit](https://huggingface.co/samwit/vicuna-13b-8bit)                                               | samwit            | vicuna     | 13b  | 8bit         |                                       | native .bin   |      |
+| [Vicuna-13b](https://huggingface.co/titan087/Vicuna-13b)                                                       | titan087          | vicuna     | 13b  | 16bit        |                                       | native .bin   |      |
+| [vicuna-13b-4bit](https://huggingface.co/elinas/vicuna-13b-4bit)                                               | elinas            | vicuna     | 13b  | 4bit GPTQ    |                                       | safetensors   |      |
+| [vicuna-13b-delta-v0](https://huggingface.co/lmsys/vicuna-13b-delta-v0)                                        | lmsys             | vicuna     | 13b  | 16bit        |                                       | native .bin   |      |
+| [vicuna-7b](https://huggingface.co/AlekseyKorshuk/vicuna-7b)                                                   | AlekseyKorshuk    | vicuna     | 7b   | ?            |                                       | native .bin   |      |
+| [alpaca-30B-ggml](https://huggingface.co/Pi3141/alpaca-30B-ggml)                                               | Pi3141            | alpaca     | 30b  | 4bit GPTQ    |                                       | ggml .bin     |      |
+| [alpaca-30b](https://huggingface.co/baseten/alpaca-30b)                                                        | baseten           | alpaca     | 30b  | 16bit        |                                       | native .bin   | yes  |
+| [gpt4-x-alpaca-13b-native-4bit-128g](https://huggingface.co/anon8231489123/gpt4-x-alpaca-13b-native-4bit-128g) | anon8231489123    | alpaca     | 13b  | 4bit GPTQ    | https://github.com/teknium1/GPTeacher | triton / cuda |      |
+| [alpaca-13B-ggml](https://huggingface.co/Pi3141/alpaca-13B-ggml)                                               | Pi3141            | alpaca     | 13b  | 4bit GPTQ    |                                       | ggml .bin     | yes  |
+| [alpaca-30b-lora-int4](https://huggingface.co/elinas/alpaca-30b-lora-int4)                                     | elinas            | alpaca     | 13b  | 4bit GPTQ    |                                       | hf .pt        | yes  |
+| [alpaca-13b](https://huggingface.co/Dogge/alpaca-13b)                                                          | Dogge             | alpaca     | 13b  | 4bit GPTQ    |                                       | native .bin   |      |
+| [alpaca-lora-13b](https://huggingface.co/baruga/alpaca-lora-13b)                                               | baruga            | alpaca     | 13b  | 8bit         |                                       | native .bin   | yes  |
+| [alpaca-lora-13b](https://huggingface.co/chansung/alpaca-lora-13b)                                             | chansung          | alpaca     | 13b  | 8bit         |                                       | native .bin   | yes  |
+| [llama-alpaca-stuff](https://huggingface.co/Draff/llama-alpaca-stuff/tree/main/Alpaca-Loras)                   | Draff             | alpaca     | 13b  | 8bit         |                                       | native .bin   | yes  |
+| [alpaca13B-lora](https://huggingface.co/samwit/alpaca13B-lora)                                                 | samwit            | alpaca     | 13b  | 8bit         |                                       | native .bin   | yes  |
+| [Alpaca-native-4bit-ggml](https://huggingface.co/Sosaka/Alpaca-native-4bit-ggml)                               | Sosaka            | alpaca     | 7b   | 4bit GPTQ    |                                       | ggml .bin     |      |
+| [alpaca-7B-ggml](https://huggingface.co/Pi3141/alpaca-7B-ggml)                                                 | Pi3141            | alpaca     | 7b   | 4bit GPTQ    |                                       | ggml .bin     | yes  |
+| [alpaca-native-4bit](https://huggingface.co/ozcur/alpaca-native-4bit)                                          | ozcur             | alpaca     | 7b   | 4bit GPTQ    |                                       | hf .pt        |      |
+| [alpaca-13b-lora-int4](https://huggingface.co/elinas/alpaca-13b-lora-int4)                                     | elinas            | alpaca     | 7b   | 4bit GPTQ    |                                       | hf .pt        | yes  |
+| [alpaca-native](https://huggingface.co/chavinlo/alpaca-native)                                                 | chavinlo          | alpaca     | 7b   | 16bit        |                                       | native .bin   |      |
+| [alpaca-lora-7b](https://huggingface.co/tloen/alpaca-lora-7b/)                                                 | tloen             | alpaca     | 7b   | 4bit GPTQ    |                                       | native .bin   | yes  |
+| [llama-65B-ggml](https://huggingface.co/Pi3141/llama-65B-ggml)                                                 | Pi3141            | llama      | 65b  | 4bit GPTQ    | none                                  | ggml .bin     |      |
+| [llama-30B-ggml](https://huggingface.co/Pi3141/llama-30B-ggml)                                                 | Pi3141            | llama      | 30b  | 4bit GPTQ    | none                                  | ggml .bin     |      |
+| [llama-30b-4bit](https://huggingface.co/kuleshov/llama-30b-4bit)                                               | kuleshov          | llama      | 13b  | 4bit GPTQ    | none                                  | hf .pt        |      |
+| [llama-30b-int4](https://huggingface.co/elinas/llama-30b-int4)                                                 | elinas            | llama      | 13b  | 4bit GPTQ    | none                                  | hf .pt        |      |
+| [llama-30b-int4](https://huggingface.co/TianXxx/llama-30b-int4)                                                | TianXxx           | llama      | 13b  | 4bit GPTQ    | none                                  | hf .pt        |      |
+| [llama-13B-ggml](https://huggingface.co/Pi3141/llama-13B-ggml)                                                 | Pi3141            | llama      | 13b  | 4bit GPTQ    | none                                  | ggml .bin     |      |
+| [llama-7B-ggml](https://huggingface.co/Pi3141/llama-7B-ggml)                                                   | Pi3141            | llama      | 7b   | 4bit GPTQ    | none                                  | ggml .bin     |      |
+| [llama-7b-hf](https://huggingface.co/decapoda-research/llama-7b-hf)                                            | decapoda-research | llama      | 7b   | 16bit        | none                                  | hf .pt        |
 
 
 
@@ -76,6 +80,8 @@
 - [LAION AI creates a cowd sourced fine-tuning data set for a future open source instruction based LLM](https://open-assistant.io) (https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/)
 - [pre-cleaned, English only, "unfiltered," and 2048 token split version of the ShareGPT dataset ready for finetuning](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
 - [Vicuna ShareGPT pre-cleaned 90k conversation dataset](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main/HTML_cleaned_raw_dataset)
+- [Vicuna ShareGPT unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
+- [GPTeacher](https://github.com/teknium1/GPTeacher)
 - 
 
 ## Research
