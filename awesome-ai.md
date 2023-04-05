@@ -117,6 +117,7 @@
 - [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
 - [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 - [Auto GPT](https://github.com/Torantulino/Auto-GPT)
+- [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
 
 ### Others
 - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
@@ -155,6 +156,7 @@
 ## Models
 - https://github.com/kakaobrain/karlo
 - https://lukashoel.github.io/text-to-room/
+- [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
 ## Wrappers & GUIs
 - https://github.com/brycedrennan/imaginAIry/blob/master/README.md
@@ -167,10 +169,6 @@
 - https://github.com/TheLastBen/fast-stable-diffusion
 - https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth
 - https://github.com/cloneofsimo/lora
-
-# Benchmarking
-- https://videoprocessing.ai/benchmarks/
-- https://paperswithcode.com/
 
 # Video
 ## Text to video generation
@@ -196,7 +194,7 @@
 
 ## Speech Recognition
 - https://github.com/openai/whisper
-- 
+- [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 
 # AI DevOps
 - https://www.steamship.com/
@@ -221,3 +219,8 @@
 - https://github.com/HazyResearch/flash-attention
 - https://github.com/stochasticai/x-stable-diffusion
 - 
+
+# Benchmarking
+- https://videoprocessing.ai/benchmarks/
+- https://paperswithcode.com/
+- [Pythia | interpretability analysis for autoregressive transformers during training](https://github.com/EleutherAI/pythia)
