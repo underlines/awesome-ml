@@ -47,7 +47,8 @@
 | [vicuna-13b-4bit](https://huggingface.co/elinas/vicuna-13b-4bit)                                               | elinas            | vicuna     | 13b  | 4bit GPTQ    |                                                                                                                                                                                                                                       | safetensors             |      |
 | [vicuna-13b-delta-v0](https://huggingface.co/lmsys/vicuna-13b-delta-v0)                                        | lmsys             | vicuna     | 13b  | 16bit        |                                                                                                                                                                                                                                       | ?                       |      |
 | [vicuna-7b](https://huggingface.co/AlekseyKorshuk/vicuna-7b)                                                   | AlekseyKorshuk    | vicuna     | 7b   | ?            |                                                                                                                                                                                                                                       | native .bin             |      |
-| [gpt4all-alpaca-oa-codealpaca-lora-7b](https://huggingface.co/jordiclive/gpt4all-alpaca-oa-codealpaca-lora-7b) | jordiclive        | alpaca     | 7b   | ?            | [gpt4all_pruned](https://huggingface.co/datasets/Nebulous/gpt4all_pruned)<br />[CodeAlpaca-20k](https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k)<br />[alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned) |                         | yes  |
+| [gpt4all-lora](https://huggingface.co/nomic-ai/gpt4all-lora)                                                   | nomic-ai          | llama      | 7b   | ?            | [gpt4all prompt generations](https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations)                                                                                                                                     | ?                       | yes  |
+| [gpt4all-alpaca-oa-codealpaca-lora-7b](https://huggingface.co/jordiclive/gpt4all-alpaca-oa-codealpaca-lora-7b) | jordiclive        | alpaca     | 7b   | ?            | [gpt4all_pruned](https://huggingface.co/datasets/Nebulous/gpt4all_pruned)<br />[CodeAlpaca-20k](https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k)<br />[alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned) | ?                       | yes  |
 | [alpaca-30B-ggml](https://huggingface.co/Pi3141/alpaca-30B-ggml)                                               | Pi3141            | alpaca     | 30b  | 4bit GPTQ    |                                                                                                                                                                                                                                       | ggml .bin               |      |
 | [alpaca-30b](https://huggingface.co/baseten/alpaca-30b)                                                        | baseten           | alpaca     | 30b  | 16bit        |                                                                                                                                                                                                                                       | native .bin             | yes  |
 | [gpt4-x-alpaca-13b-native-4bit-128g](https://huggingface.co/anon8231489123/gpt4-x-alpaca-13b-native-4bit-128g) | anon8231489123    | alpaca     | 13b  | 4bit GPTQ    | [GPTeacher](https://github.com/teknium1/GPTeacher)                                                                                                                                                                                    | triton / cuda           |      |
@@ -79,6 +80,7 @@
 ## Other SOTA Open Source models
 - [Cerebras GPT-13b](https://huggingface.co/cerebras) ([release notes](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/))
 - [LAION OpenFlamingo | Multi Modal Model and training architecture](https://github.com/mlfoundations/open_flamingo)
+- 
 
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
@@ -91,6 +93,10 @@
 - [alpaca-cleaned](https://huggingface.co/datasets/yahma/alpaca-cleaned)
 - [codealpaca 20k](https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k)
 - [gpt3all pruned](https://huggingface.co/datasets/Nebulous/gpt4all_pruned)
+- [gpt4all_prompt_generations_with_p3](https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations_with_p3)
+- [gpt4all_prompt_generations](https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations)
+- [alpaca-plus-gpt4all-without-p3](https://huggingface.co/datasets/magicgh/alpaca-plus-gpt4all-without-p3)
+- 
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -123,6 +129,7 @@
 - [Chatbot web app + HTTP and Websocket endpoints for BLOOM-176B inference with the Petals client](https://github.com/borzunov/chat.petals.ml)
 - [Vicuna FastChat](https://github.com/lm-sys/FastChat)
 - [Lit-llama](https://github.com/Lightning-AI/lit-llama)
+- [gpt4all](https://github.com/nomic-ai/gpt4all)
 
 
 ## LLM Wrappers
