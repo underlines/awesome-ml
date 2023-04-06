@@ -43,6 +43,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Databricks | Cloud platform for data engineering and data science by the makers of Spark (Community Edition available)](https://databricks.com/)
 - [Arc | Open-source Databricks alternative](https://arc.tripl.ai/)
 - [Supabase | open source Firebase alternative](https://github.com/supabase/supabase)
+- [UKV | Replacing MongoDB, Neo4J, and Elastic with 1 transactional database. Features: zero-copy semantics, swappable backends, bindings for C, C++, Python, Java, GoLang](https://github.com/unum-cloud/ukv)
 
 
 ### Classic ETL
