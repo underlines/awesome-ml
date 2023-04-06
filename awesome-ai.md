@@ -212,6 +212,7 @@
 - https://github.com/tloen/llama-int8
 - [4 bits quantization of LLaMa using GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa) ([discussion](https://github.com/oobabooga/text-generation-webui/issues/177))
 - https://petals.ml/
+- https://github.com/facebookincubator/AITemplate
 
 ## Training
 - https://github.com/learning-at-home/hivemind
