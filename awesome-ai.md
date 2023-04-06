@@ -105,6 +105,7 @@
 - [ViperGPT Visual Inference via Python Execution for reasoning](https://viper.cs.columbia.edu/)
 - [Emergent Abilities of LLMs ](https://openreview.net/forum?id=yzkSU5zdwD), [blog post](https://www.jasonwei.net/blog/emergence)
 - [visualchatgpt | Microsoft research proposes a multi-modal architecture to give chatgpt the ability to interpret and generate images based on open source foundation models](https://github.com/microsoft/visual-chatgpt)
+- [facts checker reinforcement](https://arxiv.org/abs/2302.12813)
 
 ## LLM GUIs
 ### OpenAI
