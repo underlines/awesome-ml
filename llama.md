@@ -143,7 +143,7 @@ If you're looking for Apple Silicon support:
 
 ## 3rd party LLaMA and alpaca models
 
-Moved to [awesome-ai.md](https://github.com/underlines/awesome-marketing-datascience/awesome-ai.md)
+Moved to [awesome-ai.md](https://github.com/underlines/awesome-marketing-datascience/blob/master/awesome-ai.md)
 
 ## Run alpaca
 [alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using [LoRa fine tuning](https://github.com/tloen/alpaca-lora) with llama-7b and even llama-13b:
