@@ -122,6 +122,9 @@ Various ways to run LLaMA in text-generation-webui:
 1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` if generation becomes very slow after some time, due to [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode, turn off streaming
 2. `python server.py --model llama-13b-hf --load-in-4bit` if there are not slow down issues
 3. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode, also possible both with or without --no-stream 
+4. `python server.py --model vicuna-13b-GPTQ-4bit-128g --wbits 4 --groupsize 128 --chat` for a vicuna GPTQ 4 bit model using groupsize
+
+If bitsandbytes gives you a cuda lib not found error, try executing `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the above command
 
 # Troubleshooting
 
@@ -174,6 +177,7 @@ typical_p=1.0
 ## Other guides
 - https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
 - Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
+- [reddit LocalGPT guide](https://www.reddit.com/r/LocalGPT/comments/125m180/how_to_install_llama_8bit_and_4bit/)
 
 ## Other tools
 - https://github.com/hwchase17/langchain ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s))
