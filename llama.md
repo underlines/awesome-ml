@@ -187,4 +187,11 @@ typical_p=1.0
 - [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
 - [GPTQ Wheels for Windows](https://github.com/jllllll/GPTQ-for-LLaMa-Wheels)
 
+## Other resources
+- [News about Llama](https://github.com/shm007g/LLaMA-Cult-and-More)
+- [StackLLaMA: How to train LLaMA with RLHF](https://huggingface.co/blog/stackllama)
+- [Reddit LocalLLaMA model card](https://old.reddit.com/r/LocalLLaMA/wiki/models)
+- [Reddit Oobabooga's Textgen subreddit](https://www.reddit.com/r/Oobabooga/)
+- 
+
 
