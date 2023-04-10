@@ -7,7 +7,7 @@
   - [Research](#research)
   - [LLM GUIs](#llm-guis)
     - [OpenAI](#openai)
-    - [Others](#others)
+    - [Other GUIs](#others)
   - [LLM Wrappers](#llm-wrappers)
   - [Showcases](#showcases)
   - [Fine Tuning](#fine-tuning)
@@ -158,7 +158,7 @@
 - [Auto GPT](https://github.com/Torantulino/Auto-GPT)
 - [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
 
-### Others
+### Other GUIs
 - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 - [Text Generation Webui | An all purpose UI to run LLMs of all sorts with optimizations](https://github.com/oobabooga/text-generation-webui) ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 - [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
@@ -181,14 +181,16 @@
 - [pyllama | hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs](https://github.com/juncongmoo/pyllama)
 - [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
 - [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
+- [LlamaIndex (GPT Index) connecting LLMs to external data](https://github.com/jerryjliu/llama_index)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
-- 
+- [phind.com](phind.com) Developer Search Engine
 
 ## Fine Tuning
 - [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
-- 
+- [LLaMA-LoRA Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner)
+- [alpaca-lora](https://github.com/tloen/alpaca-lora)
 
 # Image Generation
 
