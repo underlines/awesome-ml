@@ -111,6 +111,8 @@
 - [LAION OpenFlamingo | Multi Modal Model and training architecture](https://github.com/mlfoundations/open_flamingo)
 - [TheBloke/galpaca-13b-gptq-4bit-128g](https://huggingface.co/TheBloke/galpaca-30B-GPTQ-4bit-128g), GALACTICA 30B fine tuned with Alpaca 
 - [GeorgiaTechResearchInstitute/galpaca-6.7b](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b) GALACTICA 6.7B fine tuned with Alpaca
+- [GeoV/GeoV-9b](https://huggingface.co/GeoV/GeoV-9b) - 9B parameter, in-progress training to 300B tokens (33:1)
+- [RWKV: Parallelizable RNN with Transformer-level LLM Performance](https://github.com/BlinkDL/RWKV-LM)
 
 | Model                                                                                            | Author       | Foundation | Size | Quantization | Fine Tuning Dataset                                                                                                                                          | Format      | LoRa |
 |--------------------------------------------------------------------------------------------------|--------------|------------|------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|------|
