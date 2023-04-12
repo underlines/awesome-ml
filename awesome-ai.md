@@ -112,7 +112,7 @@
 ## Other SOTA Open Source models
 - [Cerebras GPT-13b](https://huggingface.co/cerebras) ([release notes](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/))
 - [LAION OpenFlamingo | Multi Modal Model and training architecture](https://github.com/mlfoundations/open_flamingo)
-- [TheBloke/galpaca-13b-gptq-4bit-128g](https://huggingface.co/TheBloke/galpaca-30B-GPTQ-4bit-128g), GALACTICA 30B fine tuned with Alpaca 
+- [TheBloke/galpaca-30b-gptq-4bit-128g](https://huggingface.co/TheBloke/galpaca-30B-GPTQ-4bit-128g), GALACTICA 30B fine tuned with Alpaca 
 - [GeorgiaTechResearchInstitute/galpaca-6.7b](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b) GALACTICA 6.7B fine tuned with Alpaca
 
 | Model                                                                                            | Author       | Foundation | Size | Quantization | Fine Tuning Dataset                                                                                                                                          | Format      | LoRa |
