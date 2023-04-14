@@ -123,7 +123,9 @@
 | [pythia-12b-pre-2000](https://huggingface.co/andreaskoepf/pythia-12b-pre-2000)                   | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
 | [pythia-12b-pre-3500](https://huggingface.co/andreaskoepf/pythia-12b-pre-3500)                   | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
 | [oasst-pythia-12b-reference](https://huggingface.co/dvruette/oasst-pythia-12b-reference)         | dvruette     | Pythia     | 12b  | 16bit        | ?                                                                                                                                                            | native .bin |      |
-| [pythia-6.9b-gpt4all-pretrain](https://huggingface.co/andreaskoepf/pythia-6.9b-gpt4all-pretrain) | andreaskoepf | Pythia     | 6.9b | 16bit        | Open-Assistant? gpt4all?                                                                                                                                     | native .bin |
+| [pythia-6.9b-gpt4all-pretrain](https://huggingface.co/andreaskoepf/pythia-6.9b-gpt4all-pretrain) | andreaskoepf | Pythia     | 6.9b | 16bit        | Open-Assistant? gpt4all?                                                                                                                                     | native .bin |      |
+| [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                                   | databricks   | Pythia     | 12b  | 16bit        | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | native .bin |      |
+| [dolly-v2-12b-GPTQ-4bit-128g](https://huggingface.co/mzedp/dolly-v2-12b-GPTQ-4bit-128g)          | mzedp        | Pythia     | 12b  | 4bit         | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | safetensors |      |
 
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
@@ -139,7 +141,9 @@
 - [gpt4all_prompt_generations_with_p3](https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations_with_p3)
 - [gpt4all_prompt_generations](https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations)
 - [alpaca-plus-gpt4all-without-p3](https://huggingface.co/datasets/magicgh/alpaca-plus-gpt4all-without-p3)
-- 
+- [Alpaca dataset from Stanford, cleaned and curated](https://github.com/gururise/AlpacaDataCleaned) 
+- [Alpaca Chain of Thought fine tuning dataset for EN and CN](https://github.com/PhoebusSi/Alpaca-CoT)
+- [PRESTO | Multilingual dataset for parsing realistic task-oriented dialogues by Google & University of Rochester, California, Santa Barbara, Columbia](https://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html) [paper](https://arxiv.org/pdf/2303.08954.pdf)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -196,6 +200,7 @@
 - [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
 - [LLaMA-LoRA Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
+- [StackLLaMA Fine-Tuning Guide by huggingface](https://huggingface.co/blog/stackllama)
 
 # Image Generation
 
