@@ -126,6 +126,7 @@
 | [pythia-6.9b-gpt4all-pretrain](https://huggingface.co/andreaskoepf/pythia-6.9b-gpt4all-pretrain) | andreaskoepf | Pythia     | 6.9b | 16bit        | Open-Assistant? gpt4all?                                                                                                                                     | native .bin |      |
 | [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                                   | databricks   | Pythia     | 12b  | 16bit        | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | native .bin |      |
 | [dolly-v2-12b-GPTQ-4bit-128g](https://huggingface.co/mzedp/dolly-v2-12b-GPTQ-4bit-128g)          | mzedp        | Pythia     | 12b  | 4bit         | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | safetensors |      |
+| [gpt4all-j](https://huggingface.co/nomic-ai/gpt4all-j)                                           | nomic-ai     | GPT-J      | 6b   | 16bit        | [gpt4all-j-prompt-generations](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)                                                        | native .bin |      |
 
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
