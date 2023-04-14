@@ -180,6 +180,7 @@
 - [Lit-llama](https://github.com/Lightning-AI/lit-llama)
 - [gpt4all](https://github.com/nomic-ai/gpt4all)
 - [openplayground Try out almost any LLM in a gui](https://github.com/nat/openplayground)
+- [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
 
 
 ## LLM Wrappers
@@ -201,6 +202,7 @@
 - [LLaMA-LoRA Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
 - [StackLLaMA Fine-Tuning Guide by huggingface](https://huggingface.co/blog/stackllama)
+- [xTuring | LLM finetuning pipeline supporting LoRa & 4bit](https://github.com/stochasticai/xturing)
 
 # Image Generation
 
