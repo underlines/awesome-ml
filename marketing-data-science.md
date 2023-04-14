@@ -132,6 +132,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Quantcast Analytics | Audience Analytics with 3rd party data exchange](https://www.quantcast.com/products/measure-audience-insights/)
 - [Engauge | Open-source single binary app and web analytics with minimal requirements](https://github.com/EngaugeAI/engauge)
 - [Counter.dev | Basic, open source non-intrusive web analytics](https://github.com/ihucos/counter.dev)
+- [Beam Analytics | Paid, closed source, GDPR compliant, cookieless, 100k pageviews/m unrestricted free tier](https://beamanalytics.io/)
 
 
 ## Machine Learning IDEs
