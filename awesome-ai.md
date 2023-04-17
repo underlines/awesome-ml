@@ -131,7 +131,7 @@
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
 - [codealpaca Instruction training data set for code generation](https://github.com/sahil280114/codealpaca)
-- [LAION AI creates a cowd sourced fine-tuning data set for a future open source instruction based LLM](https://open-assistant.io) (https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/)
+- [LAION AI / Open-Assistant Dataset](https://huggingface.co/datasets/OpenAssistant/oasst1) (https://github.com/LAION-AI/Open-Assistant / https://projects.laion.ai/Open-Assistant/ / https://open-assistant.io)
 - [pre-cleaned, English only, "unfiltered," and 2048 token split version of the ShareGPT dataset ready for finetuning](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
 - [Vicuna ShareGPT pre-cleaned 90k conversation dataset](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main/HTML_cleaned_raw_dataset)
 - [Vicuna ShareGPT unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
