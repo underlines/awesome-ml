@@ -126,6 +126,7 @@
 - [GeorgiaTechResearchInstitute/galpaca-6.7b](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b) GALACTICA 6.7B fine tuned with Alpaca
 - [GeoV/GeoV-9b](https://huggingface.co/GeoV/GeoV-9b) - 9B parameter, in-progress training to 300B tokens (33:1)
 - [RWKV: Parallelizable RNN with Transformer-level LLM Performance](https://github.com/BlinkDL/RWKV-LM)
+- [CodeGeeX 13B | Multi Language Code Generation Model](https://huggingface.co/spaces/THUDM/CodeGeeX)
 
 | Model                                                                                              | Author       | Foundation | Size | Quantization | Fine Tuning Dataset                                                                                                                                          | Format      | LoRa |
 |----------------------------------------------------------------------------------------------------|--------------|------------|------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|------|
