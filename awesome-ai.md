@@ -193,6 +193,8 @@
 - [openplayground Try out almost any LLM in a gui](https://github.com/nat/openplayground)
 - [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
 - [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
+- [Auto Vicuna Butler| Baby-AGI fork / AutoGPT alternative to run with local LLMs](https://github.com/NiaSchim/auto-vicuna-butler)
+- [BabyAGI | AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp](https://github.com/yoheinakajima/babyagi)
 
 
 ## LLM Wrappers
