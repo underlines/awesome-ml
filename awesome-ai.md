@@ -211,6 +211,7 @@
 - [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
 - [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 - [LlamaIndex (GPT Index) connecting LLMs to external data](https://github.com/jerryjliu/llama_index)
+- [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
