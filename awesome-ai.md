@@ -227,6 +227,7 @@
 - [StackLLaMA Fine-Tuning Guide by huggingface](https://huggingface.co/blog/stackllama)
 - [xTuring | LLM finetuning pipeline supporting LoRa & 4bit](https://github.com/stochasticai/xturing)
 - [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
+- [How to train your LLMs](https://blog.replit.com/llm-training)
 
 # Image Generation
 
