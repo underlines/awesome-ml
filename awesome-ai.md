@@ -125,6 +125,7 @@
 | [stabilityai/stablelm-base-alpha-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b/)   | Stability-AI | StableLM   | 7b   | 16bit        | [The New Pile](https://pile.eleuther.ai/)                                                                                                                    | native .bin |      |
 | [stabilityai/stablelm-tuned-alpha-3b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-3b/) | Stability-AI | StableLM   | 3b   | 16bit        | [The New Pile](https://pile.eleuther.ai/), Stanford's Alpaca, Nomic-AI's gpt4all, RyokoAI's ShareGPT52K, Databricks Dolly, Anthropic's HH                    | native .bin |      |
 | [stabilityai/stablelm-tuned-alpha-7b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b/) | Stability-AI | StableLM   | 7b   | 16bit        | [The New Pile](https://pile.eleuther.ai/), Stanford's Alpaca, Nomic-AI's gpt4all, RyokoAI's ShareGPT52K, Databricks Dolly, Anthropic's HH                    | native .bin |      |
+| [LLaVA-13b-delta-v0](https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0)                         | liuhaotian   | LLaMA      | 13b  | 16bit        | [LLaVA Instruct](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)                                                                             | native .bin |      |
 | [oasst-pythia-12b-pretrained](https://huggingface.co/dvruette/oasst-pythia-12b-pretrained)         | dvruette     | Pythia     | 12b  | 16bit        | Open-Assistant?                                                                                                                                              | native .bin |      |
 | [pythia-12b-pre-2000](https://huggingface.co/andreaskoepf/pythia-12b-pre-2000)                     | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
 | [pythia-12b-pre-3500](https://huggingface.co/andreaskoepf/pythia-12b-pre-3500)                     | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
@@ -160,6 +161,8 @@
 - [Emergent Abilities of LLMs ](https://openreview.net/forum?id=yzkSU5zdwD), [blog post](https://www.jasonwei.net/blog/emergence)
 - [visualchatgpt | Microsoft research proposes a multi-modal architecture to give chatgpt the ability to interpret and generate images based on open source foundation models](https://github.com/microsoft/visual-chatgpt)
 - [facts checker reinforcement](https://arxiv.org/abs/2302.12813)
+- [LLaVA: Large Language and Vision Assistant, combining LLaMA with a visual model. Delta-weights released](https://llava-vl.github.io/)
+- 
 
 ## LLM GUIs
 ### OpenAI
@@ -236,6 +239,7 @@
 # Video
 ## Text to video generation
 - [ModelScope Text to video synthesis](https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis)
+- [Nvidia VideoLDM: Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)
 
 ## Frame Interpolation (Temporal Interpolation)
 - https://github.com/google-research/frame-interpolation
