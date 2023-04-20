@@ -119,16 +119,21 @@
 - [GeoV/GeoV-9b](https://huggingface.co/GeoV/GeoV-9b) - 9B parameter, in-progress training to 300B tokens (33:1)
 - [RWKV: Parallelizable RNN with Transformer-level LLM Performance](https://github.com/BlinkDL/RWKV-LM)
 
-| Model                                                                                            | Author       | Foundation | Size | Quantization | Fine Tuning Dataset                                                                                                                                          | Format      | LoRa |
-|--------------------------------------------------------------------------------------------------|--------------|------------|------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|------|
-| [oasst-pythia-12b-pretrained](https://huggingface.co/dvruette/oasst-pythia-12b-pretrained)       | dvruette     | Pythia     | 12b  | 16bit        | Open-Assistant?                                                                                                                                              | native .bin |      |
-| [pythia-12b-pre-2000](https://huggingface.co/andreaskoepf/pythia-12b-pre-2000)                   | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
-| [pythia-12b-pre-3500](https://huggingface.co/andreaskoepf/pythia-12b-pre-3500)                   | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
-| [oasst-pythia-12b-reference](https://huggingface.co/dvruette/oasst-pythia-12b-reference)         | dvruette     | Pythia     | 12b  | 16bit        | ?                                                                                                                                                            | native .bin |      |
-| [pythia-6.9b-gpt4all-pretrain](https://huggingface.co/andreaskoepf/pythia-6.9b-gpt4all-pretrain) | andreaskoepf | Pythia     | 6.9b | 16bit        | Open-Assistant? gpt4all?                                                                                                                                     | native .bin |      |
-| [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                                   | databricks   | Pythia     | 12b  | 16bit        | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | native .bin |      |
-| [dolly-v2-12b-GPTQ-4bit-128g](https://huggingface.co/mzedp/dolly-v2-12b-GPTQ-4bit-128g)          | mzedp        | Pythia     | 12b  | 4bit         | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | safetensors |      |
-| [gpt4all-j](https://huggingface.co/nomic-ai/gpt4all-j)                                           | nomic-ai     | GPT-J      | 6b   | 16bit        | [gpt4all-j-prompt-generations](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)                                                        | native .bin |      |
+| Model                                                                                              | Author       | Foundation | Size | Quantization | Fine Tuning Dataset                                                                                                                                          | Format      | LoRa |
+|----------------------------------------------------------------------------------------------------|--------------|------------|------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|------|
+| [stabilityai/stablelm-base-alpha-3b](https://huggingface.co/stabilityai/stablelm-base-alpha-3b/)   | Stability-AI | StableLM   | 3b   | 16bit        | [The New Pile](https://pile.eleuther.ai/)                                                                                                                    | native .bin |      |
+| [stabilityai/stablelm-base-alpha-7b](https://huggingface.co/stabilityai/stablelm-base-alpha-7b/)   | Stability-AI | StableLM   | 7b   | 16bit        | [The New Pile](https://pile.eleuther.ai/)                                                                                                                    | native .bin |      |
+| [stabilityai/stablelm-tuned-alpha-3b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-3b/) | Stability-AI | StableLM   | 3b   | 16bit        | [The New Pile](https://pile.eleuther.ai/), Stanford's Alpaca, Nomic-AI's gpt4all, RyokoAI's ShareGPT52K, Databricks Dolly, Anthropic's HH                    | native .bin |      |
+| [stabilityai/stablelm-tuned-alpha-7b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b/) | Stability-AI | StableLM   | 7b   | 16bit        | [The New Pile](https://pile.eleuther.ai/), Stanford's Alpaca, Nomic-AI's gpt4all, RyokoAI's ShareGPT52K, Databricks Dolly, Anthropic's HH                    | native .bin |      |
+| [oasst-pythia-12b-pretrained](https://huggingface.co/dvruette/oasst-pythia-12b-pretrained)         | dvruette     | Pythia     | 12b  | 16bit        | Open-Assistant?                                                                                                                                              | native .bin |      |
+| [pythia-12b-pre-2000](https://huggingface.co/andreaskoepf/pythia-12b-pre-2000)                     | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
+| [pythia-12b-pre-3500](https://huggingface.co/andreaskoepf/pythia-12b-pre-3500)                     | andreaskoepf | Pythia     | 12b  | 16bit        | joke, webgpt, gpt4all, alpaca, code_alpaca, minimath, codegen, testgen, grade school math, recipes, cmu wiki, oa wiki, prosocial dialogue, explain prosocial | native .bin |      |
+| [oasst-pythia-12b-reference](https://huggingface.co/dvruette/oasst-pythia-12b-reference)           | dvruette     | Pythia     | 12b  | 16bit        | ?                                                                                                                                                            | native .bin |      |
+| [pythia-6.9b-gpt4all-pretrain](https://huggingface.co/andreaskoepf/pythia-6.9b-gpt4all-pretrain)   | andreaskoepf | Pythia     | 6.9b | 16bit        | Open-Assistant? gpt4all?                                                                                                                                     | native .bin |      |
+| [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                                     | databricks   | Pythia     | 12b  | 16bit        | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | native .bin |      |
+| [dolly-v2-12b-GPTQ-4bit-128g](https://huggingface.co/mzedp/dolly-v2-12b-GPTQ-4bit-128g)            | mzedp        | Pythia     | 12b  | 4bit         | [databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)                                                                             | safetensors |      |
+| [gpt4all-j](https://huggingface.co/nomic-ai/gpt4all-j)                                             | nomic-ai     | GPT-J      | 6b   | 16bit        | [gpt4all-j-prompt-generations](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)                                                        | native .bin |      |
+
 
 ## Data sets
 - [Alpaca-lora instruction finetuned using Low Rank Adaption](https://github.com/tloen/alpaca-lora)
@@ -184,6 +189,7 @@
 - [gpt4all](https://github.com/nomic-ai/gpt4all)
 - [openplayground Try out almost any LLM in a gui](https://github.com/nat/openplayground)
 - [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
+- [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
 
 
 ## LLM Wrappers
@@ -206,6 +212,7 @@
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
 - [StackLLaMA Fine-Tuning Guide by huggingface](https://huggingface.co/blog/stackllama)
 - [xTuring | LLM finetuning pipeline supporting LoRa & 4bit](https://github.com/stochasticai/xturing)
+- [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
 
 # Image Generation
 
