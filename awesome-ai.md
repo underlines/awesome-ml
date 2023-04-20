@@ -162,6 +162,7 @@
 - [Alpaca dataset from Stanford, cleaned and curated](https://github.com/gururise/AlpacaDataCleaned) 
 - [Alpaca Chain of Thought fine tuning dataset for EN and CN](https://github.com/PhoebusSi/Alpaca-CoT)
 - [PRESTO | Multilingual dataset for parsing realistic task-oriented dialogues by Google & University of Rochester, California, Santa Barbara, Columbia](https://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html) [paper](https://arxiv.org/pdf/2303.08954.pdf)
+- [RedPajama | Dataset and model similar to LLaMA but truly open source and ready for commercial use](https://www.together.xyz/blog/redpajama)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
