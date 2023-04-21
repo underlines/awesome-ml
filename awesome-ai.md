@@ -222,6 +222,7 @@
 - [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
 - [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
 - [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
+- [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
