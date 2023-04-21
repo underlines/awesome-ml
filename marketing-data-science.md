@@ -55,10 +55,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [AirByte | Open-source ELT solution for simple data integration, owned by you](https://github.com/airbytehq/airbyte)
 - [PRQL | a modern language for transforming data — a simple, powerful, pipelined SQL replacement](https://prql-lang.org/)
 - [YoBulk | Opensource CSV importer powered by GPT3, flatfile alternative](https://github.com/yobulkdev/yobulkdev)
-- 
+- [meltano | Extract & Load /with joy/ — CLI & version control for ELT without limitations](https://github.com/meltano/meltano)
 
 ### Cloud ETL
-- [Singer | Open-source composable data extraction for many sources and destinations](https://www.singer.io/)
+- [Singer | Open-source composable data extraction for many sources and destinations]([https://www.singer.io/](https://github.com/singer-io))
 - [Fivetran](https://fivetran.com/)
 - [Stitchdata](https://www.stitchdata.com/)
 - [Panoply](https://panoply.io/)
@@ -68,7 +68,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Matillion | ETL & Transformation](https://www.matillion.com/)
 - [funnel.io | Marketing Data Extraction](https://funnel.io/)
 - [Adverity | Marketing Data Integration, Reporting and Analytics](https://www.adverity.com/)
-- [Singer | Open Source Data Integration](https://github.com/singer-io)
+
 
 ### Metadata
 - [Metacat | Open-source Metadata management for Hive, RDS, Teradata, Redshift, S3 and Cassandra](https://github.com/Netflix/metacat)
