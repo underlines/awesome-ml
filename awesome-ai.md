@@ -188,6 +188,7 @@
 - [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 - [Auto GPT](https://github.com/Torantulino/Auto-GPT)
 - [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
+- [sqlchat | Use OpenAI GPT3/4 to chat with your database](https://github.com/sqlchat/sqlchat)
 
 ### Other GUIs
 - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
