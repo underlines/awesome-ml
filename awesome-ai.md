@@ -207,6 +207,7 @@
 - [Auto Vicuna Butler| Baby-AGI fork / AutoGPT alternative to run with local LLMs](https://github.com/NiaSchim/auto-vicuna-butler)
 - [BabyAGI | AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp](https://github.com/yoheinakajima/babyagi)
 - [huggingGPT / JARVIS | Connects LLMs with huggingface specialized models](https://github.com/microsoft/JARVIS)
+- [OpenAGI | AGI research platform, solves multi step tasks with RLTF and supports complex model chains](https://github.com/agiresearch/openagi)
 
 
 ## LLM Wrappers
