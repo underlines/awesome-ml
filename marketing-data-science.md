@@ -133,6 +133,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Engauge | Open-source single binary app and web analytics with minimal requirements](https://github.com/EngaugeAI/engauge)
 - [Counter.dev | Basic, open source non-intrusive web analytics](https://github.com/ihucos/counter.dev)
 - [Beam Analytics | Paid, closed source, GDPR compliant, cookieless, 100k pageviews/m unrestricted free tier](https://beamanalytics.io/)
+- [Uptrace | Open source APM: OpenTelemetry traces, metrics, and logs](https://github.com/uptrace/uptrace)
 
 
 ## Machine Learning IDEs
@@ -165,6 +166,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Looker | Google acquired data visualization](https://looker.com)
 - [Apache Grafana | Open-source data visualization and monitoring](https://github.com/grafana/grafana)
 - [Apache Superset | Open-source enterprise grade web based BI solution](https://github.com/apache/superset)
+- [evidence | Business intelligence as code with SQL and markdown](https://github.com/evidence-dev/evidence)
 
 
 ## SaaS Marketing Reporting Solutions
