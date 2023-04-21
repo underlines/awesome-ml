@@ -173,7 +173,7 @@
 - [visualchatgpt | Microsoft research proposes a multi-modal architecture to give chatgpt the ability to interpret and generate images based on open source foundation models](https://github.com/microsoft/visual-chatgpt)
 - [facts checker reinforcement](https://arxiv.org/abs/2302.12813)
 - [LLaVA: Large Language and Vision Assistant, combining LLaMA with a visual model. Delta-weights released](https://llava-vl.github.io/)
-- 
+- [Mass Editing Memory in a Transformer](https://memit.baulab.info/)
 
 ## LLM GUIs
 ### OpenAI
@@ -206,6 +206,7 @@
 - [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
 - [Auto Vicuna Butler| Baby-AGI fork / AutoGPT alternative to run with local LLMs](https://github.com/NiaSchim/auto-vicuna-butler)
 - [BabyAGI | AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp](https://github.com/yoheinakajima/babyagi)
+- [huggingGPT / JARVIS | Connects LLMs with huggingface specialized models](https://github.com/microsoft/JARVIS)
 
 
 ## LLM Wrappers
@@ -218,6 +219,8 @@
 - [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 - [LlamaIndex (GPT Index) connecting LLMs to external data](https://github.com/jerryjliu/llama_index)
 - [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
+- [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
+- [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
