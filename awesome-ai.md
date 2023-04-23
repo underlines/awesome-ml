@@ -128,6 +128,7 @@
 - [GeoV/GeoV-9b](https://huggingface.co/GeoV/GeoV-9b) - 9B parameter, in-progress training to 300B tokens (33:1)
 - [RWKV: Parallelizable RNN with Transformer-level LLM Performance](https://github.com/BlinkDL/RWKV-LM)
 - [CodeGeeX 13B | Multi Language Code Generation Model](https://huggingface.co/spaces/THUDM/CodeGeeX)
+- [BigCode | Open Scientific collaboration to train a coding LLM](https://huggingface.co/bigcode)
 
 | Model                                                                                              | Author       | Foundation | Size | Quantization | Fine Tuning Dataset                                                                                                                                          | Format      | LoRa |
 |----------------------------------------------------------------------------------------------------|--------------|------------|------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|------|
@@ -164,6 +165,8 @@
 - [Alpaca Chain of Thought fine tuning dataset for EN and CN](https://github.com/PhoebusSi/Alpaca-CoT)
 - [PRESTO | Multilingual dataset for parsing realistic task-oriented dialogues by Google & University of Rochester, California, Santa Barbara, Columbia](https://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html) [paper](https://arxiv.org/pdf/2303.08954.pdf)
 - [RedPajama | Dataset and model similar to LLaMA but truly open source and ready for commercial use](https://www.together.xyz/blog/redpajama)
+- [BigCode The Stack](https://huggingface.co/datasets/bigcode/the-stack)
+- 
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
