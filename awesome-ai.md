@@ -1,13 +1,13 @@
 # Table of Contents
 
 - [Large Language Models](#large-language-models)
-  - [LLaMA models](#llama-models)
+  - [Open models](#open-models)
   - [Other SOTA Open Source Models](#other-sota-open-source-models)
   - [Data sets](#data-sets)
   - [Research](#research)
   - [LLM GUIs](#llm-guis)
     - [OpenAI](#openai)
-    - [Other GUIs](#others)
+    - [Other GUIs](#other-guis)
   - [LLM Wrappers](#llm-wrappers)
   - [Showcases](#showcases)
   - [Fine Tuning](#fine-tuning)
