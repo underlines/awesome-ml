@@ -276,7 +276,7 @@
 - [BabyAGI | AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp](https://github.com/yoheinakajima/babyagi)
 - [huggingGPT / JARVIS | Connects LLMs with huggingface specialized models](https://github.com/microsoft/JARVIS)
 - [OpenAGI | AGI research platform, solves multi step tasks with RLTF and supports complex model chains](https://github.com/agiresearch/openagi)
-
+- [Agent-LLM | AI Automation Platform. Various providers, adaptive memory, plugin system, web browsing](https://github.com/Josh-XT/Agent-LLM)
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -293,6 +293,7 @@
 - [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
 - [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
 - [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
+- [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
