@@ -177,6 +177,7 @@
 - [facts checker reinforcement](https://arxiv.org/abs/2302.12813)
 - [LLaVA: Large Language and Vision Assistant, combining LLaMA with a visual model. Delta-weights released](https://llava-vl.github.io/)
 - [Mass Editing Memory in a Transformer](https://memit.baulab.info/)
+- [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://minigpt-4.github.io/)
 
 ## LLM GUIs
 ### OpenAI
