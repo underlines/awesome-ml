@@ -227,6 +227,8 @@
 - [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
 - [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
 - [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
+- [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
+- [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
