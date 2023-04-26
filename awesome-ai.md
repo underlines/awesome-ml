@@ -247,6 +247,7 @@
 - [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://minigpt-4.github.io/)
 - [WizardLM | Fine tuned LLaMA 7B with evolving instructions, outperforming chatGPT and Vicuna 13B on complex test instructions](https://arxiv.org/abs/2304.12244) ([code](https://github.com/nlpxucan/WizardLM), [delta weights](https://huggingface.co/victor123/WizardLM))
 - [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062)
+- [AudioGPT | Understanding and Generating Speech, Music, Sound, and Talking Head](https://arxiv.org/abs/2304.12995) ([AIGC-Audio/AudioGPT](https://github.com/AIGC-Audio/AudioGPT), [hf space](https://huggingface.co/spaces/AIGC-Audio/AudioGPT))
 
 ## LLM GUIs
 ### OpenAI
