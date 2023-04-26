@@ -230,7 +230,7 @@
 - [PRESTO | Multilingual dataset for parsing realistic task-oriented dialogues by Google & University of Rochester, California, Santa Barbara, Columbia](https://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html) [paper](https://arxiv.org/pdf/2303.08954.pdf)
 - [RedPajama | Dataset and model similar to LLaMA but truly open source and ready for commercial use](https://www.together.xyz/blog/redpajama)
 - [BigCode The Stack](https://huggingface.co/datasets/bigcode/the-stack)
-- 
+- [open-instruct-v1](https://huggingface.co/datasets/hakurei/open-instruct-v1)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -243,6 +243,7 @@
 - [Mass Editing Memory in a Transformer](https://memit.baulab.info/)
 - [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://minigpt-4.github.io/)
 - [WizardLM | Fine tuned LLaMA 7B with evolving instructions, outperforming chatGPT and Vicuna 13B on complex test instructions](https://arxiv.org/abs/2304.12244) ([code](https://github.com/nlpxucan/WizardLM), [delta weights](https://huggingface.co/victor123/WizardLM))
+- [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062)
 
 ## LLM GUIs
 ### OpenAI
