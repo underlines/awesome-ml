@@ -290,7 +290,7 @@
 - [Agent-LLM | AI Automation Platform. Various providers, adaptive memory, plugin system, web browsing](https://github.com/Josh-XT/Agent-LLM)
 - [bark TTS for oobabooga/text-generation-webui, make your local LLM talk](https://github.com/wsippel/bark_tts)
 - [bark TTS for oobabooga/text-generation-webui, another implementation](https://github.com/minemo/text-generation-webui-barktts)
-- 
+- [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -315,6 +315,7 @@
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
 - [phind.com](phind.com) Developer Search Engine
+- [Voice Q&A Assistant](https://github.com/hackingthemarkets/qa-assistant-eleven-labs-voice-cloning) using ChatGPT API, Embeddings, Gradio, Eleven Labs and Whisper
 
 ## Fine Tuning
 - [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
