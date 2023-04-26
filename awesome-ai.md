@@ -365,6 +365,23 @@
 ## Speech Recognition
 - https://github.com/openai/whisper
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
+- [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
+
+## Generative Audio
+- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark)
+- [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
+- [so-vits-svc-fork | SoftVC VITS Singing Voice Conversion Fork with realtime support and greatly improved interface. Based on branch 4.0 (v1) and the models are compatible.](https://github.com/voicepaw/so-vits-svc-fork) ([Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ))
+- [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
+- [VITS GUI to load VITS text to speech models](https://github.com/CjangCjengh/MoeGoe_GUI) 
+- [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
+- [RVC-Project | Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/README.en.md)
+- [Vall-E and Vall-E X | SOTA Zero Shot TTS preserving emotion, expression, similarity and allows language transfer](https://valle-demo.github.io/) ([paper](https://arxiv.org/abs/2301.02111), [code](https://github.com/enhuiz/vall-e))
+- [FastDiff implementation| Fast Conditional Diffusion Model for High-Quality Speech Synthesis](https://github.com/Rongjiehuang/FastDiff)
+- [NaturalSpeech implmenetation](https://github.com/heatz123/naturalspeech)
+- [IMS Toucan, TTS Toolkit from University of Stuttgart](https://github.com/digitalphonetics/ims-toucan)
+- [YourTTS | Zero Shot Multi Speaker TTS and Voice Conversion for everyone](https://github.com/Edresson/YourTTS)
+- [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
+
 
 # AI DevOps
 - https://www.steamship.com/
