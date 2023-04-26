@@ -326,6 +326,7 @@
 - https://github.com/kakaobrain/karlo
 - https://lukashoel.github.io/text-to-room/
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+- 
 
 ## Wrappers & GUIs
 - https://github.com/brycedrennan/imaginAIry/blob/master/README.md
@@ -381,6 +382,7 @@
 - [IMS Toucan, TTS Toolkit from University of Stuttgart](https://github.com/digitalphonetics/ims-toucan)
 - [YourTTS | Zero Shot Multi Speaker TTS and Voice Conversion for everyone](https://github.com/Edresson/YourTTS)
 - [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
+- [Nvidia NeMo | TTS, LLM, Audio Synthesis framework](https://github.com/NVIDIA/NeMo)
 
 
 # AI DevOps
