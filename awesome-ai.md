@@ -384,26 +384,25 @@
 
 ## Generative Audio
 - [Bark](https://github.com/suno-ai/bark) transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects
- - [Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones
- - [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab)
- - [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone)
- - [Bark Infinity for longer audio](https://github.com/JonathanFly/bark)
- - [Bark WebUI](https://github.com/makawy7/bark-webui))
+  - [Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones
+  - [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab)
+  - [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone)
+  - [Bark Infinity for longer audio](https://github.com/JonathanFly/bark)
+  - [Bark WebUI](https://github.com/makawy7/bark-webui))
 - [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
- - [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
+  - [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
 - [voicepaw/so-vits-svc-fork](https://github.com/voicepaw/so-vits-svc-fork) SoftVC VITS Singing Voice Conversion Fork with realtime support and greatly improved interface. Based on branch 4.0 (v1) and the models are compatible.
- - [Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ)
- - [nateraw/so-vits-svc-fork gradio app](https://github.com/nateraw/voice-cloning) for inference of so-vits-svc-fork voice models + ([training in colab](https://colab.research.google.com/github/nateraw/voice-cloning/blob/main/training_so_vits_svc_fork.ipynb) and [hf space](https://hf.co/spaces/nateraw/voice-cloning))
- - [so-vits-svc-5.0](https://github.com/PlayVoice/so-vits-svc-5.0)
- - [LoRa svc](https://github.com/PlayVoice/lora-svc)
- - [R]
+  - [Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ)
+  - [nateraw/so-vits-svc-fork gradio app](https://github.com/nateraw/voice-cloning) for inference of so-vits-svc-fork voice models + ([training in colab](https://colab.research.google.com/github/nateraw/voice-cloning/blob/main/training_so_vits_svc_fork.ipynb) and [hf space](https://hf.co/spaces/nateraw/voice-cloning))
+  - [so-vits-svc-5.0](https://github.com/PlayVoice/so-vits-svc-5.0)
+  - [LoRa svc](https://github.com/PlayVoice/lora-svc)
 - [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
 - [VITS GUI to load VITS text to speech models](https://github.com/CjangCjengh/MoeGoe_GUI) 
 - [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
 - [RVC-Project | Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/README.en.md)
 - [Vall-E and Vall-E X | SOTA Zero Shot TTS preserving emotion, expression, similarity and allows language transfer](https://valle-demo.github.io/)
- - [paper](https://arxiv.org/abs/2301.02111)
- - [code](https://github.com/enhuiz/vall-e)
+  - [paper](https://arxiv.org/abs/2301.02111)
+  - [code](https://github.com/enhuiz/vall-e)
 - [FastDiff implementation| Fast Conditional Diffusion Model for High-Quality Speech Synthesis](https://github.com/Rongjiehuang/FastDiff)
 - [NaturalSpeech implmenetation](https://github.com/heatz123/naturalspeech)
 - [IMS Toucan, TTS Toolkit from University of Stuttgart](https://github.com/digitalphonetics/ims-toucan)
@@ -411,9 +410,9 @@
 - [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
 - [Nvidia NeMo | TTS, LLM, Audio Synthesis framework](https://github.com/NVIDIA/NeMo)
 - [Tortoise TTS | Open source multi voice TTS system](https://github.com/neonbjb/tortoise-tts)
- - [finetune guide using DLAS DL-Art-School](https://www.youtube.com/watch?v=lnIq4SFFXWs)
- - [DL-Art-School](https://github.com/152334H/DL-Art-School) fine tuning tortoise with DLAS GUI
- - [tortoise-tts-fast](https://github.com/152334H/tortoise-tts-fast) fast Tortoise TTS inference up to 5x. [Video tutorial](https://www.youtube.com/watch?v=8i4T5v1Fl_M)
+  - [finetune guide using DLAS DL-Art-School](https://www.youtube.com/watch?v=lnIq4SFFXWs)
+  - [DL-Art-School](https://github.com/152334H/DL-Art-School) fine tuning tortoise with DLAS GUI
+  - [tortoise-tts-fast](https://github.com/152334H/tortoise-tts-fast) fast Tortoise TTS inference up to 5x. [Video tutorial](https://www.youtube.com/watch?v=8i4T5v1Fl_M)
  
 
 
