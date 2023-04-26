@@ -263,6 +263,8 @@
 - [Auto GPT](https://github.com/Torantulino/Auto-GPT)
 - [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
 - [sqlchat | Use OpenAI GPT3/4 to chat with your database](https://github.com/sqlchat/sqlchat)
+- [BarkingGPT | Audio2Audio by using Whisper+chatGPT+Bark](https://github.com/BudEcosystem/BarkingGPT)
+- [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
 
 ### Other GUIs
 - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
@@ -284,6 +286,9 @@
 - [huggingGPT / JARVIS | Connects LLMs with huggingface specialized models](https://github.com/microsoft/JARVIS)
 - [OpenAGI | AGI research platform, solves multi step tasks with RLTF and supports complex model chains](https://github.com/agiresearch/openagi)
 - [Agent-LLM | AI Automation Platform. Various providers, adaptive memory, plugin system, web browsing](https://github.com/Josh-XT/Agent-LLM)
+- [bark TTS for oobabooga/text-generation-webui, make your local LLM talk](https://github.com/wsippel/bark_tts)
+- [bark TTS for oobabooga/text-generation-webui, another implementation](https://github.com/minemo/text-generation-webui-barktts)
+- 
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -369,7 +374,7 @@
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 
 ## Generative Audio
-- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark)
+- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark) ([Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones), [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab), [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone), )
 - [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
 - [so-vits-svc-fork | SoftVC VITS Singing Voice Conversion Fork with realtime support and greatly improved interface. Based on branch 4.0 (v1) and the models are compatible.](https://github.com/voicepaw/so-vits-svc-fork) ([Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ))
 - [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
