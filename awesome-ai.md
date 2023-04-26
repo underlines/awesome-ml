@@ -11,7 +11,7 @@
   - [LLM Wrappers](#llm-wrappers)
   - [Showcases](#showcases)
   - [Fine Tuning](#fine-tuning)
-  - [Other awesome lists](#other-awesome-lists
+  - [Other awesome lists](#other-awesome-lists)
 - [Image Generation](#image-generation)
   - [Models](#models)
   - [Wrappers & GUIs](#wrappers--guis)
