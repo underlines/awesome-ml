@@ -25,6 +25,7 @@
 - [Audio](#audio)
   - [Compression](#compression)
   - [Speech Recognition](#speech-recognition)
+  - [Generative Audio](#generative-audio)
 - [AI DevOps](#ai-devops)
 - [Optimization](#optimization)
   - [Inference](#inference)
