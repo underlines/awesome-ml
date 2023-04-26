@@ -211,6 +211,7 @@
 - [RWKV: Parallelizable RNN with Transformer-level LLM Performance](https://github.com/BlinkDL/RWKV-LM)
 - [CodeGeeX 13B | Multi Language Code Generation Model](https://huggingface.co/spaces/THUDM/CodeGeeX)
 - [BigCode | Open Scientific collaboration to train a coding LLM](https://huggingface.co/bigcode)
+- [MOSS by Fudan University](https://github.com/OpenLMLab/MOSS)
 
 
 ## Data sets
@@ -307,6 +308,9 @@
 - [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
 - [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
 - [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
+- [gpt4free | Use reverse engineered GPT3.5/4 APIs of other website's APIs](https://github.com/xtekky/gpt4free)
+- [AutoGPTQ | easy-to-use model GPTQ quantization package with user-friendly CLI](https://github.com/PanQiWei/AutoGPTQ)
+
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
@@ -335,16 +339,20 @@
 - 
 
 ## Wrappers & GUIs
-- https://github.com/brycedrennan/imaginAIry/blob/master/README.md
-- https://github.com/invoke-ai/InvokeAI
-- https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
+- [InvokeAI | Alternative, polished stable diffusion UI with less features than automatic1111](https://github.com/invoke-ai/InvokeAI)
+- [Automatic1111/stable-diffusion-webui | The most famous UI for Stable Diffusion with the most features](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
+- [vladmandic/automatic | Heavily opinionated custom fork AUTOMATIC1111's repo, as close as up-to-date with origin as time allows](https://github.com/vladmandic/automatic)
+- [anapnoe/stable-diffusion-webui-ux | Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements](https://github.com/anapnoe/stable-diffusion-webui-ux)
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
 - https://github.com/TheLastBen/fast-stable-diffusion
 - https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth
 - https://github.com/cloneofsimo/lora
+- [Kohya_ss | Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers](https://github.com/bmaltais/kohya_ss)
+- [StableTuner | Windows GUI for Finetuning / Dreambooth Stable Diffusion models](https://github.com/devilismyfriend/StableTuner)
 
 # Video
 ## Text to video generation
@@ -375,7 +383,7 @@
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 
 ## Generative Audio
-- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark) ([Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones), [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab), [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone), [Bark Infinity for longer audio](https://github.com/JonathanFly/bark))
+- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark) ([Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones), [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab), [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone), [Bark Infinity for longer audio](https://github.com/JonathanFly/bark), [Bark WebUI](https://github.com/makawy7/bark-webui))
 - [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
 - [so-vits-svc-fork | SoftVC VITS Singing Voice Conversion Fork with realtime support and greatly improved interface. Based on branch 4.0 (v1) and the models are compatible.](https://github.com/voicepaw/so-vits-svc-fork) ([Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ))
 - [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
@@ -389,6 +397,7 @@
 - [YourTTS | Zero Shot Multi Speaker TTS and Voice Conversion for everyone](https://github.com/Edresson/YourTTS)
 - [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
 - [Nvidia NeMo | TTS, LLM, Audio Synthesis framework](https://github.com/NVIDIA/NeMo)
+- [Tortoise TTS | Open source multi voice TTS system](https://github.com/neonbjb/tortoise-tts) ([finetune guide using DLAS DL-Art-School](https://www.youtube.com/watch?v=lnIq4SFFXWs))
 
 
 # AI DevOps
