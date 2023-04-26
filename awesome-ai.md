@@ -37,6 +37,7 @@
 ## Open models
 | Model                                                                                                                                    | Author                   | Foundation  | Size       | Quantization | Fine Tuning Dataset                                                                                                                                                                                                                                                                                                                                                                          | Format                       | LoRa | model date |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|-------------|------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------|------------|
+| [WizardLM](https://huggingface.co/victor123/WizardLM)                                                                              | victor123                | ?           | 7b         | none         | [alpaca_evol_instruct_70k](https://huggingface.co/datasets/victor123/evol_instruct_70k)                                                                                                                                                                                                                                                                                             | native .bin                  |      | 2023-04-25 |
 | [MiniGPT4-7B](https://huggingface.co/camenduru/MiniGPT4-7B)                                                                              | camenduru                | ?           | 7b         | none         | minigpt-4                                                                                                                                                                                                                                                                                                                                                                                    | native .bin                  |      | 2023-04-23 |
 | [CodeGen-6B-multi-ggml-quant](https://huggingface.co/ravenscroftj/CodeGen-6B-multi-ggml-quant)                                           | ravenscroftj             | codegen     | 6b         | 4bit ?       | none                                                                                                                                                                                                                                                                                                                                                                                         | ggml                         |      | 2023-04-23 |
 | [CodeGen-2B-multi-ggml-quant](https://huggingface.co/ravenscroftj/CodeGen-2B-multi-ggml-quant)                                           | ravenscroftj             | codegen     | 2b         | 4bit ?       | none                                                                                                                                                                                                                                                                                                                                                                                         | ggml                         |      | 2023-04-23 |
@@ -241,6 +242,7 @@
 - [LLaVA: Large Language and Vision Assistant, combining LLaMA with a visual model. Delta-weights released](https://llava-vl.github.io/)
 - [Mass Editing Memory in a Transformer](https://memit.baulab.info/)
 - [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://minigpt-4.github.io/)
+- [WizardLM | Fine tuned LLaMA 7B with evolving instructions, outperforming chatGPT and Vicuna 13B on complex test instructions](https://arxiv.org/abs/2304.12244) ([code](https://github.com/nlpxucan/WizardLM), [delta weights](https://huggingface.co/victor123/WizardLM))
 
 ## LLM GUIs
 ### OpenAI
@@ -281,7 +283,7 @@
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
 - [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
-- [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s))
+- [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
 - [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
 - [pyllama | hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs](https://github.com/juncongmoo/pyllama)
 - [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
@@ -307,6 +309,7 @@
 - [xTuring | LLM finetuning pipeline supporting LoRa & 4bit](https://github.com/stochasticai/xturing)
 - [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
 - [How to train your LLMs](https://blog.replit.com/llm-training)
+- [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
 
 # Image Generation
 
