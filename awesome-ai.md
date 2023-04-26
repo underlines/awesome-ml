@@ -375,7 +375,7 @@
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 
 ## Generative Audio
-- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark) ([Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones), [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab), [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone), )
+- [Bark | transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects](https://github.com/suno-ai/bark) ([Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones), [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab), [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone), [Bark Infinity for longer audio](https://github.com/JonathanFly/bark))
 - [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
 - [so-vits-svc-fork | SoftVC VITS Singing Voice Conversion Fork with realtime support and greatly improved interface. Based on branch 4.0 (v1) and the models are compatible.](https://github.com/voicepaw/so-vits-svc-fork) ([Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ))
 - [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
