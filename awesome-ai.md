@@ -11,6 +11,7 @@
   - [LLM Wrappers](#llm-wrappers)
   - [Showcases](#showcases)
   - [Fine Tuning](#fine-tuning)
+  - [Other awesome lists](#other-awesome-lists
 - [Image Generation](#image-generation)
   - [Models](#models)
   - [Wrappers & GUIs](#wrappers--guis)
@@ -231,6 +232,8 @@
 - [RedPajama | Dataset and model similar to LLaMA but truly open source and ready for commercial use](https://www.together.xyz/blog/redpajama)
 - [BigCode The Stack](https://huggingface.co/datasets/bigcode/the-stack)
 - [open-instruct-v1](https://huggingface.co/datasets/hakurei/open-instruct-v1)
+- [list of instruction datasets by yadongC/awesome-instruction-dataset](https://github.com/yaodongC/awesome-instruction-dataset)
+- [The Embedding Archives, Millions of Wikipedia Article Embeddings in multiple languages](https://txt.cohere.com/embedding-archives-wikipedia/)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -311,6 +314,10 @@
 - [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
 - [How to train your LLMs](https://blog.replit.com/llm-training)
 - [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
+
+## Other awesome lists
+- [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
+- 
 
 # Image Generation
 
