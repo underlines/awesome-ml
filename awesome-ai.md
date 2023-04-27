@@ -32,11 +32,20 @@
   - [Training](#training)
   - [Other Optimization](#other-optimization)
 
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=underlines/awesome-marketing-datascience&type=Date)](https://star-history.com/#underlines/awesome-marketing-datascience&Date)
+
+Contributions welcome. Accepting Pull Requests.
+
 # Large Language Models
 
 
 
 ## Open models
+
+[Model Google Sheet](https://docs.google.com/spreadsheets/d/1PtrPwDV8Wcdhzh-N_Siaofc2R6TImebnFvv0GuCCzdo/edit?usp=sharing)
+
 | Model                                                                                                                                    | Author                   | Foundation  | Size       | Quantization                       | Fine Tuning Dataset                                                                                                                                                                                                                                                                                                                                                                          | Format                       | LoRa | model date |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|-------------|------------|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------|------------|
 | [alpaca-7b-native-enhanced](https://huggingface.co/Pi3141/alpaca-7b-native-enhanced)                                                     | Pi3141                   | alpaca      | 7b         | q4_0, q4_1, q4_2, q4_3, q5_0, q5_1 | [larger dataset?](https://huggingface.co/Pi3141/alpaca-7b-native-enhanced/discussions/2)                                                                                                                                                                                                                                                                                                     | ggml .bin                    |      | 2023-04-27 |
