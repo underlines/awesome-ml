@@ -236,6 +236,7 @@
 - [open-instruct-v1](https://huggingface.co/datasets/hakurei/open-instruct-v1)
 - [list of instruction datasets by yadongC/awesome-instruction-dataset](https://github.com/yaodongC/awesome-instruction-dataset)
 - [The Embedding Archives, Millions of Wikipedia Article Embeddings in multiple languages](https://txt.cohere.com/embedding-archives-wikipedia/)
+- [Rereplit-finetuned-v1-3b & replit-code-v1-3b](https://twitter.com/Replit/status/1651344186715803648) outperforming all coding OSS models, gets released soon
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
