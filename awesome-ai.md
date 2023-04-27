@@ -251,7 +251,7 @@
 - [Alpaca dataset from Stanford, cleaned and curated](https://github.com/gururise/AlpacaDataCleaned) 
 - [Alpaca Chain of Thought fine tuning dataset for EN and CN](https://github.com/PhoebusSi/Alpaca-CoT)
 - [PRESTO | Multilingual dataset for parsing realistic task-oriented dialogues by Google & University of Rochester, California, Santa Barbara, Columbia](https://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html) [paper](https://arxiv.org/pdf/2303.08954.pdf)
-- [RedPajama | Dataset and model similar to LLaMA but truly open source and ready for commercial use](https://www.together.xyz/blog/redpajama)
+- [RedPajama](https://www.together.xyz/blog/redpajama) Dataset and model similar to LLaMA but truly open source and ready for commercial use. [hf](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
 - [BigCode The Stack](https://huggingface.co/datasets/bigcode/the-stack)
 - [open-instruct-v1](https://huggingface.co/datasets/hakurei/open-instruct-v1)
 - [list of instruction datasets by yadongC/awesome-instruction-dataset](https://github.com/yaodongC/awesome-instruction-dataset)
@@ -292,11 +292,13 @@
 - [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
 
 ### Other GUIs
-- [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 - [Text Generation Webui | An all purpose UI to run LLMs of all sorts with optimizations](https://github.com/oobabooga/text-generation-webui) ([running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134), [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902), [detailed guide](https://rentry.org/llama-tard-v2))
 - [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
 - [ChatLLaMA | another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+  - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
+  - [koboldcpp](https://github.com/LostRuins/koboldcpp)
+  - [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
 - [Dalai](https://github.com/cocktailpeanut/dalai)
 - [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
 - [Chatbot web app + HTTP and Websocket endpoints for BLOOM-176B inference with the Petals client](https://github.com/borzunov/chat.petals.ml)
@@ -314,6 +316,7 @@
 - [bark TTS for oobabooga/text-generation-webui, make your local LLM talk](https://github.com/wsippel/bark_tts)
 - [bark TTS for oobabooga/text-generation-webui, another implementation](https://github.com/minemo/text-generation-webui-barktts)
 - [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
+- [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) Inference of HuggingFace's BLOOM-like models in pure C/C++
 
 ## LLM Wrappers
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -327,13 +330,16 @@
 - [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
 - [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
 - [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
-- [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
-- [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
 - [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
+  - [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
+  - [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
 - [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
 - [gpt4free | Use reverse engineered GPT3.5/4 APIs of other website's APIs](https://github.com/xtekky/gpt4free)
 - [AutoGPTQ | easy-to-use model GPTQ quantization package with user-friendly CLI](https://github.com/PanQiWei/AutoGPTQ)
-- [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
+- [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
+  - [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
+- [cpt-llama.cpp](https://github.com/keldenl/gpt-llama.cpp) Replace OpenAi's GPT APIs with llama.cpp's supported models locally
+- [llama-node](https://github.com/Atome-FE/llama-node) JS client library for llama (or llama based) LLMs built on top of llama-rs and llama.cpp.
 
 
 ## Showcases
@@ -407,6 +413,7 @@
 
 ## Speech Recognition
 - https://github.com/openai/whisper
+  - [Whisper JAX implementation](https://github.com/sanchit-gandhi/whisper-jax) runs around 70x faster on CPU, GPU and TPU
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 
