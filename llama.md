@@ -102,7 +102,18 @@ Alternatively you can try [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) to in
 If you want to open the webui from within your home network, enable port forwarding on your windows machine, with this command in an administrator terminal:
 `netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=7860 connectaddress=localhost connectport=7860`
 
-Now skip to [Download models](#download-models)
+## Install bitsandbytes cuda
+- Either always run `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the sever.py below
+- Or trying to install `pip install -i https://test.pypi.org/simple/ bitsandbytes-cuda113`
+
+## Install xformers
+
+Allows for faster, but non-deterministic inference. Optional:
+
+- `pip install xformers`
+- then use the `--xformers` flag later, when running the server.py below
+
+You're done with the Ubuntu / WSL2 installation, you can skip to [Download models](#download-models) section.
 
 # Windows 11 native
 
@@ -139,6 +150,7 @@ Now skip to [Download models](#download-models)
 
 # Run
 The base command to run. You have to add further flags, depending on the model and environment you want to run in:
+1. if you are on WSL2 Ubuntu, run `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` always, before running the server.py
 1. `python server.py --model-menu --chat`
 
 - `--model-menu` to allow the change of models in the UI
@@ -153,16 +165,23 @@ The base command to run. You have to add further flags, depending on the model a
 ## cuda lib not found
 If you get a `cuda lib not found` error, especially on Windows WSL2 Ubuntu, try executing `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the server.py above
 
-## Install bitsandbytes prebuilt windows wheels with cuda support
+## No GPU support on bitsandbytes
+On Windows Native, try:
 - `pip uninstall bitsandbytes`
 - `pip install git+https://github.com/Keith-Hon/bitsandbytes-windows.git`
+- [here](https://github.com/oobabooga/text-generation-webui/issues/1164) are some discussion, but some solutions are for Windows WSL2, some for Windows native
 
-Also try these wheel on windows:
+Or try these prebuilt wheel on windows:
 - https://github.com/TimDettmers/bitsandbytes/files/11084955/bitsandbytes-0.37.2-py3-none-any.whl.zip
 - https://github.com/acpopescu/bitsandbytes/releases/tag/v0.37.2-win.0
-- And more help on windows support [here](https://github.com/TimDettmers/bitsandbytes/issues/30)
+- And more help on windows support [here](https://github.com/TimDettmers/bitsandbytes/issues/30) and [here](https://github.com/oobabooga/text-generation-webui/issues/1164)
 
 Still having problems, try to [manually](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902) copy the libraries
+
+On Linux or Windows WSL2 Ubuntu, try:
+- make sure you run `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the server.py every time!
+- alternatively, you can try `pip install -i https://test.pypi.org/simple/ bitsandbytes-cuda113` and see if it works without the above command
+
 
 ## Install xformers prebuilt Windows wheels 
 - `pip install xformers==0.0.16rc425`
