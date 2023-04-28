@@ -52,7 +52,7 @@ Also, GPTQ Triton only supports 4 bit. If you want to use 3bit models, you need 
 1. `git clone https://github.com/oobabooga/text-generation-webui`
 1. `cd text-generation-webui`
 1. `pip install -r requirements.txt`
-1. `pip install chardet`
+1. `pip install chardet cchardet`
 
 ## Build and install GPTQ
 
@@ -139,9 +139,10 @@ Now skip to [Download models](#download-models)
 
 # Run
 The base command to run. You have to add further flags, depending on the model and environment you want to run in:
-1. `python server.py --model-menu`
+1. `python server.py --model-menu --chat`
 
 - `--model-menu` to allow the change of models in the UI
+- `--chat` loads the chat instead of the text completion UI
 - `--wbits 4` loads a 4-bit quantized model
 - `--groupsize 128` if the model specifies groupsize, add this parameter
 - `--model_type llama` if the model name is unknown, specify it's base model. if you run llama derrived models like vicuna, alpaca, gpt4-x, codecapybara or wizardLM you have to define it as `llama`. If you load OPT or GPT-J models, define the flag accordingly
