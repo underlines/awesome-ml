@@ -11,6 +11,8 @@ By using WSL2 on Windows 11 you can install Ubuntu inside your Windows 11 system
 | Windows 11 Native      | no          | yes       | yes*     | no                |
 | Ubuntu / Linux         | yes         | yes       | yes      | yes               |
 
+Also, GPTQ Triton only supports 4 bit. If you want to use 3bit models, you need to use GPTQ Cuda
+
 * manual installation
 
 # Windows 11 WSL2 Ubuntu / Native Ubuntu
@@ -50,14 +52,46 @@ By using WSL2 on Windows 11 you can install Ubuntu inside your Windows 11 system
 1. `cd text-generation-webui`
 1. `pip install -r requirements.txt`
 
-## Build and install GPTQ to support 4 bit quantized models
+## Build and install GPTQ
+
+If you want to try the triton branch, skip to [Triton](#triton)
+
+### Cuda
+- Works on Windows, Linux, WSL2.
+- Supports 3 & 4 bit models
+- Only supports no-act-order models
+- Slower than triton
+- Works best with `--groupsize 128 --wbits 4` and no-act-order models
 
 1. `mkdir repositories`
 1. `cd repositories`
-1. `git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda`
+1. `git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda` (or try the newer `https://github.com/qwopqwop200/GPTQ-for-LLaMa/tree/cuda` build)
 1. `cd GPTQ-for-LLaMa`
 1. `python -m pip install -r requirements.txt`
 1. `python setup_cuda.py install` if this gives an error about g++, try installing the correct g++ version: `conda install -y -k gxx_linux-64=11.2.0`
+
+### Triton
+The [triton branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa), [another](https://github.com/fpgaminer/GPTQ-triton) implementation
+- Works on Linux and WSL2
+- Supports 4 bit quantized models
+- Is faster than cuda
+- Works best with the `--groupsize 128 --wbits 4` flags and act-order models
+
+1. `mkdir repositories`
+1. `cd repositories`
+1. `conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia`
+1. `git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa` (or try `https://github.com/fpgaminer/GPTQ-triton`)
+1. `cd GPTQ-for-LLaMa`
+1. `pip install -r requirements.txt`
+
+### AutoGPTQ
+Alternatively you can try [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) to install cuda, older llama-cuda, or triton variants:
+
+- `pip install auto-gptq` to install cuda branch for newer models
+- `pip install auto-gptq[llama]` if your transformers is outdated or you are using older models that don't support it
+- `pip install auto-gptq[triton]` to install triton branch for triton compatible models
+
+## LAN port forwarding from Ubuntu WSL
 
 If you want to open the webui from within your home network, enable port forwarding on your windows machine, with this command in an administrator terminal:
 `netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=7860 connectaddress=localhost connectport=7860`
