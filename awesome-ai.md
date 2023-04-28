@@ -1,50 +1,53 @@
 # Table of Contents
 
-- [Large Language Models](#large-language-models)
-  - [Open models](#open-models)
-  - [Other SOTA Open Source Models](#other-sota-open-source-models)
-  - [Data sets](#data-sets)
-  - [Research](#research)
-  - [LLM GUIs](#llm-guis)
-    - [OpenAI](#openai)
-    - [Other GUIs](#other-guis)
-  - [LLM Wrappers](#llm-wrappers)
-  - [Showcases](#showcases)
-  - [Fine Tuning](#fine-tuning)
-  - [Other awesome lists](#other-awesome-lists)
-- [Image Generation](#image-generation)
-  - [Models](#models)
-  - [Wrappers & GUIs](#wrappers--guis)
-  - [Fine Tuning](#fine-tuning-1)
-- [Benchmarking](#benchmarking)
-- [Video](#video)
-  - [Text to video generation](#text-to-video-generation)
-  - [Frame Interpolation (Temporal Interpolation)](#frame-interpolation-temporal-interpolation)
-  - [Super Resolution (Spacial Interpolation)](#super-resolution-spacial-interpolation)
-  - [Spacio Temporal Interpolation](#spacio-temporal-interpolation)
-- [Audio](#audio)
-  - [Compression](#compression)
-  - [Speech Recognition](#speech-recognition)
-  - [Generative Audio](#generative-audio)
-- [AI DevOps](#ai-devops)
-- [Optimization](#optimization)
-  - [Inference](#inference)
-  - [Training](#training)
-  - [Other Optimization](#other-optimization)
+<details>
+  <summary>Show Table of Contents</summary>
+  
+- [:speech_balloon: Large Language Models](#large-language-models)
+  - [:open_file_folder: Open models](#open-models)
+  - [:brain: Other SOTA Open Source Models](#other-sota-open-source-models)
+  - [:floppy_disk: Data sets](#data-sets)
+  - [:test_tube: Research](#research)
+  - [:desktop_computer: LLM GUIs](#llm-guis)
+    - [:rocket: OpenAI](#openai)
+    - [:computer: Other GUIs](#other-guis)
+  - [:package: LLM Wrappers](#llm-wrappers)
+  - [:clapper: Showcases](#showcases)
+  - [:wrench: Fine Tuning](#fine-tuning)
+  - [:link: Other awesome lists](#other-awesome-lists)
+- [:camera: Image Generation](#image-generation)
+  - [:paintbrush: Models](#models)
+  - [:computer_mouse: Wrappers & GUIs](#wrappers--guis)
+  - [:wrench: Fine Tuning](#fine-tuning-1)
+- [:stopwatch: Benchmarking](#benchmarking)
+- [:movie_camera: Video](#video)
+  - [:memo: Text to video generation](#text-to-video-generation)
+  - [:film_strip: Frame Interpolation (Temporal Interpolation)](#frame-interpolation-temporal-interpolation)
+  - [:mag_right: Super Resolution (Spacial Interpolation)](#super-resolution-spacial-interpolation)
+  - [:clapper: Spacio Temporal Interpolation](#spacio-temporal-interpolation)
+- [:musical_note: Audio](#audio)
+  - [:clamp: Compression](#compression)
+  - [:microphone: Speech Recognition](#speech-recognition)
+  - [:notes: Generative Audio](#generative-audio)
+- [:computer: AI DevOps](#ai-devops)
+- [:chart_with_upwards_trend: Optimization](#optimization)
+  - [:bar_chart: Inference](#inference)
+  - [:running: Training](#training)
+  - [:wrench: Other Optimization](#other-optimization)
 
-# Star History
+</details>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=underlines/awesome-marketing-datascience&type=Date)](https://star-history.com/#underlines/awesome-marketing-datascience&Date)
-
-Contributions welcome. Accepting Pull Requests.
+🤝👥 Contributions welcome. Accepting Pull Requests.
 
 # Large Language Models
 
-
-
 ## Open models
 
-[Model Google Sheet](https://docs.google.com/spreadsheets/d/1PtrPwDV8Wcdhzh-N_Siaofc2R6TImebnFvv0GuCCzdo/edit?usp=sharing)
+🗎 Open the [Model Google Sheet](https://docs.google.com/spreadsheets/d/1PtrPwDV8Wcdhzh-N_Siaofc2R6TImebnFvv0GuCCzdo/edit?usp=sharing)
+or:
+
+<details>
+  <summary>Show Table with models</summary>
 
 | Model                                                                                                                                    | Author                   | Foundation  | Size       | Quantization                       | Fine Tuning Dataset                                                                                                                                                                                                                                                                                                                                                                          | Format                       | LoRa | model date |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|-------------|------------|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|------|------------|
@@ -231,6 +234,9 @@ Contributions welcome. Accepting Pull Requests.
 | [llama-30B-ggml](https://huggingface.co/Pi3141/llama-30B-ggml)                                                                           | Pi3141                   | llama       | 30b        | 4bit GPTQ                          | none                                                                                                                                                                                                                                                                                                                                                                                         | ggml .bin                    |      | 404        |
 | [llama-65B-ggml](https://huggingface.co/Pi3141/llama-65B-ggml)                                                                           | Pi3141                   | llama       | 65b        | 4bit GPTQ                          |                                                                                                                                                                                                                                                                                                                                                                                              | ggml .bin                    |      | 404        |
 | [llama-7B-ggml](https://huggingface.co/Pi3141/llama-7B-ggml)                                                                             | Pi3141                   | llama       | 7b         | 4bit GPTQ                          | none                                                                                                                                                                                                                                                                                                                                                                                         | ggml .bin                    |      | 404        |
+  
+</details>
+  
 ## Other SOTA Open Source models
 - [Cerebras GPT-13b](https://huggingface.co/cerebras) ([release notes](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/))
 - [LAION OpenFlamingo | Multi Modal Model and training architecture](https://github.com/mlfoundations/open_flamingo)
@@ -512,3 +518,8 @@ Contributions welcome. Accepting Pull Requests.
 - https://videoprocessing.ai/benchmarks/
 - https://paperswithcode.com/
 - [Pythia | interpretability analysis for autoregressive transformers during training](https://github.com/EleutherAI/pythia)
+
+
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=underlines/awesome-marketing-datascience&type=Date)](https://star-history.com/#underlines/awesome-marketing-datascience&Date)
