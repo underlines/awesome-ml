@@ -1,201 +1,139 @@
 # How to run LLaMA 4bit models on Windows
+For a simple automatic install, use the one-click installers provided on
+The video [TextGen Ai WebUI Install! Run LLM Models in MINUTES! by Aitrepreneur](https://www.youtube.com/watch?v=lb_lC4XFedU) explains it in detail.
 
-## Table of contents
+Not following automatic install on Windows has some advantages.
+By using WSL2 on Windows 11 you can install Ubuntu inside your Windows 11 system and then installing TextGen WebUI. This supports faster Triton compiled GPTQ allowing to run act-order models. Xformers can also be used more easy than on Windows Native.
 
-- [Windows 11 WSL2 Ubuntu / Native Ubuntu](#windows-11-wsl2-ubuntu--native-ubuntu)
-- [Windows 11 native](#windows-11-native)
-- [Troubleshooting](#troubleshooting)
-- [Resources](#resources)
-  - [3rd Party LLaMA and Alpaca Models](#3rd-party-llama-and-alpaca-models)
+| Installation           | GPTQ Triton | GPTQ Cuda | xformers | act-order support |
+| --- | --- | --- | --- | --- |
+| Windows 11 WSL2 Ubuntu | yes         | yes       | yes      | yes               |
+| Windows 11 Native      | no          | yes       | yes*     | no                |
+| Ubuntu / Linux         | yes         | yes       | yes      | yes               |
+
+* manual installation
 
 # Windows 11 WSL2 Ubuntu / Native Ubuntu
 
 ## Install Ubuntu WSL2 on Windows 11
-1. Install WSL2 on Windows Store
-2. Install Ubuntu
-3. Start Windows Terminal in Ubuntu
+1. Press the Windows key + X and click on "Windows PowerShell (Admin)" or "Windows Terminal (Admin)" to open PowerShell or Terminal with administrator privileges.
+1. `wsl --install` You may be prompted to restart your computer. If so, save your work and restart.
+1. Install Windows Terminal from Windows Store
+1. Install Ubuntu on Windows Store
+1. Choose the desired Ubuntu version (e.g., Ubuntu 20.04 LTS) and click "Get" or "Install" to download and install the Ubuntu app.
+1. Once the installation is complete, click "Launch" or search for "Ubuntu" in the Start menu and open the app.
+1. When you first launch the Ubuntu app, it will take a few minutes to set up. Be patient as it installs the necessary files and sets up your environment.
+1. Once the setup is complete, you will be prompted to create a new UNIX username and password. Choose a username and password, and make sure to remember them, as you will need them for future administrative tasks within the Ubuntu environment.
+1. If you prefer to use Windows Terminal from now on, close this console and start Windows Terminal then open a new Ubuntu console by clicking the drop down icon on top of Terminal and choose Ubuntu. Otherwise stay in the existing console window.
 
 ## Install Anaconda + Build Essentials
 1. `sudo apt update`
 2. `sudo apt upgrade`
-3. `mkdir Downloads`
-4. `cd Downloads/`
-5. `wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh`
+2. `sudo apt install git`
+2. `sudo apt install wget`
+3. `mkdir downloads`
+4. `cd downloads/`
+5. `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh`
 6. `chmod +x ./Anaconda3-2022.05-Linux-x86_64.sh`
-7. `./Anaconda3-2022.05-Linux-x86_64.sh`
+7. `./Anaconda3-2022.05-Linux-x86_64.sh` and follow the defaults
 8. `sudo apt install build-essential`
 9. `cd ..`
 
 ## Install text-generation-webui
-text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui):
-1. `conda create -n textgen`
-2. `conda activate textgen`
-3. `conda install torchvision torchaudio pytorch-cuda=11.7 git -c pytorch -c nvidia`
-4. `git clone https://github.com/oobabooga/text-generation-webui`
-5. `cd text-generation-webui`
-6. `pip install -r requirements.txt`
 
-## Build GPTQ for LLaMA to enable 4bit support
-4-bit installation [instructions](https://github.com/oobabooga/text-generation-webui/wiki/LLaMA-model#4-bit-mode):
-1. `pip uninstall transformers`
-2. `pip install git+https://github.com/zphang/transformers@llama_push`
-3. `mkdir repositories`
-4. `cd repositories`
-5. `git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa`
-6. `cd GPTQ-for-LLaMa`
-7. `python setup_cuda.py install`
+1. `conda create -n textgen python=3.10.9`
+1. `conda activate textgen`
+1. `pip3 install torch torchvision torchaudio`
+1. `mkdir github`
+1. `cd github`
+1. `git clone https://github.com/oobabooga/text-generation-webui`
+1. `cd text-generation-webui`
+1. `pip install -r requirements.txt`
 
-## Download the model files
-Download the tokenizer and config files for the model size you want and change the size in the command below accordingly: 7b / 13b / 30b / 65b
-1. `cd ../../`
-2. `python download-model.py --text-only decapoda-research/llama-13b-hf`
+If you want to open the webui from within your home network, enable port forwarding on your windows machine, with this command in an administrator terminal:
+`netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=7860 connectaddress=localhost connectport=7860`
 
-Download the 4bit model itself from [this](https://huggingface.co/decapoda-research/llama-13b-hf-int4/tree/main) repo, change the url accordingly: 7b / 13b / 30b / 65b
-1. `explorer.exe .` to open Windows Explorer showing the Ubuntu folder. (windows only)
-2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
-
-The folder structure should be:
-```
-\text-generation-webui\models\llama-13b-4bit.pt
-\text-generation-webui\models\llama-13b-hf\config.json
-\text-generation-webui\models\llama-13b-hf\generation_config.json
-\text-generation-webui\models\llama-13b-hf\pytorch_model.bin.index.json
-\text-generation-webui\models\llama-13b-hf\special_tokens_map.json
-\text-generation-webui\models\llama-13b-hf\tokenizer.model
-\text-generation-webui\models\llama-13b-hf\tokenizer_config.json
-```
-
-## Run
-Various ways to run LLaMA in text-generation-webui:
-1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` if generation becomes very slow after some time, due to [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode, turn off streaming
-2. `python server.py --model llama-13b-hf --load-in-4bit` if there are not slow down issues
-3. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode, also possible both with or without --no-stream 
+Now skip to [Download models](#download-models)
 
 # Windows 11 native
 
 ## Install Miniconda
 1. Download and install [miniconda](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)
+1. Download and install [git for windows](https://git-scm.com/download/win)
 2. Open `Anaconda Prompt (Miniconda 3)` from the Start Menu
 
 ## Install text-generation-webui
-text-generation-webui install [instructions](https://github.com/oobabooga/text-generation-webui):
-1. In the Anaconda Prompt run: `conda create -n textgen`
-2. `conda activate textgen`
-3. `conda install torchvision torchaudio pytorch-cuda=11.7 git -c pytorch -c nvidia`
-4. `git clone https://github.com/oobabooga/text-generation-webui`
-5. `cd text-generation-webui`
-6. `pip install -r requirements.txt`
+1. It should load in `C:\Users\yourusername>`
+1. `mkdir github`
+1. `cd github`
+1. `conda create --name textgen python=3.10`
+1. `conda activate textgen`
+1. `conda install pip`
+1. `conda install -y -k pytorch[version=2,build=py3.10_cuda11.7*] torchvision torchaudio pytorch-cuda=11.7 cuda-toolkit ninja git -c pytorch -c nvidia/label/cuda-11.7.0 -c nvidia`
+1. `git clone https://github.com/oobabooga/text-generation-webui.git`
+1. `python -m pip install https://github.com/jllllll/bitsandbytes-windows-webui/raw/main/bitsandbytes-0.38.1-py3-none-any.whl`
+1. `cd text-generation-webui`
+1. `pip install -r requirements.txt --upgrade`
+1. `mkdir repositories`
+1. `cd repositories`
+1. `git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda`
+1. `python -m pip install -r requirements.txt`
+1. `python setup_cuda.py install` might fail, continue with the next command if so
+1. `pip install https://github.com/jllllll/GPTQ-for-LLaMa-Wheels/raw/main/quant_cuda-0.0.0-cp310-cp310-win_amd64.whl` skip this command, if the previous one didn't fail
+1. `cd ..\..\..\` (go back to text-generation-webui)
 
-## Install GPTQ for LLaMA to enable 4bit support
-Alternatively, you can use [prebuilt GPTQ Wheels for Windows](https://github.com/oobabooga/text-generation-webui/issues/177#issuecomment-1464844721):
-1. `pip uninstall transformers`
-2. `pip install git+https://github.com/zphang/transformers@llama_push`
-3. `mkdir repositories`
-4. `cd repositories`
-5. `git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa`
-6. `cd GPTQ-for-LLaMa`
-7. Download the [prebuilt wheels](https://github.com/oobabooga/text-generation-webui/files/10947842/quant_cuda-0.0.0-cp310-cp310-win_amd64.whl.zip) and unzip in the same directory C:\Users\yourname\text-generation-webui\repositories\GPTQ-for-LLaMa\
-8. `python -m pip install quant_cuda-0.0.0-cp310-cp310-win_amd64.whl`
-9. Don't run python setup_cuda install.
+# Download models
 
-Download the tokenizer and config files for the model size you want and change the size in the command below accordingly: 7b / 13b / 30b / 65b
-1. `cd ..\..\`
-2. `python download-model.py --text-only decapoda-research/llama-13b-hf`
+1. Still in your terminal, make sure you are in the /text-generation-webui/ folder and type `python download-model.py`
+1. select other to download a custom model
+1. paste the huggingface user/directory, for example: `TheBloke/wizardLM-7B-GGML` and let it download the model files
 
-Download the 4bit model itself from [this](https://huggingface.co/decapoda-research/llama-13b-hf-int4/tree/main) repo, change the url accordingly: 7b / 13b / 30b / 65b
-1. `explorer.exe .` to open Windows Explorer showing the current folder.
-2. Move the llama-13b-4bit.pt file into `/text-generation-webui/models/` (not in the subfolder llama-13b-hf)
+# Run
+The base command to run. You have to add further flags, depending on the model and environment you want to run in:
+1. `python server.py --model-menu`
 
-The folder structure should be:
-```
-\text-generation-webui\models\llama-13b-4bit.pt
-\text-generation-webui\models\llama-13b-hf\config.json
-\text-generation-webui\models\llama-13b-hf\generation_config.json
-\text-generation-webui\models\llama-13b-hf\pytorch_model.bin.index.json
-\text-generation-webui\models\llama-13b-hf\special_tokens_map.json
-\text-generation-webui\models\llama-13b-hf\tokenizer.model
-\text-generation-webui\models\llama-13b-hf\tokenizer_config.json
-```
+`--model-menu` to allow the change of models in the UI
+`--wbits 4` loads a 4-bit quantized model
+`--groupsize 128` if the model specifies groupsize, add this parameter
+`--model_type llama` if the model name is unknown, specify it's base model. if you run llama derrived models like vicuna, alpaca, gpt4-x, codecapybara or wizardLM you have to define it as `llama`. If you load OPT or GPT-J models, define the flag accordingly
+`--xformers` if you have properly installed xformers and want faster but nondeterministic answer generation
 
-## Run
-Various ways to run LLaMA in text-generation-webui:
-1. `python server.py --model llama-13b-hf --load-in-4bit --no-stream` if generation becomes very slow after some time, due to [issue](https://github.com/oobabooga/text-generation-webui/issues/147) in 4 bit mode, turn off streaming
-2. `python server.py --model llama-13b-hf --load-in-4bit` if there are not slow down issues
-3. `python server.py --model llama-13b-hf --load-in-4bit --no-stream --chat` starting in chat mode, also possible both with or without --no-stream 
-4. `python server.py --model vicuna-13b-GPTQ-4bit-128g --wbits 4 --groupsize 128 --chat` for a vicuna GPTQ 4 bit model using groupsize
+# Troubleshoot
 
-If bitsandbytes gives you a cuda lib not found error, try executing `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the above command
+## cuda lib not found
+If you get a `cuda lib not found` error, especially on Windows WSL2 Ubuntu, try executing `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the server.py above
 
-# Troubleshooting
+## Install bitsandbytes prebuilt windows wheels with cuda support
+- `pip uninstall bitsandbytes`
+- `pip install git+https://github.com/Keith-Hon/bitsandbytes-windows.git`
 
-- [text-generation-webui general LLaMA support](https://github.com/oobabooga/text-generation-webui/issues/147)
-- [text-generation-webui GPTQ 4bit support for LLaMA issues](https://github.com/oobabooga/text-generation-webui/issues/177)
-- [text-generation-webui GPTQ 4bit support for LLaMA pull request](https://github.com/oobabooga/text-generation-webui/pull/206)
-- [4channel thread, might contain NSFW discussions, but has some useful info](https://boards.4channel.org/vg/thread/421001187/aids-ai-dynamic-storytelling-general)
+## Install xformers prebuilt Windows wheels 
+- `pip install xformers==0.0.16rc425`
 
-If you don't want to use WSL2 Ubuntu, but run natively on windows, these resources might be helpful:
+## Prebuilt GPTQ Windows Wheels (may be outdated)
+- [GPTQ Wheels for Windows](https://github.com/jllllll/GPTQ-for-LLaMa-Wheels)
 
-- [Windows Wheels to compile GPTQ for LLaMA](https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666) for quant_cuda in order to install GPTQ-for-LLaMA
-- Prebuilt [Windows Binaries](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134) for bitsandbytes with cuda support (only step 5-6)
+# Apple Silicon
 
-If you're looking for Apple Silicon support:
-
-- https://news.ycombinator.com/item?id=35100086
+Use [llama.cpp](https://github.com/ggerganov/llama.cpp), [HN discussion](https://news.ycombinator.com/item?id=35100086)
 
 # Resources
 
-## 3rd party LLaMA and alpaca models
+## 3rd party models
 
-Moved to [awesome-ai.md](https://github.com/underlines/awesome-marketing-datascience/blob/master/awesome-ai.md)
+See an up to date list of most models you can run locally: [awesome-ai open-models](https://github.com/underlines/awesome-marketing-datascience/blob/master/awesome-ai.md#open-models)
 
-## Run alpaca
-[alpaca from stanford university](https://crfm.stanford.edu/2023/03/13/alpaca.html) is an instruction fine tuned llama model. They opensourced the fine tuning resources including the dataset. People started to replicate this but using [LoRa fine tuning](https://github.com/tloen/alpaca-lora) with llama-7b and even llama-13b:
-
-Note that some people fine-tuned on the original alpaca dataset, which has many low quality examples, while people on [this issue](https://github.com/tloen/alpaca-lora/pull/32) made a huge effort cleaning and improving the original alpaca dataset for better example instructions.
-
-open-assistant.io and other are working on RLHF as well, and alpaca could benefit from such systems. It would further improve the quality of llama/alpaca by reinforcement learning with human feedback.
-
-[Alpaca-lora discord](https://discord.com/invite/prbq284xX5)
-
-[Alpaca-LoRa-Serve Gradio GUI](https://github.com/deep-diver/Alpaca-LoRA-Serve)
-
-## text-generation-webui settings presets:
-1. `explorer.exe .` to open the Ubuntu path to the text-generation-webui in Windows Explorer
-2. navigate to `/presets` and make a copy of `NovelAI-Sphinx Moth.txt` and name it for example `llama-13b-4bit.txt`
-3. Edit the settings according to some examples below
-
-[Szpadel @ HN](https://news.ycombinator.com/item?id=35101869)
-```
-do_sample=True
-top_p=0.9
-top_k=30
-temperature=0.62
-repetition_penalty=1.08
-typical_p=1.0
-```
-
-## Other guides
-- https://rentry.org/llama-tard-v2#bonus-4-4bit-llama-basic-setup
-- Nerdy Rodent's excellent [Video Tutorial](https://www.youtube.com/watch?v=rGsnkkzV2_o), but diverges from this guide
-- [reddit LocalGPT guide](https://www.reddit.com/r/LocalGPT/comments/125m180/how_to_install_llama_8bit_and_4bit/)
 
 ## Other tools
-- https://github.com/hwchase17/langchain ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s))
-- [ChatLLaMA 📢 Open source implementation for LLaMA-based ChatGPT runnable in a single GPU. 15x faster training process than ChatGPT](https://github.com/juncongmoo/chatllama)
-- [ChatLLaMA another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
-- [pyllama: a hacked version of LLaMA based on original Facebook's implementation but more convenient to run in a Single consumer grade GPU.](https://github.com/juncongmoo/pyllama)
-- [alpaca-lora: reproducing the Stanford Alpaca InstructLLaMA result on consumer hardware](https://github.com/tloen/alpaca-lora)
-- [Implementation of Toolformer, Language Models That Can Use Tools, by MetaAI](https://github.com/lucidrains/toolformer-pytorch)
-- [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
-- [codealpaca Instruction training data to fine-tune llama with alpaca but for code generation](https://github.com/sahil280114/codealpaca)
-- [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
-- [GPTQ Wheels for Windows](https://github.com/jllllll/GPTQ-for-LLaMa-Wheels)
+
+See the [awesome-ai LLM section](https://github.com/underlines/awesome-marketing-datascience/blob/master/awesome-ai.md#llm-guis) for more tools, GUIs etc.
 
 ## Other resources
+- [LocalLLaMA on Reddit](https://reddit.com/r/localllama)
 - [News about Llama](https://github.com/shm007g/LLaMA-Cult-and-More)
 - [StackLLaMA: How to train LLaMA with RLHF](https://huggingface.co/blog/stackllama)
 - [Reddit LocalLLaMA model card](https://old.reddit.com/r/LocalLLaMA/wiki/models)
 - [Reddit Oobabooga's Textgen subreddit](https://www.reddit.com/r/Oobabooga/)
-- 
+
 
 
