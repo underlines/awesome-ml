@@ -383,7 +383,6 @@ Contributions welcome. Accepting Pull Requests.
 
 ## Other awesome lists
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
-- 
 
 # Image Generation
 
@@ -391,6 +390,7 @@ Contributions welcome. Accepting Pull Requests.
 - https://github.com/kakaobrain/karlo
 - https://lukashoel.github.io/text-to-room/
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+- [DeepFloyd if by StabilityAI](https://huggingface.co/DeepFloyd/IF-I-XL-v1.0) open-source text-to-image model with photorealism and language understanding. [code](https://github.com/deep-floyd/IF)
 
 ## Wrappers & GUIs
 - [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
