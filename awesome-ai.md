@@ -296,80 +296,96 @@ or:
 
 
 ## LLM GUIs
+
 ### OpenAI
-- [chatgptui/desktop](https://github.com/chatgptui/desktop)
-- [TypingMind](https://www.typingmind.com/)
-- [Chatwithme.chat](https://www.chatwithme.chat/)
-- [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
-- [Abdallah-Ragab/VoiceGPT](https://github.com/Abdallah-Ragab/VoiceGPT)
-- [LlmKira/Openaibot](https://github.com/LlmKira/Openaibot)
-- [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
-- [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
-- [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
-- [Auto GPT](https://github.com/Torantulino/Auto-GPT)
-- [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
-- [sqlchat | Use OpenAI GPT3/4 to chat with your database](https://github.com/sqlchat/sqlchat)
-- [BarkingGPT | Audio2Audio by using Whisper+chatGPT+Bark](https://github.com/BudEcosystem/BarkingGPT)
-- [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
+
+*   [chatgptui/desktop](https://github.com/chatgptui/desktop)
+*   [TypingMind](https://www.typingmind.com/)
+*   [Chatwithme.chat](https://www.chatwithme.chat/)
+*   [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
+*   [Abdallah-Ragab/VoiceGPT](https://github.com/Abdallah-Ragab/VoiceGPT)
+*   [LlmKira/Openaibot](https://github.com/LlmKira/Openaibot)
+*   [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
+*   [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
+*   [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
+*   [Auto GPT](https://github.com/Torantulino/Auto-GPT)
+    *   [AgentGPT](https://github.com/reworkd/AgentGPT) Deploy autonomous AI agents, using vectorDB memory, web browsing via LangChain, website interaction and more 
+    *   [microGPT ](https://github.com/muellerberndt/micro-gpt) Autonomous GPT-3.5/4 agent, can analyze stocks, create art, order pizza, and perform network security tests
+    *   [Auto GPT Plugins](https://github.com/Significant-Gravitas/Auto-GPT-Plugins)
+    *   [AutoGPT-Next-Web](https://github.com/Dogtiti/AutoGPT-Next-Web) An AgentGPT fork as a Web GUI
+    *   [AutoGPT Web](https://github.com/jina-ai/auto-gpt-web)
+    *   [AutoGPT.js](https://github.com/zabirauf/AutoGPT.js)
+    *   [LoopGPT](https://github.com/farizrahman4u/loopgpt) a re-implementation of AutoGPT as a proper python package, modular and extensible
+    *   [Camel-AutoGPT](https://github.com/SamurAIGPT/Camel-AutoGPT) Communicaton between Agents like BabyAGI and AutoGPT
+    *   [BabyAGIChatGPT](https://github.com/Doriandarko/BabyAGIChatGPT) is a fork of BabyAGI to work with OpenAI's GPT, pinecone and google search
+    *   [GPT Assistant](https://github.com/BuilderIO/gpt-assistant) An autonomous agent that can access and control a chrome browser via Puppeteer 
+    *   [gptchat](https://github.com/ian-kent/gptchat) a client which uses GPT-4, adding long term memory, can write its own plugins and can fulfill tasks
+*   [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
+*   [sqlchat | Use OpenAI GPT3/4 to chat with your database](https://github.com/sqlchat/sqlchat)
+*   [chat-with-github-repo](https://github.com/peterw/Chat-with-Github-Repo) which uses streamlit, gpt3.5-turbo and deep lake to answer questions about a git repo
+*   [BarkingGPT | Audio2Audio by using Whisper+chatGPT+Bark](https://github.com/BudEcosystem/BarkingGPT)
+*   [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
+*   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
 
 ### Other GUIs
-- [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations
-  - [running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134)
-  - [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902)
-- [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp)
-  - [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
-  - [koboldcpp](https://github.com/LostRuins/koboldcpp)
-  - [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
-- [Dalai](https://github.com/cocktailpeanut/dalai)
-- [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
-  - [ChatLLaMA | another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
-- [Chatbot web app + HTTP and Websocket endpoints for BLOOM-176B inference with the Petals client](https://github.com/borzunov/chat.petals.ml)
-  - [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) Inference of HuggingFace's BLOOM-like models in pure C/C++
-- [Vicuna FastChat](https://github.com/lm-sys/FastChat)
-- [Lit-llama](https://github.com/Lightning-AI/lit-llama)
-- [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
-  - [gpt4all.zig](https://github.com/renerocksai/gpt4all.zig) terminal version of GPT4All
-- [openplayground Try out almost any LLM in a gui](https://github.com/nat/openplayground)
-- [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
-- [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
-- [Auto Vicuna Butler](https://github.com/NiaSchim/auto-vicuna-butler) Baby-AGI fork / AutoGPT alternative to run with local LLMs
-  - [BabyAGI](https://github.com/yoheinakajima/babyagi) AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp
-  - [Agent-LLM](https://github.com/Josh-XT/Agent-LLM) Webapp to control an agent-based Auto-GPT alternative, supporting GPT4, Kobold, llama.cpp, FastChat, Bard, Oobabooga textgen
-  - [auto-llama-cpp](https://github.com/rhohndorf/Auto-Llama-cpp) fork of Auto-GPT with added support for locally running llama models through llama.cpp
-- [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
-- [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
-- [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
-  - [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
-- [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 
+*   [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations
+    *   [running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134)
+    *   [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902)
+*   [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
+*   [llama.cpp](https://github.com/ggerganov/llama.cpp)
+    *   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
+    *   [koboldcpp](https://github.com/LostRuins/koboldcpp)
+    *   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
+*   [Dalai](https://github.com/cocktailpeanut/dalai)
+*   [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
+    *   [ChatLLaMA | another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
+*   [Chatbot web app + HTTP and Websocket endpoints for BLOOM-176B inference with the Petals client](https://github.com/borzunov/chat.petals.ml)
+    *   [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) Inference of HuggingFace's BLOOM-like models in pure C/C++
+*   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
+*   [Lit-llama](https://github.com/Lightning-AI/lit-llama)
+*   [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
+    *   [gpt4all.zig](https://github.com/renerocksai/gpt4all.zig) terminal version of GPT4All
+    *   [gpt4all-chat](https://github.com/nomic-ai/gpt4all-chat) Cross platform desktop GUI for GPT4All  models (gpt-j)
+*   [openplayground Try out almost any LLM in a gui](https://github.com/nat/openplayground)
+*   [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
+*   [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
+*   [Auto Vicuna Butler](https://github.com/NiaSchim/auto-vicuna-butler) Baby-AGI fork / AutoGPT alternative to run with local LLMs
+    *   [BabyAGI](https://github.com/yoheinakajima/babyagi) AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp
+    *   [Agent-LLM](https://github.com/Josh-XT/Agent-LLM) Webapp to control an agent-based Auto-GPT alternative, supporting GPT4, Kobold, llama.cpp, FastChat, Bard, Oobabooga textgen
+    *   [auto-llama-cpp](https://github.com/rhohndorf/Auto-Llama-cpp) fork of Auto-GPT with added support for locally running llama models through llama.cpp
+*   [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
+*   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
+*   [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
+    *   [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
+*   [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 
 ## LLM Wrappers
-- [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
-- [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
-- [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
-- [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
-- [pyllama | hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs](https://github.com/juncongmoo/pyllama)
-- [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
-- [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
-- [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
-  - [Llama-lab](https://github.com/run-llama/llama-lab) home of llama_agi and auto_llama using LlamaIndex
-- [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
-- [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
-- [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
-- [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
-  - [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
-  - [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
-- [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
-- [gpt4free | Use reverse engineered GPT3.5/4 APIs of other website's APIs](https://github.com/xtekky/gpt4free)
-- [AutoGPTQ | easy-to-use model GPTQ quantization package with user-friendly CLI](https://github.com/PanQiWei/AutoGPTQ)
-- [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
-  - [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
-- [gpt-llama.cpp](https://github.com/keldenl/gpt-llama.cpp) Replace OpenAi's GPT APIs with llama.cpp's supported models locally
-- [llama-node](https://github.com/Atome-FE/llama-node) JS client library for llama (or llama based) LLMs built on top of llama-rs and llama.cpp.
-- [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
-- [GPTCache](https://github.com/zilliztech/GPTCache), serve cached results based on embeddings in a vector DB, before querying the OpenAI API. 
 
+*   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
+*   [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
+*   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
+*   [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
+*   [pyllama | hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs](https://github.com/juncongmoo/pyllama)
+*   [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
+*   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
+*   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
+    *   [Llama-lab](https://github.com/run-llama/llama-lab) home of llama\_agi and auto\_llama using LlamaIndex
+*   [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
+*   [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
+*   [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
+*   [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
+    *   [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
+    *   [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
+*   [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
+*   [gpt4free | Use reverse engineered GPT3.5/4 APIs of other website's APIs](https://github.com/xtekky/gpt4free)
+*   [AutoGPTQ | easy-to-use model GPTQ quantization package with user-friendly CLI](https://github.com/PanQiWei/AutoGPTQ)
+*   [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
+    *   [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
+*   [gpt-llama.cpp](https://github.com/keldenl/gpt-llama.cpp) Replace OpenAi's GPT APIs with llama.cpp's supported models locally
+*   [llama-node](https://github.com/Atome-FE/llama-node) JS client library for llama (or llama based) LLMs built on top of llama-rs and llama.cpp.
+*   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
+*   [GPTCache](https://github.com/zilliztech/GPTCache), serve cached results based on embeddings in a vector DB, before querying the OpenAI API.
 
 ## Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
