@@ -442,8 +442,8 @@ Contributions welcome. Accepting Pull Requests.
 
 ## Generative Audio
 
-*   [Bark](https://github.com/suno-ai/bark) transformer-based text-to-audio model created by Suno. Bark can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects
-    *   \[Bark-Voice-Clones\](https://github.com/nikaskeba/Bark-Voice-Clones
+*   [Bark](https://github.com/suno-ai/bark) transformer-based text-to-audio model by Suno. Can generate highly realistic, multilingual speech and other audio like music, background noise and simple effects
+    *   [Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones)
     *   [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab)
     *   [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone)
     *   [Bark Infinity for longer audio](https://github.com/JonathanFly/bark)
@@ -460,10 +460,9 @@ Contributions welcome. Accepting Pull Requests.
     *   [w-okada/voice-changer](https://github.com/w-okada/voice-changer) supports various models: MMVC, so-vits-svc, RVC, DDSP-SVC, can work over LAN to offload processing
     *   [DDSP-SVC](https://github.com/yxlllc/DDSP-SVC) Real-time singing voice conversion based on DDSP, training and inference uses lower requirements than diff-svc and so-vits-svc
     *   [Leader board of SOTA models](https://github.com/Anjok07/ultimatevocalremovergui/issues/344) for stem separation using model ensembles in UVR
+    *   [VITS GUI to load VITS text to speech models](https://github.com/CjangCjengh/MoeGoe_GUI)
 *   [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
-*   [VITS GUI to load VITS text to speech models](https://github.com/CjangCjengh/MoeGoe_GUI)
 *   [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
-*   [RVC-Project | Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/README.en.md)
 *   [Vall-E and Vall-E X | SOTA Zero Shot TTS preserving emotion, expression, similarity and allows language transfer](https://valle-demo.github.io/)
     *   [paper](https://arxiv.org/abs/2301.02111)
     *   [code](https://github.com/enhuiz/vall-e)
@@ -479,6 +478,8 @@ Contributions welcome. Accepting Pull Requests.
     *   [tortoise-tts-fast](https://github.com/152334H/tortoise-tts-fast) fast Tortoise TTS inference up to 5x. [Video tutorial](https://www.youtube.com/watch?v=8i4T5v1Fl_M)
     *   [Tortoise mrq fork for voice cloning](https://git.ecker.tech/mrq/ai-voice-cloning)
 *   [Auto-synced-translated-dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) Youtube audio translation and dubbing pipeline using Whisper speech-to-text, Google/DeepL Translate, Azure/Google TTS
+*   [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) abandoned project
+    *   [Real-Time-Voice-Cloning v2](https://github.com/liuhaozhe6788/voice-cloning-collab) active fork of the original
 
 
 # AI DevOps
