@@ -69,6 +69,7 @@ If you want to try the triton branch, skip to [Triton](#triton)
 1. `cd GPTQ-for-LLaMa`
 1. `python -m pip install -r requirements.txt`
 1. `python setup_cuda.py install` if this gives an error about g++, try installing the correct g++ version: `conda install -y -k gxx_linux-64=11.2.0`
+1. `cd ../..`
 
 ### Newer GPTQ-Triton
 This [triton branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa) or [this one](https://github.com/fpgaminer/GPTQ-triton):
@@ -83,13 +84,16 @@ This [triton branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa) or [this one
 1. `git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa` (or try `https://github.com/fpgaminer/GPTQ-triton`)
 1. `cd GPTQ-for-LLaMa`
 1. `pip install -r requirements.txt`
+1. `cd ../..`
 
 ### AutoGPTQ to install any (Newer Cuda, Newer Triton, older Cuda)
 Alternatively you can try [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) to install cuda, older llama-cuda, or triton variants:
 
-- `pip install auto-gptq` to install cuda branch for newer models
-- `pip install auto-gptq[llama]` if your transformers is outdated or you are using older models that don't support it
-- `pip install auto-gptq[triton]` to install triton branch for triton compatible models
+1. run one of these:
+  - `pip install auto-gptq` to install cuda branch for newer models
+  - `pip install auto-gptq[llama]` if your transformers is outdated or you are using older models that don't support it
+  - `pip install auto-gptq[triton]` to install triton branch for triton compatible models
+1. `cd ../..`
 
 ## LAN port forwarding from Ubuntu WSL
 
