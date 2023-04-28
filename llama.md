@@ -51,10 +51,11 @@ Also, GPTQ Triton only supports 4 bit. If you want to use 3bit models, you need 
 1. `git clone https://github.com/oobabooga/text-generation-webui`
 1. `cd text-generation-webui`
 1. `pip install -r requirements.txt`
+1. `pip install chardet`
 
 ## Build and install GPTQ
 
-If you want to try the triton branch, skip to [Triton](#triton)
+If you want to try the triton branch, skip to [Newer GPTQ-Triton](#newer-gptq-triton)
 
 ### Older GPTQ-Cuda fork by pobabooga
 - Works on Windows, Linux, WSL2.
