@@ -56,7 +56,7 @@ Also, GPTQ Triton only supports 4 bit. If you want to use 3bit models, you need 
 
 If you want to try the triton branch, skip to [Triton](#triton)
 
-### Cuda
+### Older GPTQ-Cuda fork by pobabooga
 - Works on Windows, Linux, WSL2.
 - Supports 3 & 4 bit models
 - Only supports no-act-order models
@@ -70,8 +70,8 @@ If you want to try the triton branch, skip to [Triton](#triton)
 1. `python -m pip install -r requirements.txt`
 1. `python setup_cuda.py install` if this gives an error about g++, try installing the correct g++ version: `conda install -y -k gxx_linux-64=11.2.0`
 
-### Triton
-The [triton branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa), [another](https://github.com/fpgaminer/GPTQ-triton) implementation
+### Newer GPTQ-Triton
+This [triton branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa) or [this one](https://github.com/fpgaminer/GPTQ-triton):
 - Works on Linux and WSL2
 - Supports 4 bit quantized models
 - Is faster than cuda
@@ -84,7 +84,7 @@ The [triton branch](https://github.com/qwopqwop200/GPTQ-for-LLaMa), [another](ht
 1. `cd GPTQ-for-LLaMa`
 1. `pip install -r requirements.txt`
 
-### AutoGPTQ
+### AutoGPTQ to install any (Newer Cuda, Newer Triton, older Cuda)
 Alternatively you can try [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) to install cuda, older llama-cuda, or triton variants:
 
 - `pip install auto-gptq` to install cuda branch for newer models
