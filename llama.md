@@ -57,8 +57,7 @@ By using WSL2 on Windows 11 you can install Ubuntu inside your Windows 11 system
 1. `git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda`
 1. `cd GPTQ-for-LLaMa`
 1. `python -m pip install -r requirements.txt`
-1. `conda install -y -k gxx_linux-64=11.2.0`
-1. `python setup_cuda.py install`
+1. `python setup_cuda.py install` if this gives an error about g++, try installing the correct g++ version: `conda install -y -k gxx_linux-64=11.2.0`
 
 If you want to open the webui from within your home network, enable port forwarding on your windows machine, with this command in an administrator terminal:
 `netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=7860 connectaddress=localhost connectport=7860`
@@ -117,10 +116,12 @@ If you get a `cuda lib not found` error, especially on Windows WSL2 Ubuntu, try 
 - `pip uninstall bitsandbytes`
 - `pip install git+https://github.com/Keith-Hon/bitsandbytes-windows.git`
 
-Also try this wheel on windows:
+Also try these wheel on windows:
 - https://github.com/TimDettmers/bitsandbytes/files/11084955/bitsandbytes-0.37.2-py3-none-any.whl.zip
 - https://github.com/acpopescu/bitsandbytes/releases/tag/v0.37.2-win.0
 - And more help on windows support [here](https://github.com/TimDettmers/bitsandbytes/issues/30)
+
+Still having problems, try to [manually](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902) copy the libraries
 
 ## Install xformers prebuilt Windows wheels 
 - `pip install xformers==0.0.16rc425`
