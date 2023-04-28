@@ -141,11 +141,11 @@ Now skip to [Download models](#download-models)
 The base command to run. You have to add further flags, depending on the model and environment you want to run in:
 1. `python server.py --model-menu`
 
-`--model-menu` to allow the change of models in the UI
-`--wbits 4` loads a 4-bit quantized model
-`--groupsize 128` if the model specifies groupsize, add this parameter
-`--model_type llama` if the model name is unknown, specify it's base model. if you run llama derrived models like vicuna, alpaca, gpt4-x, codecapybara or wizardLM you have to define it as `llama`. If you load OPT or GPT-J models, define the flag accordingly
-`--xformers` if you have properly installed xformers and want faster but nondeterministic answer generation
+- `--model-menu` to allow the change of models in the UI
+- `--wbits 4` loads a 4-bit quantized model
+- `--groupsize 128` if the model specifies groupsize, add this parameter
+- `--model_type llama` if the model name is unknown, specify it's base model. if you run llama derrived models like vicuna, alpaca, gpt4-x, codecapybara or wizardLM you have to define it as `llama`. If you load OPT or GPT-J models, define the flag accordingly
+- `--xformers` if you have properly installed xformers and want faster but nondeterministic answer generation
 
 # Troubleshoot
 
