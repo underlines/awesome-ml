@@ -322,6 +322,7 @@ or:
 - [CAMEL](https://github.com/lightaime/camel): Communicative Agents for "Mind" Exploration of Large Scale Language Model Society. [preprint paper](https://ghli.org/camel.pdf), [website](https://www.camel-ai.org/)
 - [Poisoning Language Models During Instruction Tuning](https://arxiv.org/abs/2305.00944)
 - [SparseGPT](https://arxiv.org/abs/2301.00774): Massive Language Models Can Be Accurately Pruned in One-Shot
+- [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199)
 
 
 
@@ -438,6 +439,7 @@ or:
 - [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
 - [How to train your LLMs](https://blog.replit.com/llm-training)
 - [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
+- [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
 
 ## Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
