@@ -395,6 +395,7 @@ or:
 *   [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
     *   [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
 *   [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
+*   [lmc-llm](https://github.com/mlc-ai/mlc-llm), run any LLM on any hardware (iPhones, Android, Win, Linux, Mac, WebGPU, Metal. NVidia, AMD)
 
 ## LLM Wrappers
 
