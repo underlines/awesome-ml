@@ -371,6 +371,7 @@ or:
     *   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
     *   [koboldcpp](https://github.com/LostRuins/koboldcpp)
     *   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
+    *   [llama MPS](https://github.com/jankais3r/LLaMA_MPS) inference on Apple Silicon GPU using much lower power but is slightly slower than llama.cpp which uses CPU
 *   [Dalai](https://github.com/cocktailpeanut/dalai)
 *   [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
     *   [ChatLLaMA | another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
@@ -441,6 +442,7 @@ or:
 ## Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
 - [The full story of LLMs](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/)
+- [Brief history of llama models](https://agi-sphere.com/llama-models/)
 
 # Image Generation
 
