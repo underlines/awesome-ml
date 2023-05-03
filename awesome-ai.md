@@ -443,6 +443,7 @@ or:
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
 - [The full story of LLMs](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/)
 - [Brief history of llama models](https://agi-sphere.com/llama-models/)
+- [A timeline of transformer models](https://ai.v-gar.de/ml/transformer/timeline/)
 
 # Image Generation
 
