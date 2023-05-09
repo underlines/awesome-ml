@@ -134,6 +134,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Counter.dev | Basic, open source non-intrusive web analytics](https://github.com/ihucos/counter.dev)
 - [Beam Analytics | Paid, closed source, GDPR compliant, cookieless, 100k pageviews/m unrestricted free tier](https://beamanalytics.io/)
 - [Uptrace | Open source APM: OpenTelemetry traces, metrics, and logs](https://github.com/uptrace/uptrace)
+- [Microanalytics | GDPR compliant simple paid web analytics hosted in the EU](https://microanalytics.io/)
+
 
 
 ## Machine Learning IDEs
