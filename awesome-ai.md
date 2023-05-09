@@ -367,6 +367,8 @@ or:
   *  [JARVIS-ChatGPT](https://github.com/gia-guar/JARVIS-ChatGPT) conversational assistant that uses OpenAI Whisper, OpenAI ChatGPT, and IBM Watson to provide quasi-real-time tips and opinions.
 *   [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
 *   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
+*   [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
+*   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 
 ### Other GUIs
 
@@ -432,6 +434,8 @@ or:
 *   [GPTCache](https://github.com/zilliztech/GPTCache), serve cached results based on embeddings in a vector DB, before querying the OpenAI API.
 *   [kitt](https://github.com/livekit-examples/kitt) TTS + GPT4 + STT to create a conference call audio bot
 *   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
+*   [Marvin](https://github.com/prefecthq/marvin) simplifies AI integration in software development with easy creation of AI functions and bots managed through a conversational interface
+*   [chatgpt.js](https://github.com/chatgptjs/chatgpt.js) client-side JavaScript library for ChatGPT
 
 
 ## Showcases
@@ -456,6 +460,8 @@ or:
 - [The full story of LLMs](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/)
 - [Brief history of llama models](https://agi-sphere.com/llama-models/)
 - [A timeline of transformer models](https://ai.v-gar.de/ml/transformer/timeline/)
+- [Every front-end GUI client for ChatGPT API](https://github.com/billmei/every-chatgpt-gui)
+- [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=719051075) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
 
 # Image Generation
 
