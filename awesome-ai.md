@@ -368,6 +368,7 @@ or:
 - [SparseGPT](https://arxiv.org/abs/2301.00774): Massive Language Models Can Be Accurately Pruned in One-Shot
 - [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199)
 - [Dromedary](https://arxiv.org/abs/2305.03047): Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision, [code](https://github.com/IBM/Dromedary), [weights](https://huggingface.co/zhiqings/dromedary-65b-lora-delta-v0)
+- [Unlimiformer](https://arxiv.org/abs/2305.01625): transformer-based model that can process unlimited length input by offloading attention computation to a k-nearest-neighbor index, extending the capabilities of existing models like BART and Longformer without additional weights or code modifications. [code](https://github.com/abertsch72/unlimiformer)
 
 
 
@@ -513,6 +514,7 @@ or:
 - https://lukashoel.github.io/text-to-room/
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 - [DeepFloyd if by StabilityAI](https://huggingface.co/DeepFloyd/IF-I-XL-v1.0) open-source text-to-image model with photorealism and language understanding. [code](https://github.com/deep-floyd/IF)
+- [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
 
 ## Wrappers & GUIs
 - [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
