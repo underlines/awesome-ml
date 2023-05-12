@@ -378,6 +378,8 @@ or:
 ### OpenAI
 
 -   [chatgptui/desktop](https://github.com/chatgptui/desktop)
+  -   [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
+  -   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 -   [TypingMind](https://www.typingmind.com/)
 -   [Chatwithme.chat](https://www.chatwithme.chat/)
 -   [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
@@ -398,6 +400,7 @@ or:
     -   [BabyAGIChatGPT](https://github.com/Doriandarko/BabyAGIChatGPT) is a fork of BabyAGI to work with OpenAI's GPT, pinecone and google search
     -   [GPT Assistant](https://github.com/BuilderIO/gpt-assistant) An autonomous agent that can access and control a chrome browser via Puppeteer 
     -   [gptchat](https://github.com/ian-kent/gptchat) a client which uses GPT-4, adding long term memory, can write its own plugins and can fulfill tasks
+    -   [Chrome-GPT](https://github.com/richardyc/Chrome-GPT) experimental AutoGPT agent employing Langchain and Selenium to interact with and manipulate a Chrome browser session, enabling capabilities like Google search, webpage description, element interaction, and form input
 -   [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
 -   [sqlchat | Use OpenAI GPT3/4 to chat with your database](https://github.com/sqlchat/sqlchat)
 -   [chat-with-github-repo](https://github.com/peterw/Chat-with-Github-Repo) which uses streamlit, gpt3.5-turbo and deep lake to answer questions about a git repo
@@ -407,8 +410,10 @@ or:
   -  [JARVIS-ChatGPT](https://github.com/gia-guar/JARVIS-ChatGPT) conversational assistant that uses OpenAI Whisper, OpenAI ChatGPT, and IBM Watson to provide quasi-real-time tips and opinions.
 -   [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
 -   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
--   [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
--   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
+-   [Glarity](https://github.com/sparticleinc/chatgpt-google-summary-extension) open-source chrome extension to write summaries for various websites including custom ones and YouTube videos. Extensible
+  -   [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome  extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
+
+
 
 ### Other GUIs
 
@@ -477,6 +482,7 @@ or:
 -   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
 -   [Marvin](https://github.com/prefecthq/marvin) simplifies AI integration in software development with easy creation of AI functions and bots managed through a conversational interface
 -   [chatgpt.js](https://github.com/chatgptjs/chatgpt.js) client-side JavaScript library for ChatGPT
+-   [ChatGPT-Bridge](https://github.com/improveTheWorld/ChatGPT-Bridge) use chatGPT plus' GPT-4 as a local API
 
 
 ## Showcases
@@ -512,9 +518,12 @@ or:
 ## Models
 - https://github.com/kakaobrain/karlo
 - https://lukashoel.github.io/text-to-room/
-- [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+- [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) image segmentation
+  - [YOLOv8](https://github.com/ultralytics/ultralytics) SOTA object detection, segmentation, classification and tracking
+  - [DINOv2](https://github.com/facebookresearch/dinov2) 1B-parameter ViT model to generate robust all-purpose visual features that outperform OpenCLIP benchmarks at image and pixel levels
 - [DeepFloyd if by StabilityAI](https://huggingface.co/DeepFloyd/IF-I-XL-v1.0) open-source text-to-image model with photorealism and language understanding. [code](https://github.com/deep-floyd/IF)
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
+- [Kandinsky](https://github.com/ai-forever/Kandinsky-2) multilingual text2image latent diffusion model
 
 ## Wrappers & GUIs
 - [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
