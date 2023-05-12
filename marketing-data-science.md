@@ -84,6 +84,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [ClickHouse | open-source column oriented OLAP DBMS for realtime querying in SQL](https://github.com/ClickHouse/ClickHouse)
 - [RQLite | open-source Lightweight, distributed SQLite database handling leader elections, tolerates failures of machines, including leader available for Linux, macOS, and Microsoft Windows](https://github.com/rqlite/rqlite)
 - [DuckDB | open-source fast in-process SQL OLAP database](https://github.com/duckdb/duckdb)
+- [Qdrant Vector Database for AI applications](https://github.com/qdrant/qdrant)
 
 
 
