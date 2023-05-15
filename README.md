@@ -2,7 +2,7 @@
 Curated list of useful Analytics / Datascience things:
 
 
-[ML Models / LLM resources](awesome-ai.md)
+[ML Tools, Models and resources](awesome-ai.md)
 
 [Guide to run LLaMA and derrivates on your own hardware](llama.md)
 
