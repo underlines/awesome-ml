@@ -369,6 +369,8 @@ or:
 - [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199)
 - [Dromedary](https://arxiv.org/abs/2305.03047): Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision, [code](https://github.com/IBM/Dromedary), [weights](https://huggingface.co/zhiqings/dromedary-65b-lora-delta-v0)
 - [Unlimiformer](https://arxiv.org/abs/2305.01625): transformer-based model that can process unlimited length input by offloading attention computation to a k-nearest-neighbor index, extending the capabilities of existing models like BART and Longformer without additional weights or code modifications. [code](https://github.com/abertsch72/unlimiformer)
+- [Salesforce LAVIS](https://github.com/salesforce/lavis) provides a comprehensive Python library for language-vision intelligence research, including state-of-the-art models like BLIP-2 for vision-language pretraining and Img2LLM-VQA for visual question answering, alongside a unified interface
+- [FLARE](https://arxiv.org/abs/2305.06983v1) an active retrieval augmented generation technique that iteratively predicts, retrieves, and refines content, improving the accuracy and efficiency of long-form text generation in language models
 
 
 
