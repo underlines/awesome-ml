@@ -422,6 +422,7 @@ or:
 -   [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations
     -   [running LLaMA on less than 10GB vram](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134)
     -   [running LLaMA-7b on a 3080](https://github.com/TimDettmers/bitsandbytes/issues/30#issuecomment-1455993902)
+    -   [running LLaMA-13b on 6GB VRAM](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc), [HN Thread](https://news.ycombinator.com/item?id=35937505)
 -   [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
 -   [llama.cpp](https://github.com/ggerganov/llama.cpp)
     -   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
@@ -515,6 +516,7 @@ or:
 - [LLMSurvey](https://github.com/rucaibox/llmsurvey) a collection of papers and resources including an LLM timeline
 - [rentry.org/lmg_models](https://rentry.org/lmg_models) a list of llama derrivates and models
 - [Timeline of AI and language models](https://lifearchitect.ai/timeline/) and [Model Comparison Sheet](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs/edit#gid=1158069878) by Dr. Alan D. Thompson
+- [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) an evolving manual providing historical context, strategies, guidelines, and safety recommendations for building programmatic systems on OpenAI's GPT-4
 
 # Image Generation
 
