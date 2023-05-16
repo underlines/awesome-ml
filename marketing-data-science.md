@@ -85,6 +85,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [RQLite | open-source Lightweight, distributed SQLite database handling leader elections, tolerates failures of machines, including leader available for Linux, macOS, and Microsoft Windows](https://github.com/rqlite/rqlite)
 - [DuckDB | open-source fast in-process SQL OLAP database](https://github.com/duckdb/duckdb)
 - [Qdrant Vector Database for AI applications](https://github.com/qdrant/qdrant)
+- [Datomic](https://www.datomic.com/) recently free (apache 2.0), fully transactional, cloud-ready, distributed database
+- [XTDB](https://www.xtdb.com/v2) a bitemporal and dynamic relational database for SQL and Datalog
+
+
 
 
 
