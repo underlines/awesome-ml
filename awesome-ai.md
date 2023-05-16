@@ -554,7 +554,10 @@ or:
 - https://github.com/google-research/frame-interpolation
 - https://github.com/ltkong218/ifrnet
 - https://github.com/megvii-research/ECCV2022-RIFE
-- 
+
+## Segmentation & Tracking
+- [Segment and Track Anything](https://arxiv.org/abs/2305.06558v1), [code](https://github.com/z-x-yang/segment-and-track-anything). an innovative framework combining the Segment Anything Model (SAM) and DeAOT tracking model, enables precise, multimodal object tracking in video, demonstrating superior performance in benchmarks
+- [Track Anything](https://arxiv.org/abs/2304.11968v2), [code](https://github.com/gaomingqi/track-anything). extends the Segment Anything Model (SAM) to achieve high-performance, interactive tracking and segmentation in videos with minimal human intervention, addressing SAM's limitations in consistent video segmentation
 
 ## Super Resolution (Spacial Interpolation)
 - https://github.com/researchmm/FTVSR
