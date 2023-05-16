@@ -190,6 +190,9 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Analytics Zoo | Unified Data Analytics and AI stack with TensorFlow, Keras and Pytorch and seamless deployment](https://github.com/intel-analytics/analytics-zoo)
 
 # Libraries
+## Javascript
+### Visualization
+- [Plot](https://github.com/observablehq/plot) JavaScript library for exploratory data visualization Create expressive charts with concise code
 ## Python
 ### Visualization
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.
