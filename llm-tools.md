@@ -1,46 +1,58 @@
 # Large Language Models
 
-## LLM GUIs
-
-### OpenAI
-
+## OpenAI GUIs
+### Desktop Native
 -   [chatgptui/desktop](https://github.com/chatgptui/desktop)
-  -   [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
-  -   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
+-   [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
+-   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
+-   [cheetah](https://github.com/leetcode-mafia/cheetah) Speech to text for remote coding interviews, giving you hints from GTP3/4
+
+### Web
 -   [TypingMind](https://www.typingmind.com/)
 -   [Chatwithme.chat](https://www.chatwithme.chat/)
+-   [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
+-   [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
+-   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
+
+### Voice Assistants
 -   [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
 -   [Abdallah-Ragab/VoiceGPT](https://github.com/Abdallah-Ragab/VoiceGPT)
 -   [LlmKira/Openaibot](https://github.com/LlmKira/Openaibot)
--   [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
--   [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
--   [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
--   [Auto GPT](https://github.com/Torantulino/Auto-GPT)
-    -   [AgentGPT](https://github.com/reworkd/AgentGPT) Deploy autonomous AI agents, using vectorDB memory, web browsing via LangChain, website interaction and more 
-    -   [microGPT ](https://github.com/muellerberndt/micro-gpt) Autonomous GPT-3.5/4 agent, can analyze stocks, create art, order pizza, and perform network security tests
-    -   [Auto GPT Plugins](https://github.com/Significant-Gravitas/Auto-GPT-Plugins)
-    -   [AutoGPT-Next-Web](https://github.com/Dogtiti/AutoGPT-Next-Web) An AgentGPT fork as a Web GUI
-    -   [AutoGPT Web](https://github.com/jina-ai/auto-gpt-web)
-    -   [AutoGPT.js](https://github.com/zabirauf/AutoGPT.js)
-    -   [LoopGPT](https://github.com/farizrahman4u/loopgpt) a re-implementation of AutoGPT as a proper python package, modular and extensible
-    -   [Camel-AutoGPT](https://github.com/SamurAIGPT/Camel-AutoGPT) Communicaton between Agents like BabyAGI and AutoGPT
-    -   [BabyAGIChatGPT](https://github.com/Doriandarko/BabyAGIChatGPT) is a fork of BabyAGI to work with OpenAI's GPT, pinecone and google search
-    -   [GPT Assistant](https://github.com/BuilderIO/gpt-assistant) An autonomous agent that can access and control a chrome browser via Puppeteer 
-    -   [gptchat](https://github.com/ian-kent/gptchat) a client which uses GPT-4, adding long term memory, can write its own plugins and can fulfill tasks
-    -   [Chrome-GPT](https://github.com/richardyc/Chrome-GPT) experimental AutoGPT agent employing Langchain and Selenium to interact with and manipulate a Chrome browser session, enabling capabilities like Google search, webpage description, element interaction, and form input
--   [cheetah | Speech to text for remote coding interviews, giving you hints from GTP3/4](https://github.com/leetcode-mafia/cheetah)
--   [sqlchat | Use OpenAI GPT3/4 to chat with your database](https://github.com/sqlchat/sqlchat)
+-   [BarkingGPT](https://github.com/BudEcosystem/BarkingGPT) Audio2Audio by using Whisper+chatGPT+Bark
+-  [gpt_chatbot](https://github.com/1nnovat1on/gpt_chatbot) Windows / elevenlabs TTS + pinecone long term memory
+-  [gpt-voice-conversation-chatbot](https://github.com/Adri6336/gpt-voice-conversation-chatbot) using GPT3.5/4 API, elevenlab voices, google tts, session long term memory
+-  [JARVIS-ChatGPT](https://github.com/gia-guar/JARVIS-ChatGPT) conversational assistant that uses OpenAI Whisper, OpenAI ChatGPT, and IBM Watson to provide quasi-real-time tips and opinions.
+-   [ALFRED](https://github.com/masrad/ALFRED) LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more
+
+### Information retrieval
+-   [sqlchat](https://github.com/sqlchat/sqlchat) Use OpenAI GPT3/4 to chat with your database
 -   [chat-with-github-repo](https://github.com/peterw/Chat-with-Github-Repo) which uses streamlit, gpt3.5-turbo and deep lake to answer questions about a git repo
--   [BarkingGPT | Audio2Audio by using Whisper+chatGPT+Bark](https://github.com/BudEcosystem/BarkingGPT)
-  -  [gpt_chatbot](https://github.com/1nnovat1on/gpt_chatbot) Windows / elevenlabs TTS + pinecone long term memory
-  -  [gpt-voice-conversation-chatbot](https://github.com/Adri6336/gpt-voice-conversation-chatbot) using GPT3.5/4 API, elevenlab voices, google tts, session long term memory
-  -  [JARVIS-ChatGPT](https://github.com/gia-guar/JARVIS-ChatGPT) conversational assistant that uses OpenAI Whisper, OpenAI ChatGPT, and IBM Watson to provide quasi-real-time tips and opinions.
--   [ALFRED | LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more](https://github.com/masrad/ALFRED)
--   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
+
+### Browser Extensions
+-   [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
 -   [Glarity](https://github.com/sparticleinc/chatgpt-google-summary-extension) open-source chrome extension to write summaries for various websites including custom ones and YouTube videos. Extensible
-  -   [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome  extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
+-   [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome  extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
 
 
+### Agents / Automatic GPT
+-   [Auto GPT](https://github.com/Torantulino/Auto-GPT)
+-   [AgentGPT](https://github.com/reworkd/AgentGPT) Deploy autonomous AI agents, using vectorDB memory, web browsing via LangChain, website interaction and more 
+-   [microGPT ](https://github.com/muellerberndt/micro-gpt) Autonomous GPT-3.5/4 agent, can analyze stocks, create art, order pizza, and perform network security tests
+-   [Auto GPT Plugins](https://github.com/Significant-Gravitas/Auto-GPT-Plugins)
+-   [AutoGPT-Next-Web](https://github.com/Dogtiti/AutoGPT-Next-Web) An AgentGPT fork as a Web GUI
+-   [AutoGPT Web](https://github.com/jina-ai/auto-gpt-web)
+-   [AutoGPT.js](https://github.com/zabirauf/AutoGPT.js)
+-   [LoopGPT](https://github.com/farizrahman4u/loopgpt) a re-implementation of AutoGPT as a proper python package, modular and extensible
+-   [Camel-AutoGPT](https://github.com/SamurAIGPT/Camel-AutoGPT) Communicaton between Agents like BabyAGI and AutoGPT
+-   [BabyAGIChatGPT](https://github.com/Doriandarko/BabyAGIChatGPT) is a fork of BabyAGI to work with OpenAI's GPT, pinecone and google search
+-   [GPT Assistant](https://github.com/BuilderIO/gpt-assistant) An autonomous agent that can access and control a chrome browser via Puppeteer 
+-   [gptchat](https://github.com/ian-kent/gptchat) a client which uses GPT-4, adding long term memory, can write its own plugins and can fulfill tasks
+-   [Chrome-GPT](https://github.com/richardyc/Chrome-GPT)  AutoGPT agent employing Langchain and Selenium to interact with a Chrome browser session, 
+enabling Google search, webpage description, element interaction, and form input
+
+
+
+### OpenAI
 
 ### Other GUIs
 
