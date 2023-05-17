@@ -146,6 +146,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
 - [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
 - [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) a llama, pythia, cerebras training environment optimized for Runpod
 
 ## Frameworks
 -   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
