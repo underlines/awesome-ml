@@ -3,9 +3,9 @@ Curated list of useful LLM / Analytics / Datascience resources:
 
 # 💬Large Language Models
 
-[The curated model list for llama and other open models](llm-model-list.md)
-[LLM Tools, GUIs, Wrappers etc](llm-tools.md)
-[Guide to run LLaMA and derrivates on your own hardware](llama.md)
+- [The curated model list for llama and other open models](llm-model-list.md)
+- [LLM Tools, GUIs, Wrappers etc](llm-tools.md)
+- [Guide to run LLaMA and derrivates on your own hardware](llama.md)
 
 # Image Models
 - [Models](image-generation.md#models)
