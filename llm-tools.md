@@ -107,10 +107,6 @@ enabling Google search, webpage description, element interaction, and form input
 -   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
 
 
-## Frameworks
--   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
-
-
 ## Libraries and Wrappers
 
 -   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -193,7 +189,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [Salesforce LAVIS](https://github.com/salesforce/lavis) provides a comprehensive Python library for language-vision intelligence research, including state-of-the-art models like BLIP-2 for vision-language pretraining and Img2LLM-VQA for visual question answering, alongside a unified interface
 - [FLARE](https://arxiv.org/abs/2305.06983v1) an active retrieval augmented generation technique that iteratively predicts, retrieves, and refines content, improving the accuracy and efficiency of long-form text generation in language models
 
-## Fine Tuning
+## Fine Tuning & Training
 - [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
 - [LLaMA-LoRA Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
@@ -203,6 +199,11 @@ enabling Google search, webpage description, element interaction, and form input
 - [How to train your LLMs](https://blog.replit.com/llm-training)
 - [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
 - [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
+- [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
+
+## Frameworks
+-   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
+- [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
 
 ## Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
@@ -225,12 +226,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [Voice Q&A Assistant](https://github.com/hackingthemarkets/qa-assistant-eleven-labs-voice-cloning) using ChatGPT API, Embeddings, Gradio, Eleven Labs and Whisper
 - [chatpdf](https://www.chatpdf.com/), Q&A for PDFs
 
-# AI DevOps
-- https://www.steamship.com/
-- [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
-
-# Optimization
-## Inference
+## Optimization
 - https://github.com/bigscience-workshop/petals
 - https://github.com/chavinlo/distributed-diffusion
 - https://github.com/VoltaML/voltaML-fast-stable-diffusion
@@ -242,22 +238,17 @@ enabling Google search, webpage description, element interaction, and form input
 - [4 bits quantization of LLaMa using GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa) ([discussion](https://github.com/oobabooga/text-generation-webui/issues/177))
 - https://petals.ml/
 - https://github.com/facebookincubator/AITemplate
-
-## Training
-- https://github.com/learning-at-home/hivemind
-
-## Other Optimization
 - https://github.com/HazyResearch/flash-attention
 - https://github.com/stochasticai/x-stable-diffusion
 - [Long Convs and Hyena implementations](https://github.com/hazyresearch/safari) 
 
-
-# Benchmarking
+## Benchmarking
 - https://videoprocessing.ai/benchmarks/
 - https://paperswithcode.com/
 - [Pythia | interpretability analysis for autoregressive transformers during training](https://github.com/EleutherAI/pythia)
 - [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner
 - [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
 
-
+## AI DevOps
+- https://www.steamship.com/
 
