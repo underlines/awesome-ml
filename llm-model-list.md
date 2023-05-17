@@ -1,3 +1,5 @@
+## Llama and derrivatives 
+
 Curated list of llama and similar models.
 
 [Model Google Sheet](https://docs.google.com/spreadsheets/d/1PtrPwDV8Wcdhzh-N_Siaofc2R6TImebnFvv0GuCCzdo/edit?usp=sharing)
@@ -252,4 +254,19 @@ Curated list of llama and similar models.
 | [llama13b-lora-gpt4all](https://huggingface.co/magicgh/llama13b-lora-gpt4all)                                                            | magicgh                      | llama       | 13b        | ?                                  | GPT4All, Alpaca-CoT                                                                                                                                                                                                                                                                                                                                                                          | .bin                               | yes  | 404        |
 
 
-end
+
+## Other SOTA Open Source models
+- [Cerebras GPT-13b](https://huggingface.co/cerebras) ([release notes](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/))
+- [LAION OpenFlamingo | Multi Modal Model and training architecture](https://github.com/mlfoundations/open_flamingo)
+- [TheBloke/galpaca-30b-gptq-4bit-128g](https://huggingface.co/TheBloke/galpaca-30B-GPTQ-4bit-128g), GALACTICA 30B fine tuned with Alpaca 
+- [GeorgiaTechResearchInstitute/galpaca-6.7b](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b) GALACTICA 6.7B fine tuned with Alpaca
+- [GeoV/GeoV-9b](https://huggingface.co/GeoV/GeoV-9b) - 9B parameter, in-progress training to 300B tokens (33:1)
+- [RWKV: Parallelizable RNN with Transformer-level LLM Performance](https://github.com/BlinkDL/RWKV-LM)
+- [CodeGeeX 13B | Multi Language Code Generation Model](https://huggingface.co/spaces/THUDM/CodeGeeX)
+- [BigCode | Open Scientific collaboration to train a coding LLM](https://huggingface.co/bigcode)
+- [MOSS by Fudan University](https://github.com/OpenLMLab/MOSS)
+- [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) Multimodal finetuned model for visual/language tasks
+- [Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) multi-modal visual/language chatbot, using llama with custom LoRA weights and openflamingo-9B.
+- [Visual-med-alpaca](https://github.com/cambridgeltl/visual-med-alpaca) fine-tuning llama-7b on self instruct for the biomedical domain. Models locked behind a request form.
+- [replit-code-v1-3b](https://huggingface.co/replit/replit-code-v1-3b) focused on Code Completion. The model has been trained on a subset of the [Stack Dedup v1.2](https://arxiv.org/abs/2211.15533) dataset.
+- [VPGTrans](https://vpgtrans.github.io/) Transfer Visual Prompt Generator across LLMs and the VL-Vicuna model is a novel VL-LLM. [Paper](https://arxiv.org/abs/2305.01278), [code](https://github.com/VPGTrans/VPGTrans)
