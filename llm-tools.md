@@ -1,5 +1,4 @@
-# Large Language Models
-
+# Tools
 ## Native GUIs
 ### openAI
 -   [chatgptui/desktop](https://github.com/chatgptui/desktop)
@@ -106,7 +105,6 @@ enabling Google search, webpage description, element interaction, and form input
 -   [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
 -   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
 
-
 ## Libraries and Wrappers
 
 -   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
@@ -137,6 +135,23 @@ enabling Google search, webpage description, element interaction, and form input
 -   [chatgpt.js](https://github.com/chatgptjs/chatgpt.js) client-side JavaScript library for ChatGPT
 -   [ChatGPT-Bridge](https://github.com/improveTheWorld/ChatGPT-Bridge) use chatGPT plus' GPT-4 as a local API
 
+## Fine Tuning & Training
+- [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
+- [LLaMA-LoRA Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner)
+- [alpaca-lora](https://github.com/tloen/alpaca-lora)
+- [StackLLaMA Fine-Tuning Guide by huggingface](https://huggingface.co/blog/stackllama)
+- [xTuring | LLM finetuning pipeline supporting LoRa & 4bit](https://github.com/stochasticai/xturing)
+- [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
+- [How to train your LLMs](https://blog.replit.com/llm-training)
+- [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
+- [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
+- [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
+
+## Frameworks
+-   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
+- [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
+
+# Resources
 ## Data sets
 - [Alpaca-lora](https://github.com/tloen/alpaca-lora) instruction finetuned using Low Rank Adaption
 - [codealpaca](https://github.com/sahil280114/codealpaca) Instruction training data set for code generation
@@ -189,23 +204,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [Salesforce LAVIS](https://github.com/salesforce/lavis) provides a comprehensive Python library for language-vision intelligence research, including state-of-the-art models like BLIP-2 for vision-language pretraining and Img2LLM-VQA for visual question answering, alongside a unified interface
 - [FLARE](https://arxiv.org/abs/2305.06983v1) an active retrieval augmented generation technique that iteratively predicts, retrieves, and refines content, improving the accuracy and efficiency of long-form text generation in language models
 
-## Fine Tuning & Training
-- [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
-- [LLaMA-LoRA Tuner](https://github.com/zetavg/LLaMA-LoRA-Tuner)
-- [alpaca-lora](https://github.com/tloen/alpaca-lora)
-- [StackLLaMA Fine-Tuning Guide by huggingface](https://huggingface.co/blog/stackllama)
-- [xTuring | LLM finetuning pipeline supporting LoRa & 4bit](https://github.com/stochasticai/xturing)
-- [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
-- [How to train your LLMs](https://blog.replit.com/llm-training)
-- [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
-- [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
-- [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
-
-## Frameworks
--   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
-- [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
-
-## Other awesome resources
+# Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
 - [The full story of LLMs](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/)
 - [Brief history of llama models](https://agi-sphere.com/llama-models/)
@@ -220,7 +219,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) based on [this](https://arxiv.org/abs/2303.18223) paper, builds a collection of further papers and resources related to LLMs including a timeline
 - [LLaMAindex](https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec) using Document Summary Index for better QA performance compared to vectorDBs
 
-## Showcases
+## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
 - [phind.com](phind.com) Developer Search Engine
 - [Voice Q&A Assistant](https://github.com/hackingthemarkets/qa-assistant-eleven-labs-voice-cloning) using ChatGPT API, Embeddings, Gradio, Eleven Labs and Whisper
