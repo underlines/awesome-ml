@@ -9,7 +9,7 @@ Curated list of useful LLM / Analytics / Datascience resources:
 
 # Image Generation
 - [Models](image-generation.md#models)
-- [Wrappers & GUIs](image-generation.md#wrappers-&-guis)
+- [Wrappers & GUIs](image-generation.md#wrappers--guis)
 - [Fine Tuning](image-generation.md#fine-tuning)
 - [Research](image-generation.md#research)
 
