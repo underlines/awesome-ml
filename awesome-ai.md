@@ -466,7 +466,8 @@ or:
 -   [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
 -   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 -   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
-    -   [Llama-lab](https://github.com/run-llama/llama-lab) home of llama\_agi and auto\_llama using LlamaIndex
+    -   [Llama-lab](https://github.com/run-llama/llama-lab) home of llama_agi and auto_llama using LlamaIndex
+-   [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
 -   [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
 -   [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
 -   [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
