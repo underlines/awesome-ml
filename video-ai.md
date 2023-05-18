@@ -19,3 +19,9 @@
 
 ## Spacio Temporal Interpolation
 - https://github.com/llmpass/RSTT
+
+## Benchmarking
+- [MSU Benchmarks](https://videoprocessing.ai/) collection of video processing benchmarks developed by the Video Processing Group at the Moscow State University
+- [Video Super Resolution Benchmarks](https://paperswithcode.com/task/video-super-resolution)
+- [Video Generation Benchmarks](https://paperswithcode.com/task/video-generation)
+- [Video Frame Interpolation Benchmarks](https://paperswithcode.com/task/video-frame-interpolation)
