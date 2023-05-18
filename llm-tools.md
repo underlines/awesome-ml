@@ -211,7 +211,6 @@ enabling Google search, webpage description, element interaction, and form input
 - [Brief history of llama models](https://agi-sphere.com/llama-models/)
 - [A timeline of transformer models](https://ai.v-gar.de/ml/transformer/timeline/)
 - [Every front-end GUI client for ChatGPT API](https://github.com/billmei/every-chatgpt-gui)
-- [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=719051075) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
 - [LLMSurvey](https://github.com/rucaibox/llmsurvey) a collection of papers and resources including an LLM timeline
 - [rentry.org/lmg_models](https://rentry.org/lmg_models) a list of llama derrivates and models
 - [Timeline of AI and language models](https://lifearchitect.ai/timeline/) and [Model Comparison Sheet](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs/edit#gid=1158069878) by Dr. Alan D. Thompson
@@ -248,6 +247,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [Pythia | interpretability analysis for autoregressive transformers during training](https://github.com/EleutherAI/pythia)
 - [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner
 - [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
+- [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=719051075) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
 
 ## AI DevOps
 - https://www.steamship.com/
