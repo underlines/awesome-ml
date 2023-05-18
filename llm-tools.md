@@ -242,13 +242,17 @@ enabling Google search, webpage description, element interaction, and form input
 - [Long Convs and Hyena implementations](https://github.com/hazyresearch/safari) 
 
 ## Benchmarking
-- https://videoprocessing.ai/benchmarks/
-- https://paperswithcode.com/
-- [Pythia | interpretability analysis for autoregressive transformers during training](https://github.com/EleutherAI/pythia)
+### Leaderboards
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) by HuggingFaceH4
 - [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner
 - [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
 - [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=719051075) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
+- [paperswithcode](https://paperswithcode.com/) has LLM SOTA leaderboards, but usually just for foundation models
 
+### Benchmark Suites & Datasets
+- [Big-bench](https://github.com/google/BIG-bench) a collaborative benchmark featuring over 200 tasks for evaluating the capabilities of llms
+- [Pythia](https://github.com/EleutherAI/pythia) interpretability analysis for autoregressive transformers during training
+- 
 ## AI DevOps
 - https://www.steamship.com/
 
