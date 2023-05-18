@@ -153,6 +153,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [Vicuna FastChat](https://github.com/lm-sys/FastChat)
 - [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
 - [Microsoft guidance](https://github.com/microsoft/guidance) efficient Framework for Enhancing Control and Structure in Modern Language Model Interactions
+- [Microsoft semantic-kernel](https://github.com/microsoft/semantic-kernel) a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages
 
 # Resources
 ## Data sets
