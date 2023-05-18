@@ -1,10 +1,12 @@
-## Llama and derrivatives 
+## Open LLM Models List
 
-Curated list of llama and similar models.
+Curated list of llama, alpaca, vicuna and similar open models and a few other architectures.
 
-Available as a [Model Google Sheet](https://docs.google.com/spreadsheets/d/1PtrPwDV8Wcdhzh-N_Siaofc2R6TImebnFvv0GuCCzdo/edit?usp=sharing)
+Available as a [📄 Google Sheet](https://docs.google.com/spreadsheets/d/1PtrPwDV8Wcdhzh-N_Siaofc2R6TImebnFvv0GuCCzdo/edit?usp=sharing)
 
-[Scroll down](#other-sota-open-source-models) for other SOTA Open Source models
+Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm-tools.md#benchmarking) in the Benchmarking section.
+
+[👇 Scroll to the bottom](#other-sota-open-source-models) for other SOTA (State Of The Art) models
 
 | Model                                                                                                                                    | Author                       | Foundation  | Size       | Quantization                       | Fine Tuning Dataset                                                                                                                                                                                                                                                                                                                                                                          | Format                             | LoRa | model date |
 |------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|-------------|------------|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|------|------------|
