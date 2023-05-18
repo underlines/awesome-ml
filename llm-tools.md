@@ -150,8 +150,9 @@ enabling Google search, webpage description, element interaction, and form input
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) a llama, pythia, cerebras training environment optimized for Runpod
 
 ## Frameworks
--   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
+- [Vicuna FastChat](https://github.com/lm-sys/FastChat)
 - [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
+- [Microsoft guidance](https://github.com/microsoft/guidance) efficient Framework for Enhancing Control and Structure in Modern Language Model Interactions
 
 # Resources
 ## Data sets
