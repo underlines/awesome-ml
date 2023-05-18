@@ -221,7 +221,8 @@ enabling Google search, webpage description, element interaction, and form input
 - [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering) an evolving manual providing historical context, strategies, guidelines, and safety recommendations for building programmatic systems on OpenAI's GPT-4
 - [LLMs Practical Guide](https://github.com/Mooler0410/LLMsPracticalGuide) actively curated collection of a timeline and guides for LLMs, providing a historical context and restrictions based on [this](https://arxiv.org/abs/2304.13712) paper and community contributions
 - [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) based on [this](https://arxiv.org/abs/2303.18223) paper, builds a collection of further papers and resources related to LLMs including a timeline
-- [LLaMAindex](https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec) using Document Summary Index for better QA performance compared to vectorDBs
+- [LLaMAindex](https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec) can now use Document Summary Index for better QA performance compared to vectorDBs
+- [ossinsight.io chat-gpt-apps](https://ossinsight.io/collections/chat-gpt-apps/) Updated list of top chatGPT related repositories
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
