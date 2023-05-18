@@ -38,6 +38,7 @@ Curated list of useful LLM / Analytics / Datascience resources:
 - [🎯 Segmentation & Tracking](video-ai.md#segmentation--tracking)
 - [🔎 Super Resolution (Spacial Interpolation)](video-ai.md#super-resolution-spacial-interpolation)
 - [⏲️ Spacio Temporal Interpolation](video-ai.md#spacio-temporal-interpolation)
+- [📏 Benchmarking](video-ai.md#benchmarking)
 
 # 🎵 Audio Models
 - [🗜️ Compression](audio-ai.md#compression)
