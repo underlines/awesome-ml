@@ -63,6 +63,7 @@
 -   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
 -   [Llama-lab](https://github.com/run-llama/llama-lab) home of llama_agi and auto_llama using LlamaIndex
 -   [PrivateGPT](https://github.com/imartinez/privateGPT) a standalone question-answering system using LangChain, GPT4All, LlamaCpp and embeddings models to enable offline querying of documents
+-   [Spyglass](https://github.com/spyglass-search/spyglass) integrates Alpaca with a self-hosted personal search app to create a personal assistant for data analysis and summarization and Q&A
 
 ### Model Agnostic
 -   [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
