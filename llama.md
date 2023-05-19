@@ -141,6 +141,8 @@ You're done with the Ubuntu / WSL2 installation, you can skip to [Download model
 1. `python setup_cuda.py install` might fail, continue with the next command if so
 1. `pip install https://github.com/jllllll/GPTQ-for-LLaMa-Wheels/raw/main/quant_cuda-0.0.0-cp310-cp310-win_amd64.whl` skip this command, if the previous one didn't fail
 1. `cd ..\..\..\` (go back to text-generation-webui)
+1. `pip install faust-cchardet`
+1. `pip install chardet`
 
 # Download models
 
@@ -164,6 +166,12 @@ The base command to run. You have to add further flags, depending on the model a
 
 ## cuda lib not found
 If you get a `cuda lib not found` error, especially on Windows WSL2 Ubuntu, try executing `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib/wsl/lib` before running the server.py above
+
+## ModuleNotFoundError: No module named 'chardet'
+1. `pip install faust-cchardet`
+1. `pip install chardet`
+
+or the other way around. Then try to start the server again.
 
 ## No GPU support on bitsandbytes
 On Windows Native, try:
