@@ -109,7 +109,6 @@ enabling Google search, webpage description, element interaction, and form input
 -   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
 
 ## Libraries and Wrappers
-
 -   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
 -   [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -118,7 +117,8 @@ enabling Google search, webpage description, element interaction, and form input
 -   [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
 -   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 -   [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
--   [WebGPT Inference in pure javascript](https://github.com/0hq/WebGPT)
+-   [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
+    -   [TokenHawk](https://github.com/kayvr/token-hawk) performs hand-written LLaMA inference using WebGPU, utilizing th.cpp, th-llama.cpp, and th-llama-loader.cpp, with minimal dependencies
 -   [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
 -   [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
     -   [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
@@ -137,6 +137,7 @@ enabling Google search, webpage description, element interaction, and form input
 -   [Marvin](https://github.com/prefecthq/marvin) simplifies AI integration in software development with easy creation of AI functions and bots managed through a conversational interface
 -   [chatgpt.js](https://github.com/chatgptjs/chatgpt.js) client-side JavaScript library for ChatGPT
 -   [ChatGPT-Bridge](https://github.com/improveTheWorld/ChatGPT-Bridge) use chatGPT plus' GPT-4 as a local API
+-   [TALIS](https://github.com/Dhaladom/TALIS) serves a LLaMA-65b API, optimized for speed utilizing dual RTX 3090/4090 GPUs on Linux
 
 ## Fine Tuning & Training
 - [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
