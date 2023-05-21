@@ -6,13 +6,16 @@
 -   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 -   [cheetah](https://github.com/leetcode-mafia/cheetah) Speech to text for remote coding interviews, giving you hints from GTP3/4
 ### Local LLMs
-llama.cpp:
+cpp / ggml:
 -   [llama.cpp](https://github.com/ggerganov/llama.cpp)
 -   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
--   [koboldcpp](https://github.com/LostRuins/koboldcpp)
+-   [koboldcpp](https://github.com/LostRuins/koboldcpp) llama.cpp with a fancy UI, persistent stories, editing tools, memory etc. Supporting ggmlv3 and old ggml, CLBlast and llama, RWKV, GPT-NeoX, Pythia models
 -   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
 -   [llama MPS](https://github.com/jankais3r/LLaMA_MPS) inference on Apple Silicon GPU using much lower power but is slightly slower than llama.cpp which uses CPU
 -   [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) Inference of HuggingFace's BLOOM-like models in pure C/C++
+-   [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
+-   [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
+
 
 gpt4all:
 -   [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
@@ -26,6 +29,7 @@ others:
 -   [mlc-llm](https://github.com/mlc-ai/mlc-llm), run any LLM on any hardware (iPhones, Android, Win, Linux, Mac, WebGPU, Metal. NVidia, AMD)
 -   [faraday.dev](https://faraday.dev/) Run open-source LLMs on your Win/Mac. Completely offline. Zero configuration.
 -   [ChatALL](https://github.com/sunner/ChatALL) concurrently sends prompts to multiple LLM-based AI bots both local and APIs and displays the results
+-   [pyllama](https://github.com/juncongmoo/pyllama) hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs
 
 
 ## Web GUIs
@@ -64,6 +68,7 @@ others:
 ### openAI
 -   [sqlchat](https://github.com/sqlchat/sqlchat) Use OpenAI GPT3/4 to chat with your database
 -   [chat-with-github-repo](https://github.com/peterw/Chat-with-Github-Repo) which uses streamlit, gpt3.5-turbo and deep lake to answer questions about a git repo
+-   [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader) uses Git and GPT-4 to convert a repository into a text format for various tasks, such as code review or documentation generation.
 
 ### Local LLMs
 -   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
@@ -71,6 +76,8 @@ others:
 -   [PrivateGPT](https://github.com/imartinez/privateGPT) a standalone question-answering system using LangChain, GPT4All, LlamaCpp and embeddings models to enable offline querying of documents
 -   [Spyglass](https://github.com/spyglass-search/spyglass) tests an Alpaca integration for a self-hosted personal search app. Select the llama-rama feature branch. [Discussion on reddit](https://www.reddit.com/r/LocalLLaMA/comments/13key7p/a_little_demo_integration_the_alpaca_model_w_my/)
 -   [local_llama](https://github.com/jlonge4/local_llama) chatting with your PDFs  offline. gpt_chatwithPDF alternative with the ultimate goal of using llama instead of chatGPT
+-   [Sidekick](https://github.com/ai-sidekick/sidekick) Information retrieval for LLMs
+
 
 ### Model Agnostic
 -   [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
@@ -119,34 +126,38 @@ enabling Google search, webpage description, element interaction, and form input
 -   [Tabby](https://github.com/TabbyML/tabby) Self hosted Github Copilot alternative
 -   [starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp)
 -   [GPTQ-for-SantaCoder](https://github.com/mayank31398/GPTQ-for-SantaCoder) 4bit quantization for SantaCoder
+-   [supercharger](https://github.com/catid/supercharger) Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism
 
 ## Libraries and Wrappers
--   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
--   [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
--   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
--   [LangFlow | GUI for Langchain](https://github.com/logspace-ai/langflow)
--   [pyllama | hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs](https://github.com/juncongmoo/pyllama)
--   [Toolformer implementation | Allows LLMs to use Tools](https://github.com/lucidrains/toolformer-pytorch)
--   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
--   [supercharger | Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism](https://github.com/catid/supercharger)
--   [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
-    -   [TokenHawk](https://github.com/kayvr/token-hawk) performs hand-written LLaMA inference using WebGPU, utilizing th.cpp, th-llama.cpp, and th-llama-loader.cpp, with minimal dependencies
--   [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
--   [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
--   [gpt4free | Use reverse engineered GPT3.5/4 APIs of other website's APIs](https://github.com/xtekky/gpt4free)
--   [AutoGPTQ | easy-to-use model GPTQ quantization package with user-friendly CLI](https://github.com/PanQiWei/AutoGPTQ)
--   [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
-    -   [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
--   [gpt-llama.cpp](https://github.com/keldenl/gpt-llama.cpp) Replace OpenAi's GPT APIs with llama.cpp's supported models locally
--   [llama-node](https://github.com/Atome-FE/llama-node) JS client library for llama (or llama based) LLMs built on top of llama-rs and llama.cpp.
--   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
+### openAI
+-   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT) reverse engineerded chatGPT API
+-   [gpt4free](https://github.com/xtekky/gpt4free) Use reverse engineered GPT3.5/4 APIs of other website's APIs
 -   [GPTCache](https://github.com/zilliztech/GPTCache), serve cached results based on embeddings in a vector DB, before querying the OpenAI API.
 -   [kitt](https://github.com/livekit-examples/kitt) TTS + GPT4 + STT to create a conference call audio bot
--   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
 -   [Marvin](https://github.com/prefecthq/marvin) simplifies AI integration in software development with easy creation of AI functions and bots managed through a conversational interface
 -   [chatgpt.js](https://github.com/chatgptjs/chatgpt.js) client-side JavaScript library for ChatGPT
 -   [ChatGPT-Bridge](https://github.com/improveTheWorld/ChatGPT-Bridge) use chatGPT plus' GPT-4 as a local API
+-   [Powerpointer](https://github.com/CyberTimon/powerpointer) connects to openAPI GPT3.5 and creates a powerpoint out of your content
+
+
+### Local LLMs
+-   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
+-   [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
+-   [TokenHawk](https://github.com/kayvr/token-hawk) performs hand-written LLaMA inference using WebGPU, utilizing th.cpp, th-llama.cpp, and th-llama-loader.cpp, with minimal dependencies
+-   [WasmGPT](https://github.com/lxe/ggml/tree/wasm-demo) ChatGPT-like chatbot in browser using ggml and emscripten
+-   [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) easy-to-use model GPTQ quantization package with user-friendly CLI
+-   [gpt-llama.cpp](https://github.com/keldenl/gpt-llama.cpp) Replace OpenAi's GPT APIs with llama.cpp's supported models locally
+-   [llama-node](https://github.com/Atome-FE/llama-node) JS client library for llama (or llama based) LLMs built on top of llama-rs and llama.cpp.
 -   [TALIS](https://github.com/Dhaladom/TALIS) serves a LLaMA-65b API, optimized for speed utilizing dual RTX 3090/4090 GPUs on Linux
+-   [Powerpointer-For-Local-LLMs](https://github.com/CyberTimon/Powerpointer-For-Local-LLMs) connects to oobabooga's API and creates a powerpoint out of your content
+
+### Model agnostic
+-   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
+-   [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain
+-   [Toolformer implementation](https://github.com/lucidrains/toolformer-pytorch) Allows LLMs to use Tools
+-   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
+-   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
+
 
 ## Fine Tuning & Training
 - [simple llama finetuner](https://github.com/lxe/simple-llama-finetuner)
