@@ -6,19 +6,23 @@
 -   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 -   [cheetah](https://github.com/leetcode-mafia/cheetah) Speech to text for remote coding interviews, giving you hints from GTP3/4
 ### Local LLMs
+llama.cpp:
 -   [llama.cpp](https://github.com/ggerganov/llama.cpp)
-    -   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
-    -   [koboldcpp](https://github.com/LostRuins/koboldcpp)
-    -   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
-    -   [llama MPS](https://github.com/jankais3r/LLaMA_MPS) inference on Apple Silicon GPU using much lower power but is slightly slower than llama.cpp which uses CPU
--   [Dalai](https://github.com/cocktailpeanut/dalai)
--   [ChatLLaMA | LLaMA-based ChatGPT for single GPUs](https://github.com/juncongmoo/chatllama)
-    -   [ChatLLaMA | another implementation](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
+-   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
+-   [koboldcpp](https://github.com/LostRuins/koboldcpp)
+-   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
+-   [llama MPS](https://github.com/jankais3r/LLaMA_MPS) inference on Apple Silicon GPU using much lower power but is slightly slower than llama.cpp which uses CPU
 -   [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) Inference of HuggingFace's BLOOM-like models in pure C/C++
--   [Lit-llama](https://github.com/Lightning-AI/lit-llama)
+
+gpt4all:
 -   [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
-    -   [gpt4all.zig](https://github.com/renerocksai/gpt4all.zig) terminal version of GPT4All
-    -   [gpt4all-chat](https://github.com/nomic-ai/gpt4all-chat) Cross platform desktop GUI for GPT4All  models (gpt-j)
+-   [gpt4all.zig](https://github.com/renerocksai/gpt4all.zig) terminal version of GPT4All
+-   [gpt4all-chat](https://github.com/nomic-ai/gpt4all-chat) Cross platform desktop GUI for GPT4All  models (gpt-j)
+
+others:
+-   [Lit-llama](https://github.com/Lightning-AI/lit-llama) training, fine tuning and inference of llama
+-   [Dalai](https://github.com/cocktailpeanut/dalai) LLaMA-based ChatGPT for single GPUs
+-   [ChatLLaMA](https://github.com/juncongmoo/chatllama) LLaMA-based ChatGPT for single GPUs
 -   [mlc-llm](https://github.com/mlc-ai/mlc-llm), run any LLM on any hardware (iPhones, Android, Win, Linux, Mac, WebGPU, Metal. NVidia, AMD)
 -   [faraday.dev](https://faraday.dev/) Run open-source LLMs on your Win/Mac. Completely offline. Zero configuration.
 -   [ChatALL](https://github.com/sunner/ChatALL) concurrently sends prompts to multiple LLM-based AI bots both local and APIs and displays the results
@@ -66,6 +70,7 @@
 -   [Llama-lab](https://github.com/run-llama/llama-lab) home of llama_agi and auto_llama using LlamaIndex
 -   [PrivateGPT](https://github.com/imartinez/privateGPT) a standalone question-answering system using LangChain, GPT4All, LlamaCpp and embeddings models to enable offline querying of documents
 -   [Spyglass](https://github.com/spyglass-search/spyglass) tests an Alpaca integration for a self-hosted personal search app. Select the llama-rama feature branch. [Discussion on reddit](https://www.reddit.com/r/LocalLLaMA/comments/13key7p/a_little_demo_integration_the_alpaca_model_w_my/)
+-   [local_llama](https://github.com/jlonge4/local_llama) chatting with your PDFs  offline. gpt_chatwithPDF alternative with the ultimate goal of using llama instead of chatGPT
 
 ### Model Agnostic
 -   [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
@@ -108,6 +113,13 @@ enabling Google search, webpage description, element interaction, and form input
 -   [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
 -   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
 
+## Code generation
+-   [FauxPilot](https://github.com/fauxpilot/fauxpilot) open source Copilot alternative using Triton Inference Server
+-   [Turbopilot](https://github.com/ravenscroftj/turbopilot) open source LLM code completion engine and Copilot alternative
+-   [Tabby](https://github.com/TabbyML/tabby) Self hosted Github Copilot alternative
+-   [starcoder.cpp](https://github.com/bigcode-project/starcoder.cpp)
+-   [GPTQ-for-SantaCoder](https://github.com/mayank31398/GPTQ-for-SantaCoder) 4bit quantization for SantaCoder
+
 ## Libraries and Wrappers
 -   [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT)
 -   [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader)
@@ -120,9 +132,6 @@ enabling Google search, webpage description, element interaction, and form input
 -   [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
     -   [TokenHawk](https://github.com/kayvr/token-hawk) performs hand-written LLaMA inference using WebGPU, utilizing th.cpp, th-llama.cpp, and th-llama-loader.cpp, with minimal dependencies
 -   [WasmGPT ChatGPT-like chatbot in browser using ggml and emscripten](https://github.com/lxe/ggml/tree/wasm-demo)
--   [FauxPilot | open source Copilot alternative using Triton Inference Server](https://github.com/fauxpilot/fauxpilot)
-    -   [Turbopilot | open source LLM code completion engine and Copilot alternative](https://github.com/ravenscroftj/turbopilot)
-    -   [Tabby | Self hosted Github Copilot alternative](https://github.com/TabbyML/tabby)
 -   [Sidekick | Information retrieval for LLMs](https://github.com/ai-sidekick/sidekick)
 -   [gpt4free | Use reverse engineered GPT3.5/4 APIs of other website's APIs](https://github.com/xtekky/gpt4free)
 -   [AutoGPTQ | easy-to-use model GPTQ quantization package with user-friendly CLI](https://github.com/PanQiWei/AutoGPTQ)
@@ -185,6 +194,7 @@ enabling Google search, webpage description, element interaction, and form input
 - [alpaca_evol_instruct_70k](https://huggingface.co/datasets/victor123/evol_instruct_70k) an instruction-following dataset created using [Evol-Instruct](https://github.com/nlpxucan/evol-instruct), used to fine-tune [WizardLM](https://github.com/nlpxucan/WizardLM)
 - [gpt4tools_71k.json](https://github.com/StevenGrove/GPT4Tools#Dataset) from GPT4Tools paper, having 71k instruction-following examples for sound/visual/text instructions
 - [WizardVicuna 70k dataset](https://huggingface.co/datasets/junelee/wizard_vicuna_70k) used to fine tune [WizardVicuna](https://github.com/melodysdreamj/WizardVicunaLM)
+- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -210,6 +220,9 @@ enabling Google search, webpage description, element interaction, and form input
 - [Unlimiformer](https://arxiv.org/abs/2305.01625): transformer-based model that can process unlimited length input by offloading attention computation to a k-nearest-neighbor index, extending the capabilities of existing models like BART and Longformer without additional weights or code modifications. [code](https://github.com/abertsch72/unlimiformer)
 - [Salesforce LAVIS](https://github.com/salesforce/lavis) provides a comprehensive Python library for language-vision intelligence research, including state-of-the-art models like BLIP-2 for vision-language pretraining and Img2LLM-VQA for visual question answering, alongside a unified interface
 - [FLARE](https://arxiv.org/abs/2305.06983v1) an active retrieval augmented generation technique that iteratively predicts, retrieves, and refines content, improving the accuracy and efficiency of long-form text generation in language models
+- [Hyena](https://hazyresearch.stanford.edu/blog/2023-03-07-hyena) a subquadratic-time layer that has the potential to significantly increase context length in sequence models, using a combination of long convolutions and gating. [Long Convs and Hyena implementations](https://github.com/hazyresearch/safari)
+- [FastServe](https://arxiv.org/abs/2305.05920) an efficient distributed inference serving system for LLMs that minimizes job completion time using preemptive scheduling and efficient GPU memory management, built on NVIDIA FasterTransformer.
+- [FrugalGPT](https://arxiv.org/abs/2305.05176) is a model that uses LLM cascade to optimize the performance and cost-efficiency of LLMs like GPT-4.
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
@@ -246,7 +259,6 @@ enabling Google search, webpage description, element interaction, and form input
 - https://github.com/facebookincubator/AITemplate
 - https://github.com/HazyResearch/flash-attention
 - https://github.com/stochasticai/x-stable-diffusion
-- [Long Convs and Hyena implementations](https://github.com/hazyresearch/safari) 
 
 ## Benchmarking
 ### Leaderboards
