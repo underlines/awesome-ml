@@ -39,6 +39,7 @@ others:
 -   [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
 -   [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 -   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
+-   [Chatbot UI](https://github.com/mckaywrigley/chatbot-ui) An open source ChatGPT UI
 ### Local LLMs
 -   [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations ([running LLaMA-13b on 6GB VRAM](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc), [HN Thread](https://news.ycombinator.com/item?id=35937505))
 -   [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
