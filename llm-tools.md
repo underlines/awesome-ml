@@ -223,6 +223,7 @@ others:
 - [gpt4tools_71k.json](https://github.com/StevenGrove/GPT4Tools#Dataset) from GPT4Tools paper, having 71k instruction-following examples for sound/visual/text instructions
 - [WizardVicuna 70k dataset](https://huggingface.co/datasets/junelee/wizard_vicuna_70k) used to fine tune [WizardVicuna](https://github.com/melodysdreamj/WizardVicunaLM)
 - [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
+- [airoboros uncensored](https://huggingface.co/datasets/jondurbin/airoboros-uncensored)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
