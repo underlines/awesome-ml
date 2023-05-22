@@ -135,6 +135,8 @@ others:
 -   [supercharger](https://github.com/catid/supercharger) Write Software + unit tests for you, based on Baize-30B 8bit, using model parallelism
 -   [Autodoc](https://github.com/context-labs/autodoc) toolkit that auto-generates codebase documentation using GPT-4 or Alpaca, and can be installed in a git repository in about 5 minutes.
 -   [smol-ai developer](https://github.com/smol-ai/developer) a personal junior developer that scaffolds an entire codebase with a human-centric and coherent whole program synthesis approach using <200 lines of Python and Prompts.
+-   [locai](https://github.com/Maykeye/locai) kobold/oobabooga -compatible api for vscode
+-   [oasis](https://github.com/paolorechia/oasis) local LLaMA models in VSCode
 
 ## Libraries and Wrappers
 ### openAI
