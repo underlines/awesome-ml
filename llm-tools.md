@@ -63,6 +63,7 @@ others:
 ### Local LLMs
 -   [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
 -   [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
+-   [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
 
 
 ## Information retrieval
@@ -252,6 +253,7 @@ others:
 - [Hyena](https://hazyresearch.stanford.edu/blog/2023-03-07-hyena) a subquadratic-time layer that has the potential to significantly increase context length in sequence models, using a combination of long convolutions and gating. [Long Convs and Hyena implementations](https://github.com/hazyresearch/safari)
 - [FastServe](https://arxiv.org/abs/2305.05920) an efficient distributed inference serving system for LLMs that minimizes job completion time using preemptive scheduling and efficient GPU memory management, built on NVIDIA FasterTransformer.
 - [FrugalGPT](https://arxiv.org/abs/2305.05176) is a model that uses LLM cascade to optimize the performance and cost-efficiency of LLMs like GPT-4.
+- [Landmark Attention](https://arxiv.org/abs/2305.16300) LLaMa 7B with 32k tokens. [Code](https://github.com/epfml/landmark-attention) coming soon
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
