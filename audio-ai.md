@@ -18,6 +18,7 @@
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
+- [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
 
 ## TextToSpeech
 -   [tts-generation-webui](https://github.com/rsxdalv/tts-generation-webui) for all things TTS, currently supports Bark
