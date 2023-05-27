@@ -189,6 +189,8 @@ others:
 - [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) a llama, pythia, cerebras training environment optimized for Runpod
 - [LMFlow](https://github.com/OptimalScale/LMFlow) toolbox for finetuning, designed to be user-friendly, speedy, and reliable
+- [qlora](https://github.com/artidoro/qlora) uses bitsandbytes quantization and PEFT and transformers for efficient finetuning of quantized LLMs
+- [GPTQlora](https://github.com/qwopqwop200/gptqlora) Efficient Finetuning of Quantized LLMs with GPTQ QLoRA and AutoGPTQ for quantization
 
 ## Frameworks
 - [Vicuna FastChat](https://github.com/lm-sys/FastChat)
@@ -255,6 +257,7 @@ others:
 - [FrugalGPT](https://arxiv.org/abs/2305.05176) is a model that uses LLM cascade to optimize the performance and cost-efficiency of LLMs like GPT-4.
 - [Landmark Attention](https://arxiv.org/abs/2305.16300) LLaMa 7B with 32k tokens. [Code](https://github.com/epfml/landmark-attention) coming soon
 - [QLORA](https://arxiv.org/abs/2305.14314) Efficient Finetuning of Quantized LLMs
+- [Tree of Thoughts (ToT)](https://arxiv.org/abs/2305.10601) Enables exploration over text, improves strategic decision-making in language models. [Code](https://github.com/ysymyth/tree-of-thought-llm). Example [implementation](https://github.com/kyegomez/tree-of-thoughts), [discussion](https://github.com/kyegomez/tree-of-thoughts/pull/8)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
