@@ -258,6 +258,7 @@ others:
 - [Landmark Attention](https://arxiv.org/abs/2305.16300) LLaMa 7B with 32k tokens. [Code](https://github.com/epfml/landmark-attention) coming soon
 - [QLORA](https://arxiv.org/abs/2305.14314) Efficient Finetuning of Quantized LLMs
 - [Tree of Thoughts (ToT)](https://arxiv.org/abs/2305.10601) Enables exploration over text, improves strategic decision-making in language models. [Code](https://github.com/ysymyth/tree-of-thought-llm). Example [implementation](https://github.com/kyegomez/tree-of-thoughts), [discussion](https://github.com/kyegomez/tree-of-thoughts/pull/8)
+- [MEGABYTE](https://arxiv.org/abs/2305.07185) Efficient multiscale decoder architecture for long-sequence modeling.
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
