@@ -312,8 +312,9 @@ others:
 - [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
 - [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=719051075) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
 - [paperswithcode](https://paperswithcode.com/) has LLM SOTA leaderboards, but usually just for foundation models
+- [Can AI code](https://github.com/the-crypt-keeper/can-ai-code) a self-evaluating interview for AI coding models.
 
-### Benchmark Suites & Datasets
+### Benchmark Suites
 - [Big-bench](https://github.com/google/BIG-bench) a collaborative benchmark featuring over 200 tasks for evaluating the capabilities of llms
 - [Pythia](https://github.com/EleutherAI/pythia) interpretability analysis for autoregressive transformers during training
 - 
