@@ -80,6 +80,7 @@ others:
 -   [local_llama](https://github.com/jlonge4/local_llama) chatting with your PDFs  offline. gpt_chatwithPDF alternative with the ultimate goal of using llama instead of chatGPT
 -   [Sidekick](https://github.com/ai-sidekick/sidekick) Information retrieval for LLMs
 -   [DB-GPT](https://github.com/csunny/DB-GPT) SQL generation, private domain Q&A, data processing, unified vector storage/indexing, and support for various plugins and LLMs
+-   [localGPT](https://github.com/PromtEngineer/localGPT) a privateGPT inspired document question-answering solution using GPU instead of CPU acceleration and InstructorEmbeddings instead of LlamaEmbeddings
 
 
 ### Model Agnostic
@@ -296,6 +297,7 @@ others:
 - https://github.com/facebookincubator/AITemplate
 - https://github.com/HazyResearch/flash-attention
 - https://github.com/stochasticai/x-stable-diffusion
+- [ExLlama](https://github.com/turboderp/exllama) a more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. By [ReturningTarzan](https://www.reddit.com/r/LocalLLaMA/comments/13vm7tx/can_an_rtx_3090_run_a_30b_4bit_model_with_webui/jm6wmu0/)
 
 ## Benchmarking
 ### Leaderboards
