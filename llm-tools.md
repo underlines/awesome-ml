@@ -48,6 +48,7 @@ others:
 -   [FreedomGPT](https://github.com/ohmplatform/FreedomGPT) Web app that executes the FreedomGPT LLM locally
 -   [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 -   [openplayground](https://github.com/nat/openplayground) enables running LLM models on a laptop using a full UI, supporting various APIs and local HuggingFace cached models
+-   [gpt4all Web UI](https://github.com/ParisNeo/gpt4all-ui) user friendly all-in-one interface, runs gpt_j, gptq, ggml and other model types
 
 
 ## Voice Assistants
@@ -167,7 +168,7 @@ others:
 -   [OpenChatKit](https://github.com/togethercomputer/OpenChatKit) open-source project that provides a base to create both specialized and general purpose chatbots and extensible retrieval system, using GPT-NeoXT-Chat-Base-20B as a base model
 -   [webgpu-torch](https://github.com/praeclarum/webgpu-torch) Tensor computation with WebGPU acceleration
 -   [llama-api-server](https://github.com/iaalm/llama-api-server) that uses llama.cpp and emulates an openAI API
-
+-   [CTransformers](https://github.com/marella/ctransformers) python bindings for transformer models in C/C++ using GGML library, supporting GPT-2/J/NeoX, StableLM, LLaMA, MPT, Dollyv2, StarCoder
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
