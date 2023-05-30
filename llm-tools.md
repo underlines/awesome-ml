@@ -231,6 +231,7 @@ others:
 - [WizardVicuna 70k dataset](https://huggingface.co/datasets/junelee/wizard_vicuna_70k) used to fine tune [WizardVicuna](https://github.com/melodysdreamj/WizardVicunaLM)
 - [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
 - [airoboros uncensored](https://huggingface.co/datasets/jondurbin/airoboros-uncensored)
+- [CoT collection](https://github.com/kaistAI/CoT-Collection), [paper](https://arxiv.org/abs/2305.14045)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -262,6 +263,10 @@ others:
 - [QLORA](https://arxiv.org/abs/2305.14314) Efficient Finetuning of Quantized LLMs
 - [Tree of Thoughts (ToT)](https://arxiv.org/abs/2305.10601) Enables exploration over text, improves strategic decision-making in language models. [Code](https://github.com/ysymyth/tree-of-thought-llm). Example [implementation](https://github.com/kyegomez/tree-of-thoughts), [discussion](https://github.com/kyegomez/tree-of-thoughts/pull/8)
 - [MEGABYTE](https://arxiv.org/abs/2305.07185) Efficient multiscale decoder architecture for long-sequence modeling.
+- [PandaGPT](http://arxiv.org/abs/2305.16355):  [project page](https://panda-gpt.github.io/), [code](https://github.com/yxuansu/PandaGPT), [model](https://huggingface.co/openllmplayground/pandagpt_13b_max_len_400) combines ImageBind and Vicuna to understand and combine multimodal inputs from text, image, audio, depth, thermal, and IMU.
+- [LIMA](https://arxiv.org/abs/2305.11206) Less Is More for Alignment. Shows fine-tuning with 1000 carefully curated prompts without reinforcement learning can outperforms GPT-4 in many cases
+- [Gorilla](https://arxiv.org/abs/2305.15334) a finetuned LLaMA-based model that surpasses GPT-4 in writing API calls and reduces hallucination. [project](https://gorilla.cs.berkeley.edu/), [code](https://github.com/ShishirPatil/gorilla)
+- [Voyager](https://arxiv.org/abs/2305.16291) Open-Ended Embodied Minecraft Agent using LLMs, [project](https://voyager.minedojo.org/), [code](https://github.com/MineDojo/Voyager)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
