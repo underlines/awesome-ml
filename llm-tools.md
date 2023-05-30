@@ -176,6 +176,8 @@ others:
 -   [Toolformer implementation](https://github.com/lucidrains/toolformer-pytorch) Allows LLMs to use Tools
 -   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
 -   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
+-   [gorilla](https://github.com/ShishirPatil/gorilla) Enables LLMs to use tools by semantically and syntactically correctly invoking APIs. Reduces hallucination, custom trained model [weights](https://huggingface.co/TheBloke/gorilla-7B-fp16) based on llama-7b
+
 
 
 
