@@ -83,6 +83,7 @@ others:
 -   [Sidekick](https://github.com/ai-sidekick/sidekick) Information retrieval for LLMs
 -   [DB-GPT](https://github.com/csunny/DB-GPT) SQL generation, private domain Q&A, data processing, unified vector storage/indexing, and support for various plugins and LLMs
 -   [localGPT](https://github.com/PromtEngineer/localGPT) a privateGPT inspired document question-answering solution using GPU instead of CPU acceleration and InstructorEmbeddings, which perform better [according to leaderboards](https://huggingface.co/spaces/mteb/leaderboard) instead of LlamaEmbeddings
+-   [LocalDocs](https://docs.gpt4all.io/gpt4all_chat.html#how-localdocs-works) plugin for GPT4All
 
 
 ### Model Agnostic
@@ -173,7 +174,7 @@ others:
 -   [CTransformers](https://github.com/marella/ctransformers) python bindings for transformer models in C/C++ using GGML library, supporting GPT-2/J/NeoX, StableLM, LLaMA, MPT, Dollyv2, StarCoder
 
 ### Model agnostic
--   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPQT 4 bit support](https://github.com/paolorechia/learn-langchain))
+-   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
 -   [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain
 -   [Toolformer implementation](https://github.com/lucidrains/toolformer-pytorch) Allows LLMs to use Tools
 -   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
