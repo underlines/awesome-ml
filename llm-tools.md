@@ -194,7 +194,7 @@ others:
 - [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
 - [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
 - [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
-- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) a llama, pythia, cerebras training environment optimized for Runpod
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) a llama, pythia, cerebras training environment optimized for Runpod supporting qlora, 4bit, flash attention, xformers
 - [LMFlow](https://github.com/OptimalScale/LMFlow) toolbox for finetuning, designed to be user-friendly, speedy, and reliable
 - [qlora](https://github.com/artidoro/qlora) uses bitsandbytes quantization and PEFT and transformers for efficient finetuning of quantized LLMs
 - [GPTQlora](https://github.com/qwopqwop200/gptqlora) Efficient Finetuning of Quantized LLMs with GPTQ QLoRA and AutoGPTQ for quantization
