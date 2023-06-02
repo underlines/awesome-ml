@@ -31,6 +31,7 @@ others:
 -   [ChatALL](https://github.com/sunner/ChatALL) concurrently sends prompts to multiple LLM-based AI bots both local and APIs and displays the results
 -   [pyllama](https://github.com/juncongmoo/pyllama) hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs
 -   [gmessage](https://github.com/drbh/gmessage) visually pleasing chatbot that uses a locally running LLM server and supports multiple themes, chat history search, text to speech, JSON file export, and OpenAI API compatible Python code
+-   [selfhostedAI](https://github.com/josStorer/selfhostedAI) one-click deployment of RWKV, ChatGLM, llama.cpp models for substituting the openAI API to a locally hosted API 
 
 
 ## Web GUIs
@@ -41,6 +42,7 @@ others:
 -   [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 -   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
 -   [Chatbot UI](https://github.com/mckaywrigley/chatbot-ui) An open source ChatGPT UI
+
 ### Local LLMs
 -   [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations ([running LLaMA-13b on 6GB VRAM](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc), [HN Thread](https://news.ycombinator.com/item?id=35937505))
 -   [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
@@ -50,6 +52,7 @@ others:
 -   [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 -   [openplayground](https://github.com/nat/openplayground) enables running LLM models on a laptop using a full UI, supporting various APIs and local HuggingFace cached models
 -   [gpt4all Web UI](https://github.com/ParisNeo/gpt4all-ui) user friendly all-in-one interface, runs gpt_j, gptq, ggml and other model types
+-   [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) Easy installation and running of RWKV Models, providing a local OpenAI API, GUI and custom CUDA kernel acceleration. Supports 2gb up to 32gb VRAM
 
 
 ## Voice Assistants
@@ -93,9 +96,13 @@ others:
 
 ## Browser Extensions
 ### openAI
+-   [sider](https://chrome.google.com/webstore/detail/sider-chatgpt-sidebar-gpt/difoiogjjojoaoomphldepapgpbgkhkb) chrome side-bar for chatGPT and OpenAI API supporting custom prompts and text highlighting
 -   [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
 -   [Glarity](https://github.com/sparticleinc/chatgpt-google-summary-extension) open-source chrome extension to write summaries for various websites including custom ones and YouTube videos. Extensible
 -   [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome  extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
+
+### Local LLMs
+-   [chatGPTBox](https://github.com/josStorer/chatGPTBox) add useful LLM chat-boxes to github and other websites, supporting self-hosted model (RWKV, llama.cpp, ChatGLM)
 
 
 ## Agents / Automatic GPT
