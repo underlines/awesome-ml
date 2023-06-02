@@ -289,6 +289,7 @@ others:
 - [Lion](https://arxiv.org/abs/2305.12870) efficiently transfers knowledge from a closed-source LLM to an open-source student model
 - [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763) using one-way functions
 - [ALiBi](https://arxiv.org/abs/2108.12409) Train Short Test Long. Attention with Linear Biases Enables Input Length Extrapolation. [code](https://github.com/ofirpress/attention_with_linear_biases)
+- [The Curse of Recursion](https://arxiv.org/abs/2305.17493): Training on Generated Data Makes Models Forget
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
