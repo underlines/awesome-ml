@@ -30,3 +30,4 @@
 ## Research
  - [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models
  - [ORCa](https://arxiv.org/abs/2212.04531) converts glossy objects into radiance-field cameras, enabling depth estimation and novel-view synthesis, [project](https://ktiwary2.github.io/objectsascam/), [code](https://github.com/ktiwary2/orca)
+ - [cocktail](https://mhh0318.github.io/cocktail/) Mixing Multi-Modality Controls for Text-Conditional Image Generation, [project](https://mhh0318.github.io/cocktail/), [code](https://github.com/mhh0318/Cocktail)
