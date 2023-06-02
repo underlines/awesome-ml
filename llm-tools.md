@@ -84,6 +84,7 @@ others:
 -   [DB-GPT](https://github.com/csunny/DB-GPT) SQL generation, private domain Q&A, data processing, unified vector storage/indexing, and support for various plugins and LLMs
 -   [localGPT](https://github.com/PromtEngineer/localGPT) a privateGPT inspired document question-answering solution using GPU instead of CPU acceleration and InstructorEmbeddings, which perform better [according to leaderboards](https://huggingface.co/spaces/mteb/leaderboard) instead of LlamaEmbeddings
 -   [LocalDocs](https://docs.gpt4all.io/gpt4all_chat.html#how-localdocs-works) plugin for GPT4All
+-   [annoy_ltm](github.com/YenRaven/annoy_ltm) extension to add long term memory to chatbots using a nearest neighbor vector DB for memory retrieval
 
 
 ### Model Agnostic
@@ -114,7 +115,7 @@ others:
 -   [Chrome-GPT](https://github.com/richardyc/Chrome-GPT)  AutoGPT agent employing Langchain and Selenium to interact with a Chrome browser session, enabling Google search, webpage description, element interaction, and form input
 -   [autolang](https://github.com/alvarosevilla95/autolang) Another take on BabyAGI, focused on workflows that complete. Powered by langchain.
 -   [ai-legion](https://github.com/eumemic/ai-legion) A framework for autonomous agents who can work together to accomplish tasks.
-
+-   [generativeAgent_LLM](https://github.com/QuangBK/generativeAgent_LLM) Generative Agents with Guidance, Langchain, and local LLMs, implementation of the "Generative Agents: Interactive Simulacra of Human Behavior" [paper](https://arxiv.org/pdf/2304.03442.pdf), [blogpost](https://betterprogramming.pub/implement-generative-agent-with-local-llm-guidance-and-langchain-full-features-fa57655f3de1)
 
 ### Local LLMs
 -   [Auto Vicuna Butler](https://github.com/NiaSchim/auto-vicuna-butler) Baby-AGI fork / AutoGPT alternative to run with local LLMs
@@ -156,6 +157,7 @@ others:
 -   [chatgpt.js](https://github.com/chatgptjs/chatgpt.js) client-side JavaScript library for ChatGPT
 -   [ChatGPT-Bridge](https://github.com/improveTheWorld/ChatGPT-Bridge) use chatGPT plus' GPT-4 as a local API
 -   [Powerpointer](https://github.com/CyberTimon/powerpointer) connects to openAPI GPT3.5 and creates a powerpoint out of your content
+-   [EdgeGPT](https://github.com/acheong08/EdgeGPT) Reverse engineered API of Microsoft's Bing Chat using Edge browser
 
 
 ### Local LLMs
@@ -172,6 +174,7 @@ others:
 -   [webgpu-torch](https://github.com/praeclarum/webgpu-torch) Tensor computation with WebGPU acceleration
 -   [llama-api-server](https://github.com/iaalm/llama-api-server) that uses llama.cpp and emulates an openAI API
 -   [CTransformers](https://github.com/marella/ctransformers) python bindings for transformer models in C/C++ using GGML library, supporting GPT-2/J/NeoX, StableLM, LLaMA, MPT, Dollyv2, StarCoder
+-   [basaran](https://github.com/hyperonym/basaran) GUI and API as a drop-in replacement of the OpenAI text completion API. Broad HF eco system support (not only llama)
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -264,7 +267,7 @@ others:
 - [Hyena](https://hazyresearch.stanford.edu/blog/2023-03-07-hyena) a subquadratic-time layer that has the potential to significantly increase context length in sequence models, using a combination of long convolutions and gating. [Long Convs and Hyena implementations](https://github.com/hazyresearch/safari)
 - [FastServe](https://arxiv.org/abs/2305.05920) an efficient distributed inference serving system for LLMs that minimizes job completion time using preemptive scheduling and efficient GPU memory management, built on NVIDIA FasterTransformer.
 - [FrugalGPT](https://arxiv.org/abs/2305.05176) is a model that uses LLM cascade to optimize the performance and cost-efficiency of LLMs like GPT-4.
-- [Landmark Attention](https://arxiv.org/abs/2305.16300) LLaMa 7B with 32k tokens. [Code](https://github.com/epfml/landmark-attention) coming soon
+- [Landmark Attention](https://arxiv.org/abs/2305.16300) LLaMa 7B with 32k tokens. [Code](https://github.com/epfml/landmark-attention)
 - [QLORA](https://arxiv.org/abs/2305.14314) Efficient Finetuning of Quantized LLMs
 - [Tree of Thoughts (ToT)](https://arxiv.org/abs/2305.10601) Enables exploration over text, improves strategic decision-making in language models. [Code](https://github.com/ysymyth/tree-of-thought-llm). Example [implementation](https://github.com/kyegomez/tree-of-thoughts), [discussion](https://github.com/kyegomez/tree-of-thoughts/pull/8)
 - [MEGABYTE](https://arxiv.org/abs/2305.07185) Efficient multiscale decoder architecture for long-sequence modeling.
@@ -272,6 +275,10 @@ others:
 - [LIMA](https://arxiv.org/abs/2305.11206) Less Is More for Alignment. Shows fine-tuning with 1000 carefully curated prompts without reinforcement learning can outperforms GPT-4 in many cases
 - [Gorilla](https://arxiv.org/abs/2305.15334) a finetuned LLaMA-based model that surpasses GPT-4 in writing API calls and reduces hallucination. [project](https://gorilla.cs.berkeley.edu/), [code](https://github.com/ShishirPatil/gorilla)
 - [Voyager](https://arxiv.org/abs/2305.16291) Open-Ended Embodied Minecraft Agent using LLMs, [project](https://voyager.minedojo.org/), [code](https://github.com/MineDojo/Voyager)
+- [BigTrans](https://huggingface.co/papers/2305.18098) llama adapted to multilingual translation over 100 languages, outperforming chatGPT in 8 language-pairs
+- [BPT](https://arxiv.org/pdf/2305.19370.pdf) memory-efficient approach to processing long input sequences in Transformers
+- [Lion](https://arxiv.org/abs/2305.12870) efficiently transfers knowledge from a closed-source LLM to an open-source student model
+- [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763) using one-way functions
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
@@ -320,6 +327,7 @@ others:
 - [Can AI code](https://github.com/the-crypt-keeper/can-ai-code) a self-evaluating interview for AI coding models.
 - [Gotzmann LLM Score v2](https://docs.google.com/spreadsheets/d/1ikqqIaptv2P4_15Ytzro46YysCldKY7Ub2wcX5H1jCQ/edit#gid=0) by [Gatzuma on Reddit](https://www.reddit.com/r/LocalLLaMA/comments/13wvd0j/llm_score_v2_modern_models_tested_by_human/)
 
+
 ### Benchmark Suites
 - [Big-bench](https://github.com/google/BIG-bench) a collaborative benchmark featuring over 200 tasks for evaluating the capabilities of llms
 - [Pythia](https://github.com/EleutherAI/pythia) interpretability analysis for autoregressive transformers during training
@@ -327,3 +335,11 @@ others:
 ## AI DevOps
 - https://www.steamship.com/
 
+## Databases for ML
+- [Pinecone](https://www.pinecone.io/) proprietary vector search for semantic search, recommendations and information retrieval
+- [FAISS](https://github.com/facebookresearch/faiss) Library for Efficient Similarity Search and Clustering using vectors
+- [Weaviate](https://github.com/weaviate/weaviate) open source vector DB for services like OpenAI, HF etc for text, image, Q&A etc.
+- [vespa.ai](https://vespa.ai/) one of the only scalable vector DBs that supports multiple vectors per schema field
+- [LanceDB](https://github.com/lancedb/lancedb) free open-source serverless vector DB with support for langchain, llamaindex and multi-modal data
+- [Deeplake](https://github.com/activeloopai/deeplake) Vector Database for audio, text, vectors, video
+- [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
