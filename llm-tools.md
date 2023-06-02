@@ -138,6 +138,7 @@ others:
 -   [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
 -   [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
 -   [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
+-   [Langchain-huggingGPT](https://github.com/camille-vanhoffelen/langchain-huggingGPT) reimplementation of HuggingGPT using langchain
 -   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
 -   [ViperGPT](https://github.com/cvlab-columbia/viper) implementation for visual inference and reasoning with openAPI
 -   [TaskMatrix](https://github.com/microsoft/visual-chatgpt) former visual-chatgpt connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
