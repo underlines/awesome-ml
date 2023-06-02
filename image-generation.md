@@ -8,6 +8,7 @@
   - [DINOv2](https://github.com/facebookresearch/dinov2) 1B-parameter ViT model to generate robust all-purpose visual features that outperform OpenCLIP benchmarks at image and pixel levels
 - [DeepFloyd if by StabilityAI](https://huggingface.co/DeepFloyd/IF-I-XL-v1.0) open-source text-to-image model with photorealism and language understanding. [code](https://github.com/deep-floyd/IF)
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
+- [shap-e local](https://github.com/kedzkiest/shap-e-local) run text-to-3d locally
 - [Kandinsky](https://github.com/ai-forever/Kandinsky-2) multilingual text2image latent diffusion model
 
 ## Wrappers & GUIs
