@@ -184,6 +184,7 @@ others:
 -   [llama-api-server](https://github.com/iaalm/llama-api-server) that uses llama.cpp and emulates an openAI API
 -   [CTransformers](https://github.com/marella/ctransformers) python bindings for transformer models in C/C++ using GGML library, supporting GPT-2/J/NeoX, StableLM, LLaMA, MPT, Dollyv2, StarCoder
 -   [basaran](https://github.com/hyperonym/basaran) GUI and API as a drop-in replacement of the OpenAI text completion API. Broad HF eco system support (not only llama)
+-   [CodeTF](https://github.com/salesforce/CodeTF) one-stop Python transformer-based library for code LLMs and code intelligence, training and inferencing on code summarization, translation, code generation
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -290,6 +291,7 @@ others:
 - [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763) using one-way functions
 - [ALiBi](https://arxiv.org/abs/2108.12409) Train Short Test Long. Attention with Linear Biases Enables Input Length Extrapolation. [code](https://github.com/ofirpress/attention_with_linear_biases)
 - [The Curse of Recursion](https://arxiv.org/abs/2305.17493): Training on Generated Data Makes Models Forget
+- [Brainformers](https://arxiv.org/abs/2306.00008) a complex block for natural language processing that outperforms state-of-the-art Transformers in efficiency and quality
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
@@ -327,6 +329,7 @@ others:
 - https://github.com/HazyResearch/flash-attention
 - https://github.com/stochasticai/x-stable-diffusion
 - [ExLlama](https://github.com/turboderp/exllama) a more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. By [ReturningTarzan](https://www.reddit.com/r/LocalLLaMA/comments/13vm7tx/can_an_rtx_3090_run_a_30b_4bit_model_with_webui/jm6wmu0/)
+- [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
 
 ## Benchmarking
 ### Leaderboards
