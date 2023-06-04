@@ -250,6 +250,7 @@ others:
 - [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers)
 - [airoboros uncensored](https://huggingface.co/datasets/jondurbin/airoboros-uncensored)
 - [CoT collection](https://github.com/kaistAI/CoT-Collection), [paper](https://arxiv.org/abs/2305.14045)
+- [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) fine-tuning dataset optimized for trivia, math, coding, closed context question answering, multiple choice, writing
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
