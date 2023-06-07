@@ -156,6 +156,7 @@ others:
 -   [smol-ai developer](https://github.com/smol-ai/developer) a personal junior developer that scaffolds an entire codebase with a human-centric and coherent whole program synthesis approach using <200 lines of Python and Prompts.
 -   [locai](https://github.com/Maykeye/locai) kobold/oobabooga -compatible api for vscode
 -   [oasis](https://github.com/paolorechia/oasis) local LLaMA models in VSCode
+-   [aider](https://github.com/paul-gauthier/aider) cli tool for writing and modifying code with GPT-3.5 and GPT-4
 
 ## Libraries and Wrappers
 ### openAI
