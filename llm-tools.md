@@ -346,6 +346,9 @@ others:
 - [Can AI code](https://github.com/the-crypt-keeper/can-ai-code) a self-evaluating interview for AI coding models.
 - [Gotzmann LLM Score v2](https://docs.google.com/spreadsheets/d/1ikqqIaptv2P4_15Ytzro46YysCldKY7Ub2wcX5H1jCQ/edit#gid=0) by [Gatzuma on Reddit](https://www.reddit.com/r/LocalLLaMA/comments/13wvd0j/llm_score_v2_modern_models_tested_by_human/)
 - [Aviary Explorer](https://aviary.anyscale.com/) open source utility to compare leading OSS LLMs and see votes, pricing per token etc.
+- [Comparative look at (ggml) quantization and parameter size](https://www.reddit.com/r/LocalLLaMA/comments/13l0j7m/a_comparative_look_at_ggml_quantization_and/) part 1 by KerfuffleV2
+- [Updated relative comparison](https://www.reddit.com/r/LocalLLaMA/comments/142q5k5/updated_relative_comparison_of_ggml_quantization/) of ggml quantization types and effect on perplexity part 2 by KerfuffleV2
+- [Programming performance ranking](https://www.reddit.com/r/LocalLLaMA/comments/141fw2b/just_put_together_a_programming_performance/) for popular LLaMAs using HumanEval+ by ProfessionalHand9945
 
 
 ### Benchmark Suites
