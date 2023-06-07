@@ -1,7 +1,9 @@
 # Text-generation-webui manual installation on Windows WSL2 Ubuntu / Ubuntu Native / Windows Native
 
-For a simple automatic install, use the one-click installers provided on
-The video [TextGen Ai WebUI Install! Run LLM Models in MINUTES! by Aitrepreneur](https://www.youtube.com/watch?v=lb_lC4XFedU) explains it in detail.
+Important:
+- For a simple automatic install, use the one-click installers provided.
+- Videos like [TextGen Ai WebUI Install! Run LLM Models in MINUTES! by Aitrepreneur](https://www.youtube.com/watch?v=lb_lC4XFedU) explains the installation for beginners, look for updated videos as the tools mentioned here change often
+- My advanced guide for a manual installation on Windows 10/11 install unsing WSL2 Ubuntu is [here](https://www.reddit.com/r/LocalLLaMA/comments/13n19cu/install_ooba_textgen_llamacpp_with_gpu_support_on/) but will also eventually be outdated again
 
 But not following automatic install on Windows has some advantages.
 By using WSL2 on Windows 11 you can install Ubuntu inside your Windows 11 system and then installing TextGen WebUI. This supports faster Triton compiled GPTQ allowing to run act-order models. Xformers can also be used more easy than on Windows Native.
