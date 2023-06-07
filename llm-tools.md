@@ -252,6 +252,7 @@ others:
 - [airoboros uncensored](https://huggingface.co/datasets/jondurbin/airoboros-uncensored)
 - [CoT collection](https://github.com/kaistAI/CoT-Collection), [paper](https://arxiv.org/abs/2305.14045)
 - [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) fine-tuning dataset optimized for trivia, math, coding, closed context question answering, multiple choice, writing
+- [fin-llama](https://huggingface.co/datasets/bavest/fin-llama-dataset) a LLaMA finetuned for finance, [code](https://github.com/Bavest/fin-llama), [model](https://huggingface.co/bavest/fin-llama-33b-merged)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
