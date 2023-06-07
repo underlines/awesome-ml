@@ -294,6 +294,8 @@ others:
 - [ALiBi](https://arxiv.org/abs/2108.12409) Train Short Test Long. Attention with Linear Biases Enables Input Length Extrapolation. [code](https://github.com/ofirpress/attention_with_linear_biases)
 - [The Curse of Recursion](https://arxiv.org/abs/2305.17493): Training on Generated Data Makes Models Forget
 - [Brainformers](https://arxiv.org/abs/2306.00008) a complex block for natural language processing that outperforms state-of-the-art Transformers in efficiency and quality
+- [AWQ](https://arxiv.org/abs/2306.00978) Activation aware Weight Quantization, [code](https://github.com/mit-han-lab/llm-awq)
+- [SpQR](https://arxiv.org/pdf/2306.03078) quantization by Tim Dettmers, [code](https://github.com/Vahe1994/SpQR), [twitter](https://twitter.com/Tim_Dettmers/status/1666076553665744896)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
