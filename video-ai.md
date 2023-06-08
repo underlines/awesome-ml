@@ -2,6 +2,7 @@
 ## Text to video generation
 - [ModelScope Text to video synthesis](https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis)
 - [Nvidia VideoLDM: Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)
+- [Potat1](https://huggingface.co/camenduru/potat1) , [colab](https://github.com/camenduru/text-to-video-synthesis-colab)
 
 ## Frame Interpolation (Temporal Interpolation)
 - https://github.com/google-research/frame-interpolation
