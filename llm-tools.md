@@ -110,7 +110,7 @@ others:
 ## Agents / Automatic GPT
 ### openAI
 -   [Auto GPT](https://github.com/Torantulino/Auto-GPT)
--   [AgentGPT](https://github.com/reworkd/AgentGPT) Deploy autonomous AI agents, using vectorDB memory, web browsing via LangChain, website interaction and more 
+-   [AgentGPT](https://github.com/reworkd/AgentGPT) Deploy autonomous AI agents, using vectorDB memory, web browsing via LangChain, website interaction and more including a GUI
 -   [microGPT ](https://github.com/muellerberndt/micro-gpt) Autonomous GPT-3.5/4 agent, can analyze stocks, create art, order pizza, and perform network security tests
 -   [Auto GPT Plugins](https://github.com/Significant-Gravitas/Auto-GPT-Plugins)
 -   [AutoGPT-Next-Web](https://github.com/Dogtiti/AutoGPT-Next-Web) An AgentGPT fork as a Web GUI
