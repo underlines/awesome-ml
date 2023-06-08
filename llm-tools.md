@@ -133,6 +133,7 @@ others:
 -   [auto-llama-cpp](https://github.com/rhohndorf/Auto-Llama-cpp) fork of Auto-GPT with added support for locally running llama models through llama.cpp
 -   [AgentOoba](https://github.com/flurb18/AgentOoba) autonomous AI agent extension for Oobabooga's web ui
 -   [RecurrentGPT](https://github.com/aiwaves-cn/RecurrentGPT/tree/main) Interactive Generation of (Arbitrarily) Long Text. Uses LSTM, prompt-engineered recurrence, maintains short and long-term memories, and updates these using semantic search and paragraph generation.
+-   [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) open-source framework that enables developers to build, manage, and run autonomous agents. Supports tools extensions, concurrent agents, GUI, console, vector DBs, multi modal, telemetry and long term memory
 
 
 ## Multi Modal
