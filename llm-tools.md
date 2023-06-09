@@ -54,6 +54,7 @@ others:
 -   [openplayground](https://github.com/nat/openplayground) enables running LLM models on a laptop using a full UI, supporting various APIs and local HuggingFace cached models
 -   [gpt4all Web UI](https://github.com/ParisNeo/gpt4all-ui) user friendly all-in-one interface, runs gpt_j, gptq, ggml and other model types
 -   [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) Easy installation and running of RWKV Models, providing a local OpenAI API, GUI and custom CUDA kernel acceleration. Supports 2gb up to 32gb VRAM
+-   [BrainChulo](https://github.com/ChuloAI/BrainChulo) Chat App with vector based Long-Term Memory supporting one-shot, few-shot and Tool capable agents
 
 
 ## Voice Assistants
@@ -145,6 +146,7 @@ others:
 -   [ViperGPT](https://github.com/cvlab-columbia/viper) implementation for visual inference and reasoning with openAPI
 -   [TaskMatrix](https://github.com/microsoft/visual-chatgpt) former visual-chatgpt connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
 -   [PandaGPT](https://github.com/yxuansu/PandaGPT) combines ImageBind and Vicuna to understand and combine multimodal inputs from text, image, audio, depth, thermal, and IMU.
+-   [AGiXT](https://github.com/Josh-XT/AGiXT) agents with memory, model agnostic, docker deployment, plugin extendable, chat feature, speech to text and text to speech, REST api and more
 
 ## Code generation
 -   [FauxPilot](https://github.com/fauxpilot/fauxpilot) open source Copilot alternative using Triton Inference Server
@@ -359,7 +361,9 @@ others:
 ### Benchmark Suites
 - [Big-bench](https://github.com/google/BIG-bench) a collaborative benchmark featuring over 200 tasks for evaluating the capabilities of llms
 - [Pythia](https://github.com/EleutherAI/pythia) interpretability analysis for autoregressive transformers during training
-- 
+- [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) automatic evaluation for instruction following LLMs, validated against 20k human annotations, [reddit announcement](https://www.reddit.com/r/LocalLLaMA/comments/144l3t7/p_alpacaeval_an_automatic_evaluator_for/)
+
+
 ## AI DevOps
 - https://www.steamship.com/
 
