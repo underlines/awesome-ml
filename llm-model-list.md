@@ -10,13 +10,20 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 
 |Model|Author|Foundation|Size|Quantization|Fine Tuning Dataset|Format|LoRa|model date|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|[starcoderplus-GGML](https://huggingface.co/TheBloke/starcoderplus-GGML)|TheBloke|starcoder|15.5b|q4_0, q4_1, q5_0, q5_1, q8_0|StarCoderBase + [RedefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb), [StarCoderData](https://huggingface.co/datasets/bigcode/starcoderdata) (The Stack (v1.2)), a Wikipedia dataset|ggml .bin| |2023-06-08|
+|[starcoderplus-GPTQ](https://huggingface.co/TheBloke/starcoderplus-GPTQ)|TheBloke|starcoder|15.5b|4bit gptq|StarCoderBase + [RedefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb), [StarCoderData](https://huggingface.co/datasets/bigcode/starcoderdata) (The Stack (v1.2)), a Wikipedia dataset|safetensors| |2023-06-08|
+|[open_llama_13b_600bt](https://huggingface.co/openlm-research/open_llama_13b_600bt)|openlm-research|llama|13b|none|[RedPajama](https://github.com/togethercomputer/RedPajama-Data)|native .bin| |2023-06-07|
+|[rwkv-4-world](https://huggingface.co/BlinkDL/rwkv-4-world)|BlinkDL|rwkv|1.5b/3b/7b|none|rwkv + 100+ world languages (70% English, 15% multilang, 15% code)|native .pth| |2023-06-07|
 |[WizardLM-30B-1.0-gptq](https://huggingface.co/localmodels/WizardLM-30B-1.0-gptq)|localmodels|llama|30b|4bit GPTQ|250k evolved instructions (ShareGPT)|safetensors| |2023-06-07|
+|[RedPajama-INCITE-7B-Base](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base)|togethercomputer|redpajama|7b|none|[base](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)|native .bin| |2023-06-06|
 |[WizardLM-30B-fp16](https://huggingface.co/TheBloke/WizardLM-30B-fp16)|TheBloke|llama|30b|none|250k evolved instructions (ShareGPT)|native .bin| |2023-06-06|
 |[WizardLM-30B-GGML](https://huggingface.co/TheBloke/WizardLM-30B-GGML)|TheBloke|llama|30b|q4_0, q4_1, q5_0, q5_1, q8_0, q2_K, q3_K_S, q3_K_M, q3_K_L, q4_K_S, q4_K_M, q5_K_S, q6_K|250k evolved instructions (ShareGPT)|ggml .bin| |2023-06-06|
 |[WizardLM-30B-GPTQ](https://huggingface.co/TheBloke/WizardLM-30B-GPTQ)|TheBloke|llama|30b|safetensors|250k evolved instructions (ShareGPT)|safetensors| |2023-06-06|
 |[landmark-attention-llama7b-fp16](https://huggingface.co/TheBloke/landmark-attention-llama7b-fp16)|TheBloke|llama|7b|none|[RedPajama](https://github.com/togethercomputer/RedPajama-Data) trained with [landmark attention](https://github.com/epfml/landmark-attention) 32k context size|native .bin| |2023-06-05|
 |[llama-deus-7b-v3-GGML](https://huggingface.co/TheBloke/llama-deus-7b-v3-GGML)|TheBloke|llama|7b|q4_0, q4_1, q5_0, q5_1, q8_0|GPTeacher, Roleplay V2 Instruct, GPT4-LLM Uncensored + Unnatural Instructions, WizardLM Uncensored, CamelAI's 20k Bio Physics Chemistry Math, CodeAlpaca|ggml .bin| |2023-06-05|
 |[llama-deus-7b-v3-GPTQ](https://huggingface.co/TheBloke/llama-deus-7b-v3-GPTQ)|TheBloke|llama|7b|4bit GPTQ|GPTeacher, Roleplay V2 Instruct, GPT4-LLM Uncensored + Unnatural Instructions, WizardLM Uncensored, CamelAI's 20k Bio Physics Chemistry Math, CodeAlpaca|safetensors| |2023-06-05|
+|[RedPajama-INCITE-7B-Chat](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat)|togethercomputer|redpajama|7b|none|[base](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) + [oasst2](https://huggingface.co/datasets/OpenAssistant/oasst1),  [Dolly2](https://huggingface.co/datasets/databricks/databricks-dolly-15k)|native .bin| |2023-06-05|
+|[RedPajama-INCITE-7B-Instruct](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct)|togethercomputer|redpajama|7b|none|[base](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) + [RedPajama-Data-Instruct](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct)|native .bin| |2023-06-05|
 |[airoboros-13b-gpt4](https://huggingface.co/jondurbin/airoboros-13b-gpt4)|jondurbin|llama|13b|none|airoboros-13b + [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) for trivia, reasoning, coding, multipe-choice, context-obedient info retrieval and Q&A|native .bin| |2023-06-04|
 |[airoboros-13b-gpt4-GGML](https://huggingface.co/TheBloke/airoboros-13b-gpt4-GGML)|TheBloke|llama|13b|q4_0, q4_1, q5_0, q5_1, q8_0|airoboros-13b + [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) for trivia, reasoning, coding, multipe-choice, context-obedient info retrieval and Q&A|ggml .bin| |2023-06-04|
 |[airoboros-13b-gpt4-GPTQ](https://huggingface.co/TheBloke/airoboros-13b-gpt4-GPTQ)|TheBloke|llama|13b|4bit GPTQ|airoboros-13b + [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) for trivia, reasoning, coding, multipe-choice, context-obedient info retrieval and Q&A|safetensors| |2023-06-04|
@@ -32,6 +39,8 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 |[based-7b](https://huggingface.co/ehartford/based-7b)|ehartford|llama|7b|none|[based](https://huggingface.co/datasets/ehartford/based)|native .bin| |2023-06-03|
 |[medguanaco-lora-33b-8bit](https://huggingface.co/nmitchko/medguanaco-lora-33b-8bit)|nmitchko|llama|33b|none|[medalpaca](https://huggingface.co/medalpaca/medalpaca-lora-13b-8bit)|native .bin|yes|2023-06-03|
 |[medguanaco-lora-65b-GPTQ](https://huggingface.co/nmitchko/medguanaco-lora-65b-GPTQ)|nmitchko|llama|65b|4bit GPTQ|[medalpaca](https://huggingface.co/medalpaca/medalpaca-lora-13b-8bit)| |yes|2023-06-03|
+|[WizardLM-Uncensored-Falcon-40b](https://huggingface.co/ehartford/WizardLM-Uncensored-Falcon-40b)|ehartford|falcon|40b|none|WizardLM Uncensored|native .bin| |2023-06-03|
+|[WizardLM-Uncensored-Falcon-40B-GPTQ](https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-40B-GPTQ)|TheBloke|falcon|40b|4bit GPTQ|WizardLM Uncensored|safetensors| |2023-06-03|
 |[Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0](https://huggingface.co/mindrage/Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0)|mindrage|llama|13b|q4_0|manticore base + Guanaco qLoRa|ggml .bin| |2023-06-02|
 |[WizardLM-Uncensored-Falcon-7b](https://huggingface.co/ehartford/WizardLM-Uncensored-Falcon-7b)|ehartford|falcon|7b|none|WizardLM Uncensored|native .bin| |2023-06-01|
 |[WizardLM-Uncensored-Falcon-7B-GPTQ](https://huggingface.co/TheBloke/WizardLM-Uncensored-Falcon-7B-GPTQ)|TheBloke|falcon|7b|4bit GPTQ|WizardLM Uncensored|safetensors| |2023-06-01|
@@ -103,6 +112,7 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 |[Wizard-Vicuna-7B-Uncensored-GPTQ](https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ)|TheBloke|vicuna|7b|4bit GPTQ|uncensored WizardLM dataset [ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered](https://huggingface.co/datasets/ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered)|safetensors| |2023-05-18|
 |[GPT4-X-Alpasta-30b-4bit](https://huggingface.co/askmyteapot/GPT4-X-Alpasta-30b-4bit)|askmyteapot|alpaca|30b|4bit GPTQ|merge of [Chansung GPT4-Alpaca Lora](https://huggingface.co/chansung/gpt4-alpaca-lora-30b) and [oasst native fine-tune](https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b-xor)|safetensors| |2023-05-17|
 |[llama-deus-7b-v3-lora-merged](https://huggingface.co/teknium/llama-deus-7b-v3-lora-merged)|teknium|llama|7b|none|GPTeacher, Roleplay V2 Instruct, GPT4-LLM Uncensored + Unnatural Instructions, WizardLM Uncensored, CamelAI's 20k Bio Physics Chemistry Math, CodeAlpaca|native .bin| |2023-05-17|
+|[starcoderplus](https://huggingface.co/bigcode/starcoderplus)|bigcode|starcoder|15.5b|none|StarCoderBase + [RedefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb), [StarCoderData](https://huggingface.co/datasets/bigcode/starcoderdata) (The Stack (v1.2)), a Wikipedia dataset|native .bin| |2023-05-17|
 |[VicUnLocked-30b-LoRA](https://huggingface.co/Neko-Institute-of-Science/VicUnLocked-30b-LoRA)|Neko-Institute-of-Science|vicuna|30b|none| |native .bin|yes|2023-05-17|
 |[VicUnlocked-30B-LoRA-GGML](https://huggingface.co/TheBloke/VicUnlocked-30B-LoRA-GGML)|TheBloke|vicuna|30b|q4_0, q4_1, q5_0, q5_1, q8_0| |ggml .bin| |2023-05-17|
 |[VicUnlocked-30B-LoRA-GPTQ](https://huggingface.co/TheBloke/VicUnlocked-30B-LoRA-GPTQ)|TheBloke|vicuna|30b|4bit GPTQ| |safetensors| |2023-05-17|
@@ -221,8 +231,8 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 |[llama-30b-hf-transformers-4.29](https://huggingface.co/elinas/llama-30b-hf-transformers-4.29)|elinas|llama|30b|none|LLaMA|hf .bin| |2023-04-22|
 |[llama-30b-supercot-4bit-128g-cuda](https://huggingface.co/tsumeone/llama-30b-supercot-4bit-128g-cuda)|tsumeone|llama|30b|4bit GPTQ|[SuperCOT-LoRA](https://huggingface.co/kaiokendev/SuperCOT-LoRA), [huggy LLaMA](https://huggingface.co/huggyllama/llama-30b)|safetensors| |2023-04-22|
 |[llama-65b-hf-transformers-4.29](https://huggingface.co/elinas/llama-65b-hf-transformers-4.29)|elinas|llama|65b|none|llama|hf .bin| |2023-04-22|
-|[llama-7b-hf](https://huggingface.co/fragro/llama-7b-hf)|fragro|llama|7b|none|LLaMA|hf .bin| |2023-04-22|
 |[llama-7b-hf](https://huggingface.co/luodian/llama-7b-hf)|luodian|llama|7b|none|LLaMA|hf .bin| |2023-04-22|
+|[llama-7b-hf](https://huggingface.co/fragro/llama-7b-hf)|fragro|llama|7b|none|LLaMA|hf .bin| |2023-04-22|
 |[llama-7b-hf-transformers-4.29](https://huggingface.co/elinas/llama-7b-hf-transformers-4.29)|elinas|llama|7b|none|llama|hf .bin| |2023-04-22|
 |[medalpaca-13B-GPTQ-4bit](https://huggingface.co/TheBloke/medalpaca-13B-GPTQ-4bit)|TheBloke|alpaca|13b|4bit GPTQ|[ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor), [Wikidoc](https://www.wikidoc.org/index.php/Main_Page), Stackexchange academia bio fitness health bioinformatics, Anki flashcards|safetensors| |2023-04-22|
 |[MiniGPT-4-LLaMA-7B](https://huggingface.co/wangrongsheng/MiniGPT-4-LLaMA-7B)|wangrongsheng|vicuna|7b|none|minigpt-4|native .bin| |2023-04-22|
@@ -279,8 +289,8 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 |[Alpacino13b](https://huggingface.co/digitous/Alpacino13b)|digitous|alpaca|13b|16bit|CoT + Storytelling|native .bin| |2023-04-13|
 |[dolly-v2-3b](https://huggingface.co/databricks/dolly-v2-3b)|databricks|dolly|3b|none|[databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)|native .bin| |2023-04-13|
 |[dolly-v2-7b](https://huggingface.co/databricks/dolly-v2-7b)|databricks|dolly|7b|none|[databricks-dolly-15k](https://github.com/databrickslabs/dolly/tree/master/data)|native .bin| |2023-04-13|
-|[ggml-vicuna-1.1-q4_0](https://huggingface.co/CRD716/ggml-vicuna-1.1-q4_0)|CRD716|vicuna-v1.1|13b|q4_0, q5_0, f16|vicuna censored|ggml .bin| |2023-04-13|
 |[ggml-vicuna-1.1-q4_0](https://huggingface.co/CRD716/ggml-vicuna-1.1-q4_0)|CRD716|vicuna-v1.1|7b|q4_0, f16|vicuna censored|ggml .bin| |2023-04-13|
+|[ggml-vicuna-1.1-q4_0](https://huggingface.co/CRD716/ggml-vicuna-1.1-q4_0)|CRD716|vicuna-v1.1|13b|q4_0, q5_0, f16|vicuna censored|ggml .bin| |2023-04-13|
 |[llama-adapter-7b](https://huggingface.co/winglian/llama-adapter-7b)|winglian|llama|7b|none|[alpaca_data_gpt4.json](https://github.com/tloen/alpaca-lora/blob/main/alpaca_data_gpt4.json)|native .bin|yes|2023-04-13|
 |[vicuna-13b-1.1](https://huggingface.co/eachadea/vicuna-13b-1.1)|eachadea|vicuna|13b|none|[alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca) [llama](https://huggingface.co/datasets/viewv/LLaMA-13B) [shareGPT unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)|native .bin| |2023-04-13|
 |[Base-GPT4-x-Alpaca-Roleplay-Lora](https://huggingface.co/teknium/Base-GPT4-x-Alpaca-Roleplay-Lora)|teknium|llama|13b|none|gpt4-x-alpaca finetune, [roleplay instruct](https://github.com/teknium1/GPTeacher/tree/main/Roleplay)| | |2023-04-12|
@@ -361,8 +371,6 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 |[alpaca13B-lora](https://huggingface.co/samwit/alpaca13B-lora)|samwit|alpaca|13b|8bit| |native .bin|yes|2023-03-15|
 |[llama-7b-hf](https://huggingface.co/decapoda-research/llama-7b-hf)|decapoda-research|llama|7b|16bit|none|hf .pt| |2023-03-08|
 |[vicuna-13b-fine-tuned-rlhf](https://huggingface.co/CarperAI/vicuna-13b-fine-tuned-rlhf)|CarperAI|vicuna|13b|16bit|[alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca), [gpt4all_prompt_generations](https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations), [oasst1](https://huggingface.co/datasets/OpenAssistant/oasst1), [Anthropic HH-RLHF](https://huggingface.co/datasets/Anthropic/hh-rlhf), [Stanford Human Preferences Dataset](https://huggingface.co/datasets/stanfordnlp/SHP)|native .bin| |2023-03-01|
-
-
 
 
 
