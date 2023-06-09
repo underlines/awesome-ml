@@ -350,6 +350,10 @@ others:
 - [Comparative look at (ggml) quantization and parameter size](https://www.reddit.com/r/LocalLLaMA/comments/13l0j7m/a_comparative_look_at_ggml_quantization_and/) part 1 by KerfuffleV2
 - [Updated relative comparison](https://www.reddit.com/r/LocalLLaMA/comments/142q5k5/updated_relative_comparison_of_ggml_quantization/) of ggml quantization types and effect on perplexity part 2 by KerfuffleV2
 - [Programming performance ranking](https://www.reddit.com/r/LocalLLaMA/comments/141fw2b/just_put_together_a_programming_performance/) for popular LLaMAs using HumanEval+ by ProfessionalHand9945
+- [llm-humaneval-benchmarks](https://github.com/my-other-github-account/llm-humaneval-benchmarks) HumanEval+
+- [CoT Hub](https://github.com/FranxYao/chain-of-thought-hub)
+- [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html)
+- [programming eval](https://docs.google.com/spreadsheets/d/1TYBNr_UPJ7wCzJThuk5ysje7K1x-_62JhBeXDbmrjA8/edit#gid=0) by [catid](https://www.reddit.com/u/catid) from reddit, [code](https://github.com/catid/supercharger/tree/main/airate)
 
 
 ### Benchmark Suites
