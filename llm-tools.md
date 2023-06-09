@@ -344,7 +344,7 @@ others:
 - [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
 - [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=2011456595) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
 - [paperswithcode](https://paperswithcode.com/) has LLM SOTA leaderboards, but usually just for foundation models
-- [Can AI code](https://github.com/the-crypt-keeper/can-ai-code) a self-evaluating interview for AI coding models.
+- [Can AI code](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results) a self-evaluating interview for AI coding models. [code](https://github.com/the-crypt-keeper/can-ai-code)
 - [Gotzmann LLM Score v2](https://docs.google.com/spreadsheets/d/1ikqqIaptv2P4_15Ytzro46YysCldKY7Ub2wcX5H1jCQ/edit#gid=0) by [Gatzuma on Reddit](https://www.reddit.com/r/LocalLLaMA/comments/13wvd0j/llm_score_v2_modern_models_tested_by_human/)
 - [Aviary Explorer](https://aviary.anyscale.com/) open source utility to compare leading OSS LLMs and see votes, pricing per token etc.
 - [Comparative look at (ggml) quantization and parameter size](https://www.reddit.com/r/LocalLLaMA/comments/13l0j7m/a_comparative_look_at_ggml_quantization_and/) part 1 by KerfuffleV2
