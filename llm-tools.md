@@ -91,6 +91,7 @@ others:
 -   [LocalDocs](https://docs.gpt4all.io/gpt4all_chat.html#how-localdocs-works) plugin for GPT4All
 -   [annoy_ltm](github.com/YenRaven/annoy_ltm) extension to add long term memory to chatbots using a nearest neighbor vector DB for memory retrieval
 -   [ChatDocs](https://github.com/marella/chatdocs) PrivateGPT + Web UI + GPU Support + ggml, transformers, webui
+-   [PAutoBot](https://github.com/nrl-ai/pautobot) document question-answering engine developed with LangChain, GPT4All, LlamaCpp, ChromaDB, PrivateGPT, CPU only
 
 
 ### Model Agnostic
