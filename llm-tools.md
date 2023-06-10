@@ -376,3 +376,4 @@ others:
 - [LanceDB](https://github.com/lancedb/lancedb) free open-source serverless vector DB with support for langchain, llamaindex and multi-modal data
 - [Deeplake](https://github.com/activeloopai/deeplake) Vector Database for audio, text, vectors, video
 - [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
+- [chroma](https://github.com/chroma-core/chroma) open-source embedding database
