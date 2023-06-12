@@ -190,6 +190,7 @@ others:
 -   [CTransformers](https://github.com/marella/ctransformers) python bindings for transformer models in C/C++ using GGML library, supporting GPT-2/J/NeoX, StableLM, LLaMA, MPT, Dollyv2, StarCoder
 -   [basaran](https://github.com/hyperonym/basaran) GUI and API as a drop-in replacement of the OpenAI text completion API. Broad HF eco system support (not only llama)
 -   [CodeTF](https://github.com/salesforce/CodeTF) one-stop Python transformer-based library for code LLMs and code intelligence, training and inferencing on code summarization, translation, code generation
+-   [CTranslate2](https://github.com/OpenNMT/CTranslate2) provides fast Transformer (llama, falcon and more) inference for CPU and GPU, featuring compression, parallel execution, framework support
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -305,6 +306,7 @@ others:
 with SOTA performance in knowledge understanding, reading comprehension, math and coding, outperforms open-source models and ChatGPT in 4 benchmarks
 - [Naive Bayes-based Context Extension](https://github.com/bojone/NBCE/blob/main/README_en.md) NBCE extends context length of LLMs using Naive Bayes to 50k under 8\*A100
 - [The Safari of Deep Signal Processing: Hyena and Beyond](https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari)
+- [Orca](https://arxiv.org/abs/2306.02707) Progressive Learning from Complex Explanation Traces of GPT-4. Fine-tunes small models by prompting large foundational models to explain their reasoning steps
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
