@@ -304,6 +304,7 @@ others:
 - [InternLM Technical report](https://github.com/InternLM/InternLM-techreport). A 104B parameters multilingual LLM 
 with SOTA performance in knowledge understanding, reading comprehension, math and coding, outperforms open-source models and ChatGPT in 4 benchmarks
 - [Naive Bayes-based Context Extension](https://github.com/bojone/NBCE/blob/main/README_en.md) NBCE extends context length of LLMs using Naive Bayes to 50k under 8\*A100
+- [The Safari of Deep Signal Processing: Hyena and Beyond](https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
