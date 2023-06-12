@@ -301,6 +301,8 @@ others:
 - [Brainformers](https://arxiv.org/abs/2306.00008) a complex block for natural language processing that outperforms state-of-the-art Transformers in efficiency and quality
 - [AWQ](https://arxiv.org/abs/2306.00978) Activation aware Weight Quantization, [code](https://github.com/mit-han-lab/llm-awq)
 - [SpQR](https://arxiv.org/pdf/2306.03078) quantization by Tim Dettmers, [code](https://github.com/Vahe1994/SpQR), [twitter](https://twitter.com/Tim_Dettmers/status/1666076553665744896)
+- [InternLM Technical report](https://github.com/InternLM/InternLM-techreport). A 104B parameters multilingual LLM 
+with SOTA performance in knowledge understanding, reading comprehension, math and coding, outperforms open-source models and ChatGPT in 4 benchmarks
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
@@ -316,6 +318,7 @@ others:
 - [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) based on [this](https://arxiv.org/abs/2303.18223) paper, builds a collection of further papers and resources related to LLMs including a timeline
 - [LLaMAindex](https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec) can now use Document Summary Index for better QA performance compared to vectorDBs
 - [ossinsight.io chat-gpt-apps](https://ossinsight.io/collections/chat-gpt-apps/) Updated list of top chatGPT related repositories
+- [GenAI_LLM_timeline](https://github.com/hollobit/GenAI_LLM_timeline) Organized collection of papers, products, services and news of key events in Generative AI and LLMs with focus on ChatGPT
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
