@@ -25,6 +25,7 @@ Curated list of useful LLM / Analytics / Datascience resources:
   - [⚙️ Optimization](llm-tools.md#optimization)
   - [📏 Benchmarking](llm-tools.md#benchmarking)
   - [👷‍♂️ AI DevOps](llm-tools.md#ai-devops)
+  - [🗄️ Databases for ML](llm-tools.md#databases-for-ml)
 
 # 🖼️ Image Models
 - [📝 Models](image-generation.md#models)
