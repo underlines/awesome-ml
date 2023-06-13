@@ -31,7 +31,8 @@ others:
 -   [ChatALL](https://github.com/sunner/ChatALL) concurrently sends prompts to multiple LLM-based AI bots both local and APIs and displays the results
 -   [pyllama](https://github.com/juncongmoo/pyllama) hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs
 -   [gmessage](https://github.com/drbh/gmessage) visually pleasing chatbot that uses a locally running LLM server and supports multiple themes, chat history search, text to speech, JSON file export, and OpenAI API compatible Python code
--   [selfhostedAI](https://github.com/josStorer/selfhostedAI) one-click deployment of RWKV, ChatGLM, llama.cpp models for substituting the openAI API to a locally hosted API 
+-   [selfhostedAI](https://github.com/josStorer/selfhostedAI) one-click deployment of RWKV, ChatGLM, llama.cpp models for substituting the openAI API to a locally hosted API
+
 
 
 ## Web GUIs
@@ -191,6 +192,8 @@ others:
 -   [basaran](https://github.com/hyperonym/basaran) GUI and API as a drop-in replacement of the OpenAI text completion API. Broad HF eco system support (not only llama)
 -   [CodeTF](https://github.com/salesforce/CodeTF) one-stop Python transformer-based library for code LLMs and code intelligence, training and inferencing on code summarization, translation, code generation
 -   [CTranslate2](https://github.com/OpenNMT/CTranslate2) provides fast Transformer (llama, falcon and more) inference for CPU and GPU, featuring compression, parallel execution, framework support
+-   [auto-gptq](https://github.com/PanQiWei/AutoGPTQ) easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ for GPU inference
+-   [exllama](https://github.com/turboderp/exllama) Memory-Efficient Llama Rewrite in Python/C++/CUDA for 4bit quantized GPTQ weights, running on GPU, faster than llama.cpp ([2023-06-13](https://www.reddit.com/r/LocalLLaMA/comments/147z6as/llamacpp_just_got_full_cuda_acceleration_and_now/)), autoGPTQ and GPTQ-for-llama
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
