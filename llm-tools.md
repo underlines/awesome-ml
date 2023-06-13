@@ -308,6 +308,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Naive Bayes-based Context Extension](https://github.com/bojone/NBCE/blob/main/README_en.md) NBCE extends context length of LLMs using Naive Bayes to 50k under 8\*A100
 - [The Safari of Deep Signal Processing: Hyena and Beyond](https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari)
 - [Orca](https://arxiv.org/abs/2306.02707) Progressive Learning from Complex Explanation Traces of GPT-4. Fine-tunes small models by prompting large foundational models to explain their reasoning steps
+- [How Far Can Camels Go?](https://arxiv.org/abs/2306.04751) optimizing instruction on open resources, [Tulu](https://huggingface.co/models?search=tulu) models released
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
