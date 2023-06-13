@@ -365,6 +365,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [CoT Hub](https://github.com/FranxYao/chain-of-thought-hub)
 - [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html)
 - [programming eval](https://docs.google.com/spreadsheets/d/1TYBNr_UPJ7wCzJThuk5ysje7K1x-_62JhBeXDbmrjA8/edit#gid=0) by [catid](https://www.reddit.com/u/catid) from reddit, [code](https://github.com/catid/supercharger/tree/main/airate)
+- [HumanEval+](https://www.reddit.com/r/LocalLLaMA/comments/1469343/hi_folks_back_with_an_update_to_the_humaneval/) raking for open vs closed programming LLMs by ProfessionalHand9945
 
 
 ### Benchmark Suites
