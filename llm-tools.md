@@ -259,6 +259,7 @@ others:
 - [CoT collection](https://github.com/kaistAI/CoT-Collection), [paper](https://arxiv.org/abs/2305.14045)
 - [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) fine-tuning dataset optimized for trivia, math, coding, closed context question answering, multiple choice, writing
 - [fin-llama](https://huggingface.co/datasets/bavest/fin-llama-dataset) a LLaMA finetuned for finance, [code](https://github.com/Bavest/fin-llama), [model](https://huggingface.co/bavest/fin-llama-33b-merged)
+- [dataset](https://github.com/AI4Finance-Foundation/FinNLP)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -309,6 +310,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [The Safari of Deep Signal Processing: Hyena and Beyond](https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari)
 - [Orca](https://arxiv.org/abs/2306.02707) Progressive Learning from Complex Explanation Traces of GPT-4. Fine-tunes small models by prompting large foundational models to explain their reasoning steps
 - [How Far Can Camels Go?](https://arxiv.org/abs/2306.04751) optimizing instruction on open resources, [Tulu](https://huggingface.co/models?search=tulu) models released
+- [FinGPT](https://arxiv.org/abs/2306.06031) open-source, accessible and cost efficient re-training for updating financial data inside LLMs for robo-advising, algorithmic trading, and other applications, [code](https://github.com/AI4Finance-Foundation/FinGPT), [dataset](https://github.com/AI4Finance-Foundation/FinNLP)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
