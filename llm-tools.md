@@ -175,7 +175,6 @@ others:
 -   [Powerpointer](https://github.com/CyberTimon/powerpointer) connects to openAPI GPT3.5 and creates a powerpoint out of your content
 -   [EdgeGPT](https://github.com/acheong08/EdgeGPT) Reverse engineered API of Microsoft's Bing Chat using Edge browser
 
-
 ### Local LLMs
 -   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 -   [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
@@ -195,6 +194,7 @@ others:
 -   [CTranslate2](https://github.com/OpenNMT/CTranslate2) provides fast Transformer (llama, falcon and more) inference for CPU and GPU, featuring compression, parallel execution, framework support
 -   [auto-gptq](https://github.com/PanQiWei/AutoGPTQ) easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ for GPU inference
 -   [exllama](https://github.com/turboderp/exllama) Memory-Efficient Llama Rewrite in Python/C++/CUDA for 4bit quantized GPTQ weights, running on GPU, faster than llama.cpp ([2023-06-13](https://www.reddit.com/r/LocalLLaMA/comments/147z6as/llamacpp_just_got_full_cuda_acceleration_and_now/)), autoGPTQ and GPTQ-for-llama
+-   [SimpleAI](https://github.com/lhenault/SimpleAI) Self-Hosted Alternative to openAI API
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -203,6 +203,7 @@ others:
 -   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
 -   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
 -   [gorilla](https://github.com/ShishirPatil/gorilla) Enables LLMs to use tools by semantically and syntactically correctly invoking APIs. Reduces hallucination, custom trained model [weights](https://huggingface.co/TheBloke/gorilla-7B-fp16) based on llama-7b
+-   [agency](https://github.com/operand/agency) A fast and minimal actor model framework allows humans, AIs, and other computing systems to communicate with each other through shared environments called "spaces".
 
 
 
