@@ -16,13 +16,15 @@
   - [Whisper JAX implementation](https://github.com/sanchit-gandhi/whisper-jax) runs around 70x faster on CPU, GPU and TPU
   - [whisper.cpp](https://github.com/ggerganov/whisper.cpp) C/C++ port for Intel and ARM based Mac OS, ANdroid, iOS, Linux, WebAssembly, Windows, Raspberry Pi
   - [faster-whisper-livestream-translator](https://github.com/JonathanFly/faster-whisper-livestream-translator) A buggy proof of concept for real-time translation of livestreams using Whisper models, with suggestions for improvements including noise reduction and dual language subtitles
+  - [Buzz](https://github.com/chidiwilliams/buzz) Mac GUI for Whisper
+  - [whisperX](https://github.com/m-bain/whisperX) Fast automatic speech recognition (70x realtime with large-v2) using OpenAI's Whisper, word-level timestamps, speaker diarization, and voice activity detection
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
 - [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
 
 ## TextToSpeech
--   [tts-generation-webui](https://github.com/rsxdalv/tts-generation-webui) for all things TTS, currently supports Bark
+-   [tts-generation-webui](https://github.com/rsxdalv/tts-generation-webui) for all things TTS, currently supports Bark v2, MusicGen, Tortoise, Vocos
 -   [Bark](https://github.com/suno-ai/bark) transformer-based text-to-audio model by Suno. Can generate highly realistic, multilingual speech and other audio like music, background noise and simple effects
     -   [Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones)
     -   [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab)
@@ -85,3 +87,7 @@
 -  [FreeVC](https://github.com/OlaWod/FreeVC) High-Quality Text-Free One-Shot Voice Conversion including pretrained models [HF demo](https://huggingface.co/spaces/OlaWod/FreeVC), [examples](https://olawod.github.io/FreeVC-demo)
 -  [TriAAN-VC](https://github.com/winddori2002/TriAAN-VC) a Pytorch deep learning model for any-to-any voice conversion, with SOTA performance achieved by using an attention-based adaptive normalization block to extract target speaker representations while minimizing the loss of the source content. [demo](https://winddori2002.github.io/vc-demo.github.io/), [paper](https://arxiv.org/abs/2303.09057)
 -  [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
+
+## Music Generation
+- [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support
+- [MusicGen](https://huggingface.co/spaces/facebook/MusicGen) a simple and controllable model for music generation using a Transformer model [examples](https://ai.honu.io/papers/musicgen/), [colab](https://colab.research.google.com/drive/1-Xe9NCdIs2sCUbiSmwHXozK6AAhMm7_i?usp=sharing)
