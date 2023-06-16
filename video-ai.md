@@ -25,6 +25,7 @@
 - [NeRFstudio](https://github.com/nerfstudio-project/nerfstudio) A Collaboration Friendly Studio for NeRFs simplifying the process of creating, training, and testing NeRFs and supports web-based visualizer, benchmarks, and pipeline support.
 - [Threestudio](https://github.com/threestudio-project/threestudio) A Framework for 3D Content Creation from Text Prompts, Single Images, and Few-Shot Images or text2image created single image to 3D
 - [Zero-1-to-3](https://github.com/cvlab-columbia/zero123) Zero-shot One Image to 3D Object for novel view synthesis and 3D reconstruction
+- [localrf](https://github.com/facebookresearch/localrf) NeRFs for reconstructing large-scale stabilized scenes from shakey videos, [paper](https://localrf.github.io/localrf.pdf), [project page](https://localrf.github.io/)
 
 ## Benchmarking
 - [MSU Benchmarks](https://videoprocessing.ai/) collection of video processing benchmarks developed by the Video Processing Group at the Moscow State University
