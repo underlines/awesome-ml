@@ -10,6 +10,7 @@
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
 - [shap-e local](https://github.com/kedzkiest/shap-e-local) run text-to-3d locally
 - [Kandinsky](https://github.com/ai-forever/Kandinsky-2) multilingual text2image latent diffusion model
+- [stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) A PyTorch implementation of the text-to-3D model Dreamfusion using the Stable Diffusion text-to-2D model.
 
 ## Wrappers & GUIs
 - [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
@@ -18,6 +19,7 @@
 - [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
 - [vladmandic/automatic | Heavily opinionated custom fork AUTOMATIC1111's repo, as close as up-to-date with origin as time allows](https://github.com/vladmandic/automatic)
 - [anapnoe/stable-diffusion-webui-ux | Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements](https://github.com/anapnoe/stable-diffusion-webui-ux)
+
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
