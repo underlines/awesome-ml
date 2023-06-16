@@ -16,10 +16,14 @@
 ## Super Resolution (Spacial Interpolation)
 - https://github.com/researchmm/FTVSR
 - https://github.com/picsart-ai-research/videoinr-continuous-space-time-super-resolution
-- 
 
 ## Spacio Temporal Interpolation
 - https://github.com/llmpass/RSTT
+
+## NeRF
+- [Instant-ngp](https://github.com/NVlabs/instant-ngp) Train NeRFs in under 5 seconds on windows/linux with support for GPUs
+- [NeRFstudio](https://github.com/nerfstudio-project/nerfstudio) A Collaboration Friendly Studio for NeRFs simplifying the process of creating, training, and testing NeRFs and supports web-based visualizer, benchmarks, and pipeline support.
+- [Threestudio](https://github.com/threestudio-project/threestudio) A Framework for 3D Content Creation from Text Prompts, Single Images, and Few-Shot Images or text2image created single image to 3D
 
 ## Benchmarking
 - [MSU Benchmarks](https://videoprocessing.ai/) collection of video processing benchmarks developed by the Video Processing Group at the Moscow State University
