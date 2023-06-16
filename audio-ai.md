@@ -12,9 +12,10 @@
 
 
 ## Speech Recognition
-- https://github.com/openai/whisper
+- [Whisper](https://github.com/openai/whisper) SOTA local open-source speech recognition in many languages and translation into English
   - [Whisper JAX implementation](https://github.com/sanchit-gandhi/whisper-jax) runs around 70x faster on CPU, GPU and TPU
   - [whisper.cpp](https://github.com/ggerganov/whisper.cpp) C/C++ port for Intel and ARM based Mac OS, ANdroid, iOS, Linux, WebAssembly, Windows, Raspberry Pi
+  - [faster-whisper-livestream-translator](https://github.com/JonathanFly/faster-whisper-livestream-translator) A buggy proof of concept for real-time translation of livestreams using Whisper models, with suggestions for improvements including noise reduction and dual language subtitles
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
@@ -27,7 +28,8 @@
     -   [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab)
     -   [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone)
     -   [Bark Infinity for longer audio](https://github.com/JonathanFly/bark)
-    -   [Bark WebUI](https://github.com/makawy7/bark-webui))
+    -   [Bark WebUI](https://github.com/makawy7/bark-webui)
+    -   [bark-voice-cloning-HuBERT-quantizer](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer) Voice cloning with bark in high quality using Python 3.10 and huggingface models.
 -   [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
     -   [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
 -   [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
@@ -40,7 +42,7 @@
 -   [YourTTS | Zero Shot Multi Speaker TTS and Voice Conversion for everyone](https://github.com/Edresson/YourTTS)
 -   [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
 -   [Tortoise TTS | Open source multi voice TTS system](https://github.com/neonbjb/tortoise-tts)
-    -   [finetune guide using DLAS DL-Art-School](https://www.youtube.com/watch?v=lnIq4SFFXWs)
+    -   [finetune guide using DLAS DL-Art-School](https://www.youtube.com/watch?v=lnIq4SFFXWs), [Master Deep Voice Cloning in Minutes](https://youtu.be/OiMRlqcgDL0)
     -   [DL-Art-School](https://github.com/152334H/DL-Art-School) fine tuning tortoise with DLAS GUI
     -   [tortoise-tts-fast](https://github.com/152334H/tortoise-tts-fast) fast Tortoise TTS inference up to 5x. [Video tutorial](https://www.youtube.com/watch?v=8i4T5v1Fl_M)
     -   [Tortoise mrq fork for voice cloning](https://git.ecker.tech/mrq/ai-voice-cloning)
@@ -57,7 +59,7 @@
     -   [Video tutorial by Nerdy Rodent](https://www.youtube.com/watch?v=tZn0lcGO5OQ)
     -   [nateraw/so-vits-svc-fork gradio app](https://github.com/nateraw/voice-cloning) for inference of so-vits-svc-fork voice models + ([training in colab](https://colab.research.google.com/github/nateraw/voice-cloning/blob/main/training_so_vits_svc_fork.ipynb) with yt downloader and audio splitter, [hf space demo](https://hf.co/spaces/nateraw/voice-cloning))
     -   [so-vits-svc-5.0](https://github.com/PlayVoice/so-vits-svc-5.0)
-    -   [LoRa svc](https://github.com/PlayVoice/lora-svc)
+    -   [LoRa svc](https://github.com/PlayVoice/lora-svc) singing voice conversion based on whisper, and lora
     -   [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) simple and easy-to-use voice transformation (voice changer) web GUI based on VITS
         -   [rvc-webui](https://github.com/ddPn08/rvc-webui) Win/Mac/Linux installer and Guide for RVC-Project
     -   [w-okada/voice-changer](https://github.com/w-okada/voice-changer) supports various models: MMVC, so-vits-svc, RVC, DDSP-SVC, can work over LAN to offload processing
@@ -65,6 +67,8 @@
     -   [Leader board of SOTA models](https://github.com/Anjok07/ultimatevocalremovergui/issues/344) for stem separation using model ensembles in UVR
     -   [VITS GUI to load VITS text to speech models](https://github.com/CjangCjengh/MoeGoe_GUI)
     -   [Vits-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning) pipeline of VITS finetuning for fast speaker adaptation TTS, and many-to-many voice conversion
+    -   [AI-Cover-Song](https://github.com/reshalfahsi/AI-Cover-Song) a google colab to do singing voice conversion with so-vits-svc-fork
+    -   [hf-rvc](https://github.com/esnya/hf-rvc) a package for RVC implementation using HuggingFace's transformers with the capability to convert from original unsafe models to HF models and voice conversion tasks
 -   [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
 -   [Diff-svc](https://github.com/prophesier/diff-svc) Singing Voice Conversion via Diffusion model
   -   [FastDiff implementation| Fast Conditional Diffusion Model for High-Quality Speech Synthesis](https://github.com/Rongjiehuang/FastDiff)
@@ -74,3 +78,4 @@
     -   [Real-Time-Voice-Cloning v2](https://github.com/liuhaozhe6788/voice-cloning-collab) active fork of the original
 -  [Raven with voice cloning 2.0](https://huggingface.co/spaces/Kevin676/Raven-with-Voice-Cloning-2.0/tree/main) by Kevin676
 -  [CoMoSpeech](https://paperswithcode.com/paper/comospeech-one-step-speech-and-singing-voice) paper, consistency model distilled from a diffusion-based teacher model, enabling high-quality one-step speech and singing voice synthesis
+-  [NS2VC](https://github.com/adelacvg/NS2VC) WIP Unofficial implementation of NaturalSpeech2 for Voice Conversion
