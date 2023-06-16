@@ -62,6 +62,7 @@
     -   [LoRa svc](https://github.com/PlayVoice/lora-svc) singing voice conversion based on whisper, and lora
     -   [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) simple and easy-to-use voice transformation (voice changer) web GUI based on VITS
         -   [rvc-webui](https://github.com/ddPn08/rvc-webui) Win/Mac/Linux installer and Guide for RVC-Project
+        -   [RVC-GUI](https://github.com/Tiger14n/RVC-GUI) fork of RVC for easy audio file voice conversion locally, only inference, no training
     -   [w-okada/voice-changer](https://github.com/w-okada/voice-changer) supports various models: MMVC, so-vits-svc, RVC, DDSP-SVC, can work over LAN to offload processing
     -   [DDSP-SVC](https://github.com/yxlllc/DDSP-SVC) Real-time singing voice conversion based on DDSP, training and inference uses lower requirements than diff-svc and so-vits-svc
     -   [Leader board of SOTA models](https://github.com/Anjok07/ultimatevocalremovergui/issues/344) for stem separation using model ensembles in UVR
@@ -79,3 +80,6 @@
 -  [Raven with voice cloning 2.0](https://huggingface.co/spaces/Kevin676/Raven-with-Voice-Cloning-2.0/tree/main) by Kevin676
 -  [CoMoSpeech](https://paperswithcode.com/paper/comospeech-one-step-speech-and-singing-voice) paper, consistency model distilled from a diffusion-based teacher model, enabling high-quality one-step speech and singing voice synthesis
 -  [NS2VC](https://github.com/adelacvg/NS2VC) WIP Unofficial implementation of NaturalSpeech2 for Voice Conversion
+-  [vc-lm](https://github.com/nilboy/vc-lm) train an any-to-one voice conversion models, referncing vall-e, using encodec to create tokens and building a transformer language model on tokens
+-  [knn-vc](https://github.com/bshall/knn-vc) official implementation of Voice Conversion With Just Nearest Neighbors (kNN-VC) contains training and inference for any-to-any voice conversion model, [paper](https://arxiv.org/abs/2305.18975), [examples](https://bshall.github.io/knn-vc/)
+-  [FreeVC](https://github.com/OlaWod/FreeVC) High-Quality Text-Free One-Shot Voice Conversion including pretrained models [HF demo](https://huggingface.co/spaces/OlaWod/FreeVC), [examples](https://olawod.github.io/FreeVC-demo)
