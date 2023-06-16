@@ -3,6 +3,7 @@
 - https://github.com/facebookresearch/encodec
 
 ## Multiple Tasks
+- [audio-webui](https://github.com/gitmylo/audio-webui) A web-based UI for various audio-related Neural Networks with features like text-to-audio, voice cloning, and automatic-speech-recognition using Bark, AudioLDM, AudioCraft, RVC, coqui-ai and Whisper
 - [Speechbrain](https://github.com/speechbrain/speechbrain) A PyTorch-based Speech Toolkit for TTS, STT, etc
 - [Nvidia NeMo](https://github.com/NVIDIA/NeMo) TTS, LLM, Audio Synthesis framework
 - [speech-rest-api](https://github.com/askrella/speech-rest-api) for Speech-To-Text and Text-To-Speech with Whisper and Speechbrain
@@ -91,3 +92,4 @@
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support
 - [MusicGen](https://huggingface.co/spaces/facebook/MusicGen) a simple and controllable model for music generation using a Transformer model [examples](https://ai.honu.io/papers/musicgen/), [colab](https://colab.research.google.com/drive/1-Xe9NCdIs2sCUbiSmwHXozK6AAhMm7_i?usp=sharing)
+- [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
