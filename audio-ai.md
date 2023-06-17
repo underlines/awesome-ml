@@ -66,7 +66,7 @@
     -   [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) simple and easy-to-use voice transformation (voice changer) web GUI based on VITS
         -   [rvc-webui](https://github.com/ddPn08/rvc-webui) Win/Mac/Linux installer and Guide for RVC-Project
         -   [RVC-GUI](https://github.com/Tiger14n/RVC-GUI) fork of RVC for easy audio file voice conversion locally, only inference, no training
-    -   [w-okada/voice-changer](https://github.com/w-okada/voice-changer) supports various models: MMVC, so-vits-svc, RVC, DDSP-SVC, can work over LAN to offload processing
+    -   [w-okada/voice-changer](https://github.com/w-okada/voice-changer) supports MMVC, so-vits-svc, RVC, DDSP-SVC, processing offloading over LAN, real time conversion
     -   [DDSP-SVC](https://github.com/yxlllc/DDSP-SVC) Real-time singing voice conversion based on DDSP, training and inference uses lower requirements than diff-svc and so-vits-svc
     -   [Leader board of SOTA models](https://github.com/Anjok07/ultimatevocalremovergui/issues/344) for stem separation using model ensembles in UVR
     -   [VITS GUI to load VITS text to speech models](https://github.com/CjangCjengh/MoeGoe_GUI)
