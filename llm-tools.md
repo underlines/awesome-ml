@@ -360,7 +360,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 
 ## Benchmarking
 ### Leaderboards
-- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) by HuggingFaceH4
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) by HuggingFace, had a [serious bug](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/discussions/63) that made LLaMA models perform worse in the past
 - [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner
 - [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
 - [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=2011456595) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
