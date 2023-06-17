@@ -317,6 +317,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [How Far Can Camels Go?](https://arxiv.org/abs/2306.04751) optimizing instruction on open resources, [Tulu](https://huggingface.co/models?search=tulu) models released
 - [FinGPT](https://arxiv.org/abs/2306.06031) open-source, accessible and cost efficient re-training for updating financial data inside LLMs for robo-advising, algorithmic trading, and other applications, [code](https://github.com/AI4Finance-Foundation/FinGPT), [dataset](https://github.com/AI4Finance-Foundation/FinNLP)
 - [LongMem](https://arxiv.org/abs/2306.07174) proposes new framework, allowing for unlimited context length along with reduced GPU memory usage and faster inference speed. [Code](https://github.com/Victorwz/LongMem)
+- [WizardCoder](https://arxiv.org/abs/2306.08568) empowers Coding Large Language Models with Evol-Instruct for complex instruction fine-tuning, outperforming open-source and closed LLMs on several benchmarks, [github repo](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder), [model](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
