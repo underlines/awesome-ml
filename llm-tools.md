@@ -46,14 +46,15 @@ others:
 
 ### Local LLMs
 -   [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations ([running LLaMA-13b on 6GB VRAM](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc), [HN Thread](https://news.ycombinator.com/item?id=35937505))
--   [Text Generation Webui Ph0rk0z fork](https://github.com/Ph0rk0z/text-generation-webui-testing/) supporting all GPTQ versions and max context of 8192 instead of 4096 (because some models support longer context now)
+  -   [Text Generation Webui Ph0rk0z fork](https://github.com/Ph0rk0z/text-generation-webui-testing/) supporting all GPTQ versions and max context of 8192 instead of 4096 (because some models support longer context now)
+-   [lollms-webui](https://github.com/ParisNeo/lollms-webui) former GPT4ALL-UI by ParisNeo, user friendly all-in-one interface, with bindings for c_transformers, gptq, gpt-j, llama_cpp, py_llama_cpp, ggml
 -   [Alpaca-LoRa-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
 -   [chat petals](https://github.com/borzunov/chat.petals.ml) web app + HTTP and Websocket endpoints for BLOOM-176B inference with the Petals client
 -   [Alpaca-Turbo](https://github.com/ViperX7/Alpaca-Turbo) Web UI to run alpaca model locally on Win/Mac/Linux
 -   [FreedomGPT](https://github.com/ohmplatform/FreedomGPT) Web app that executes the FreedomGPT LLM locally
 -   [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 -   [openplayground](https://github.com/nat/openplayground) enables running LLM models on a laptop using a full UI, supporting various APIs and local HuggingFace cached models
--   [gpt4all Web UI](https://github.com/ParisNeo/gpt4all-ui) user friendly all-in-one interface, runs gpt_j, gptq, ggml and other model types
+
 -   [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) Easy installation and running of RWKV Models, providing a local OpenAI API, GUI and custom CUDA kernel acceleration. Supports 2gb up to 32gb VRAM
 -   [BrainChulo](https://github.com/ChuloAI/BrainChulo) Chat App with vector based Long-Term Memory supporting one-shot, few-shot and Tool capable agents
 
