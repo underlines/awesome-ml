@@ -93,5 +93,5 @@
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support
-- [MusicGen](https://huggingface.co/spaces/facebook/MusicGen) a simple and controllable model for music generation using a Transformer model [examples](https://ai.honu.io/papers/musicgen/), [colab](https://colab.research.google.com/drive/1-Xe9NCdIs2sCUbiSmwHXozK6AAhMm7_i?usp=sharing)
+- [MusicGen](https://huggingface.co/spaces/facebook/MusicGen) a simple and controllable model for music generation using a Transformer model [examples](https://ai.honu.io/papers/musicgen/), [colab](https://colab.research.google.com/drive/1-Xe9NCdIs2sCUbiSmwHXozK6AAhMm7_i?usp=sharing), [colab collection](https://github.com/camenduru/MusicGen-colab)
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
