@@ -339,6 +339,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [phind.com](phind.com) Developer Search Engine
 - [Voice Q&A Assistant](https://github.com/hackingthemarkets/qa-assistant-eleven-labs-voice-cloning) using ChatGPT API, Embeddings, Gradio, Eleven Labs and Whisper
 - [chatpdf](https://www.chatpdf.com/), Q&A for PDFs
+- [ai collection](https://github.com/ai-collection/ai-collection) collecting startups and SaaS solutions using AI at its core
 
 ## Optimization
 - https://github.com/bigscience-workshop/petals
