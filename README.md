@@ -47,6 +47,7 @@ Curated list of useful LLM / Analytics / Datascience resources:
 - [👂 Speech Recognition](audio-ai.md#speech-recognition)
 - [🗣️ TextToSpeech](audio-ai.md#texttospeech)
 - [🔄 Voice Conversion](audio-ai.md#voice-conversion)
+- [🎶 Music Generation](audio-ai.md#music-generation)
 
 # 📊Marketing data science
 - [Marketing data science resources](marketing-data-science.md)
