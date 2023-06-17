@@ -376,12 +376,15 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html)
 - [programming eval](https://docs.google.com/spreadsheets/d/1TYBNr_UPJ7wCzJThuk5ysje7K1x-_62JhBeXDbmrjA8/edit#gid=0) by [catid](https://www.reddit.com/u/catid) from reddit, [code](https://github.com/catid/supercharger/tree/main/airate)
 - [HumanEval+](https://www.reddit.com/r/LocalLLaMA/comments/1469343/hi_folks_back_with_an_update_to_the_humaneval/) raking for open vs closed programming LLMs by ProfessionalHand9945
+- [LLM Comparison Sheet](https://docs.google.com/spreadsheets/d/1JYh4_pxNzmNA9I0YM2epgRA7VXBIeIGS64gPJBg5NHA/edit#gid=0) by [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow#33-lmflow-benchmark)
 
 
 ### Benchmark Suites
 - [Big-bench](https://github.com/google/BIG-bench) a collaborative benchmark featuring over 200 tasks for evaluating the capabilities of llms
 - [Pythia](https://github.com/EleutherAI/pythia) interpretability analysis for autoregressive transformers during training
 - [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) automatic evaluation for instruction following LLMs, validated against 20k human annotations, [reddit announcement](https://www.reddit.com/r/LocalLLaMA/comments/144l3t7/p_alpacaeval_an_automatic_evaluator_for/)
+- [LMFlow Benchmark](https://github.com/OptimalScale/LMFlow#33-lmflow-benchmark) automatic evaluation framework for open source LLMs
+- [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) framework for few-shot evaluation of autoregressive language models from EleutherAI
 
 
 ## AI DevOps
