@@ -1,3 +1,5 @@
+[🏠Home](README.md)
+
 # Image Generation
 
 ## Models
