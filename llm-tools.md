@@ -337,6 +337,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [LLaMAindex](https://medium.com/llamaindex-blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec) can now use Document Summary Index for better QA performance compared to vectorDBs
 - [ossinsight.io chat-gpt-apps](https://ossinsight.io/collections/chat-gpt-apps/) Updated list of top chatGPT related repositories
 - [GenAI_LLM_timeline](https://github.com/hollobit/GenAI_LLM_timeline) Organized collection of papers, products, services and news of key events in Generative AI and LLMs with focus on ChatGPT
+- [AIGC-progress](https://github.com/kinghuin/AIGC-progress) an awesome list of all things ml models and projects with daily updates
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
