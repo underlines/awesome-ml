@@ -77,6 +77,7 @@
     -   [Vits-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning) pipeline of VITS finetuning for fast speaker adaptation TTS, and many-to-many voice conversion
     -   [AI-Cover-Song](https://github.com/reshalfahsi/AI-Cover-Song) a google colab to do singing voice conversion with so-vits-svc-fork
     -   [hf-rvc](https://github.com/esnya/hf-rvc) a package for RVC implementation using HuggingFace's transformers with the capability to convert from original unsafe models to HF models and voice conversion tasks
+    -   [VitsServer](https://github.com/LlmKira/VitsServer) A VITS ONNX server designed for fast inference
 -   [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
 -   [Diff-svc](https://github.com/prophesier/diff-svc) Singing Voice Conversion via Diffusion model
   -   [FastDiff implementation| Fast Conditional Diffusion Model for High-Quality Speech Synthesis](https://github.com/Rongjiehuang/FastDiff)
