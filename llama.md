@@ -1,6 +1,6 @@
 [🏠Home](README.md)
 
-# Text-generation-webui manual installation on Windows WSL2 Ubuntu / Ubuntu Native / Windows Native
+# Text-generation-webui manual installation on Windows WSL2 / Ubuntu
 
 **Important:**
 - For a simple automatic install, use the one-click installers provided in the original repo.
