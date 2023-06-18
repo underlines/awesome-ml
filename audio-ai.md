@@ -2,10 +2,11 @@
 
 # Audio
 ## Compression
-- https://github.com/facebookresearch/encodec
+- [EnCodec](https://github.com/facebookresearch/encodec) SOTA deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio
 
 ## Multiple Tasks
 - [audio-webui](https://github.com/gitmylo/audio-webui) A web-based UI for various audio-related Neural Networks with features like text-to-audio, voice cloning, and automatic-speech-recognition using Bark, AudioLDM, AudioCraft, RVC, coqui-ai and Whisper
+- [tts-generation-webui](https://github.com/rsxdalv/tts-generation-webui) for all things TTS, currently supports Bark v2, MusicGen, Tortoise, Vocos
 - [Speechbrain](https://github.com/speechbrain/speechbrain) A PyTorch-based Speech Toolkit for TTS, STT, etc
 - [Nvidia NeMo](https://github.com/NVIDIA/NeMo) TTS, LLM, Audio Synthesis framework
 - [speech-rest-api](https://github.com/askrella/speech-rest-api) for Speech-To-Text and Text-To-Speech with Whisper and Speechbrain
@@ -29,7 +30,6 @@
 - [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
 
 ## TextToSpeech
--   [tts-generation-webui](https://github.com/rsxdalv/tts-generation-webui) for all things TTS, currently supports Bark v2, MusicGen, Tortoise, Vocos
 -   [Bark](https://github.com/suno-ai/bark) transformer-based text-to-audio model by Suno. Can generate highly realistic, multilingual speech and other audio like music, background noise and simple effects
     -   [Bark-Voice-Clones](https://github.com/nikaskeba/Bark-Voice-Clones)
     -   [Bark WebUI colab notebooks](https://github.com/camenduru/bark-colab)
@@ -78,6 +78,7 @@
     -   [AI-Cover-Song](https://github.com/reshalfahsi/AI-Cover-Song) a google colab to do singing voice conversion with so-vits-svc-fork
     -   [hf-rvc](https://github.com/esnya/hf-rvc) a package for RVC implementation using HuggingFace's transformers with the capability to convert from original unsafe models to HF models and voice conversion tasks
     -   [VitsServer](https://github.com/LlmKira/VitsServer) A VITS ONNX server designed for fast inference
+    -   [jax-so-vits-svc-5.0](https://github.com/flyingblackshark/jax-so-vits-svc-5.0) Rewrite so-vits-svc-5.0 in jax
 -   [w-okada/voice-changer | real time voice conversion using various models like MMVC, so-vits-svc, RVC, DDSP-SVC](https://github.com/w-okada/voice-changer/blob/master/README_en.md)
 -   [Diff-svc](https://github.com/prophesier/diff-svc) Singing Voice Conversion via Diffusion model
   -   [FastDiff implementation| Fast Conditional Diffusion Model for High-Quality Speech Synthesis](https://github.com/Rongjiehuang/FastDiff)
@@ -93,6 +94,7 @@
 -  [FreeVC](https://github.com/OlaWod/FreeVC) High-Quality Text-Free One-Shot Voice Conversion including pretrained models [HF demo](https://huggingface.co/spaces/OlaWod/FreeVC), [examples](https://olawod.github.io/FreeVC-demo)
 -  [TriAAN-VC](https://github.com/winddori2002/TriAAN-VC) a Pytorch deep learning model for any-to-any voice conversion, with SOTA performance achieved by using an attention-based adaptive normalization block to extract target speaker representations while minimizing the loss of the source content. [demo](https://winddori2002.github.io/vc-demo.github.io/), [paper](https://arxiv.org/abs/2303.09057)
 -  [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
+-  [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support
