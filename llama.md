@@ -1,24 +1,136 @@
+[🏠Home](README.md)
+
 # Text-generation-webui manual installation on Windows WSL2 Ubuntu / Ubuntu Native / Windows Native
 
-Important:
-- For a simple automatic install, use the one-click installers provided.
-- Videos like [TextGen Ai WebUI Install! Run LLM Models in MINUTES! by Aitrepreneur](https://www.youtube.com/watch?v=lb_lC4XFedU) explains the installation for beginners, look for updated videos as the tools mentioned here change often
-- My advanced guide for a manual installation on Windows 10/11 install unsing WSL2 Ubuntu is [here](https://www.reddit.com/r/LocalLLaMA/comments/13n19cu/install_ooba_textgen_llamacpp_with_gpu_support_on/) but will also eventually be outdated again
+**Important:**
+- For a simple automatic install, use the one-click installers provided in the original repo.
+- This tech is absolutely bleeding edge, methods and tools change on a daily basis, consider this page as outdates as soon as it's updated, things break - regularily
+- Look for more recent tutorials on youtube and reddit
 
-But not following automatic install on Windows has some advantages.
-By using WSL2 on Windows 11 you can install Ubuntu inside your Windows 11 system and then installing TextGen WebUI. This supports faster Triton compiled GPTQ allowing to run act-order models. Xformers can also be used more easy than on Windows Native.
+## Advanced WSL2 Ubuntu install 2023-05-15
+[reddit comments](https://www.reddit.com/r/LocalLLaMA/comments/13n19cu/install_ooba_textgen_llamacpp_with_gpu_support_on/) but will also eventually be outdated again
+```
+# 1 install WSL2 on Windows 11, then:
+sudo apt update
+sudo apt-get install build-essential
+sudo apt install git -y
 
-| Installation           | GPTQ Triton | GPTQ Cuda | xformers | act-order support |
-| --- | --- | --- | --- | --- |
-| Windows 11 WSL2 Ubuntu | yes         | yes       | yes      | yes               |
-| Windows 11 Native      | no          | yes       | yes*     | no                |
-| Ubuntu / Linux         | yes         | yes       | yes      | yes               |
+# optional: install a better terminal experience, otherwise skip to step 4
+# 2 install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/$USER/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew doctor
 
-Also, GPTQ Triton only supports 4 bit. If you want to use 3bit models, you need to use GPTQ Cuda
+# 3 install oh-my-posh
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+$(brew --prefix oh-my-posh)/themes
+#	copy the path and add it below to the second eval line:
+sudo nano ~/.bashrc
+#	add this to the end:
+#		eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#		eval "$(oh-my-posh init bash --config '/home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes/atomic.omp.json')"
+#		   plugins=(
+#			 git
+#			 # other plugins
+#		   )
+#	CTRL+X to end editing
+#	Y to save changes
+#	ENTER to finally exit
+source ~/.bashrc
+exec bash
 
-* manual installation
+# 4 install mamba instead of conda, because it's faster https://mamba.readthedocs.io/en/latest/installation.html
+mkdir github
+mkdir downloads
+cd downloads
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+bash Mambaforge-$(uname)-$(uname -m).sh
+
+# 5 install the correct cuda toolkit 11.7, not 12.x
+wget https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda_11.7.0_515.43.04_linux.run
+sudo sh cuda_11.7.0_515.43.04_linux.run
+naon ~/.bashrc
+#	add the following line, in order to add the cuda library to the environment variable
+#		export LD_LIBRARY_PATH=/usr/lib/wsl/lib:$LD_LIBRARY_PATH
+#	after the plugins=() code block, above conda initialize
+#	CTRL+X to end editing
+#	Y to save changes
+#	ENTER to finally exit
+source ~/.bashrc
+cd ..
+
+# 6 install ooba's textgen
+mamba create --name textgen python=3.10.9
+mamba activate textgen
+pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio -f https://download.pytorch.org/whl/cu117/torch_stable.html
+git clone https://github.com/oobabooga/text-generation-webui
+cd text-generation-webui
+pip install -r requirements.txt
+
+# 7 Install 4bit support through GPTQ-for-LLaMa
+mkdir repositories
+cd repositories
+# choose ONE of the following:
+# A) for fast triton https://www.reddit.com/r/LocalLLaMA/comments/13g8v5q/fastest_inference_branch_of_gptqforllama_and/
+	git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa -b fastest-inference-4bit
+# B) for triton
+	git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa -b triton
+# C) for newer cuda
+	git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa -b cuda
+# D) for widely compatible old cuda
+	git clone https://github.com/oobabooga/GPTQ-for-LLaMa.git -b cuda
+# groupsize, act-order, true-sequential
+#	--act-order (quantizing columns in order of decreasing activation size)
+#	--true-sequential (performing sequential quantization even within a single Transformer block)
+#	Those fix GPTQ's strangely bad performance on the 7B model (from 7.15 to 6.09 Wiki2 PPL) and lead to slight improvements on most models/settings in general.
+#	--groupsize
+#	Currently, groupsize and act-order do not work together and you must choose one of them.
+#	Ooba: There is a pytorch branch from qwop, that allows you to use groupsize and act-order together.
+#	Models without group-size (better for the 7b model)
+#	Models with group-size (better from 13b upwards)
+cd GPTQ-for-LLaMa
+pip install -r requirements.txt
+python setup_cuda.py install
+cd ..
+cd ..
+
+# 8 Test ooba with a 4bit GPTQ model
+python download-model.py 4bit/WizardLM-13B-Uncensored-4bit-128g
+python server.py --wbits 4 --model_type llama --groupsize 128 --chat
+
+# 9 install llama.cpp
+cd repositories
+git clone https://github.com/ggerganov/llama.cpp
+cd llama.cpp
+nano ~/.bashrc
+#	add the cuda bin folder to the path environment variable in order for make to find nvcc:
+#		export PATH=/usr/local/cuda/bin:$PATH
+#	after the export LD_LIBRARY_PATH line
+#	CTRL+X to end editing
+#	Y to save changes
+#	ENTER to finally exit
+source ~/.bashrc
+make LLAMA_CUBLAS=1
+cd models
+wget https://huggingface.co/TheBloke/WizardLM-13B-Uncensored-GGML/resolve/main/wizardLM-13B-Uncensored.ggmlv3.q4_0.bin
+cd ..
+
+# 10 test llama.cpp with GPU support
+./main -t 8 -m models/wizardLM-13B-Uncensored.ggmlv3.q4_0.bin --color -c 2048 --temp 0.7 --repeat_penalty 1.1 -n -1 -p "### Instruction: write a story about llamas ### Response:" --n-gpu-layers 30
+cd ..
+cd ..
+
+# 11 prepare ooba's textgen for llama.cpp support, by compiling llama-cpp-python with cuda GPU support
+pip uninstall -y llama-cpp-python
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
+```
+
+
+--------------------
 
 # Windows 11 WSL2 Ubuntu / Native Ubuntu
+Installation guide from 2023-03-01 (outdated)
 
 ## Install Ubuntu WSL2 on Windows 11
 1. Press the Windows key + X and click on "Windows PowerShell (Admin)" or "Windows Terminal (Admin)" to open PowerShell or Terminal with administrator privileges.
@@ -220,6 +332,5 @@ See the [awesome-ai LLM section](https://github.com/underlines/awesome-marketing
 - [StackLLaMA: How to train LLaMA with RLHF](https://huggingface.co/blog/stackllama)
 - [Reddit LocalLLaMA model card](https://old.reddit.com/r/LocalLLaMA/wiki/models)
 - [Reddit Oobabooga's Textgen subreddit](https://www.reddit.com/r/Oobabooga/)
-
 
 
