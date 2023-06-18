@@ -37,7 +37,7 @@
     -   [Bark Infinity for longer audio](https://github.com/JonathanFly/bark)
     -   [Bark WebUI](https://github.com/makawy7/bark-webui)
     -   [bark-voice-cloning-HuBERT-quantizer](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer) Voice cloning with bark in high quality using Python 3.10 and  ggingface models.
-    -   [Bark GUI](https://github.com/C0untFloyd/bark-gui) Gradio Web UI for an extended Bark version, with long generation, cloning, SSML, for Windows and other platforms, supporting NVIDIA/Apple GPU/CPU, 
+    -   [bark-gui](https://github.com/C0untFloyd/bark-gui) Gradio Web UI for an extended Bark version, with long generation, cloning, SSML, for Windows and other platforms, supporting NVIDIA/Apple GPU/CPU, 
 -   [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
     -   [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
 -   [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
@@ -99,5 +99,11 @@
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support
+  - audiocraft-infinity-webui webui supporting generation longer than 30 seconds, song continuation, seed option, load local models from chavinlo's [training repo](https://github.com/chavinlo/musicgen_trainer), MacOS/linux support, running on CPU/gpu
+  - [musicgen_trainer](https://github.com/chavinlo/musicgen_trainer) simple trainer for musicgen/audiocraft
+  - [audiocraft-webui](https://github.com/CoffeeVampir3/audiocraft-webui) basic webui with support for long audio, segmented audio and processing queue
+  - [audiocraft-webui](https://github.com/sdbds/audiocraft-webui) another basic webui, unknown feature set
+  - [MusicGeneration](https://github.com/vluz/MusicGeneration) a streamlit gui for audiocraft and musicgen
+  - [audiocraftgui](https://github.com/DragonForgedTheArtist/audiocraftgui) with wxPython supporting continuous generation by using chunks and overlaps
 - [MusicGen](https://huggingface.co/spaces/facebook/MusicGen) a simple and controllable model for music generation using a Transformer model [examples](https://ai.honu.io/papers/musicgen/), [colab](https://colab.research.google.com/drive/1-Xe9NCdIs2sCUbiSmwHXozK6AAhMm7_i?usp=sharing), [colab collection](https://github.com/camenduru/MusicGen-colab)
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
