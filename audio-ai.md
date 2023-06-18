@@ -36,7 +36,8 @@
     -   [bark-with-voice-clone](https://github.com/serp-ai/bark-with-voice-clone)
     -   [Bark Infinity for longer audio](https://github.com/JonathanFly/bark)
     -   [Bark WebUI](https://github.com/makawy7/bark-webui)
-    -   [bark-voice-cloning-HuBERT-quantizer](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer) Voice cloning with bark in high quality using Python 3.10 and huggingface models.
+    -   [bark-voice-cloning-HuBERT-quantizer](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer) Voice cloning with bark in high quality using Python 3.10 and  ggingface models.
+    -   [Bark GUI](https://github.com/C0untFloyd/bark-gui) Gradio Web UI for an extended Bark version, with long generation, cloning, SSML, for Windows and other platforms, supporting NVIDIA/Apple GPU/CPU, 
 -   [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
     -   [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
 -   [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
