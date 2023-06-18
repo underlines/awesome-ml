@@ -1,3 +1,5 @@
+[🏠Home](README.md)
+
 <p align="left"><img src="https://github.com/potacho/power_bi_workshop/blob/master/images/logo.png"></p>
 
 ## __Core Elements__
