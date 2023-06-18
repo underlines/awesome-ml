@@ -1,3 +1,5 @@
+[🏠Home](README.md)
+
 ## Open LLM Models List
 
 Curated list of llama, alpaca, vicuna and similar open models and a few other architectures.
