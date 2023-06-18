@@ -1,3 +1,5 @@
+[🏠Home](README.md)
+
 # Tools
 ## Native GUIs
 ### openAI
