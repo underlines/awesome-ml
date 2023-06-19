@@ -131,6 +131,7 @@ others:
 -   [autolang](https://github.com/alvarosevilla95/autolang) Another take on BabyAGI, focused on workflows that complete. Powered by langchain.
 -   [ai-legion](https://github.com/eumemic/ai-legion) A framework for autonomous agents who can work together to accomplish tasks.
 -   [generativeAgent_LLM](https://github.com/QuangBK/generativeAgent_LLM) Generative Agents with Guidance, Langchain, and local LLMs, implementation of the "Generative Agents: Interactive Simulacra of Human Behavior" [paper](https://arxiv.org/pdf/2304.03442.pdf), [blogpost](https://betterprogramming.pub/implement-generative-agent-with-local-llm-guidance-and-langchain-full-features-fa57655f3de1)
+-   [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) generates a customizable codebase based on prompts using GPT4, and is easy to adapt and extend; runs on any hardware that can run Python.
 
 ### Local LLMs
 -   [Auto Vicuna Butler](https://github.com/NiaSchim/auto-vicuna-butler) Baby-AGI fork / AutoGPT alternative to run with local LLMs
