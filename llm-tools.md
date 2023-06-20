@@ -7,6 +7,7 @@
 -   [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
 -   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 -   [cheetah](https://github.com/leetcode-mafia/cheetah) Speech to text for remote coding interviews, giving you hints from GTP3/4
+-   [Chat2DB++](https://github.com/chat2db/Chat2DB) general-purpose SQL & multi DBMS client and reporting tool which uses ChatGPT capabilities to write and optimize Queries
 ### Local LLMs
 cpp / ggml:
 -   [llama.cpp](https://github.com/ggerganov/llama.cpp) runs ggml models up to 4-bit quantized on mac, linux and windows natively. Supports the new ggmlv3 format and runs on CPU and GPU. Allows for mixed use of CPU/GPU using BLAS libraries like cuBLAS, CLBLas etc.
@@ -208,6 +209,7 @@ others:
 -   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
 -   [gorilla](https://github.com/ShishirPatil/gorilla) Enables LLMs to use tools by semantically and syntactically correctly invoking APIs. Reduces hallucination, custom trained model [weights](https://huggingface.co/TheBloke/gorilla-7B-fp16) based on llama-7b
 -   [agency](https://github.com/operand/agency) A fast and minimal actor model framework allows humans, AIs, and other computing systems to communicate with each other through shared environments called "spaces".
+-   [Vercel AI SDK](https://github.com/vercel-labs/ai) a library for building edge-ready AI-powered streaming text and chat UIs in React, Svelte and Vue supporting LangChain, OpenAI, Anthropic and HF
 
 
 
@@ -235,6 +237,7 @@ others:
 - [Microsoft guidance](https://github.com/microsoft/guidance) efficient Framework for Enhancing Control and Structure in Modern Language Model Interactions. [Demo project](https://github.com/paolorechia/local-guidance) by paolorechia for local text-generation-webui. [reddit thread](https://www.reddit.com/r/LocalLLaMA/comments/13kzubz/i_made_a_simple_agent_demo_with_guidance_and/). [guidance fork](https://github.com/Maximilian-Winter/guidance) and [llama-cpp-python fork](https://github.com/Maximilian-Winter/llama-cpp-python) how-to on [reddit](https://www.reddit.com/r/LocalLLaMA/comments/13magac/hi_community_i_created_a_fork_of_microsofts/)
 - [Microsoft semantic-kernel](https://github.com/microsoft/semantic-kernel) a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages
 - [Colossal-AI](https://github.com/hpcaitech/ColossalAI) unified deep learning system that provides a collection of parallel components for distributed deep learning models. Provides data parallelism, pipeline parallelism, and tensor parallelism
+- [OpenLLM](https://github.com/bentoml/OpenLLM) Run, deploy, and monitor open-source LLMs on any platform
 
 # Resources
 ## Data sets
@@ -322,6 +325,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [FinGPT](https://arxiv.org/abs/2306.06031) open-source, accessible and cost efficient re-training for updating financial data inside LLMs for robo-advising, algorithmic trading, and other applications, [code](https://github.com/AI4Finance-Foundation/FinGPT), [dataset](https://github.com/AI4Finance-Foundation/FinNLP)
 - [LongMem](https://arxiv.org/abs/2306.07174) proposes new framework, allowing for unlimited context length along with reduced GPU memory usage and faster inference speed. [Code](https://github.com/Victorwz/LongMem)
 - [WizardCoder](https://arxiv.org/abs/2306.08568) empowers Coding Large Language Models with Evol-Instruct for complex instruction fine-tuning, outperforming open-source and closed LLMs on several benchmarks, [github repo](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder), [model](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
+- [Infinigen](https://infinigen.org/) a procedural generator for foto realistic 3D scenes, based on Blender and running on GPUs, [paper](https://arxiv.org/abs/2306.09310), [github](https://github.com/princeton-vl/infinigen)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
