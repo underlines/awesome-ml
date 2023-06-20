@@ -194,6 +194,9 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [dstack - an open-source framework for building data science applications using Python and R](https://github.com/dstackai/dstack)
 - [Analytics Zoo | Unified Data Analytics and AI stack with TensorFlow, Keras and Pytorch and seamless deployment](https://github.com/intel-analytics/analytics-zoo)
 
+## Web Scraping
+- [EasySpider](https://github.com/NaiboWang/EasySpider)  visual code-free/no-code web crawler/spider
+
 # Libraries
 ## Javascript
 ### Visualization
