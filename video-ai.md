@@ -30,6 +30,9 @@
 - [Zero-1-to-3](https://github.com/cvlab-columbia/zero123) Zero-shot One Image to 3D Object for novel view synthesis and 3D reconstruction
 - [localrf](https://github.com/facebookresearch/localrf) NeRFs for reconstructing large-scale stabilized scenes from shakey videos, [paper](https://localrf.github.io/localrf.pdf), [project page](https://localrf.github.io/)
 
+## Deepfakes
+- [roop](https://github.com/s0md3v/roop) one-click deepfake (face swap)
+
 ## Benchmarking
 - [MSU Benchmarks](https://videoprocessing.ai/) collection of video processing benchmarks developed by the Video Processing Group at the Moscow State University
 - [Video Super Resolution Benchmarks](https://paperswithcode.com/task/video-super-resolution)
