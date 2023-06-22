@@ -13,7 +13,7 @@
 - [LangHelper](https://github.com/NsLearning/LangHelper) language learning through Text-to-speech + chatGPT + speech-to-text to practise speaking assessments, memorizing words and listening tests
 - [Silero-models](https://github.com/snakers4/silero-models) pre-trained speech-to-text, text-to-speech and text-enhancement for ONNX, PyTorch, TensorFlow, SSML
 - [AI-Waifu-Vtuber](https://github.com/ardha27/AI-Waifu-Vtuber) AI Waifu Vtuber & is a virtual streamer. Supports multiple languages and uses VoiceVox, DeepL, Whisper, Seliro TTS, and VtubeStudio, and now also supports Twitch streaming.
-- [Voicebox](https://ai.facebook.com/blog/voicebox-generative-ai-model-speech/) large-scale text-guided generative speech model using non-autoregressive flow-matching, [paper](https://research.facebook.com/publications/voicebox-text-guided-multilingual-universal-speech-generation-at-scale/), [demo](https://voicebox.metademolab.com)
+- [Voicebox](https://ai.facebook.com/blog/voicebox-generative-ai-model-speech/) large-scale text-guided generative speech model using non-autoregressive flow-matching, [paper](https://research.facebook.com/publications/voicebox-text-guided-multilingual-universal-speech-generation-at-scale/), [demo](https://voicebox.metademolab.com), [pytorch implementation](https://github.com/jaloo555/voicebox-pytorch), [implementation](https://github.com/SpeechifyInc/Meta-voicebox)
 
 
 
