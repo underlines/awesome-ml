@@ -331,9 +331,11 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [WizardCoder](https://arxiv.org/abs/2306.08568) empowers Coding Large Language Models with Evol-Instruct for complex instruction fine-tuning, outperforming open-source and closed LLMs on several benchmarks, [github repo](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder), [model](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
 - [Infinigen](https://infinigen.org/) a procedural generator for foto realistic 3D scenes, based on Blender and running on GPUs, [paper](https://arxiv.org/abs/2306.09310), [github](https://github.com/princeton-vl/infinigen)
 - [Do Large Language Models learn world models or just surface statistics](https://thegradient.pub/othello/)
+- [Large Language Models Can Self-improve](https://www.lesswrong.com/posts/qwqowdhnMreKQvxLv/paper-large-language-models-can-self-improve-linkpost), [openreview.net](https://openreview.net/forum?id=NiEtU7blzN)
+- [Switch Transformers](https://arxiv.org/abs/2101.03961) scaling to Trillion Parameter Models with efficient sparsity, a paper [speculated](https://news.ycombinator.com/item?id=36413296) to had an influence on GPT-4's undisclosed architecture using a sparsely activated Mixture of Experts (MoE) architecture
 
 # Other awesome resources
-- [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
+- [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
 - [The full story of LLMs](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/)
 - [Brief history of llama models](https://agi-sphere.com/llama-models/)
 - [A timeline of transformer models](https://ai.v-gar.de/ml/transformer/timeline/)
