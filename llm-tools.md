@@ -155,6 +155,7 @@ others:
 -   [TaskMatrix](https://github.com/microsoft/visual-chatgpt) former visual-chatgpt connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
 -   [PandaGPT](https://github.com/yxuansu/PandaGPT) combines ImageBind and Vicuna to understand and combine multimodal inputs from text, image, audio, depth, thermal, and IMU.
 -   [AGiXT](https://github.com/Josh-XT/AGiXT) agents with memory, model agnostic, docker deployment, plugin extendable, chat feature, speech to text and text to speech, REST api and more
+-   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it 
 
 ## Code generation
 -   [FauxPilot](https://github.com/fauxpilot/fauxpilot) open source Copilot alternative using Triton Inference Server
@@ -181,6 +182,7 @@ others:
 -   [Powerpointer](https://github.com/CyberTimon/powerpointer) connects to openAPI GPT3.5 and creates a powerpoint out of your content
 -   [EdgeGPT](https://github.com/acheong08/EdgeGPT) Reverse engineered API of Microsoft's Bing Chat using Edge browser
 -   [simpleaichat](https://github.com/minimaxir/simpleaichat) python package for simple and easy interfacing with chat AI APIs
+-   [Dotnet SDK for openai](https://github.com/betalgo/openai) chatGPT, Whisper, GPT-4 and Dall-E SDK for .NET
 
 ### Local LLMs
 -   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
@@ -345,6 +347,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [ossinsight.io chat-gpt-apps](https://ossinsight.io/collections/chat-gpt-apps/) Updated list of top chatGPT related repositories
 - [GenAI_LLM_timeline](https://github.com/hollobit/GenAI_LLM_timeline) Organized collection of papers, products, services and news of key events in Generative AI and LLMs with focus on ChatGPT
 - [AIGC-progress](https://github.com/kinghuin/AIGC-progress) an awesome list of all things ml models and projects with daily updates
+- [llm extractum](https://llm.extractum.io/) 
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
