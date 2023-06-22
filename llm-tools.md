@@ -330,6 +330,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [LongMem](https://arxiv.org/abs/2306.07174) proposes new framework, allowing for unlimited context length along with reduced GPU memory usage and faster inference speed. [Code](https://github.com/Victorwz/LongMem)
 - [WizardCoder](https://arxiv.org/abs/2306.08568) empowers Coding Large Language Models with Evol-Instruct for complex instruction fine-tuning, outperforming open-source and closed LLMs on several benchmarks, [github repo](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder), [model](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
 - [Infinigen](https://infinigen.org/) a procedural generator for foto realistic 3D scenes, based on Blender and running on GPUs, [paper](https://arxiv.org/abs/2306.09310), [github](https://github.com/princeton-vl/infinigen)
+- [Do Large Language Models learn world models or just surface statistics](https://thegradient.pub/othello/)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
