@@ -204,6 +204,7 @@ others:
 -   [auto-gptq](https://github.com/PanQiWei/AutoGPTQ) easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ for GPU inference
 -   [exllama](https://github.com/turboderp/exllama) Memory-Efficient Llama Rewrite in Python/C++/CUDA for 4bit quantized GPTQ weights, running on GPU, faster than llama.cpp ([2023-06-13](https://www.reddit.com/r/LocalLLaMA/comments/147z6as/llamacpp_just_got_full_cuda_acceleration_and_now/)), autoGPTQ and GPTQ-for-llama
 -   [SimpleAI](https://github.com/lhenault/SimpleAI) Self-Hosted Alternative to openAI API
+-   [rustformer llm](https://github.com/rustformers/llm) Rust-based ecosystem for llms like BLOOM, GPT-2/J/NeoX, LLaMA and MPT offering a CLI for easy interaction and powered by ggml
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -335,6 +336,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Switch Transformers](https://arxiv.org/abs/2101.03961) scaling to Trillion Parameter Models with efficient sparsity, a paper [speculated](https://news.ycombinator.com/item?id=36413296) to had an influence on GPT-4's undisclosed architecture using a sparsely activated Mixture of Experts (MoE) architecture
 - [2022 & beyond Algorithms for efficient deep learning](https://archive.is/2XMvh) Google Research proposed various new architectures to scale LLMs further, including MoE
 - [Wanda](https://arxiv.org/abs/2306.11695) Pruning by Weights and Activations a no-retraining pruning method for LLMs requires no retraining and outperforms existing methods, [code](https://github.com/locuslab/wanda)
+- [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) a 1.3B parameter LLM focusing on programming and coding from Microsoft, which outperforms all models on MBPP except GPT-4, ranks third on HumanEval above GPT-3.5, and exhibits emergent properties
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
