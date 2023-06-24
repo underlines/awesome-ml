@@ -401,6 +401,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [HumanEval+](https://www.reddit.com/r/LocalLLaMA/comments/1469343/hi_folks_back_with_an_update_to_the_humaneval/) raking for open vs closed programming LLMs by ProfessionalHand9945
 - [LLM Comparison Sheet](https://docs.google.com/spreadsheets/d/1JYh4_pxNzmNA9I0YM2epgRA7VXBIeIGS64gPJBg5NHA/edit#gid=0) by [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow#33-lmflow-benchmark)
 - [llm-jeopardy](https://github.com/aigoopy/llm-jeopardy) Automated prompting and scoring framework to evaluate LLMs using updated human knowledge prompts
+- [llama presets arena](https://github.com/oobabooga/oobabooga.github.io/blob/main/arena/results.md) testing different generation presets by oobabooga, [reddit discussion](https://www.reddit.com/r/LocalLLaMA/comments/14gp7hw/preset_arena_final_results/)
 
 
 ### Benchmark Suites
