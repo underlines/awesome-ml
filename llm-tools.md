@@ -334,6 +334,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Large Language Models Can Self-improve](https://www.lesswrong.com/posts/qwqowdhnMreKQvxLv/paper-large-language-models-can-self-improve-linkpost), [openreview.net](https://openreview.net/forum?id=NiEtU7blzN)
 - [Switch Transformers](https://arxiv.org/abs/2101.03961) scaling to Trillion Parameter Models with efficient sparsity, a paper [speculated](https://news.ycombinator.com/item?id=36413296) to had an influence on GPT-4's undisclosed architecture using a sparsely activated Mixture of Experts (MoE) architecture
 - [2022 & beyond Algorithms for efficient deep learning](https://archive.is/2XMvh) Google Research proposed various new architectures to scale LLMs further, including MoE
+- [Wanda](https://arxiv.org/abs/2306.11695) Pruning by Weights and Activations a no-retraining pruning method for LLMs requires no retraining and outperforms existing methods, [code](https://github.com/locuslab/wanda)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
