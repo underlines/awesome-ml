@@ -16,6 +16,7 @@
 - [Segment and Track Anything](https://arxiv.org/abs/2305.06558v1), [code](https://github.com/z-x-yang/segment-and-track-anything). an innovative framework combining the Segment Anything Model (SAM) and DeAOT tracking model, enables precise, multimodal object tracking in video, demonstrating superior performance in benchmarks
 - [Track Anything](https://arxiv.org/abs/2304.11968v2), [code](https://github.com/gaomingqi/track-anything). extends the Segment Anything Model (SAM) to achieve high-performance, interactive tracking and segmentation in videos with minimal human intervention, addressing SAM's limitations in consistent video segmentation
 - [MAGVIT](https://magvit.cs.cmu.edu/) Single model for multiple video synthesis outperforming existing methods in quality and inference time, [code and models](https://github.com/MAGVIT/magvit), [paper](https://arxiv.org/pdf/2212.05199.pdf)
+- [FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) Fast Segment Anything, a CNN trained achieving a comparable performance with the SAM method at 50× higher run-time speed.
 
 ## Super Resolution (Spacial Interpolation)
 - https://github.com/researchmm/FTVSR
