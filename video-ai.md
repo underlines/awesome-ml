@@ -3,6 +3,7 @@
 # Video
 ## Text to video generation
 - [ModelScope Text to video synthesis](https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis)
+  -  [zeroscope v2 xl](https://huggingface.co/cerspense/zeroscope_v2_XL) Watermark free modelscope based video model generating high quality video at 1024x576 16:9, to be used with [text2video extension](https://github.com/kabachuha/sd-webui-text2video) for automatic1111
 - [Nvidia VideoLDM: Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)
 - [Potat1](https://huggingface.co/camenduru/potat1) , [colab](https://github.com/camenduru/text-to-video-synthesis-colab)
 - [Phenaki](https://openreview.net/forum?id=vOEXS39nOF) multi minute text to video prompts with scene changes, [project page](https://phenaki.video/)
