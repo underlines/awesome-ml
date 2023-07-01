@@ -346,6 +346,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) a 1.3B parameter LLM focusing on programming and coding from Microsoft, which outperforms all models on MBPP except GPT-4, ranks third on HumanEval above GPT-3.5, and exhibits emergent properties
 - [RoPE](https://arxiv.org/abs/2104.09864v4) Enhanced Transformer with Rotary Position Embedding to extend context length
 - [LongChat](https://lmsys.org/blog/2023-06-29-longchat/) a new level of extended context length up to 16K tokens, with two released models LongChat-7B and 13B
+- [salesforce xgen](https://blog.salesforceairesearch.com/xgen/#training-details) a series of 7B LLMs with standard dense attention on up to 8K sequence length for up to 1.5T tokens
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
