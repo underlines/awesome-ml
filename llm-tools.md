@@ -366,7 +366,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [AIGC-progress](https://github.com/kinghuin/AIGC-progress) an awesome list of all things ml models and projects with daily updates
 - [llm extractum](https://llm.extractum.io/) Explore and compare open LLMs in terms of HF Rank, Parameter Size, User, Architecture, Licence, Languages, Context size, Prompt format, Datasets etc,
 - [Things I'm learning while training SuperHOT](https://kaiokendev.github.io/til#extending-context-to-8k) talks about LiMA, Multi-Instruct and how to extend llama to 8k context size [github discussion](https://github.com/turboderp/exllama/issues/92#issuecomment-1603220170), [reddit discussion](https://www.reddit.com/r/LocalLLaMA/comments/14fgjqj/a_simple_way_to_extending_context_to_8k/)
-- 
+- [LLM Utils](https://llm-utils.org/Home) An index of useful LLM related blog posts and tools
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
