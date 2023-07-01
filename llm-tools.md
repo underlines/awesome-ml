@@ -20,6 +20,7 @@ cpp / ggml:
 -   [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
 -   [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
 -   [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
+-   [sherpa](https://github.com/Bip-Rep/sherpa) llama.cpp on android
 
 gpt4all:
 -   [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
@@ -282,6 +283,7 @@ others:
 - [airoboros-gpt4](https://huggingface.co/datasets/jondurbin/airoboros-gpt4) fine-tuning dataset optimized for trivia, math, coding, closed context question answering, multiple choice, writing
 - [fin-llama](https://huggingface.co/datasets/bavest/fin-llama-dataset) a LLaMA finetuned for finance, [code](https://github.com/Bavest/fin-llama), [model](https://huggingface.co/bavest/fin-llama-33b-merged)
 - [dataset](https://github.com/AI4Finance-Foundation/FinNLP)
+- [SlimPajama-627B](https://huggingface.co/datasets/cerebras/SlimPajama-627B) Deduplicated and cleaned RedPajama based dataset for higher information density and quality at lower token length
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
