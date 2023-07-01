@@ -13,6 +13,7 @@
 - [shap-e local](https://github.com/kedzkiest/shap-e-local) run text-to-3d locally
 - [Kandinsky](https://github.com/ai-forever/Kandinsky-2) multilingual text2image latent diffusion model
 - [stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) A PyTorch implementation of the text-to-3D model Dreamfusion using the Stable Diffusion text-to-2D model.
+- [DragGAN](https://github.com/XingangPan/DragGAN) Interactive Point-based Manipulation on Generative Images, [demo](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
 
 ## Wrappers & GUIs
 - [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
