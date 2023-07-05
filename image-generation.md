@@ -16,12 +16,13 @@
 - [DragGAN](https://github.com/XingangPan/DragGAN) Interactive Point-based Manipulation on Generative Images, [demo](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
 
 ## Wrappers & GUIs
-- [a Stable Diffusion UI](https://github.com/brycedrennan/imaginAIry/blob/master/README.md)
-- [InvokeAI | Alternative, polished stable diffusion UI with less features than automatic1111](https://github.com/invoke-ai/InvokeAI)
-- [Automatic1111/stable-diffusion-webui | The most famous UI for Stable Diffusion with the most features](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) powerful and modular stable diffusion pipelines using a graph/nodes/flowchart based interface
+- [imaginAIry](https://github.com/brycedrennan/imaginAIry/blob/master/README.md) a Stable Diffusion UI
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI)  Alternative, polished stable diffusion UI with less features than automatic1111
+- [Automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) Most well known UI for Stable Diffusion
 - [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
-- [vladmandic/automatic | Heavily opinionated custom fork AUTOMATIC1111's repo, as close as up-to-date with origin as time allows](https://github.com/vladmandic/automatic)
-- [anapnoe/stable-diffusion-webui-ux | Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements](https://github.com/anapnoe/stable-diffusion-webui-ux)
+- [vladmandic/automatic](https://github.com/vladmandic/automatic) Heavily opinionated custom fork AUTOMATIC1111's repo, as close as up-to-date with origin as time allows
+- [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements
 
 
 ## Fine Tuning
