@@ -140,6 +140,9 @@ others:
 -   [ai-legion](https://github.com/eumemic/ai-legion) A framework for autonomous agents who can work together to accomplish tasks.
 -   [generativeAgent_LLM](https://github.com/QuangBK/generativeAgent_LLM) Generative Agents with Guidance, Langchain, and local LLMs, implementation of the "Generative Agents: Interactive Simulacra of Human Behavior" [paper](https://arxiv.org/pdf/2304.03442.pdf), [blogpost](https://betterprogramming.pub/implement-generative-agent-with-local-llm-guidance-and-langchain-full-features-fa57655f3de1)
 -   [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) generates a customizable codebase based on prompts using GPT4, and is easy to adapt and extend; runs on any hardware that can run Python.
+-   [gpt-migrate](https://github.com/0xpayne/gpt-migrate) takes your existing code base and migrates to another framework or language
+-   [MetaGPT](https://github.com/geekan/MetaGPT) multi agent meta programming framework. takes requirements as input and outputs user stories, analysis, data structures, etc. MetaGPT includes product managers, architects, PMs, engineers and uses SOPs to run
+-   [aider](https://github.com/paul-gauthier/aider) command-line chat tool that allows you to write and edit code with OpenAI's GPT models
 
 ### Local LLMs
 -   [Auto Vicuna Butler](https://github.com/NiaSchim/auto-vicuna-butler) Baby-AGI fork / AutoGPT alternative to run with local LLMs
