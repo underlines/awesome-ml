@@ -23,7 +23,7 @@
 - [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
 - [vladmandic/automatic](https://github.com/vladmandic/automatic) Heavily opinionated custom fork AUTOMATIC1111's repo, as close as up-to-date with origin as time allows
 - [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements
-
+- [refacer](https://github.com/xaviviro/refacer) One-Click Deepfake Multi-Face Swap Tool
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
