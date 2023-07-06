@@ -89,6 +89,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Datomic](https://www.datomic.com/) recently free (apache 2.0), fully transactional, cloud-ready, distributed database
 - [XTDB](https://www.xtdb.com/v2) a bitemporal and dynamic relational database for SQL and Datalog
 - [undb](https://github.com/undb-xyz/undb) open source, private first, self-hosted, no code database as an airtable alternative
+- [apitable](https://github.com/apitable/apitable) an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives
 
 
 ### Customer Data Platforms
