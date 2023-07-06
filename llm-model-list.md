@@ -479,4 +479,5 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 - [VPGTrans](https://vpgtrans.github.io/) Transfer Visual Prompt Generator across LLMs and the VL-Vicuna model is a novel VL-LLM. [Paper](https://arxiv.org/abs/2305.01278), [code](https://github.com/VPGTrans/VPGTrans)
 - [salesforce/CodeT5](https://github.com/salesforce/codet5) code assistant, has released their [codet5+ 16b](https://huggingface.co/Salesforce/codet5p-16b) and other model sizes
 - [baichuan-7b](https://github.com/baichuan-inc/baichuan-7B) Baichuan Intelligent Technology developed baichuan-7B, an open-source language model with 7 billion parameters trained on 1.2 trillion tokens. Supporting Chinese and English, it achieves top performance on authoritative benchmarks (C-EVAL, MMLU)
+- [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) v2 of the GLM 6B open bilingual EN/CN model
 
