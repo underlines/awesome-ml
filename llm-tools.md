@@ -21,6 +21,7 @@ cpp / ggml:
 -   [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
 -   [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
 -   [sherpa](https://github.com/Bip-Rep/sherpa) llama.cpp on android
+-   [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) C++ implementation of ChatGLM-6B & ChatGLM2-6B
 
 gpt4all:
 -   [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
@@ -370,6 +371,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [llm extractum](https://llm.extractum.io/) Explore and compare open LLMs in terms of HF Rank, Parameter Size, User, Architecture, Licence, Languages, Context size, Prompt format, Datasets etc,
 - [Things I'm learning while training SuperHOT](https://kaiokendev.github.io/til#extending-context-to-8k) talks about LiMA, Multi-Instruct and how to extend llama to 8k context size [github discussion](https://github.com/turboderp/exllama/issues/92#issuecomment-1603220170), [reddit discussion](https://www.reddit.com/r/LocalLLaMA/comments/14fgjqj/a_simple_way_to_extending_context_to_8k/)
 - [LLM Utils](https://llm-utils.org/Home) An index of useful LLM related blog posts and tools
+- [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) Latest Papers and Datasets on Multimodal Large Language Models, and Their Evaluation.
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
