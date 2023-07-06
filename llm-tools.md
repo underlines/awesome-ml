@@ -245,6 +245,7 @@ others:
 - [qlora](https://github.com/artidoro/qlora) uses bitsandbytes quantization and PEFT and transformers for efficient finetuning of quantized LLMs
 - [GPTQlora](https://github.com/qwopqwop200/gptqlora) Efficient Finetuning of Quantized LLMs with GPTQ QLoRA and AutoGPTQ for quantization
 - [Landmark Attention QLoRA](https://github.com/eugenepentland/landmark-attention-qlora) for landmark attention with 50x context compression and efficient token selection
+- [ChatGLM Efficient Finetuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) fine tuning ChatGLM models with PEFT
 
 ## Frameworks
 - [Vicuna FastChat](https://github.com/lm-sys/FastChat)
