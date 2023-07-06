@@ -173,7 +173,8 @@ others:
 -   [TaskMatrix](https://github.com/microsoft/visual-chatgpt) former visual-chatgpt connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
 -   [PandaGPT](https://github.com/yxuansu/PandaGPT) combines ImageBind and Vicuna to understand and combine multimodal inputs from text, image, audio, depth, thermal, and IMU.
 -   [AGiXT](https://github.com/Josh-XT/AGiXT) agents with memory, model agnostic, docker deployment, plugin extendable, chat feature, speech to text and text to speech, REST api and more
--   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it 
+-   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
+-   [SelfTalker](https://github.com/Amirrezahmi/SelfTalker) Talk with your virtual self using voice cloning, LLMs and computer vision models
 
 ## Code generation
 -   [FauxPilot](https://github.com/fauxpilot/fauxpilot) open source Copilot alternative using Triton Inference Server
