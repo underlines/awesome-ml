@@ -61,10 +61,11 @@ others:
 -   [FreedomGPT](https://github.com/ohmplatform/FreedomGPT) Web app that executes the FreedomGPT LLM locally
 -   [HuggingChat](https://huggingface.co/chat) open source chat interface for transformer based LLMs by Huggingface
 -   [openplayground](https://github.com/nat/openplayground) enables running LLM models on a laptop using a full UI, supporting various APIs and local HuggingFace cached models
-
 -   [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) Easy installation and running of RWKV Models, providing a local OpenAI API, GUI and custom CUDA kernel acceleration. Supports 2gb up to 32gb VRAM
 -   [BrainChulo](https://github.com/ChuloAI/BrainChulo) Chat App with vector based Long-Term Memory supporting one-shot, few-shot and Tool capable agents
 
+### Model agnostic
+-   [OpenChat](https://github.com/openchatai/OpenChat) web ui that currently supports openAI but will implement local LLM support, RAG with PDF, websites, confluence, office 365
 
 ## Voice Assistants
 ### openAI
