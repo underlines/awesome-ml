@@ -155,6 +155,9 @@ others:
 -   [RecurrentGPT](https://github.com/aiwaves-cn/RecurrentGPT/tree/main) Interactive Generation of (Arbitrarily) Long Text. Uses LSTM, prompt-engineered recurrence, maintains short and long-term memories, and updates these using semantic search and paragraph generation.
 -   [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) open-source framework that enables developers to build, manage, and run autonomous agents. Supports tools extensions, concurrent agents, GUI, console, vector DBs, multi modal, telemetry and long term memory
 
+### Model agnostic
+-   [SuperAgent](https://github.com/homanp/superagent) Build, deploy, and manage LLM-powered agents
+
 
 ## Multi Modal
 -   [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
