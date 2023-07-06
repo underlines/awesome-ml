@@ -38,6 +38,7 @@ others:
 -   [pyllama](https://github.com/juncongmoo/pyllama) hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs
 -   [gmessage](https://github.com/drbh/gmessage) visually pleasing chatbot that uses a locally running LLM server and supports multiple themes, chat history search, text to speech, JSON file export, and OpenAI API compatible Python code
 -   [selfhostedAI](https://github.com/josStorer/selfhostedAI) one-click deployment of RWKV, ChatGLM, llama.cpp models for substituting the openAI API to a locally hosted API
+-   [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) run SOTA LLMs, supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed
 
 
 
@@ -229,6 +230,7 @@ others:
 -   [gorilla](https://github.com/ShishirPatil/gorilla) Enables LLMs to use tools by semantically and syntactically correctly invoking APIs. Reduces hallucination, custom trained model [weights](https://huggingface.co/TheBloke/gorilla-7B-fp16) based on llama-7b
 -   [agency](https://github.com/operand/agency) A fast and minimal actor model framework allows humans, AIs, and other computing systems to communicate with each other through shared environments called "spaces".
 -   [Vercel AI SDK](https://github.com/vercel-labs/ai) a library for building edge-ready AI-powered streaming text and chat UIs in React, Svelte and Vue supporting LangChain, OpenAI, Anthropic and HF
+-   [tinygrad](https://github.com/geohot/tinygrad) Geohot's implementation for a PyTorch killer with the target to be 2x faster
 
 
 
