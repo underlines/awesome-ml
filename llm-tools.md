@@ -176,6 +176,7 @@ others:
 -   [AGiXT](https://github.com/Josh-XT/AGiXT) agents with memory, model agnostic, docker deployment, plugin extendable, chat feature, speech to text and text to speech, REST api and more
 -   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
 -   [SelfTalker](https://github.com/Amirrezahmi/SelfTalker) Talk with your virtual self using voice cloning, LLMs and computer vision models
+-   [CoDi](https://github.com/microsoft/i-Code/tree/main/i-Code-V3) Any to any generation via composable diffusion
 
 ## Code generation
 -   [FauxPilot](https://github.com/fauxpilot/fauxpilot) open source Copilot alternative using Triton Inference Server
@@ -367,6 +368,8 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172) recent LLMs have longer context and this paper finds that information is best retrieved at the beginning or the end, but mostly lost in the middle of long context
 - [FoT](https://arxiv.org/abs/2307.03170) Focused Transformer with contrastive learning to achieve a 256k context length for passkey retrieval, [code](https://github.com/CStanKonrad/long_llama)
 - [OpenLLMs](https://github.com/imoneoi/openchat) Less is More for Open-source Models, uses only ~6K GPT-4 conversations filtered for quality and achieves SOTA scores on Vicuna GPT-4 eval and AlpacaEval
+- [CoDi](http://arxiv.org/abs/2305.11846) Any-to-Any Generation via Composable Diffusion
+- [LEDITS](https://arxiv.org/abs/2307.00522) Real Image Editing with DDPM Inversion and Semantic Guidance, [demo](https://huggingface.co/spaces/editing-images/edit_friendly_ddpm_x_sega), [code](https://huggingface.co/spaces/editing-images/ledis/tree/main)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
