@@ -371,6 +371,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [OpenLLMs](https://github.com/imoneoi/openchat) Less is More for Open-source Models, uses only ~6K GPT-4 conversations filtered for quality and achieves SOTA scores on Vicuna GPT-4 eval and AlpacaEval
 - [CoDi](http://arxiv.org/abs/2305.11846) Any-to-Any Generation via Composable Diffusion
 - [LEDITS](https://arxiv.org/abs/2307.00522) Real Image Editing with DDPM Inversion and Semantic Guidance, [demo](https://huggingface.co/spaces/editing-images/edit_friendly_ddpm_x_sega), [code](https://huggingface.co/spaces/editing-images/ledis/tree/main)
+- [Mixture of Experts meets Instruction Tuning](https://arxiv.org/abs/2305.14705) MoE + Instruction Tuning is a winning combination for LLMs, likely being used for GPT-4
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
