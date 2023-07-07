@@ -17,7 +17,8 @@
 - [Final2x](https://github.com/Tohrusky/Final2x) Image super-resolution through interpolation supporting multiple models like RealCUGAN, ESRGAN, Waifu2x, SRMD
 
 ## Wrappers & GUIs
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) powerful and modular stable diffusion pipelines using a graph/nodes/flowchart based interface
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) powerful and modular stable diffusion pipelines using a graph/nodes/flowchart based interface, runs SDXL 0.9, SD2.1, SD2.0, SD1.5
+- [stable-diffusion-xl-demo](https://github.com/FurkanGozukara/stable-diffusion-xl-demo) runs SDXL 0.9 in a basic interface
 - [imaginAIry](https://github.com/brycedrennan/imaginAIry/blob/master/README.md) a Stable Diffusion UI
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI)  Alternative, polished stable diffusion UI with less features than automatic1111
 - [Automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) Most well known UI for Stable Diffusion
