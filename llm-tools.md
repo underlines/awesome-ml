@@ -364,6 +364,8 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [LongChat](https://lmsys.org/blog/2023-06-29-longchat/) a new level of extended context length up to 16K tokens, with two released models LongChat-7B and 13B
 - [salesforce xgen](https://blog.salesforceairesearch.com/xgen/#training-details) a series of 7B LLMs with standard dense attention on up to 8K sequence length for up to 1.5T tokens
 - [LongNet](https://arxiv.org/abs/2307.02486) Scaling transformers to 1 billion tokens
+- [Lost in the Middle](https://arxiv.org/abs/2307.03172) recent LLMs have longer context and this paper finds that information is best retrieved at the beginning or the end, but mostly lost in the middle of long context
+- [FoT](https://arxiv.org/abs/2307.03170) Focused Transformer with contrastive learning to achieve a 256k context length for passkey retrieval, [code](https://github.com/CStanKonrad/long_llama)
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
