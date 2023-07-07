@@ -18,6 +18,7 @@
 - [Track Anything](https://arxiv.org/abs/2304.11968v2), [code](https://github.com/gaomingqi/track-anything). extends the Segment Anything Model (SAM) to achieve high-performance, interactive tracking and segmentation in videos with minimal human intervention, addressing SAM's limitations in consistent video segmentation
 - [MAGVIT](https://magvit.cs.cmu.edu/) Single model for multiple video synthesis outperforming existing methods in quality and inference time, [code and models](https://github.com/MAGVIT/magvit), [paper](https://arxiv.org/pdf/2212.05199.pdf)
 - [FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) Fast Segment Anything, a CNN trained achieving a comparable performance with the SAM method at 50× higher run-time speed.
+- [SAM-PT](https://github.com/SysCV/sam-pt) Extending SAM to zero-shot video segmentation with point-based tracking, [paper](https://arxiv.org/abs/2307.01197)
 
 ## Super Resolution (Spacial Interpolation)
 - https://github.com/researchmm/FTVSR
