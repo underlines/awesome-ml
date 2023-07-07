@@ -366,6 +366,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [LongNet](https://arxiv.org/abs/2307.02486) Scaling transformers to 1 billion tokens
 - [Lost in the Middle](https://arxiv.org/abs/2307.03172) recent LLMs have longer context and this paper finds that information is best retrieved at the beginning or the end, but mostly lost in the middle of long context
 - [FoT](https://arxiv.org/abs/2307.03170) Focused Transformer with contrastive learning to achieve a 256k context length for passkey retrieval, [code](https://github.com/CStanKonrad/long_llama)
+- [OpenLLMs](https://github.com/imoneoi/openchat) Less is More for Open-source Models, uses only ~6K GPT-4 conversations filtered for quality and achieves SOTA scores on Vicuna GPT-4 eval and AlpacaEval
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
