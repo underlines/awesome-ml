@@ -40,7 +40,7 @@ others:
 -   [selfhostedAI](https://github.com/josStorer/selfhostedAI) one-click deployment of RWKV, ChatGLM, llama.cpp models for substituting the openAI API to a locally hosted API
 -   [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) run SOTA LLMs, supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed
 -   [text-generation-inference](https://github.com/huggingface/text-generation-inference) Rust, Python and gRPC server for text generation inference. Used in production at HuggingFace to power LLMs api-inference widgets
-
+-   [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 
 
 ## Web GUIs
@@ -302,6 +302,8 @@ others:
 - [fin-llama](https://huggingface.co/datasets/bavest/fin-llama-dataset) a LLaMA finetuned for finance, [code](https://github.com/Bavest/fin-llama), [model](https://huggingface.co/bavest/fin-llama-33b-merged)
 - [dataset](https://github.com/AI4Finance-Foundation/FinNLP)
 - [SlimPajama-627B](https://huggingface.co/datasets/cerebras/SlimPajama-627B) Deduplicated and cleaned RedPajama based dataset for higher information density and quality at lower token length
+- [dolphin](https://huggingface.co/datasets/ehartford/dolphin) an attempt to replicate [Microsoft Orca](https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/) using FLANv2 augmented with GPT-4 and 3.5 completions
+- [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) collection of augmented FLAN data with distributions aligned with the [orca paper](https://arxiv.org/abs/2306.02707)
 
 ## Research
 - [LLM Model Cards](https://docs.google.com/spreadsheets/d/1O5KVQW1Hx5ZAkcg8AIRjbQLQzx2wVaLl0SqUu-ir9Fs)
@@ -393,6 +395,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Things I'm learning while training SuperHOT](https://kaiokendev.github.io/til#extending-context-to-8k) talks about LiMA, Multi-Instruct and how to extend llama to 8k context size [github discussion](https://github.com/turboderp/exllama/issues/92#issuecomment-1603220170), [reddit discussion](https://www.reddit.com/r/LocalLLaMA/comments/14fgjqj/a_simple_way_to_extending_context_to_8k/)
 - [LLM Utils](https://llm-utils.org/Home) An index of useful LLM related blog posts and tools
 - [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) Latest Papers and Datasets on Multimodal Large Language Models, and Their Evaluation.
+- [FourthBrain](https://github.com/FourthBrain) ML Edication backed by Andrew NG's AI fund, tutorials about LLM deployment, API Endpoint creation, MLOps, QLoRA fine tuning, etc.
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
