@@ -36,9 +36,11 @@
 - [sd-scripts](https://github.com/kohya-ss/sd-scripts) by kohya-ss
   - [LoRA Easy Training Scripts](https://github.com/derrian-distro/LoRA_Easy_Training_Scripts) GUI for Kohya's Scripts
   - [Kohya_ss](https://github.com/bmaltais/kohya_ss) Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers]
+- [Fine tuning concepts explained visually](https://github.com/cloneofsimo/lora/discussions/67)
 
 ## Research
  - [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models
  - [ORCa](https://arxiv.org/abs/2212.04531) converts glossy objects into radiance-field cameras, enabling depth estimation and novel-view synthesis, [project](https://ktiwary2.github.io/objectsascam/), [code](https://github.com/ktiwary2/orca)
  - [cocktail](https://mhh0318.github.io/cocktail/) Mixing Multi-Modality Controls for Text-Conditional Image Generation, [project](https://mhh0318.github.io/cocktail/), [code](https://github.com/mhh0318/Cocktail)
  - [SnapFusion](https://snap-research.github.io/SnapFusion/) Fast text-to-image diffusion on mobile phones in 2 seconds
+
