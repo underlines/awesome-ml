@@ -27,6 +27,9 @@ other:
 
 ## Wrappers & GUIs
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) powerful and modular stable diffusion pipelines using a graph/nodes/flowchart based interface, runs SDXL 0.9, SD2.1, SD2.0, SD1.5
+  - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) installs missing custom nodes automatically
+  - [SeargeSDXL](https://github.com/SeargeDP/SeargeSDXL) Custom SDXL Node for easier SDXL usage and img2img workflow that utilizes base & refiner
+  - [Sytan ComfyUI SDXL workflow](https://github.com/SytanSD/Sytan-SDXL-ComfyUI/tree/main) with txt2img using base and refiner
 - [stable-diffusion-xl-demo](https://github.com/FurkanGozukara/stable-diffusion-xl-demo) runs SDXL 0.9 in a basic interface
 - [imaginAIry](https://github.com/brycedrennan/imaginAIry/blob/master/README.md) a Stable Diffusion UI
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI)  Alternative, polished stable diffusion UI with less features than automatic1111
@@ -44,8 +47,9 @@ other:
 - [StableTuner](https://github.com/devilismyfriend/StableTuner) Windows GUI for Finetuning / Dreambooth Stable Diffusion models
 - [sd-scripts](https://github.com/kohya-ss/sd-scripts) by kohya-ss
   - [LoRA Easy Training Scripts](https://github.com/derrian-distro/LoRA_Easy_Training_Scripts) GUI for Kohya's Scripts
-  - [Kohya_ss](https://github.com/bmaltais/kohya_ss) Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers, [experimental](https://github.com/bmaltais/kohya_ss/tree/sdxl) sdxl support
+  - [Kohya_ss](https://github.com/bmaltais/kohya_ss) Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers, [experimental](https://github.com/bmaltais/kohya_ss/tree/sdxl) sdxl support, [reddit thread](https://www.reddit.com/r/StableDiffusion/comments/14xhpxm/dreambooth_sdxl_09/)
 - [Fine tuning concepts explained visually](https://github.com/cloneofsimo/lora/discussions/67)
+- [text2image-gui](https://github.com/n00mkrad/text2image-gui) a Stable Diffusion GUI by NMKD
 
 ## Research
  - [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models
