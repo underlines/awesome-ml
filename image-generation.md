@@ -32,8 +32,10 @@
 - https://github.com/TheLastBen/fast-stable-diffusion
 - https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth
 - https://github.com/cloneofsimo/lora
-- [Kohya_ss | Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers](https://github.com/bmaltais/kohya_ss)
-- [StableTuner | Windows GUI for Finetuning / Dreambooth Stable Diffusion models](https://github.com/devilismyfriend/StableTuner)
+- [StableTuner](https://github.com/devilismyfriend/StableTuner) Windows GUI for Finetuning / Dreambooth Stable Diffusion models
+- [sd-scripts](https://github.com/kohya-ss/sd-scripts) by kohya-ss
+  - [LoRA Easy Training Scripts](https://github.com/derrian-distro/LoRA_Easy_Training_Scripts) GUI for Kohya's Scripts
+  - [Kohya_ss](https://github.com/bmaltais/kohya_ss) Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers]
 
 ## Research
  - [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models
