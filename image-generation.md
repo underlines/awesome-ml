@@ -30,14 +30,16 @@ other:
   - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) installs missing custom nodes automatically
   - [SeargeSDXL](https://github.com/SeargeDP/SeargeSDXL) Custom SDXL Node for easier SDXL usage and img2img workflow that utilizes base & refiner
   - [Sytan ComfyUI SDXL workflow](https://github.com/SytanSD/Sytan-SDXL-ComfyUI/tree/main) with txt2img using base and refiner
+- [Automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) well known UI for Stable Diffusion
+  - [sd-webui-cloud-inference](https://github.com/omniinfer/sd-webui-cloud-inference) extension via omniinfer.io
+- [SD.Next](https://github.com/vladmandic/automatic) vladmandic/automatic Fork, seemingly more active development efforts compared to automatic1111's original repo
 - [stable-diffusion-xl-demo](https://github.com/FurkanGozukara/stable-diffusion-xl-demo) runs SDXL 0.9 in a basic interface
 - [imaginAIry](https://github.com/brycedrennan/imaginAIry/blob/master/README.md) a Stable Diffusion UI
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI)  Alternative, polished stable diffusion UI with less features than automatic1111
-- [Automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) Most well known UI for Stable Diffusion
 - [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
-- [vladmandic/automatic](https://github.com/vladmandic/automatic) Heavily opinionated custom fork AUTOMATIC1111's repo, as close as up-to-date with origin as time allows
 - [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements
 - [refacer](https://github.com/xaviviro/refacer) One-Click Deepfake Multi-Face Swap Tool
+
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
