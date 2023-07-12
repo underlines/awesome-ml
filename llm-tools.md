@@ -111,6 +111,7 @@ others:
 -   [annoy_ltm](github.com/YenRaven/annoy_ltm) extension to add long term memory to chatbots using a nearest neighbor vector DB for memory retrieval
 -   [ChatDocs](https://github.com/marella/chatdocs) PrivateGPT + Web UI + GPU Support + ggml, transformers, webui
 -   [PAutoBot](https://github.com/nrl-ai/pautobot) document question-answering engine developed with LangChain, GPT4All, LlamaCpp, ChromaDB, PrivateGPT, CPU only
+-   [AIDE](https://github.com/vsraptor/aide/tree/main) CLI based privateGPT fork, improved, refactored, multiline support, model switch support, non question command support
 
 
 ### Model Agnostic
@@ -227,6 +228,7 @@ others:
 -   [exllama](https://github.com/turboderp/exllama) Memory-Efficient Llama Rewrite in Python/C++/CUDA for 4bit quantized GPTQ weights, running on GPU, faster than llama.cpp ([2023-06-13](https://www.reddit.com/r/LocalLLaMA/comments/147z6as/llamacpp_just_got_full_cuda_acceleration_and_now/)), autoGPTQ and GPTQ-for-llama
 -   [SimpleAI](https://github.com/lhenault/SimpleAI) Self-Hosted Alternative to openAI API
 -   [rustformer llm](https://github.com/rustformers/llm) Rust-based ecosystem for llms like BLOOM, GPT-2/J/NeoX, LLaMA and MPT offering a CLI for easy interaction and powered by ggml
+-   [Haven](https://github.com/havenhq/haven) Fine-Tune and Deploy LLMs On Your Own Infrastructure
 
 ### Model agnostic
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
@@ -238,6 +240,7 @@ others:
 -   [agency](https://github.com/operand/agency) A fast and minimal actor model framework allows humans, AIs, and other computing systems to communicate with each other through shared environments called "spaces".
 -   [Vercel AI SDK](https://github.com/vercel-labs/ai) a library for building edge-ready AI-powered streaming text and chat UIs in React, Svelte and Vue supporting LangChain, OpenAI, Anthropic and HF
 -   [tinygrad](https://github.com/geohot/tinygrad) Geohot's implementation for a PyTorch killer with the target to be 2x faster
+-   [Xorbits Inference (Xinference)](https://github.com/xorbitsai/inference) versatile library designed to deploy and serve language, speech recognition, and multimodal models
 
 
 
@@ -396,6 +399,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [LLM Utils](https://llm-utils.org/Home) An index of useful LLM related blog posts and tools
 - [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) Latest Papers and Datasets on Multimodal Large Language Models, and Their Evaluation.
 - [FourthBrain](https://github.com/FourthBrain) ML Edication backed by Andrew NG's AI fund, tutorials about LLM deployment, API Endpoint creation, MLOps, QLoRA fine tuning, etc.
+- [companion-app](https://github.com/a16z-infra/companion-app) AI Getting Started template for developers using Clerk, Next.js, Pinecone, Langchain.js, OpenAI or Vicuna13b, Twilio
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
