@@ -81,7 +81,7 @@ others:
 -  [JARVIS-ChatGPT](https://github.com/gia-guar/JARVIS-ChatGPT) conversational assistant that uses OpenAI Whisper, OpenAI ChatGPT, and IBM Watson to provide quasi-real-time tips and opinions.
 -   [ALFRED](https://github.com/masrad/ALFRED) LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more
 -   [bullerbot](https://github.com/EdwardIPAguilar/BuellerBot) uses GPT and ElevenLabs to join your online meetings, listen for your name and answers questions with your voice
-
+-  [RealChar](https://github.com/Shaunwei/RealChar) Create, Customize and Talk to your AI Character/Companion in Realtime using GPT3.5/4, Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech
 
 ### Local LLMs
 -   [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
