@@ -41,6 +41,7 @@ others:
 -   [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) run SOTA LLMs, supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed
 -   [text-generation-inference](https://github.com/huggingface/text-generation-inference) Rust, Python and gRPC server for text generation inference. Used in production at HuggingFace to power LLMs api-inference widgets
 -   [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
+-   [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
 
 
 ## Web GUIs
@@ -377,6 +378,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [CoDi](http://arxiv.org/abs/2305.11846) Any-to-Any Generation via Composable Diffusion
 - [LEDITS](https://arxiv.org/abs/2307.00522) Real Image Editing with DDPM Inversion and Semantic Guidance, [demo](https://huggingface.co/spaces/editing-images/edit_friendly_ddpm_x_sega), [code](https://huggingface.co/spaces/editing-images/ledis/tree/main)
 - [Mixture of Experts meets Instruction Tuning](https://arxiv.org/abs/2305.14705) MoE + Instruction Tuning is a winning combination for LLMs, likely being used for GPT-4
+- [MoE Mixture of Experts LoRA Proof of Concept](https://colab.research.google.com/#fileId=https%3A//huggingface.co/datasets/crumb/Wizard-EvolInstruct70k-k4/blob/main/MoLora_7b_(PROOF_OF_CONCEPT).ipynb) by [AiCrumb](https://twitter.com/aicrumb/status/1681846805959528448), [reddit](https://www.reddit.com/r/LocalLLaMA/comments/154hwpu/mixture_of_lora/) discussion
 
 # Other awesome resources
 - [LLM Worksheet](https://docs.google.com/spreadsheets/d/1kT4or6b0Fedd-W_jMwYpb63e1ZR3aePczz3zlbJW-Y4/edit#gid=741531996) using an early CoT example by [randomfoo2](https://www.reddit.com/r/LocalAI/comments/12smsy9/list_of_public_foundational_models_fine_tunes/)
@@ -400,6 +402,7 @@ with SOTA performance in knowledge understanding, reading comprehension, math an
 - [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) Latest Papers and Datasets on Multimodal Large Language Models, and Their Evaluation.
 - [FourthBrain](https://github.com/FourthBrain) ML Edication backed by Andrew NG's AI fund, tutorials about LLM deployment, API Endpoint creation, MLOps, QLoRA fine tuning, etc.
 - [companion-app](https://github.com/a16z-infra/companion-app) AI Getting Started template for developers using Clerk, Next.js, Pinecone, Langchain.js, OpenAI or Vicuna13b, Twilio
+- [ppromptor](https://github.com/pikho/ppromptor) Prompt-Promptor is a Python library with a web UI designed to automatically generate and improve prompts for LLMs and consists of three agents: Proposer, Evaluator, and Analyzer. These agents work together with human experts to continuously improve the generated prompts
 
 ## Product Showcases
 - [Opinionate.io AI Debating AI](https://opinionate.io/)
