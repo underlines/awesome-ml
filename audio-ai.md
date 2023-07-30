@@ -114,3 +114,4 @@
 
 ## Research
 - [Vocos](https://charactr-platform.github.io/vocos/) Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
+- [WavJourney](https://arxiv.org/abs/2307.14335) Compositional Audio Creation with LLMs [github](https://github.com/audio-agi/wavjourney)
