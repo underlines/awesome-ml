@@ -24,6 +24,8 @@ other:
 - [Final2x](https://github.com/Tohrusky/Final2x) Image super-resolution through interpolation supporting multiple models like RealCUGAN, ESRGAN, Waifu2x, SRMD
 -  [text-to-room](https://lukashoel.github.io/text-to-room/) text to room
 - [DragGAN](https://github.com/XingangPan/DragGAN) Interactive Point-based Manipulation on Generative Images, [demo](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
+- [HQTrack](https://github.com/jiawen-zhu/hqtrack) Tracking Anything in High Quality (HQTrack) is a framework for high performance video object tracking and segmentation
+- [CoTracker](https://github.com/facebookresearch/co-tracker) It is Better to Track Together. A fast transformer-based model that can track any point in a video
 
 ## Wrappers & GUIs
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) powerful and modular stable diffusion pipelines using a graph/nodes/flowchart based interface, runs SDXL 0.9, SD2.1, SD2.0, SD1.5
