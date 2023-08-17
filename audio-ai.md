@@ -109,6 +109,7 @@
   - [audiocraftgui](https://github.com/DragonForgedTheArtist/audiocraftgui) with wxPython supporting continuous generation by using chunks and overlaps
   - [MusicGen](https://huggingface.co/spaces/facebook/MusicGen) a simple and controllable model for music generation using a Transformer model [examples](https://ai.honu.io/papers/musicgen/), [colab](https://colab.research.google.com/drive/1-Xe9NCdIs2sCUbiSmwHXozK6AAhMm7_i?usp=sharing), [colab collection](https://github.com/camenduru/MusicGen-colab)
   - [audiocraft-infinity-webui](https://github.com/1aienthusiast/audiocraft-infinity-webui) generation length  over 30 seconds, ability to continue songs, seeds, allows to load local models
+  - [AudioCraft Plus](https://github.com/GrandaddyShmax/audiocraft_plus) an all-in-one WebUI for the original AudioCraft, adding multiband diffusion, continuation, custom model support, mono to stereo and more
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
 
 
