@@ -11,7 +11,7 @@
 
 ### Local LLMs
 cpp / ggml:
--   [llama.cpp](https://github.com/ggerganov/llama.cpp) runs ggml models up to 4-bit quantized on mac, linux and windows natively. Supports the new ggmlv3 format and runs on CPU and GPU. Allows for mixed use of CPU/GPU using BLAS libraries like cuBLAS, CLBLas etc.
+-   [llama.cpp](https://github.com/ggerganov/llama.cpp) runs ggml models up to 8-bit quantized on mac, linux and windows natively. Supports the new ggmlv3 format and runs on CPU and GPU. Allows for mixed use of CPU/GPU using BLAS libraries like cuBLAS, CLBLas etc.
 -   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 -   [koboldcpp](https://github.com/LostRuins/koboldcpp) llama.cpp with a fancy UI, persistent stories, editing tools, memory etc. Supporting ggmlv3 and old ggml, CLBlast and llama, RWKV, GPT-NeoX, Pythia models
 -   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
