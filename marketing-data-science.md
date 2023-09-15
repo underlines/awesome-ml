@@ -174,6 +174,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Grafana | Open-source data visualization and monitoring](https://github.com/grafana/grafana)
 - [Apache Superset | Open-source enterprise grade web based BI solution](https://github.com/apache/superset)
 - [evidence | Business intelligence as code with SQL and markdown](https://github.com/evidence-dev/evidence)
+- [datasette](https://github.com/simonw/datasette) exploring and publishing data of any shape or size using an encapsulated website and API, especially useful for data journalism
 
 
 ## SaaS Marketing Reporting Solutions
@@ -197,9 +198,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [EasySpider](https://github.com/NaiboWang/EasySpider)  visual code-free/no-code web crawler/spider
 
 # Libraries
-## Javascript
+## Web
 ### Visualization
 - [Plot](https://github.com/observablehq/plot) JavaScript library for exploratory data visualization Create expressive charts with concise code
+- [Tremor](https://github.com/tremorlabs/tremor) React library to build dashboards fast
 ## Python
 ### Visualization
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.
