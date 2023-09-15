@@ -11,6 +11,7 @@
 - [stable diffusion 2.0](https://huggingface.co/stabilityai/stable-diffusion-2)
 - [stable diffusion 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1)
 - stable diffusion xl (SDXL) [base 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9) & [refinder 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9)
+- [AnimateDiff](https://github.com/guoyww/AnimateDiff) Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
 
 text to 3d:
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
