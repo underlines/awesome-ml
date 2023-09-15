@@ -43,7 +43,8 @@ other:
 - [mlc-ai/web-stable-diffusion](https://github.com/mlc-ai/web-stable-diffusion)
 - [anapnoe/stable-diffusion-webui-ux](https://github.com/anapnoe/stable-diffusion-webui-ux) Redesigned from automatic1111's UI, adding mobile and desktop layouts and UX improvements
 - [refacer](https://github.com/xaviviro/refacer) One-Click Deepfake Multi-Face Swap Tool
-
+- [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) CPU inference of Stable Diffusion in pure C/C++ with huge performance gains, supporting ggml, 16/32 bit float, 4/5/8 bit quantization, AVX/AVX2/AVX512, SD1.x, SD2.x, txt2img/img2img
+- [FaceFusion](https://github.com/facefusion/facefusion) Next generation face swapper and enhancer
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
@@ -58,8 +59,9 @@ other:
 - [text2image-gui](https://github.com/n00mkrad/text2image-gui) a Stable Diffusion GUI by NMKD
 
 ## Research
- - [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models
- - [ORCa](https://arxiv.org/abs/2212.04531) converts glossy objects into radiance-field cameras, enabling depth estimation and novel-view synthesis, [project](https://ktiwary2.github.io/objectsascam/), [code](https://github.com/ktiwary2/orca)
- - [cocktail](https://mhh0318.github.io/cocktail/) Mixing Multi-Modality Controls for Text-Conditional Image Generation, [project](https://mhh0318.github.io/cocktail/), [code](https://github.com/mhh0318/Cocktail)
- - [SnapFusion](https://snap-research.github.io/SnapFusion/) Fast text-to-image diffusion on mobile phones in 2 seconds
- - [Objaverse-xl](https://objaverse.allenai.org/objaverse-xl-paper.pdf) dataset of 10 million annotated high quality 3D objects, [hf](https://huggingface.co/datasets/allenai/objaverse)
+- [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models
+- [ORCa](https://arxiv.org/abs/2212.04531) converts glossy objects into radiance-field cameras, enabling depth estimation and novel-view synthesis, [project](https://ktiwary2.github.io/objectsascam/), [code](https://github.com/ktiwary2/orca)
+- [cocktail](https://mhh0318.github.io/cocktail/) Mixing Multi-Modality Controls for Text-Conditional Image Generation, [project](https://mhh0318.github.io/cocktail/), [code](https://github.com/mhh0318/Cocktail)
+- [SnapFusion](https://snap-research.github.io/SnapFusion/) Fast text-to-image diffusion on mobile phones in 2 seconds
+- [Objaverse-xl](https://objaverse.allenai.org/objaverse-xl-paper.pdf) dataset of 10 million annotated high quality 3D objects, [hf](https://huggingface.co/datasets/allenai/objaverse)
+- [LightGlue](https://github.com/cvg/LightGlue) Local Feature Matching at Light Speed, a lightweight feature matcher with high accuracy and blazing fast inference. It takes as input a set of keypoints and descriptors for each image and returns the indices of corresponding points

@@ -7,6 +7,7 @@
 - [Nvidia VideoLDM: Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models](https://research.nvidia.com/labs/toronto-ai/VideoLDM/)
 - [Potat1](https://huggingface.co/camenduru/potat1) , [colab](https://github.com/camenduru/text-to-video-synthesis-colab)
 - [Phenaki](https://openreview.net/forum?id=vOEXS39nOF) multi minute text to video prompts with scene changes, [project page](https://phenaki.video/)
+- [StableVideo](https://rese1f.github.io/StableVideo/) Text-driven Consistency-aware Diffusion Video Editing, [code](https://github.com/rese1f/StableVideo), [paper](https://rese1f.github.io/StableVideo/)
 
 ## Frame Interpolation (Temporal Interpolation)
 - https://github.com/google-research/frame-interpolation

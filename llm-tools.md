@@ -34,12 +34,18 @@ gpt4all:
 -   [gpt4all.zig](https://github.com/renerocksai/gpt4all.zig) terminal version of GPT4All
 -   [gpt4all-chat](https://github.com/nomic-ai/gpt4all-chat) Cross platform desktop GUI for GPT4All  models (gpt-j)
 
+ollama:
+
+-   [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
+-   [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
+
 others:
 
 -   [Lit-llama](https://github.com/Lightning-AI/lit-llama) training, fine tuning and inference of llama
 -   [Dalai](https://github.com/cocktailpeanut/dalai) LLaMA-based ChatGPT for single GPUs
 -   [ChatLLaMA](https://github.com/juncongmoo/chatllama) LLaMA-based ChatGPT for single GPUs
 -   [mlc-llm](https://github.com/mlc-ai/mlc-llm), run any LLM on any hardware (iPhones, Android, Win, Linux, Mac, WebGPU, Metal. NVidia, AMD)
+-   [webllm](https://github.com/mlc-ai/web-llm) Web LLM running LLMs with WebGPU natively in the browser using local GPU acceleration, without any backend, [demo](https://webllm.mlc.ai/)
 -   [faraday.dev](https://faraday.dev/) Run open-source LLMs on your Win/Mac. Completely offline. Zero configuration.
 -   [ChatALL](https://github.com/sunner/ChatALL) concurrently sends prompts to multiple LLM-based AI bots both local and APIs and displays the results
 -   [pyllama](https://github.com/juncongmoo/pyllama) hacked version of LLaMA based on Meta's implementation, optimized for Single GPUs
@@ -95,6 +101,7 @@ others:
 -   [ALFRED](https://github.com/masrad/ALFRED) LangChain Voice Assistant, powered by GPT-3.5-turbo, whisper, Bark, pyttsx3 and more
 -   [bullerbot](https://github.com/EdwardIPAguilar/BuellerBot) uses GPT and ElevenLabs to join your online meetings, listen for your name and answers questions with your voice
 -   [RealChar](https://github.com/Shaunwei/RealChar) Create, Customize and Talk to your AI Character/Companion in Realtime using GPT3.5/4, Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech
+-   [gdansk-ai](https://github.com/jmaczan/gdansk-ai) full stack AI voice chatbot (speech-to-text, LLM, text-to-speech) with integrations to Auth0, OpenAI, Google Cloud API and Stripe - Web App, API
 
 ### Local LLMs
 
@@ -185,6 +192,8 @@ others:
 -   [AgentOoba](https://github.com/flurb18/AgentOoba) autonomous AI agent extension for Oobabooga's web ui
 -   [RecurrentGPT](https://github.com/aiwaves-cn/RecurrentGPT/tree/main) Interactive Generation of (Arbitrarily) Long Text. Uses LSTM, prompt-engineered recurrence, maintains short and long-term memories, and updates these using semantic search and paragraph generation.
 -   [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) open-source framework that enables developers to build, manage, and run autonomous agents. Supports tools extensions, concurrent agents, GUI, console, vector DBs, multi modal, telemetry and long term memory
+-   [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot) writes scalable apps from scratch while the developer oversees the implementation
+-   [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software
 
 ### Model agnostic
 
@@ -218,6 +227,7 @@ others:
 -   [locai](https://github.com/Maykeye/locai) kobold/oobabooga -compatible api for vscode
 -   [oasis](https://github.com/paolorechia/oasis) local LLaMA models in VSCode
 -   [aider](https://github.com/paul-gauthier/aider) cli tool for writing and modifying code with GPT-3.5 and GPT-4
+-   [continue](https://github.com/continuedev/continue) open-source copilot alternative for software development as a VS Code plugin, can use gpt-4 API or local codellama and other models
 
 ## Libraries and Wrappers
 
@@ -299,6 +309,7 @@ others:
 -   [Microsoft semantic-kernel](https://github.com/microsoft/semantic-kernel) a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages
 -   [Colossal-AI](https://github.com/hpcaitech/ColossalAI) unified deep learning system that provides a collection of parallel components for distributed deep learning models. Provides data parallelism, pipeline parallelism, and tensor parallelism
 -   [OpenLLM](https://github.com/bentoml/OpenLLM) Run, deploy, and monitor open-source LLMs on any platform
+-   [outlines](https://github.com/outlines-dev/outlines) Microsoft Guidance alternative forcing LLM generation to follow JSON Schemas, RegEx, Caching supporting multiple models, model APIs, and HF transformers
 
 # Resources
 
@@ -411,6 +422,10 @@ others:
 -   [MoE Mixture of Experts LoRA Proof of Concept](https://colab.research.google.com/#fileId=https%3A//huggingface.co/datasets/crumb/Wizard-EvolInstruct70k-k4/blob/main/MoLora_7b_(PROOF_OF_CONCEPT).ipynb) by [AiCrumb](https://twitter.com/aicrumb/status/1681846805959528448), [reddit](https://www.reddit.com/r/LocalLLaMA/comments/154hwpu/mixture_of_lora/) discussion
 -   [LLM Attacks](https://arxiv.org/abs/2307.15043v1) Universal and Transferable Adversarial Attacks on Aligned Language Models, [code](https://github.com/llm-attacks/llm-attacks)
 -   [factool](https://arxiv.org/abs/2307.13528) framework for detecting factual errors of texts generated by large language models (e.g., ChatGPT)
+-   [codellama](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/) Llama 2 fine tuned by meta for code completion, [github](https://github.com/facebookresearch/codellama)
+-   [Graph of Thoughts](https://arxiv.org/pdf/2308.09687.pdf) introducing Graph of Thoughts and comparing its performance to Chain of Thoughts and Tree of Thoughts, [code](https://github.com/spcl/graph-of-thoughts)
+-   [LIDA](https://github.com/microsoft/lida) Automatic Generation of Visualizations and Infographics using Large Language Models, [code](https://github.com/microsoft/lida)
+
 
 # Other awesome resources
 
@@ -436,6 +451,7 @@ others:
 -   [FourthBrain](https://github.com/FourthBrain) ML Edication backed by Andrew NG's AI fund, tutorials about LLM deployment, API Endpoint creation, MLOps, QLoRA fine tuning, etc.
 -   [companion-app](https://github.com/a16z-infra/companion-app) AI Getting Started template for developers using Clerk, Next.js, Pinecone, Langchain.js, OpenAI or Vicuna13b, Twilio
 -   [ppromptor](https://github.com/pikho/ppromptor) Prompt-Promptor is a Python library with a web UI designed to automatically generate and improve prompts for LLMs and consists of three agents: Proposer, Evaluator, and Analyzer. These agents work together with human experts to continuously improve the generated prompts
+-   [RAG Guide](https://github.com/ray-project/llm-applications/blob/main/notebooks/rag.ipynb) A Comprehensive Guide for Building RAG-based LLM Applications as a jupyter notebook
 
 ## Product Showcases
 

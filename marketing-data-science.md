@@ -175,6 +175,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Superset | Open-source enterprise grade web based BI solution](https://github.com/apache/superset)
 - [evidence | Business intelligence as code with SQL and markdown](https://github.com/evidence-dev/evidence)
 - [datasette](https://github.com/simonw/datasette) exploring and publishing data of any shape or size using an encapsulated website and API, especially useful for data journalism
+- [Python in Excel](https://github.com/microsoft/python-in-excel) Microsoft's official Python support within Excel
 
 
 ## SaaS Marketing Reporting Solutions

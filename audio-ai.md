@@ -15,7 +15,7 @@
 - [AI-Waifu-Vtuber](https://github.com/ardha27/AI-Waifu-Vtuber) AI Waifu Vtuber & is a virtual streamer. Supports multiple languages and uses VoiceVox, DeepL, Whisper, Seliro TTS, and VtubeStudio, and now also supports Twitch streaming.
 - [Voicebox](https://ai.facebook.com/blog/voicebox-generative-ai-model-speech/) large-scale text-guided generative speech model using non-autoregressive flow-matching, [paper](https://research.facebook.com/publications/voicebox-text-guided-multilingual-universal-speech-generation-at-scale/), [demo](https://voicebox.metademolab.com), [pytorch implementation](https://github.com/jaloo555/voicebox-pytorch), [implementation](https://github.com/SpeechifyInc/Meta-voicebox)
 - [Auto-Synced-Translated-Dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) Automatic YouTube video speech to text, translation, text to speech in order to dub a whole video
-
+- [SeamlessM4T](https://github.com/facebookresearch/seamless_communication) Foundational Models for SOTA Speech and Text Translation
 
 
 ## Speech Recognition
@@ -61,7 +61,7 @@
   -   [VITS-Umamusume-voice-synthesizer](https://huggingface.co/spaces/1raliopunche/VITS-Umamusume-voice-synthesizer) (Multilingual Anime TTS) Including Japanese TTS, Chinese and English TTS, speakers are all anime characters.
 -   [Parallel WaveGAN implementation in PyTorch](https://github.com/kan-bayashi/ParallelWaveGAN) for high quality text to speech synthesis [paper](https://github.com/kan-bayashi/ParallelWaveGAN)
 -   [real-time-voice](https://github.com/michaelcrubin/real-time-voice) SV2TTS voice cloning TTS implementation using WaveRNN, Tacatron, GE2E
-
+-   [Vall-E X](https://github.com/Plachtaa/VALL-E-X) open source implementation of Microsoft's VALL-E X zero-shot TTS model
 
 ## Voice Conversion
 
