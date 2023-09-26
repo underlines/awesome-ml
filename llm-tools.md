@@ -514,7 +514,7 @@ others:
 
 ## AI DevOps
 
--   
+-  [Portkey](https://portkey.ai/) full-stack LLMOps platform for observability, gateway, management, evals, and more.   
 
 ## Databases for ML
 
