@@ -8,6 +8,7 @@
 - [Potat1](https://huggingface.co/camenduru/potat1) , [colab](https://github.com/camenduru/text-to-video-synthesis-colab)
 - [Phenaki](https://openreview.net/forum?id=vOEXS39nOF) multi minute text to video prompts with scene changes, [project page](https://phenaki.video/)
 - [StableVideo](https://rese1f.github.io/StableVideo/) Text-driven Consistency-aware Diffusion Video Editing, [code](https://github.com/rese1f/StableVideo), [paper](https://rese1f.github.io/StableVideo/)
+- [Rerender A Video](https://github.com/williamyang1991/Rerender_A_Video) Zero-Shot Text-Guided Video-to-Video Translation, [paper](https://arxiv.org/abs/2306.07954)
 
 ## Frame Interpolation (Temporal Interpolation)
 - https://github.com/google-research/frame-interpolation
@@ -20,6 +21,8 @@
 - [MAGVIT](https://magvit.cs.cmu.edu/) Single model for multiple video synthesis outperforming existing methods in quality and inference time, [code and models](https://github.com/MAGVIT/magvit), [paper](https://arxiv.org/pdf/2212.05199.pdf)
 - [FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM) Fast Segment Anything, a CNN trained achieving a comparable performance with the SAM method at 50× higher run-time speed.
 - [SAM-PT](https://github.com/SysCV/sam-pt) Extending SAM to zero-shot video segmentation with point-based tracking, [paper](https://arxiv.org/abs/2307.01197)
+- [DEVA](https://github.com/hkchengrex/Tracking-Anything-with-DEVA) Tracking Anything with Decoupled Video Segmentation, [paper](https://arxiv.org/abs/2309.03903)
+- [Cutie](https://github.com/hkchengrex/Cutie) Putting the Object Back into Video Object Segmentation, [paper](https://arxiv.org/abs/2310.12982)
 
 ## Super Resolution (Spacial Interpolation)
 - https://github.com/researchmm/FTVSR
@@ -34,6 +37,8 @@
 - [Threestudio](https://github.com/threestudio-project/threestudio) A Framework for 3D Content Creation from Text Prompts, Single Images, and Few-Shot Images or text2image created single image to 3D
 - [Zero-1-to-3](https://github.com/cvlab-columbia/zero123) Zero-shot One Image to 3D Object for novel view synthesis and 3D reconstruction
 - [localrf](https://github.com/facebookresearch/localrf) NeRFs for reconstructing large-scale stabilized scenes from shakey videos, [paper](https://localrf.github.io/localrf.pdf), [project page](https://localrf.github.io/)
+- [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting) reference implementation of "3D Gaussian Splatting for Real-Time Radiance Field Rendering", [paper](https://arxiv.org/abs/2308.04079v1)
+- [4d-gaussian-splatting](https://github.com/fudan-zvg/4d-gaussian-splatting) Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting, [paper](https://arxiv.org/abs/2310.10642v1)
 
 ## Deepfakes
 - [roop](https://github.com/s0md3v/roop) one-click deepfake (face swap)
@@ -43,3 +48,6 @@
 - [Video Super Resolution Benchmarks](https://paperswithcode.com/task/video-super-resolution)
 - [Video Generation Benchmarks](https://paperswithcode.com/task/video-generation)
 - [Video Frame Interpolation Benchmarks](https://paperswithcode.com/task/video-frame-interpolation)
+
+## Inpainting Outpainting
+- [ProPainter](https://github.com/sczhou/ProPainter) Improving Propagation and Transformer for Video Inpainting, [paper](https://arxiv.org/abs/2309.03897)

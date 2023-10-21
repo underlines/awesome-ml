@@ -12,6 +12,7 @@
 - [stable diffusion 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1)
 - stable diffusion xl (SDXL) [base 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9) & [refinder 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9)
 - [AnimateDiff](https://github.com/guoyww/AnimateDiff) Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
+- [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, [paper](https://arxiv.org/abs/2310.00426)
 
 text to 3d:
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
@@ -37,6 +38,9 @@ other:
 - [Automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) well known UI for Stable Diffusion
   - [sd-webui-cloud-inference](https://github.com/omniinfer/sd-webui-cloud-inference) extension via omniinfer.io
 - [SD.Next](https://github.com/vladmandic/automatic) vladmandic/automatic Fork, seemingly more active development efforts compared to automatic1111's original repo
+- [Fooocus](https://github.com/lllyasviel/Fooocus) Midjourney alike GUI for SDXL to focus on prompting and generating
+  - [RuinedFooocus](https://github.com/runew0lf/RuinedFooocus) A Fooocus fork
+  - [Fooocus-MRE](https://github.com/MoonRide303/Fooocus-MRE) A Fooocus fork
 - [stable-diffusion-xl-demo](https://github.com/FurkanGozukara/stable-diffusion-xl-demo) runs SDXL 0.9 in a basic interface
 - [imaginAIry](https://github.com/brycedrennan/imaginAIry/blob/master/README.md) a Stable Diffusion UI
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI)  Alternative, polished stable diffusion UI with less features than automatic1111
@@ -48,15 +52,17 @@ other:
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
-- https://github.com/TheLastBen/fast-stable-diffusion
+- [fast-stable-diffusion](https://github.com/TheLastBen/fast-stable-diffusion) TheLastBen's Repo for SD, SDXL fine-tuning and DreamBooth on RunPod, Paperspace, Colab and others
 - https://github.com/ShivamShrirao/diffusers/tree/main/examples/dreambooth
 - https://github.com/cloneofsimo/lora
-- [StableTuner](https://github.com/devilismyfriend/StableTuner) Windows GUI for Finetuning / Dreambooth Stable Diffusion models
+- [OneTrainer](https://github.com/Nerogar/OneTrainer) all in one training for SD, SDXL and inpainting models supporting fine-tuning, LoRA, embeddings
 - [sd-scripts](https://github.com/kohya-ss/sd-scripts) by kohya-ss
   - [LoRA Easy Training Scripts](https://github.com/derrian-distro/LoRA_Easy_Training_Scripts) GUI for Kohya's Scripts
   - [Kohya_ss](https://github.com/bmaltais/kohya_ss) Windows-focused Gradio GUI for Kohya's Stable Diffusion trainers, [experimental](https://github.com/bmaltais/kohya_ss/tree/sdxl) sdxl support, [reddit thread](https://www.reddit.com/r/StableDiffusion/comments/14xhpxm/dreambooth_sdxl_09/)
 - [Fine tuning concepts explained visually](https://github.com/cloneofsimo/lora/discussions/67)
 - [text2image-gui](https://github.com/n00mkrad/text2image-gui) a Stable Diffusion GUI by NMKD
+- [sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto) / [easyphoto](https://github.com/aigc-apps/easyphoto) plugin for generating AI portraits that can be used to train digital doppelgangers with 5-10 photos and a quick LoRA fine tune, [paper](https://arxiv.org/abs/2310.04672v1)
+- [StableTuner](https://github.com/devilismyfriend/StableTuner) Windows GUI for Finetuning / Dreambooth Stable Diffusion models (abandoned)
 
 ## Research
 - [Speed Is All You Need](https://arxiv.org/abs/2304.11267) up to 50% speed increase for Latent Diffusion Models

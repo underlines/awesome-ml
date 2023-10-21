@@ -112,6 +112,8 @@
   - [AudioCraft Plus](https://github.com/GrandaddyShmax/audiocraft_plus) an all-in-one WebUI for the original AudioCraft, adding multiband diffusion, continuation, custom model support, mono to stereo and more
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
 
+## Audio Source Separation
+- [Separate Anything You Describe](https://github.com/audio-agi/audiosep) Describe what you want to isolate from audio, Language-queried audio source separation (LASS), [paper](https://arxiv.org/abs/2308.05037v1)
 
 ## Research
 - [Vocos](https://charactr-platform.github.io/vocos/) Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis

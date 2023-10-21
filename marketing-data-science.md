@@ -23,6 +23,9 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
      - [Visualization](#visualization)
      - [Machine Learning](#machine-learning)
      - [Digital Marketing](#digital-marketing)
+     - [Search](#search)
+     - [Query Engine](#query-engine)
+     - [Forecasting](#forecasting)
  - [Learning](#learning)
    - [Courses](#courses)
      - [Free Courses](#free-courses)
@@ -235,6 +238,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 
 ### Query Engine
 - [Trustfall | Query almost any data source as if it's SQL](https://github.com/obi1kenobi/trustfall)
+
+### Forecasting
+- [Time-Series-Library](https://github.com/thuml/Time-Series-Library) A Library for Advanced Deep Time Series Models with iTransformers performing SOTA forecasting with inverted transformers
+- [neuralforecast](https://github.com/Nixtla/neuralforecast) formerly TimeGPT, Scalable and user friendly neural forecasting algorithms
 
 
 # Learning
