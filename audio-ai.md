@@ -39,6 +39,7 @@
     -   [Bark WebUI](https://github.com/makawy7/bark-webui)
     -   [bark-voice-cloning-HuBERT-quantizer](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer) Voice cloning with bark in high quality using Python 3.10 and  ggingface models.
     -   [bark-gui](https://github.com/C0untFloyd/bark-gui) Gradio Web UI for an extended Bark version, with long generation, cloning, SSML, for Windows and other platforms, supporting NVIDIA/Apple GPU/CPU, 
+	-	[bark-voice-cloning](https://github.com/KevinWang676/Bark-Voice-Cloning) for chinese speech, based on bark-gui by C0untFloyd
 -   [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
     -   [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
 -   [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
@@ -86,7 +87,6 @@
 -   [Diff-svc](https://github.com/prophesier/diff-svc) Singing Voice Conversion via Diffusion model
   -   [FastDiff implementation| Fast Conditional Diffusion Model for High-Quality Speech Synthesis](https://github.com/Rongjiehuang/FastDiff)
   -   [Fish Diffusion](https://github.com/fishaudio/fish-diffusion) easy to understand TTS / SVS / SVC framework, can convert Diff models
--   [Auto-synced-translated-dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) Youtube audio translation and dubbing pipeline using Whisper speech-to-text, Google/DeepL Translate, Azure/Google TTS
 -   [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) abandoned project
     -   [Real-Time-Voice-Cloning v2](https://github.com/liuhaozhe6788/voice-cloning-collab) active fork of the original for google collab
 -  [Raven with voice cloning 2.0](https://huggingface.co/spaces/Kevin676/Raven-with-Voice-Cloning-2.0/tree/main) by Kevin676
@@ -98,6 +98,13 @@
 -  [TriAAN-VC](https://github.com/winddori2002/TriAAN-VC) a Pytorch deep learning model for any-to-any voice conversion, with SOTA performance achieved by using an attention-based adaptive normalization block to extract target speaker representations while minimizing the loss of the source content. [demo](https://winddori2002.github.io/vc-demo.github.io/), [paper](https://arxiv.org/abs/2303.09057)
 -  [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
 -  [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
+-  [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+## Video Voice Dubbing
+
+-  [weeablind](https://github.com/FlorianEagox/weeablind) dub multi lingual media using modern AI speech synthesis, diarization, and language identification
+-  [Auto-synced-translated-dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) Youtube audio translation and dubbing pipeline using Whisper speech-to-text, Google/DeepL Translate, Azure/Google TTS
+-  [videodubber](https://github.com/am-sokolov/videodubber) dub video using GCP TTS, Translate, Whisper, Spacy tokenization and syllable counting
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support

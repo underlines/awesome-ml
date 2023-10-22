@@ -495,4 +495,7 @@ Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm
 - [salesforce/CodeT5](https://github.com/salesforce/codet5) code assistant, has released their [codet5+ 16b](https://huggingface.co/Salesforce/codet5p-16b) and other model sizes
 - [baichuan-7b](https://github.com/baichuan-inc/baichuan-7B) Baichuan Intelligent Technology developed baichuan-7B, an open-source language model with 7 billion parameters trained on 1.2 trillion tokens. Supporting Chinese and English, it achieves top performance on authoritative benchmarks (C-EVAL, MMLU)
 - [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) v2 of the GLM 6B open bilingual EN/CN model
-
+- [CodeShell](https://github.com/WisdomShell/codeshell/blob/main/README_EN.md) code LLM with 7b parameters trained on 500b tokens, context length of 8k outperforming CodeLlama and Starcoder on humaneval, [weights](https://huggingface.co/WisdomShell/CodeShell)
+- [SauerkrautLM-13B-v1](https://huggingface.co/VAGOsolutions/SauerkrautLM-13b-v1) fine tuned llama-2 13b on a mix of German data augmentation and translations, [SauerkrautLM-7b-v1-mistral](https://huggingface.co/VAGOsolutions/SauerkrautLM-7b-v1-mistral) German SauerkrautLM-7b fine-tuned using QLoRA on 1 A100 80GB with Axolotl
+- [em_german_leo_mistral](https://huggingface.co/jphme/em_german_leo_mistral) LeoLM Mistral fine tune of [LeoLM](https://huggingface.co/LeoLM/leo-hessianai-13b) with german instructions
+- [leo-hessianai-13b-chat-bilingual](https://huggingface.co/LeoLM/leo-hessianai-13b-chat-bilingual) based on llama-2 13b is a fine tune of the base [leo-hessianai-13b](https://huggingface.co/LeoLM/leo-hessianai-13b) for chat

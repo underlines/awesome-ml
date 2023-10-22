@@ -11,22 +11,15 @@
 -   [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 -   [cheetah](https://github.com/leetcode-mafia/cheetah) Speech to text for remote coding interviews, giving you hints from GTP3/4
 -   [Chat2DB++](https://github.com/chat2db/Chat2DB) general-purpose SQL & multi DBMS client and reporting tool which uses ChatGPT capabilities to write and optimize Queries
+-   [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) Web, Windows, Linux, Mac GUI. Supports: Local LLMs, Markdown, LaTex, mermaid, code, history compression, prompt templates
+-   [ChatGPT](https://github.com/HemulGM/ChatGPT) Native Application for Windows, Mac, Android, iOS, Linux
 
 ### Local LLMs
 
-cpp / ggml:
+cpp / ggml / gguf:
 
--   [llama.cpp](https://github.com/ggerganov/llama.cpp) runs ggml models up to 4-bit quantized on mac, linux and windows natively. Supports the new ggmlv3 format and runs on CPU and GPU. Allows for mixed use of CPU/GPU using BLAS libraries like cuBLAS, CLBLas etc.
--   [Alpaca.cpp](https://github.com/antimatter15/alpaca.cpp)
 -   [koboldcpp](https://github.com/LostRuins/koboldcpp) llama.cpp with a fancy UI, persistent stories, editing tools, memory etc. Supporting ggmlv3 and old ggml, CLBlast and llama, RWKV, GPT-NeoX, Pythia models
 -   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
--   [llama MPS](https://github.com/jankais3r/LLaMA_MPS) inference on Apple Silicon GPU using much lower power but is slightly slower than llama.cpp which uses CPU
--   [bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp) Inference of HuggingFace's BLOOM-like models in pure C/C++
--   [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
--   [RWKV Cuda](https://github.com/harrisonvanderbyl/rwkv-cpp-cuda) a torchless, c++ rwkv implementation with 8bit quantization written in cuda
--   [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
--   [sherpa](https://github.com/Bip-Rep/sherpa) llama.cpp on android
--   [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) C++ implementation of ChatGLM-6B & ChatGLM2-6B
 
 gpt4all:
 
@@ -89,6 +82,21 @@ others:
 
 -   [OpenChat](https://github.com/openchatai/OpenChat) web ui that currently supports openAI but will implement local LLM support, RAG with PDF, websites, confluence, office 365
 
+## Backends
+
+-   [ExLlama](https://github.com/turboderp/exllama) a more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. By [ReturningTarzan](https://www.reddit.com/r/LocalLLaMA/comments/13vm7tx/can_an_rtx_3090_run_a_30b_4bit_model_with_webui/jm6wmu0/)
+-   [ExLlamaV2](https://github.com/turboderp/exllamav2) faster ExLlama
+-   [transformers](https://github.com/huggingface/transformers) huggingface transformers
+-   [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) 8 bit inference
+-   [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) 4bit inference
+-   [llama.cpp](https://github.com/ggerganov/llama.cpp)
+-   [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) Python API for running LLMs on GPU with support for MHA, MQA, GQA, Tensor Parallelism, INT4/8 Quantization, GPTQ, AWQ, FP8, RoPE to run Baichuan, BLOOM, ChatGLM, Falcon, GPT-J/NeoX, LLaMA/2,MPT, OPT, SantaCoder, StarCoder etc.
+-   [tensorrtllm_backend](https://github.com/triton-inference-server/tensorrtllm_backend)  Triton TensorRT-LLM Backend
+-   [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
+-   [sherpa](https://github.com/Bip-Rep/sherpa) llama.cpp on android
+-   [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) C++ implementation of ChatGLM-6B & ChatGLM2-6B
+
+
 ## Voice Assistants
 
 ### openAI
@@ -124,7 +132,6 @@ others:
 
 ### Local LLMs
 
--   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
 -   [Llama-lab](https://github.com/run-llama/llama-lab) home of llama_agi and auto_llama using LlamaIndex
 -   [PrivateGPT](https://github.com/imartinez/privateGPT) a standalone question-answering system using LangChain, GPT4All, LlamaCpp and embeddings models to enable offline querying of documents
 -   [Spyglass](https://github.com/spyglass-search/spyglass) tests an Alpaca integration for a self-hosted personal search app. Select the llama-rama feature branch. [Discussion on reddit](https://www.reddit.com/r/LocalLLaMA/comments/13key7p/a_little_demo_integration_the_alpaca_model_w_my/)
@@ -138,6 +145,7 @@ others:
 -   [PAutoBot](https://github.com/nrl-ai/pautobot) document question-answering engine developed with LangChain, GPT4All, LlamaCpp, ChromaDB, PrivateGPT, CPU only
 -   [AIDE](https://github.com/vsraptor/aide/tree/main) CLI based privateGPT fork, improved, refactored, multiline support, model switch support, non question command support
 -   [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain using Llama 2, supporting multiple data sources, web search etc.
+-   [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
 
 ### Model Agnostic
 
@@ -190,6 +198,9 @@ others:
 -   [AutoChain](https://github.com/Forethought-Technologies/AutoChain) Build lightweight, extensible, and testable LLM Agents
 -   [chatdev](https://github.com/openbmb/chatdev) Develop Custom Software using Natural Language, while an LLM-powered Multi-Agent Team develops the software for you, [paper](https://arxiv.org/pdf/2307.07924v3.pdf)
 -   [AutoAgents](https://github.com/Link-AGI/AutoAgents) Generate different roles for GPTs to form a collaborative entity for complex tasks, [paper](https://arxiv.org/abs/2309.17288v2)
+-   [RestGPT](https://github.com/Yifan-Song793/RestGPT) LLM-based autonomous agent controlling real-world applications via RESTful APIs
+-   [MemGPT](https://github.com/cpacker/MemGPT) intelligently manages different memory tiers in LLMs to provide extended context, supporting vector DBs, SQL, Documents etc
+-   [XAgent](https://github.com/OpenBMB/XAgent) Autonomous LLM Agent for Complex Task Solving
 
 ### Local LLMs
 
@@ -241,7 +252,9 @@ others:
 -   [oasis](https://github.com/paolorechia/oasis) local LLaMA models in VSCode
 -   [aider](https://github.com/paul-gauthier/aider) cli tool for writing and modifying code with GPT-3.5 and GPT-4
 -   [continue](https://github.com/continuedev/continue) open-source copilot alternative for software development as a VS Code plugin, can use gpt-4 API or local codellama and other models
-
+-   [chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) vscode extension to use unofficial chatGPT API for a code context based chat side bar within the editor
+-   [codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) vscode extension to use the CodeShell-7b models
+-   [localpilot](https://github.com/danielgross/localpilot) vscode copilot alternative using local llama.cpp/ggml models on Mac
 
 ## Libraries and Wrappers
 
@@ -282,11 +295,12 @@ others:
 -   [SimpleAI](https://github.com/lhenault/SimpleAI) Self-Hosted Alternative to openAI API
 -   [rustformer llm](https://github.com/rustformers/llm) Rust-based ecosystem for llms like BLOOM, GPT-2/J/NeoX, LLaMA and MPT offering a CLI for easy interaction and powered by ggml
 -   [Haven](https://github.com/havenhq/haven) Fine-Tune and Deploy LLMs On Your Own Infrastructure
+-   [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) Python Bindings for llama.cpp with low level C API interface, python API, openai like API and LangChain compatibility
 
 ### Model agnostic
 
 -   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
--   [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain
+-   [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain using graphs/flows
 -   [Toolformer implementation](https://github.com/lucidrains/toolformer-pytorch) Allows LLMs to use Tools
 -   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
 -   [Jsonformer](https://github.com/1rgs/jsonformer): Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
@@ -296,6 +310,16 @@ others:
 -   [tinygrad](https://github.com/geohot/tinygrad) Geohot's implementation for a PyTorch killer with the target to be 2x faster
 -   [Xorbits Inference (Xinference)](https://github.com/xorbitsai/inference) versatile library designed to deploy and serve language, speech recognition, and multimodal models
 -   [data-juicer](https://github.com/alibaba/data-juicer) zero code, low code and off the shelf data processing for LLMs
+-   [Microsoft guidance](https://github.com/microsoft/guidance) efficient Framework for Enhancing Control and Structure in Modern Language Model Interactions. [Demo project](https://github.com/paolorechia/local-guidance) by paolorechia for local text-generation-webui. [reddit thread](https://www.reddit.com/r/LocalLLaMA/comments/13kzubz/i_made_a_simple_agent_demo_with_guidance_and/). [guidance fork](https://github.com/Maximilian-Winter/guidance) and [llama-cpp-python fork](https://github.com/Maximilian-Winter/llama-cpp-python) how-to on [reddit](https://www.reddit.com/r/LocalLLaMA/comments/13magac/hi_community_i_created_a_fork_of_microsofts/)
+-   [Microsoft semantic-kernel](https://github.com/microsoft/semantic-kernel) a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages
+-   [outlines](https://github.com/outlines-dev/outlines) Microsoft Guidance alternative forcing LLM generation to follow JSON Schemas, RegEx, Caching supporting multiple models, model APIs, and HF transformers
+-   [lmql](https://github.com/eth-sri/lmql) LMQL is a programming language for LLMs based on a superset of Python going beyond constrain-based templating
+-   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
+-   [haystack](https://github.com/deepset-ai/haystack) LLM orchestration framework to connect models, vector DBs, file converters to pipelines or agents that can interact with your data to build RAG, Q&A, semantic search or conversational agent chatbots
+-   [rivet](https://github.com/Ironclad/rivet) Visual graph/flow based IDE for creating AI agents and prompt chaining for your applications
+-   [promptflow](https://github.com/microsoft/promptflow) visual graph/flow based IDE for creating AI agents
+-   [TypeChat](https://github.com/microsoft/TypeChat) templating for LLMs to enforce constraints for text generation
+-   [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc)
 
 ## Fine Tuning & Training
 
@@ -315,16 +339,6 @@ others:
 -   [GPTQlora](https://github.com/qwopqwop200/gptqlora) Efficient Finetuning of Quantized LLMs with GPTQ QLoRA and AutoGPTQ for quantization
 -   [Landmark Attention QLoRA](https://github.com/eugenepentland/landmark-attention-qlora) for landmark attention with 50x context compression and efficient token selection
 -   [ChatGLM Efficient Finetuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) fine tuning ChatGLM models with PEFT
-
-## Frameworks
-
--   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
--   [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
--   [Microsoft guidance](https://github.com/microsoft/guidance) efficient Framework for Enhancing Control and Structure in Modern Language Model Interactions. [Demo project](https://github.com/paolorechia/local-guidance) by paolorechia for local text-generation-webui. [reddit thread](https://www.reddit.com/r/LocalLLaMA/comments/13kzubz/i_made_a_simple_agent_demo_with_guidance_and/). [guidance fork](https://github.com/Maximilian-Winter/guidance) and [llama-cpp-python fork](https://github.com/Maximilian-Winter/llama-cpp-python) how-to on [reddit](https://www.reddit.com/r/LocalLLaMA/comments/13magac/hi_community_i_created_a_fork_of_microsofts/)
--   [Microsoft semantic-kernel](https://github.com/microsoft/semantic-kernel) a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages
--   [Colossal-AI](https://github.com/hpcaitech/ColossalAI) unified deep learning system that provides a collection of parallel components for distributed deep learning models. Provides data parallelism, pipeline parallelism, and tensor parallelism
--   [OpenLLM](https://github.com/bentoml/OpenLLM) Run, deploy, and monitor open-source LLMs on any platform
--   [outlines](https://github.com/outlines-dev/outlines) Microsoft Guidance alternative forcing LLM generation to follow JSON Schemas, RegEx, Caching supporting multiple models, model APIs, and HF transformers
 
 # Resources
 
@@ -445,7 +459,9 @@ others:
 -   [LLMLingua](https://arxiv.org/pdf/2310.06839v1.pdf) Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression, [code](https://github.com/microsoft/LLMLingua)
 -   [flagembedding](https://arxiv.org/abs/2310.07554v1), an embedding model for Retrieve Anything To Augment Large Language Models [code](https://github.com/flagopen/flagembedding)
 -   [mistral-7b](https://arxiv.org/abs/2310.06825v1) pretrained llm with 7 billion parameters outperforming Llama 2 13B using Grouped-Query-Attention, Sliding-Window Attention and Byte-Fallback BPE tokenizer, [weights](https://huggingface.co/mistralai)
-
+-   [CoVe](https://arxiv.org/abs/2309.11495) Chain-of-Verification Reduces Hallucination in Large Language Models, [implementation](https://github.com/hwchase17/chain-of-verification) in LangCHain Expression Language, 
+-   [MemGPT](https://arxiv.org/abs/2310.08560) Towards LLMs as Operating Systems, perpetual chat bots with self editing memory, chat with your SQL database and local files etc, [code](https://github.com/cpacker/MemGPT)
+-   [microxcaling](https://arxiv.org/abs/2310.10537) AMD, Arm, Intel, Meta, Microsoft, NVIDIA, and Qualcomm Standardize Next-Generation Narrow Precision Data Format: Microscaling Data Formats for Deep Learning
 
 # Other awesome resources
 
@@ -474,6 +490,7 @@ others:
 -   [RAG Guide](https://github.com/ray-project/llm-applications/blob/main/notebooks/rag.ipynb) A Comprehensive Guide for Building RAG-based LLM Applications as a jupyter notebook
 -   [llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list) The paper list of the 86-page paper "The Rise and Potential of Large Language Model Based Agents: A Survey" by Zhiheng Xi et al., [paper](https://arxiv.org/abs/2309.07864)
 -   [Explore the LLMs](https://llm.extractum.io/) The LLM Explorer, a Large Language Model Directory and Analytics
+-   [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) open and closed source agents by categories and industries
 
 ## Product Showcases
 
@@ -498,11 +515,7 @@ others:
 -   https://github.com/facebookincubator/AITemplate
 -   https://github.com/HazyResearch/flash-attention
 -   https://github.com/stochasticai/x-stable-diffusion
--   [ExLlama](https://github.com/turboderp/exllama) a more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights. By [ReturningTarzan](https://www.reddit.com/r/LocalLLaMA/comments/13vm7tx/can_an_rtx_3090_run_a_30b_4bit_model_with_webui/jm6wmu0/)
 -   [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
--   [ONNX Runtime](https://github.com/microsoft/onnxruntime) **cross-platform inference and training machine-learning accelerator compatible with PyTorch, TensorFlow/Keras, scikit-learn, LightGBM, XGBoost, etc. and runs with different hardware, drivers, and operating systems**
--   [vllm](https://github.com/vllm-project/vllm) high-throughput and memory-efficient inference and serving engine for LLMs, [paper](https://arxiv.org/pdf/2309.06180v1.pdf)
--   [skypilot](https://github.com/skypilot-org/skypilot) Run LLMs, AI, and Batch jobs on any cloud. Get maximum savings, highest GPU availability, and managed execution
 
 ## Benchmarking
 
@@ -539,7 +552,14 @@ others:
 
 ## AI DevOps
 
--   
+-   [Vicuna FastChat](https://github.com/lm-sys/FastChat)
+-   [SynapseML](https://github.com/microsoft/SynapseML) (previously known as MMLSpark),an open-source library that simplifies the creation of massively scalable machine learning (ML) pipelines
+-   [Colossal-AI](https://github.com/hpcaitech/ColossalAI) unified deep learning system that provides a collection of parallel components for distributed deep learning models. Provides data parallelism, pipeline parallelism, and tensor parallelism
+-   [OpenLLM](https://github.com/bentoml/OpenLLM) Run, deploy, and monitor open-source LLMs on any platform
+-   [skypilot](https://github.com/skypilot-org/skypilot) Run LLMs, AI, and Batch jobs on any cloud. Get maximum savings, highest GPU availability, and managed execution
+-   [ONNX Runtime](https://github.com/microsoft/onnxruntime) cross-platform inference and training machine-learning accelerator compatible with PyTorch, TensorFlow/Keras, scikit-learn, LightGBM, XGBoost, etc. and runs with different hardware, drivers, and operating systems
+-   [vllm](https://github.com/vllm-project/vllm) high-throughput and memory-efficient inference and serving engine for LLMs, [paper](https://arxiv.org/pdf/2309.06180v1.pdf)
+-   [openllmetry](https://github.com/traceloop/openllmetry) observability for your LLM application, based on OpenTelemetry
 
 ## Databases for ML
 
