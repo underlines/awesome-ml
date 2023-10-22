@@ -69,6 +69,9 @@ others:
 -   [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
 -   [Chatbot UI](https://github.com/mckaywrigley/chatbot-ui) An open source ChatGPT UI
 -   [freegpt-webui](https://github.com/ramonvc/freegpt-webui) provides a user friendly web-interface connecting to free (reverse-engineered) public GPT3.5/GPT4 endpoints using gpt4free
+-   [Flux](https://github.com/paradigmxyz/flux) Graph-based LLM power tool for exploring many prompts and completions in parallel.
+
+
 
 ### Local LLMs
 
@@ -164,6 +167,8 @@ others:
 -   [DocsGPT](https://github.com/arc53/DocsGPT) chat with your project documentation using RAG, supports OpenAI and local LLMs, and also provides a RAG-fine-tuned docsgpt-14b [model](https://huggingface.co/Arc53/docsgpt-14b)
 -   [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 -   [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
+-   [ragas](https://github.com/explodinggradients/ragas) RAG assessment: an evaluation framework for Retrieval Augmented Generation pipelines
+
 
 ## Browser Extensions
 
@@ -324,10 +329,12 @@ others:
 -   [lmql](https://github.com/eth-sri/lmql) LMQL is a programming language for LLMs based on a superset of Python going beyond constrain-based templating
 -   [LlamaIndex](https://github.com/jerryjliu/llama_index) provides a central interface to connect your LLM's with external data
 -   [haystack](https://github.com/deepset-ai/haystack) LLM orchestration framework to connect models, vector DBs, file converters to pipelines or agents that can interact with your data to build RAG, Q&A, semantic search or conversational agent chatbots
--   [rivet](https://github.com/Ironclad/rivet) Visual graph/flow based IDE for creating AI agents and prompt chaining for your applications
--   [promptflow](https://github.com/microsoft/promptflow) visual graph/flow based IDE for creating AI agents
+-   [rivet](https://github.com/Ironclad/rivet) Visual graph/flow/node based IDE for creating AI agents and prompt chaining for your applications
+-   [promptflow](https://github.com/microsoft/promptflow) visual graph/flow/node based IDE for creating AI agents
 -   [TypeChat](https://github.com/microsoft/TypeChat) templating for LLMs to enforce constraints for text generation
 -   [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc)
+-   [Flowise](https://github.com/FlowiseAI/Flowise) Drag & drop UI with visual graph/flow/nodes to build your customized LLM app
+-   [ChainForge](https://github.com/ianarawjo/ChainForge) visual graph/flow/node based prompt engineering UI for analyzing and evaluating LLM responses
 
 ## Fine Tuning & Training
 
@@ -468,7 +475,7 @@ others:
 -   [LLMLingua](https://arxiv.org/pdf/2310.06839v1.pdf) Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression, [code](https://github.com/microsoft/LLMLingua)
 -   [flagembedding](https://arxiv.org/abs/2310.07554v1), an embedding model for Retrieve Anything To Augment Large Language Models [code](https://github.com/flagopen/flagembedding)
 -   [mistral-7b](https://arxiv.org/abs/2310.06825v1) pretrained llm with 7 billion parameters outperforming Llama 2 13B using Grouped-Query-Attention, Sliding-Window Attention and Byte-Fallback BPE tokenizer, [weights](https://huggingface.co/mistralai)
--   [CoVe](https://arxiv.org/abs/2309.11495) Chain-of-Verification Reduces Hallucination in Large Language Models, [implementation](https://github.com/hwchase17/chain-of-verification) in LangCHain Expression Language, 
+-   [CoVe](https://arxiv.org/abs/2309.11495) Chain-of-Verification Reduces Hallucination in Large Language Models, [implementation](https://github.com/hwchase17/chain-of-verification) in LangChain Expression Language, 
 -   [MemGPT](https://arxiv.org/abs/2310.08560) Towards LLMs as Operating Systems, perpetual chat bots with self editing memory, chat with your SQL database and local files etc, [code](https://github.com/cpacker/MemGPT)
 -   [microxcaling](https://arxiv.org/abs/2310.10537) AMD, Arm, Intel, Meta, Microsoft, NVIDIA, and Qualcomm Standardize Next-Generation Narrow Precision Data Format: Microscaling Data Formats for Deep Learning
 
@@ -498,6 +505,7 @@ others:
 -   [RAG Guide](https://github.com/ray-project/llm-applications/blob/main/notebooks/rag.ipynb) A Comprehensive Guide for Building RAG-based LLM Applications as a jupyter notebook
 -   [llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list) The paper list of the 86-page paper "The Rise and Potential of Large Language Model Based Agents: A Survey" by Zhiheng Xi et al., [paper](https://arxiv.org/abs/2309.07864)
 -   [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) open and closed source agents by categories and industries
+-   [Azure OpenAI resources](https://github.com/kimtth/azure-openai-llm-vector-langchain) Azure OpenAI, LLMs +🌌 Brief overview,🦙Summary notes,🔎References, and 🎋Cheatsheet
 
 ## Product Showcases
 
