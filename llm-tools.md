@@ -3,7 +3,7 @@
 # Open LLM Models
 
 -   Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm-tools.md#benchmarking) in the Benchmarking section.
--   [Explore the LLMs](https://llm.extractum.io/) The LLM Explorer, a Large Language Model Directory with filters for trending, downloads and latest showing details like quantizations, model types and sizes
+-   [llm.extractum.io](https://llm.extractum.io/) The LLM Explorer, a Large Language Model Directory with filters for trending, downloads and latest showing details like quantizations, model types and sizes
 -   [can-it-run-llm](https://huggingface.co/spaces/Vokturz/can-it-run-llm) Check most Huggingface LLMs and quants for hardware requirements like vram, ram and memory requirements
 
 # Tools
