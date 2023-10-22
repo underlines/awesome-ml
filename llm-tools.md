@@ -1,5 +1,11 @@
 [🏠Home](README.md)
 
+# Open LLM Models
+
+-   Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm-tools.md#benchmarking) in the Benchmarking section.
+-   [Explore the LLMs](https://llm.extractum.io/) The LLM Explorer, a Large Language Model Directory with filters for trending, downloads and latest showing details like quantizations, model types and sizes
+-   [can-it-run-llm](https://huggingface.co/spaces/Vokturz/can-it-run-llm) Check most Huggingface LLMs and quants for hardware requirements like vram, ram and memory requirements
+
 # Tools
 
 ## Native GUIs
@@ -20,6 +26,7 @@ cpp / ggml / gguf:
 
 -   [koboldcpp](https://github.com/LostRuins/koboldcpp) llama.cpp with a fancy UI, persistent stories, editing tools, memory etc. Supporting ggmlv3 and old ggml, CLBlast and llama, RWKV, GPT-NeoX, Pythia models
 -   [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
+-   [faraday.dev](https://faraday.dev/) using llama.cpp under the hood to run most llama based models, made for character based chat and role play
 
 gpt4all:
 
@@ -296,6 +303,7 @@ others:
 -   [rustformer llm](https://github.com/rustformers/llm) Rust-based ecosystem for llms like BLOOM, GPT-2/J/NeoX, LLaMA and MPT offering a CLI for easy interaction and powered by ggml
 -   [Haven](https://github.com/havenhq/haven) Fine-Tune and Deploy LLMs On Your Own Infrastructure
 -   [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) Python Bindings for llama.cpp with low level C API interface, python API, openai like API and LangChain compatibility
+-   [candle](https://github.com/huggingface/candle) a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use
 
 ### Model agnostic
 
@@ -379,6 +387,7 @@ others:
 -   [dolphin](https://huggingface.co/datasets/ehartford/dolphin) an attempt to replicate [Microsoft Orca](https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/) using FLANv2 augmented with GPT-4 and 3.5 completions
 -   [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) collection of augmented FLAN data with distributions aligned with the [orca paper](https://arxiv.org/abs/2306.02707)
 -   [ExpertQA](https://github.com/chaitanyamalaviya/expertqa) Expert-Curated Questions and Attributed Answers dataset with 2177 questions spanning 32 fields, along with verified answers and attributions for claims in the answers, [paper](https://arxiv.org/abs/2309.07852v1)
+-   [annas-archive](https://annas-archive.org/llm) world’s largest open-source open-data library. ⭐️ Mirrors Sci-Hub, Library Genesis, Z-Library, and more. 📈 22,052,322 books, 97,847,390 papers, 2,451,032 comics, 673,013 magazines 
 
 ## Research
 
@@ -480,7 +489,6 @@ others:
 -   [ossinsight.io chat-gpt-apps](https://ossinsight.io/collections/chat-gpt-apps/) Updated list of top chatGPT related repositories
 -   [GenAI_LLM_timeline](https://github.com/hollobit/GenAI_LLM_timeline) Organized collection of papers, products, services and news of key events in Generative AI and LLMs with focus on ChatGPT
 -   [AIGC-progress](https://github.com/kinghuin/AIGC-progress) an awesome list of all things ml models and projects with daily updates
--   [llm extractum](https://llm.extractum.io/) Explore and compare open LLMs in terms of HF Rank, Parameter Size, User, Architecture, Licence, Languages, Context size, Prompt format, Datasets etc,
 -   [Things I'm learning while training SuperHOT](https://kaiokendev.github.io/til#extending-context-to-8k) talks about LiMA, Multi-Instruct and how to extend llama to 8k context size [github discussion](https://github.com/turboderp/exllama/issues/92#issuecomment-1603220170), [reddit discussion](https://www.reddit.com/r/LocalLLaMA/comments/14fgjqj/a_simple_way_to_extending_context_to_8k/)
 -   [LLM Utils](https://llm-utils.org/Home) An index of useful LLM related blog posts and tools
 -   [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) Latest Papers and Datasets on Multimodal Large Language Models, and Their Evaluation.
@@ -489,7 +497,6 @@ others:
 -   [ppromptor](https://github.com/pikho/ppromptor) Prompt-Promptor is a Python library with a web UI designed to automatically generate and improve prompts for LLMs and consists of three agents: Proposer, Evaluator, and Analyzer. These agents work together with human experts to continuously improve the generated prompts
 -   [RAG Guide](https://github.com/ray-project/llm-applications/blob/main/notebooks/rag.ipynb) A Comprehensive Guide for Building RAG-based LLM Applications as a jupyter notebook
 -   [llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list) The paper list of the 86-page paper "The Rise and Potential of Large Language Model Based Agents: A Survey" by Zhiheng Xi et al., [paper](https://arxiv.org/abs/2309.07864)
--   [Explore the LLMs](https://llm.extractum.io/) The LLM Explorer, a Large Language Model Directory and Analytics
 -   [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) open and closed source agents by categories and industries
 
 ## Product Showcases
