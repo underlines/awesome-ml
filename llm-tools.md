@@ -38,6 +38,7 @@ ollama:
 
 -   [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
 -   [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
+-   [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 
 others:
 
@@ -168,7 +169,7 @@ others:
 -   [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 -   [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
 -   [ragas](https://github.com/explodinggradients/ragas) RAG assessment: an evaluation framework for Retrieval Augmented Generation pipelines
-
+-   [ToolQA](https://github.com/night-chen/ToolQA) an evaluation framework for RAG and Tool LLM pipelines
 
 ## Browser Extensions
 
@@ -225,6 +226,7 @@ others:
 -   [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) open-source framework that enables developers to build, manage, and run autonomous agents. Supports tools extensions, concurrent agents, GUI, console, vector DBs, multi modal, telemetry and long term memory
 -   [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot) writes scalable apps from scratch while the developer oversees the implementation
 -   [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software
+-   [ToRA](https://github.com/microsoft/ToRA) Tool-integrated Reasoning Agents designed to solve challenging mathematical reasoning problems by interacting with tools, e.g., computation libraries and symbolic solvers, [paper](https://arxiv.org/abs/2309.17452)
 
 ### Model agnostic
 
@@ -249,6 +251,8 @@ others:
 -   [CoDi](https://github.com/microsoft/i-Code/tree/main/i-Code-V3) Any to any generation via composable diffusion
 -   [AutoMix](https://github.com/automix-llm/automix) Mixing Language Models with Self-Verification and Meta-Verification, [paper](https://arxiv.org/abs/2310.12963v1)
 -   [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT) Any-to-Any Multimodal LLM for arbitary input-output combinations (any-to-any) for text, image, video, audio and beyond, [paper](https://arxiv.org/pdf/2309.05519), [weights](https://huggingface.co/ChocoWu/nextgpt_7b_tiva_v0)
+-   [SpeechGPT](https://github.com/0nutation/SpeechGPT) Empowering LLMs with Intrinsic Cross-Modal Conversational Abilities for speech audio input and output
+-   [OpenFLamingo-v2](https://github.com/mlfoundations/open_flamingo) MPT and RedPajama fine tuned on the OpenFLamingo data set for training Autoregressive Vision-Language Models, [models](https://huggingface.co/openflamingo)
 
 ## Code generation
 
@@ -312,7 +316,8 @@ others:
 
 ### Model agnostic
 
--   [LangChain | framework for developing LLM applications](https://github.com/hwchase17/langchain) ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
+-   [LangChain](https://github.com/hwchase17/langchain) Framework for LLM Application Development ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
+-   [Langstream](https://github.com/rogeriochaves/langstream) a lighter alternative to LangChain
 -   [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain using graphs/flows
 -   [Toolformer implementation](https://github.com/lucidrains/toolformer-pytorch) Allows LLMs to use Tools
 -   [megabots](https://github.com/momegas/megabots) to create LLM bots by providing Q&A, document retrieval, vector DBs, FastAPI, Gradio UI, GPTCache, guardrails, whisper, supports OpenAI API (local LLMs planned)
@@ -335,6 +340,7 @@ others:
 -   [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc)
 -   [Flowise](https://github.com/FlowiseAI/Flowise) Drag & drop UI with visual graph/flow/nodes to build your customized LLM app
 -   [ChainForge](https://github.com/ianarawjo/ChainForge) visual graph/flow/node based prompt engineering UI for analyzing and evaluating LLM responses
+-   [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
 
 ## Fine Tuning & Training
 
@@ -354,6 +360,7 @@ others:
 -   [GPTQlora](https://github.com/qwopqwop200/gptqlora) Efficient Finetuning of Quantized LLMs with GPTQ QLoRA and AutoGPTQ for quantization
 -   [Landmark Attention QLoRA](https://github.com/eugenepentland/landmark-attention-qlora) for landmark attention with 50x context compression and efficient token selection
 -   [ChatGLM Efficient Finetuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) fine tuning ChatGLM models with PEFT
+-   [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced) by Huggingface, faster and easier training and deployments of state-of-the-art machine learning models
 
 # Resources
 
@@ -478,6 +485,7 @@ others:
 -   [CoVe](https://arxiv.org/abs/2309.11495) Chain-of-Verification Reduces Hallucination in Large Language Models, [implementation](https://github.com/hwchase17/chain-of-verification) in LangChain Expression Language, 
 -   [MemGPT](https://arxiv.org/abs/2310.08560) Towards LLMs as Operating Systems, perpetual chat bots with self editing memory, chat with your SQL database and local files etc, [code](https://github.com/cpacker/MemGPT)
 -   [microxcaling](https://arxiv.org/abs/2310.10537) AMD, Arm, Intel, Meta, Microsoft, NVIDIA, and Qualcomm Standardize Next-Generation Narrow Precision Data Format: Microscaling Data Formats for Deep Learning
+-   [AoT](https://arxiv.org/abs/2308.10379) Algorithm of Thoughts: Enhancing Exploration of Ideas in LLMs
 
 # Other awesome resources
 
@@ -506,6 +514,9 @@ others:
 -   [llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list) The paper list of the 86-page paper "The Rise and Potential of Large Language Model Based Agents: A Survey" by Zhiheng Xi et al., [paper](https://arxiv.org/abs/2309.07864)
 -   [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) open and closed source agents by categories and industries
 -   [Azure OpenAI resources](https://github.com/kimtth/azure-openai-llm-vector-langchain) Azure OpenAI, LLMs +🌌 Brief overview,🦙Summary notes,🔎References, and 🎋Cheatsheet
+-   [alignment-handbook](https://github.com/huggingface/alignment-handbook) Huggingface's robust recipes for to align language models with human and AI preferences
+-   [llama-recipes](https://github.com/facebookresearch/llama-recipes) Llama 2 demo apps, recipes etc for RAG, Fine tuning, inference etc.
+-   [Something-of-THoughts in LLM Prompting](https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390) Chain-of-Thoughts (CoT), Tree-of-Thoughts (ToT), Graph-of-Thoughts (GoT), and beyond, … What are these thoughts?
 
 ## Product Showcases
 

@@ -14,10 +14,14 @@
 - [AnimateDiff](https://github.com/guoyww/AnimateDiff) Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
 - [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, [paper](https://arxiv.org/abs/2310.00426)
 
-text to 3d:
+ text to 3d:
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
 - [shap-e local](https://github.com/kedzkiest/shap-e-local) run text-to-3d locally
 - [stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion) A PyTorch implementation of the text-to-3D model Dreamfusion using the Stable Diffusion text-to-2D model
+
+ image to 3d:
+- [Wonder3D](https://github.com/xxlong0/Wonder3D) A cross-domain diffusion model for 3D reconstruction from a single image
+- [DreamCraft3D](https://github.com/deepseek-ai/DreamCraft3D) Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior
 
 other:
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) image segmentation

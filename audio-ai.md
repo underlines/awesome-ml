@@ -40,14 +40,18 @@
     -   [bark-voice-cloning-HuBERT-quantizer](https://github.com/gitmylo/bark-voice-cloning-HuBERT-quantizer) Voice cloning with bark in high quality using Python 3.10 and  ggingface models.
     -   [bark-gui](https://github.com/C0untFloyd/bark-gui) Gradio Web UI for an extended Bark version, with long generation, cloning, SSML, for Windows and other platforms, supporting NVIDIA/Apple GPU/CPU, 
 	-	[bark-voice-cloning](https://github.com/KevinWang676/Bark-Voice-Cloning) for chinese speech, based on bark-gui by C0untFloyd
+	-   [Barkify](https://github.com/anyvoiceai/Barkify) unoffical training implementation of Bark TTS by suno-ai
+	-   [Bark-RVC](https://github.com/ORI-Muchim/BARK-RVC) Multilingual Speech Synthesis Voice Conversion using Bark + RVC
 -   [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
     -   [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
 -   [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
-  -   [StyleTTS-VC](https://github.com/yl4579/StyleTTS-VC) One-Shot Voice Conversion by Knowledge Transfer from Style-Based TTS Models
+	-   [StyleTTS-VC](https://github.com/yl4579/StyleTTS-VC) One-Shot Voice Conversion by Knowledge Transfer from Style-Based TTS Models
 -   [Vall-E and Vall-E X](https://valle-demo.github.io/), [paper](https://arxiv.org/abs/2301.02111), [code](https://github.com/enhuiz/vall-e). Zero Shot TTS preserving emotion, expression, similarity and allows language transfer
-  -  [Vall-e PyTorch Implementation](https://github.com/enhuiz/vall-e) of Vall-E based on EnCodec tokenizer
-  -  [Vall-E PyTorch implementation](https://github.com/lifeiteng/vall-e)
+	-  [Vall-e PyTorch Implementation](https://github.com/enhuiz/vall-e) of Vall-E based on EnCodec tokenizer
+	-  [Vall-E PyTorch implementation](https://github.com/lifeiteng/vall-e)
+	-  [Vall-E X](https://github.com/Plachtaa/VALL-E-X) open source implementation of Microsoft's VALL-E X zero-shot TTS model
 -   [NaturalSpeech implmenetation](https://github.com/heatz123/naturalspeech)
+	-   [naturalspeech2-pytorch](https://github.com/lucidrains/naturalspeech2-pytorch) Implementation of Natural Speech 2, Zero-shot Speech and Singing Synthesizer, in Pytorch
 -   [IMS Toucan, TTS Toolkit from University of Stuttgart](https://github.com/digitalphonetics/ims-toucan)
 -   [YourTTS | Zero Shot Multi Speaker TTS and Voice Conversion for everyone](https://github.com/Edresson/YourTTS)
 -   [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
@@ -59,10 +63,10 @@
 -   [piper](https://github.com/rhasspy/piper) A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4. Using VITS and onnxruntime
 -   [PITS](https://github.com/anonymous-pits/pits) PyTorch implementation of Variational Pitch Inference for End-to-end Pitch-controllable TTS. [hf demo](https://huggingface.co/spaces/anonymous-pits/pits), [samples](https://anonymous-pits.github.io/pits/)
 -   [VoiceCloning](https://github.com/MartinMashalov/VoiceCloning) Implementing the [YourTTS paper](https://arxiv.org/abs/2112.02418) for Zero-Shot multi-speaker Attention-Based TTS using VITS approaches
-  -   [VITS-Umamusume-voice-synthesizer](https://huggingface.co/spaces/1raliopunche/VITS-Umamusume-voice-synthesizer) (Multilingual Anime TTS) Including Japanese TTS, Chinese and English TTS, speakers are all anime characters.
+	-   [VITS-Umamusume-voice-synthesizer](https://huggingface.co/spaces/1raliopunche/VITS-Umamusume-voice-synthesizer) (Multilingual Anime TTS) Including Japanese TTS, Chinese and English TTS, speakers are all anime characters.
 -   [Parallel WaveGAN implementation in PyTorch](https://github.com/kan-bayashi/ParallelWaveGAN) for high quality text to speech synthesis [paper](https://github.com/kan-bayashi/ParallelWaveGAN)
 -   [real-time-voice](https://github.com/michaelcrubin/real-time-voice) SV2TTS voice cloning TTS implementation using WaveRNN, Tacatron, GE2E
--   [Vall-E X](https://github.com/Plachtaa/VALL-E-X) open source implementation of Microsoft's VALL-E X zero-shot TTS model
+-   [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
 
 ## Voice Conversion
 
@@ -90,7 +94,7 @@
 -   [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) abandoned project
     -   [Real-Time-Voice-Cloning v2](https://github.com/liuhaozhe6788/voice-cloning-collab) active fork of the original for google collab
 -  [Raven with voice cloning 2.0](https://huggingface.co/spaces/Kevin676/Raven-with-Voice-Cloning-2.0/tree/main) by Kevin676
--  [CoMoSpeech](https://paperswithcode.com/paper/comospeech-one-step-speech-and-singing-voice) paper, consistency model distilled from a diffusion-based teacher model, enabling high-quality one-step speech and singing voice synthesis
+-  [CoMoSpeech](https://github.com/zhenye234/CoMoSpeech) consistency model distilled from a diffusion-based teacher model, enabling high-quality one-step speech and singing voice synthesis
 -  [NS2VC](https://github.com/adelacvg/NS2VC) WIP Unofficial implementation of NaturalSpeech2 for Voice Conversion
 -  [vc-lm](https://github.com/nilboy/vc-lm) train an any-to-one voice conversion models, referncing vall-e, using encodec to create tokens and building a transformer language model on tokens
 -  [knn-vc](https://github.com/bshall/knn-vc) official implementation of Voice Conversion With Just Nearest Neighbors (kNN-VC) contains training and inference for any-to-any voice conversion model, [paper](https://arxiv.org/abs/2305.18975), [examples](https://bshall.github.io/knn-vc/)
@@ -100,11 +104,16 @@
 -  [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
 -  [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 
+
 ## Video Voice Dubbing
 
 -  [weeablind](https://github.com/FlorianEagox/weeablind) dub multi lingual media using modern AI speech synthesis, diarization, and language identification
 -  [Auto-synced-translated-dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) Youtube audio translation and dubbing pipeline using Whisper speech-to-text, Google/DeepL Translate, Azure/Google TTS
 -  [videodubber](https://github.com/am-sokolov/videodubber) dub video using GCP TTS, Translate, Whisper, Spacy tokenization and syllable counting
+-  [TranslatorYouTuber](https://github.com/AdiKsOnDev/TranslatorYouTuber) Takes a youtube video, clones the voice and re-creates that video in a different language
+-  [global-video-dubbing](https://github.com/ZackAkil/global-video-dubbing) Using Googel Cloud Video Intelligence API with Cloud Translation API and Cloud Text to Speech API to generate voice dubbing and tranaslations in many languages automatically
+-  [wav2lip](https://github.com/Rudrabha/Wav2Lip) Lip Syncing from audio
+  -  [Wav2Lip-GFPGAN](https://github.com/ajay-sainy/Wav2Lip-GFPGAN) High quality Lip sync with wav2lip + Tencent GFPGAN
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support
@@ -125,3 +134,4 @@
 ## Research
 - [Vocos](https://charactr-platform.github.io/vocos/) Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
 - [WavJourney](https://arxiv.org/abs/2307.14335) Compositional Audio Creation with LLMs [github](https://github.com/audio-agi/wavjourney)
+- [PromptingWhisper](https://github.com/jasonppy/PromptingWhisper) Audio-Visual Speech Recognition, Code-Switched Speech Recognition, and Zero-Shot Speech Translation for Whisper
