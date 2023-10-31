@@ -425,6 +425,7 @@ others:
 -   [codellama](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/) Llama 2 fine tuned by meta for code completion, [github](https://github.com/facebookresearch/codellama)
 -   [Graph of Thoughts](https://arxiv.org/pdf/2308.09687.pdf) introducing Graph of Thoughts and comparing its performance to Chain of Thoughts and Tree of Thoughts, [code](https://github.com/spcl/graph-of-thoughts)
 -   [LIDA](https://github.com/microsoft/lida) Automatic Generation of Visualizations and Infographics using Large Language Models, [code](https://github.com/microsoft/lida)
+-   [Distilling step-by-step](https://blog.research.google/2023/09/distilling-step-by-step-outperforming.html) Outperforming larger language models with less training data and smaller model sizes
 
 
 # Other awesome resources
@@ -451,7 +452,9 @@ others:
 -   [FourthBrain](https://github.com/FourthBrain) ML Edication backed by Andrew NG's AI fund, tutorials about LLM deployment, API Endpoint creation, MLOps, QLoRA fine tuning, etc.
 -   [companion-app](https://github.com/a16z-infra/companion-app) AI Getting Started template for developers using Clerk, Next.js, Pinecone, Langchain.js, OpenAI or Vicuna13b, Twilio
 -   [ppromptor](https://github.com/pikho/ppromptor) Prompt-Promptor is a Python library with a web UI designed to automatically generate and improve prompts for LLMs and consists of three agents: Proposer, Evaluator, and Analyzer. These agents work together with human experts to continuously improve the generated prompts
--   [RAG Guide](https://github.com/ray-project/llm-applications/blob/main/notebooks/rag.ipynb) A Comprehensive Guide for Building RAG-based LLM Applications as a jupyter notebook
+-   [RAG Guide](https://github.com/ray-project/llm-applications/blob/main/notebooks/rag.ipynb) A Comprehensive Guide for Building RAG-based LLM Applications as a jupyter notebook, [HN](https://news.ycombinator.com/item?id=37505687)
+-   [RAG is more than just embedding search](https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/) learnings for building a good RAG-based LLM Application, [HN](https://news.ycombinator.com/item?id=37599873)
+
 
 ## Product Showcases
 
@@ -511,6 +514,8 @@ others:
 -   [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) automatic evaluation for instruction following LLMs, validated against 20k human annotations, [reddit announcement](https://www.reddit.com/r/LocalLLaMA/comments/144l3t7/p_alpacaeval_an_automatic_evaluator_for/)
 -   [LMFlow Benchmark](https://github.com/OptimalScale/LMFlow#33-lmflow-benchmark) automatic evaluation framework for open source LLMs
 -   [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) framework for few-shot evaluation of autoregressive language models from EleutherAI
+-   [sql-eval](https://github.com/defog-ai/sql-eval) evaluation of LLM generated SQL queries
+
 
 ## AI DevOps
 
