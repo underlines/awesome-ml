@@ -290,6 +290,7 @@ others:
 
 ### Local LLMs
 
+-   [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) TS library to locally run many models supported by llama.cpp, enhanced with many convenient features, like forcing a JSON schema on the model output on the generation level
 -   [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 -   [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
 -   [TokenHawk](https://github.com/kayvr/token-hawk) performs hand-written LLaMA inference using WebGPU, utilizing th.cpp, th-llama.cpp, and th-llama-loader.cpp, with minimal dependencies
