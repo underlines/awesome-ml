@@ -170,6 +170,7 @@ others:
 -   [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
 -   [ragas](https://github.com/explodinggradients/ragas) RAG assessment: an evaluation framework for Retrieval Augmented Generation pipelines
 -   [ToolQA](https://github.com/night-chen/ToolQA) an evaluation framework for RAG and Tool LLM pipelines
+-   [Swiss Army Llama](https://github.com/Dicklesworthstone/swiss_army_llama) FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract
 
 ## Browser Extensions
 
@@ -252,7 +253,7 @@ others:
 -   [AutoMix](https://github.com/automix-llm/automix) Mixing Language Models with Self-Verification and Meta-Verification, [paper](https://arxiv.org/abs/2310.12963v1)
 -   [NExT-GPT](https://github.com/NExT-GPT/NExT-GPT) Any-to-Any Multimodal LLM for arbitary input-output combinations (any-to-any) for text, image, video, audio and beyond, [paper](https://arxiv.org/pdf/2309.05519), [weights](https://huggingface.co/ChocoWu/nextgpt_7b_tiva_v0)
 -   [SpeechGPT](https://github.com/0nutation/SpeechGPT) Empowering LLMs with Intrinsic Cross-Modal Conversational Abilities for speech audio input and output
--   [OpenFLamingo-v2](https://github.com/mlfoundations/open_flamingo) MPT and RedPajama fine tuned on the OpenFLamingo data set for training Autoregressive Vision-Language Models, [models](https://huggingface.co/openflamingo)
+-   [OpenFlamingo-v2](https://github.com/mlfoundations/open_flamingo) MPT and RedPajama fine tuned on the OpenFLamingo data set for training Autoregressive Vision-Language Models, [models](https://huggingface.co/openflamingo)
 
 ## Code generation
 
@@ -520,6 +521,7 @@ others:
 -   [alignment-handbook](https://github.com/huggingface/alignment-handbook) Huggingface's robust recipes for to align language models with human and AI preferences
 -   [llama-recipes](https://github.com/facebookresearch/llama-recipes) Llama 2 demo apps, recipes etc for RAG, Fine tuning, inference etc.
 -   [Something-of-THoughts in LLM Prompting](https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390) Chain-of-Thoughts (CoT), Tree-of-Thoughts (ToT), Graph-of-Thoughts (GoT), and beyond, … What are these thoughts?
+-   [AI and Open Source in 2023](https://magazine.sebastianraschka.com/p/ai-and-open-source-in-2023) a Summary of what happened in 2023 with all the learnings
 
 ## Product Showcases
 
@@ -591,6 +593,7 @@ others:
 -   [ONNX Runtime](https://github.com/microsoft/onnxruntime) cross-platform inference and training machine-learning accelerator compatible with PyTorch, TensorFlow/Keras, scikit-learn, LightGBM, XGBoost, etc. and runs with different hardware, drivers, and operating systems
 -   [vllm](https://github.com/vllm-project/vllm) high-throughput and memory-efficient inference and serving engine for LLMs, [paper](https://arxiv.org/pdf/2309.06180v1.pdf)
 -   [openllmetry](https://github.com/traceloop/openllmetry) observability for your LLM application, based on OpenTelemetry
+-   [DeepSpeed-FastGen](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen) High-throughput Text Generation for LLMs at 2x vLLM speeds
 
 ## Databases for ML
 

@@ -104,7 +104,6 @@
 -  [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
 -  [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 
-
 ## Video Voice Dubbing
 
 -  [weeablind](https://github.com/FlorianEagox/weeablind) dub multi lingual media using modern AI speech synthesis, diarization, and language identification
@@ -114,6 +113,9 @@
 -  [global-video-dubbing](https://github.com/ZackAkil/global-video-dubbing) Using Googel Cloud Video Intelligence API with Cloud Translation API and Cloud Text to Speech API to generate voice dubbing and tranaslations in many languages automatically
 -  [wav2lip](https://github.com/Rudrabha/Wav2Lip) Lip Syncing from audio
   -  [Wav2Lip-GFPGAN](https://github.com/ajay-sainy/Wav2Lip-GFPGAN) High quality Lip sync with wav2lip + Tencent GFPGAN
+-  [video-retalking](https://github.com/OpenTalker/video-retalking) Audio-based Lip Synchronization for Talking Head Video Editing In the Wild
+-  [Wunjo AI](https://github.com/wladradchenko/wunjo.wladradchenko.ru) Synthesize & clone voices in English, Russian & Chinese, real-time speech recognition, deepfake face & lips animation, face swap with one photo, change video by text prompts, segmentation, and retouching. Open-source, local & free
+-  [YouTranslate](https://github.com/AdiKsOnDev/YouTranslate) Takes a youtube video, clones the voice with elevenlabs API translate the text with google translate API and re-creates that video in a different language
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support

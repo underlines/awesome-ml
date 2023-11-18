@@ -13,6 +13,7 @@
 - stable diffusion xl (SDXL) [base 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9) & [refinder 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9)
 - [AnimateDiff](https://github.com/guoyww/AnimateDiff) Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
 - [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, [paper](https://arxiv.org/abs/2310.00426)
+- [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model) LoRAs for high quality few step image generation
 
  text to 3d:
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model

@@ -9,6 +9,7 @@
 - [Phenaki](https://openreview.net/forum?id=vOEXS39nOF) multi minute text to video prompts with scene changes, [project page](https://phenaki.video/)
 - [StableVideo](https://rese1f.github.io/StableVideo/) Text-driven Consistency-aware Diffusion Video Editing, [code](https://github.com/rese1f/StableVideo), [paper](https://rese1f.github.io/StableVideo/)
 - [Rerender A Video](https://github.com/williamyang1991/Rerender_A_Video) Zero-Shot Text-Guided Video-to-Video Translation, [paper](https://arxiv.org/abs/2306.07954)
+- [VideoCrafter1](https://github.com/AILab-CVC/VideoCrafter) Open Diffusion Models for High-Quality Video Generation
 
 ## Frame Interpolation (Temporal Interpolation)
 - https://github.com/google-research/frame-interpolation
