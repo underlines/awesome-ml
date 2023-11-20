@@ -23,6 +23,9 @@
 - [Wonder3D](https://github.com/xxlong0/Wonder3D) A cross-domain diffusion model for 3D reconstruction from a single image
 - [DreamCraft3D](https://github.com/deepseek-ai/DreamCraft3D) Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior
 
+ image to text (OCR):
+- [pix2tex](https://github.com/lukas-blecher/LaTeX-OCR) LaTeX OCR
+
 other:
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) image segmentation
   - [YOLOv8](https://github.com/ultralytics/ultralytics) SOTA object detection, segmentation, classification and tracking

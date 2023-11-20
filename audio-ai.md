@@ -25,6 +25,8 @@
   - [faster-whisper-livestream-translator](https://github.com/JonathanFly/faster-whisper-livestream-translator) A buggy proof of concept for real-time translation of livestreams using Whisper models, with suggestions for improvements including noise reduction and dual language subtitles
   - [Buzz](https://github.com/chidiwilliams/buzz) Mac GUI for Whisper
   - [whisperX](https://github.com/m-bain/whisperX) Fast automatic speech recognition (70x realtime with large-v2) using OpenAI's Whisper, word-level timestamps, speaker diarization, and voice activity detection
+  - [distil-whisper](https://github.com/huggingface/distil-whisper) a distilled version of Whisper that is 6 times faster, 49% smaller, and performs within 1% word error rate (WER) on out-of-distribution evaluation sets, [paper](https://arxiv.org/abs/2311.00430), [model](https://huggingface.co/distil-whisper/distil-large-v2), [hf](https://news.ycombinator.com/item?id=38093353)
+  - [whisper-turbo](https://github.com/FL33TW00D/whisper-turbo) a fast, cross-platform Whisper implementation, designed to run entirely client-side in your browser/electron app.
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
