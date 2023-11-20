@@ -206,6 +206,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 ### Visualization
 - [Plot](https://github.com/observablehq/plot) JavaScript library for exploratory data visualization Create expressive charts with concise code
 - [Tremor](https://github.com/tremorlabs/tremor) React library to build dashboards fast
+- [apexcharts.js](https://github.com/apexcharts/apexcharts.js)
+
 ## Python
 ### Visualization
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.

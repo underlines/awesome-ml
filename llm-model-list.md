@@ -29,3 +29,7 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [leo-hessianai-13b-chat-bilingual](https://huggingface.co/LeoLM/leo-hessianai-13b-chat-bilingual) based on llama-2 13b is a fine tune of the base [leo-hessianai-13b](https://huggingface.co/LeoLM/leo-hessianai-13b) for chat
 - [WizardMath-70B-V1.0](https://huggingface.co/WizardLM/WizardMath-70B-V1.0) SOTA Mathematical Reasoning
 - [Mistral-7B-german-assistant-v3](https://huggingface.co/flozi00/Mistral-7B-german-assistant-v3) finetuned version for german instructions and conversations in style of Alpaca. "### Assistant:" "### User:", trained with a context length of 8k tokens. The dataset used is deduplicated and cleaned, with no codes inside. The focus is on instruction following and conversational tasks
+- [HelixNet](https://huggingface.co/migtissera/HelixNet) Mixture of Experts with 3 Mistral-7B, [LoRA](https://huggingface.co/rhysjones/HelixNet-LMoE-Actor), [HelixNet-LMoE](https://huggingface.co/rhysjones/HelixNet-LMoE-6.0bpw-h6-exl2) optimized version
+- [llmware RAG models](https://huggingface.co/llmware) small LLMs and sentence transformer embedding models specifically fine-tuned for RAG workflows
+- [openchat](https://github.com/imoneoi/openchat) Advancing Open-source Language Models with Mixed-Quality Data
+- [deepseek-coder](https://github.com/deepseek-ai/DeepSeek-Coder) code language models, trained on 2T tokens, 87% code 13% English / Chinese, up to 33B with 16K context size achieving SOTA performance on coding benchmarks

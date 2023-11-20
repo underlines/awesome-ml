@@ -10,7 +10,7 @@
   - [🌐 Web GUIs](llm-tools.md#web-guis)
   - [⚙️ Backends](llm-tools.md#backends)
   - [🗣️ Voice Assistants](llm-tools.md#voice-assistants)
-  - [🔍 Information Retrieval](llm-tools.md#information-retrieval)
+  - [🔍 Retrieval Augmented Generation](llm-tools.md#retrieval-augmented-generation-rag)
   - [🔗 Browser Extensions](llm-tools.md#browser-extensions)
   - [🤖 Agents / Automatic GPT](llm-tools.md#agents--automatic-gpt)
   - [🔀 Multi Modal](llm-tools.md#multi-modal)

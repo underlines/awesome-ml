@@ -69,6 +69,7 @@
 -   [Parallel WaveGAN implementation in PyTorch](https://github.com/kan-bayashi/ParallelWaveGAN) for high quality text to speech synthesis [paper](https://github.com/kan-bayashi/ParallelWaveGAN)
 -   [real-time-voice](https://github.com/michaelcrubin/real-time-voice) SV2TTS voice cloning TTS implementation using WaveRNN, Tacatron, GE2E
 -   [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
+-   [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 
 ## Voice Conversion
 
@@ -104,7 +105,6 @@
 -  [TriAAN-VC](https://github.com/winddori2002/TriAAN-VC) a Pytorch deep learning model for any-to-any voice conversion, with SOTA performance achieved by using an attention-based adaptive normalization block to extract target speaker representations while minimizing the loss of the source content. [demo](https://winddori2002.github.io/vc-demo.github.io/), [paper](https://arxiv.org/abs/2303.09057)
 -  [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
 -  [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
--  [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 
 
 ## Video Voice Dubbing
@@ -116,6 +116,9 @@
 -  [global-video-dubbing](https://github.com/ZackAkil/global-video-dubbing) Using Googel Cloud Video Intelligence API with Cloud Translation API and Cloud Text to Speech API to generate voice dubbing and tranaslations in many languages automatically
 -  [wav2lip](https://github.com/Rudrabha/Wav2Lip) Lip Syncing from audio
   -  [Wav2Lip-GFPGAN](https://github.com/ajay-sainy/Wav2Lip-GFPGAN) High quality Lip sync with wav2lip + Tencent GFPGAN
+-  [video-retalking](https://github.com/OpenTalker/video-retalking) Audio-based Lip Synchronization for Talking Head Video Editing In the Wild
+-  [Wunjo AI](https://github.com/wladradchenko/wunjo.wladradchenko.ru) Synthesize & clone voices in English, Russian & Chinese, real-time speech recognition, deepfake face & lips animation, face swap with one photo, change video by text prompts, segmentation, and retouching. Open-source, local & free
+-  [YouTranslate](https://github.com/AdiKsOnDev/YouTranslate) Takes a youtube video, clones the voice with elevenlabs API translate the text with google translate API and re-creates that video in a different language
 
 ## Music Generation
 - [audiocraft](https://github.com/facebookresearch/audiocraft) library for audio processing and generation with deep learning using EnCodec compressor / tokenizer and MusicGen support

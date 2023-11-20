@@ -13,6 +13,8 @@
 - stable diffusion xl (SDXL) [base 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9) & [refinder 0.9](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9)
 - [AnimateDiff](https://github.com/guoyww/AnimateDiff) Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning
 - [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis, [paper](https://arxiv.org/abs/2310.00426)
+- [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model) LoRAs for high quality few step image generation
+- [OnnxStream](https://github.com/vitoplantamura/OnnxStream) Stable Diffusion XL 1.0 Base with 298MB of RAM
 
  text to 3d:
 - [OpenAI shap-E](https://github.com/openai/shap-e) a text/image to 3D model
@@ -36,6 +38,7 @@ other:
 - [DragDiffusion](https://github.com/Yujun-Shi/DragDiffusion) Harnessing Diffusion Models for Interactive Point-based Image Editing
 - [HQTrack](https://github.com/jiawen-zhu/hqtrack) Tracking Anything in High Quality (HQTrack) is a framework for high performance video object tracking and segmentation
 - [CoTracker](https://github.com/facebookresearch/co-tracker) It is Better to Track Together. A fast transformer-based model that can track any point in a video
+- [ZeroNVS](https://arxiv.org/pdf/2310.17994.pdf) Zero shot 460 degree view synthesis from single images
 
 ## Wrappers & GUIs
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) powerful and modular stable diffusion pipelines using a graph/nodes/flowchart based interface, runs SDXL 0.9, SD2.1, SD2.0, SD1.5
@@ -56,6 +59,7 @@ other:
 - [refacer](https://github.com/xaviviro/refacer) One-Click Deepfake Multi-Face Swap Tool
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) CPU inference of Stable Diffusion in pure C/C++ with huge performance gains, supporting ggml, 16/32 bit float, 4/5/8 bit quantization, AVX/AVX2/AVX512, SD1.x, SD2.x, txt2img/img2img
 - [FaceFusion](https://github.com/facefusion/facefusion) Next generation face swapper and enhancer
+- [OneFlow](https://github.com/Oneflow-Inc/diffusers) Backend for diffusers and ComfyUI
 
 ## Fine Tuning
 - https://github.com/JoePenna/Dreambooth-Stable-Diffusion
