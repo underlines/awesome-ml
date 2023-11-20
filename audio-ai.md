@@ -67,6 +67,7 @@
 -   [Parallel WaveGAN implementation in PyTorch](https://github.com/kan-bayashi/ParallelWaveGAN) for high quality text to speech synthesis [paper](https://github.com/kan-bayashi/ParallelWaveGAN)
 -   [real-time-voice](https://github.com/michaelcrubin/real-time-voice) SV2TTS voice cloning TTS implementation using WaveRNN, Tacatron, GE2E
 -   [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
+-   [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 
 ## Voice Conversion
 
@@ -102,7 +103,7 @@
 -  [TriAAN-VC](https://github.com/winddori2002/TriAAN-VC) a Pytorch deep learning model for any-to-any voice conversion, with SOTA performance achieved by using an attention-based adaptive normalization block to extract target speaker representations while minimizing the loss of the source content. [demo](https://winddori2002.github.io/vc-demo.github.io/), [paper](https://arxiv.org/abs/2303.09057)
 -  [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
 -  [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
--  [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
 
 ## Video Voice Dubbing
 

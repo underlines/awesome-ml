@@ -130,7 +130,7 @@ others:
 -   [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
 -   [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
 
-## Information retrieval
+## Retrieval Augmented Generation (RAG)
 
 ### openAI
 
@@ -140,6 +140,7 @@ others:
 -   [chat-your-data](https://github.com/hwchase17/chat-your-data) Create a ChatGPT like experience over your custom docs using LangChain
 -   [embedchain](https://github.com/embedchain/embedchain) python based framework to create bots using LLMs over datasets, it is built on langchain, openAI Ada embeddings, chatGPT and Chroma
 -   [dataherald](https://github.com/Dataherald/dataherald) a natural language-to-SQL engine built for enterprise-level question answering over structured data. It allows you to set up an API from your database that can answer questions in plain English
+-   [databerry](https://github.com/gmpetrov/databerry) create proprietary data stores that can be accessed by GPT
 
 ### Local LLMs
 
@@ -171,6 +172,8 @@ others:
 -   [ragas](https://github.com/explodinggradients/ragas) RAG assessment: an evaluation framework for Retrieval Augmented Generation pipelines
 -   [ToolQA](https://github.com/night-chen/ToolQA) an evaluation framework for RAG and Tool LLM pipelines
 -   [Swiss Army Llama](https://github.com/Dicklesworthstone/swiss_army_llama) FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract
+-   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
+-   [anything-llm](https://github.com/Mintplex-Labs/anything-llm) A document chatbot to chat with anything, for any commercial or open LLM and vector DB
 
 ## Browser Extensions
 
@@ -215,6 +218,7 @@ others:
 -   [RestGPT](https://github.com/Yifan-Song793/RestGPT) LLM-based autonomous agent controlling real-world applications via RESTful APIs
 -   [MemGPT](https://github.com/cpacker/MemGPT) intelligently manages different memory tiers in LLMs to provide extended context, supporting vector DBs, SQL, Documents etc
 -   [XAgent](https://github.com/OpenBMB/XAgent) Autonomous LLM Agent for Complex Task Solving
+-   [HAAS](https://github.com/daveshap/OpenAI_Agent_Swarm) Hierarchical Autonomous Agent Swarm create a self-organizing and ethically governed ecosystem of AI agents, inspired by ACE Framework
 
 ### Local LLMs
 
@@ -228,6 +232,7 @@ others:
 -   [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot) writes scalable apps from scratch while the developer oversees the implementation
 -   [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software
 -   [ToRA](https://github.com/microsoft/ToRA) Tool-integrated Reasoning Agents designed to solve challenging mathematical reasoning problems by interacting with tools, e.g., computation libraries and symbolic solvers, [paper](https://arxiv.org/abs/2309.17452)
+-   [ACE](https://github.com/daveshap/ACE_Framework) Autonomous Cognitive Entities Framework to automatically create autonomous agents and sub agents depending on the tasks at hand
 
 ### Model agnostic
 
@@ -238,8 +243,6 @@ others:
 
 ## Multi Modal
 
--   [Alpaca-Turbo | Web UI to run alpaca model locally on Win/Mac/Linux](https://github.com/ViperX7/Alpaca-Turbo)
--   [FreedomGPT | Web app that executes the FreedomGPT LLM locally](https://github.com/ohmplatform/FreedomGPT)
 -   [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
 -   [Langchain-huggingGPT](https://github.com/camille-vanhoffelen/langchain-huggingGPT) reimplementation of HuggingGPT using langchain
 -   [OpenAGI](https://github.com/agiresearch/openagi) AGI research platform, solves multi step tasks with RLTF and supports complex model chains
@@ -247,7 +250,6 @@ others:
 -   [TaskMatrix](https://github.com/microsoft/visual-chatgpt) former visual-chatgpt connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
 -   [PandaGPT](https://github.com/yxuansu/PandaGPT) combines ImageBind and Vicuna to understand and combine multimodal inputs from text, image, audio, depth, thermal, and IMU.
 -   [AGiXT](https://github.com/Josh-XT/AGiXT) agents with memory, model agnostic, docker deployment, plugin extendable, chat feature, speech to text and text to speech, REST api and more
--   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
 -   [SelfTalker](https://github.com/Amirrezahmi/SelfTalker) Talk with your virtual self using voice cloning, LLMs and computer vision models
 -   [CoDi](https://github.com/microsoft/i-Code/tree/main/i-Code-V3) Any to any generation via composable diffusion
 -   [AutoMix](https://github.com/automix-llm/automix) Mixing Language Models with Self-Verification and Meta-Verification, [paper](https://arxiv.org/abs/2310.12963v1)
@@ -272,6 +274,7 @@ others:
 -   [chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) vscode extension to use unofficial chatGPT API for a code context based chat side bar within the editor
 -   [codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) vscode extension to use the CodeShell-7b models
 -   [localpilot](https://github.com/danielgross/localpilot) vscode copilot alternative using local llama.cpp/ggml models on Mac
+
 
 ## Libraries and Wrappers
 
@@ -342,6 +345,7 @@ others:
 -   [Flowise](https://github.com/FlowiseAI/Flowise) Drag & drop UI with visual graph/flow/nodes to build your customized LLM app
 -   [ChainForge](https://github.com/ianarawjo/ChainForge) visual graph/flow/node based prompt engineering UI for analyzing and evaluating LLM responses
 -   [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
+-   [activepieces](https://github.com/activepieces/activepieces) Automation with SaaS tools and GPT using a visual graph/flow/node based workflow
 
 ## Fine Tuning & Training
 
@@ -480,7 +484,6 @@ others:
 -   [Graph of Thoughts](https://arxiv.org/pdf/2308.09687.pdf) introducing Graph of Thoughts and comparing its performance to Chain of Thoughts and Tree of Thoughts, [code](https://github.com/spcl/graph-of-thoughts)
 -   [LIDA](https://github.com/microsoft/lida) Automatic Generation of Visualizations and Infographics using Large Language Models, [code](https://github.com/microsoft/lida)
 -   [Distilling step-by-step](https://blog.research.google/2023/09/distilling-step-by-step-outperforming.html) Outperforming larger language models with less training data and smaller model sizes
-
 -   [LongLoRA](https://arxiv.org/pdf/2309.12307v1.pdf) Efficient Fine-tuning of Long-Context Large Language Models, [code](https://github.com/dvlab-research/longlora)
 -   [LLMLingua](https://arxiv.org/pdf/2310.06839v1.pdf) Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression, [code](https://github.com/microsoft/LLMLingua)
 -   [flagembedding](https://arxiv.org/abs/2310.07554v1), an embedding model for Retrieve Anything To Augment Large Language Models [code](https://github.com/flagopen/flagembedding)
@@ -489,6 +492,11 @@ others:
 -   [MemGPT](https://arxiv.org/abs/2310.08560) Towards LLMs as Operating Systems, perpetual chat bots with self editing memory, chat with your SQL database and local files etc, [code](https://github.com/cpacker/MemGPT)
 -   [microxcaling](https://arxiv.org/abs/2310.10537) AMD, Arm, Intel, Meta, Microsoft, NVIDIA, and Qualcomm Standardize Next-Generation Narrow Precision Data Format: Microscaling Data Formats for Deep Learning
 -   [AoT](https://arxiv.org/abs/2308.10379) Algorithm of Thoughts: Enhancing Exploration of Ideas in LLMs
+-   [Chain of Density Prompting](https://arxiv.org/abs/2309.04269) From Sparse to Dense: GPT-4 Summarization, [gpt-3.5 fine tune](https://jxnl.github.io/instructor/blog/2023/11/05/chain-of-density/) rivaling the quality of the original Chain of Density
+-   [Self-RAG](https://selfrag.github.io/) Learning to Retrieve, Generate and Critique through Self-Reflections outperforming ChatGPT and retrieval-augmented LLama2 Chat on six tasks, [selfrag finetuned llama2-13b](https://huggingface.co/selfrag/selfrag_llama2_13b), [mistral-7b finetune](https://huggingface.co/SciPhi/SciPhi-Self-RAG-Mistral-7B-32k)
+-   [LoRAShear](https://arxiv.org/abs/2310.18356) Efficient Large Language Model Structured Pruning and Knowledge Recovery
+-   [Making LLaMA SEE and Draw with SEED Tokenizer](https://arxiv.org/abs/2310.01218), Multi Modal fine tune of LLaMA with image generation, image recognition and text generation capabilities, [weights](https://huggingface.co/AILab-CVC/SEED), [github](https://ailab-cvc.github.io/seed/seed_llama.html)
+-   [BSM](https://arxiv.org/abs/2310.15123) Branch-Solve-Merge for LLMs enhancing coherence, planning, and task decomposition outperforming GPT-4 in some tasks
 
 # Other awesome resources
 
@@ -547,6 +555,7 @@ others:
 -   https://github.com/HazyResearch/flash-attention
 -   https://github.com/stochasticai/x-stable-diffusion
 -   [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
+-   [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
 
 ## Benchmarking
 
@@ -594,6 +603,8 @@ others:
 -   [vllm](https://github.com/vllm-project/vllm) high-throughput and memory-efficient inference and serving engine for LLMs, [paper](https://arxiv.org/pdf/2309.06180v1.pdf)
 -   [openllmetry](https://github.com/traceloop/openllmetry) observability for your LLM application, based on OpenTelemetry
 -   [DeepSpeed-FastGen](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen) High-throughput Text Generation for LLMs at 2x vLLM speeds
+-   [DeepSparse](https://github.com/neuralmagic/deepsparse) Sparsity-aware deep learning inference runtime for CPUs
+-   [dvc](https://github.com/iterative/dvc) ML Experiments Management with Git
 
 ## Databases for ML
 
