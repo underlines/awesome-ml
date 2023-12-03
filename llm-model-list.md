@@ -33,3 +33,4 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [llmware RAG models](https://huggingface.co/llmware) small LLMs and sentence transformer embedding models specifically fine-tuned for RAG workflows
 - [openchat](https://github.com/imoneoi/openchat) Advancing Open-source Language Models with Mixed-Quality Data
 - [deepseek-coder](https://github.com/deepseek-ai/DeepSeek-Coder) code language models, trained on 2T tokens, 87% code 13% English / Chinese, up to 33B with 16K context size achieving SOTA performance on coding benchmarks
+- [Poro](https://huggingface.co/LumiOpen/Poro-34B) SiloGen model checkpoints of a family of multilingual open source LLMs covering all official European languages and code, [news](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/new-open-source-ai-model-poro-challenges-french-mistral)

@@ -59,6 +59,7 @@ others:
 -   [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 -   [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
 -   [LocalAI](https://github.com/go-skynet/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
+-   [biniou](https://github.com/Woolverine94/biniou) a self-hosted webui for 30+ generative ai models for text generation, image generation, audio generation, video generation etc.
 
 ## Web GUIs
 
@@ -503,6 +504,8 @@ prompt templating / grammar:
 -   [LoRAShear](https://arxiv.org/abs/2310.18356) Efficient Large Language Model Structured Pruning and Knowledge Recovery
 -   [Making LLaMA SEE and Draw with SEED Tokenizer](https://arxiv.org/abs/2310.01218), Multi Modal fine tune of LLaMA with image generation, image recognition and text generation capabilities, [weights](https://huggingface.co/AILab-CVC/SEED), [github](https://ailab-cvc.github.io/seed/seed_llama.html)
 -   [BSM](https://arxiv.org/abs/2310.15123) Branch-Solve-Merge for LLMs enhancing coherence, planning, and task decomposition outperforming GPT-4 in some tasks
+-   [Skeleton-of-Thought](https://arxiv.org/abs/2307.15337) Large Language Models Can Do Parallel Decoding. SoT aims at decreasing the end-to-end generation latency of large language models 
+-   [ML-Bench](https://arxiv.org/abs/2311.09835) Large Language Models Leverage Open-source Libraries for Machine Learning Tasks, [page](https://ml-bench.github.io/), [code](https://github.com/gersteinlab/ML-bench)
 
 # Other awesome resources
 
@@ -537,6 +540,8 @@ prompt templating / grammar:
 -   [Something-of-THoughts in LLM Prompting](https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390) Chain-of-Thoughts (CoT), Tree-of-Thoughts (ToT), Graph-of-Thoughts (GoT), and beyond, … What are these thoughts?
 -   [GPT-RAG](https://github.com/Azure/GPT-RAG) learnings when implementing Azure OpenAI with RAG at scale in a secure manner
 -   [AI and Open Source in 2023](https://magazine.sebastianraschka.com/p/ai-and-open-source-in-2023) a Summary of what happened in 2023 with all the learnings
+-   [convert text into graph of concepts](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a) Tutorial on how to use Knowledge Based QnA (KBQA) using Knowledge Graphs which can improve RAG context quality in some domains
+-   [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) 12 Lessons, Get Started Building with Generative AI from Microsoft
 
 ## Product Showcases
 
