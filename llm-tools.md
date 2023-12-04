@@ -58,8 +58,8 @@ others:
 -   [text-generation-inference](https://github.com/huggingface/text-generation-inference) Rust, Python and gRPC server for text generation inference. Used in production at HuggingFace to power LLMs api-inference widgets
 -   [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 -   [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
--   [LocalAI](https://github.com/go-skynet/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
--   [biniou](https://github.com/Woolverine94/biniou) a self-hosted webui for 30+ generative ai models for text generation, image generation, audio generation, video generation etc.
+-   [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
+
 
 ## Web GUIs
 
@@ -90,6 +90,8 @@ others:
 -   [openplayground](https://github.com/nat/openplayground) enables running LLM models on a laptop using a full UI, supporting various APIs and local HuggingFace cached models
 -   [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) Easy installation and running of RWKV Models, providing a local OpenAI API, GUI and custom CUDA kernel acceleration. Supports 2gb up to 32gb VRAM
 -   [BrainChulo](https://github.com/ChuloAI/BrainChulo) Chat App with vector based Long-Term Memory supporting one-shot, few-shot and Tool capable agents
+-   [biniou](https://github.com/Woolverine94/biniou) a self-hosted webui for 30+ generative ai models for text generation, image generation, audio generation, video generation etc.
+-   [ExUI](https://github.com/turboderp/exui) simple, lightweight web UI for running local inference using ExLlamaV2
 
 ### Model agnostic
 
@@ -319,6 +321,7 @@ others:
 -   [Haven](https://github.com/havenhq/haven) Fine-Tune and Deploy LLMs On Your Own Infrastructure
 -   [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) Python Bindings for llama.cpp with low level C API interface, python API, openai like API and LangChain compatibility
 -   [candle](https://github.com/huggingface/candle) a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use
+-   [tabbyAPI](https://github.com/theroyallab/tabbyAPI/) OpenAI API emulation using exllamav2 API that's both lightweight and fast
 
 ### Model agnostic
 
@@ -542,6 +545,9 @@ prompt templating / grammar:
 -   [AI and Open Source in 2023](https://magazine.sebastianraschka.com/p/ai-and-open-source-in-2023) a Summary of what happened in 2023 with all the learnings
 -   [convert text into graph of concepts](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a) Tutorial on how to use Knowledge Based QnA (KBQA) using Knowledge Graphs which can improve RAG context quality in some domains
 -   [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) 12 Lessons, Get Started Building with Generative AI from Microsoft
+-   [LLM Visualization](https://bbycroft.net/llm) Explaining how transformers work visually using nano-gpt
+-   [Visual explanations of core machine learning concepts](https://mlu-explain.github.io/) Visually learn how Neural networks, Regression, Reinforcement Learning, Random Forests and more concepts work
+-   [easily train a specialized llm](https://cameronrwolfe.substack.com/p/easily-train-a-specialized-llm-peft) PEFT, LoRA, QLoRA, LLaMA-Adapter, and More
 
 ## Product Showcases
 

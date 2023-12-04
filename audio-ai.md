@@ -27,6 +27,12 @@
   - [whisperX](https://github.com/m-bain/whisperX) Fast automatic speech recognition (70x realtime with large-v2) using OpenAI's Whisper, word-level timestamps, speaker diarization, and voice activity detection
   - [distil-whisper](https://github.com/huggingface/distil-whisper) a distilled version of Whisper that is 6 times faster, 49% smaller, and performs within 1% word error rate (WER) on out-of-distribution evaluation sets, [paper](https://arxiv.org/abs/2311.00430), [model](https://huggingface.co/distil-whisper/distil-large-v2), [hf](https://news.ycombinator.com/item?id=38093353)
   - [whisper-turbo](https://github.com/FL33TW00D/whisper-turbo) a fast, cross-platform Whisper implementation, designed to run entirely client-side in your browser/electron app.
+  - [faster-whisper](https://github.com/systran/faster-whisper) Faster Whisper transcription with CTranslate2
+  - [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) a command line client based on faster-whisper and compatible with the original client from openai/whisper
+  - [whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) a speaker diarization tool that is based on faster-whisper and NVIDIA NeMo
+  - [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win) portable ready to run binaries of faster-whisper for Windows
+  - [asr-sd-pipeline](https://github.com/hedrergudene/asr-sd-pipeline) scalable, modular, end to end multi-speaker speech to text solution implemented using AzureML pipelines
+  - [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) The fastest Whisper optimization for automatic speech recognition as a command-line interface
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
@@ -140,3 +146,4 @@
 - [Vocos](https://charactr-platform.github.io/vocos/) Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
 - [WavJourney](https://arxiv.org/abs/2307.14335) Compositional Audio Creation with LLMs [github](https://github.com/audio-agi/wavjourney)
 - [PromptingWhisper](https://github.com/jasonppy/PromptingWhisper) Audio-Visual Speech Recognition, Code-Switched Speech Recognition, and Zero-Shot Speech Translation for Whisper
+- [Translatotron 3](https://blog.research.google/2023/12/unsupervised-speech-to-speech.html) Unsupervised speech-to-speech translation from monolingual data
