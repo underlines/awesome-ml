@@ -1,3 +1,7 @@
+<div align="center">
+    <h1>Awesome ML</h1>
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+</div>
 
 🤝👥 Contributions welcome. Accepting Pull Requests.
 
