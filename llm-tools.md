@@ -645,3 +645,4 @@ prompt templating / grammar:
 -   [Deeplake](https://github.com/activeloopai/deeplake) Vector Database for audio, text, vectors, video
 -   [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
 -   [chroma](https://github.com/chroma-core/chroma) open-source embedding database
+-   [pgvector](https://github.com/chroma-core/chroma) open-source vector similarity search for Postgres.
