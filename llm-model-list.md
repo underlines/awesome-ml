@@ -34,3 +34,4 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [openchat](https://github.com/imoneoi/openchat) Advancing Open-source Language Models with Mixed-Quality Data
 - [deepseek-coder](https://github.com/deepseek-ai/DeepSeek-Coder) code language models, trained on 2T tokens, 87% code 13% English / Chinese, up to 33B with 16K context size achieving SOTA performance on coding benchmarks
 - [Poro](https://huggingface.co/LumiOpen/Poro-34B) SiloGen model checkpoints of a family of multilingual open source LLMs covering all official European languages and code, [news](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/new-open-source-ai-model-poro-challenges-french-mistral)
+- [Mixtral of experts](https://mistral.ai/news/mixtral-of-experts/) A high quality Sparse Mixture-of-Experts.

@@ -59,6 +59,7 @@ others:
 -   [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 -   [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
 -   [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
+-   [Windows AI Studio](https://github.com/microsoft/windows-ai-studio) Visual Studio Code extension for Fine-tuning, RAG development and inference of local models
 
 
 ## Web GUIs
@@ -92,6 +93,7 @@ others:
 -   [BrainChulo](https://github.com/ChuloAI/BrainChulo) Chat App with vector based Long-Term Memory supporting one-shot, few-shot and Tool capable agents
 -   [biniou](https://github.com/Woolverine94/biniou) a self-hosted webui for 30+ generative ai models for text generation, image generation, audio generation, video generation etc.
 -   [ExUI](https://github.com/turboderp/exui) simple, lightweight web UI for running local inference using ExLlamaV2
+-   [ava](https://github.com/cztomsik/ava) Air-gapped Virtual Assistant / Personal Language Server with support for local models using llama.cpp as a backend, [demo](https://avapls.com/)
 
 ### Model agnostic
 
@@ -176,7 +178,8 @@ others:
 -   [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
 -   [Swiss Army Llama](https://github.com/Dicklesworthstone/swiss_army_llama) FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract
 -   [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
-
+-   [danswer](https://github.com/danswer-ai/danswer) Model agnostic RAG QA with many advanced features like Hybrid search + Reranking, time extraction, user intent identification, User access level management, document update and connectors for many SaaS tools
+-   [SecureAI-Tools](https://github.com/SecureAI-Tools/SecureAI-Tools) Chat with local documents through various local or commercial models, supporting user authentication
 
 ## Browser Extensions
 
@@ -346,6 +349,7 @@ others:
 -   [ChainForge](https://github.com/ianarawjo/ChainForge) visual graph/flow/node based prompt engineering UI for analyzing and evaluating LLM responses
 -   [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
 -   [activepieces](https://github.com/activepieces/activepieces) Automation with SaaS tools and GPT using a visual graph/flow/node based workflow
+-   [kernel-memory](https://github.com/microsoft/kernel-memory) Index and query any data using LLM and natural language, tracking sources and showing citations, ideal for RAG pipelines
 
 prompt templating / grammar:
 
@@ -365,7 +369,7 @@ prompt templating / grammar:
 -   [xTuring](https://github.com/stochasticai/xturing) LLM finetuning pipeline supporting LoRa & 4bit
 -   [Microsoft DeepSpeed Chat](https://github.com/microsoft/DeepSpeedExamples/blob/master/applications/DeepSpeed-Chat/README.md)
 -   [How to train your LLMs](https://blog.replit.com/llm-training)
--   [H2O LLM Studio | Framework and no-code GUI for fine tuning SOTA LLMs](https://github.com/h2oai/h2o-llmstudio)
+-   [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) Framework and no-code GUI for fine tuning SOTA LLMs
 -   [Implementation of LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter), to fine tune instructions within hours
 -   [Hivemind](https://github.com/learning-at-home/hivemind) Training at home
 -   [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) a llama, pythia, cerebras training environment optimized for Runpod supporting qlora, 4bit, flash attention, xformers
@@ -375,6 +379,7 @@ prompt templating / grammar:
 -   [Landmark Attention QLoRA](https://github.com/eugenepentland/landmark-attention-qlora) for landmark attention with 50x context compression and efficient token selection
 -   [ChatGLM Efficient Finetuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) fine tuning ChatGLM models with PEFT
 -   [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced) by Huggingface, faster and easier training and deployments of state-of-the-art machine learning models
+-   [unsloth](https://github.com/unslothai/unsloth) 2-5x faster and 60% less memory local QLoRA finetuning supporting Llama, CodeLlama, Mistral, TinyLlama etc. using Triton
 
 # Resources
 
@@ -509,6 +514,8 @@ prompt templating / grammar:
 -   [BSM](https://arxiv.org/abs/2310.15123) Branch-Solve-Merge for LLMs enhancing coherence, planning, and task decomposition outperforming GPT-4 in some tasks
 -   [Skeleton-of-Thought](https://arxiv.org/abs/2307.15337) Large Language Models Can Do Parallel Decoding. SoT aims at decreasing the end-to-end generation latency of large language models 
 -   [ML-Bench](https://arxiv.org/abs/2311.09835) Large Language Models Leverage Open-source Libraries for Machine Learning Tasks, [page](https://ml-bench.github.io/), [code](https://github.com/gersteinlab/ML-bench)
+-   [QuIP#](https://cornell-relaxml.github.io/quip-sharp/) E8P 2-Bit Quantization of Large Language Models achieving near fp16 quantization performance
+-   [HQQ](https://mobiusml.github.io/hqq_blog/) Half-Quadratic Quantization for LLMs significantly accelerating quantization speed without requiring calibration data, outperforming existing methods in processing speed and memory efficiency
 
 # Other awesome resources
 
@@ -548,6 +555,7 @@ prompt templating / grammar:
 -   [LLM Visualization](https://bbycroft.net/llm) Explaining how transformers work visually using nano-gpt
 -   [Visual explanations of core machine learning concepts](https://mlu-explain.github.io/) Visually learn how Neural networks, Regression, Reinforcement Learning, Random Forests and more concepts work
 -   [easily train a specialized llm](https://cameronrwolfe.substack.com/p/easily-train-a-specialized-llm-peft) PEFT, LoRA, QLoRA, LLaMA-Adapter, and More
+-   [promptbase](https://github.com/microsoft/promptbase) an evolving collection of resources, best practices, and example scripts for eliciting the best performance from foundation models
 
 ## Product Showcases
 
