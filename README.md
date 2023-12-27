@@ -21,6 +21,7 @@
   - [💻 Code Generation](llm-tools.md#code-generation)
   - [📚 Libraries and Wrappers](llm-tools.md#libraries-and-wrappers)
   - [🎯 Fine Tuning & Training](llm-tools.md#fine-tuning--training)
+  - [🪚 Merging & Quantization](llm-tools.md#merging--quantization)
 
 - [📚 Resources](llm-tools.md#resources)
   - [📂 Data Sets](llm-tools.md#data-sets)
