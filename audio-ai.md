@@ -81,6 +81,7 @@
 - [real-time-voice](https://github.com/michaelcrubin/real-time-voice) SV2TTS voice cloning TTS implementation using WaveRNN, Tacatron, GE2E
 - [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
 - [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
+- [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
 
 ## Voice Conversion
 
@@ -92,6 +93,9 @@
   - [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) simple and easy-to-use voice transformation (voice changer) web GUI based on VITS
     - [rvc-webui](https://github.com/ddPn08/rvc-webui) Win/Mac/Linux installer and Guide for RVC-Project
     - [RVC-GUI](https://github.com/Tiger14n/RVC-GUI) fork of RVC for easy audio file voice conversion locally, only inference, no training
+    - [RVC Studio](https://github.com/SayanoAI/RVC-Studio) training RVC models and generating AI voice covers
+    - [AI-Song-Cover-RVC](https://github.com/ardha27/AI-Song-Cover-RVC) All in One: Youtube WAV Download, Separating Vocals, Splitting Audio, Training, and Inference
+    - [AICoverGen](https://github.com/SociallyIneptWeeb/AICoverGen) autonomous pipeline to create covers with any RVC v2 trained AI voice from YouTube videos or a local audio files
   - [w-okada/voice-changer](https://github.com/w-okada/voice-changer) supports MMVC, so-vits-svc, RVC, DDSP-SVC, processing offloading over LAN, real time conversion
   - [DDSP-SVC](https://github.com/yxlllc/DDSP-SVC) Real-time singing voice conversion based on DDSP, training and inference uses lower requirements than diff-svc and so-vits-svc
   - [Leader board of SOTA models](https://github.com/Anjok07/ultimatevocalremovergui/issues/344) for stem separation using model ensembles in UVR
@@ -109,6 +113,7 @@
   - [Real-Time-Voice-Cloning v2](https://github.com/liuhaozhe6788/voice-cloning-collab) active fork of the original for google collab
 - [Raven with voice cloning 2.0](https://huggingface.co/spaces/Kevin676/Raven-with-Voice-Cloning-2.0/tree/main) by Kevin676
 - [CoMoSpeech](https://github.com/zhenye234/CoMoSpeech) consistency model distilled from a diffusion-based teacher model, enabling high-quality one-step speech and singing voice synthesis
+  - [CoMoSVC](https://github.com/Grace9994/CoMoSVC) One-Step Consistency Model Based Singing Voice Conversion & Singing Voice Clone
 - [NS2VC](https://github.com/adelacvg/NS2VC) WIP Unofficial implementation of NaturalSpeech2 for Voice Conversion
 - [vc-lm](https://github.com/nilboy/vc-lm) train an any-to-one voice conversion models, referncing vall-e, using encodec to create tokens and building a transformer language model on tokens
 - [knn-vc](https://github.com/bshall/knn-vc) official implementation of Voice Conversion With Just Nearest Neighbors (kNN-VC) contains training and inference for any-to-any voice conversion model, [paper](https://arxiv.org/abs/2305.18975), [examples](https://bshall.github.io/knn-vc/)
@@ -117,6 +122,7 @@
 - [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
 - [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
 - [OpenVoice](https://github.com/myshell-ai/openvoice) Instant Voice Cloning with accuracte tone color, flexibel style control and zero-shot cross lingual voice cloning
+- [NeuCoSVC](https://github.com/thuhcsi/NeuCoSVC?tab=readme-ov-file) official implementation of Neural Concatenative Singing Voice Conversion [paper](https://arxiv.org/abs/2312.04919)
 
 ## Video Voice Dubbing
 
