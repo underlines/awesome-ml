@@ -177,6 +177,7 @@ others:
 - [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
 - [danswer](https://github.com/danswer-ai/danswer) Model agnostic RAG QA with many advanced features like Hybrid search + Reranking, time extraction, user intent identification, User access level management, document update and connectors for many SaaS tools
 - [SecureAI-Tools](https://github.com/SecureAI-Tools/SecureAI-Tools) Chat with local documents through various local or commercial models, supporting user authentication
+- [OpenCopilot](https://github.com/openchatai/OpenCopilot) implement RAG principles with your own LLM supporting API calling of multiple endpoints
 
 ## Browser Extensions
 
@@ -522,7 +523,7 @@ prompt templating / grammar:
 - [Skeleton-of-Thought](https://arxiv.org/abs/2307.15337) Large Language Models Can Do Parallel Decoding. SoT aims at decreasing the end-to-end generation latency of large language models 
 - [ML-Bench](https://arxiv.org/abs/2311.09835) Large Language Models Leverage Open-source Libraries for Machine Learning Tasks, [page](https://ml-bench.github.io/), [code](https://github.com/gersteinlab/ML-bench)
 - [QuIP#](https://cornell-relaxml.github.io/quip-sharp/) E8P 2-Bit Quantization of Large Language Models achieving near fp16 quantization performance
-- [HQQ](https://mobiusml.github.io/hqq_blog/) Half-Quadratic Quantization for LLMs significantly accelerating quantization speed without requiring calibration data, outperforming existing methods in processing speed and memory efficiency
+- [HQQ](https://mobiusml.github.io/hqq_blog/) Half-Quadratic Quantization for LLMs significantly accelerating quantization speed without requiring calibration data, outperforming existing methods in processing speed and memory efficiency. Sub 10GB VRAM Mixtral 8x7B implemented through [mixtral-offloading](https://github.com/dvmazur/mixtral-offloading), [guide](https://www.reddit.com/r/LocalLLaMA/comments/18w0j8y/mixtral_8x7b_on_10gb_vram_through_hqq_moe/?)
 - [QMoE](https://arxiv.org/abs/2310.16795) Practical Sub-1-Bit Compression of Trillion-Parameter Models, [code](https://github.com/IST-DASLab/qmoe), [bitsandbytes sparse_MoE implementation](https://github.com/TimDettmers/bitsandbytes/tree/sparse_moe), [QMoE in llama.cpp](https://github.com/ggerganov/llama.cpp/issues/4445), [LoRa experts as alternative to QMoE](https://github.com/ggerganov/llama.cpp/issues/4611)
 
 # Other awesome resources
@@ -566,6 +567,8 @@ prompt templating / grammar:
 - [promptbase](https://github.com/microsoft/promptbase) an evolving collection of resources, best practices, and example scripts for eliciting the best performance from foundation models
 - [rag-survey](https://github.com/tongji-kgllm/rag-survey) an updated view on RAG in the wild, their approaches, taxonomy, tech stack and evolution [paper](https://arxiv.org/pdf/2312.10997.pdf)
 - [Survey of Reasoning with Foundation Models](https://arxiv.org/pdf/2312.11562v4.pdf), [awesome reasoning list](https://github.com/reasoning-survey/awesome-reasoning-foundation-models)
+- [llm-course](https://github.com/mlabonne/llm-course) Course to get into LLMs with roadmaps and notebooks covering Fundamentals, LLM-Scientist and LLM-Engineer roles
+- [ML Papers of The Week](https://github.com/dair-ai/ML-Papers-of-the-Week) dair.ai curated list of weekly ML Papers
 
 ## Product Showcases
 
@@ -626,6 +629,7 @@ prompt templating / grammar:
 - [LangCheck](https://github.com/citadel-ai/langcheck) Simple, Pythonic building blocks to evaluate LLM applications
 - [PromethAI-Memory](https://github.com/topoteretes/PromethAI-Memory) Open-source framework for building and testing RAGs and Cognitive Architectures, designed for accuracy, transparency, and control
 - [PromptBench](https://github.com/microsoft/promptbench) a Pytorch-based Python package for Evaluation of LLMs providing APIs
+- [CanItEdit](https://github.com/nuprl/CanItEdit) Evaluating the Ability of Large Language Models to Follow Code Editing Instructions, [paper](https://arxiv.org/abs/2312.12450)
 
 ## AI DevOps
 

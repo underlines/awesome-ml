@@ -18,6 +18,7 @@
 - [Latent Consistency Models](https://github.com/luosiallen/latent-consistency-model) LoRAs for high quality few step image generation
 - [OnnxStream](https://github.com/vitoplantamura/OnnxStream) Stable Diffusion XL 1.0 Base with 298MB of RAM
 - [StreamDiffusion](https://github.com/cumulo-autumn/streamdiffusion) A Pipeline-Level Solution for Real-Time Interactive Generation
+- [AnyText](https://github.com/tyxsspa/AnyText) Code and Model for a diffusion pipeline covering a latent module and text embedding to generate and manipulate text in images
 
  text to 3d:
 
