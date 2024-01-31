@@ -19,6 +19,8 @@
 - [OnnxStream](https://github.com/vitoplantamura/OnnxStream) Stable Diffusion XL 1.0 Base with 298MB of RAM
 - [StreamDiffusion](https://github.com/cumulo-autumn/streamdiffusion) A Pipeline-Level Solution for Real-Time Interactive Generation
 - [AnyText](https://github.com/tyxsspa/AnyText) Code and Model for a diffusion pipeline covering a latent module and text embedding to generate and manipulate text in images
+- [InstantID](https://github.com/InstantID/InstantID) Zero-shot Identity-Preserving Generation in Seconds, [ComfyUI plugin](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
+- [PhotoMaker](https://github.com/TencentARC/PhotoMaker) Rapid customization within seconds, with no additional LoRA training preserving ID with high fidelity and text controllability which can serve as an adapter for other models
 
  text to 3d:
 
@@ -40,6 +42,7 @@ other:
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) image segmentation
   - [YOLOv8](https://github.com/ultralytics/ultralytics) SOTA object detection, segmentation, classification and tracking
   - [DINOv2](https://github.com/facebookresearch/dinov2) 1B-parameter ViT model to generate robust all-purpose visual features that outperform OpenCLIP benchmarks at image and pixel levels
+  - [segment-anything-fast](https://github.com/pytorch-labs/segment-anything-fast) A batched offline inference oriented version of segment-anything
 - [Final2x](https://github.com/Tohrusky/Final2x) Image super-resolution through interpolation supporting multiple models like RealCUGAN, ESRGAN, Waifu2x, SRMD
 - [text-to-room](https://lukashoel.github.io/text-to-room/) text to room
 - [DragGAN](https://github.com/XingangPan/DragGAN) Interactive Point-based Manipulation on Generative Images, [demo](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)

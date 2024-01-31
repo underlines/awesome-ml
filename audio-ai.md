@@ -57,6 +57,7 @@
   - [Bark-RVC](https://github.com/ORI-Muchim/BARK-RVC) Multilingual Speech Synthesis Voice Conversion using Bark + RVC
 - [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
   - [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
+- [StyleTTS2 implementation](https://github.com/yl4579/StyleTTS2) Elevenlabs quality TTS through Style Diffusion and Adversarial Training with Large Speech Language Models
 - [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
   - [StyleTTS-VC](https://github.com/yl4579/StyleTTS-VC) One-Shot Voice Conversion by Knowledge Transfer from Style-Based TTS Models
 - [Vall-E and Vall-E X](https://valle-demo.github.io/), [paper](https://arxiv.org/abs/2301.02111), [code](https://github.com/enhuiz/vall-e). Zero Shot TTS preserving emotion, expression, similarity and allows language transfer
@@ -82,6 +83,7 @@
 - [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
 - [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 - [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
+- [EmotiVoice](https://github.com/netease-youdao/EmotiVoice) Multi-Voice and Prompt-Controlled TTS Engine
 
 ## Voice Conversion
 
@@ -136,6 +138,7 @@
 - [video-retalking](https://github.com/OpenTalker/video-retalking) Audio-based Lip Synchronization for Talking Head Video Editing In the Wild
 - [Wunjo AI](https://github.com/wladradchenko/wunjo.wladradchenko.ru) Synthesize & clone voices in English, Russian & Chinese, real-time speech recognition, deepfake face & lips animation, face swap with one photo, change video by text prompts, segmentation, and retouching. Open-source, local & free
 - [YouTranslate](https://github.com/AdiKsOnDev/YouTranslate) Takes a youtube video, clones the voice with elevenlabs API translate the text with google translate API and re-creates that video in a different language
+- [audio2photoreal](https://github.com/facebookresearch/audio2photoreal) Photoreal Embodiment by Synthesizing Humans including pose, hands and face in Conversations
 
 ## Music Generation
 
