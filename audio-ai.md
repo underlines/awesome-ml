@@ -37,6 +37,7 @@
   - [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win) portable ready to run binaries of faster-whisper for Windows
   - [asr-sd-pipeline](https://github.com/hedrergudene/asr-sd-pipeline) scalable, modular, end to end multi-speaker speech to text solution implemented using AzureML pipelines
   - [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) The fastest Whisper optimization for automatic speech recognition as a command-line interface
+  - [WhisperLive](https://github.com/collabora/WhisperLive) real time transcription using voice activity detection and TensorRT or FasterWhisper backends
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
@@ -84,6 +85,7 @@
 - [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 - [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
 - [EmotiVoice](https://github.com/netease-youdao/EmotiVoice) Multi-Voice and Prompt-Controlled TTS Engine
+- [WhisperSpeech](https://github.com/collabora/WhisperSpeech) inverted whisper (aka spear-tts) with voice cloning, language mixing using EnCodec and Vocos
 
 ## Voice Conversion
 

@@ -13,6 +13,7 @@
 - [Rerender A Video](https://github.com/williamyang1991/Rerender_A_Video) Zero-Shot Text-Guided Video-to-Video Translation, [paper](https://arxiv.org/abs/2306.07954)
 - [VideoCrafter1](https://github.com/AILab-CVC/VideoCrafter) Open Diffusion Models for High-Quality Video Generation
 - [i2vgen-xl](https://github.com/ali-vilab/i2vgen-xl) a holistic video generation ecosystem for video generation building on diffusion models
+- [pixeldance](https://makepixelsdance.github.io/) High-Dynamic Video Generation
 
 ## Frame Interpolation (Temporal Interpolation)
 

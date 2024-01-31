@@ -35,3 +35,4 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [deepseek-coder](https://github.com/deepseek-ai/DeepSeek-Coder) code language models, trained on 2T tokens, 87% code 13% English / Chinese, up to 33B with 16K context size achieving SOTA performance on coding benchmarks
 - [Poro](https://huggingface.co/LumiOpen/Poro-34B) SiloGen model checkpoints of a family of multilingual open source LLMs covering all official European languages and code, [news](https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/new-open-source-ai-model-poro-challenges-french-mistral)
 - [Mixtral of experts](https://mistral.ai/news/mixtral-of-experts/) A high quality Sparse Mixture-of-Experts.
+- [meditron](https://github.com/epfLLM/meditron) 7B and 70B Llama2 based LLM fine tuning adapted for the medical domain

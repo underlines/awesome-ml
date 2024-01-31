@@ -17,7 +17,7 @@
 - [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
 - [cheetah](https://github.com/leetcode-mafia/cheetah) Speech to text for remote coding interviews, giving you hints from GTP3/4
 - [Chat2DB++](https://github.com/chat2db/Chat2DB) general-purpose SQL & multi DBMS client and reporting tool which uses ChatGPT capabilities to write and optimize Queries
-- [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web) Web, Windows, Linux, Mac GUI. Supports: Local LLMs, Markdown, LaTex, mermaid, code, history compression, prompt templates
+- [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) Web, Windows, Linux, Mac GUI. Supports: Local LLMs, Markdown, LaTex, mermaid, code, history compression, prompt templates
 - [ChatGPT](https://github.com/HemulGM/ChatGPT) Native Application for Windows, Mac, Android, iOS, Linux
 
 ### Local LLMs
@@ -137,6 +137,7 @@ others:
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
 - [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
+- [WhisperFusion](https://github.com/collabora/WhisperFusion) ultra low latency conversations built with WhisperLive, WhisperSpeech and Mistral
 
 ## Retrieval Augmented Generation (RAG)
 
@@ -186,6 +187,7 @@ others:
 - [QAnything](https://github.com/netease-youdao/QAnything) two stage retrieval based on retrieve-and-rerank approach with SOTA performance for EN/CN and planned support for structured and unstructured data and DBs
 - [opengpts](https://github.com/langchain-ai/opengpts) open source GPTs and Assistants with LangChain, LangServe and LangSmith. LLM agnostic, Prompt Engineering, Tool support, Vector DB agnostic, Various Retrieval Algorithms, Chat History support
 - [cognee](https://github.com/topoteretes/cognee) Memory management for RAG and AI Applications and Agents
+- [bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) LLM deployment with authentication, team and RBAC functionality, RAG pipeline, tenants etc.
 
 ## Browser Extensions
 
@@ -373,6 +375,7 @@ prompt templating / grammar / engineering:
 - [GBNF](https://github.com/ggerganov/llama.cpp/tree/master/grammars) templating / grammar implementation using Bakus-Naur Form (BNF) in llama.cpp to guide output, [BNF Playground](https://bnfplayground.pauliankline.com/)
 - [sglang](https://github.com/sgl-project/sglang) structured generation language designed for LLMs with multiple chained generation calls, advanced prompting techniques, control flow, multiple modalities, parallelism, and external interaction
 - [DSPy](https://github.com/stanfordnlp/dspy) a framework for algorithmically optimizing LM prompts and weights
+- [AlphaCodium](https://github.com/codium-ai/alphacodium) Automatic Code Generation improvements with Prompt Engineering and Flow Engineering
 
 ## Fine Tuning & Training
 
@@ -394,6 +397,7 @@ prompt templating / grammar / engineering:
 - [ChatGLM Efficient Finetuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) fine tuning ChatGLM models with PEFT
 - [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced) by Huggingface, faster and easier training and deployments of state-of-the-art machine learning models
 - [Pearl](https://github.com/facebookresearch/pearl) Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)
 
 ## Merging & Quantization
 
@@ -539,6 +543,7 @@ prompt templating / grammar / engineering:
 - [QuIP#](https://cornell-relaxml.github.io/quip-sharp/) E8P 2-Bit Quantization of Large Language Models achieving near fp16 quantization performance
 - [HQQ](https://mobiusml.github.io/hqq_blog/) Half-Quadratic Quantization for LLMs significantly accelerating quantization speed without requiring calibration data, outperforming existing methods in processing speed and memory efficiency. Sub 10GB VRAM Mixtral 8x7B implemented through [mixtral-offloading](https://github.com/dvmazur/mixtral-offloading), [guide](https://www.reddit.com/r/LocalLLaMA/comments/18w0j8y/mixtral_8x7b_on_10gb_vram_through_hqq_moe/?)
 - [QMoE](https://arxiv.org/abs/2310.16795) Practical Sub-1-Bit Compression of Trillion-Parameter Models, [code](https://github.com/IST-DASLab/qmoe), [bitsandbytes sparse_MoE implementation](https://github.com/TimDettmers/bitsandbytes/tree/sparse_moe), [QMoE in llama.cpp](https://github.com/ggerganov/llama.cpp/issues/4445), [LoRa experts as alternative to QMoE](https://github.com/ggerganov/llama.cpp/issues/4611)
+- [mamba](https://arxiv.org/abs/2312.00752) alternative to transformer architecture for LLMs using Linear-Time Sequence Modeling with Selective State Spaces [code](https://github.com/state-spaces/mamba)
 
 # Other awesome resources
 
@@ -636,6 +641,7 @@ prompt templating / grammar / engineering:
 - [hallucination-leaderboard](https://huggingface.co/spaces/vectara/leaderboard) Hughes Hallucination Evaluation Model (HHEM) evaluates how often an LLM introduces hallucinations when summarizing a document [code](https://github.com/vectara/hallucination-leaderboard)
 - [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard) evaluates base coding models
 - [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html) evaluates AI Coders with rigorous tests
+- [AgentBoard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html) Evaluation Board of Multi-turn LLM Agents
 
 ### Benchmark Suites
 
@@ -653,6 +659,8 @@ prompt templating / grammar / engineering:
 - [CanItEdit](https://github.com/nuprl/CanItEdit) Evaluating the Ability of Large Language Models to Follow Code Editing Instructions, [paper](https://arxiv.org/abs/2312.12450)
 - [deepeval](https://github.com/confident-ai/deepeval) evaluation framework specialized for unit testing LLM applications based on metrics such as hallucination, answer relevancy, RAGAS, etc.
 - [mlflow llm-evaluate](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html) use-case specific standard metrics and custom metrics, optional ground truth
+- [AgentBoard](https://github.com/hkust-nlp/agentboard) Evaluation Board of Multi-turn LLM Agents
+- [LLM-Uncertainty-Bench](https://github.com/smartyfh/llm-uncertainty-bench) Benchmarking LLMs via Uncertainty Quantification
 
 ## AI DevOps
 

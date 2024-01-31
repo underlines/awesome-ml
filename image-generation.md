@@ -51,6 +51,7 @@ other:
 - [CoTracker](https://github.com/facebookresearch/co-tracker) It is Better to Track Together. A fast transformer-based model that can track any point in a video
 - [ZeroNVS](https://arxiv.org/pdf/2310.17994.pdf) Zero shot 460 degree view synthesis from single images
 - [x-stable-diffusion](https://github.com/stochasticai/x-stable-diffusion) Real-time inference for Stable Diffusion - 0.88s latency
+- [Depth-Anything](https://github.com/LiheYoung/Depth-Anything) Better depth estimation including a ControlNet for ComfyUI and ONNX and TensorRT versions
 
 ## Wrappers & GUIs
 
