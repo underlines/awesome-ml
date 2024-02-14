@@ -21,6 +21,7 @@
 - [AnyText](https://github.com/tyxsspa/AnyText) Code and Model for a diffusion pipeline covering a latent module and text embedding to generate and manipulate text in images
 - [InstantID](https://github.com/InstantID/InstantID) Zero-shot Identity-Preserving Generation in Seconds, [ComfyUI plugin](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
 - [PhotoMaker](https://github.com/TencentARC/PhotoMaker) Rapid customization within seconds, with no additional LoRA training preserving ID with high fidelity and text controllability which can serve as an adapter for other models
+- [StableCascade](https://github.com/Stability-AI/StableCascade) successor to Stable Diffusion by Stability AI with smaller latent space, higher speeds and better quality
 
  text to 3d:
 
@@ -52,6 +53,7 @@ other:
 - [ZeroNVS](https://arxiv.org/pdf/2310.17994.pdf) Zero shot 460 degree view synthesis from single images
 - [x-stable-diffusion](https://github.com/stochasticai/x-stable-diffusion) Real-time inference for Stable Diffusion - 0.88s latency
 - [Depth-Anything](https://github.com/LiheYoung/Depth-Anything) Better depth estimation including a ControlNet for ComfyUI and ONNX and TensorRT versions
+- [SUPIR](https://github.com/Fanghua-Yu/SUPIR) Super Resolution and Image Restoration
 
 ## Wrappers & GUIs
 

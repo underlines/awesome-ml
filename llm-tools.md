@@ -63,6 +63,7 @@ others:
 - [jan](https://github.com/janhq/jan) an open source alternative to ChatGPT that runs 100% offline on Windows, Intel/Apple Silicon Mac, Linux and Mobile
 - [open-interpreter](https://github.com/KillianLucas/open-interpreter) lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal
 - [ClipboardConqueror](https://github.com/aseichter2007/ClipboardConqueror) a novel omnipresent copilot alternative designed to bring your very own LLM AI assistant to any text field
+- [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow
 
 ## Web GUIs
 
@@ -100,6 +101,7 @@ others:
 
 - [OpenChat](https://github.com/openchatai/OpenChat) web ui that currently supports openAI but will implement local LLM support, RAG with PDF, websites, confluence, office 365
 - [lobe-chat](https://github.com/lobehub/lobe-chat) docker image based chat bot framework with plugin and agent support, roles, UI etc
+- [LibreChat](https://github.com/danny-avila/LibreChat) OpenAI, Assistants API, Vision, Mistral, Bing, Anthropic, OpenRouter, Google Gemini, model switching, langchain, DALL-E, Plugins, OpenAI Functions, Multi-User, Presets
 
 ## Backends
 
@@ -188,6 +190,7 @@ others:
 - [opengpts](https://github.com/langchain-ai/opengpts) open source GPTs and Assistants with LangChain, LangServe and LangSmith. LLM agnostic, Prompt Engineering, Tool support, Vector DB agnostic, Various Retrieval Algorithms, Chat History support
 - [cognee](https://github.com/topoteretes/cognee) Memory management for RAG and AI Applications and Agents
 - [bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) LLM deployment with authentication, team and RBAC functionality, RAG pipeline, tenants etc.
+- [rawdog](https://github.com/AbanteAI/rawdog) CLI assistant that responds by generating and auto-executing a Python script. Recursive Augmentation With Deterministic Output Generations (RAWDOG) is a novel alternative to RAG
 
 ## Browser Extensions
 
@@ -197,6 +200,7 @@ others:
 - [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
 - [Glarity](https://github.com/sparticleinc/chatgpt-google-summary-extension) open-source chrome extension to write summaries for various websites including custom ones and YouTube videos. Extensible
 - [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
+- [Lumos](https://github.com/andrewnguonly/Lumos) Chrome Extension with OLlama Backend as a RAG LLM co-pilot for browsing the web
 
 ### Local LLMs
 
@@ -257,6 +261,7 @@ others:
 - [openagents](https://github.com/xlang-ai/openagents) an Open Platform for Language Agents in the Wild, [paper](https://arxiv.org/abs/2310.10634)
 - [TaskWeaver](https://github.com/microsoft/TaskWeaver) code-first agent framework for planning and executing data analytics tasks interpreting user requests and coordinating plugins
 - [crewAI](https://github.com/joaomdmoura/crewAI) framework for orchestrating role-playing, autonomous AI agents
+- [phidata](https://github.com/phidatahq/phidata) toolkit for building AI Assistants using function calling enabling RAG and other workflows
 
 ## Multi Modal
 
@@ -277,6 +282,7 @@ others:
 - [ml-ferret](https://github.com/apple/ml-ferret) Refer and Ground Anything Anywhere at Any Granularity
 - [CogVLM](https://github.com/thudm/cogvlm) SOTA open visual language model and Agent
 - [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) Image and Video dense LLM and [MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) 3B sparse Mixture of Expert model outperforming the original dense 7B model
+- [MobileAgent](https://github.com/X-PLUG/MobileAgent) Autonomous Multi-Modal Mobile Device Agent with Visual Perception that can execute tasks
 
 ## Code generation
 
@@ -544,6 +550,7 @@ prompt templating / grammar / engineering:
 - [HQQ](https://mobiusml.github.io/hqq_blog/) Half-Quadratic Quantization for LLMs significantly accelerating quantization speed without requiring calibration data, outperforming existing methods in processing speed and memory efficiency. Sub 10GB VRAM Mixtral 8x7B implemented through [mixtral-offloading](https://github.com/dvmazur/mixtral-offloading), [guide](https://www.reddit.com/r/LocalLLaMA/comments/18w0j8y/mixtral_8x7b_on_10gb_vram_through_hqq_moe/?)
 - [QMoE](https://arxiv.org/abs/2310.16795) Practical Sub-1-Bit Compression of Trillion-Parameter Models, [code](https://github.com/IST-DASLab/qmoe), [bitsandbytes sparse_MoE implementation](https://github.com/TimDettmers/bitsandbytes/tree/sparse_moe), [QMoE in llama.cpp](https://github.com/ggerganov/llama.cpp/issues/4445), [LoRa experts as alternative to QMoE](https://github.com/ggerganov/llama.cpp/issues/4611)
 - [mamba](https://arxiv.org/abs/2312.00752) alternative to transformer architecture for LLMs using Linear-Time Sequence Modeling with Selective State Spaces [code](https://github.com/state-spaces/mamba)
+- [StreamingLLM](http://arxiv.org/abs/2309.17453) Efficient Streaming Language Models with Attention Sinks for bigger Context Windows, [code](https://github.com/mit-han-lab/streaming-llm)
 
 # Other awesome resources
 
@@ -591,6 +598,7 @@ prompt templating / grammar / engineering:
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) Illustrated Guide to Transformers- Step by Step Explanation
 - [ai-exploits](https://github.com/protectai/ai-exploits) A collection of real world AI/ML exploits for responsibly disclosed vulnerabilities
 - [AI Trends](https://epochai.org/trends) features key numbers and data visualizations in AI, related Epoch reports and other sources that showcase the change and growth in AI over time
+- [Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference) curated list of Awesome LLM Inference Paper with codes, TensorRT-LLM, vLLM, streaming-llm, AWQ, SmoothQuant, WINT8/4, Continuous Batching, FlashAttention, PagedAttention etc.
 
 ## Product Showcases
 
@@ -642,6 +650,8 @@ prompt templating / grammar / engineering:
 - [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard) evaluates base coding models
 - [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html) evaluates AI Coders with rigorous tests
 - [AgentBoard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html) Evaluation Board of Multi-turn LLM Agents
+- [Enterprise Scenarios Leaderboard](https://huggingface.co/spaces/PatronusAI/enterprise_scenarios_leaderboard) evaluates the performance of LLMs on real-world enterprise use cases, some of the test sets are closed source to prevent cheating
+- [NP Hard Eval Leaderboard](https://huggingface.co/spaces/NPHardEval/NPHardEval-leaderboard) benchmark for assessing the reasoning abilities of LLMs by using NP Hard problems
 
 ### Benchmark Suites
 
@@ -678,6 +688,10 @@ prompt templating / grammar / engineering:
 - [S-LoRA](https://github.com/S-LoRA/S-LoRA) Serving Thousands of Concurrent LoRA Adapters
 - [PowerInfer](https://github.com/sjtu-ipads/powerinfer) Fast LLM Serving with a Consumer-grade GPU leveraging activation locality, [PR on llama.cpp](https://github.com/ggerganov/llama.cpp/pull/4543), [issue on ollama](https://github.com/jmorganca/ollama/issues/1628)
 - [TaskingAI](https://github.com/TaskingAI/TaskingAI) open source platform for AI-native application development
+- [inferflow](https://github.com/inferflow/inferflow) LLM inference serving engine with support for Multi-GPU, Quantization supporting gguf, llama2, safetensors and many model families
+- [LMDeploy](https://github.com/InternLM/lmdeploy multi-model, multi-machine, multi-card inference service for many models
+- [powerinfer](https://github.com/sjtu-ipads/powerinfer) High-speed Model Inference Serving on Consumer GPU/CPU using activation locality for hot/cold neurons
+- [lorax](https://github.com/predibase/lorax) Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
 
 ## Databases for ML
 

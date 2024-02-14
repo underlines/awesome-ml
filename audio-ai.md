@@ -155,6 +155,7 @@
   - [audiocraft-infinity-webui](https://github.com/1aienthusiast/audiocraft-infinity-webui) generation length  over 30 seconds, ability to continue songs, seeds, allows to load local models
   - [AudioCraft Plus](https://github.com/GrandaddyShmax/audiocraft_plus) an all-in-one WebUI for the original AudioCraft, adding multiband diffusion, continuation, custom model support, mono to stereo and more
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
+- [StableAudio](https://github.com/Stability-AI/stable-audio-tools) Stability AI's Stable Audio only providing Training and Inference code, no models
 
 ## Audio Source Separation
 
