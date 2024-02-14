@@ -63,6 +63,7 @@ other:
   - [Sytan ComfyUI SDXL workflow](https://github.com/SytanSD/Sytan-SDXL-ComfyUI/tree/main) with txt2img using base and refiner
 - [Automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) well known UI for Stable Diffusion
   - [sd-webui-cloud-inference](https://github.com/omniinfer/sd-webui-cloud-inference) extension via omniinfer.io
+  - [stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) platform on top of SDWebUI to make development easier, optimize resource management, and speed up inference
 - [SD.Next](https://github.com/vladmandic/automatic) vladmandic/automatic Fork, seemingly more active development efforts compared to automatic1111's original repo
 - [Fooocus](https://github.com/lllyasviel/Fooocus) Midjourney alike GUI for SDXL to focus on prompting and generating
   - [RuinedFooocus](https://github.com/runew0lf/RuinedFooocus) A Fooocus fork
@@ -76,6 +77,7 @@ other:
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) CPU inference of Stable Diffusion in pure C/C++ with huge performance gains, supporting ggml, 16/32 bit float, 4/5/8 bit quantization, AVX/AVX2/AVX512, SD1.x, SD2.x, txt2img/img2img
 - [FaceFusion](https://github.com/facefusion/facefusion) Next generation face swapper and enhancer
 - [OneFlow](https://github.com/Oneflow-Inc/diffusers) Backend for diffusers and ComfyUI
+
 
 ## Fine Tuning
 

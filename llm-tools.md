@@ -191,6 +191,7 @@ others:
 - [cognee](https://github.com/topoteretes/cognee) Memory management for RAG and AI Applications and Agents
 - [bionic-gpt](https://github.com/bionic-gpt/bionic-gpt) LLM deployment with authentication, team and RBAC functionality, RAG pipeline, tenants etc.
 - [rawdog](https://github.com/AbanteAI/rawdog) CLI assistant that responds by generating and auto-executing a Python script. Recursive Augmentation With Deterministic Output Generations (RAWDOG) is a novel alternative to RAG
+- [ADeus](https://github.com/adamcohenhillel/ADeus) RAG Chatbot for everything you say, by using an always on audio recorder and a Web App
 
 ## Browser Extensions
 
@@ -263,6 +264,7 @@ others:
 - [crewAI](https://github.com/joaomdmoura/crewAI) framework for orchestrating role-playing, autonomous AI agents
 - [phidata](https://github.com/phidatahq/phidata) toolkit for building AI Assistants using function calling enabling RAG and other workflows
 - [FRIDAY](https://github.com/OS-Copilot/FRIDAY) Framework for Computer Agents with Self-Improvement on OSX and Linux
+- [agentkit](https://github.com/BCG-X-Official/agentkit) Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
 
 ## Multi Modal
 
