@@ -100,3 +100,4 @@ other:
 - [SnapFusion](https://snap-research.github.io/SnapFusion/) Fast text-to-image diffusion on mobile phones in 2 seconds
 - [Objaverse-xl](https://objaverse.allenai.org/objaverse-xl-paper.pdf) dataset of 10 million annotated high quality 3D objects, [hf](https://huggingface.co/datasets/allenai/objaverse)
 - [LightGlue](https://github.com/cvg/LightGlue) Local Feature Matching at Light Speed, a lightweight feature matcher with high accuracy and blazing fast inference. It takes as input a set of keypoints and descriptors for each image and returns the indices of corresponding points
+- [ml-mgie](https://github.com/apple/ml-mgie) Guiding Instruction-based Image Editing via Multimodal Large Language Models

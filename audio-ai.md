@@ -86,6 +86,7 @@
 - [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
 - [EmotiVoice](https://github.com/netease-youdao/EmotiVoice) Multi-Voice and Prompt-Controlled TTS Engine
 - [WhisperSpeech](https://github.com/collabora/WhisperSpeech) inverted whisper (aka spear-tts) with voice cloning, language mixing using EnCodec and Vocos
+- [metavoice](https://github.com/metavoiceio/metavoice-src) supporting emotional speech rhythm and tone, cloning for British and American English and cross lingual cloning with finetuning
 
 ## Voice Conversion
 

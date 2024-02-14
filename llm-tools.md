@@ -262,6 +262,7 @@ others:
 - [TaskWeaver](https://github.com/microsoft/TaskWeaver) code-first agent framework for planning and executing data analytics tasks interpreting user requests and coordinating plugins
 - [crewAI](https://github.com/joaomdmoura/crewAI) framework for orchestrating role-playing, autonomous AI agents
 - [phidata](https://github.com/phidatahq/phidata) toolkit for building AI Assistants using function calling enabling RAG and other workflows
+- [FRIDAY](https://github.com/OS-Copilot/FRIDAY) Framework for Computer Agents with Self-Improvement on OSX and Linux
 
 ## Multi Modal
 
@@ -301,6 +302,7 @@ others:
 - [chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) vscode extension to use unofficial chatGPT API for a code context based chat side bar within the editor
 - [codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) vscode extension to use the CodeShell-7b models
 - [localpilot](https://github.com/danielgross/localpilot) vscode copilot alternative using local llama.cpp/ggml models on Mac
+- [sweep](https://github.com/sweepai/sweep) AI-powered Junior Developer for small features and bug fixes.
 
 ## Libraries and Wrappers
 
@@ -404,6 +406,7 @@ prompt templating / grammar / engineering:
 - [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced) by Huggingface, faster and easier training and deployments of state-of-the-art machine learning models
 - [Pearl](https://github.com/facebookresearch/pearl) Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)
+- [LLaMa2lang](https://github.com/UnderstandLingBV/LLaMa2lang) convenience scripts to finetune any foundation model for chat towards any language
 
 ## Merging & Quantization
 
@@ -551,6 +554,7 @@ prompt templating / grammar / engineering:
 - [QMoE](https://arxiv.org/abs/2310.16795) Practical Sub-1-Bit Compression of Trillion-Parameter Models, [code](https://github.com/IST-DASLab/qmoe), [bitsandbytes sparse_MoE implementation](https://github.com/TimDettmers/bitsandbytes/tree/sparse_moe), [QMoE in llama.cpp](https://github.com/ggerganov/llama.cpp/issues/4445), [LoRa experts as alternative to QMoE](https://github.com/ggerganov/llama.cpp/issues/4611)
 - [mamba](https://arxiv.org/abs/2312.00752) alternative to transformer architecture for LLMs using Linear-Time Sequence Modeling with Selective State Spaces [code](https://github.com/state-spaces/mamba)
 - [StreamingLLM](http://arxiv.org/abs/2309.17453) Efficient Streaming Language Models with Attention Sinks for bigger Context Windows, [code](https://github.com/mit-han-lab/streaming-llm)
+- [Chain of Abstraction](https://arxiv.org/abs/2401.17464) CoA A New Method for LLMs to Better Leverage Tools in Multi-Step Reasoning
 
 # Other awesome resources
 

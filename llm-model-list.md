@@ -37,3 +37,8 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [Mixtral of experts](https://mistral.ai/news/mixtral-of-experts/) A high quality Sparse Mixture-of-Experts.
 - [meditron](https://github.com/epfLLM/meditron) 7B and 70B Llama2 based LLM fine tuning adapted for the medical domain
 - [SeaLLM](https://huggingface.co/SeaLLMs/SeaLLM-7B-v2) multilingual LLM for Southeast Asian (SEA) languages 🇬🇧 🇨🇳 🇻🇳 🇮🇩 🇹🇭 🇲🇾 🇰🇭 🇱🇦 🇲🇲 🇵🇭
+- [seamlessM4T v2](https://huggingface.co/docs/transformers/en/model_doc/seamless_m4t_v2) Multimodal Audio and Text Translation between many languages
+- [aya-101](https://huggingface.co/CohereForAI/aya-101) 13b model fine tuned open acess multilingual LLM from Cohere For AI
+- [SLIM Model Family](https://huggingface.co/llmware) Small Specialized Function-Calling Models for Multi-Step Automation, focused on enterprise RAG workflows
+- [Smaug-72B](https://huggingface.co/abacusai/Smaug-72B-v0.1) Based on Qwen-72B and MoMo-72B-Lora then finetuned by Abacus.AI, is the best performing Open LLM on the HF leaderboard by Feb-2024
+- 
