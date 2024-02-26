@@ -698,6 +698,7 @@ prompt templating / grammar / engineering:
 - [LMDeploy](https://github.com/InternLM/lmdeploy multi-model, multi-machine, multi-card inference service for many models
 - [powerinfer](https://github.com/sjtu-ipads/powerinfer) High-speed Model Inference Serving on Consumer GPU/CPU using activation locality for hot/cold neurons
 - [lorax](https://github.com/predibase/lorax) Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
+- [Geniusrise](https://docs.geniusrise.ai) AI microservices framework & ecosystem. Host inference APIs, schedule bulk inference and fine tune text, vision, audio and multi-modal models.
 
 ## Databases for ML
 
