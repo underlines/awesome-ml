@@ -39,6 +39,7 @@ ollama:
 - [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
 - [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
+- [tlm](https://github.com/yusufcanb/tlm) Terminal companion, powered by CodeLLaMa. 💻🦙
 
 others:
 
