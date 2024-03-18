@@ -117,6 +117,7 @@ others:
 - [sherpa](https://github.com/Bip-Rep/sherpa) llama.cpp on android
 - [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) C++ implementation of ChatGLM-6B & ChatGLM2-6B
 - [MLX](https://github.com/ml-explore/mlx) Apple's ML Toolkit supporting Transformers in the MLX format for faster inference
+- [Floom](https://github.com/FloomAI/Floom) AI gateway and marketplace for developers, enables streamlined integration of AI features into products
 
 ## Voice Assistants
 
