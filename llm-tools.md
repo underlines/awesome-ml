@@ -139,6 +139,7 @@ others:
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
 - [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
+- [Kobold-Assistant](https://github.com/lee-b/kobold_assistant) Fully conversational local OpenAI Whisper + Local LLMS + Local Coqui
 - [WhisperFusion](https://github.com/collabora/WhisperFusion) ultra low latency conversations built with WhisperLive, WhisperSpeech and Mistral
 
 ## Retrieval Augmented Generation (RAG)
