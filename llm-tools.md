@@ -710,3 +710,4 @@ prompt templating / grammar / engineering:
 - [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
 - [chroma](https://github.com/chroma-core/chroma) open-source embedding database
 - [pgvector](https://github.com/pgvector/pgvector) open-source vector similarity search for Postgres.
+- [chromem-go](https://github.com/philippgille/chromem-go) embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence. 
