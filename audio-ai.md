@@ -37,6 +37,7 @@
   - [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win) portable ready to run binaries of faster-whisper for Windows
   - [asr-sd-pipeline](https://github.com/hedrergudene/asr-sd-pipeline) scalable, modular, end to end multi-speaker speech to text solution implemented using AzureML pipelines
   - [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) The fastest Whisper optimization for automatic speech recognition as a command-line interface
+  - [WhisperLive](https://github.com/collabora/WhisperLive) real time transcription using voice activity detection and TensorRT or FasterWhisper backends
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
@@ -57,6 +58,7 @@
   - [Bark-RVC](https://github.com/ORI-Muchim/BARK-RVC) Multilingual Speech Synthesis Voice Conversion using Bark + RVC
 - [Coqui TTS | deep learning toolkit for Text-to-Speech](https://github.com/coqui-ai/TTS)
   - [Tutorial](https://www.youtube.com/watch?v=dfmlyXHQOwE) for Coqui VITS and Whisper to automate voice cloning and [Colab notebook](https://colab.research.google.com/drive/1Swo0GH_PjjAMqYYV6He9uFaq5TQsJ7ZH?usp=sharing#scrollTo=nSrZbKCXxalg)
+- [StyleTTS2 implementation](https://github.com/yl4579/StyleTTS2) Elevenlabs quality TTS through Style Diffusion and Adversarial Training with Large Speech Language Models
 - [StyleTTS implementation](https://github.com/yl4579/StyleTTS)
   - [StyleTTS-VC](https://github.com/yl4579/StyleTTS-VC) One-Shot Voice Conversion by Knowledge Transfer from Style-Based TTS Models
 - [Vall-E and Vall-E X](https://valle-demo.github.io/), [paper](https://arxiv.org/abs/2301.02111), [code](https://github.com/enhuiz/vall-e). Zero Shot TTS preserving emotion, expression, similarity and allows language transfer
@@ -83,6 +85,9 @@
 - [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
 - [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 - [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
+- [EmotiVoice](https://github.com/netease-youdao/EmotiVoice) Multi-Voice and Prompt-Controlled TTS Engine
+- [WhisperSpeech](https://github.com/collabora/WhisperSpeech) inverted whisper (aka spear-tts) with voice cloning, language mixing using EnCodec and Vocos
+- [metavoice](https://github.com/metavoiceio/metavoice-src) supporting emotional speech rhythm and tone, cloning for British and American English and cross lingual cloning with finetuning
 - [StyleTTS2](https://github.com/yl4579/StyleTTS2) Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
   - [StyleTTS2 pip](https://github.com/sidharthrajaram/StyleTTS2) Python pip package for StyleTTS2
 
@@ -141,6 +146,7 @@
 - [video-retalking](https://github.com/OpenTalker/video-retalking) Audio-based Lip Synchronization for Talking Head Video Editing In the Wild
 - [Wunjo AI](https://github.com/wladradchenko/wunjo.wladradchenko.ru) Synthesize & clone voices in English, Russian & Chinese, real-time speech recognition, deepfake face & lips animation, face swap with one photo, change video by text prompts, segmentation, and retouching. Open-source, local & free
 - [YouTranslate](https://github.com/AdiKsOnDev/YouTranslate) Takes a youtube video, clones the voice with elevenlabs API translate the text with google translate API and re-creates that video in a different language
+- [audio2photoreal](https://github.com/facebookresearch/audio2photoreal) Photoreal Embodiment by Synthesizing Humans including pose, hands and face in Conversations
 
 ## Music Generation
 
@@ -155,6 +161,7 @@
   - [audiocraft-infinity-webui](https://github.com/1aienthusiast/audiocraft-infinity-webui) generation length  over 30 seconds, ability to continue songs, seeds, allows to load local models
   - [AudioCraft Plus](https://github.com/GrandaddyShmax/audiocraft_plus) an all-in-one WebUI for the original AudioCraft, adding multiband diffusion, continuation, custom model support, mono to stereo and more
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
+- [StableAudio](https://github.com/Stability-AI/stable-audio-tools) Stability AI's Stable Audio only providing Training and Inference code, no models
 
 ## Audio Source Separation
 
