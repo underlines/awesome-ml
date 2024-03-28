@@ -58,7 +58,6 @@ others:
 - [text-generation-inference](https://github.com/huggingface/text-generation-inference) Rust, Python and gRPC server for text generation inference. Used in production at HuggingFace to power LLMs api-inference widgets
 - [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 - [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
-- [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
 - [Windows AI Studio](https://github.com/microsoft/windows-ai-studio) Visual Studio Code extension for Fine-tuning, RAG development and inference of local models
 - [jan](https://github.com/janhq/jan) an open source alternative to ChatGPT that runs 100% offline on Windows, Intel/Apple Silicon Mac, Linux and Mobile
 - [open-interpreter](https://github.com/KillianLucas/open-interpreter) lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal
@@ -169,6 +168,7 @@ others:
 - [AIDE](https://github.com/vsraptor/aide/tree/main) CLI based privateGPT fork, improved, refactored, multiline support, model switch support, non question command support
 - [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain using Llama 2, supporting multiple data sources, web search etc.
 - [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
+- [local-rag](https://github.com/jonfairbanks/local-rag) Ingest files for RAG with open LLMs, without 3rd parties or data leaving your network
 
 ### Model Agnostic
 
@@ -193,6 +193,7 @@ others:
 - [rawdog](https://github.com/AbanteAI/rawdog) CLI assistant that responds by generating and auto-executing a Python script. Recursive Augmentation With Deterministic Output Generations (RAWDOG) is a novel alternative to RAG
 - [ADeus](https://github.com/adamcohenhillel/ADeus) RAG Chatbot for everything you say, by using an always on audio recorder and a Web App
 - [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
+- [R2R](https://github.com/SciPhi-AI/R2R) open-source framework for building, deploying and optimizing enterprise RAG systems using FastAPI, LiteLLM, DeepEval and flexible components
 
 ## Browser Extensions
 
@@ -266,6 +267,8 @@ others:
 - [phidata](https://github.com/phidatahq/phidata) toolkit for building AI Assistants using function calling enabling RAG and other workflows
 - [FRIDAY](https://github.com/OS-Copilot/FRIDAY) Framework for Computer Agents with Self-Improvement on OSX and Linux
 - [agentkit](https://github.com/BCG-X-Official/agentkit) Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
+- [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) control a web browser through natural language instructions using visual language models
 
 ## Multi Modal
 
@@ -308,6 +311,8 @@ others:
 - [sweep](https://github.com/sweepai/sweep) AI-powered Junior Developer for small features and bug fixes.
 - [devika](https://github.com/stitionai/devika) Open Source Devin clone. Software Engineer that takes high level human instructions, breaks them down, plans ahead and creates a software product out of it
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) Open Source Devin clone imitating an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects
+- [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) Interface, framework and models for code generation, execution and improvement
+- [gptscript](https://github.com/gptscript-ai/gptscript) natural language scripting language to achieve tasks by writing and executing code using an LLM
 
 ## Libraries and Wrappers
 
@@ -377,6 +382,7 @@ others:
 - [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
 - [activepieces](https://github.com/activepieces/activepieces) Automation with SaaS tools and GPT using a visual graph/flow/node based workflow
 - [kernel-memory](https://github.com/microsoft/kernel-memory) Index and query any data using LLM and natural language, tracking sources and showing citations, ideal for RAG pipelines
+- [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
 
 prompt templating / grammar / engineering:
 
@@ -412,10 +418,12 @@ prompt templating / grammar / engineering:
 - [Pearl](https://github.com/facebookresearch/pearl) Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)
 - [LLaMa2lang](https://github.com/UnderstandLingBV/LLaMa2lang) convenience scripts to finetune any foundation model for chat towards any language
+- [fsdp_qlora](https://github.com/AnswerDotAI/fsdp_qlora) Answer.AI's training script enabling 70B training on 48GB vram utilizing QLoRA + FSDP, also available in Axolotl
+- [unsloth](https://github.com/unslothai/unsloth) 2-5x faster and 60% less memory local QLoRA finetuning supporting Llama, CodeLlama, Mistral, TinyLlama etc. using Triton
+- [transformerlab](https://github.com/transformerlab/transformerlab-app) Download, interact, and finetune models locally in a convenient GUI
 
 ## Merging & Quantization
 
-- [unsloth](https://github.com/unslothai/unsloth) 2-5x faster and 60% less memory local QLoRA finetuning supporting Llama, CodeLlama, Mistral, TinyLlama etc. using Triton
 - [mergekit](https://github.com/cg123/mergekit) Tools for merging pretrained large language models.
 - [MergeLM](https://github.com/yule-BUAA/MergeLM) LLMs are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 - [SLERP](https://github.com/Digitous/LLM-SLERP-Merge) Spherical Linear Interpolation Model Merging
@@ -560,6 +568,8 @@ prompt templating / grammar / engineering:
 - [mamba](https://arxiv.org/abs/2312.00752) alternative to transformer architecture for LLMs using Linear-Time Sequence Modeling with Selective State Spaces [code](https://github.com/state-spaces/mamba)
 - [StreamingLLM](http://arxiv.org/abs/2309.17453) Efficient Streaming Language Models with Attention Sinks for bigger Context Windows, [code](https://github.com/mit-han-lab/streaming-llm)
 - [Chain of Abstraction](https://arxiv.org/abs/2401.17464) CoA A New Method for LLMs to Better Leverage Tools in Multi-Step Reasoning
+- [The Era of 1-bit LLMs](https://arxiv.org/abs/2402.17764) All Large Language Models are in 1.58 Bits
+- [Large World Model](https://largeworldmodel.github.io/) World Model on Million-Length Video and Language with Blockwise RingAttention by UC Berkley
 
 # Other awesome resources
 
@@ -608,6 +618,7 @@ prompt templating / grammar / engineering:
 - [ai-exploits](https://github.com/protectai/ai-exploits) A collection of real world AI/ML exploits for responsibly disclosed vulnerabilities
 - [AI Trends](https://epochai.org/trends) features key numbers and data visualizations in AI, related Epoch reports and other sources that showcase the change and growth in AI over time
 - [Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference) curated list of Awesome LLM Inference Paper with codes, TensorRT-LLM, vLLM, streaming-llm, AWQ, SmoothQuant, WINT8/4, Continuous Batching, FlashAttention, PagedAttention etc.
+- [fuck you, show me the prompt](https://hamel.dev/blog/posts/prompt/) Quickly understand inscrutable LLM frameworks by intercepting API calls.
 
 ## Product Showcases
 
@@ -703,6 +714,8 @@ prompt templating / grammar / engineering:
 - [lorax](https://github.com/predibase/lorax) Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
 - [node-llmatic](https://huggingface.co/CohereForAI/c4ai-command-r-v01) self-hosted LLMs with an OpenAI compatible API
 - [Nitro - Embeddable AI](https://github.com/janhq/nitro) An inference server on top of llama.cpp. OpenAI-compatible API, queue, & scaling. Embed a prod-ready, local inference engine in your apps. Powers Jan
+- [gateway](https://github.com/missingstudio/gateway) Robust cloud-native AI Gateway and LLMOps infrastructure stack with routing, load balancing, fallback, analytics, caching, PII filter
+- [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes
 
 ## Databases for ML
 

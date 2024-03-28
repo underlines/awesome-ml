@@ -43,3 +43,4 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [Smaug-72B](https://huggingface.co/abacusai/Smaug-72B-v0.1) Based on Qwen-72B and MoMo-72B-Lora then finetuned by Abacus.AI, is the best performing Open LLM on the HF leaderboard by Feb-2024
 - [AI21 Jamba](https://huggingface.co/ai21labs/Jamba-v0.1) production-grade Mamba-based hybrid SSM-Transformer Model licensed under Apache 2.0 with 256K context and 52B MoE at 12B each
 - [command-r](https://www.maginative.com/article/cohere-launches-command-r-scalable-ai-model-for-enterprise-rag-and-tool-use/) 35B optimized for retrieval augmented generation (RAG) and tool use supporting Embed and Rerank methodology. [model weights](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
+- [StarCoder2](https://huggingface.co/bigcode/starcoder2-15b) 15B, 7B and 3B code completion models trained on The Stack v2
