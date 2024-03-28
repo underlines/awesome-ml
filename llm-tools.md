@@ -178,8 +178,6 @@ others:
 - [factool](https://github.com/gair-nlp/factool) factuality Detection in Generative AI
 - [opencopilot](https://github.com/opencopilotdev/opencopilot) LLM agnostic, open source Microsoft Copilot alternative to easily built copilot functionality with RAG, Knowledgebase, Conversional History, Eval, UX into your product
 - [DocsGPT](https://github.com/arc53/DocsGPT) chat with your project documentation using RAG, supports OpenAI and local LLMs, and also provides a RAG-fine-tuned docsgpt-14b [model](https://huggingface.co/Arc53/docsgpt-14b)
-- [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
-- [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
 - [Swiss Army Llama](https://github.com/Dicklesworthstone/swiss_army_llama) FastAPI service for semantic text search using precomputed embeddings and advanced similarity measures, with built-in support for various file types through textract
 - [Quivr](https://github.com/StanGirard/quivr) Dump all your files and thoughts into your private GenerativeAI Second Brain and chat with it
 - [danswer](https://github.com/danswer-ai/danswer) Model agnostic RAG QA with many advanced features like Hybrid search + Reranking, time extraction, user intent identification, User access level management, document update and connectors for many SaaS tools
@@ -728,3 +726,5 @@ prompt templating / grammar / engineering:
 - [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
 - [chroma](https://github.com/chroma-core/chroma) open-source embedding database
 - [pgvector](https://github.com/pgvector/pgvector) open-source vector similarity search for Postgres.
+- [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
+- [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
