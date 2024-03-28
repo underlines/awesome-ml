@@ -65,6 +65,7 @@
   - [Vall-E X](https://github.com/Plachtaa/VALL-E-X) open source implementation of Microsoft's VALL-E X zero-shot TTS model
 - [NaturalSpeech implmenetation](https://github.com/heatz123/naturalspeech)
   - [naturalspeech2-pytorch](https://github.com/lucidrains/naturalspeech2-pytorch) Implementation of Natural Speech 2, Zero-shot Speech and Singing Synthesizer, in Pytorch
+  - [NS2VC](https://github.com/adelacvg/NS2VC) Unofficial implementation of NaturalSpeech2 for Voice Conversion and Text to Speech
 - [IMS Toucan, TTS Toolkit from University of Stuttgart](https://github.com/digitalphonetics/ims-toucan)
 - [YourTTS | Zero Shot Multi Speaker TTS and Voice Conversion for everyone](https://github.com/Edresson/YourTTS)
 - [PaddleSpeech | Easy to use Speech Toolkit with Self Supervised learning, SOTA Streaming with punctuation, TTS, Translation etc](https://github.com/PaddlePaddle/PaddleSpeech)
@@ -82,6 +83,8 @@
 - [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
 - [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 - [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
+- [StyleTTS2](https://github.com/yl4579/StyleTTS2) Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
+  - [StyleTTS2 pip](https://github.com/sidharthrajaram/StyleTTS2) Python pip package for StyleTTS2
 
 ## Voice Conversion
 
@@ -123,6 +126,8 @@
 - [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
 - [OpenVoice](https://github.com/myshell-ai/openvoice) Instant Voice Cloning with accuracte tone color, flexibel style control and zero-shot cross lingual voice cloning
 - [NeuCoSVC](https://github.com/thuhcsi/NeuCoSVC?tab=readme-ov-file) official implementation of Neural Concatenative Singing Voice Conversion [paper](https://arxiv.org/abs/2312.04919)
+- [talking-avatar-and-voice-cloning](https://github.com/alifallaha1/talking-avatar-and-voice-cloning) streamlit app with XTTS and SadTalker implementation featuring lip sync and avatar animation
+- [AiVoiceClonerPRO](https://github.com/AryanVBW/AiVoiceClonerPRO) easy web interface using VITS and InterSpeech2023-RMVPE pitch extraction method
 
 ## Video Voice Dubbing
 
@@ -154,7 +159,12 @@
 ## Audio Source Separation
 
 - [Separate Anything You Describe](https://github.com/audio-agi/audiosep) Describe what you want to isolate from audio, Language-queried audio source separation (LASS), [paper](https://arxiv.org/abs/2308.05037v1)
-
+- [Hybrid-Net](https://github.com/DoMusic/Hybrid-Net) Real-time audio source separation, generate lyrics, chords, beat by lamucal.ai
+- [TubeSplitter](https://github.com/WNSTN92/TubeSplitter) Web application to extract and separate audio stems from YouTube videos using Flask, pytube, and spleeter
+- [demucs](https://github.com/adefossez/demucs) Hybrid Transformer based source separation
+  - [streamstem](https://github.com/otonomee/streamstem) web app utilizing yt-dlp, spotify-api and demucs for an end to end audio source separation pipeline
+  - [moseca](https://github.com/fabiogra/moseca) web app for Music Source Separation & Karaoke utilizig demucs
+  - [MISST](https://github.com/Frikallo/MISST) native windows GUI for demucs supporting youtube, spotify and files
 ## Research
 
 - [Vocos](https://charactr-platform.github.io/vocos/) Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis

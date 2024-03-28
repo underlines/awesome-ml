@@ -178,6 +178,7 @@ others:
 - [danswer](https://github.com/danswer-ai/danswer) Model agnostic RAG QA with many advanced features like Hybrid search + Reranking, time extraction, user intent identification, User access level management, document update and connectors for many SaaS tools
 - [SecureAI-Tools](https://github.com/SecureAI-Tools/SecureAI-Tools) Chat with local documents through various local or commercial models, supporting user authentication
 - [OpenCopilot](https://github.com/openchatai/OpenCopilot) implement RAG principles with your own LLM supporting API calling of multiple endpoints
+- [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
 
 ## Browser Extensions
 
@@ -244,6 +245,7 @@ others:
 - [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) Open-source Framework for Autonomous Language Agents with LSTM, Tool Usage, Web Navigation, Multi Agent Communication and Human-Agent interaction, [paper](https://arxiv.org/pdf/2309.07870.pdf)
 - [autogen](https://github.com/microsoft/autogen) framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks, [paper](https://arxiv.org/abs/2308.08155v2)
 - [openagents](https://github.com/xlang-ai/openagents) an Open Platform for Language Agents in the Wild, [paper](https://arxiv.org/abs/2310.10634)
+- [crewAI](https://github.com/joaomdmoura/crewAI) Framework for orchestrating role-playing, autonomous AI agents
 
 ## Multi Modal
 
@@ -281,6 +283,8 @@ others:
 - [chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) vscode extension to use unofficial chatGPT API for a code context based chat side bar within the editor
 - [codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) vscode extension to use the CodeShell-7b models
 - [localpilot](https://github.com/danielgross/localpilot) vscode copilot alternative using local llama.cpp/ggml models on Mac
+- [devika](https://github.com/stitionai/devika) Open Source Devin clone. Software Engineer that takes high level human instructions, breaks them down, plans ahead and creates a software product out of it
+- [OpenDevin](https://github.com/OpenDevin/OpenDevin) Open Source Devin clone imitating an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects
 
 ## Libraries and Wrappers
 
@@ -646,6 +650,8 @@ prompt templating / grammar:
 - [dvc](https://github.com/iterative/dvc) ML Experiments Management with Git
 - [S-LoRA](https://github.com/S-LoRA/S-LoRA) Serving Thousands of Concurrent LoRA Adapters
 - [PowerInfer](https://github.com/sjtu-ipads/powerinfer) Fast LLM Serving with a Consumer-grade GPU leveraging activation locality, [PR on llama.cpp](https://github.com/ggerganov/llama.cpp/pull/4543), [issue on ollama](https://github.com/jmorganca/ollama/issues/1628)
+- [node-llmatic](https://huggingface.co/CohereForAI/c4ai-command-r-v01) self-hosted LLMs with an OpenAI compatible API
+- [Nitro - Embeddable AI](https://github.com/janhq/nitro) An inference server on top of llama.cpp. OpenAI-compatible API, queue, & scaling. Embed a prod-ready, local inference engine in your apps. Powers Jan
 
 ## Databases for ML
 
