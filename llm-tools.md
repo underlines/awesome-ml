@@ -39,7 +39,6 @@ ollama:
 - [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
 - [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
-- [tlm](https://github.com/yusufcanb/tlm) Terminal companion, powered by CodeLLaMa. 💻🦙
 
 others:
 
@@ -313,6 +312,7 @@ others:
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) Open Source Devin clone imitating an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects
 - [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) Interface, framework and models for code generation, execution and improvement
 - [gptscript](https://github.com/gptscript-ai/gptscript) natural language scripting language to achieve tasks by writing and executing code using an LLM
+- [tlm](https://github.com/yusufcanb/tlm) Local CLI Copilot, powered by CodeLLaMa
 
 ## Libraries and Wrappers
 
