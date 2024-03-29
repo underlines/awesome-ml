@@ -54,6 +54,7 @@ other:
 - [x-stable-diffusion](https://github.com/stochasticai/x-stable-diffusion) Real-time inference for Stable Diffusion - 0.88s latency
 - [Depth-Anything](https://github.com/LiheYoung/Depth-Anything) Better depth estimation including a ControlNet for ComfyUI and ONNX and TensorRT versions
 - [SUPIR](https://github.com/Fanghua-Yu/SUPIR) Super Resolution and Image Restoration
+- [RMBG](https://huggingface.co/briaai/RMBG-1.4) BRIA Background Removal model. [hf demo space](https://huggingface.co/spaces/briaai/BRIA-RMBG-1.4)
 
 ## Wrappers & GUIs
 
@@ -77,7 +78,6 @@ other:
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) CPU inference of Stable Diffusion in pure C/C++ with huge performance gains, supporting ggml, 16/32 bit float, 4/5/8 bit quantization, AVX/AVX2/AVX512, SD1.x, SD2.x, txt2img/img2img
 - [FaceFusion](https://github.com/facefusion/facefusion) Next generation face swapper and enhancer
 - [OneFlow](https://github.com/Oneflow-Inc/diffusers) Backend for diffusers and ComfyUI
-
 
 ## Fine Tuning
 
