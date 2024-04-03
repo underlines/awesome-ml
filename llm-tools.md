@@ -312,6 +312,7 @@ others:
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) Open Source Devin clone imitating an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects
 - [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) Interface, framework and models for code generation, execution and improvement
 - [gptscript](https://github.com/gptscript-ai/gptscript) natural language scripting language to achieve tasks by writing and executing code using an LLM
+- [tlm](https://github.com/yusufcanb/tlm) Local CLI Copilot, powered by CodeLLaMa
 - [llm-cmd](https://github.com/simonw/llm-cmd) Use LLM to generate and execute commands in your terminal/shell/cli
 - [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) system for autonomously solving issues in GitHub repos. Gets similar accuracy to Devin on SWE-bench, takes 93 seconds on avg
