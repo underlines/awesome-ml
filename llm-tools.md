@@ -192,6 +192,7 @@ others:
 - [ADeus](https://github.com/adamcohenhillel/ADeus) RAG Chatbot for everything you say, by using an always on audio recorder and a Web App
 - [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
 - [R2R](https://github.com/SciPhi-AI/R2R) open-source framework for building, deploying and optimizing enterprise RAG systems using FastAPI, LiteLLM, DeepEval and flexible components
+- [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking
 
 ## Browser Extensions
 
@@ -313,6 +314,9 @@ others:
 - [gptscript](https://github.com/gptscript-ai/gptscript) natural language scripting language to achieve tasks by writing and executing code using an LLM
 - [llm-cmd](https://github.com/simonw/llm-cmd) Use LLM to generate and execute commands in your terminal/shell/cli
 - [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
+- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) system for autonomously solving issues in GitHub repos. Gets similar accuracy to Devin on SWE-bench, takes 93 seconds on avg
+- [openui](https://github.com/wandb/openui) v0.dev alternative for text guided UI creation for HTML/React,Svelte, Web Components, etc.
+- [codel](https://github.com/semanser/codel) autonomus agent performing tasks and projects using terminal, browser and editor
 
 ## Libraries and Wrappers
 
