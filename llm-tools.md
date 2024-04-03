@@ -137,6 +137,7 @@ others:
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
 - [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
+- [Kobold-Assistant](https://github.com/lee-b/kobold_assistant) Fully conversational local OpenAI Whisper + Local LLMS + Local Coqui
 - [WhisperFusion](https://github.com/collabora/WhisperFusion) ultra low latency conversations built with WhisperLive, WhisperSpeech and Mistral
 
 ## Retrieval Augmented Generation (RAG)
@@ -711,6 +712,7 @@ prompt templating / grammar / engineering:
 - [LMDeploy](https://github.com/InternLM/lmdeploy multi-model, multi-machine, multi-card inference service for many models
 - [powerinfer](https://github.com/sjtu-ipads/powerinfer) High-speed Model Inference Serving on Consumer GPU/CPU using activation locality for hot/cold neurons
 - [lorax](https://github.com/predibase/lorax) Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
+- [Geniusrise](https://github.com/geniusrise/geniusrise) AI microservices framework & ecosystem. Host inference APIs, schedule bulk inference and fine tune text, vision, audio and multi-modal models.
 - [node-llmatic](https://huggingface.co/CohereForAI/c4ai-command-r-v01) self-hosted LLMs with an OpenAI compatible API
 - [Nitro - Embeddable AI](https://github.com/janhq/nitro) An inference server on top of llama.cpp. OpenAI-compatible API, queue, & scaling. Embed a prod-ready, local inference engine in your apps. Powers Jan
 - [gateway](https://github.com/missingstudio/gateway) Robust cloud-native AI Gateway and LLMOps infrastructure stack with routing, load balancing, fallback, analytics, caching, PII filter
@@ -727,5 +729,6 @@ prompt templating / grammar / engineering:
 - [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
 - [chroma](https://github.com/chroma-core/chroma) open-source embedding database
 - [pgvector](https://github.com/pgvector/pgvector) open-source vector similarity search for Postgres.
+- [chromem-go](https://github.com/philippgille/chromem-go) embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence. 
 - [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 - [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
