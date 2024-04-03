@@ -56,13 +56,12 @@ others:
 - [selfhostedAI](https://github.com/josStorer/selfhostedAI) one-click deployment of RWKV, ChatGLM, llama.cpp models for substituting the openAI API to a locally hosted API
 - [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) run SOTA LLMs, supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed
 - [text-generation-inference](https://github.com/huggingface/text-generation-inference) Rust, Python and gRPC server for text generation inference. Used in production at HuggingFace to power LLMs api-inference widgets
-- [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 - [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
 - [Windows AI Studio](https://github.com/microsoft/windows-ai-studio) Visual Studio Code extension for Fine-tuning, RAG development and inference of local models
 - [jan](https://github.com/janhq/jan) an open source alternative to ChatGPT that runs 100% offline on Windows, Intel/Apple Silicon Mac, Linux and Mobile
 - [open-interpreter](https://github.com/KillianLucas/open-interpreter) lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal
 - [ClipboardConqueror](https://github.com/aseichter2007/ClipboardConqueror) a novel omnipresent copilot alternative designed to bring your very own LLM AI assistant to any text field
-- [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow
+- [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow.
 
 ## Web GUIs
 
@@ -193,6 +192,7 @@ others:
 - [ADeus](https://github.com/adamcohenhillel/ADeus) RAG Chatbot for everything you say, by using an always on audio recorder and a Web App
 - [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
 - [R2R](https://github.com/SciPhi-AI/R2R) open-source framework for building, deploying and optimizing enterprise RAG systems using FastAPI, LiteLLM, DeepEval and flexible components
+- [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking
 
 ## Browser Extensions
 
@@ -313,6 +313,11 @@ others:
 - [OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter) Interface, framework and models for code generation, execution and improvement
 - [gptscript](https://github.com/gptscript-ai/gptscript) natural language scripting language to achieve tasks by writing and executing code using an LLM
 - [tlm](https://github.com/yusufcanb/tlm) Local CLI Copilot, powered by CodeLLaMa
+- [llm-cmd](https://github.com/simonw/llm-cmd) Use LLM to generate and execute commands in your terminal/shell/cli
+- [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
+- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) system for autonomously solving issues in GitHub repos. Gets similar accuracy to Devin on SWE-bench, takes 93 seconds on avg
+- [openui](https://github.com/wandb/openui) v0.dev alternative for text guided UI creation for HTML/React,Svelte, Web Components, etc.
+- [codel](https://github.com/semanser/codel) autonomus agent performing tasks and projects using terminal, browser and editor
 
 ## Libraries and Wrappers
 
