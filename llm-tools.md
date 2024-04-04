@@ -268,6 +268,7 @@ others:
 - [agentkit](https://github.com/BCG-X-Official/agentkit) Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
 - [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) control a web browser through natural language instructions using visual language models
+- [BrainSoup](https://www.nurgo-software.com/products/brainsoup) multi-agent native client where agents can remember, react, use tools, leverage local and external resources, and work together autonomously
 
 ## Multi Modal
 
