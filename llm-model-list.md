@@ -44,3 +44,7 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [AI21 Jamba](https://huggingface.co/ai21labs/Jamba-v0.1) production-grade Mamba-based hybrid SSM-Transformer Model licensed under Apache 2.0 with 256K context and 52B MoE at 12B each
 - [command-r](https://www.maginative.com/article/cohere-launches-command-r-scalable-ai-model-for-enterprise-rag-and-tool-use/) 35B optimized for retrieval augmented generation (RAG) and tool use supporting Embed and Rerank methodology. [model weights](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
 - [StarCoder2](https://huggingface.co/bigcode/starcoder2-15b) 15B, 7B and 3B code completion models trained on The Stack v2
+- [command-r-plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) a 104B model with highly advanced capabilities including RAG and tool use for English, French, Spanish, Italian, German, Brazilian Portuguese, Japanese, Korean, Arabic, and Simplified Chinese
+- [DBRX](https://huggingface.co/databricks/dbrx-base) base and instruct MoE models from databricks with 132B total parameters and a larger number of smaller experts supporting RoPE and 32K context size
+- [grok-1](https://huggingface.co/xai-org/grok-1) 314b MoE model by xAI
+- [Mixtral-8x22B-v0.1](https://huggingface.co/v2ray/Mixtral-8x22B-v0.1) Sparse MoE model with 176B total and 44B active parameters, 65k context size

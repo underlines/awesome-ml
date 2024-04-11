@@ -193,6 +193,9 @@ others:
 - [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
 - [R2R](https://github.com/SciPhi-AI/R2R) open-source framework for building, deploying and optimizing enterprise RAG systems using FastAPI, LiteLLM, DeepEval and flexible components
 - [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking
+- [FreeAskInternet](https://github.com/nashsu/FreeAskInternet) Perplexity inspired, private and local search aggregator using LLMs
+- [dify](https://github.com/langgenius/dify) open-source LLM RAG development with visual graph based workflow editor, observability and model management
+- [morphic](https://github.com/miurla/morphic) slick RAG / Perplexity inspired stack built on next.js and tailwind
 
 ## Browser Extensions
 
@@ -426,6 +429,7 @@ prompt templating / grammar / engineering:
 - [fsdp_qlora](https://github.com/AnswerDotAI/fsdp_qlora) Answer.AI's training script enabling 70B training on 48GB vram utilizing QLoRA + FSDP, also available in Axolotl
 - [unsloth](https://github.com/unslothai/unsloth) 2-5x faster and 60% less memory local QLoRA finetuning supporting Llama, CodeLlama, Mistral, TinyLlama etc. using Triton
 - [transformerlab](https://github.com/transformerlab/transformerlab-app) Download, interact, and finetune models locally in a convenient GUI
+- [llm.c](https://github.com/karpathy/llm.c) train GPT and other LLM architectures with a native C based CUDA accelerated libary
 
 ## Merging & Quantization
 
