@@ -48,3 +48,7 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [DBRX](https://huggingface.co/databricks/dbrx-base) base and instruct MoE models from databricks with 132B total parameters and a larger number of smaller experts supporting RoPE and 32K context size
 - [grok-1](https://huggingface.co/xai-org/grok-1) 314b MoE model by xAI
 - [Mixtral-8x22B-v0.1](https://huggingface.co/v2ray/Mixtral-8x22B-v0.1) Sparse MoE model with 176B total and 44B active parameters, 65k context size
+- [aiXcoder](https://huggingface.co/aiXcoder/aixcoder-7b-base) 7B Code LLM for code completion, comprehension, generation
+- [WizardLM-2-7B](https://huggingface.co/microsoft/WizardLM-2-7B) Microsoft's WizardLM 2 7B, release for 70B coming up [backup0](https://huggingface.co/lucyknada/microsoft_WizardLM-2-7B)
+- [WizardLM-2-8x22B](https://huggingface.co/alpindale/WizardLM-2-8x22B) Microsoft's WizardLM 2 8x22B beating gpt-4-0314 on MT-Bench
+- [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) an instruct fine-tuned version of the Mixtral-8x22B-v0.1

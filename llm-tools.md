@@ -37,8 +37,6 @@ gpt4all:
 ollama:
 
 - [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
-- [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
-- [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 
 others:
 
@@ -62,6 +60,7 @@ others:
 - [open-interpreter](https://github.com/KillianLucas/open-interpreter) lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal
 - [ClipboardConqueror](https://github.com/aseichter2007/ClipboardConqueror) a novel omnipresent copilot alternative designed to bring your very own LLM AI assistant to any text field
 - [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow.
+- [msty](https://msty.app/) offline-first closed source (but free) GUI with support for llama, mixtral, qwen, llava, gemma and online APIs like openai, gemini, groq, claude etc with advanced features like split chat, in chat editing, prompt templates, sticky prompt
 
 ## Web GUIs
 
@@ -100,6 +99,9 @@ others:
 - [OpenChat](https://github.com/openchatai/OpenChat) web ui that currently supports openAI but will implement local LLM support, RAG with PDF, websites, confluence, office 365
 - [lobe-chat](https://github.com/lobehub/lobe-chat) docker image based chat bot framework with plugin and agent support, roles, UI etc
 - [LibreChat](https://github.com/danny-avila/LibreChat) OpenAI, Assistants API, Vision, Mistral, Bing, Anthropic, OpenRouter, Google Gemini, model switching, langchain, DALL-E, Plugins, OpenAI Functions, Multi-User, Presets
+- [open-webui](https://github.com/open-webui/open-webui) formerly ollama webui, docker and kubernetes setup, code, MD, LaTeX formatting, local RAG feature, web browsing, RLHF annotation, prompt presets, model download and switching, multi modal support
+- [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
+- [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 
 ## Backends
 
@@ -196,6 +198,9 @@ others:
 - [FreeAskInternet](https://github.com/nashsu/FreeAskInternet) Perplexity inspired, private and local search aggregator using LLMs
 - [dify](https://github.com/langgenius/dify) open-source LLM RAG development with visual graph based workflow editor, observability and model management
 - [morphic](https://github.com/miurla/morphic) slick RAG / Perplexity inspired stack built on next.js and tailwind
+- [jina-reader](https://github.com/jina-ai/reader) web app that scrapes and parses websites then converts the content to an LLM-friendly input to use in RAG and Tool/Agent workflows
+- [supermemory](https://github.com/Dhravya/supermemory) econd brain with memory for your browser bookmarks and tweets
+- [storm](https://github.com/stanford-oval/storm) Stanford created LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web
 
 ## Browser Extensions
 
@@ -292,6 +297,7 @@ others:
 - [CogVLM](https://github.com/thudm/cogvlm) SOTA open visual language model and Agent
 - [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) Image and Video dense LLM and [MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) 3B sparse Mixture of Expert model outperforming the original dense 7B model
 - [MobileAgent](https://github.com/X-PLUG/MobileAgent) Autonomous Multi-Modal Mobile Device Agent with Visual Perception that can execute tasks
+- [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) MiniCPM-V and OmniLMM multimodal vision & language models with OCR and text-vision reasoning capabilities
 
 ## Code generation
 
@@ -579,6 +585,9 @@ prompt templating / grammar / engineering:
 - [Chain of Abstraction](https://arxiv.org/abs/2401.17464) CoA A New Method for LLMs to Better Leverage Tools in Multi-Step Reasoning
 - [The Era of 1-bit LLMs](https://arxiv.org/abs/2402.17764) All Large Language Models are in 1.58 Bits
 - [Large World Model](https://largeworldmodel.github.io/) World Model on Million-Length Video and Language with Blockwise RingAttention by UC Berkley
+- [Megalodon](https://arxiv.org/html/2404.08801v1) Meta's Efficient LLM Pretraining and Inference with Unlimited Context Length
+- [Leave No Context Behind](https://arxiv.org/abs/2404.07143v1) Google's Efficient Infinite Context Transformers with Infini-attention
+- [LongRoPE](https://arxiv.org/abs/2402.13753v1) Extending LLM Context Window Beyond 2 Million Tokens
 
 # Other awesome resources
 
