@@ -52,3 +52,6 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [WizardLM-2-7B](https://huggingface.co/microsoft/WizardLM-2-7B) Microsoft's WizardLM 2 7B, release for 70B coming up [backup0](https://huggingface.co/lucyknada/microsoft_WizardLM-2-7B)
 - [WizardLM-2-8x22B](https://huggingface.co/alpindale/WizardLM-2-8x22B) Microsoft's WizardLM 2 8x22B beating gpt-4-0314 on MT-Bench
 - [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) an instruct fine-tuned version of the Mixtral-8x22B-v0.1
+- [wavecoder-ultra-6.7b](https://huggingface.co/microsoft/wavecoder-ultra-6.7b) covering four general code-related tasks: code generation, code summary, code translation, and code repair
+- [GemMoE](https://huggingface.co/Crystalcareai/GemMoE-Base-Random) An 8x8 Mixture Of Experts based on Gemma
+- 

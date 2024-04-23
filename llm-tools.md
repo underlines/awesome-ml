@@ -102,6 +102,7 @@ others:
 - [open-webui](https://github.com/open-webui/open-webui) formerly ollama webui, docker and kubernetes setup, code, MD, LaTeX formatting, local RAG feature, web browsing, RLHF annotation, prompt presets, model download and switching, multi modal support
 - [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
+- [big-AGI](https://github.com/enricoros/big-AGI) Web Browse, Search, Sharing, Tracking, supporting LocalAI, Ollama, LM Studio, Azure, Gemini, OpenAI, Groq, Mistral, OpenRouter etc.
 
 ## Backends
 
@@ -141,6 +142,7 @@ others:
 - [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
 - [Kobold-Assistant](https://github.com/lee-b/kobold_assistant) Fully conversational local OpenAI Whisper + Local LLMS + Local Coqui
 - [WhisperFusion](https://github.com/collabora/WhisperFusion) ultra low latency conversations built with WhisperLive, WhisperSpeech and Mistral
+- [Linguflex](https://github.com/KoljaB/Linguflex) voice assistant with smart home devices control, music control, internet search, email manipulation
 
 ## Retrieval Augmented Generation (RAG)
 
@@ -194,13 +196,14 @@ others:
 - [ADeus](https://github.com/adamcohenhillel/ADeus) RAG Chatbot for everything you say, by using an always on audio recorder and a Web App
 - [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
 - [R2R](https://github.com/SciPhi-AI/R2R) open-source framework for building, deploying and optimizing enterprise RAG systems using FastAPI, LiteLLM, DeepEval and flexible components
-- [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking
+- [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking and deepdoc vision document parsing
 - [FreeAskInternet](https://github.com/nashsu/FreeAskInternet) Perplexity inspired, private and local search aggregator using LLMs
 - [dify](https://github.com/langgenius/dify) open-source LLM RAG development with visual graph based workflow editor, observability and model management
 - [morphic](https://github.com/miurla/morphic) slick RAG / Perplexity inspired stack built on next.js and tailwind
-- [jina-reader](https://github.com/jina-ai/reader) web app that scrapes and parses websites then converts the content to an LLM-friendly input to use in RAG and Tool/Agent workflows
-- [supermemory](https://github.com/Dhravya/supermemory) econd brain with memory for your browser bookmarks and tweets
+- [jina-reader](https://github.com/jina-ai/reader) web app that scrapes/crawsl and parses websites then converts the content to an LLM-friendly input to use in RAG and Tool/Agent workflows
+- [supermemory](https://github.com/Dhravya/supermemory) second brain with memory for your browser bookmarks and tweets
 - [storm](https://github.com/stanford-oval/storm) Stanford created LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web
+- [Firecrawl](https://github.com/mendableai/firecrawl) scrapes/crawls and parses websites and turns them into LLM-ready markdown
 
 ## Browser Extensions
 
@@ -276,6 +279,7 @@ others:
 - [agentkit](https://github.com/BCG-X-Official/agentkit) Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
 - [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) control a web browser through natural language instructions using visual language models
+- [AIOS](https://github.com/agiresearch/AIOS) SDK that embeds large language model into Operating Systems providing Agent workflows, OS Kernel integration and System Calls via LLM Kernel (Agent, Context, Memory, Storage, Tools, Access)
 
 ## Multi Modal
 
@@ -327,6 +331,8 @@ others:
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) system for autonomously solving issues in GitHub repos. Gets similar accuracy to Devin on SWE-bench, takes 93 seconds on avg
 - [openui](https://github.com/wandb/openui) v0.dev alternative for text guided UI creation for HTML/React,Svelte, Web Components, etc.
 - [codel](https://github.com/semanser/codel) autonomus agent performing tasks and projects using terminal, browser and editor
+- [AutoCodeRover](https://github.com/nus-apr/auto-code-rover) automated GitHub issue resolver for bug fixes and feature addition
+- [plandex](https://github.com/plandex-ai/plandex) terminal-based AI coding agent for complex tasks with planning and execution capabilities
 
 ## Libraries and Wrappers
 
@@ -397,6 +403,7 @@ others:
 - [activepieces](https://github.com/activepieces/activepieces) Automation with SaaS tools and GPT using a visual graph/flow/node based workflow
 - [kernel-memory](https://github.com/microsoft/kernel-memory) Index and query any data using LLM and natural language, tracking sources and showing citations, ideal for RAG pipelines
 - [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
+- [dify](https://github.com/langgenius/dify) LLM app development platform combines AI workflow, RAG pipeline, agent capabilities, model management, observability in a visual graph/flow/node editor
 
 prompt templating / grammar / engineering:
 
@@ -659,6 +666,7 @@ prompt templating / grammar / engineering:
 - [Flash-attention](https://github.com/HazyResearch/flash-attention) Fast and memory-efficient exact attention
 - [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
 - [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
+- [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
 
 ## Benchmarking
 
@@ -735,6 +743,7 @@ prompt templating / grammar / engineering:
 - [Nitro - Embeddable AI](https://github.com/janhq/nitro) An inference server on top of llama.cpp. OpenAI-compatible API, queue, & scaling. Embed a prod-ready, local inference engine in your apps. Powers Jan
 - [gateway](https://github.com/missingstudio/gateway) Robust cloud-native AI Gateway and LLMOps infrastructure stack with routing, load balancing, fallback, analytics, caching, PII filter
 - [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes
+- [text-generation-inference](https://github.com/huggingface/text-generation-inference) Huggingface's own Rust, Python and gRPC server for text gen inference providing an API endpoint, supporting Flash/Paged Attention, bitsandbytes, GPTQ, EETQ, AWQ, Logits, Logprobs, Speculation, Guidance
 
 ## Databases for ML
 
@@ -750,3 +759,9 @@ prompt templating / grammar / engineering:
 - [chromem-go](https://github.com/philippgille/chromem-go) embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence. 
 - [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 - [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
+
+## Safety, Responsibility and Red Teaming
+
+- [PyRIT](https://github.com/Azure/PyRIT) Python Risk Identification Tool for generative AI to automatically red team foundation models and apps
+- [PurpleLlama](https://github.com/meta-llama/PurpleLlama) Cyber Security Eval, Llama Guard and Code Shield to assess and improve LLM security
+- 

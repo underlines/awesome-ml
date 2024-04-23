@@ -20,6 +20,8 @@
 - [Auto-Synced-Translated-Dubs](https://github.com/ThioJoe/Auto-Synced-Translated-Dubs) Automatic YouTube video speech to text, translation, text to speech in order to dub a whole video
 - [SeamlessM4T](https://github.com/facebookresearch/seamless_communication) Foundational Models for SOTA Speech and Text Translation
 - [Amphion](https://github.com/open-mmlab/Amphion) a toolkit for Audio, Music, and Speech Generation supporting TTS, SVS, VC, SVC, TTA, TTM
+- [voicefixer](https://github.com/haoheliu/voicefixer) restore human speech regardless how serious its degraded
+- [VoiceCraft](https://github.com/jasonppy/VoiceCraft) clone and edit an unseen voice with few seconds example and Text-to-Speech capabilities
 
 ## Speech Recognition
 
@@ -42,6 +44,13 @@
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
 - [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
+
+voice activity detection (VAD):
+
+- [Silero-VAD](https://github.com/snakers4/silero-vad) pre-trained enterprise-grade real tie Voice Activity Detector
+- [libfvad](https://github.com/dpirch/libfvad) fork of WebRTC VAD engine as a standalone library independent from other WebRTC features
+- [voice_activity_detection](https://github.com/filippogiruzzi/voice_activity_detection) Voice Activity Detection based on Deep Learning & TensorFlow
+- [rVADfast](https://github.com/zhenghuatan/rVADfast) unsupervised, robust voice activity detection
 
 ## TextToSpeech
 
@@ -98,6 +107,7 @@
   - [nateraw/so-vits-svc-fork gradio app](https://github.com/nateraw/voice-cloning) for inference of so-vits-svc-fork voice models + ([training in colab](https://colab.research.google.com/github/nateraw/voice-cloning/blob/main/training_so_vits_svc_fork.ipynb) with yt downloader and audio splitter, [hf space demo](https://hf.co/spaces/nateraw/voice-cloning))
   - [so-vits-svc-5.0](https://github.com/PlayVoice/so-vits-svc-5.0)
   - [LoRa svc](https://github.com/PlayVoice/lora-svc) singing voice conversion based on whisper, and lora
+  - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) Voice Conversion and Text-to-Speech WebUI with instant cloning, fine tuning and cross lingual support
   - [RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) simple and easy-to-use voice transformation (voice changer) web GUI based on VITS
     - [rvc-webui](https://github.com/ddPn08/rvc-webui) Win/Mac/Linux installer and Guide for RVC-Project
     - [RVC-GUI](https://github.com/Tiger14n/RVC-GUI) fork of RVC for easy audio file voice conversion locally, only inference, no training
@@ -129,7 +139,7 @@
 - [TriAAN-VC](https://github.com/winddori2002/TriAAN-VC) a Pytorch deep learning model for any-to-any voice conversion, with SOTA performance achieved by using an attention-based adaptive normalization block to extract target speaker representations while minimizing the loss of the source content. [demo](https://winddori2002.github.io/vc-demo.github.io/), [paper](https://arxiv.org/abs/2303.09057)
 - [EasyVC](https://github.com/MingjieChen/EasyVC) toolkit supporting various encoders and decoders, focusing on challenging VC scenarios such as one-shot, emotional, singing, and real-time. [demo](https://mingjiechen.github.io/easyvc/index.html)
 - [MoeVoiceStudio](https://github.com/NaruseMioShirakana/MoeVoiceStudio/tree/MoeVoiceStudio) GUI supporting JOKE, SoVits, DiffSvc, DiffSinger, RVC, FishDiffusion
-- [OpenVoice](https://github.com/myshell-ai/openvoice) Instant Voice Cloning with accuracte tone color, flexibel style control and zero-shot cross lingual voice cloning
+- [OpenVoice](https://github.com/myshell-ai/openvoice) V2 with better quality and multilingual support and MIT licencing, Instant Voice Cloning with accuracte tone color, flexibel style control and zero-shot cross lingual voice cloning
 - [NeuCoSVC](https://github.com/thuhcsi/NeuCoSVC?tab=readme-ov-file) official implementation of Neural Concatenative Singing Voice Conversion [paper](https://arxiv.org/abs/2312.04919)
 - [talking-avatar-and-voice-cloning](https://github.com/alifallaha1/talking-avatar-and-voice-cloning) streamlit app with XTTS and SadTalker implementation featuring lip sync and avatar animation
 - [AiVoiceClonerPRO](https://github.com/AryanVBW/AiVoiceClonerPRO) easy web interface using VITS and InterSpeech2023-RMVPE pitch extraction method
@@ -147,6 +157,7 @@
 - [Wunjo AI](https://github.com/wladradchenko/wunjo.wladradchenko.ru) Synthesize & clone voices in English, Russian & Chinese, real-time speech recognition, deepfake face & lips animation, face swap with one photo, change video by text prompts, segmentation, and retouching. Open-source, local & free
 - [YouTranslate](https://github.com/AdiKsOnDev/YouTranslate) Takes a youtube video, clones the voice with elevenlabs API translate the text with google translate API and re-creates that video in a different language
 - [audio2photoreal](https://github.com/facebookresearch/audio2photoreal) Photoreal Embodiment by Synthesizing Humans including pose, hands and face in Conversations
+- [TurnVoice](https://github.com/KoljaB/TurnVoice) Dubbing via CoquiTTS, Elevenlaps, OpenAI or Azure Voices, Translation, Speaking Style changer, Precise control via Editor, Background Audio Preservation
 
 ## Music Generation
 
@@ -172,6 +183,7 @@
   - [streamstem](https://github.com/otonomee/streamstem) web app utilizing yt-dlp, spotify-api and demucs for an end to end audio source separation pipeline
   - [moseca](https://github.com/fabiogra/moseca) web app for Music Source Separation & Karaoke utilizig demucs
   - [MISST](https://github.com/Frikallo/MISST) native windows GUI for demucs supporting youtube, spotify and files
+
 ## Research
 
 - [Vocos](https://charactr-platform.github.io/vocos/) Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
