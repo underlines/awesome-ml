@@ -22,6 +22,8 @@
 - [InstantID](https://github.com/InstantID/InstantID) Zero-shot Identity-Preserving Generation in Seconds, [ComfyUI plugin](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
 - [PhotoMaker](https://github.com/TencentARC/PhotoMaker) Rapid customization within seconds, with no additional LoRA training preserving ID with high fidelity and text controllability which can serve as an adapter for other models
 - [StableCascade](https://github.com/Stability-AI/StableCascade) successor to Stable Diffusion by Stability AI with smaller latent space, higher speeds and better quality
+- [IDM-VTON](https://github.com/yisol/IDM-VTON) Virtual Try-on for clothes and fashion
+- [ConsistentID](https://github.com/JackAILab/ConsistentID) Portrait Generation with Multimodal Fine-Grained Identity Preservation
 
  text to 3d:
 

@@ -190,3 +190,7 @@ voice activity detection (VAD):
 - [WavJourney](https://arxiv.org/abs/2307.14335) Compositional Audio Creation with LLMs [github](https://github.com/audio-agi/wavjourney)
 - [PromptingWhisper](https://github.com/jasonppy/PromptingWhisper) Audio-Visual Speech Recognition, Code-Switched Speech Recognition, and Zero-Shot Speech Translation for Whisper
 - [Translatotron 3](https://blog.research.google/2023/12/unsupervised-speech-to-speech.html) Unsupervised speech-to-speech translation from monolingual data
+
+### Benchmarks
+
+- [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)

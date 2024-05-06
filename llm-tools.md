@@ -41,6 +41,7 @@ ollama:
 others:
 
 - [LM Studio](https://lmstudio.ai/) closed-source but very easy to use Native Mac, Windows, Linux GUI, supporting ggml, MPT, StarCoder, Falcon, Replit, GPT-Neu-X, gguf
+  - [lms](https://github.com/lmstudio-ai/lms) CLI version of LMStudio
 - [pinokio](https://pinokio.computer/) Template based 1 Click installer for ML inference (LLMs, Audio, Text, Video)
 - [Lit-llama](https://github.com/Lightning-AI/lit-llama) training, fine tuning and inference of llama
 - [Dalai](https://github.com/cocktailpeanut/dalai) LLaMA-based ChatGPT for single GPUs
@@ -204,6 +205,10 @@ others:
 - [supermemory](https://github.com/Dhravya/supermemory) second brain with memory for your browser bookmarks and tweets
 - [storm](https://github.com/stanford-oval/storm) Stanford created LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web
 - [Firecrawl](https://github.com/mendableai/firecrawl) scrapes/crawls and parses websites and turns them into LLM-ready markdown
+- [llm-scraper](https://github.com/mishushakov/llm-scraper) scrape and turn any webpage into structured data using LLMs
+- [reor](https://github.com/reorproject/reor) LLM assisted note taking with RAG capabilities
+- [cognita](https://github.com/truefoundry/cognita) LangChain & LlamaIndex Wrapper organizing all RAG components in a modular, API driven and extensible way
+- [Perplexica](https://github.com/ItzCrazyKns/Perplexica) AI-powered search engine alternative to Perplexity AI 
 
 ## Browser Extensions
 
@@ -280,6 +285,8 @@ others:
 - [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) control a web browser through natural language instructions using visual language models
 - [AIOS](https://github.com/agiresearch/AIOS) SDK that embeds large language model into Operating Systems providing Agent workflows, OS Kernel integration and System Calls via LLM Kernel (Agent, Context, Memory, Storage, Tools, Access)
+- [WebLlama](https://github.com/McGill-NLP/webllama) code and [Llama-3-8B-web](https://huggingface.co/McGill-NLP/Llama-3-8B-Web) model to build agents that browse the web by following chat style instructions
+- [memary](https://github.com/kingjulio8238/memary) Longterm Memory for Autonomous Agents with Routing Agent (ReAct) Knowledge Graph creation and retrieval with Neo4j, Memory Stream and Entity Knowledge Store
 
 ## Multi Modal
 
@@ -302,6 +309,7 @@ others:
 - [Video-LLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA) Image and Video dense LLM and [MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA) 3B sparse Mixture of Expert model outperforming the original dense 7B model
 - [MobileAgent](https://github.com/X-PLUG/MobileAgent) Autonomous Multi-Modal Mobile Device Agent with Visual Perception that can execute tasks
 - [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) MiniCPM-V and OmniLMM multimodal vision & language models with OCR and text-vision reasoning capabilities
+- [AppAgent](https://github.com/mnotgod96/AppAgent) Multimodal Agents as Smartphone Users
 
 ## Code generation
 
@@ -404,6 +412,8 @@ others:
 - [kernel-memory](https://github.com/microsoft/kernel-memory) Index and query any data using LLM and natural language, tracking sources and showing citations, ideal for RAG pipelines
 - [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
 - [dify](https://github.com/langgenius/dify) LLM app development platform combines AI workflow, RAG pipeline, agent capabilities, model management, observability in a visual graph/flow/node editor
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit) build fully custom AI Copilots with support for chat, textbox assist, agents and context built on LangChain
+- [phidata](https://github.com/phidatahq/phidata) memory (via chat history DB), knowledge (via RAG) and tools for LLMs
 
 prompt templating / grammar / engineering:
 
@@ -416,6 +426,8 @@ prompt templating / grammar / engineering:
 - [sglang](https://github.com/sgl-project/sglang) structured generation language designed for LLMs with multiple chained generation calls, advanced prompting techniques, control flow, multiple modalities, parallelism, and external interaction
 - [DSPy](https://github.com/stanfordnlp/dspy) a framework for algorithmically optimizing LM prompts and weights
 - [AlphaCodium](https://github.com/codium-ai/alphacodium) Automatic Code Generation improvements with Prompt Engineering and Flow Engineering
+- [aici](https://github.com/microsoft/aici) lets you build Controllers that constrain and direct output of aLLM in real time
+- [instructor](https://github.com/jxnl/instructor) structured outputs for LLMs. Pydantic, simple and transparent
 
 ## Fine Tuning & Training
 
@@ -443,6 +455,9 @@ prompt templating / grammar / engineering:
 - [unsloth](https://github.com/unslothai/unsloth) 2-5x faster and 60% less memory local QLoRA finetuning supporting Llama, CodeLlama, Mistral, TinyLlama etc. using Triton
 - [transformerlab](https://github.com/transformerlab/transformerlab-app) Download, interact, and finetune models locally in a convenient GUI
 - [llm.c](https://github.com/karpathy/llm.c) train GPT and other LLM architectures with a native C based CUDA accelerated libary
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) Easy and efficient fine-tuning supporting various model architectures like Llama, Mixtral, Phi etc. for pre-training, supervised fine tuning, PPO, DPO, quantized fine tuning etc
+- [torchtune](https://github.com/pytorch/torchtune) native pytorch LLM fine tuning fur llama architectures with QLoRA support
+- [xtuner](https://github.com/InternLM/xtuner) fine tuning supporting llm, vlm pre training and fine tuning. deepspeed, ZeRO optimization, various architectures, QLoRA and LoRA support
 
 ## Merging & Quantization
 
@@ -595,6 +610,7 @@ prompt templating / grammar / engineering:
 - [Megalodon](https://arxiv.org/html/2404.08801v1) Meta's Efficient LLM Pretraining and Inference with Unlimited Context Length
 - [Leave No Context Behind](https://arxiv.org/abs/2404.07143v1) Google's Efficient Infinite Context Transformers with Infini-attention
 - [LongRoPE](https://arxiv.org/abs/2402.13753v1) Extending LLM Context Window Beyond 2 Million Tokens
+- [KAN](https://arxiv.org/abs/2404.19756) Kolmogorov-Arnold Networks as promising alternatives to Multi-Layer Perceptrons (MLPs)
 
 # Other awesome resources
 
@@ -717,6 +733,7 @@ prompt templating / grammar / engineering:
 - [mlflow llm-evaluate](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html) use-case specific standard metrics and custom metrics, optional ground truth
 - [AgentBoard](https://github.com/hkust-nlp/agentboard) Evaluation Board of Multi-turn LLM Agents
 - [LLM-Uncertainty-Bench](https://github.com/smartyfh/llm-uncertainty-bench) Benchmarking LLMs via Uncertainty Quantification
+- [OpenCompass](https://github.com/open-compass/opencompass) is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets
 
 ## AI DevOps
 
@@ -744,6 +761,7 @@ prompt templating / grammar / engineering:
 - [gateway](https://github.com/missingstudio/gateway) Robust cloud-native AI Gateway and LLMOps infrastructure stack with routing, load balancing, fallback, analytics, caching, PII filter
 - [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes
 - [text-generation-inference](https://github.com/huggingface/text-generation-inference) Huggingface's own Rust, Python and gRPC server for text gen inference providing an API endpoint, supporting Flash/Paged Attention, bitsandbytes, GPTQ, EETQ, AWQ, Logits, Logprobs, Speculation, Guidance
+- [mistral.rs](https://github.com/EricLBuehler/mistral.rs) a fast LLM inference platform supporting inference on a variety of devices, quantization, and easy-to-use application with an Open-AI API compatible HTTP server and Python bindings
 
 ## Databases for ML
 

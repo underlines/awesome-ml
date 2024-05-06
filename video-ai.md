@@ -15,6 +15,8 @@
 - [i2vgen-xl](https://github.com/ali-vilab/i2vgen-xl) a holistic video generation ecosystem for video generation building on diffusion models
 - [pixeldance](https://makepixelsdance.github.io/) High-Dynamic Video Generation
 - [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) aims to reproduce Sora
+- [StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion) Consistent Long-Range Image and Video Generation
+- [Open-Sora](https://github.com/hpcaitech/Open-Sora) Open implementation approach for video generation
 
 ## Frame Interpolation (Temporal Interpolation)
 
