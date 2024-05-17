@@ -99,6 +99,7 @@ voice activity detection (VAD):
 - [metavoice](https://github.com/metavoiceio/metavoice-src) supporting emotional speech rhythm and tone, cloning for British and American English and cross lingual cloning with finetuning
 - [StyleTTS2](https://github.com/yl4579/StyleTTS2) Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
   - [StyleTTS2 pip](https://github.com/sidharthrajaram/StyleTTS2) Python pip package for StyleTTS2
+- [fish-speech](https://github.com/fishaudio/fish-speech) expressive TTS with generated voices with fine tuning (voice cloning) capabilities
 
 ## Voice Conversion
 

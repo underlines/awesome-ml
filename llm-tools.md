@@ -144,6 +144,8 @@ others:
 - [Kobold-Assistant](https://github.com/lee-b/kobold_assistant) Fully conversational local OpenAI Whisper + Local LLMS + Local Coqui
 - [WhisperFusion](https://github.com/collabora/WhisperFusion) ultra low latency conversations built with WhisperLive, WhisperSpeech and Mistral
 - [Linguflex](https://github.com/KoljaB/Linguflex) voice assistant with smart home devices control, music control, internet search, email manipulation
+- [GLaDOS](https://github.com/dnhkng/GlaDOS) project dedicated to building a real-life version of GLaDOS a fictional AI from the game Portal with a quirky personality
+- [AlwaysReddy](https://github.com/ILikeAI/AlwaysReddy) LLM voice assistant with TTS, STT, reading/writing to clipboard with OpenAI, Anthropic and Local LLM support
 
 ## Retrieval Augmented Generation (RAG)
 
@@ -209,6 +211,11 @@ others:
 - [reor](https://github.com/reorproject/reor) LLM assisted note taking with RAG capabilities
 - [cognita](https://github.com/truefoundry/cognita) LangChain & LlamaIndex Wrapper organizing all RAG components in a modular, API driven and extensible way
 - [Perplexica](https://github.com/ItzCrazyKns/Perplexica) AI-powered search engine alternative to Perplexity AI 
+- [scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) web scraper for python using llm and graph logic to create scraping pipelines
+- [griptape](https://github.com/griptape-ai/griptape) a modular Python framework for building AI-powered applications for enterprise data and APIs. Agents, Pipelines, Workflows, Tools, Memory
+- [adaptive-rag](https://pathway.com/developers/showcases/adaptive-rag) cut LLM costs without sacrificing accuracy by dynamically change the number of docs
+- [AFFiNE](https://github.com/toeverything/AFFiNE) knowledge base as a Notion, Miro and Airtable alternative with multimodal AI generation
+- [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper) AI driven research from data with human-verifiability
 
 ## Browser Extensions
 
@@ -287,6 +294,8 @@ others:
 - [AIOS](https://github.com/agiresearch/AIOS) SDK that embeds large language model into Operating Systems providing Agent workflows, OS Kernel integration and System Calls via LLM Kernel (Agent, Context, Memory, Storage, Tools, Access)
 - [WebLlama](https://github.com/McGill-NLP/webllama) code and [Llama-3-8B-web](https://huggingface.co/McGill-NLP/Llama-3-8B-Web) model to build agents that browse the web by following chat style instructions
 - [memary](https://github.com/kingjulio8238/memary) Longterm Memory for Autonomous Agents with Routing Agent (ReAct) Knowledge Graph creation and retrieval with Neo4j, Memory Stream and Entity Knowledge Store
+- [maestro](https://github.com/Doriandarko/maestro) Subagent orchestration that breaks down tasks into subtasks and orchestrates its execution and allows for refinement supporting Claude, Groq, GPT-4o and local Ollama/LMStudio
+- [AutoGroq](https://github.com/jgravelle/AutoGroq) Create AutoGen compatible teams with assistants and workflows from a simple text prompt
 
 ## Multi Modal
 
@@ -310,6 +319,8 @@ others:
 - [MobileAgent](https://github.com/X-PLUG/MobileAgent) Autonomous Multi-Modal Mobile Device Agent with Visual Perception that can execute tasks
 - [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) MiniCPM-V and OmniLMM multimodal vision & language models with OCR and text-vision reasoning capabilities
 - [AppAgent](https://github.com/mnotgod96/AppAgent) Multimodal Agents as Smartphone Users
+- [InternVL](https://github.com/OpenGVLab/InternVL) InternVL-Chat Model and surrounding technology to rebuild a Visual Language Model
+- [PyWinAssistant](https://github.com/a-real-ai/pywinassistant) Large Action Model for Windows 10/11 win32api controlling User Interfaces via Visualization-of-Thought (VoT)
 
 ## Code generation
 
@@ -410,10 +421,10 @@ others:
 - [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
 - [activepieces](https://github.com/activepieces/activepieces) Automation with SaaS tools and GPT using a visual graph/flow/node based workflow
 - [kernel-memory](https://github.com/microsoft/kernel-memory) Index and query any data using LLM and natural language, tracking sources and showing citations, ideal for RAG pipelines
-- [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings
+- [LocalAI](https://github.com/mudler/LocalAI) Drop-in OpenAI API replacement with local LLMs, Audio To Text (whisper), Image generation (Stable Diffusion), OpenAI functions and Embeddings with single exe deployment
 - [dify](https://github.com/langgenius/dify) LLM app development platform combines AI workflow, RAG pipeline, agent capabilities, model management, observability in a visual graph/flow/node editor
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit) build fully custom AI Copilots with support for chat, textbox assist, agents and context built on LangChain
-- [phidata](https://github.com/phidatahq/phidata) memory (via chat history DB), knowledge (via RAG) and tools for LLMs
+- [Bisheng](https://github.com/dataelement/bisheng/blob/main/README_ENG.md) LLM Application Develoment environment mainlzyin Chinese with some English documents
 
 prompt templating / grammar / engineering:
 
@@ -458,6 +469,7 @@ prompt templating / grammar / engineering:
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) Easy and efficient fine-tuning supporting various model architectures like Llama, Mixtral, Phi etc. for pre-training, supervised fine tuning, PPO, DPO, quantized fine tuning etc
 - [torchtune](https://github.com/pytorch/torchtune) native pytorch LLM fine tuning fur llama architectures with QLoRA support
 - [xtuner](https://github.com/InternLM/xtuner) fine tuning supporting llm, vlm pre training and fine tuning. deepspeed, ZeRO optimization, various architectures, QLoRA and LoRA support
+- [Mergoo](https://github.com/Leeroo-AI/mergoo) merge multiple LLM experts and fine-tune them. Support for MoE, MoA for Llama1-3, Mistral, Phi3 and BERT models
 
 ## Merging & Quantization
 
@@ -465,6 +477,7 @@ prompt templating / grammar / engineering:
 - [MergeLM](https://github.com/yule-BUAA/MergeLM) LLMs are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 - [SLERP](https://github.com/Digitous/LLM-SLERP-Merge) Spherical Linear Interpolation Model Merging
 - [AutoAWQ](https://github.com/casper-hansen/AutoAWQ)
+- [AQLM](https://github.com/Vahe1994/AQLM) Extreme Compression of LLMs to 2bit via Additive Quantization to work with models of LLaMA, Mistral and Mixtral families [paper](https://arxiv.org/pdf/2401.06118.pdf)
 
 # Resources
 
@@ -611,6 +624,8 @@ prompt templating / grammar / engineering:
 - [Leave No Context Behind](https://arxiv.org/abs/2404.07143v1) Google's Efficient Infinite Context Transformers with Infini-attention
 - [LongRoPE](https://arxiv.org/abs/2402.13753v1) Extending LLM Context Window Beyond 2 Million Tokens
 - [KAN](https://arxiv.org/abs/2404.19756) Kolmogorov-Arnold Networks as promising alternatives to Multi-Layer Perceptrons (MLPs)
+- [Sparse Llama](https://huggingface.co/papers/2405.03594) Cerebras and Neural Magic produces a 70% Smaller, 3x Faster, Full Accuracy [model](https://huggingface.co/neuralmagic), [page](https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy)
+- [OSWorld](https://arxiv.org/abs/2404.07972) Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 
 # Other awesome resources
 
@@ -660,6 +675,7 @@ prompt templating / grammar / engineering:
 - [AI Trends](https://epochai.org/trends) features key numbers and data visualizations in AI, related Epoch reports and other sources that showcase the change and growth in AI over time
 - [Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference) curated list of Awesome LLM Inference Paper with codes, TensorRT-LLM, vLLM, streaming-llm, AWQ, SmoothQuant, WINT8/4, Continuous Batching, FlashAttention, PagedAttention etc.
 - [fuck you, show me the prompt](https://hamel.dev/blog/posts/prompt/) Quickly understand inscrutable LLM frameworks by intercepting API calls.
+- [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) with up to date links to papers, guides and resources
 
 ## Product Showcases
 
@@ -714,6 +730,9 @@ prompt templating / grammar / engineering:
 - [AgentBoard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html) Evaluation Board of Multi-turn LLM Agents
 - [Enterprise Scenarios Leaderboard](https://huggingface.co/spaces/PatronusAI/enterprise_scenarios_leaderboard) evaluates the performance of LLMs on real-world enterprise use cases, some of the test sets are closed source to prevent cheating
 - [NP Hard Eval Leaderboard](https://huggingface.co/spaces/NPHardEval/NPHardEval-leaderboard) benchmark for assessing the reasoning abilities of LLMs by using NP Hard problems
+- [Toqan Leaderboard](https://prollm.toqan.ai/leaderboard) coding assistant benchmark
+- [OpenCompass Leaderboard](https://rank.opencompass.org.cn/) Leaderboards with specific eval rankings for Medical, General and Law Benchmarks
+- [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o vs others
 
 ### Benchmark Suites
 
@@ -734,6 +753,8 @@ prompt templating / grammar / engineering:
 - [AgentBoard](https://github.com/hkust-nlp/agentboard) Evaluation Board of Multi-turn LLM Agents
 - [LLM-Uncertainty-Bench](https://github.com/smartyfh/llm-uncertainty-bench) Benchmarking LLMs via Uncertainty Quantification
 - [OpenCompass](https://github.com/open-compass/opencompass) is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets
+- [PHUDG3](https://github.com/deshwalmahesh/PHUDGE) Phi-3 as Scalable Judge. Evaluate your LLMs with an LLM
+- [NIAN](https://github.com/llmonpy/needle-in-a-needlestack) Needle in a Needlestack because LLMs have improved and Needle in a Haystack has become too easy
 
 ## AI DevOps
 
@@ -777,6 +798,7 @@ prompt templating / grammar / engineering:
 - [chromem-go](https://github.com/philippgille/chromem-go) embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence. 
 - [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 - [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
+- [haystackdb](https://github.com/carsonpo/haystackdb) on disk vector db which is 10x faster than FAISS in memory
 
 ## Safety, Responsibility and Red Teaming
 

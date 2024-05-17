@@ -185,7 +185,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [evidence | Business intelligence as code with SQL and markdown](https://github.com/evidence-dev/evidence)
 - [datasette](https://github.com/simonw/datasette) exploring and publishing data of any shape or size using an encapsulated website and API, especially useful for data journalism
 - [Python in Excel](https://github.com/microsoft/python-in-excel) Microsoft's official Python support within Excel
-
+- [Hands-On Data Visualization](https://handsondataviz.org/) open book from Ilya Ilyankou and Jack Dougherty
+- [Quary](https://github.com/quarylabs/quary) BI for Engineers, using SQL queries for transform, organize and document tables in a DB, create charts, dashboards and reports
 
 ## SaaS Marketing Reporting Solutions
 - [AgencyAnalytics](https://agencyanalytics.com/)

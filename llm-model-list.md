@@ -54,4 +54,5 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [Mixtral-8x22B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1) an instruct fine-tuned version of the Mixtral-8x22B-v0.1
 - [wavecoder-ultra-6.7b](https://huggingface.co/microsoft/wavecoder-ultra-6.7b) covering four general code-related tasks: code generation, code summary, code translation, and code repair
 - [GemMoE](https://huggingface.co/Crystalcareai/GemMoE-Base-Random) An 8x8 Mixture Of Experts based on Gemma
-- 
+- [Granite](https://huggingface.co/ibm-granite) family of Code Models from IBM with 3b, 8b, 20b, 34b, base and instruct models for code completion and chat
+- [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2#2-model-downloads) 21B Strong, Economical, and Efficient Mixture-of-Experts Language Model
