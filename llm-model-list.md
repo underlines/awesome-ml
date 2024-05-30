@@ -57,3 +57,6 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [Granite](https://huggingface.co/ibm-granite) family of Code Models from IBM with 3b, 8b, 20b, 34b, base and instruct models for code completion and chat
 - [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2#2-model-downloads) 21B Strong, Economical, and Efficient Mixture-of-Experts Language Model
 - [Yuan2-M32](https://huggingface.co/IEITYuan/Yuan2-M32-hf) Mixture of Experts with Attention Router, 32 Experts, 2 Active, TOtal 40B parameters, 3.7B active and max length of 16K
+- [CodeStral-22B](https://huggingface.co/mistralai/Codestral-22B-v0.1) Coding model trained on 80+ languages with instruct and Fill in the Middle tasks, 32k max context
+- [Mistral-7b-instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) with function calling, new tokenizer and 32k max context
+- [Aya-23](https://huggingface.co/CohereForAI/aya-23-35B) 8B and 35B instruction tuned multi lingual model focusing on 23 languages

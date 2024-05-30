@@ -62,6 +62,7 @@ others:
 - [ClipboardConqueror](https://github.com/aseichter2007/ClipboardConqueror) a novel omnipresent copilot alternative designed to bring your very own LLM AI assistant to any text field
 - [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow.
 - [msty](https://msty.app/) offline-first closed source (but free) GUI with support for llama, mixtral, qwen, llava, gemma and online APIs like openai, gemini, groq, claude etc with advanced features like split chat, in chat editing, prompt templates, sticky prompt
+- [singulatron](https://singulatron.com/desktop-ai) simple interface to download and run LLMs, similar to LM Studio
 
 ## Web GUIs
 
@@ -200,7 +201,7 @@ others:
 - [ADeus](https://github.com/adamcohenhillel/ADeus) RAG Chatbot for everything you say, by using an always on audio recorder and a Web App
 - [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) a Perplexity-Inspired Answer Engine Using Next.js, Groq, Mixtral, Langchain, OpenAI, Brave & Serper
 - [R2R](https://github.com/SciPhi-AI/R2R) open-source framework for building, deploying and optimizing enterprise RAG systems using FastAPI, LiteLLM, DeepEval and flexible components
-- [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking and deepdoc vision document parsing
+- [RAGFlow](https://github.com/infiniflow/ragflow) open-source RAG engine with two step retrieaval and re-ranking and deepdoc vision document parsing, supporting [RAPTOR](https://arxiv.org/html/2401.18059v1), FlagEmbeddings BCE and BGE rerankers
 - [FreeAskInternet](https://github.com/nashsu/FreeAskInternet) Perplexity inspired, private and local search aggregator using LLMs
 - [dify](https://github.com/langgenius/dify) open-source LLM RAG development with visual graph based workflow editor, observability and model management
 - [morphic](https://github.com/miurla/morphic) slick RAG / Perplexity inspired stack built on next.js and tailwind
@@ -300,6 +301,7 @@ others:
 - [AutoGroq](https://github.com/jgravelle/AutoGroq) Create AutoGen compatible teams with assistants and workflows from a simple text prompt
 - [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) AI Agent Platform for Financial Applications using LLMs
 - [llama-fs](https://github.com/iyaja/llama-fs) organizes a folder and renames files on your system by looking at each file and creating a useful structure based on metadata and common conventions
+- [Leon](https://github.com/leon-ai/leon) personal assistant with multiple features like TTS, ASR, LLM usage
 
 ## Multi Modal
 
@@ -358,6 +360,7 @@ others:
 - [codel](https://github.com/semanser/codel) autonomus agent performing tasks and projects using terminal, browser and editor
 - [AutoCodeRover](https://github.com/nus-apr/auto-code-rover) automated GitHub issue resolver for bug fixes and feature addition
 - [plandex](https://github.com/plandex-ai/plandex) terminal-based AI coding agent for complex tasks with planning and execution capabilities
+- [AutoCoder](https://github.com/bin123apple/AutoCoder) Agentic code generation, execution and verification allowing external packages and using a fine tuned deepseeker-coder model AutoCoder-33B and 6.7B model
 
 ## Libraries and Wrappers
 
@@ -633,6 +636,7 @@ prompt templating / grammar / engineering:
 - [Sparse Llama](https://huggingface.co/papers/2405.03594) Cerebras and Neural Magic produces a 70% Smaller, 3x Faster, Full Accuracy [model](https://huggingface.co/neuralmagic), [page](https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy)
 - [OSWorld](https://arxiv.org/abs/2404.07972) Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 - [You Only Cache Once](https://arxiv.org/abs/2405.05254) Decoder-Decoder Architectures for Language Models
+- [SOLAR](https://arxiv.org/abs/2312.15166) Scaling LLMs with Simple yet Effective Depth Up-Scaling to increase parameter count and continue pre-training, [SOLAR-10.7B](https://huggingface.co/upstage/SOLAR-10.7B-v1.0)
 
 # Other awesome resources
 
@@ -742,6 +746,7 @@ prompt templating / grammar / engineering:
 - [OpenCompass Leaderboard](https://rank.opencompass.org.cn/) Leaderboards with specific eval rankings for Medical, General and Law Benchmarks
 - [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o vs others
 - [SEAL Leaderboards](https://scale.com/leaderboard) Expert-Driven Private Evaluations
+- [AIR-bench](https://huggingface.co/spaces/AIR-Bench/leaderboard) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
 
 ### Benchmark Suites
 
@@ -765,6 +770,7 @@ prompt templating / grammar / engineering:
 - [PHUDG3](https://github.com/deshwalmahesh/PHUDGE) Phi-3 as Scalable Judge. Evaluate your LLMs with an LLM
 - [NIAN](https://github.com/llmonpy/needle-in-a-needlestack) Needle in a Needlestack because LLMs have improved and Needle in a Haystack has become too easy
 - [beyondllm](https://github.com/aiplanethub/beyondllm) all-in-one toolkit for experimentation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) systems
+- [AIR-bench](https://github.com/AIR-Bench/AIR-Bench) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
 
 ## AI DevOps
 
@@ -809,9 +815,9 @@ prompt templating / grammar / engineering:
 - [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 - [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
 - [haystackdb](https://github.com/carsonpo/haystackdb) on disk vector db which is 10x faster than FAISS in memory
+- [vector-admin](https://github.com/Mintplex-Labs/vector-admin) universal tool suite for vector database management. Manage Pinecone, Chroma, Qdrant, Weaviate and more vector databases with ease
 
 ## Safety, Responsibility and Red Teaming
 
 - [PyRIT](https://github.com/Azure/PyRIT) Python Risk Identification Tool for generative AI to automatically red team foundation models and apps
 - [PurpleLlama](https://github.com/meta-llama/PurpleLlama) Cyber Security Eval, Llama Guard and Code Shield to assess and improve LLM security
-- 
