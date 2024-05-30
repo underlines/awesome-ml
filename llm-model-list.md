@@ -56,3 +56,4 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [GemMoE](https://huggingface.co/Crystalcareai/GemMoE-Base-Random) An 8x8 Mixture Of Experts based on Gemma
 - [Granite](https://huggingface.co/ibm-granite) family of Code Models from IBM with 3b, 8b, 20b, 34b, base and instruct models for code completion and chat
 - [DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2#2-model-downloads) 21B Strong, Economical, and Efficient Mixture-of-Experts Language Model
+- [Yuan2-M32](https://huggingface.co/IEITYuan/Yuan2-M32-hf) Mixture of Experts with Attention Router, 32 Experts, 2 Active, TOtal 40B parameters, 3.7B active and max length of 16K

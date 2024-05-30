@@ -33,6 +33,7 @@
 - [SAM-PT](https://github.com/SysCV/sam-pt) Extending SAM to zero-shot video segmentation with point-based tracking, [paper](https://arxiv.org/abs/2307.01197)
 - [DEVA](https://github.com/hkchengrex/Tracking-Anything-with-DEVA) Tracking Anything with Decoupled Video Segmentation, [paper](https://arxiv.org/abs/2309.03903)
 - [Cutie](https://github.com/hkchengrex/Cutie) Putting the Object Back into Video Object Segmentation, [paper](https://arxiv.org/abs/2310.12982)
+- [YOLOv10](https://github.com/THU-MIG/yolov10) Real-Time End-to-End Object Detection
 
 ## Super Resolution (Spacial Interpolation)
 
@@ -57,6 +58,9 @@
 
 - [roop](https://github.com/s0md3v/roop) one-click deepfake (face swap)
   - [rope](https://github.com/Hillobar/Rope) GUI-focused roop
+- [streamv2v](https://github.com/Jeff-LiangF/streamv2v) Official Pytorch implementation of [StreamV2V](https://jeff-liangf.github.io/projects/streamv2v/)
+- [MusePose](https://github.com/TMElyralab/MusePose) Pose Driven Image 2 Video framework to generate Virtual Humans 
+- [V-Express](https://github.com/tencent-ailab/V-Express) generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images
 
 ## Benchmarking
 

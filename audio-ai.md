@@ -94,12 +94,16 @@ voice activity detection (VAD):
 - [voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
 - [MockingBird](https://github.com/babysor/MockingBird) Clone a voice in 5 seconds to generate arbitrary speech in real-time
 - [XTTS-2-UI](https://github.com/BoltzmannEntropy/xtts2-ui) XTTS-2 Text-Based Voice Cloning
+  - [xtts-webui](https://github.com/daswer123/xtts-webui) Webui for using XTTS
+  - [xtts-finetune-webui](https://github.com/daswer123/xtts-finetune-webui) Slightly improved official version for finetune xtts
+  - [XTTS-RVC-UI](https://github.com/Vali-98/XTTS-RVC-UI) A Gradio UI for XTTSv2 and RVC
 - [EmotiVoice](https://github.com/netease-youdao/EmotiVoice) Multi-Voice and Prompt-Controlled TTS Engine
 - [WhisperSpeech](https://github.com/collabora/WhisperSpeech) inverted whisper (aka spear-tts) with voice cloning, language mixing using EnCodec and Vocos
 - [metavoice](https://github.com/metavoiceio/metavoice-src) supporting emotional speech rhythm and tone, cloning for British and American English and cross lingual cloning with finetuning
 - [StyleTTS2](https://github.com/yl4579/StyleTTS2) Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
   - [StyleTTS2 pip](https://github.com/sidharthrajaram/StyleTTS2) Python pip package for StyleTTS2
 - [fish-speech](https://github.com/fishaudio/fish-speech) expressive TTS with generated voices with fine tuning (voice cloning) capabilities
+- [ChatTTS](https://github.com/2noise/ChatTTS) optimized for dialogue-based TTS with natural andexpressive speech synthesis in English and Chinese with fine grained prosodic features like laughter, pauses and interjections
 
 ## Voice Conversion
 

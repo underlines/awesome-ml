@@ -146,6 +146,7 @@ others:
 - [Linguflex](https://github.com/KoljaB/Linguflex) voice assistant with smart home devices control, music control, internet search, email manipulation
 - [GLaDOS](https://github.com/dnhkng/GlaDOS) project dedicated to building a real-life version of GLaDOS a fictional AI from the game Portal with a quirky personality
 - [AlwaysReddy](https://github.com/ILikeAI/AlwaysReddy) LLM voice assistant with TTS, STT, reading/writing to clipboard with OpenAI, Anthropic and Local LLM support
+- [LocalAIVoiceChat](https://github.com/KoljaB/LocalAIVoiceChat) Local AI talk with a custom voice based on Zephyr 7B model. Uses RealtimeSTT with faster_whisper for transcription and RealtimeTTS with Coqui XTTS for synthesis
 
 ## Retrieval Augmented Generation (RAG)
 
@@ -216,6 +217,7 @@ others:
 - [adaptive-rag](https://pathway.com/developers/showcases/adaptive-rag) cut LLM costs without sacrificing accuracy by dynamically change the number of docs
 - [AFFiNE](https://github.com/toeverything/AFFiNE) knowledge base as a Notion, Miro and Airtable alternative with multimodal AI generation
 - [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper) AI driven research from data with human-verifiability
+- [ragapp](https://github.com/ragapp/ragapp) Easy Agentic RAG for Enterprise based on LlamaIndex
 
 ## Browser Extensions
 
@@ -296,6 +298,8 @@ others:
 - [memary](https://github.com/kingjulio8238/memary) Longterm Memory for Autonomous Agents with Routing Agent (ReAct) Knowledge Graph creation and retrieval with Neo4j, Memory Stream and Entity Knowledge Store
 - [maestro](https://github.com/Doriandarko/maestro) Subagent orchestration that breaks down tasks into subtasks and orchestrates its execution and allows for refinement supporting Claude, Groq, GPT-4o and local Ollama/LMStudio
 - [AutoGroq](https://github.com/jgravelle/AutoGroq) Create AutoGen compatible teams with assistants and workflows from a simple text prompt
+- [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) AI Agent Platform for Financial Applications using LLMs
+- [llama-fs](https://github.com/iyaja/llama-fs) organizes a folder and renames files on your system by looking at each file and creating a useful structure based on metadata and common conventions
 
 ## Multi Modal
 
@@ -321,6 +325,8 @@ others:
 - [AppAgent](https://github.com/mnotgod96/AppAgent) Multimodal Agents as Smartphone Users
 - [InternVL](https://github.com/OpenGVLab/InternVL) InternVL-Chat Model and surrounding technology to rebuild a Visual Language Model
 - [PyWinAssistant](https://github.com/a-real-ai/pywinassistant) Large Action Model for Windows 10/11 win32api controlling User Interfaces via Visualization-of-Thought (VoT)
+- [Phi-3-vision-128k-instruct](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) a lightweight, state-of-the-art open multimodal model built upon datasets which include - synthetic data and filtered publicly available websites
+- [llama3v](https://huggingface.co/mustafaaljadery/llama3v) vision model that is powered by Llama3 8B and siglip-so400m matching gpt4-v on some benchmarks
 
 ## Code generation
 
@@ -626,6 +632,7 @@ prompt templating / grammar / engineering:
 - [KAN](https://arxiv.org/abs/2404.19756) Kolmogorov-Arnold Networks as promising alternatives to Multi-Layer Perceptrons (MLPs)
 - [Sparse Llama](https://huggingface.co/papers/2405.03594) Cerebras and Neural Magic produces a 70% Smaller, 3x Faster, Full Accuracy [model](https://huggingface.co/neuralmagic), [page](https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy)
 - [OSWorld](https://arxiv.org/abs/2404.07972) Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
+- [You Only Cache Once](https://arxiv.org/abs/2405.05254) Decoder-Decoder Architectures for Language Models
 
 # Other awesome resources
 
@@ -676,6 +683,7 @@ prompt templating / grammar / engineering:
 - [Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference) curated list of Awesome LLM Inference Paper with codes, TensorRT-LLM, vLLM, streaming-llm, AWQ, SmoothQuant, WINT8/4, Continuous Batching, FlashAttention, PagedAttention etc.
 - [fuck you, show me the prompt](https://hamel.dev/blog/posts/prompt/) Quickly understand inscrutable LLM frameworks by intercepting API calls.
 - [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) with up to date links to papers, guides and resources
+- [systematicall improving your rag](https://jxnl.co/writing/2024/05/22/systematically-improving-your-rag) blog about improving RAG systematically
 
 ## Product Showcases
 
@@ -733,6 +741,7 @@ prompt templating / grammar / engineering:
 - [Toqan Leaderboard](https://prollm.toqan.ai/leaderboard) coding assistant benchmark
 - [OpenCompass Leaderboard](https://rank.opencompass.org.cn/) Leaderboards with specific eval rankings for Medical, General and Law Benchmarks
 - [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o vs others
+- [SEAL Leaderboards](https://scale.com/leaderboard) Expert-Driven Private Evaluations
 
 ### Benchmark Suites
 
@@ -755,6 +764,7 @@ prompt templating / grammar / engineering:
 - [OpenCompass](https://github.com/open-compass/opencompass) is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets
 - [PHUDG3](https://github.com/deshwalmahesh/PHUDGE) Phi-3 as Scalable Judge. Evaluate your LLMs with an LLM
 - [NIAN](https://github.com/llmonpy/needle-in-a-needlestack) Needle in a Needlestack because LLMs have improved and Needle in a Haystack has become too easy
+- [beyondllm](https://github.com/aiplanethub/beyondllm) all-in-one toolkit for experimentation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) systems
 
 ## AI DevOps
 
