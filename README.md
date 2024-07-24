@@ -1,25 +1,33 @@
+<div align="center">
+    <h1>Awesome ML</h1>
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+</div>
 
 🤝👥 Contributions welcome. Accepting Pull Requests.
 
 # 💬 Large Language Models
-- [📜 The curated model list for llama and other open models](llm-model-list.md)
-- [📚 Guide to run LLaMA and derrivates on your own hardware](llama.md)
+
+- [⚖️ Open LLM Models](llm-tools.md#open-llm-models)
 
 - [🛠️ Tools](llm-tools.md#tools)
   - [🖥️ Native GUIs](llm-tools.md#native-guis)
   - [🌐 Web GUIs](llm-tools.md#web-guis)
+  - [⚙️ Backends](llm-tools.md#backends)
   - [🗣️ Voice Assistants](llm-tools.md#voice-assistants)
-  - [🔍 Information retrieval](llm-tools.md#information-retrieval)
+  - [🔍 Retrieval Augmented Generation](llm-tools.md#retrieval-augmented-generation-rag)
   - [🔗 Browser Extensions](llm-tools.md#browser-extensions)
   - [🤖 Agents / Automatic GPT](llm-tools.md#agents--automatic-gpt)
   - [🔀 Multi Modal](llm-tools.md#multi-modal)
+  - [💻 Code Generation](llm-tools.md#code-generation)
   - [📚 Libraries and Wrappers](llm-tools.md#libraries-and-wrappers)
   - [🎯 Fine Tuning & Training](llm-tools.md#fine-tuning--training)
-  - [🖼️ Frameworks](llm-tools.md#frameworks)
+  - [🪚 Merging & Quantization](llm-tools.md#merging--quantization)
+
 - [📚 Resources](llm-tools.md#resources)
-  - [📂 Data sets](llm-tools.md#data-sets)
+  - [📂 Data Sets](llm-tools.md#data-sets)
   - [🔬 Research](llm-tools.md#research)
-- [🌟 Other awesome resources](llm-tools.md#other-awesome-resources)
+
+- [🌟 Other Awesome Resources](llm-tools.md#other-awesome-resources)
   - [📺 Product Showcases](llm-tools.md#product-showcases)
   - [⚙️ Optimization](llm-tools.md#optimization)
   - [📏 Benchmarking](llm-tools.md#benchmarking)
@@ -33,12 +41,15 @@
 - [🔬 Research](image-generation.md#research)
 
 # 🎞️ Video Models
-- [🔀 Text to video generation](video-ai.md#text-to-video-generation)
+- [🔀 Text to Video Generation](video-ai.md#text-to-video-generation)
 - [⏭️ Frame Interpolation (Temporal Interpolation)](video-ai.md#frame-interpolation-temporal-interpolation)
 - [🎯 Segmentation & Tracking](video-ai.md#segmentation--tracking)
 - [🔎 Super Resolution (Spacial Interpolation)](video-ai.md#super-resolution-spacial-interpolation)
 - [⏲️ Spacio Temporal Interpolation](video-ai.md#spacio-temporal-interpolation)
+- [🌐 NeRF](video-ai.md#nerf)
+- [🎭 Deepfakes](video-ai.md#deepfakes)
 - [📏 Benchmarking](video-ai.md#benchmarking)
+- [🎨 Inpainting Outpainting](video-ai.md#inpainting-outpainting)
 
 # 🎵 Audio Models
 - [🗜️ Compression](audio-ai.md#compression)
@@ -46,7 +57,10 @@
 - [👂 Speech Recognition](audio-ai.md#speech-recognition)
 - [🗣️ TextToSpeech](audio-ai.md#texttospeech)
 - [🔄 Voice Conversion](audio-ai.md#voice-conversion)
+- [🎬 Video Voice Dubbing](audio-ai.md#video-voice-dubbing)
 - [🎶 Music Generation](audio-ai.md#music-generation)
+- [🔊 Audio Source Separation](audio-ai.md#audio-source-separation)
+- [🔬 Research](audio-ai.md#research)
 
 # 📊Marketing data science
 - [Marketing data science resources](marketing-data-science.md)
