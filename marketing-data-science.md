@@ -5,37 +5,45 @@
 Collection of all things "Data Science" leaning towards Marketing & Advertisement (Digital Marketers, Agencies, Web Designers and Web Analysts)
 
 # Table of Contents
- - [Software](#software)
-   - [Data Architecture](#data-architecture)
-     - [Classic ETL](#classic-etl)
-     - [Cloud ETL](#cloud-etl)
-     - [Metadata](#metadata)
-     - [Datastores / Databases](#datastores--databases)
-     - [Customer Data Platforms](#customer-data-platforms)
-     - [Job Scheduling / Workflows / Orchestration / Transformation](#job-scheduling--workflows--orchestration--transformation)
-   - [Web Analytics / App Analytics](#web-analytics--app-analytics)
-   - [Machine Learning IDEs](#machine-learning-ides)
-   - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
-   - [SaaS Marketing Reporting Solutions](#SaaS-Marketing-Reporting-Solutions)
-   - [Deployment Environments](#deployment-environments)
- - [Libraries](#libraries)
-   - [Python](#python)
-     - [Visualization](#visualization)
-     - [Machine Learning](#machine-learning)
-     - [Digital Marketing](#digital-marketing)
- - [Learning](#learning)
-   - [Courses](#courses)
-     - [Free Courses](#free-courses)
-     - [Paid Courses](#paid-courses)
-     - [Free interactive learning websites](#free-interactive-learning-websites)
-     - [Paid interactive learning websites](#paid-interactive-learning-websites)
-   - [Books](#books)
-     - [Statistics & Mathematics](#statistics--mathematics)
-     - [Data Visualization](#data-visualization)
-     - [Data Science in general](#data-science-in-general)
-     - [Machine Learning](#machine-learning)
-     - [Data Architecture](#data-architecture)
-   - [Other Resources](#other-resources)
+- [awesome-datascience](#awesome-datascience)
+- [Table of Contents](#table-of-contents)
+- [Software](#software)
+  - [Data Architecture](#data-architecture)
+    - [Classic ETL](#classic-etl)
+    - [Cloud ETL](#cloud-etl)
+    - [Metadata](#metadata)
+    - [Datastores / Databases](#datastores--databases)
+    - [Customer Data Platforms](#customer-data-platforms)
+    - [Job Scheduling / Workflows / Orchestration / Transformation](#job-scheduling--workflows--orchestration--transformation)
+  - [Web Analytics / App Analytics](#web-analytics--app-analytics)
+  - [Machine Learning IDEs](#machine-learning-ides)
+  - [BI / Data Visualization / Reporting](#bi--data-visualization--reporting)
+  - [SaaS Marketing Reporting Solutions](#saas-marketing-reporting-solutions)
+  - [Deployment Environments](#deployment-environments)
+  - [Web Scraping](#web-scraping)
+- [Libraries](#libraries)
+  - [Web](#web)
+    - [Visualization](#visualization)
+  - [Python](#python)
+    - [Visualization](#visualization-1)
+    - [Machine Learning](#machine-learning)
+    - [Digital Marketing](#digital-marketing)
+    - [Search](#search)
+    - [Query Engine](#query-engine)
+    - [Forecasting](#forecasting)
+- [Learning](#learning)
+  - [Courses](#courses)
+    - [Free Courses](#free-courses)
+    - [Paid Courses](#paid-courses)
+    - [Free interactive learning websites](#free-interactive-learning-websites)
+    - [Paid interactive learning websites](#paid-interactive-learning-websites)
+  - [Books](#books)
+    - [Statistics \& Mathematics](#statistics--mathematics)
+    - [Data Visualization](#data-visualization)
+    - [Data Science in general](#data-science-in-general)
+    - [Machine Learning](#machine-learning-1)
+    - [Data Architecture](#data-architecture-1)
+- [Other Resources](#other-resources)
 
 # Software
 ## Data Architecture
@@ -90,6 +98,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [XTDB](https://www.xtdb.com/v2) a bitemporal and dynamic relational database for SQL and Datalog
 - [undb](https://github.com/undb-xyz/undb) open source, private first, self-hosted, no code database as an airtable alternative
 - [apitable](https://github.com/apitable/apitable) an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives
+- [baserow](https://github.com/bram2w/baserow) an open source no-code database tool and Airtable alternative.
 
 
 ### Customer Data Platforms
@@ -174,7 +183,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [Apache Grafana | Open-source data visualization and monitoring](https://github.com/grafana/grafana)
 - [Apache Superset | Open-source enterprise grade web based BI solution](https://github.com/apache/superset)
 - [evidence | Business intelligence as code with SQL and markdown](https://github.com/evidence-dev/evidence)
-
+- [datasette](https://github.com/simonw/datasette) exploring and publishing data of any shape or size using an encapsulated website and API, especially useful for data journalism
+- [Python in Excel](https://github.com/microsoft/python-in-excel) Microsoft's official Python support within Excel
+- [Hands-On Data Visualization](https://handsondataviz.org/) open book from Ilya Ilyankou and Jack Dougherty
+- [Quary](https://github.com/quarylabs/quary) BI for Engineers, using SQL queries for transform, organize and document tables in a DB, create charts, dashboards and reports
 
 ## SaaS Marketing Reporting Solutions
 - [AgencyAnalytics](https://agencyanalytics.com/)
@@ -197,9 +209,12 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [EasySpider](https://github.com/NaiboWang/EasySpider)  visual code-free/no-code web crawler/spider
 
 # Libraries
-## Javascript
+## Web
 ### Visualization
 - [Plot](https://github.com/observablehq/plot) JavaScript library for exploratory data visualization Create expressive charts with concise code
+- [Tremor](https://github.com/tremorlabs/tremor) React library to build dashboards fast
+- [apexcharts.js](https://github.com/apexcharts/apexcharts.js)
+
 ## Python
 ### Visualization
 - [AutoViz](https://github.com/AutoViML/AutoViz), Automatically Visualize any dataset, any size with a single line of code.
@@ -233,6 +248,10 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 ### Query Engine
 - [Trustfall | Query almost any data source as if it's SQL](https://github.com/obi1kenobi/trustfall)
 
+### Forecasting
+- [Time-Series-Library](https://github.com/thuml/Time-Series-Library) A Library for Advanced Deep Time Series Models with iTransformers performing SOTA forecasting with inverted transformers
+- [neuralforecast](https://github.com/Nixtla/neuralforecast) formerly TimeGPT, Scalable and user friendly neural forecasting algorithms
+- [Moirai](https://blog.salesforceairesearch.com/moirai/) Salesforce's Universal time series Forecasting Model
 
 # Learning
 ## Courses
