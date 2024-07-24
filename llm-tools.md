@@ -379,7 +379,6 @@
 - [haystack](https://github.com/deepset-ai/haystack) LLM orchestration framework to connect models, vector DBs, file converters to pipelines or agents that can interact with your data to build RAG, Q&A, semantic search or conversational agent chatbots
 - [rivet](https://github.com/Ironclad/rivet) Visual graph/flow/node based IDE for creating AI agents and prompt chaining for your applications
 - [promptflow](https://github.com/microsoft/promptflow) visual graph/flow/node based IDE for creating AI agents
-- [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc) as a load balancer
 - [Flowise](https://github.com/FlowiseAI/Flowise) Drag & drop UI with visual graph/flow/nodes to build your customized LLM app
 - [ChainForge](https://github.com/ianarawjo/ChainForge) visual graph/flow/node based prompt engineering UI for analyzing and evaluating LLM responses
 - [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
@@ -761,6 +760,8 @@
 - [text-generation-inference](https://github.com/huggingface/text-generation-inference) Huggingface's own Rust, Python and gRPC server for text gen inference providing an API endpoint, supporting Flash/Paged Attention, bitsandbytes, GPTQ, EETQ, AWQ, Logits, Logprobs, Speculation, Guidance
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) a fast LLM inference platform supporting inference on a variety of devices, quantization, and easy-to-use application with an Open-AI API compatible HTTP server and Python bindings
 - [Text Generation Inference](https://huggingface.co/docs/text-generation-inference/en/index) deploy and serve popular LLMs with high-performance text generation, featuring optimizations like Tensor Parallelism, continuous batching, and quantization for efficient inference for GPUs and CPUs
+- [gateway](https://github.com/Portkey-AI/gateway) local proxy and API multi model server with fallbacks, retries, load balancing
+- [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc) as a load balancer
 
 ### Optimization
 
@@ -773,6 +774,7 @@
 - [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
 - [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
 - [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
+
 
 ## Databases for ML
 
