@@ -181,6 +181,8 @@
 - [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper) AI driven research from data with human-verifiability
 - [ragapp](https://github.com/ragapp/ragapp) Easy Agentic RAG for Enterprise based on LlamaIndex
 - [Argilla](https://github.com/argilla-io/argilla) human expert rating platform to improve AI output quality based to be used for RLHF and other techniques
+- [Mem0](https://github.com/mem0ai/mem0) provides a smart, self-improving memory layer for LLMs, enabling adaptive personalization by retaining user, session, and AI agent memories using a developer-friendly API
+- [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank) allows users to add ultra-light and super-fast re-ranking capabilities to existing search and retrieval pipelines using SoTA LLMs and cross-encoders without needing Torch or Transformers, making it highly efficient for CPU usage and cost-effective for serverless deployments [RAG with Query Expansion, Colbert v2 & FlashRank](https://aksdesai1998.medium.com/improving-rag-with-query-expansion-reranking-models-31d252856580)
 
 ## Browser Extensions
 
@@ -252,6 +254,7 @@
 - [llama-fs](https://github.com/iyaja/llama-fs) organizes a folder and renames files on your system by looking at each file and creating a useful structure based on metadata and common conventions
 - [Leon](https://github.com/leon-ai/leon) personal assistant with multiple features like TTS, ASR, LLM usage
 - [Vision Agent](https://github.com/landing-ai/vision-agent) allows users to describe vision problems in text and utilizes agent frameworks to generate code solutions, leveraging existing vision models to expedite task completion.
+- [Lagent](https://github.com/InternLM/lagent) allows users to efficiently build LLM-based agents with a unified interfacing design, supporting various models and customizable actions using frameworks like OpenAI API, Transformers, and LMDeploy
 
 ## Multi Modal
 
@@ -312,6 +315,7 @@
 - [plandex](https://github.com/plandex-ai/plandex) terminal-based AI coding agent for complex tasks with planning and execution capabilities
 - [AutoCoder](https://github.com/bin123apple/AutoCoder) Agentic code generation, execution and verification allowing external packages and using a fine tuned deepseeker-coder model AutoCoder-33B and 6.7B model
 - [Amplication](https://github.com/amplication/amplication) allows users to automate backend application development for .NET and Node.js using an AI-powered platform, ensuring scalable and secure code with a user-friendly, plugin-based architecture.
+- [twinny](https://github.com/twinnydotdev/twinny) VS Code Extension for Github Copilot like code completion and chat assistance, leveraging customizable API endpoints and supporting multiple backends like Ollama and llama.cpp
 
 ## Libraries and Wrappers
 
@@ -367,7 +371,7 @@
 - [haystack](https://github.com/deepset-ai/haystack) LLM orchestration framework to connect models, vector DBs, file converters to pipelines or agents that can interact with your data to build RAG, Q&A, semantic search or conversational agent chatbots
 - [rivet](https://github.com/Ironclad/rivet) Visual graph/flow/node based IDE for creating AI agents and prompt chaining for your applications
 - [promptflow](https://github.com/microsoft/promptflow) visual graph/flow/node based IDE for creating AI agents
-- [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc)
+- [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc) as a load balancer
 - [Flowise](https://github.com/FlowiseAI/Flowise) Drag & drop UI with visual graph/flow/nodes to build your customized LLM app
 - [ChainForge](https://github.com/ianarawjo/ChainForge) visual graph/flow/node based prompt engineering UI for analyzing and evaluating LLM responses
 - [LangStream](https://github.com/LangStream/langstream) Event-Driven Developer Platform for Building and Running LLM AI Apps, also providing a visual graph/flow/node based UI. Powered by Kubernetes and Kafka
