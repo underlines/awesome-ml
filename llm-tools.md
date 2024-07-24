@@ -183,6 +183,8 @@
 - [Argilla](https://github.com/argilla-io/argilla) human expert rating platform to improve AI output quality based to be used for RLHF and other techniques
 - [Mem0](https://github.com/mem0ai/mem0) provides a smart, self-improving memory layer for LLMs, enabling adaptive personalization by retaining user, session, and AI agent memories using a developer-friendly API
 - [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank) allows users to add ultra-light and super-fast re-ranking capabilities to existing search and retrieval pipelines using SoTA LLMs and cross-encoders without needing Torch or Transformers, making it highly efficient for CPU usage and cost-effective for serverless deployments [RAG with Query Expansion, Colbert v2 & FlashRank](https://aksdesai1998.medium.com/improving-rag-with-query-expansion-reranking-models-31d252856580)
+- [GraphRAG](https://github.com/microsoft/graphrag) enhance LLM outputs by utilizing knowledge graph memory structures, leveraging Azure resources for structured data extraction from unstructured text.
+- [GraphRAG-Local-UI](https://github.com/severian42/GraphRAG-Local-UI) UI for GraphRAG supporting local LLMs with an interactive Gradio-based UI, offering real-time graph visualization and flexible querying without reliance on cloud models.
 
 ## Browser Extensions
 
@@ -282,6 +284,7 @@
 - [PyWinAssistant](https://github.com/a-real-ai/pywinassistant) Large Action Model for Windows 10/11 win32api controlling User Interfaces via Visualization-of-Thought (VoT)
 - [Phi-3-vision-128k-instruct](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) a lightweight, state-of-the-art open multimodal model built upon datasets which include - synthetic data and filtered publicly available websites
 - [llama3v](https://huggingface.co/mustafaaljadery/llama3v) vision model that is powered by Llama3 8B and siglip-so400m matching gpt4-v on some benchmarks
+- [Zerox OCR](https://github.com/getomni-ai/zerox) allows users to convert PDFs into Markdown using a vision-based OCR process with GPT-4o-mini, optimizing for complex layouts like tables and charts
 
 ## Code generation
 
@@ -382,6 +385,7 @@
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit) build fully custom AI Copilots with support for chat, textbox assist, agents and context built on LangChain
 - [Bisheng](https://github.com/dataelement/bisheng/blob/main/README_ENG.md) LLM Application Develoment environment mainlzyin Chinese with some English documents
 - [Typebot](https://github.com/baptisteArno/typebot.io) allows users to visually create advanced chatbots that can be embedded in web/mobile apps, featuring customizable themes, real-time analytics, and various integration options with services like OpenAI, Google Sheets, and Zapier.
+- [DOM to Semantic Markdown](https://github.com/romansky/dom-to-semantic-markdown) convert HTML DOM to semantic Markdown, preserving the semantic structure and metadata for efficient LLM processing, using HTML-to-Markdown AST conversion and customizable options
 
 ### Prompt templating / Grammar
 
@@ -639,6 +643,7 @@
 - [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) with up to date links to papers, guides and resources
 - [systematicall improving your rag](https://jxnl.co/writing/2024/05/22/systematically-improving-your-rag) blog about improving RAG systematically
 - [fabric](https://github.com/danielmiessler/fabric) provides programmatically accessible prompt templates using a crowdsourced prompt DB 
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) compilation of various techniques like Few shot, chain of thought, tree of thoughts, tool using, ReAct and more to improve LLM quality via complex prompting
 
 ## Product Showcases
 
@@ -710,6 +715,7 @@
 - [NIAN](https://github.com/llmonpy/needle-in-a-needlestack) Needle in a Needlestack because LLMs have improved and Needle in a Haystack has become too easy
 - [beyondllm](https://github.com/aiplanethub/beyondllm) all-in-one toolkit for experimentation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) systems
 - [AIR-bench](https://github.com/AIR-Bench/AIR-Bench) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
+- [LLMSuite](https://github.com/giorgioroffo/large_language_models_open_suite) view code, run inferences, and measure performance with evaluation tasks
 
 ## AI DevOps
 
