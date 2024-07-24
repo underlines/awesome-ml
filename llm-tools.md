@@ -257,6 +257,7 @@
 - [Leon](https://github.com/leon-ai/leon) personal assistant with multiple features like TTS, ASR, LLM usage
 - [Vision Agent](https://github.com/landing-ai/vision-agent) allows users to describe vision problems in text and utilizes agent frameworks to generate code solutions, leveraging existing vision models to expedite task completion.
 - [Lagent](https://github.com/InternLM/lagent) allows users to efficiently build LLM-based agents with a unified interfacing design, supporting various models and customizable actions using frameworks like OpenAI API, Transformers, and LMDeploy
+- [IoA](https://github.com/OpenBMB/IoA) a framework where diverse AI agents, using an internet-inspired architecture, can autonomously form teams and execute tasks asynchronously, leveraging heterogeneous agent integration and adaptive conversation flows
 
 ## Multi Modal
 
@@ -401,6 +402,8 @@
 - [aici](https://github.com/microsoft/aici) lets you build Controllers that constrain and direct output of aLLM in real time
 - [instructor](https://github.com/jxnl/instructor) structured outputs for LLMs. Pydantic, simple and transparent
 - [Every Way To Get Structured Output From LLMs](https://www.boundaryml.com/blog/structured-output-from-llms) explores various methods for obtaining structured output from LLMs, including techniques beyond simple JSON response formatting and regex stacking.
+- [AgentInstruct](https://github.com/wang-research-lab/agentinstruct) Instructs Agents to be better at Zero Shot reasoning tasks
+- [TextGrad](https://github.com/zou-group/textgrad) optimize coding solutions and problem-solving tasks by implementing automatic differentiation via text feedback from LLMs
 
 ## Fine Tuning & Training
 
@@ -591,6 +594,9 @@
 - [You Only Cache Once](https://arxiv.org/abs/2405.05254) Decoder-Decoder Architectures for Language Models
 - [SOLAR](https://arxiv.org/abs/2312.15166) Scaling LLMs with Simple yet Effective Depth Up-Scaling to increase parameter count and continue pre-training, [SOLAR-10.7B](https://huggingface.co/upstage/SOLAR-10.7B-v1.0)
 - [TextGrad](https://arxiv.org/abs/2406.07496v1) allows users to enhance AI system components by backpropagating textual feedback provided by LLMs to optimize variables in computation graphs, utilizing a framework similar to PyTorch for various tasks.
+- [Vision language models are blind](https://arxiv.org/abs/2407.06581) LLMs with Vision capabilities VLMs perform low on a new benchmark suite called BlindTest that is easy for humans but difficult for VLMs
+- [SpreadsheetLLM](https://arxiv.org/abs/2407.09025v1) Encoding Spreadsheets for Large Language Models, introduces SheetCompressor, an innovative encoding framework for compressing spreadsheets to enhance LLM performance, achieving a state-of-the-art 78.9% F1 score, outperforming existing models.
+- [Internet of Agents](https://arxiv.org/abs/2407.07061) creating a flexible and scalable platform for LLM-based multi-agent collaboration using an agent integration protocol, an instant-messaging-like architecture, and dynamic mechanisms for agent teaming and conversation flow control, code available
 
 # Other awesome resources
 
@@ -691,6 +697,9 @@
 - [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o vs others
 - [SEAL Leaderboards](https://scale.com/leaderboard) Expert-Driven Private Evaluations
 - [AIR-bench](https://huggingface.co/spaces/AIR-Bench/leaderboard) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
+- [Leaderboards and benchmarks](https://huggingface.co/collections/clefourrier/leaderboards-and-benchmarks-64f99d2e11e92ca5568a7cce) collection of leaderboards and benchmarks for Text, vision, audio etc.
+- [Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)
+- [Vision-Arena](https://huggingface.co/spaces/WildVision/vision-arena) Leaderboard for benchmarking Multimodal LLMs in the Wild for Vision and Text tasks.
 
 ### Benchmark Suites
 
@@ -716,6 +725,7 @@
 - [beyondllm](https://github.com/aiplanethub/beyondllm) all-in-one toolkit for experimentation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) systems
 - [AIR-bench](https://github.com/AIR-Bench/AIR-Bench) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
 - [LLMSuite](https://github.com/giorgioroffo/large_language_models_open_suite) view code, run inferences, and measure performance with evaluation tasks
+- [BlindTest](https://github.com/anguyen8/vision-llms-are-blind) Vision Language Model (VLM) benchmark to assess visual understanding capabilities
 
 ## AI DevOps
 
@@ -744,6 +754,7 @@
 - [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes
 - [text-generation-inference](https://github.com/huggingface/text-generation-inference) Huggingface's own Rust, Python and gRPC server for text gen inference providing an API endpoint, supporting Flash/Paged Attention, bitsandbytes, GPTQ, EETQ, AWQ, Logits, Logprobs, Speculation, Guidance
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) a fast LLM inference platform supporting inference on a variety of devices, quantization, and easy-to-use application with an Open-AI API compatible HTTP server and Python bindings
+- [Text Generation Inference](https://huggingface.co/docs/text-generation-inference/en/index) deploy and serve popular LLMs with high-performance text generation, featuring optimizations like Tensor Parallelism, continuous batching, and quantization for efficient inference for GPUs and CPUs
 
 ### Optimization
 
