@@ -87,7 +87,7 @@
 - [transformers](https://github.com/huggingface/transformers) huggingface transformers
 - [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) 8 bit inference
 - [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) 4bit inference
-- [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) C/C++ implementation providing inference for a wide range of LLM architectures like llama, mistral, dbrx, qwen, mamba, gemma and more, supporting a wide range of hardware, with optimizations for ARM, Apple Metal, x86. Offers various quantization techniques, CUDA kernels, Vulkan and SYCL backend support, and CPU+GPU hybrid inference for models larger than the total VRAM capacity
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) Python API for running LLMs on GPU with support for MHA, MQA, GQA, Tensor Parallelism, INT4/8 Quantization, GPTQ, AWQ, FP8, RoPE to run Baichuan, BLOOM, ChatGLM, Falcon, GPT-J/NeoX, LLaMA/2,MPT, OPT, SantaCoder, StarCoder etc.
 - [tensorrtllm_backend](https://github.com/triton-inference-server/tensorrtllm_backend)  Triton TensorRT-LLM Backend
 - [RWKV.cpp](https://github.com/saharNooby/rwkv.cpp) CPU only port of BlinkDL/RWKV-LM to ggerganov/ggml. Supports FP32, FP16 and quantized INT4.
