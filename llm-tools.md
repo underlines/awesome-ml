@@ -10,8 +10,6 @@
 
 ## Native GUIs
 
-### openAI
-
 - [chatgptui/desktop](https://github.com/chatgptui/desktop)
 - [chatbox](https://github.com/Bin-Huang/chatbox) is a Windows, Mac & Linux native ChatGPT Client
 - [BingGPT](https://github.com/dice2o/BingGPT) Desktop application of new Bing's AI-powered chat
@@ -19,27 +17,13 @@
 - [Chat2DB++](https://github.com/chat2db/Chat2DB) general-purpose SQL & multi DBMS client and reporting tool which uses ChatGPT capabilities to write and optimize Queries
 - [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) Web, Windows, Linux, Mac GUI. Supports: Local LLMs, Markdown, LaTex, mermaid, code, history compression, prompt templates
 - [ChatGPT](https://github.com/HemulGM/ChatGPT) Native Application for Windows, Mac, Android, iOS, Linux
-
-### Local LLMs
-
-cpp / ggml / gguf:
-
 - [koboldcpp](https://github.com/LostRuins/koboldcpp) llama.cpp with a fancy UI, persistent stories, editing tools, memory etc. Supporting ggmlv3 and old ggml, CLBlast and llama, RWKV, GPT-NeoX, Pythia models
 - [Serge](https://github.com/nsarrazin/serge) chat interface based on llama.cpp for running Alpaca models. Entirely self-hosted, no API keys needed
 - [faraday.dev](https://faraday.dev/) using llama.cpp under the hood to run most llama based models, made for character based chat and role play
-
-gpt4all:
-
 - [gpt4all](https://github.com/nomic-ai/gpt4all) terminal and gui version to run local gpt-j models, [compiled binaries for win/osx/linux](https://gpt4all.io/index.html)
 - [gpt4all.zig](https://github.com/renerocksai/gpt4all.zig) terminal version of GPT4All
 - [gpt4all-chat](https://github.com/nomic-ai/gpt4all-chat) Cross platform desktop GUI for GPT4All  models (gpt-j)
-
-ollama:
-
 - [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
-
-others:
-
 - [LM Studio](https://lmstudio.ai/) closed-source but very easy to use Native Mac, Windows, Linux GUI, supporting ggml, MPT, StarCoder, Falcon, Replit, GPT-Neu-X, gguf
   - [lms](https://github.com/lmstudio-ai/lms) CLI version of LMStudio
 - [pinokio](https://pinokio.computer/) Template based 1 Click installer for ML inference (LLMs, Audio, Text, Video)
@@ -66,19 +50,12 @@ others:
 
 ## Web GUIs
 
-### openAI
-
-- [TypingMind](https://www.typingmind.com/)
-- [Chatwithme.chat](https://www.chatwithme.chat/)
 - [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
 - [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 - [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
 - [Chatbot UI](https://github.com/mckaywrigley/chatbot-ui) An open source ChatGPT UI
 - [freegpt-webui](https://github.com/ramonvc/freegpt-webui) provides a user friendly web-interface connecting to free (reverse-engineered) public GPT3.5/GPT4 endpoints using gpt4free
 - [Flux](https://github.com/paradigmxyz/flux) Graph-based LLM power tool for exploring many prompts and completions in parallel.
-
-### Local LLMs
-
 - [Text Generation Webui](https://github.com/oobabooga/text-generation-webui) An all purpose UI to run LLMs of all sorts with optimizations ([running LLaMA-13b on 6GB VRAM](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc), [HN Thread](https://news.ycombinator.com/item?id=35937505))
 - [Text Generation Webui Ph0rk0z fork](https://github.com/Ph0rk0z/text-generation-webui-testing/) supporting all GPTQ versions and max context of 8192 instead of 4096 (because some models support longer context now)
 - [dockerLLM](https://github.com/TheBlokeAI/dockerLLM/tree/main) TheBloke's docker variant of text-generation-webui
@@ -95,9 +72,6 @@ others:
 - [ExUI](https://github.com/turboderp/exui) simple, lightweight web UI for running local inference using ExLlamaV2
 - [ava](https://github.com/cztomsik/ava) Air-gapped Virtual Assistant / Personal Language Server with support for local models using llama.cpp as a backend, [demo](https://avapls.com/)
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile) Distribute and run LLMs with a single file on Windows, macOS, Linux
-
-### Model agnostic
-
 - [OpenChat](https://github.com/openchatai/OpenChat) web ui that currently supports openAI but will implement local LLM support, RAG with PDF, websites, confluence, office 365
 - [lobe-chat](https://github.com/lobehub/lobe-chat) docker image based chat bot framework with plugin and agent support, roles, UI etc
 - [LibreChat](https://github.com/danny-avila/LibreChat) OpenAI, Assistants API, Vision, Mistral, Bing, Anthropic, OpenRouter, Google Gemini, model switching, langchain, DALL-E, Plugins, OpenAI Functions, Multi-User, Presets
@@ -123,8 +97,6 @@ others:
 
 ## Voice Assistants
 
-### openAI
-
 - [datafilik/GPT-Voice-Assistant](https://github.com/datafilik/GPT-Voice-Assistant)
 - [Abdallah-Ragab/VoiceGPT](https://github.com/Abdallah-Ragab/VoiceGPT)
 - [LlmKira/Openaibot](https://github.com/LlmKira/Openaibot)
@@ -136,9 +108,6 @@ others:
 - [bullerbot](https://github.com/EdwardIPAguilar/BuellerBot) uses GPT and ElevenLabs to join your online meetings, listen for your name and answers questions with your voice
 - [RealChar](https://github.com/Shaunwei/RealChar) Create, Customize and Talk to your AI Character/Companion in Realtime using GPT3.5/4, Claude2, Chroma Vector DB, Whisper Speech2Text, ElevenLabs Text2Speech
 - [gdansk-ai](https://github.com/jmaczan/gdansk-ai) full stack AI voice chatbot (speech-to-text, LLM, text-to-speech) with integrations to Auth0, OpenAI, Google Cloud API and Stripe - Web App, API
-
-### Local LLMs
-
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/wsippel/bark_tts) make your local LLM talk
 - [bark TTS for oobabooga/text-generation-webui](https://github.com/minemo/text-generation-webui-barktts) another implementation
 - [iris-llm](https://github.com/dkjroot/iris-llm/tree/prototypes) local voice chat agent
@@ -151,8 +120,6 @@ others:
 
 ## Retrieval Augmented Generation (RAG)
 
-### openAI
-
 - [sqlchat](https://github.com/sqlchat/sqlchat) Use OpenAI GPT3/4 to chat with your database
 - [chat-with-github-repo](https://github.com/peterw/Chat-with-Github-Repo) which uses streamlit, gpt3.5-turbo and deep lake to answer questions about a git repo
 - [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader) uses Git and GPT-4 to convert a repository into a text format for various tasks, such as code review or documentation generation.
@@ -160,9 +127,6 @@ others:
 - [embedchain](https://github.com/embedchain/embedchain) python based RAG Framework
 - [dataherald](https://github.com/Dataherald/dataherald) a natural language-to-SQL engine built for enterprise-level question answering over structured data. It allows you to set up an API from your database that can answer questions in plain English
 - [databerry](https://github.com/gmpetrov/databerry) create proprietary data stores that can be accessed by GPT
-
-### Local LLMs
-
 - [Llama-lab](https://github.com/run-llama/llama-lab) home of llama_agi and auto_llama using LlamaIndex
 - [PrivateGPT](https://github.com/imartinez/privateGPT) a standalone question-answering system using LangChain, GPT4All, LlamaCpp and embeddings models to enable offline querying of documents
 - [Spyglass](https://github.com/spyglass-search/spyglass) tests an Alpaca integration for a self-hosted personal search app. Select the llama-rama feature branch. [Discussion on reddit](https://www.reddit.com/r/LocalLLaMA/comments/13key7p/a_little_demo_integration_the_alpaca_model_w_my/)
@@ -178,9 +142,6 @@ others:
 - [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain using Llama 2, supporting multiple data sources, web search etc.
 - [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
 - [local-rag](https://github.com/jonfairbanks/local-rag) Ingest files for RAG with open LLMs, without 3rd parties or data leaving your network
-
-### Model Agnostic
-
 - [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
 - [BriefGPT](https://github.com/e-johnstonn/BriefGPT) document summarization and querying using OpenAI' and locally run LLM's using LlamaCpp or GPT4ALL, and embeddings stored as a FAISS index, built using Langchain.
 - [anything-llm](https://github.com/Mintplex-Labs/anything-llm) document ingestion, supports multiple vector DBs, remote and local LLMs and supports chat and query mode
@@ -222,21 +183,14 @@ others:
 
 ## Browser Extensions
 
-### openAI
-
 - [sider](https://chrome.google.com/webstore/detail/sider-chatgpt-sidebar-gpt/difoiogjjojoaoomphldepapgpbgkhkb) chrome side-bar for chatGPT and OpenAI API supporting custom prompts and text highlighting
 - [chathub-dev/chathub](https://github.com/chathub-dev/chathub)
 - [Glarity](https://github.com/sparticleinc/chatgpt-google-summary-extension) open-source chrome extension to write summaries for various websites including custom ones and YouTube videos. Extensible
 - [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
 - [Lumos](https://github.com/andrewnguonly/Lumos) Chrome Extension with OLlama Backend as a RAG LLM co-pilot for browsing the web
-
-### Local LLMs
-
 - [chatGPTBox](https://github.com/josStorer/chatGPTBox) add useful LLM chat-boxes to github and other websites, supporting self-hosted model (RWKV, llama.cpp, ChatGLM)
 
 ## Agents / Automatic GPT
-
-### openAI
 
 - [Auto GPT](https://github.com/Torantulino/Auto-GPT)
 - [AgentGPT](https://github.com/reworkd/AgentGPT) Deploy autonomous AI agents, using vectorDB memory, web browsing via LangChain, website interaction and more including a GUI
@@ -266,9 +220,6 @@ others:
 - [XAgent](https://github.com/OpenBMB/XAgent) Autonomous LLM Agent for Complex Task Solving
 - [HAAS](https://github.com/daveshap/OpenAI_Agent_Swarm) Hierarchical Autonomous Agent Swarm create a self-organizing and ethically governed ecosystem of AI agents, inspired by ACE Framework
 - [agency-swarm](https://github.com/VRSEN/agency-swarm) agent orchestration framework enabling the creation of a collaborative swarm of agents (Agencies), each with distinct roles and capabilities
-
-### Local LLMs
-
 - [Auto Vicuna Butler](https://github.com/NiaSchim/auto-vicuna-butler) Baby-AGI fork / AutoGPT alternative to run with local LLMs
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) AI-Powered Task Management for OpenAI + Pinecone or Llama.cpp
 - [Agent-LLM](https://github.com/Josh-XT/Agent-LLM) Webapp to control an agent-based Auto-GPT alternative, supporting GPT4, Kobold, llama.cpp, FastChat, Bard, Oobabooga textgen
@@ -280,9 +231,6 @@ others:
 - [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) Multi agent system for AI-driven software development. Combine LLM with DevOps tools to convert natural language requirements into working software
 - [ToRA](https://github.com/microsoft/ToRA) Tool-integrated Reasoning Agents designed to solve challenging mathematical reasoning problems by interacting with tools, e.g., computation libraries and symbolic solvers, [paper](https://arxiv.org/abs/2309.17452)
 - [ACE](https://github.com/daveshap/ACE_Framework) Autonomous Cognitive Entities Framework to automatically create autonomous agents and sub agents depending on the tasks at hand
-
-### Model agnostic
-
 - [SuperAgent](https://github.com/homanp/superagent) Build, deploy, and manage LLM-powered agents
 - [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents) Open-source Framework for Autonomous Language Agents with LSTM, Tool Usage, Web Navigation, Multi Agent Communication and Human-Agent interaction, [paper](https://arxiv.org/pdf/2309.07870.pdf)
 - [autogen](https://github.com/microsoft/autogen) framework that enables the development of LLM applications using multiple agents that can converse with each other to solve tasks, [paper](https://arxiv.org/abs/2308.08155v2)
@@ -364,8 +312,6 @@ others:
 
 ## Libraries and Wrappers
 
-### openAI
-
 - [acheong08/ChatGPT Python](https://github.com/acheong08/ChatGPT) reverse engineerded chatGPT API
 - [gpt4free](https://github.com/xtekky/gpt4free) Use reverse engineered GPT3.5/4 APIs of other website's APIs
 - [GPTCache](https://github.com/zilliztech/GPTCache), serve cached results based on embeddings in a vector DB, before querying the OpenAI API.
@@ -377,9 +323,6 @@ others:
 - [EdgeGPT](https://github.com/acheong08/EdgeGPT) Reverse engineered API of Microsoft's Bing Chat using Edge browser
 - [simpleaichat](https://github.com/minimaxir/simpleaichat) python package for simple and easy interfacing with chat AI APIs
 - [Dotnet SDK for openai](https://github.com/betalgo/openai) chatGPT, Whisper, GPT-4 and Dall-E SDK for .NET
-
-### Local LLMs
-
 - [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) TS library to locally run many models supported by llama.cpp, enhanced with many convenient features, like forcing a JSON schema on the model output on the generation level
 - [FastLLaMA Python wrapper for llama.cpp](https://github.com/PotatoSpudowski/fastLLaMa)
 - [WebGPT](https://github.com/0hq/WebGPT) Inference in pure javascript
@@ -405,9 +348,6 @@ others:
 - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) Python Bindings for llama.cpp with low level C API interface, python API, openai like API and LangChain compatibility
 - [candle](https://github.com/huggingface/candle) a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use
 - [tabbyAPI](https://github.com/theroyallab/tabbyAPI/) OpenAI API emulation using exllamav2 API that's both lightweight and fast
-
-### Model agnostic
-
 - [LangChain](https://github.com/hwchase17/langchain) Framework for LLM Application Development ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
 - [Langstream](https://github.com/rogeriochaves/langstream) a lighter alternative to LangChain
 - [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain using graphs/flows
@@ -435,7 +375,7 @@ others:
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit) build fully custom AI Copilots with support for chat, textbox assist, agents and context built on LangChain
 - [Bisheng](https://github.com/dataelement/bisheng/blob/main/README_ENG.md) LLM Application Develoment environment mainlzyin Chinese with some English documents
 
-prompt templating / grammar / engineering:
+### Prompt templating / Grammar
 
 - [Jsonformer](https://github.com/1rgs/jsonformer) Generate Structured JSON from Language Models by handling JSON synthax, and letting LLM just output the values
 - [Microsoft guidance](https://github.com/microsoft/guidance) templating / grammar for LLMs, [Demo project](https://github.com/paolorechia/local-guidance) by paolorechia for local text-generation-webui. [reddit thread](https://www.reddit.com/r/LocalLLaMA/comments/13kzubz/i_made_a_simple_agent_demo_with_guidance_and/). [guidance fork](https://github.com/Maximilian-Winter/guidance) and [llama-cpp-python fork](https://github.com/Maximilian-Winter/llama-cpp-python) how-to on [reddit](https://www.reddit.com/r/LocalLLaMA/comments/13magac/hi_community_i_created_a_fork_of_microsofts/)
@@ -700,18 +640,6 @@ prompt templating / grammar / engineering:
 - [Outfit Anyone](https://github.com/HumanAIGC/OutfitAnyone) Ultra-high quality virtual try-on for Any Clothing and Any Person
 - [llavavision](https://github.com/lxe/llavavision) simple "Be My Eyes" web app with a llama.cpp/llava backend explaining what the camera sees for blind assistance
 
-## Optimization
-
-- [Petals](https://github.com/bigscience-workshop/petals)
-- [FlexGen](https://github.com/FMInference/FlexGen) High-throughput Generative Inference of LLMs with a Single GPU
-- [XLA](https://github.com/openxla/xla/) Accelerated Linear Algebra is a ML compiler for GPU, CPU and accelerators
-- [zipslicer](https://github.com/kir-gadjello/zipslicer)
-- [AITemplate](https://github.com/facebookincubator/AITemplate) a Python framework which renders neural network into high performance CUDA/HIP C++ code
-- [Flash-attention](https://github.com/HazyResearch/flash-attention) Fast and memory-efficient exact attention
-- [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
-- [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
-- [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
-
 ## Benchmarking
 
 ### Leaderboards
@@ -799,6 +727,18 @@ prompt templating / grammar / engineering:
 - [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes
 - [text-generation-inference](https://github.com/huggingface/text-generation-inference) Huggingface's own Rust, Python and gRPC server for text gen inference providing an API endpoint, supporting Flash/Paged Attention, bitsandbytes, GPTQ, EETQ, AWQ, Logits, Logprobs, Speculation, Guidance
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) a fast LLM inference platform supporting inference on a variety of devices, quantization, and easy-to-use application with an Open-AI API compatible HTTP server and Python bindings
+
+### Optimization
+
+- [Petals](https://github.com/bigscience-workshop/petals)
+- [FlexGen](https://github.com/FMInference/FlexGen) High-throughput Generative Inference of LLMs with a Single GPU
+- [XLA](https://github.com/openxla/xla/) Accelerated Linear Algebra is a ML compiler for GPU, CPU and accelerators
+- [zipslicer](https://github.com/kir-gadjello/zipslicer)
+- [AITemplate](https://github.com/facebookincubator/AITemplate) a Python framework which renders neural network into high performance CUDA/HIP C++ code
+- [Flash-attention](https://github.com/HazyResearch/flash-attention) Fast and memory-efficient exact attention
+- [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
+- [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
+- [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
 
 ## Databases for ML
 
