@@ -185,6 +185,8 @@
 - [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank) allows users to add ultra-light and super-fast re-ranking capabilities to existing search and retrieval pipelines using SoTA LLMs and cross-encoders without needing Torch or Transformers, making it highly efficient for CPU usage and cost-effective for serverless deployments [RAG with Query Expansion, Colbert v2 & FlashRank](https://aksdesai1998.medium.com/improving-rag-with-query-expansion-reranking-models-31d252856580)
 - [GraphRAG](https://github.com/microsoft/graphrag) enhance LLM outputs by utilizing knowledge graph memory structures, leveraging Azure resources for structured data extraction from unstructured text.
 - [GraphRAG-Local-UI](https://github.com/severian42/GraphRAG-Local-UI) UI for GraphRAG supporting local LLMs with an interactive Gradio-based UI, offering real-time graph visualization and flexible querying without reliance on cloud models.
+- [vanna](https://github.com/vanna-ai/vanna) generates vector embeddings of your DB schema, documentation and example queries in order to do generate matching Queries based on a user input for RAG
+- [indexify](https://github.com/tensorlakeai/indexify) building fast data pipelines for unstructured data (video, audio, images and documents) using extractors for embedding, transformation and feature extraction allowing real time and incremental extraction for RAG workflows
 
 ## Browser Extensions
 
@@ -245,7 +247,7 @@
 - [phidata](https://github.com/phidatahq/phidata) toolkit for building AI Assistants using function calling enabling RAG and other workflows
 - [FRIDAY](https://github.com/OS-Copilot/FRIDAY) Framework for Computer Agents with Self-Improvement on OSX and Linux
 - [agentkit](https://github.com/BCG-X-Official/agentkit) Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
-- [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models
+- [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models, a Large Action Model framework for AI Web Agents
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) control a web browser through natural language instructions using visual language models
 - [AIOS](https://github.com/agiresearch/AIOS) SDK that embeds large language model into Operating Systems providing Agent workflows, OS Kernel integration and System Calls via LLM Kernel (Agent, Context, Memory, Storage, Tools, Access)
 - [WebLlama](https://github.com/McGill-NLP/webllama) code and [Llama-3-8B-web](https://huggingface.co/McGill-NLP/Llama-3-8B-Web) model to build agents that browse the web by following chat style instructions
@@ -258,6 +260,7 @@
 - [Vision Agent](https://github.com/landing-ai/vision-agent) allows users to describe vision problems in text and utilizes agent frameworks to generate code solutions, leveraging existing vision models to expedite task completion.
 - [Lagent](https://github.com/InternLM/lagent) allows users to efficiently build LLM-based agents with a unified interfacing design, supporting various models and customizable actions using frameworks like OpenAI API, Transformers, and LMDeploy
 - [IoA](https://github.com/OpenBMB/IoA) a framework where diverse AI agents, using an internet-inspired architecture, can autonomously form teams and execute tasks asynchronously, leveraging heterogeneous agent integration and adaptive conversation flows
+- [Atomic Agents](https://github.com/KennyVaneetvelde/atomic_agents) a framework designed to be modular, extensible, and easy to use to build agents on top of Instructor and Pydantic
 
 ## Multi Modal
 
@@ -320,6 +323,7 @@
 - [AutoCoder](https://github.com/bin123apple/AutoCoder) Agentic code generation, execution and verification allowing external packages and using a fine tuned deepseeker-coder model AutoCoder-33B and 6.7B model
 - [Amplication](https://github.com/amplication/amplication) allows users to automate backend application development for .NET and Node.js using an AI-powered platform, ensuring scalable and secure code with a user-friendly, plugin-based architecture.
 - [twinny](https://github.com/twinnydotdev/twinny) VS Code Extension for Github Copilot like code completion and chat assistance, leveraging customizable API endpoints and supporting multiple backends like Ollama and llama.cpp
+- [Mutahunter](https://github.com/codeintegrity-ai/mutahunter) generate unit tests automatically and perform LLM-based mutation testing, enhancing fault detection with context-aware mutations across various programming languages
 
 ## Libraries and Wrappers
 
@@ -597,6 +601,7 @@
 - [Vision language models are blind](https://arxiv.org/abs/2407.06581) LLMs with Vision capabilities VLMs perform low on a new benchmark suite called BlindTest that is easy for humans but difficult for VLMs
 - [SpreadsheetLLM](https://arxiv.org/abs/2407.09025v1) Encoding Spreadsheets for Large Language Models, introduces SheetCompressor, an innovative encoding framework for compressing spreadsheets to enhance LLM performance, achieving a state-of-the-art 78.9% F1 score, outperforming existing models.
 - [Internet of Agents](https://arxiv.org/abs/2407.07061) creating a flexible and scalable platform for LLM-based multi-agent collaboration using an agent integration protocol, an instant-messaging-like architecture, and dynamic mechanisms for agent teaming and conversation flow control, code available
+- [Mixture-of-Agents](https://arxiv.org/abs/2406.04692) MoA proposes a MoA methodology to leverage the strengths of multiple LLMs, achieving state-of-the-art performance using a layered architecture where each agent utilizes outputs from previous layers 
 
 # Other awesome resources
 
@@ -661,6 +666,7 @@
 - [screenshot-to-code](https://github.com/abi/screenshot-to-code) this converts a website screenshot to approximated HTML/CSS code by using GPT-4-Vision
 - [Outfit Anyone](https://github.com/HumanAIGC/OutfitAnyone) Ultra-high quality virtual try-on for Any Clothing and Any Person
 - [llavavision](https://github.com/lxe/llavavision) simple "Be My Eyes" web app with a llama.cpp/llava backend explaining what the camera sees for blind assistance
+- [pretzelai](https://github.com/pretzelai/pretzelai) modern fork of Jupyter Notebooks with AI code generation and editing, inline tab completion, sidebar chat and error fixing
 
 ## Benchmarking
 
