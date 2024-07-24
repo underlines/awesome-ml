@@ -180,6 +180,7 @@
 - [AFFiNE](https://github.com/toeverything/AFFiNE) knowledge base as a Notion, Miro and Airtable alternative with multimodal AI generation
 - [data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper) AI driven research from data with human-verifiability
 - [ragapp](https://github.com/ragapp/ragapp) Easy Agentic RAG for Enterprise based on LlamaIndex
+- [Argilla](https://github.com/argilla-io/argilla) human expert rating platform to improve AI output quality based to be used for RLHF and other techniques
 
 ## Browser Extensions
 
@@ -250,6 +251,7 @@
 - [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) AI Agent Platform for Financial Applications using LLMs
 - [llama-fs](https://github.com/iyaja/llama-fs) organizes a folder and renames files on your system by looking at each file and creating a useful structure based on metadata and common conventions
 - [Leon](https://github.com/leon-ai/leon) personal assistant with multiple features like TTS, ASR, LLM usage
+- [Vision Agent](https://github.com/landing-ai/vision-agent) allows users to describe vision problems in text and utilizes agent frameworks to generate code solutions, leveraging existing vision models to expedite task completion.
 
 ## Multi Modal
 
@@ -309,6 +311,7 @@
 - [AutoCodeRover](https://github.com/nus-apr/auto-code-rover) automated GitHub issue resolver for bug fixes and feature addition
 - [plandex](https://github.com/plandex-ai/plandex) terminal-based AI coding agent for complex tasks with planning and execution capabilities
 - [AutoCoder](https://github.com/bin123apple/AutoCoder) Agentic code generation, execution and verification allowing external packages and using a fine tuned deepseeker-coder model AutoCoder-33B and 6.7B model
+- [Amplication](https://github.com/amplication/amplication) allows users to automate backend application development for .NET and Node.js using an AI-powered platform, ensuring scalable and secure code with a user-friendly, plugin-based architecture.
 
 ## Libraries and Wrappers
 
@@ -374,6 +377,7 @@
 - [dify](https://github.com/langgenius/dify) LLM app development platform combines AI workflow, RAG pipeline, agent capabilities, model management, observability in a visual graph/flow/node editor
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit) build fully custom AI Copilots with support for chat, textbox assist, agents and context built on LangChain
 - [Bisheng](https://github.com/dataelement/bisheng/blob/main/README_ENG.md) LLM Application Develoment environment mainlzyin Chinese with some English documents
+- [Typebot](https://github.com/baptisteArno/typebot.io) allows users to visually create advanced chatbots that can be embedded in web/mobile apps, featuring customizable themes, real-time analytics, and various integration options with services like OpenAI, Google Sheets, and Zapier.
 
 ### Prompt templating / Grammar
 
@@ -388,6 +392,7 @@
 - [AlphaCodium](https://github.com/codium-ai/alphacodium) Automatic Code Generation improvements with Prompt Engineering and Flow Engineering
 - [aici](https://github.com/microsoft/aici) lets you build Controllers that constrain and direct output of aLLM in real time
 - [instructor](https://github.com/jxnl/instructor) structured outputs for LLMs. Pydantic, simple and transparent
+- [Every Way To Get Structured Output From LLMs](https://www.boundaryml.com/blog/structured-output-from-llms) explores various methods for obtaining structured output from LLMs, including techniques beyond simple JSON response formatting and regex stacking.
 
 ## Fine Tuning & Training
 
@@ -577,6 +582,7 @@
 - [OSWorld](https://arxiv.org/abs/2404.07972) Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments
 - [You Only Cache Once](https://arxiv.org/abs/2405.05254) Decoder-Decoder Architectures for Language Models
 - [SOLAR](https://arxiv.org/abs/2312.15166) Scaling LLMs with Simple yet Effective Depth Up-Scaling to increase parameter count and continue pre-training, [SOLAR-10.7B](https://huggingface.co/upstage/SOLAR-10.7B-v1.0)
+- [TextGrad](https://arxiv.org/abs/2406.07496v1) allows users to enhance AI system components by backpropagating textual feedback provided by LLMs to optimize variables in computation graphs, utilizing a framework similar to PyTorch for various tasks.
 
 # Other awesome resources
 
@@ -628,6 +634,7 @@
 - [fuck you, show me the prompt](https://hamel.dev/blog/posts/prompt/) Quickly understand inscrutable LLM frameworks by intercepting API calls.
 - [awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) with up to date links to papers, guides and resources
 - [systematicall improving your rag](https://jxnl.co/writing/2024/05/22/systematically-improving-your-rag) blog about improving RAG systematically
+- [fabric](https://github.com/danielmiessler/fabric) provides programmatically accessible prompt templates using a crowdsourced prompt DB 
 
 ## Product Showcases
 
