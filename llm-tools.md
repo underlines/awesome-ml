@@ -671,40 +671,28 @@
 
 ### Leaderboards
 
-- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) by HuggingFace, had a [serious bug](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/discussions/63) that made LLaMA models perform worse in the past
-- [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner
-- [Current best choices](https://old.reddit.com/r/LocalLLaMA/wiki/models#wiki_current_best_choices) on LocalLLaMA reddit
-- [LLM Logic Tests](https://docs.google.com/spreadsheets/d/1NgHDxbVWJFolq8bLvLkuPWKC7i_R6I6W/edit#gid=2011456595) by [YearZero on reddit/localllama](https://www.reddit.com/r/LocalLLaMA/comments/13636h5/updated_riddlecleverness_comparison_of_popular/)
-- [paperswithcode](https://paperswithcode.com/) has LLM SOTA leaderboards, but usually just for foundation models
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) by HuggingFace
+- [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner. Careful: This just measures human preference, not accuracy or other factors
+- [paperswithcode](https://paperswithcode.com/) LLM SOTA leaderboards, but usually just for foundation models
 - [Can AI code](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results) a self-evaluating interview for AI coding models. [code](https://github.com/the-crypt-keeper/can-ai-code)
-- [Gotzmann LLM Score v2](https://docs.google.com/spreadsheets/d/1ikqqIaptv2P4_15Ytzro46YysCldKY7Ub2wcX5H1jCQ/edit#gid=0) by [Gatzuma on Reddit](https://www.reddit.com/r/LocalLLaMA/comments/13wvd0j/llm_score_v2_modern_models_tested_by_human/)
-- [Aviary Explorer](https://aviary.anyscale.com/) open source utility to compare leading OSS LLMs and see votes, pricing per token etc.
-- [Comparative look at (ggml) quantization and parameter size](https://www.reddit.com/r/LocalLLaMA/comments/13l0j7m/a_comparative_look_at_ggml_quantization_and/) part 1 by KerfuffleV2
-- [Updated relative comparison](https://www.reddit.com/r/LocalLLaMA/comments/142q5k5/updated_relative_comparison_of_ggml_quantization/) of ggml quantization types and effect on perplexity part 2 by KerfuffleV2
-- [Programming performance ranking](https://www.reddit.com/r/LocalLLaMA/comments/141fw2b/just_put_together_a_programming_performance/) for popular LLaMAs using HumanEval+ by ProfessionalHand9945
-- [llm-humaneval-benchmarks](https://github.com/my-other-github-account/llm-humaneval-benchmarks) HumanEval+
-- [CoT Hub](https://github.com/FranxYao/chain-of-thought-hub)
-- [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html)
-- [programming eval](https://docs.google.com/spreadsheets/d/1TYBNr_UPJ7wCzJThuk5ysje7K1x-_62JhBeXDbmrjA8/edit#gid=0) by [catid](https://www.reddit.com/u/catid) from reddit, [code](https://github.com/catid/supercharger/tree/main/airate)
-- [HumanEval+](https://www.reddit.com/r/LocalLLaMA/comments/1469343/hi_folks_back_with_an_update_to_the_humaneval/) raking for open vs closed programming LLMs by ProfessionalHand9945
-- [LLM Comparison Sheet](https://docs.google.com/spreadsheets/d/1JYh4_pxNzmNA9I0YM2epgRA7VXBIeIGS64gPJBg5NHA/edit#gid=0) by [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow#33-lmflow-benchmark)
-- [llm-jeopardy](https://github.com/aigoopy/llm-jeopardy) Automated prompting and scoring framework to evaluate LLMs using updated human knowledge prompts
-- [llama presets arena](https://github.com/oobabooga/oobabooga.github.io/blob/main/arena/results.md) testing different generation presets by oobabooga, [reddit discussion](https://www.reddit.com/r/LocalLLaMA/comments/14gp7hw/preset_arena_final_results/)
-- [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) Massive Text Embedding Benchmark (MTEB) Leaderboard
+- [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html) Chinese focused LLM Eval Leaderboard
+- [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) Massive Text Embedding Benchmark (MTEB) Leaderboard (Vector Embeddings)
 - [hallucination-leaderboard](https://huggingface.co/spaces/vectara/leaderboard) Hughes Hallucination Evaluation Model (HHEM) evaluates how often an LLM introduces hallucinations when summarizing a document [code](https://github.com/vectara/hallucination-leaderboard)
 - [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard) evaluates base coding models
 - [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html) evaluates AI Coders with rigorous tests
-- [AgentBoard](https://hkust-nlp.github.io/agentboard/static/leaderboard.html) Evaluation Board of Multi-turn LLM Agents
-- [Enterprise Scenarios Leaderboard](https://huggingface.co/spaces/PatronusAI/enterprise_scenarios_leaderboard) evaluates the performance of LLMs on real-world enterprise use cases, some of the test sets are closed source to prevent cheating
+- [Enterprise Scenarios Leaderboard](https://huggingface.co/spaces/PatronusAI/enterprise_scenarios_leaderboard) evaluates the performance of LLMs on real-world enterprise use cases, some of the test sets are closed source to prevent cheating (stale)
 - [NP Hard Eval Leaderboard](https://huggingface.co/spaces/NPHardEval/NPHardEval-leaderboard) benchmark for assessing the reasoning abilities of LLMs by using NP Hard problems
-- [Toqan Leaderboard](https://prollm.toqan.ai/leaderboard) coding assistant benchmark
+- [Toqan Leaderboard](https://prollm.toqan.ai/leaderboard) Coding leaderboard with benchmarks for Coding Assistant, Q&A, Summarization, Entity extraction, Function calling and SQL
 - [OpenCompass Leaderboard](https://rank.opencompass.org.cn/) Leaderboards with specific eval rankings for Medical, General and Law Benchmarks
-- [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o vs others
+- [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o, GPT-4o-mini, Claude vs others
 - [SEAL Leaderboards](https://scale.com/leaderboard) Expert-Driven Private Evaluations
 - [AIR-bench](https://huggingface.co/spaces/AIR-Bench/leaderboard) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
 - [Leaderboards and benchmarks](https://huggingface.co/collections/clefourrier/leaderboards-and-benchmarks-64f99d2e11e92ca5568a7cce) collection of leaderboards and benchmarks for Text, vision, audio etc.
-- [Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)
+- [Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) Leaderboard of LLMs following function calling instructions
 - [Vision-Arena](https://huggingface.co/spaces/WildVision/vision-arena) Leaderboard for benchmarking Multimodal LLMs in the Wild for Vision and Text tasks.
+- [Aider LLM Leaderboard](https://aider.chat/docs/leaderboards/) for Code Editing following instructions, not just code generation
+- [RepoQA](https://evalplus.github.io/repoqa.html) Leaderboard evaluationg LLMs ability to find specific code in a long context code haystack
+- [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 
 ### Benchmark Suites
 
@@ -731,6 +719,7 @@
 - [AIR-bench](https://github.com/AIR-Bench/AIR-Bench) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
 - [LLMSuite](https://github.com/giorgioroffo/large_language_models_open_suite) view code, run inferences, and measure performance with evaluation tasks
 - [BlindTest](https://github.com/anguyen8/vision-llms-are-blind) Vision Language Model (VLM) benchmark to assess visual understanding capabilities
+- [RepoQA](https://github.com/evalplus/repoqa) Evaluating Long-Context Code Understanding
 
 ## AI DevOps
 
@@ -774,7 +763,7 @@
 - [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
 - [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
 - [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
-
+- [](https://github.com/kvcache-ai/ktransformers) KTransformers (QuickTransformers) is a framework for cutting-edge LLM Inference Optimizations
 
 ## Databases for ML
 
