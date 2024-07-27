@@ -763,7 +763,7 @@
 - [tokenmonster](https://github.com/alasdairforsythe/tokenmonster) ungreedy tokenizer increases inference speed and context-length by 35% for pre-training on new LLMs
 - [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
 - [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
-- [](https://github.com/kvcache-ai/ktransformers) KTransformers (QuickTransformers) is a framework for cutting-edge LLM Inference Optimizations
+- [KTransformers](https://github.com/kvcache-ai/ktransformers) KTransformers (QuickTransformers) is a framework for cutting-edge LLM Inference Optimizations
 
 ## Databases for ML
 
