@@ -189,6 +189,9 @@
 - [indexify](https://github.com/tensorlakeai/indexify) building fast data pipelines for unstructured data (video, audio, images and documents) using extractors for embedding, transformation and feature extraction allowing real time and incremental extraction for RAG workflows
 - [MindSearch](https://github.com/InternLM/MindSearch) AI Search Engine and question answering framework with Perplexity.ai Pro performance using a graph based detailed solution path (multi turn), web search, providing a sleek Web UI
 - [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) turning unstructured data from pdfs, docs, txt, videos, websites into a knowledge graph in neo4j using LLMs to extract entities, nodes, relationships and properties. Built on Langchain.
+- [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) a python framework for research focused RAG development testedwith various RAG datasets against currently 13 SOTA RAG methodologies and techniques like IRCoT, [SuRe](https://arxiv.org/abs/2404.13081), [REPLUG](https://arxiv.org/abs/2301.12652), [SelfRag](https://arxiv.org/abs/2310.11511), [FLARE](https://arxiv.org/abs/2305.06983)
+- [Neurite](https://github.com/satellitecomponent/Neurite) Fractal Graph-of-Thought is an experimental Mind-Mapping framework for Ai-Agents, Web-Links, Notes, and Code including a fractal based web UI where you navigate indexed knowledge in an interactive network
+- [llm-app](https://github.com/pathwaycom/llm-app) Dynamic RAG for enterprise. Ready to run with Docker supporting sources from Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more
 
 ## Browser Extensions
 
@@ -779,7 +782,7 @@
 - [milvus](https://github.com/milvus-io/milvus) open-source cloud-native vector DB focusing on embedding vectors converted from unstructured data
 - [chroma](https://github.com/chroma-core/chroma) open-source embedding database
 - [pgvector](https://github.com/pgvector/pgvector) open-source vector similarity search for Postgres.
-- [chromem-go](https://github.com/philippgille/chromem-go) embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence. 
+- [chromem-go](https://github.com/philippgille/chromem-go) embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [txtai](https://github.com/neuml/txtai) All-in-one open-source embeddings database for semantic search, LLM orchestration and language model workflows
 - [mindsdb](https://github.com/mindsdb/mindsdb) database for datascience and AI centered workloads like local LLM / OpenAI models access, text embeddings, forecasting etc.
 - [haystackdb](https://github.com/carsonpo/haystackdb) on disk vector db which is 10x faster than FAISS in memory
