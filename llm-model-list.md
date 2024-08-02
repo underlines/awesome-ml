@@ -60,3 +60,17 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [CodeStral-22B](https://huggingface.co/mistralai/Codestral-22B-v0.1) Coding model trained on 80+ languages with instruct and Fill in the Middle tasks, 32k max context
 - [Mistral-7b-instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) with function calling, new tokenizer and 32k max context
 - [Aya-23](https://huggingface.co/CohereForAI/aya-23-35B) 8B and 35B instruction tuned multi lingual model focusing on 23 languages
+- [Mamba-Codestral](https://huggingface.co/mistralai/Mamba-Codestral-7B-v0.1) by mistral based on the Mamba2 architecture performing on par with SOTA transformer based code models
+- [CodeGeeX4](https://huggingface.co/THUDM/codegeex4-all-9b) 9B multilingual code generation model for chat and instruct with a 128k context length
+- [Mistral Nemo](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) a 12B model by mistral and nvidia offering 128k context window offered as instruct and base models
+- [Nuextract](https://huggingface.co/numind/NuExtract) is a structure extraction model based on phi-3-mini, allowing to instruct based on a json template that the model fills from unstructured text provided
+- [Llama-3.1](https://ai.meta.com/blog/meta-llama-3-1/) Metas most advanced model providing 8b, 70b and 405b base and instruction tuned models and 128k context window with on par quality of current SOTA closed source models
+- [Mistral-Large](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407) a 123B sized model beating llama-3.1 and gpt-4o in several categories with a focus on multilinguality, coding, agentic tasks and reasoning.
+- [InternLM2.5](https://huggingface.co/internlm/internlm2_5-7b-chat) 7B base and chat models focusing reasoning, math and tool use and 1M context window
+- [Yi-1.5]([https://huggingface.co/01-ai/Yi-9B](https://huggingface.co/01-ai/Yi-1.5-34B-Chat)) 9b model focusing on multilingual text understanding, available as 9B and 34B variants
+- [Phi](https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3) Microsoft's small language and vision models with small and medium parameter sizes, short and long context lengths and great performance
+- [Qwen2](https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f) English and Chinese models from 0.5b, 1.5b, 7b, and 72b sizes with great performance and 128k context windows for the 7 and 72b models
+- [codeqwen1.5](https://huggingface.co/Qwen/CodeQwen1.5-7B) base and chat models with 7B parameters and good quality
+- [grantie](https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330) IBMs code models available in 3b, 8b, 20b size as base and instruct variants with up to 128k context size
+- [codegemma](https://huggingface.co/google/codegemma-7b) google's coding models from 2b base, 7b base and 7b instruct
+- [DeepSeekCoderv2](https://github.com/deepseek-ai/DeepSeek-Coder-V2?tab=readme-ov-file#2-model-downloads) 16b and 236b mixture of experts coding models with 128k context length
