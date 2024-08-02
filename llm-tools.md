@@ -117,6 +117,7 @@
 - [GLaDOS](https://github.com/dnhkng/GlaDOS) project dedicated to building a real-life version of GLaDOS a fictional AI from the game Portal with a quirky personality
 - [AlwaysReddy](https://github.com/ILikeAI/AlwaysReddy) LLM voice assistant with TTS, STT, reading/writing to clipboard with OpenAI, Anthropic and Local LLM support
 - [LocalAIVoiceChat](https://github.com/KoljaB/LocalAIVoiceChat) Local AI talk with a custom voice based on Zephyr 7B model. Uses RealtimeSTT with faster_whisper for transcription and RealtimeTTS with Coqui XTTS for synthesis
+- [june](https://github.com/mezbaul-h/june) Local voice chatbot powered by Ollama, Hugging Face Transformers, and Coqui TTS
 
 ## Retrieval Augmented Generation (RAG)
 
@@ -757,6 +758,8 @@
 - [Text Generation Inference](https://huggingface.co/docs/text-generation-inference/en/index) deploy and serve popular LLMs with high-performance text generation, featuring optimizations like Tensor Parallelism, continuous batching, and quantization for efficient inference for GPUs and CPUs
 - [gateway](https://github.com/Portkey-AI/gateway) local proxy and API multi model server with fallbacks, retries, load balancing
 - [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc) as a load balancer
+- [LLaMbA](https://github.com/Lyrcaxis/Llamba/) Large Language Model Batching Application built on asp.net core and llamasharp for minimalistic corss platform batching is a serving engine not for end users consumption but for applicartions needing fast text generation for classification, synthetic data generation etc.
+- [paddler](https://github.com/distantmagic/paddler/) production ready stateful load balancer and reverse proxy to serve llama.cpp supporting balancing strategies like slots, providing monitoring agents for multiple llama.cpp instances, dynamic addition and removal of instances, autoscaling, buffers, dashboard
 
 ### Optimization
 
