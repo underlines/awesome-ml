@@ -761,6 +761,7 @@
 - [litellm](https://github.com/BerriAI/litellm) Use OpenAI API call format for any LLM backend (Local, Huggingface, Cohere, TogetherAI, Azure, Ollama, Replicate, Sagemaker, Anthropic, etc) as a load balancer
 - [LLaMbA](https://github.com/Lyrcaxis/Llamba/) Large Language Model Batching Application built on asp.net core and llamasharp for minimalistic corss platform batching is a serving engine not for end users consumption but for applicartions needing fast text generation for classification, synthetic data generation etc.
 - [paddler](https://github.com/distantmagic/paddler/) production ready stateful load balancer and reverse proxy to serve llama.cpp supporting balancing strategies like slots, providing monitoring agents for multiple llama.cpp instances, dynamic addition and removal of instances, autoscaling, buffers, dashboard
+- [harbor](https://github.com/av/harbor) Docker based containerized LLM Toolkit to run backends, apis and frontends concisely via CLI with configuration management and deployment
 
 ### Optimization
 
