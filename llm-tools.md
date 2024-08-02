@@ -397,6 +397,7 @@
 - [Typebot](https://github.com/baptisteArno/typebot.io) allows users to visually create advanced chatbots that can be embedded in web/mobile apps, featuring customizable themes, real-time analytics, and various integration options with services like OpenAI, Google Sheets, and Zapier.
 - [DOM to Semantic Markdown](https://github.com/romansky/dom-to-semantic-markdown) convert HTML DOM to semantic Markdown, preserving the semantic structure and metadata for efficient LLM processing, using HTML-to-Markdown AST conversion and customizable options
 - [embed](https://github.com/michaelfeil/embed) python embedding, rerank and clip models inference library for stable, fast and easy to use local embedding serving with a focus on sync to async API
+- [fastembed](https://github.com/qdrant/fastembed) fast, Accurate, Lightweight Python library to serve State of the Art Embeddings locally supporting GPU and CPUs, dense and sparse models, colbert, clip and more
 
 ### Prompt templating / Grammar
 
