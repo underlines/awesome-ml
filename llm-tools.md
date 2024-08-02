@@ -767,6 +767,8 @@
 - [aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) bartch inference engine providing an OpenAI compatible API with Paged Attention, continuous batching, distributed inference, various sampling methods, K/V management and support for AQLM, AWQ, BnB, EXL2, GGUF, GPTQ, QuIP, Smoothquant+ and SqueezeLLM quantization support
 - [infinity](https://github.com/michaelfeil/infinity) high throughput low latency vector embeddings engine porivind an OpenAI compatible API supporting wide range of text-embedding models, reranking models, clip models
 - [text-embedding-inference](https://github.com/huggingface/text-embeddings-inference) native and docker available TEI huggingface supporting a wide range of embedding models like LLM based gte, bert, roBERTa, NomicBert and JinaBERT type models and rerankers like XLM-RoBERTa such as bge-reranker-large with support for GPU and CPU inference
+- [Xorbits Inference](https://github.com/xorbitsai/inference) Xinference model server supports LLM, text embedding, Speech recognition, multimodal and text to image inference with GPU, CPU and apple silicon MLX hardware support, transformers continuous batching, LoRA, vLLM integration, OpenAI Compatible API, multi node deployment and function calling via native pip deployment, docker and K8s
+- [SGLang](https://github.com/sgl-project/sglang) fast serving framework for LLMs and vision LMs using fast radixAttention for caching, continuous batching, paged attention, tensor parallelism and quantization like AWQ, FP8, GPTQ on GPU only inference via native pip deployment or docker
 
 ### Optimization
 
