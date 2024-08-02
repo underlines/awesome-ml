@@ -193,6 +193,7 @@
 - [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) a python framework for research focused RAG development testedwith various RAG datasets against currently 13 SOTA RAG methodologies and techniques like IRCoT, [SuRe](https://arxiv.org/abs/2404.13081), [REPLUG](https://arxiv.org/abs/2301.12652), [SelfRag](https://arxiv.org/abs/2310.11511), [FLARE](https://arxiv.org/abs/2305.06983)
 - [Neurite](https://github.com/satellitecomponent/Neurite) Fractal Graph-of-Thought is an experimental Mind-Mapping framework for Ai-Agents, Web-Links, Notes, and Code including a fractal based web UI where you navigate indexed knowledge in an interactive network
 - [llm-app](https://github.com/pathwaycom/llm-app) Dynamic RAG for enterprise. Ready to run with Docker supporting sources from Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more
+- [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) Comprehensive collection of advanced RAG techniques like RAPTOR, Reranking etc.
 
 ## Browser Extensions
 
