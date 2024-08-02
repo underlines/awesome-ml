@@ -763,6 +763,8 @@
 - [harbor](https://github.com/av/harbor) Docker based containerized LLM Toolkit to run backends, apis and frontends concisely via CLI with configuration management and deployment
 - [tabbyAPI](https://github.com/theroyallab/tabbyAPI/) OpenAI API emulation using exllamav2 API that's both lightweight and fast
 - [aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) bartch inference engine providing an OpenAI compatible API with Paged Attention, continuous batching, distributed inference, various sampling methods, K/V management and support for AQLM, AWQ, BnB, EXL2, GGUF, GPTQ, QuIP, Smoothquant+ and SqueezeLLM quantization support
+- [infinity](https://github.com/michaelfeil/infinity) high throughput low latency vector embeddings engine porivind an OpenAI compatible API supporting wide range of text-embedding models, reranking models, clip models
+- [text-embedding-inference](https://github.com/huggingface/text-embeddings-inference) native and docker available TEI huggingface supporting a wide range of embedding models like LLM based gte, bert, roBERTa, NomicBert and JinaBERT type models and rerankers like XLM-RoBERTa such as bge-reranker-large with support for GPU and CPU inference
 
 ### Optimization
 
