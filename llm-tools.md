@@ -144,7 +144,7 @@
 - [local-rag](https://github.com/jonfairbanks/local-rag) Ingest files for RAG with open LLMs, without 3rd parties or data leaving your network
 - [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
 - [BriefGPT](https://github.com/e-johnstonn/BriefGPT) document summarization and querying using OpenAI' and locally run LLM's using LlamaCpp or GPT4ALL, and embeddings stored as a FAISS index, built using Langchain.
-- [anything-llm](https://github.com/Mintplex-Labs/anything-llm) document ingestion, supports multiple vector DBs, remote and local LLMs and supports chat and query mode
+- [anything-llm](https://github.com/Mintplex-Labs/anything-llm) document ingestion, supports multiple vector DBs, remote and local LLMs and supports chat and query mode with Chat Web UI, agents, code execution, web browsing, multi user, citations
 - [factool](https://github.com/gair-nlp/factool) factuality Detection in Generative AI
 - [opencopilot](https://github.com/opencopilotdev/opencopilot) LLM agnostic, open source Microsoft Copilot alternative to easily built copilot functionality with RAG, Knowledgebase, Conversional History, Eval, UX into your product
 - [DocsGPT](https://github.com/arc53/DocsGPT) chat with your project documentation using RAG, supports OpenAI and local LLMs, and also provides a RAG-fine-tuned docsgpt-14b [model](https://huggingface.co/Arc53/docsgpt-14b)
@@ -187,6 +187,8 @@
 - [GraphRAG-Local-UI](https://github.com/severian42/GraphRAG-Local-UI) UI for GraphRAG supporting local LLMs with an interactive Gradio-based UI, offering real-time graph visualization and flexible querying without reliance on cloud models.
 - [vanna](https://github.com/vanna-ai/vanna) generates vector embeddings of your DB schema, documentation and example queries in order to do generate matching Queries based on a user input for RAG
 - [indexify](https://github.com/tensorlakeai/indexify) building fast data pipelines for unstructured data (video, audio, images and documents) using extractors for embedding, transformation and feature extraction allowing real time and incremental extraction for RAG workflows
+- [MindSearch](https://github.com/InternLM/MindSearch) AI Search Engine and question answering framework with Perplexity.ai Pro performance using a graph based detailed solution path (multi turn), web search, providing a sleek Web UI
+- [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) turning unstructured data from pdfs, docs, txt, videos, websites into a knowledge graph in neo4j using LLMs to extract entities, nodes, relationships and properties. Built on Langchain.
 
 ## Browser Extensions
 
@@ -601,6 +603,7 @@
 - [SpreadsheetLLM](https://arxiv.org/abs/2407.09025v1) Encoding Spreadsheets for Large Language Models, introduces SheetCompressor, an innovative encoding framework for compressing spreadsheets to enhance LLM performance, achieving a state-of-the-art 78.9% F1 score, outperforming existing models.
 - [Internet of Agents](https://arxiv.org/abs/2407.07061) creating a flexible and scalable platform for LLM-based multi-agent collaboration using an agent integration protocol, an instant-messaging-like architecture, and dynamic mechanisms for agent teaming and conversation flow control, code available
 - [Mixture-of-Agents](https://arxiv.org/abs/2406.04692) MoA proposes a MoA methodology to leverage the strengths of multiple LLMs, achieving state-of-the-art performance using a layered architecture where each agent utilizes outputs from previous layers 
+- [RAPTOR](https://arxiv.org/html/2401.18059v1) Recursive Abstractive Processing for Tree Organized Retrieval is a powerful indexing and retrieving technique clustering and summarizing text chunks in a hierarchical tree structure improving RAG quality significantly
 
 # Other awesome resources
 
