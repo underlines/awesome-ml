@@ -369,7 +369,6 @@
 - [Haven](https://github.com/havenhq/haven) Fine-Tune and Deploy LLMs On Your Own Infrastructure
 - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) Python Bindings for llama.cpp with low level C API interface, python API, openai like API and LangChain compatibility
 - [candle](https://github.com/huggingface/candle) a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use
-- [tabbyAPI](https://github.com/theroyallab/tabbyAPI/) OpenAI API emulation using exllamav2 API that's both lightweight and fast
 - [LangChain](https://github.com/hwchase17/langchain) Framework for LLM Application Development ([example](https://www.youtube.com/watch?v=iRJ4uab_NIg&t=588s), [paolorechia/learn-langchain with vicuna and GPTQ 4 bit support](https://github.com/paolorechia/learn-langchain))
 - [Langstream](https://github.com/rogeriochaves/langstream) a lighter alternative to LangChain
 - [LangFlow](https://github.com/logspace-ai/langflow) GUI for Langchain using graphs/flows
@@ -762,6 +761,8 @@
 - [LLaMbA](https://github.com/Lyrcaxis/Llamba/) Large Language Model Batching Application built on asp.net core and llamasharp for minimalistic corss platform batching is a serving engine not for end users consumption but for applicartions needing fast text generation for classification, synthetic data generation etc.
 - [paddler](https://github.com/distantmagic/paddler/) production ready stateful load balancer and reverse proxy to serve llama.cpp supporting balancing strategies like slots, providing monitoring agents for multiple llama.cpp instances, dynamic addition and removal of instances, autoscaling, buffers, dashboard
 - [harbor](https://github.com/av/harbor) Docker based containerized LLM Toolkit to run backends, apis and frontends concisely via CLI with configuration management and deployment
+- [tabbyAPI](https://github.com/theroyallab/tabbyAPI/) OpenAI API emulation using exllamav2 API that's both lightweight and fast
+- [aphrodite-engine](https://github.com/PygmalionAI/aphrodite-engine) bartch inference engine providing an OpenAI compatible API with Paged Attention, continuous batching, distributed inference, various sampling methods, K/V management and support for AQLM, AWQ, BnB, EXL2, GGUF, GPTQ, QuIP, Smoothquant+ and SqueezeLLM quantization support
 
 ### Optimization
 
