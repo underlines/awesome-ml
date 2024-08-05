@@ -447,6 +447,10 @@
 - [xtuner](https://github.com/InternLM/xtuner) fine tuning supporting llm, vlm pre training and fine tuning. deepspeed, ZeRO optimization, various architectures, QLoRA and LoRA support
 - [Mergoo](https://github.com/Leeroo-AI/mergoo) merge multiple LLM experts and fine-tune them. Support for MoE, MoA for Llama1-3, Mistral, Phi3 and BERT models
 
+## Observability
+- [Helicone AI](https://github.com/Helicone/helicone) Open-source LLM observability platform for logging, monitoring, and debugging AI applications. Simple 1-line integration to get started.
+
+
 ## Merging & Quantization
 
 - [mergekit](https://github.com/cg123/mergekit) Tools for merging pretrained large language models.
