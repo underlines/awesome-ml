@@ -47,6 +47,7 @@
 - [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow.
 - [msty](https://msty.app/) offline-first closed source (but free) GUI with support for llama, mixtral, qwen, llava, gemma and online APIs like openai, gemini, groq, claude etc with advanced features like split chat, in chat editing, prompt templates, sticky prompt
 - [singulatron](https://singulatron.com/desktop-ai) simple interface to download and run LLMs, similar to LM Studio
+- [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
 
 ## Web GUIs
 
@@ -195,6 +196,7 @@
 - [llm-app](https://github.com/pathwaycom/llm-app) Dynamic RAG for enterprise. Ready to run with Docker supporting sources from Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more
 - [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) Comprehensive collection of advanced RAG techniques like RAPTOR, Reranking etc.
 - [marker](https://github.com/VikParuchuri/marker) PDF to markdown conversion for all languages removing headers footers and other artifacts, supports tables, code and images and works on GPU CPU or MPS using tesseract, heuristics and surya
+- [MinerU](https://github.com/opendatalab/MinerU) high-quality data extraction tool, supports PDF/webpage/e-book extraction cpu and gpu compatible running on windows linux and mac os
 
 ## Browser Extensions
 
@@ -336,7 +338,8 @@
 - [Amplication](https://github.com/amplication/amplication) allows users to automate backend application development for .NET and Node.js using an AI-powered platform, ensuring scalable and secure code with a user-friendly, plugin-based architecture.
 - [twinny](https://github.com/twinnydotdev/twinny) VS Code Extension for Github Copilot like code completion and chat assistance, leveraging customizable API endpoints and supporting multiple backends like Ollama and llama.cpp
 - [Mutahunter](https://github.com/codeintegrity-ai/mutahunter) generate unit tests automatically and perform LLM-based mutation testing, enhancing fault detection with context-aware mutations across various programming languages
-- [cover-agent](https://github.com/Codium-ai/cover-agent) automated test creation for maximum test coverage 
+- [cover-agent](https://github.com/Codium-ai/cover-agent) automated test creation for maximum test coverage
+- [llamacoder](https://github.com/Nutlope/llamacoder) Claude Artifacts inspired app generator based on llama3 405B on together.ai, sandpack code sandbox, next.js app router with tailwind and helicone observability
 
 ## Libraries and Wrappers
 
@@ -743,6 +746,7 @@
 - [RepoQA](https://github.com/evalplus/repoqa) Evaluating Long-Context Code Understanding
 - [BICS](https://github.com/HammingHQ/bug-in-the-code-stack) Bug In the Code Stack benchmark measuring LLMs capability to detect bugs in large codebases similar to needle in the haystack benchmarks using randomly assembled python source code as background noise and syntactic bug as the needle in very large long context windows
 - [BABILong](https://github.com/booydar/babilong) long-context needle-in-a-haystack benchmark for LLMs for text based tasks
+- [ARES](https://github.com/stanford-futuredata/ARES) Automated Evaluation Framework for RAG Systems combining synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance, minimizing the need for extensive human annotations
 
 ## AI DevOps
 
