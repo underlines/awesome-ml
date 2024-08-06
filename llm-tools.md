@@ -274,6 +274,7 @@
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) framework providing UI, Chat, Code and Train modules to orchestrate Multi Agent solutions like CrewAI or AutoGen helping with automated agent creation, interchangeable LLM APIs, YAML based configuration and Tool Use integration
 - [bolna](https://github.com/bolna-ai/bolna) end-to-end framework for LLM based voice assistants handling phone calls with TTS, Speech Recognition, text generation supporting local and cloud APIs for LLM and voice generation
 - [gpt-computer-assistant](https://github.com/onuratakan/gpt-computer-assistant) native operating system assistant using vision, voice and text for windows mac and linux with support for custom tool use
+- [LAMBDA](https://github.com/Stephen-SMJ/LAMBDA) large Model Based Data Agent is a multi agent data analysis system using LLMs to perform complex data analysis tasks through human instructions automatically planning and writing code and providing a UI to generate reports automatically
 
 ## Multi Modal
 
@@ -507,6 +508,7 @@
 - [ExpertQA](https://github.com/chaitanyamalaviya/expertqa) Expert-Curated Questions and Attributed Answers dataset with 2177 questions spanning 32 fields, along with verified answers and attributions for claims in the answers, [paper](https://arxiv.org/abs/2309.07852v1)
 - [annas-archive](https://annas-archive.org/llm) world’s largest open-source open-data library. ⭐️ Mirrors Sci-Hub, Library Genesis, Z-Library, and more. 📈 22,052,322 books, 97,847,390 papers, 2,451,032 comics, 673,013 magazines 
 - [RedPajama-Data-v2](https://together.ai/blog/redpajama-data-v2) Open Dataset with 30 Trillion Tokens for Training, [HF](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2)
+- [MINT-1T](https://github.com/mlfoundations/MINT-1T) Multimodal training Dataset with one trillion tokens including HTML, PDF from CommonCrawl 2023 and ArXiv data
 
 ## Research
 
@@ -677,6 +679,7 @@
 - [Prompt Engineering Guide](https://www.promptingguide.ai/) compilation of various techniques like Few shot, chain of thought, tree of thoughts, tool using, ReAct and more to improve LLM quality via complex prompting
 - [graphrag analysis part 1](https://aiencoder.substack.com/p/graphrag-analysis-part-1-how-indexing) shows that Microsoft GraphRAG and graphs may not significantly impact context retrieval
 - [Applied LLMs](https://applied-llms.org/) practical guide to building successful LLM products, covering the tactical, operational, and strategic
+- [engine](https://github.com/Engine-Labs/engine-core) programmatically access prompt templates based on predefined strategies that include and tools
 
 ## Product Showcases
 
