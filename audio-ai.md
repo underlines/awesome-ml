@@ -52,6 +52,10 @@ voice activity detection (VAD):
 - [voice_activity_detection](https://github.com/filippogiruzzi/voice_activity_detection) Voice Activity Detection based on Deep Learning & TensorFlow
 - [rVADfast](https://github.com/zhenghuatan/rVADfast) unsupervised, robust voice activity detection
 
+subtitle generation:
+
+- [subtitler](https://github.com/dmtrKovalenko/subtitler) on-device web app for audio transcribing and rendering subtitles
+
 ## TextToSpeech
 
 - [Bark](https://github.com/suno-ai/bark) transformer-based text-to-audio model by Suno. Can generate highly realistic, multilingual speech and other audio like music, background noise and simple effects
