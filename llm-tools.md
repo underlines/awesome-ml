@@ -304,6 +304,7 @@
 - [llama3v](https://huggingface.co/mustafaaljadery/llama3v) vision model that is powered by Llama3 8B and siglip-so400m matching gpt4-v on some benchmarks
 - [Zerox OCR](https://github.com/getomni-ai/zerox) allows users to convert PDFs into Markdown using a vision-based OCR process with GPT-4o-mini, optimizing for complex layouts like tables and charts
 - [Facebook Chameleon](https://about.fb.com/news/2024/06/releasing-new-ai-research-models-to-accelerate-innovation-at-scale/) multimodal text and image model for any combination of modality in one transformer, releasing 7b and 30b models with a research license
+- [InternVL-2.0](https://internvl.github.io/blog/2024-07-02-InternVL-2.0/) Multimodal Large Language Model ranging from 1B to a 108B based on llama3 with support for text and image modality in any combination and output formats such as text, bounding boxes and masks
 
 ## Code generation
 
