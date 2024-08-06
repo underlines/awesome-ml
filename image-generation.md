@@ -24,6 +24,7 @@
 - [StableCascade](https://github.com/Stability-AI/StableCascade) successor to Stable Diffusion by Stability AI with smaller latent space, higher speeds and better quality
 - [IDM-VTON](https://github.com/yisol/IDM-VTON) Virtual Try-on for clothes and fashion
 - [ConsistentID](https://github.com/JackAILab/ConsistentID) Portrait Generation with Multimodal Fine-Grained Identity Preservation
+- [Flux](https://huggingface.co/black-forest-labs) Black Forrest Labs consisting of ex stabilityAi staff built a SOTA text-to-image model Flux and Flux schnell, a 13B parameter transformer capable of writing text, following complex prompts released under apache 2 license
 
  text to 3d:
 
