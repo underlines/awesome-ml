@@ -34,6 +34,7 @@
 - [DEVA](https://github.com/hkchengrex/Tracking-Anything-with-DEVA) Tracking Anything with Decoupled Video Segmentation, [paper](https://arxiv.org/abs/2309.03903)
 - [Cutie](https://github.com/hkchengrex/Cutie) Putting the Object Back into Video Object Segmentation, [paper](https://arxiv.org/abs/2310.12982)
 - [YOLOv10](https://github.com/THU-MIG/yolov10) Real-Time End-to-End Object Detection
+- [SAM2](https://github.com/facebookresearch/segment-anything-2) enables fast, precise selection of any object in any video or image
 
 ## Super Resolution (Spacial Interpolation)
 
