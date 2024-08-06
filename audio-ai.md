@@ -22,6 +22,7 @@
 - [Amphion](https://github.com/open-mmlab/Amphion) a toolkit for Audio, Music, and Speech Generation supporting TTS, SVS, VC, SVC, TTA, TTM
 - [voicefixer](https://github.com/haoheliu/voicefixer) restore human speech regardless how serious its degraded
 - [VoiceCraft](https://github.com/jasonppy/VoiceCraft) clone and edit an unseen voice with few seconds example and Text-to-Speech capabilities
+- [audapolis](https://github.com/bugbakery/audapolis) an audio/video editor for spoken word media editing like a text editor using speech recognition
 
 ## Speech Recognition
 
