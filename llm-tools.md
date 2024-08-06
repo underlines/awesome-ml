@@ -140,7 +140,7 @@
 - [ChatDocs](https://github.com/marella/chatdocs) PrivateGPT + Web UI + GPU Support + ggml, transformers, webui
 - [PAutoBot](https://github.com/nrl-ai/pautobot) document question-answering engine developed with LangChain, GPT4All, LlamaCpp, ChromaDB, PrivateGPT, CPU only
 - [AIDE](https://github.com/vsraptor/aide/tree/main) CLI based privateGPT fork, improved, refactored, multiline support, model switch support, non question command support
-- [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain using Llama 2, supporting multiple data sources, web search etc.
+- [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain, supporting multiple data sources, web search, models etc.
 - [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
 - [local-rag](https://github.com/jonfairbanks/local-rag) Ingest files for RAG with open LLMs, without 3rd parties or data leaving your network
 - [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
@@ -194,6 +194,7 @@
 - [Neurite](https://github.com/satellitecomponent/Neurite) Fractal Graph-of-Thought is an experimental Mind-Mapping framework for Ai-Agents, Web-Links, Notes, and Code including a fractal based web UI where you navigate indexed knowledge in an interactive network
 - [llm-app](https://github.com/pathwaycom/llm-app) Dynamic RAG for enterprise. Ready to run with Docker supporting sources from Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more
 - [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) Comprehensive collection of advanced RAG techniques like RAPTOR, Reranking etc.
+- [marker](https://github.com/VikParuchuri/marker) PDF to markdown conversion for all languages removing headers footers and other artifacts, supports tables, code and images and works on GPU CPU or MPS using tesseract, heuristics and surya
 
 ## Browser Extensions
 
@@ -270,6 +271,7 @@
 - [Atomic Agents](https://github.com/KennyVaneetvelde/atomic_agents) a framework designed to be modular, extensible, and easy to use to build agents on top of Instructor and Pydantic
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) framework providing UI, Chat, Code and Train modules to orchestrate Multi Agent solutions like CrewAI or AutoGen helping with automated agent creation, interchangeable LLM APIs, YAML based configuration and Tool Use integration
 - [bolna](https://github.com/bolna-ai/bolna) end-to-end framework for LLM based voice assistants handling phone calls with TTS, Speech Recognition, text generation supporting local and cloud APIs for LLM and voice generation
+- [gpt-computer-assistant](https://github.com/onuratakan/gpt-computer-assistant) native operating system assistant using vision, voice and text for windows mac and linux with support for custom tool use
 
 ## Multi Modal
 
@@ -334,6 +336,7 @@
 - [Amplication](https://github.com/amplication/amplication) allows users to automate backend application development for .NET and Node.js using an AI-powered platform, ensuring scalable and secure code with a user-friendly, plugin-based architecture.
 - [twinny](https://github.com/twinnydotdev/twinny) VS Code Extension for Github Copilot like code completion and chat assistance, leveraging customizable API endpoints and supporting multiple backends like Ollama and llama.cpp
 - [Mutahunter](https://github.com/codeintegrity-ai/mutahunter) generate unit tests automatically and perform LLM-based mutation testing, enhancing fault detection with context-aware mutations across various programming languages
+- [cover-agent](https://github.com/Codium-ai/cover-agent) automated test creation for maximum test coverage 
 
 ## Libraries and Wrappers
 
@@ -450,6 +453,7 @@
 - [xtuner](https://github.com/InternLM/xtuner) fine tuning supporting llm, vlm pre training and fine tuning. deepspeed, ZeRO optimization, various architectures, QLoRA and LoRA support
 - [Mergoo](https://github.com/Leeroo-AI/mergoo) merge multiple LLM experts and fine-tune them. Support for MoE, MoA for Llama1-3, Mistral, Phi3 and BERT models
 - [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) help automatically creating structured instruction or classifier data sets from unstructured text
+- [abliteration](https://huggingface.co/blog/mlabonne/abliteration) altering the refusal direction between harmless and harmful prompts to change an existing model alignment without fine-tuning, based in parts on blogpost [refusal in llms is mediated by a single direction](https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction) and FailSpy's [abliterator](https://github.com/FailSpy/abliterator) script
 
 ## Merging & Quantization
 
@@ -614,6 +618,7 @@
 - [Internet of Agents](https://arxiv.org/abs/2407.07061) creating a flexible and scalable platform for LLM-based multi-agent collaboration using an agent integration protocol, an instant-messaging-like architecture, and dynamic mechanisms for agent teaming and conversation flow control, code available
 - [Mixture-of-Agents](https://arxiv.org/abs/2406.04692) MoA proposes a MoA methodology to leverage the strengths of multiple LLMs, achieving state-of-the-art performance using a layered architecture where each agent utilizes outputs from previous layers 
 - [RAPTOR](https://arxiv.org/html/2401.18059v1) Recursive Abstractive Processing for Tree Organized Retrieval is a powerful indexing and retrieving technique clustering and summarizing text chunks in a hierarchical tree structure improving RAG quality significantly
+- [Alice in Wonderland](https://arxiv.org/abs/2406.02061) Simple Tasks Showing Complete Reasoning Breakdown in LLMs
 
 # Other awesome resources
 
@@ -668,6 +673,7 @@
 - [fabric](https://github.com/danielmiessler/fabric) provides programmatically accessible prompt templates using a crowdsourced prompt DB 
 - [Prompt Engineering Guide](https://www.promptingguide.ai/) compilation of various techniques like Few shot, chain of thought, tree of thoughts, tool using, ReAct and more to improve LLM quality via complex prompting
 - [graphrag analysis part 1](https://aiencoder.substack.com/p/graphrag-analysis-part-1-how-indexing) shows that Microsoft GraphRAG and graphs may not significantly impact context retrieval
+- [Applied LLMs](https://applied-llms.org/) practical guide to building successful LLM products, covering the tactical, operational, and strategic
 
 ## Product Showcases
 
@@ -735,6 +741,8 @@
 - [LLMSuite](https://github.com/giorgioroffo/large_language_models_open_suite) view code, run inferences, and measure performance with evaluation tasks
 - [BlindTest](https://github.com/anguyen8/vision-llms-are-blind) Vision Language Model (VLM) benchmark to assess visual understanding capabilities
 - [RepoQA](https://github.com/evalplus/repoqa) Evaluating Long-Context Code Understanding
+- [BICS](https://github.com/HammingHQ/bug-in-the-code-stack) Bug In the Code Stack benchmark measuring LLMs capability to detect bugs in large codebases similar to needle in the haystack benchmarks using randomly assembled python source code as background noise and syntactic bug as the needle in very large long context windows
+- [BABILong](https://github.com/booydar/babilong) long-context needle-in-a-haystack benchmark for LLMs for text based tasks
 
 ## AI DevOps
 
