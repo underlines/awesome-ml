@@ -17,6 +17,7 @@
 - [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) aims to reproduce Sora
 - [StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion) Consistent Long-Range Image and Video Generation
 - [Open-Sora](https://github.com/hpcaitech/Open-Sora) Open implementation approach for video generation
+- [CogVideo](https://github.com/THUDM/CogVideo) SOTA video generation and consistency generating 6 seconds of video with 8fps at 720x480 using 18-36GB vRAM
 
 ## Frame Interpolation (Temporal Interpolation)
 
