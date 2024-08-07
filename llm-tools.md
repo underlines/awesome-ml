@@ -726,7 +726,8 @@
 - [RepoQA](https://evalplus.github.io/repoqa.html) Leaderboard evaluationg LLMs ability to find specific code in a long context code haystack
 - [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
-- [EQBench](https://eqbench.com/) a closed source Emotional Intelligence Benchmark for LLMs
+- [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
+- [oobabooga benchmark](https://oobabooga.github.io/benchmark.html) a black box, closed source and private 48 questions benchmark from oobabooga
 
 ### Benchmark Suites
 
