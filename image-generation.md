@@ -96,6 +96,7 @@ other:
 - [text2image-gui](https://github.com/n00mkrad/text2image-gui) a Stable Diffusion GUI by NMKD
 - [sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto) / [easyphoto](https://github.com/aigc-apps/easyphoto) plugin for generating AI portraits that can be used to train digital doppelgangers with 5-10 photos and a quick LoRA fine tune, [paper](https://arxiv.org/abs/2310.04672v1)
 - [StableTuner](https://github.com/devilismyfriend/StableTuner) Windows GUI for Finetuning / Dreambooth Stable Diffusion models (abandoned)
+- [SimpleTuner](https://github.com/bghira/SimpleTuner) fine-tuning for StableDiffusion, PixArt, Flux with LoRA and full U-Net training, multi GPU support, DeepSpeed
 
 ## Research
 
