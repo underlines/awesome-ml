@@ -49,6 +49,7 @@
 - [singulatron](https://singulatron.com/desktop-ai) simple interface to download and run LLMs, similar to LM Studio
 - [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
 - [MaxsAistudio](https://github.com/stringandstickytape/MaxsAistudio/) Maxime Labonne's Windows native C# based LLM UI for chatting with ollama, OpenAI, Anthropic, Groq and Gemini models with many features including conversation management, templating, embedding retrieval, diagramming etc
+- [Screen Pipe](https://github.com/louis030195/screen-pipe) library providing screen, audio and microphone capture stored in an embedding DB and used during query time via a web and desktop frontend as a rewind ai or windows copilot alternative
 
 ## Web GUIs
 
@@ -725,6 +726,7 @@
 - [RepoQA](https://evalplus.github.io/repoqa.html) Leaderboard evaluationg LLMs ability to find specific code in a long context code haystack
 - [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
+- [EQBench](https://eqbench.com/) a closed source Emotional Intelligence Benchmark for LLMs
 
 ### Benchmark Suites
 
