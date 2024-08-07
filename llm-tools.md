@@ -48,6 +48,7 @@
 - [msty](https://msty.app/) offline-first closed source (but free) GUI with support for llama, mixtral, qwen, llava, gemma and online APIs like openai, gemini, groq, claude etc with advanced features like split chat, in chat editing, prompt templates, sticky prompt
 - [singulatron](https://singulatron.com/desktop-ai) simple interface to download and run LLMs, similar to LM Studio
 - [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
+- [MaxsAistudio](https://github.com/stringandstickytape/MaxsAistudio/) Maxime Labonne's Windows native C# based LLM UI for chatting with ollama, OpenAI, Anthropic, Groq and Gemini models with many features including conversation management, templating, embedding retrieval, diagramming etc
 
 ## Web GUIs
 
