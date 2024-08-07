@@ -467,6 +467,8 @@
 - [SLERP](https://github.com/Digitous/LLM-SLERP-Merge) Spherical Linear Interpolation Model Merging
 - [AutoAWQ](https://github.com/casper-hansen/AutoAWQ)
 - [AQLM](https://github.com/Vahe1994/AQLM) Extreme Compression of LLMs to 2bit via Additive Quantization to work with models of LLaMA, Mistral and Mixtral families [paper](https://arxiv.org/pdf/2401.06118.pdf)
+- [EfficientQAT](https://github.com/OpenGVLab/EfficientQAT) efficient Quantization-Aware Training and support for model transfer through gptqmodel to support GPTQ v2 and possibly GGUF llama.cpp and EXL2 in the future
+- [GPTQModel](https://github.com/ModelCloud/GPTQModel) fork of AutoGPTQ for an easy to use LLM quantization and inference toolkit based on GPTQ algorithm for weight-only quantization with more model support, faster speed, better quants supporting gptq, Intel optimized quants, vLLM and SGLang optimization and more
 
 # Resources
 
@@ -625,6 +627,7 @@
 - [Mixture-of-Agents](https://arxiv.org/abs/2406.04692) MoA proposes a MoA methodology to leverage the strengths of multiple LLMs, achieving state-of-the-art performance using a layered architecture where each agent utilizes outputs from previous layers 
 - [RAPTOR](https://arxiv.org/html/2401.18059v1) Recursive Abstractive Processing for Tree Organized Retrieval is a powerful indexing and retrieving technique clustering and summarizing text chunks in a hierarchical tree structure improving RAG quality significantly
 - [Alice in Wonderland](https://arxiv.org/abs/2406.02061) Simple Tasks Showing Complete Reasoning Breakdown in LLMs
+- [EfficientQAT](https://arxiv.org/abs/2407.11062) Efficient Quantization-Aware Training down to 2 bits with higher quality than previous methods
 
 # Other awesome resources
 
