@@ -110,6 +110,7 @@ subtitle generation:
   - [StyleTTS2 pip](https://github.com/sidharthrajaram/StyleTTS2) Python pip package for StyleTTS2
 - [fish-speech](https://github.com/fishaudio/fish-speech) expressive TTS with generated voices with fine tuning (voice cloning) capabilities
 - [ChatTTS](https://github.com/2noise/ChatTTS) optimized for dialogue-based TTS with natural andexpressive speech synthesis in English and Chinese with fine grained prosodic features like laughter, pauses and interjections
+- [Parler-TTS](https://github.com/huggingface/parler-tts) Huggingface's Parler TTS model can generate high quality natural speech by using two prompts one for the text and one for the style supporting gender, pitch, speaking style etc, with a Mini 0.8B and 2.3B Large model released and ready for fine tuning supporting SDPA and Flash Attention 2
 
 ## Voice Conversion
 
