@@ -199,6 +199,8 @@
 - [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) Comprehensive collection of advanced RAG techniques like RAPTOR, Reranking etc.
 - [marker](https://github.com/VikParuchuri/marker) PDF to markdown conversion for all languages removing headers footers and other artifacts, supports tables, code and images and works on GPU CPU or MPS using tesseract, heuristics and surya
 - [MinerU](https://github.com/opendatalab/MinerU) high-quality data extraction tool, supports PDF/webpage/e-book extraction cpu and gpu compatible running on windows linux and mac os
+- [openperplex](https://github.com/YassKhazzan/openperplex_backend_os) Perplexity inspired AI search using Cohere semantic chunking, Jina Rerankers and serper web search results API
+- [OpenSearch](https://github.com/supermemoryai/opensearch-ai) searchGTP / perplexity clone but personalized for you
 
 ## Browser Extensions
 
@@ -411,6 +413,7 @@
 - [DOM to Semantic Markdown](https://github.com/romansky/dom-to-semantic-markdown) convert HTML DOM to semantic Markdown, preserving the semantic structure and metadata for efficient LLM processing, using HTML-to-Markdown AST conversion and customizable options
 - [embed](https://github.com/michaelfeil/embed) python embedding, rerank and clip models inference library for stable, fast and easy to use local embedding serving with a focus on sync to async API
 - [fastembed](https://github.com/qdrant/fastembed) fast, Accurate, Lightweight Python library to serve State of the Art Embeddings locally supporting GPU and CPUs, dense and sparse models, colbert, clip and more
+- [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio) visual graph/flow/node based LLM app development IDE from LangChain using LangGraph and LangSmith
 
 ### Prompt templating / Grammar
 
@@ -514,6 +517,7 @@
 - [annas-archive](https://annas-archive.org/llm) world’s largest open-source open-data library. ⭐️ Mirrors Sci-Hub, Library Genesis, Z-Library, and more. 📈 22,052,322 books, 97,847,390 papers, 2,451,032 comics, 673,013 magazines 
 - [RedPajama-Data-v2](https://together.ai/blog/redpajama-data-v2) Open Dataset with 30 Trillion Tokens for Training, [HF](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2)
 - [MINT-1T](https://github.com/mlfoundations/MINT-1T) Multimodal training Dataset with one trillion tokens including HTML, PDF from CommonCrawl 2023 and ArXiv data
+- [Open-Reasoning-Tasks](https://github.com/NousResearch/Open-Reasoning-Tasks) NousResearch's reasoning task repository to teach elicit or show reasoning samples to LLMs
 
 ## Research
 
