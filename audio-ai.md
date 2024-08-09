@@ -41,6 +41,7 @@
   - [asr-sd-pipeline](https://github.com/hedrergudene/asr-sd-pipeline) scalable, modular, end to end multi-speaker speech to text solution implemented using AzureML pipelines
   - [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) The fastest Whisper optimization for automatic speech recognition as a command-line interface
   - [WhisperLive](https://github.com/collabora/WhisperLive) real time transcription using voice activity detection and TensorRT or FasterWhisper backends
+  - [Whisper Medusa](https://github.com/aiola-lab/whisper-medusa) speed improvements by multi token prediction per iteration maintaining almost similar quality
 - [ermine-ai | Whisper in the browser using transformers.js](https://github.com/vishnumenon/ermine-ai)
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
