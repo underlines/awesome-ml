@@ -466,6 +466,10 @@
 - [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) help automatically creating structured instruction or classifier data sets from unstructured text
 - [abliteration](https://huggingface.co/blog/mlabonne/abliteration) altering the refusal direction between harmless and harmful prompts to change an existing model alignment without fine-tuning, based in parts on blogpost [refusal in llms is mediated by a single direction](https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction) and FailSpy's [abliterator](https://github.com/FailSpy/abliterator) script
 
+## Observability
+- [Helicone AI](https://github.com/Helicone/helicone) Open-source LLM observability platform for logging, monitoring, and debugging AI applications. Simple 1-line integration to get started.
+
+
 ## Merging & Quantization
 
 - [mergekit](https://github.com/cg123/mergekit) Tools for merging pretrained large language models.
