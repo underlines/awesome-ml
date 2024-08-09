@@ -201,6 +201,7 @@
 - [MinerU](https://github.com/opendatalab/MinerU) high-quality data extraction tool, supports PDF/webpage/e-book extraction cpu and gpu compatible running on windows linux and mac os
 - [openperplex](https://github.com/YassKhazzan/openperplex_backend_os) Perplexity inspired AI search using Cohere semantic chunking, Jina Rerankers and serper web search results API
 - [OpenSearch](https://github.com/supermemoryai/opensearch-ai) searchGTP / perplexity clone but personalized for you
+- [rag](https://github.com/neuml/rag) NeuML RAG supporting Vector and Graph retrieval backed by txtai and supporting docker and pip deployment
 
 ## Browser Extensions
 
