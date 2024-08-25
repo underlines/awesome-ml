@@ -50,6 +50,7 @@
 - [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
 - [MaxsAistudio](https://github.com/stringandstickytape/MaxsAistudio/) Maxime Labonne's Windows native C# based LLM UI for chatting with ollama, OpenAI, Anthropic, Groq and Gemini models with many features including conversation management, templating, embedding retrieval, diagramming etc
 - [Screen Pipe](https://github.com/louis030195/screen-pipe) library providing screen, audio and microphone capture stored in an embedding DB and used during query time via a web and desktop frontend as a rewind ai or windows copilot alternative
+- [HammerAI](https://www.hammerai.com/desktop) Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration.
 
 ## Web GUIs
 
@@ -82,6 +83,7 @@
 - [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 - [big-AGI](https://github.com/enricoros/big-AGI) Web Browse, Search, Sharing, Tracking, supporting LocalAI, Ollama, LM Studio, Azure, Gemini, OpenAI, Groq, Mistral, OpenRouter etc.
+- [HammerAI](https://www.hammerai.com) Simple character-chat interface to run LLMs in your browser using WebGPU. Uses WebLLM under the hood and is free to chat and requires zero configuration.
 
 ## Backends
 
