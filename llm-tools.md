@@ -50,6 +50,7 @@
 - [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
 - [MaxsAistudio](https://github.com/stringandstickytape/MaxsAistudio/) Maxime Labonne's Windows native C# based LLM UI for chatting with ollama, OpenAI, Anthropic, Groq and Gemini models with many features including conversation management, templating, embedding retrieval, diagramming etc
 - [Screen Pipe](https://github.com/louis030195/screen-pipe) library providing screen, audio and microphone capture stored in an embedding DB and used during query time via a web and desktop frontend as a rewind ai or windows copilot alternative
+- [gollama](https://github.com/sammcj/gollama) command line tool to manage ollama models and linking them to LMStudio 
 
 ## Web GUIs
 
@@ -202,6 +203,8 @@
 - [openperplex](https://github.com/YassKhazzan/openperplex_backend_os) Perplexity inspired AI search using Cohere semantic chunking, Jina Rerankers and serper web search results API
 - [OpenSearch](https://github.com/supermemoryai/opensearch-ai) searchGTP / perplexity clone but personalized for you
 - [rag](https://github.com/neuml/rag) NeuML RAG supporting Vector and Graph retrieval backed by txtai and supporting docker and pip deployment
+- [RAGBuilder](https://github.com/kruxai/ragbuilder) automatically optimize hyperparameters of your RAG like chunking strategy details and other configurations and test against a test dataset to identify the best performing parameters for your data
+- [fastRAG](https://github.com/IntelLabs/fastRAG) build and explore efficient RAG methods and techniques with a focus on research using haystack compatible components 
 
 ## Browser Extensions
 
@@ -432,6 +435,7 @@
 - [Every Way To Get Structured Output From LLMs](https://www.boundaryml.com/blog/structured-output-from-llms) explores various methods for obtaining structured output from LLMs, including techniques beyond simple JSON response formatting and regex stacking.
 - [AgentInstruct](https://github.com/wang-research-lab/agentinstruct) Instructs Agents to be better at Zero Shot reasoning tasks
 - [TextGrad](https://github.com/zou-group/textgrad) optimize coding solutions and problem-solving tasks by implementing automatic differentiation via text feedback from LLMs
+- [formatron](https://github.com/Dan-wanna-M/formatron) control the format of language models' output with minimal overhead supporting exllama2, vllm, rwkv using a mix of regex and context-free grammars
 
 ## Fine Tuning & Training
 
@@ -475,6 +479,7 @@
 - [AQLM](https://github.com/Vahe1994/AQLM) Extreme Compression of LLMs to 2bit via Additive Quantization to work with models of LLaMA, Mistral and Mixtral families [paper](https://arxiv.org/pdf/2401.06118.pdf)
 - [EfficientQAT](https://github.com/OpenGVLab/EfficientQAT) efficient Quantization-Aware Training and support for model transfer through gptqmodel to support GPTQ v2 and possibly GGUF llama.cpp and EXL2 in the future
 - [GPTQModel](https://github.com/ModelCloud/GPTQModel) fork of AutoGPTQ for an easy to use LLM quantization and inference toolkit based on GPTQ algorithm for weight-only quantization with more model support, faster speed, better quants supporting gptq, Intel optimized quants, vLLM and SGLang optimization and more
+- [AutoGGUF](https://github.com/leafspark/AutoGGUF) automated GGUF model quantization with imatrix and LoRA support
 
 # Resources
 
@@ -755,7 +760,7 @@
 - [OpenCompass](https://github.com/open-compass/opencompass) is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets
 - [PHUDG3](https://github.com/deshwalmahesh/PHUDGE) Phi-3 as Scalable Judge. Evaluate your LLMs with an LLM
 - [NIAN](https://github.com/llmonpy/needle-in-a-needlestack) Needle in a Needlestack because LLMs have improved and Needle in a Haystack has become too easy
-- [beyondllm](https://github.com/aiplanethub/beyondllm) all-in-one toolkit for experimentation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) systems
+- [beyondllm](https://github.com/aiplanethub/beyondllm) all-in-one toolkit for observability, experimentation, evaluation, and deployment of Retrieval-Augmented Generation (RAG) systems
 - [AIR-bench](https://github.com/AIR-Bench/AIR-Bench) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
 - [LLMSuite](https://github.com/giorgioroffo/large_language_models_open_suite) view code, run inferences, and measure performance with evaluation tasks
 - [BlindTest](https://github.com/anguyen8/vision-llms-are-blind) Vision Language Model (VLM) benchmark to assess visual understanding capabilities
@@ -804,6 +809,7 @@
 - [Xorbits Inference](https://github.com/xorbitsai/inference) Xinference model server supports LLM, text embedding, Speech recognition, multimodal and text to image inference with GPU, CPU and apple silicon MLX hardware support, transformers continuous batching, LoRA, vLLM integration, OpenAI Compatible API, multi node deployment and function calling via native pip deployment, docker and K8s
 - [SGLang](https://github.com/sgl-project/sglang) fast serving framework for LLMs and vision LMs using fast radixAttention for caching, continuous batching, paged attention, tensor parallelism and quantization like AWQ, FP8, GPTQ on GPU only inference via native pip deployment or docker
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) serving and evaluating LLM routers to find optimal cost vs. quality depending on the query
+- [langfuse](https://github.com/langfuse/langfuse) LLM Observability, monitoring, evaluation, analytics, prompt management, playground
 
 ### Optimization
 
