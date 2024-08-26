@@ -811,6 +811,7 @@
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) serving and evaluating LLM routers to find optimal cost vs. quality depending on the query
 - [langfuse](https://github.com/langfuse/langfuse) LLM Observability, monitoring, evaluation, analytics, prompt management, playground
 - [LitServe](https://github.com/Lightning-AI/LitServe) easy, flexible and enterprise scale serving engine to deploy any ML, embedding, language, vision or audio model with support for batching, streaming and GPU autoscaling
+- [LitGPT](https://github.com/Lightning-AI/litgpt) easy, flexible and enterprise scale finetune, pretrain, deploy and serving of LLMs 
 
 ### Optimization
 
