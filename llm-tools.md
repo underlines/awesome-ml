@@ -122,6 +122,7 @@
 - [AlwaysReddy](https://github.com/ILikeAI/AlwaysReddy) LLM voice assistant with TTS, STT, reading/writing to clipboard with OpenAI, Anthropic and Local LLM support
 - [LocalAIVoiceChat](https://github.com/KoljaB/LocalAIVoiceChat) Local AI talk with a custom voice based on Zephyr 7B model. Uses RealtimeSTT with faster_whisper for transcription and RealtimeTTS with Coqui XTTS for synthesis
 - [june](https://github.com/mezbaul-h/june) Local voice chatbot powered by Ollama, Hugging Face Transformers, and Coqui TTS
+- [VERBI](https://github.com/PromtEngineer/Verbi) modular voice assistant application allowing experimenting with SOTA models for transcription, response generation and TTS with a focus on flexibility and extensibility supporting APIs and local models
 
 ## Retrieval Augmented Generation (RAG)
 
