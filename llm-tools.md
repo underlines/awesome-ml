@@ -205,7 +205,9 @@
 - [OpenSearch](https://github.com/supermemoryai/opensearch-ai) searchGTP / perplexity clone but personalized for you
 - [rag](https://github.com/neuml/rag) NeuML RAG supporting Vector and Graph retrieval backed by txtai and supporting docker and pip deployment
 - [RAGBuilder](https://github.com/kruxai/ragbuilder) automatically optimize hyperparameters of your RAG like chunking strategy details and other configurations and test against a test dataset to identify the best performing parameters for your data
-- [fastRAG](https://github.com/IntelLabs/fastRAG) build and explore efficient RAG methods and techniques with a focus on research using haystack compatible components 
+- [fastRAG](https://github.com/IntelLabs/fastRAG) build and explore efficient RAG methods and techniques with a focus on research using haystack compatible components
+- [kotaemon](https://github.com/Cinnamon/kotaemon) is an open-source tool providing a user-friendly UI for document-based QA using a hybrid retrieval augmented generation (RAG) pipeline, supporting both local and API-based LLMs, making it ideal for creating custom RAG-based solutions.
+- [Unstract](https://github.com/Zipstack/unstract) for automated extraction and transformation from unstructured documents like PDFs into structured formats, leveraging LLMs in conjunction with retrieval-augmented generation to enhance data processing and retrieval tasks. Alternative to naive OCR or Azure Document Intelligence Cracking with Layout awareness
 
 ## Browser Extensions
 
@@ -284,6 +286,8 @@
 - [bolna](https://github.com/bolna-ai/bolna) end-to-end framework for LLM based voice assistants handling phone calls with TTS, Speech Recognition, text generation supporting local and cloud APIs for LLM and voice generation
 - [gpt-computer-assistant](https://github.com/onuratakan/gpt-computer-assistant) native operating system assistant using vision, voice and text for windows mac and linux with support for custom tool use
 - [LAMBDA](https://github.com/Stephen-SMJ/LAMBDA) large Model Based Data Agent is a multi agent data analysis system using LLMs to perform complex data analysis tasks through human instructions automatically planning and writing code and providing a UI to generate reports automatically
+- [PR-Agent](https://github.com/Codium-ai/pr-agent) is an open-source tool that uses AI to automatically analyze, review, and provide suggestions for improving pull requests, enhancing code quality and development efficiency across multiple git platforms by automating common PR management tasks.
+- [ScholArxiv](https://github.com/dagmawibabi/ScholArxiv) is a GUI based assistant to search, read, bookmark, share, and download academic papers from the arXiv repository, featuring LLM-driven capabilities to provide summaries and in-depth exploration of research content
 
 ## Multi Modal
 
@@ -697,6 +701,7 @@
 - [graphrag analysis part 1](https://aiencoder.substack.com/p/graphrag-analysis-part-1-how-indexing) shows that Microsoft GraphRAG and graphs may not significantly impact context retrieval
 - [Applied LLMs](https://applied-llms.org/) practical guide to building successful LLM products, covering the tactical, operational, and strategic
 - [engine](https://github.com/Engine-Labs/engine-core) programmatically access prompt templates based on predefined strategies that include and tools
+- [Transformer-Explainer](https://poloclub.github.io/transformer-explainer/) is an interactive visualization that helps users understand the inner workings of Transformer models, like GPT-2, by providing a detailed breakdown of components such as embeddings, multi-head self-attention, and output probabilities
 
 ## Product Showcases
 
@@ -739,6 +744,7 @@
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
 - [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
 - [oobabooga benchmark](https://oobabooga.github.io/benchmark.html) a black box, closed source and private 48 questions benchmark from oobabooga
+- [LiveBench](https://livebench.ai/) is a dynamic, contamination-free benchmark for Large Language Models (LLMs) that updates regularly to evaluate model performance across diverse tasks, ensuring relevance by refreshing its dataset every 6 months.
 
 ### Benchmark Suites
 
@@ -850,3 +856,4 @@
 
 - [PyRIT](https://github.com/Azure/PyRIT) Python Risk Identification Tool for generative AI to automatically red team foundation models and apps
 - [PurpleLlama](https://github.com/meta-llama/PurpleLlama) Cyber Security Eval, Llama Guard and Code Shield to assess and improve LLM security
+- [Promptfoo](https://github.com/promptfoo/promptfoo) for testing, evaluating, and red-teaming LLM applications, allowing users to systematically compare LLM outputs, identify vulnerabilities, and improve prompt quality using declarative test cases and a command-line interface for integration into CI/CD workflows
