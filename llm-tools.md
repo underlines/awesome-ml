@@ -288,6 +288,7 @@
 - [LAMBDA](https://github.com/Stephen-SMJ/LAMBDA) large Model Based Data Agent is a multi agent data analysis system using LLMs to perform complex data analysis tasks through human instructions automatically planning and writing code and providing a UI to generate reports automatically
 - [PR-Agent](https://github.com/Codium-ai/pr-agent) is an open-source tool that uses AI to automatically analyze, review, and provide suggestions for improving pull requests, enhancing code quality and development efficiency across multiple git platforms by automating common PR management tasks.
 - [ScholArxiv](https://github.com/dagmawibabi/ScholArxiv) is a GUI based assistant to search, read, bookmark, share, and download academic papers from the arXiv repository, featuring LLM-driven capabilities to provide summaries and in-depth exploration of research content
+- [Composio](https://github.com/ComposioHQ/composio) provides AI agents with a library of over 100 function calling tools, enabling seamless interaction across multiple platforms and tools to enhance AI agent functionality, tool calling capability and automation
 
 ## Multi Modal
 
@@ -355,6 +356,7 @@
 - [Mutahunter](https://github.com/codeintegrity-ai/mutahunter) generate unit tests automatically and perform LLM-based mutation testing, enhancing fault detection with context-aware mutations across various programming languages
 - [cover-agent](https://github.com/Codium-ai/cover-agent) automated test creation for maximum test coverage
 - [llamacoder](https://github.com/Nutlope/llamacoder) Claude Artifacts inspired app generator based on llama3 405B on together.ai, sandpack code sandbox, next.js app router with tailwind and helicone observability
+- [MLE-Agent](https://github.com/MLSysOps/MLE-agent) is a coding agent tailored for ML and AI engineers and researchers, which uses arXiv and Papers with Code as a RAG source to automate coding tasks, debugging support via extensive tool integration and a command-line interface
 
 ## Libraries and Wrappers
 
@@ -529,6 +531,8 @@
 - [RedPajama-Data-v2](https://together.ai/blog/redpajama-data-v2) Open Dataset with 30 Trillion Tokens for Training, [HF](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2)
 - [MINT-1T](https://github.com/mlfoundations/MINT-1T) Multimodal training Dataset with one trillion tokens including HTML, PDF from CommonCrawl 2023 and ArXiv data
 - [Open-Reasoning-Tasks](https://github.com/NousResearch/Open-Reasoning-Tasks) NousResearch's reasoning task repository to teach elicit or show reasoning samples to LLMs
+- [Everything_Instruct](https://huggingface.co/datasets/Replete-AI/Everything_Instruct) a huge dataset designed for instruction-based fine-tuning of language models, useful for improving model performance in task-specific applications by providing diverse instruction-following data.
+- [Everything_Instruct_Multilingual](https://huggingface.co/datasets/Replete-AI/Everything_Instruct_Multilingual) a huge multilingual dataset for instruction-based fine-tuning of language models, aimed at enhancing their performance across various languages by providing diverse, multilingual instruction-following examples.
 
 ## Research
 
@@ -775,6 +779,7 @@
 - [BICS](https://github.com/HammingHQ/bug-in-the-code-stack) Bug In the Code Stack benchmark measuring LLMs capability to detect bugs in large codebases similar to needle in the haystack benchmarks using randomly assembled python source code as background noise and syntactic bug as the needle in very large long context windows
 - [BABILong](https://github.com/booydar/babilong) long-context needle-in-a-haystack benchmark for LLMs for text based tasks
 - [ARES](https://github.com/stanford-futuredata/ARES) Automated Evaluation Framework for RAG Systems combining synthetic data generation with fine-tuned classifiers to efficiently assess context relevance, answer faithfulness, and answer relevance, minimizing the need for extensive human annotations
+- [RULER](https://github.com/hsiehjackson/RULER) is a benchmark to evaluate the effective context size of long-context language models by generating synthetic examples and measuring performance across different tasks, revealing real capabilities versus claimed specs.
 
 ## AI DevOps
 
