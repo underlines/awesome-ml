@@ -50,7 +50,8 @@
 - [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
 - [MaxsAistudio](https://github.com/stringandstickytape/MaxsAistudio/) Maxime Labonne's Windows native C# based LLM UI for chatting with ollama, OpenAI, Anthropic, Groq and Gemini models with many features including conversation management, templating, embedding retrieval, diagramming etc
 - [Screen Pipe](https://github.com/louis030195/screen-pipe) library providing screen, audio and microphone capture stored in an embedding DB and used during query time via a web and desktop frontend as a rewind ai or windows copilot alternative
-- [gollama](https://github.com/sammcj/gollama) command line tool to manage ollama models and linking them to LMStudio 
+- [gollama](https://github.com/sammcj/gollama) command line tool to manage ollama models and linking them to LMStudio
+- [gpt_mobile](https://github.com/Taewan-P/gpt_mobile) android mobile app to chat with multiple LLMs at once supporting BYOK for OpenAI, Anthropic and Gemini API with local chat history
 
 ## Web GUIs
 
@@ -83,6 +84,7 @@
 - [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 - [big-AGI](https://github.com/enricoros/big-AGI) Web Browse, Search, Sharing, Tracking, supporting LocalAI, Ollama, LM Studio, Azure, Gemini, OpenAI, Groq, Mistral, OpenRouter etc.
+- [slickgpt](https://github.com/ShipBit/slickgpt) light-weight BYOK web client for the OpenAI API written in Svelte offering a userless share feature, chat history in localStorage, message editing, cost calculation
 
 ## Backends
 
@@ -208,6 +210,8 @@
 - [fastRAG](https://github.com/IntelLabs/fastRAG) build and explore efficient RAG methods and techniques with a focus on research using haystack compatible components
 - [kotaemon](https://github.com/Cinnamon/kotaemon) is an open-source tool providing a user-friendly UI for document-based QA using a hybrid retrieval augmented generation (RAG) pipeline, supporting both local and API-based LLMs, making it ideal for creating custom RAG-based solutions.
 - [Unstract](https://github.com/Zipstack/unstract) for automated extraction and transformation from unstructured documents like PDFs into structured formats, leveraging LLMs in conjunction with retrieval-augmented generation to enhance data processing and retrieval tasks. Alternative to naive OCR or Azure Document Intelligence Cracking with Layout awareness
+- [rerankers](https://github.com/AnswerDotAI/rerankers) lightweight, low-dependency, unified python library to use all common reranking and cross-encoder models like ColBERT, BGE, Gemma, MiniCPM and all SentenceTransformers, RankGPTs, T5 based, FlashRank, Cohere, Jina, Voyage and MixedBread APIs and RankLLM support
+- [rank_llm](https://github.com/castorini/rank_llm) python library supporting reranking with pointwise and listwise rerankers like monoT5 and RankGPT variants such as RankZephyr, RankGPT4-o
 
 ## Browser Extensions
 
@@ -706,6 +710,7 @@
 - [Applied LLMs](https://applied-llms.org/) practical guide to building successful LLM products, covering the tactical, operational, and strategic
 - [engine](https://github.com/Engine-Labs/engine-core) programmatically access prompt templates based on predefined strategies that include and tools
 - [Transformer-Explainer](https://poloclub.github.io/transformer-explainer/) is an interactive visualization that helps users understand the inner workings of Transformer models, like GPT-2, by providing a detailed breakdown of components such as embeddings, multi-head self-attention, and output probabilities
+- [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) showcases various advanced techniques for RAG systems with source code and explanations
 
 ## Product Showcases
 
@@ -823,7 +828,8 @@
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) serving and evaluating LLM routers to find optimal cost vs. quality depending on the query
 - [langfuse](https://github.com/langfuse/langfuse) LLM Observability, monitoring, evaluation, analytics, prompt management, playground
 - [LitServe](https://github.com/Lightning-AI/LitServe) easy, flexible and enterprise scale serving engine to deploy any ML, embedding, language, vision or audio model with support for batching, streaming and GPU autoscaling
-- [LitGPT](https://github.com/Lightning-AI/litgpt) easy, flexible and enterprise scale finetune, pretrain, deploy and serving of LLMs 
+- [LitGPT](https://github.com/Lightning-AI/litgpt) easy, flexible and enterprise scale finetune, pretrain, deploy and serving of LLMs
+- [Nexa-SDK](https://github.com/NexaAI/nexa-sdk) toolkit for local ONNX and GGML model deployment for Text Generation, Image Generation, VLMs, TTS and STT and an OpenAI compatible API server with JSON schema mode, function calling and streaming support and a Streamlit UI and its own Model Hub / Zoo
 
 ### Optimization
 
@@ -837,6 +843,7 @@
 - [LOMO](https://github.com/OpenLMLab/LOMO) fuses the gradient computation and the parameter update in one step to reduce memory usage enables the full parameter fine-tuning of a 7B model on a single RTX 3090
 - [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
 - [KTransformers](https://github.com/kvcache-ai/ktransformers) KTransformers (QuickTransformers) is a framework for cutting-edge LLM Inference Optimizations
+- [Optimum](https://github.com/huggingface/optimum) Huggingface's accelerated traning and inference library for Transformers and Diffusers supporting onnx, intel NPU, openVINO, TensorRT, AMD NPU and cloud Hardware and features graph optimization, post training quantization, quantized training with QAT, pruning and knowledge distillation
 
 ## Databases for ML
 
