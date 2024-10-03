@@ -75,3 +75,6 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 - [codegemma](https://huggingface.co/google/codegemma-7b) google's coding models from 2b base, 7b base and 7b instruct
 - [DeepSeekCoderv2](https://github.com/deepseek-ai/DeepSeek-Coder-V2?tab=readme-ov-file#2-model-downloads) 16b and 236b mixture of experts coding models with 128k context length
 - [gemma2 2b](https://huggingface.co/bartowski/gemma-2-2b-it-GGUF) 2b small language model by google achieving SOTA performance for sub 3b models on LLM Leaderboard 2
+- [llama-3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) small and medium sized vision LLMs in 11b and 90b and text only 1b and 3b models by Meta
+- [Pixtral](https://huggingface.co/mistralai/Pixtral-12B-2409) 12B LLM with a 400M vision encoder for multi modal image and text inference and 128k sequence length by Mistral
+- [reader-lm](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown) Jina AI's LLM to convert HTML to Markdown, making heuristics, cleanup and content identification an LLM task
