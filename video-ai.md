@@ -63,6 +63,7 @@
 - [streamv2v](https://github.com/Jeff-LiangF/streamv2v) Official Pytorch implementation of [StreamV2V](https://jeff-liangf.github.io/projects/streamv2v/)
 - [MusePose](https://github.com/TMElyralab/MusePose) Pose Driven Image 2 Video framework to generate Virtual Humans 
 - [V-Express](https://github.com/tencent-ailab/V-Express) generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images
+- [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) real time face swap and one-click video deepfake with only a single image
 
 ## Benchmarking
 

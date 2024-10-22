@@ -99,6 +99,7 @@ other:
 - [StableTuner](https://github.com/devilismyfriend/StableTuner) Windows GUI for Finetuning / Dreambooth Stable Diffusion models (abandoned)
 - [SimpleTuner](https://github.com/bghira/SimpleTuner) fine-tuning for StableDiffusion, PixArt, Flux with LoRA and full U-Net training, multi GPU support, DeepSpeed
 - [x-flux](https://github.com/XLabs-AI/x-flux) LoRA and ControlNet training scripts for Flux model by Black Forest Labs using DeepSpeed
+- [ai-toolkit](https://github.com/ostris/ai-toolkit) Flux LoRA training on local and runpod
 
 ## Research
 

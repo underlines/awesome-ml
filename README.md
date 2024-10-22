@@ -17,22 +17,27 @@
   - [🔍 Retrieval Augmented Generation](llm-tools.md#retrieval-augmented-generation-rag)
   - [🔗 Browser Extensions](llm-tools.md#browser-extensions)
   - [🤖 Agents / Automatic GPT](llm-tools.md#agents--automatic-gpt)
-  - [🔀 Multi Modal](llm-tools.md#multi-modal)
+  - [🎨 Multimodal](llm-tools.md#multi-modal)
   - [💻 Code Generation](llm-tools.md#code-generation)
-  - [📚 Libraries and Wrappers](llm-tools.md#libraries-and-wrappers)
+  - [📦 Libraries and Wrappers](llm-tools.md#libraries-and-wrappers)
+    - [✏️ Prompt Templating / Grammar](llm-tools.md#prompt-templating--grammar)
   - [🎯 Fine Tuning & Training](llm-tools.md#fine-tuning--training)
   - [🪚 Merging & Quantization](llm-tools.md#merging--quantization)
 
 - [📚 Resources](llm-tools.md#resources)
-  - [📂 Data Sets](llm-tools.md#data-sets)
+  - [🗂️ Data Sets](llm-tools.md#data-sets)
   - [🔬 Research](llm-tools.md#research)
 
 - [🌟 Other Awesome Resources](llm-tools.md#other-awesome-resources)
   - [📺 Product Showcases](llm-tools.md#product-showcases)
-  - [⚙️ Optimization](llm-tools.md#optimization)
   - [📏 Benchmarking](llm-tools.md#benchmarking)
+    - [🏆 Leaderboards](llm-tools.md#leaderboards)
+    - [📊 Benchmark Suites](llm-tools.md#benchmark-suites)
+    - [⚙️ Optimization](llm-tools.md#optimization)
   - [👷‍♂️ AI DevOps](llm-tools.md#ai-devops)
   - [🗄️ Databases for ML](llm-tools.md#databases-for-ml)
+  - [🛡️ Safety, Responsibility and Red Teaming](llm-tools.md#safety-responsibility-and-red-teaming)
+
 
 # 🖼️ Image Models
 - [📝 Models](image-generation.md#models)
