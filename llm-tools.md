@@ -53,6 +53,8 @@
 - [gollama](https://github.com/sammcj/gollama) command line tool to manage ollama models and linking them to LMStudio
 - [gpt_mobile](https://github.com/Taewan-P/gpt_mobile) android mobile app to chat with multiple LLMs at once supporting BYOK for OpenAI, Anthropic and Gemini API with local chat history
 - [llm](https://github.com/simonw/llm) is a CLI utility and Python library that facilitates interaction with LLMs, both remotely and locally, offering functionalities such as running prompts, storing results, generating embeddings and more
+- [shell_gpt](https://github.com/TheR1D/shell_gpt) Linux, Mac and Windows compatible shell application for PowerShell, CMD, Bash, Zsh etc helping you write shell code with context awareness
+- [aichat](https://github.com/sigoden/aichat) Shell Assistant with Chat REPL, RAG and Agents helping you write shell code in Windows, Linux, Android and Mac
 
 ## Web GUIs
 
@@ -271,7 +273,7 @@
 - [openagents](https://github.com/xlang-ai/openagents) an Open Platform for Language Agents in the Wild, [paper](https://arxiv.org/abs/2310.10634)
 - [TaskWeaver](https://github.com/microsoft/TaskWeaver) code-first agent framework for planning and executing data analytics tasks interpreting user requests and coordinating plugins
 - [crewAI](https://github.com/joaomdmoura/crewAI) framework for orchestrating role-playing, autonomous AI agents
-- [phidata](https://github.com/phidatahq/phidata) toolkit for building AI Assistants using function calling enabling RAG and other workflows
+- [phidata](https://github.com/phidatahq/phidata) is a framework for building AI agents with memory, knowledge, tools and reasoning capabilities, offering functionalities such as team collaboration, agent monitoring and optimization, and an interactive UI for agent communication
 - [FRIDAY](https://github.com/OS-Copilot/FRIDAY) Framework for Computer Agents with Self-Improvement on OSX and Linux
 - [agentkit](https://github.com/BCG-X-Official/agentkit) Starter-kit to build constrained agents with Nextjs, FastAPI and Langchain
 - [LaVague](https://github.com/lavague-ai/LaVague) control a web browser through natural language instructions using visual language models, a Large Action Model framework for AI Web Agents
@@ -331,6 +333,7 @@
 - [LLaMA-Omni](https://github.com/ictnlp/LLaMA-Omni) is a speech-language model built on Llama-3.1-8B-Instruct and trained using just 4 GPUs, offering low-latency, high-quality speech interactions and simultaneous generation of text and speech responses
 - [moshi](https://github.com/kyutai-labs/moshi) a speech-text foundation model that supports low-latency high-quality speech interactions and simultaneous generation of text responses, using Mimi, a SOTA streaming neural audio codec
 - [Mini-Omni](https://github.com/gpt-omni/mini-omni) a multimodal LLM based on Qwen2 offering real-time end-to-end speech input and streaming audio output conversational capabilities
+- [Aria](https://github.com/rhymes-ai/Aria) is a lightweight, multimodal native MoE model with 25B parameters and 3.9B activated parameters per token, offering state-of-the-art performance in multimodal, language, and coding tasks, with a long multimodal context window of 64K tokens and efficient encoding of visual input for fast inference and low fine-tuning cost
 
 ## Code generation
 
@@ -439,6 +442,7 @@
 - [embed](https://github.com/michaelfeil/embed) python embedding, rerank and clip models inference library for stable, fast and easy to use local embedding serving with a focus on sync to async API
 - [fastembed](https://github.com/qdrant/fastembed) fast, Accurate, Lightweight Python library to serve State of the Art Embeddings locally supporting GPU and CPUs, dense and sparse models, colbert, clip and more
 - [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio) visual graph/flow/node based LLM app development IDE from LangChain using LangGraph and LangSmith
+- [TEN-Agent](https://github.com/TEN-framework/TEN-Agent) is a multimodal AI agent builder with a graph / node interface, using OpenAI Realtime API and RTC for low-latency, high-quality interactions, supporting multiple platforms and languages, and offering real-time state management
 
 ### Prompt templating / Grammar
 
@@ -481,7 +485,6 @@
 - [ChatGLM Efficient Finetuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning) fine tuning ChatGLM models with PEFT
 - [AutoTrain Advanced](https://github.com/huggingface/autotrain-advanced) by Huggingface, faster and easier training and deployments of state-of-the-art machine learning models
 - [Pearl](https://github.com/facebookresearch/pearl) Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)
 - [LLaMa2lang](https://github.com/UnderstandLingBV/LLaMa2lang) convenience scripts to finetune any foundation model for chat towards any language
 - [fsdp_qlora](https://github.com/AnswerDotAI/fsdp_qlora) Answer.AI's training script enabling 70B training on 48GB vram utilizing QLoRA + FSDP, also available in Axolotl
 - [unsloth](https://github.com/unslothai/unsloth) 2-5x faster and 60% less memory local QLoRA finetuning supporting Llama, CodeLlama, Mistral, TinyLlama etc. using Triton
@@ -854,6 +857,7 @@
 - [Nexa-SDK](https://github.com/NexaAI/nexa-sdk) toolkit for local ONNX and GGML model deployment for Text Generation, Image Generation, VLMs, TTS and STT and an OpenAI compatible API server with JSON schema mode, function calling and streaming support and a Streamlit UI and its own Model Hub / Zoo
 - [lmnr](https://github.com/lmnr-ai/lmnr) is an open-source platform for engineering LLM products, providing functionalities such as tracing, evaluating, annotating, and analyzing LLM data, built with modern tech stack including Rust, RabbitMQ, Postgres, and Clickhouse, offering insights similar to DataDog + PostHog for LLM apps
 - [exo](https://github.com/exo-explore/exo) petals inspired decentralized LLM inference using multiple commodity devices like laptops and phones to split up a larger model to do inference on smaller devices and communicate using P2P with autodiscovery
+- [mosec](https://github.com/mosecorg/mosec) is a high-performance ML model serving framework using dynamic batching and CPU/GPU pipelines for API serving, Rust-based web layer, Python interface and seamless integration with containers
 
 ### Optimization
 

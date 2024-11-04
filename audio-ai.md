@@ -23,6 +23,8 @@
 - [voicefixer](https://github.com/haoheliu/voicefixer) restore human speech regardless how serious its degraded
 - [VoiceCraft](https://github.com/jasonppy/VoiceCraft) clone and edit an unseen voice with few seconds example and Text-to-Speech capabilities
 - [audapolis](https://github.com/bugbakery/audapolis) an audio/video editor for spoken word media editing like a text editor using speech recognition
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) is a multi lingual voice generation model that supports inference, training, and deployment, zero-shot, cross-lingual voice cloning, and instruction-following capabilities, with features like Flow matching training, Repetition Aware Sampling inference, and streaming inference mode
+- [Speech-AI-Forge](https://github.com/lenML/Speech-AI-Forge) is a gradio GUI and API server supporting multiple tasks and models such as ChatTTS, FishSpeech, CosyVoice, FireRedTTS for TTS, Whisper for ASR, and OpenVoice for voice conversion, with functionalities like speaker switching, style controls, long text inference, SSML scripting, and voice creation
 
 ## Speech Recognition
 
@@ -39,6 +41,7 @@
   - [whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) a speaker diarization tool that is based on faster-whisper and NVIDIA NeMo
   - [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win) portable ready to run binaries of faster-whisper for Windows
   - [asr-sd-pipeline](https://github.com/hedrergudene/asr-sd-pipeline) scalable, modular, end to end multi-speaker speech to text solution implemented using AzureML pipelines
+  - [insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) opinionated CLI to transcribe audio to text using whisper v3 on edge devices using optimum and flash attention
   - [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) The fastest Whisper optimization for automatic speech recognition as a command-line interface
   - [WhisperLive](https://github.com/collabora/WhisperLive) real time transcription using voice activity detection and TensorRT or FasterWhisper backends
   - [Whisper Medusa](https://github.com/aiola-lab/whisper-medusa) speed improvements by multi token prediction per iteration maintaining almost similar quality
@@ -46,6 +49,7 @@
 - [wav2vec2 dimensional emotion model](https://github.com/audeering/w2v2-how-to)
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
 - [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
+- [Moonshine](https://github.com/usefulsensors/moonshine) Speech to text models optimized for fast and accurate inference on edge devices outperforming Whisper
 
 voice activity detection (VAD):
 
@@ -57,6 +61,7 @@ voice activity detection (VAD):
 subtitle generation:
 
 - [subtitler](https://github.com/dmtrKovalenko/subtitler) on-device web app for audio transcribing and rendering subtitles
+- [pyvideotrans](https://github.com/jianchang512/pyvideotrans) is a video translation and voiceover tool supporting STT, translation, TTS synthesis and audio separation, capable of translating videos into multiple languages while retaining background audio, and offering functionalities such as subtitle creation, batch translation, and audio-video merging
 
 ## TextToSpeech
 
@@ -112,6 +117,7 @@ subtitle generation:
 - [ChatTTS](https://github.com/2noise/ChatTTS) optimized for dialogue-based TTS with natural andexpressive speech synthesis in English and Chinese with fine grained prosodic features like laughter, pauses and interjections
 - [Parler-TTS](https://github.com/huggingface/parler-tts) Huggingface's Parler TTS model can generate high quality natural speech by using two prompts one for the text and one for the style supporting gender, pitch, speaking style etc, with a Mini 0.8B and 2.3B Large model released and ready for fine tuning supporting SDPA and Flash Attention 2
 - [MeloTTS](https://github.com/myshell-ai/MeloTTS/tree/main) multi lingual multi accent TTS for English, Spanish, French, Chinese, Korean and Japanese even working on CPU inference and support for training new languages
+- [F5-TTS](https://github.com/SWivid/F5-TTS) is a text-to-speech system that utilizes Diffusion Transformer with ConvNeXt V2 for fast training and inference, and implements Sway Sampling strategy to significantly enhance performance
 
 ## Voice Conversion
 
@@ -171,6 +177,8 @@ subtitle generation:
 - [YouTranslate](https://github.com/AdiKsOnDev/YouTranslate) Takes a youtube video, clones the voice with elevenlabs API translate the text with google translate API and re-creates that video in a different language
 - [audio2photoreal](https://github.com/facebookresearch/audio2photoreal) Photoreal Embodiment by Synthesizing Humans including pose, hands and face in Conversations
 - [TurnVoice](https://github.com/KoljaB/TurnVoice) Dubbing via CoquiTTS, Elevenlaps, OpenAI or Azure Voices, Translation, Speaking Style changer, Precise control via Editor, Background Audio Preservation
+- [pyvideotrans](https://github.com/jianchang512/pyvideotrans) is a video translation and voiceover tool supporting STT, translation, TTS synthesis and audio separation, capable of translating videos into multiple languages while retaining background audio, and offering functionalities such as subtitle creation, batch translation, and audio-video merging
+- [SoniTranslate](https://github.com/R3gm/SoniTranslate) is a gradio based GUI for video translation and dubbing, OpenAI API for transcription, translation, and TTS, and supporting various output formats and multi-speaker TTS, with features like vocal enhancement, voice imitation, and extensive language support
 
 ## Music Generation
 
@@ -207,3 +215,4 @@ subtitle generation:
 ### Benchmarks
 
 - [TTS Arena](https://huggingface.co/spaces/TTS-AGI/TTS-Arena)
+- [ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)

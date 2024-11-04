@@ -82,6 +82,8 @@ other:
 - [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) CPU inference of Stable Diffusion in pure C/C++ with huge performance gains, supporting ggml, 16/32 bit float, 4/5/8 bit quantization, AVX/AVX2/AVX512, SD1.x, SD2.x, txt2img/img2img
 - [FaceFusion](https://github.com/facefusion/facefusion) Next generation face swapper and enhancer
 - [OneFlow](https://github.com/Oneflow-Inc/diffusers) Backend for diffusers and ComfyUI
+- [StabilityMatrix](https://github.com/LykosAI/StabilityMatrix) is a portable package manager and UI for GUIs like Forge, SD.Next, ComfyUI and more, supporting multiple packages, offering built-in Git and Python dependencies, and features like syntax highlighting, workspace management, and model browsing
+- [OneDiff](https://github.com/siliconflow/onediff) is a PyTorch-based acceleration library for diffusion models, offering out-of-the-box speedups, GPU optimization, and broad model and NVIDIA GPU support
 
 ## Fine Tuning
 
