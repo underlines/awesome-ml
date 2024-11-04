@@ -37,6 +37,7 @@
 
 - [Wonder3D](https://github.com/xxlong0/Wonder3D) A cross-domain diffusion model for 3D reconstruction from a single image
 - [DreamCraft3D](https://github.com/deepseek-ai/DreamCraft3D) Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior
+- [Spann3R](https://github.com/HengyiWang/spann3r) is a transformer-based model for dense 3D reconstruction from images, with spatial memory to track and predict 3D structures and capable of real-time processing
 
  image to text (OCR):
 

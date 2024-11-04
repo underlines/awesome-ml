@@ -55,6 +55,7 @@
 - [llm](https://github.com/simonw/llm) is a CLI utility and Python library that facilitates interaction with LLMs, both remotely and locally, offering functionalities such as running prompts, storing results, generating embeddings and more
 - [shell_gpt](https://github.com/TheR1D/shell_gpt) Linux, Mac and Windows compatible shell application for PowerShell, CMD, Bash, Zsh etc helping you write shell code with context awareness
 - [aichat](https://github.com/sigoden/aichat) Shell Assistant with Chat REPL, RAG and Agents helping you write shell code in Windows, Linux, Android and Mac
+- [gptme](https://github.com/ErikBjare/gptme) is a CLI assistant as a local alternative to ChatGPT's Code Interpreter, a personal AI assistant in the terminal that can execute and edit code, browse the web, handle vision tasks, with self-correction capabilities, support for multiple local and API LLM providers, and extensibility
 
 ## Web GUIs
 
@@ -200,7 +201,7 @@
 - [indexify](https://github.com/tensorlakeai/indexify) building fast data pipelines for unstructured data (video, audio, images and documents) using extractors for embedding, transformation and feature extraction allowing real time and incremental extraction for RAG workflows
 - [MindSearch](https://github.com/InternLM/MindSearch) AI Search Engine and question answering framework with Perplexity.ai Pro performance using a graph based detailed solution path (multi turn), web search, providing a sleek Web UI
 - [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) turning unstructured data from pdfs, docs, txt, videos, websites into a knowledge graph in neo4j using LLMs to extract entities, nodes, relationships and properties. Built on Langchain.
-- [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) a python framework for research focused RAG development testedwith various RAG datasets against currently 13 SOTA RAG methodologies and techniques like IRCoT, [SuRe](https://arxiv.org/abs/2404.13081), [REPLUG](https://arxiv.org/abs/2301.12652), [SelfRag](https://arxiv.org/abs/2310.11511), [FLARE](https://arxiv.org/abs/2305.06983)
+- [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) a python framework for research focused RAG development tested with various RAG datasets against currently 13 SOTA RAG methodologies and techniques like IRCoT, [SuRe](https://arxiv.org/abs/2404.13081), [REPLUG](https://arxiv.org/abs/2301.12652), [SelfRag](https://arxiv.org/abs/2310.11511), [FLARE](https://arxiv.org/abs/2305.06983)
 - [Neurite](https://github.com/satellitecomponent/Neurite) Fractal Graph-of-Thought is an experimental Mind-Mapping framework for Ai-Agents, Web-Links, Notes, and Code including a fractal based web UI where you navigate indexed knowledge in an interactive network
 - [llm-app](https://github.com/pathwaycom/llm-app) Dynamic RAG for enterprise. Ready to run with Docker supporting sources from Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more
 - [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) Comprehensive collection of advanced RAG techniques like RAPTOR, Reranking etc.
@@ -216,6 +217,10 @@
 - [rerankers](https://github.com/AnswerDotAI/rerankers) lightweight, low-dependency, unified python library to use all common reranking and cross-encoder models like ColBERT, BGE, Gemma, MiniCPM and all SentenceTransformers, RankGPTs, T5 based, FlashRank, Cohere, Jina, Voyage and MixedBread APIs and RankLLM support
 - [rank_llm](https://github.com/castorini/rank_llm) python library supporting reranking with pointwise and listwise rerankers like monoT5 and RankGPT variants such as RankZephyr, RankGPT4-o
 - [crawl4ai](https://github.com/unclecode/crawl4ai) tool for RAG solutions for simultaneous multi-URL crawling, media tags, links and metadata extraction strategies, while ensuring privacy with proxy support and session management for complex multi-page scenarios and provides LLM-friendly output formats
+- [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) is an AutoML like tool for automatically finding and evaluating the optimal RAG pipeline and parameters like chunk size, overlap and more for your use case
+- [MemoRAG](https://github.com/qhjqhj00/memorag) uses Long Term Memory to build a global understanding of the entire document database and using these for clues during  retrieval and answer generation resulting in an increased answer quality
+- [LightRAG](https://github.com/hkuds/lightrag) hybrid indexing and retrieval strategy using graphs for high level retrieval and vectors for granular retrieval to improve answer quality
+- [mrag](https://github.com/spcl/mrag) Multi-Head RAG implements a novel scheme focused on queries that require fetching multiple documents with different contents spaced far away in the embedding model
 
 ## Browser Extensions
 
@@ -299,6 +304,8 @@
 - [Composio](https://github.com/ComposioHQ/composio) provides AI agents with a library of over 100 function calling tools, enabling seamless interaction across multiple platforms and tools to enhance AI agent functionality, tool calling capability and automation
 - [Agent-Zero](https://github.com/frdel/agent-zero) is an open ended agent framework without predefined tasks for open ended usage that dynamically grows from usage, with multi-agent cooperation, operating system and coding capabilities, with added features for real-time intervention and logging of activities
 - [screenpipe](https://github.com/mediar-ai/screenpipe) open source Microsoft Recall and rewind.ai and second brain alternative with continuous screen and audio recording on your device to do RAG and question answering on everythin you do digitally
+- [Swarm](https://github.com/openai/swarm) is a framework by OpenAI to orchestrate multi-agent systems using Agents and Handoffs, for managing multiple independent tasks and instructions
+- [Agents](https://github.com/livekit/agents) is a framework for building real-time multimodal AI applications, supporting OpenAI's MultimodalAgent / Realtime API, for low latency WebRTC transport, and offering plugins for various services, high-level abstractions for voice agents, compatibility with LiveKit's telephony stack, and an integrated load balancing system
 
 ## Multi Modal
 
@@ -334,6 +341,7 @@
 - [moshi](https://github.com/kyutai-labs/moshi) a speech-text foundation model that supports low-latency high-quality speech interactions and simultaneous generation of text responses, using Mimi, a SOTA streaming neural audio codec
 - [Mini-Omni](https://github.com/gpt-omni/mini-omni) a multimodal LLM based on Qwen2 offering real-time end-to-end speech input and streaming audio output conversational capabilities
 - [Aria](https://github.com/rhymes-ai/Aria) is a lightweight, multimodal native MoE model with 25B parameters and 3.9B activated parameters per token, offering state-of-the-art performance in multimodal, language, and coding tasks, with a long multimodal context window of 64K tokens and efficient encoding of visual input for fast inference and low fine-tuning cost
+- [Ichigo](https://github.com/homebrewltd/ichigo) an open research project extending a text-based LLM to have native listening ability, using an early fusion technique, with improved multiturn capabilities and refusal to process inaudible queries
 
 ## Code generation
 
@@ -374,6 +382,8 @@
 - [MLE-Agent](https://github.com/MLSysOps/MLE-agent) is a coding agent tailored for ML and AI engineers and researchers, which uses arXiv and Papers with Code as a RAG source to automate coding tasks, debugging support via extensive tool integration and a command-line interface
 - [RepoGraph](https://github.com/ozyyshr/RepoGraph) is a plug-in module that enhances the software engineering capabilities of LLMs by providing context at the repository-level, using a graph-based approach for RAG or agents on a codebase, [x.com thread with similar projects](https://x.com/rohanpaul_ai/status/1840941643223945561)
 - [o1-engineer](https://github.com/Doriandarko/o1-engineer) is a command-line tool that uses OpenAI's API to automate developer tasks such as code generation, file editing, project planning and code review, enhancing project management efficiency and workflow.
+- [Cline](https://github.com/cline/cline) is an open-source, coding assistant for VS Code using LLMs to perform complex development tasks, integrating with various APIs and models like OpenAI, Claude, ollama etc with human-in-the-loop interface for agentic AI workflows and API cost awareness 
+- [CursorCore](https://github.com/TechxGenus/CursorCore) open source Cursor clone with [CursorWeb](https://github.com/TechxGenus/CursorWeb) demo UI for LLM assisted programming supporting automated editing and inline chat, with own CursorCore [Models](https://huggingface.co/collections/TechxGenus/cursorcore-series-6706618c38598468866b60e2)
 
 ## Libraries and Wrappers
 
@@ -671,6 +681,8 @@
 - [Alice in Wonderland](https://arxiv.org/abs/2406.02061) Simple Tasks Showing Complete Reasoning Breakdown in LLMs
 - [EfficientQAT](https://arxiv.org/abs/2407.11062) Efficient Quantization-Aware Training down to 2 bits with higher quality than previous methods
 - [Late Chunking](https://arxiv.org/abs/2409.04701) introduces "late chunking," which improves the retrieval of smaller portions of text in dense vector-based retrieval systems using long context embedding models, providing superior results across various retrieval tasks without the need for additional training and can be applied to any long-context embedding model
+- [MemoRAG](https://arxiv.org/abs/2409.05591) hybrid retrieval strategy using cheap LLM summarized memory over the whole document corpus to improve retrieval and then use an expensive LLM call for the final answer
+- [LightRAG](https://arxiv.org/abs/2410.05779) hybrid indexing and retrieval strategy using graphs for high level retrieval and vectors for granular retrieval to improve answer quality
 
 # Other awesome resources
 
@@ -777,6 +789,7 @@
 - [Dubesor LLM Benchmark](https://dubesor.de/benchtable) Small-scale manual performance comparison benchmark with closed source questions
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) holistic and Contamination Free Evaluation of LLMs for Code automatically using new LeetCode, AtCoder and Codeforces questions
 - [SWE-bench](https://www.swebench.com/) curated and annotated software development tests for LLMs sourced from 2k real github issues and pull requests, asking LLMs to solve issues in a codebase with an emphasis on understanding and coordinating changes across multiple functions, classes and files simultaneously requiring solutions with code execution environments, long contexts and multi step reasoning that goes beyond code generation
+- [MMLU-Pro](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro) is an LLM evaluation benchmark, focusing on harder reasoning questions from various domains such as Math, Chemistry, CS, Physics and more with curated data for increased evaluation quality and reduced random guessing success rate
 
 ### Benchmark Suites
 
@@ -810,6 +823,8 @@
 - [RULER](https://github.com/hsiehjackson/RULER) is a benchmark to evaluate the effective context size of long-context language models by generating synthetic examples and measuring performance across different tasks, revealing real capabilities versus claimed specs.
 - [paramount](https://github.com/ask-fini/paramount) is a tool for AI developers and experts that records LLM agent inputs and outputs for quality assurance, ground truth capturing, and automated regression testing, operating offline in a private environment, to allow continuous monitoring and improvement
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) a contamination-free benchmark for coding capabilities automatically getting new LeetCode, AtCoder and CodeForces questions, with tasks such as code generation, code execution, and test output prediction
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) Benchmark evaluates LLMs using harder reasoning-focused questions with increased multiple choices answers spanning 14 expert domains such as Chemistry, Business, CS, Health, Law, Math etc
+- [WindowsAgentArena](https://github.com/microsoft/windowsagentarena) scalable Windows 11 VMs for benchmarking multi-modal AI agents
 
 ## AI DevOps
 
@@ -858,6 +873,7 @@
 - [lmnr](https://github.com/lmnr-ai/lmnr) is an open-source platform for engineering LLM products, providing functionalities such as tracing, evaluating, annotating, and analyzing LLM data, built with modern tech stack including Rust, RabbitMQ, Postgres, and Clickhouse, offering insights similar to DataDog + PostHog for LLM apps
 - [exo](https://github.com/exo-explore/exo) petals inspired decentralized LLM inference using multiple commodity devices like laptops and phones to split up a larger model to do inference on smaller devices and communicate using P2P with autodiscovery
 - [mosec](https://github.com/mosecorg/mosec) is a high-performance ML model serving framework using dynamic batching and CPU/GPU pipelines for API serving, Rust-based web layer, Python interface and seamless integration with containers
+- [Cortex.cpp](https://github.com/janhq/cortex.cpp) local AI platform for running LLMs such as phi-3.5, llama3.2, codestral, pulls from Huggingface, supports backend engines like llamacpp, ONNXRuntime, TensorRT-LLM, provides standalone API server, aims for full OpenAI API implementation
 
 ### Optimization
 

@@ -50,6 +50,7 @@
 - [MeetingSummarizer](https://github.com/rajpdus/MeetingSummarizer) using Whisper and GPT3.dd
 - [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
 - [Moonshine](https://github.com/usefulsensors/moonshine) Speech to text models optimized for fast and accurate inference on edge devices outperforming Whisper
+- [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) is a low-latency real time speech-to-text library, with advanced voice activity detection, wake word activation, and instant transcription using a combination of WebRTCVAD, SileroVAD, Faster_Whisper, and Porcupine or OpenWakeWord
 
 voice activity detection (VAD):
 
@@ -194,6 +195,7 @@ subtitle generation:
   - [AudioCraft Plus](https://github.com/GrandaddyShmax/audiocraft_plus) an all-in-one WebUI for the original AudioCraft, adding multiband diffusion, continuation, custom model support, mono to stereo and more
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
 - [StableAudio](https://github.com/Stability-AI/stable-audio-tools) Stability AI's Stable Audio only providing Training and Inference code, no models
+- [SoundStorm-Pytorch](https://github.com/lucidrains/soundstorm-pytorch) a Pytorch implementation of Google Deepmind's SoundStorm, applying MaskGiT to residual vector quantized codes from Soundstream, using a Conformer transformer architecture for efficient parallel audio generation from text instructions
 
 ## Audio Source Separation
 
