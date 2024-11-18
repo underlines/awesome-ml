@@ -90,6 +90,7 @@
 - [big-AGI](https://github.com/enricoros/big-AGI) Web Browse, Search, Sharing, Tracking, supporting LocalAI, Ollama, LM Studio, Azure, Gemini, OpenAI, Groq, Mistral, OpenRouter etc.
 - [slickgpt](https://github.com/ShipBit/slickgpt) light-weight BYOK web client for the OpenAI API written in Svelte offering a userless share feature, chat history in localStorage, message editing, cost calculation
 - [ai-chatbot](https://github.com/vercel/ai-chatbot) fully featured LLM chat UI that can be used as a template using next.js, tailwind css, vercel blob storage and nextauth.js
+- [ChuanhChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) Web UI for local and remote LLMs with support for autonomous agents, online search and knowledge base RAG
 
 ## Backends
 
@@ -908,6 +909,7 @@
 - [GPTFast](https://github.com/MDK8888/GPTFast) a set of techniques developed by the PyTorch Team to accelerate the inference speed of huggingface transformer models
 - [KTransformers](https://github.com/kvcache-ai/ktransformers) KTransformers (QuickTransformers) is a framework for cutting-edge LLM Inference Optimizations
 - [Optimum](https://github.com/huggingface/optimum) Huggingface's accelerated traning and inference library for Transformers and Diffusers supporting onnx, intel NPU, openVINO, TensorRT, AMD NPU and cloud Hardware and features graph optimization, post training quantization, quantized training with QAT, pruning and knowledge distillation
+- [ipex-llm](https://github.com/intel-analytics/ipex-llm) intel CPU optimizations for local LLM acceleration supporting llama, mistral, chatglm, qwen, mixtral, gemma and phi for Intel XPU, iGPU, NPU and Arc running within llama.cpp, ollama, HF, LangChain, vLLM, DeepSpeed, Axolotl and more
 
 ## Databases for ML
 
