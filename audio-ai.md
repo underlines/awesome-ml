@@ -180,6 +180,7 @@ subtitle generation:
 - [TurnVoice](https://github.com/KoljaB/TurnVoice) Dubbing via CoquiTTS, Elevenlaps, OpenAI or Azure Voices, Translation, Speaking Style changer, Precise control via Editor, Background Audio Preservation
 - [pyvideotrans](https://github.com/jianchang512/pyvideotrans) is a video translation and voiceover tool supporting STT, translation, TTS synthesis and audio separation, capable of translating videos into multiple languages while retaining background audio, and offering functionalities such as subtitle creation, batch translation, and audio-video merging
 - [SoniTranslate](https://github.com/R3gm/SoniTranslate) is a gradio based GUI for video translation and dubbing, OpenAI API for transcription, translation, and TTS, and supporting various output formats and multi-speaker TTS, with features like vocal enhancement, voice imitation, and extensive language support
+- [VideoLingo](https://github.com/Huanshere/VideoLingo) subtitle transcription and audio dubbing using WHisperX, LLMs, GPT-SoVITS
 
 ## Music Generation
 

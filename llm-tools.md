@@ -89,6 +89,7 @@
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 - [big-AGI](https://github.com/enricoros/big-AGI) Web Browse, Search, Sharing, Tracking, supporting LocalAI, Ollama, LM Studio, Azure, Gemini, OpenAI, Groq, Mistral, OpenRouter etc.
 - [slickgpt](https://github.com/ShipBit/slickgpt) light-weight BYOK web client for the OpenAI API written in Svelte offering a userless share feature, chat history in localStorage, message editing, cost calculation
+- [ai-chatbot](https://github.com/vercel/ai-chatbot) fully featured LLM chat UI that can be used as a template using next.js, tailwind css, vercel blob storage and nextauth.js
 
 ## Backends
 
@@ -221,6 +222,18 @@
 - [MemoRAG](https://github.com/qhjqhj00/memorag) uses Long Term Memory to build a global understanding of the entire document database and using these for clues during  retrieval and answer generation resulting in an increased answer quality
 - [LightRAG](https://github.com/hkuds/lightrag) hybrid indexing and retrieval strategy using graphs for high level retrieval and vectors for granular retrieval to improve answer quality
 - [mrag](https://github.com/spcl/mrag) Multi-Head RAG implements a novel scheme focused on queries that require fetching multiple documents with different contents spaced far away in the embedding model
+- [docling](https://github.com/DS4SD/docling) python document cracking and parsing library with OCR and layout recognition allowing for table and multi paragraph support
+- [unstructured](https://github.com/Unstructured-IO/unstructured) document preprocessing, parsing and cracking supporting multiple formats, OCR, layout recognition, table suport and more
+- [chonkie](https://github.com/bhavnicksm/chonkie) document chunking library that is easy, fast and supports token, semantic and other chunking strategies
+- [SurfSense](https://github.com/MODSetter/SurfSense) NotebookLM and Perplexity inspired assistant that autonomously researches a given topic and stores it in a knowledge base for you then search, chat or generate podcasts with your knowledge base
+- [dsRAG](https://github.com/D-Star-AI/dsRAG/) retrieval engine for challenging queries over dense text with semantic sectioning, autocontext and relevant segment extraction achieving much higher quality compared to naive retrieval strategies
+- [omniparse](https://github.com/adithya-s-k/omniparse) ingest, parse and optimize documents for LLM usage supporting audio, video, web pages, image and text inputs based on marker for PDF parsing
+- [chunkr](https://github.com/lumina-ai-inc/chunkr) parsing and chunking library supporting pdf, pptx, docx and excel files with layoud detection for tables, paragraphs and OCR built in
+- [llama_parse](https://github.com/run-llama/llama_parse) document parser supporting pdf, pptx, docx, xlsx, html with visual elements, layouts, tables and more
+- [pdf-extract-api](https://github.com/CatchTheTornado/pdf-extract-api) PDF parsing with layout and OCR support based on marker, surya-ocr and tesseract and has a PII removal function
+- [zerox](https://github.com/getomni-ai/zerox) document parser with layout preservation for markdown wrapping the OpenAI API or Azure using gpt-4o-mini and similar VLMs for nice markdown
+- [MegaParse](https://github.com/quivrhq/megaparse) document parser for multiple formats like PDF, docx and pptx with layout detection for tables, ToC, Headers and Footers and images
+- [farfalle](https://github.com/rashadphz/farfalle) perplexity inspired AI search engine with support for external search APIs like tavily, serper, bing or local searxng and remote and local LLMs
 
 ## Browser Extensions
 
@@ -306,6 +319,7 @@
 - [screenpipe](https://github.com/mediar-ai/screenpipe) open source Microsoft Recall and rewind.ai and second brain alternative with continuous screen and audio recording on your device to do RAG and question answering on everythin you do digitally
 - [Swarm](https://github.com/openai/swarm) is a framework by OpenAI to orchestrate multi-agent systems using Agents and Handoffs, for managing multiple independent tasks and instructions
 - [Agents](https://github.com/livekit/agents) is a framework for building real-time multimodal AI applications, supporting OpenAI's MultimodalAgent / Realtime API, for low latency WebRTC transport, and offering plugins for various services, high-level abstractions for voice agents, compatibility with LiveKit's telephony stack, and an integrated load balancing system
+- [TinyTroupe](https://github.com/microsoft/TinyTroupe) LLM powered multiagend persona and world simulation
 
 ## Multi Modal
 
@@ -342,6 +356,7 @@
 - [Mini-Omni](https://github.com/gpt-omni/mini-omni) a multimodal LLM based on Qwen2 offering real-time end-to-end speech input and streaming audio output conversational capabilities
 - [Aria](https://github.com/rhymes-ai/Aria) is a lightweight, multimodal native MoE model with 25B parameters and 3.9B activated parameters per token, offering state-of-the-art performance in multimodal, language, and coding tasks, with a long multimodal context window of 64K tokens and efficient encoding of visual input for fast inference and low fine-tuning cost
 - [Ichigo](https://github.com/homebrewltd/ichigo) an open research project extending a text-based LLM to have native listening ability, using an early fusion technique, with improved multiturn capabilities and refusal to process inaudible queries
+- [hertz](https://github.com/Standard-Intelligence/hertz-dev) open base model for duplex conversational audio and text generation
 
 ## Code generation
 
@@ -384,6 +399,8 @@
 - [o1-engineer](https://github.com/Doriandarko/o1-engineer) is a command-line tool that uses OpenAI's API to automate developer tasks such as code generation, file editing, project planning and code review, enhancing project management efficiency and workflow.
 - [Cline](https://github.com/cline/cline) is an open-source, coding assistant for VS Code using LLMs to perform complex development tasks, integrating with various APIs and models like OpenAI, Claude, ollama etc with human-in-the-loop interface for agentic AI workflows and API cost awareness 
 - [CursorCore](https://github.com/TechxGenus/CursorCore) open source Cursor clone with [CursorWeb](https://github.com/TechxGenus/CursorWeb) demo UI for LLM assisted programming supporting automated editing and inline chat, with own CursorCore [Models](https://huggingface.co/collections/TechxGenus/cursorcore-series-6706618c38598468866b60e2)
+- [codai](https://github.com/meysamhadeli/codai) VS Code extension code assistant for code suggestions, refactoring and code review based on the full code base supporting local LLMs and remote APIs and tree-sitter using only function signatures instead of full implementations to save tokens
+- [cline](https://github.com/cline/cline) autonomous coding agent for VS Code doing fully automated code-base wide code generation, refactoring and bug fixing supportin local and API models
 
 ## Libraries and Wrappers
 
@@ -474,6 +491,7 @@
 - [optillm](https://github.com/codelion/optillm) is an OpenAI API compatible optimizing inference proxy that implements state-of-the-art techniques to improve the accuracy and performance of LLMs, especially for reasoning over coding, logical and mathematical queries, using methods such as CoT with Reflection, Plan Search, and more
 - [ell](https://github.com/MadcowD/ell) is a lightweight programming library for developers and researchers using language models, treating prompts as functions and providing tools for prompt engineering optimization, multimodal input and output processing, and capturing various uses of language model invocations, to systematize prompt engineering and seamlessly fit into existing workflows
 - [g1](https://github.com/bklieger-groq/g1) early prototype to replicate OpenAI o1 step by step reasoning and reflection (system 2 thinking) capabilities without using a fine tuned model
+- [genaiscript](https://github.com/microsoft/genaiscript) javascript-ish programmable LLM prompts for prompting, orchestration, ingestion and extraction
 
 ## Fine Tuning & Training
 
@@ -874,6 +892,8 @@
 - [exo](https://github.com/exo-explore/exo) petals inspired decentralized LLM inference using multiple commodity devices like laptops and phones to split up a larger model to do inference on smaller devices and communicate using P2P with autodiscovery
 - [mosec](https://github.com/mosecorg/mosec) is a high-performance ML model serving framework using dynamic batching and CPU/GPU pipelines for API serving, Rust-based web layer, Python interface and seamless integration with containers
 - [Cortex.cpp](https://github.com/janhq/cortex.cpp) local AI platform for running LLMs such as phi-3.5, llama3.2, codestral, pulls from Huggingface, supports backend engines like llamacpp, ONNXRuntime, TensorRT-LLM, provides standalone API server, aims for full OpenAI API implementation
+- [inspectus](https://github.com/labmlai/inspectus) visualize attention mechanisms in deep learning models within jupyter providing a visual attention matrix, token heatmap and dimension heatmap
+- [inferit](https://github.com/devidw/inferit) visualize LLM inference for multiple models simultaneously to compare side by side inference for parameter tuning and optimization
 
 ### Optimization
 
@@ -913,3 +933,6 @@
 - [PyRIT](https://github.com/Azure/PyRIT) Python Risk Identification Tool for generative AI to automatically red team foundation models and apps
 - [PurpleLlama](https://github.com/meta-llama/PurpleLlama) Cyber Security Eval, Llama Guard and Code Shield to assess and improve LLM security
 - [Promptfoo](https://github.com/promptfoo/promptfoo) for testing, evaluating, and red-teaming LLM applications, allowing users to systematically compare LLM outputs, identify vulnerabilities, and improve prompt quality using declarative test cases and a command-line interface for integration into CI/CD workflows
+- [garak](https://github.com/NVIDIA/garak) LLM vulnerability scanner to check for hallucination, data leakage, prompt injection, misinformation, toxicity, jailbreaks and more, nmap for LLMs
+- [moonshot](https://github.com/aiverify-foundation/moonshot) modular LLM red teaming tool for LLM applications
+- [Oversight](https://github.com/user1342/Oversight) modular, plugin focused web based red teaming and reverse engineering for LLM applications supporting prompt fuzzing, jailbreaking and more
