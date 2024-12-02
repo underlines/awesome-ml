@@ -8,6 +8,7 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 ## Noteworthy
 
 | Model | Link | Description | Date added |
+|QwQ-32b|https://qwenlm.github.io/blog/qwq-32b-preview/|Apache 2 licensed LLM from Alibaba Cloud's Qwen team, inspired by OpenAI's o1 reasoning model for test time compute via reasoning tokens to improve performance|2024-12-02|
 |---|---|---|---|
 | Sparse-Llama-3.1-8B-2of4|https://neuralmagic.com/blog/24-sparse-llama-smaller-models-for-efficient-gpu-inference/|2:4 Sparse Llama: Smaller Models for Efficient GPU Inference|2024-12-02|
 | CursorCore | https://huggingface.co/collections/TechxGenus/cursorcore-series-6706618c38598468866b60e2 | Coding LLMs for use within [CursorCore](https://github.com/TechxGenus/CursorCore) and [CursorWeb](https://github.com/TechxGenus/CursorWeb) |  |
