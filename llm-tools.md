@@ -525,6 +525,7 @@
 - [Mergoo](https://github.com/Leeroo-AI/mergoo) merge multiple LLM experts and fine-tune them. Support for MoE, MoA for Llama1-3, Mistral, Phi3 and BERT models
 - [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) help automatically creating structured instruction or classifier data sets from unstructured text
 - [abliteration](https://huggingface.co/blog/mlabonne/abliteration) altering the refusal direction between harmless and harmful prompts to change an existing model alignment without fine-tuning, based in parts on blogpost [refusal in llms is mediated by a single direction](https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction) and FailSpy's [abliterator](https://github.com/FailSpy/abliterator) script
+- [Kiln AI]([https://get](https://github.com/Kiln-AI/Kiln)) extremely user friendly tool for building synthetic datasets and fine-tuning models. Interactive UI and python library available.
 
 ## Merging & Quantization
 
