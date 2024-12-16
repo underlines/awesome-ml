@@ -235,6 +235,7 @@
 - [zerox](https://github.com/getomni-ai/zerox) document parser with layout preservation for markdown wrapping the OpenAI API or Azure using gpt-4o-mini and similar VLMs for nice markdown
 - [MegaParse](https://github.com/quivrhq/megaparse) document parser for multiple formats like PDF, docx and pptx with layout detection for tables, ToC, Headers and Footers and images
 - [farfalle](https://github.com/rashadphz/farfalle) perplexity inspired AI search engine with support for external search APIs like tavily, serper, bing or local searxng and remote and local LLMs
+- [LazyGraphRAG](https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/) new graph-enabled RAG approach, avoids upfront data summarization, offers low indexing cost, outperforms on local queries, comparable quality to GraphRAG, RAPTOR and other methods, blends best-first and breadth-first search, for scalable cost-quality performance
 
 ## Browser Extensions
 
@@ -321,6 +322,7 @@
 - [Swarm](https://github.com/openai/swarm) is a framework by OpenAI to orchestrate multi-agent systems using Agents and Handoffs, for managing multiple independent tasks and instructions
 - [Agents](https://github.com/livekit/agents) is a framework for building real-time multimodal AI applications, supporting OpenAI's MultimodalAgent / Realtime API, for low latency WebRTC transport, and offering plugins for various services, high-level abstractions for voice agents, compatibility with LiveKit's telephony stack, and an integrated load balancing system
 - [TinyTroupe](https://github.com/microsoft/TinyTroupe) LLM powered multiagend persona and world simulation
+- [ArchGW](https://github.com/katanemo/archgw) is an intelligent gateway for agents engineered with (fast) LLMs for secure handling, rich observability, and seamless integration of prompts with your APIs outside business logic
 
 ## Multi Modal
 
@@ -762,6 +764,7 @@
 - [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) showcases various advanced techniques for RAG systems with source code and explanations
 - [OpenThought - System 2 Research Links](https://github.com/open-thought/system-2-research) a comprehensive collection of resources for researchers and AI developers, compiled from various sources such as books, papers, blog posts, and community contributions, to provide a valuable resource for understanding and improving cognition and reasoning in AI systems
 - [Answering Legal Questions with LLMs](https://hugodutka.com/posts/answering-legal-questions-with-llms/) great blog post explaining the difficulties creating RAG based law Q&A
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) is an awesome-type collection of LLM apps with RAG using OpenAI, Anthropic, Gemini and opensource models
 
 ## Product Showcases
 
@@ -809,6 +812,9 @@
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) holistic and Contamination Free Evaluation of LLMs for Code automatically using new LeetCode, AtCoder and Codeforces questions
 - [SWE-bench](https://www.swebench.com/) curated and annotated software development tests for LLMs sourced from 2k real github issues and pull requests, asking LLMs to solve issues in a codebase with an emphasis on understanding and coordinating changes across multiple functions, classes and files simultaneously requiring solutions with code execution environments, long contexts and multi step reasoning that goes beyond code generation
 - [MMLU-Pro](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro) is an LLM evaluation benchmark, focusing on harder reasoning questions from various domains such as Math, Chemistry, CS, Physics and more with curated data for increased evaluation quality and reduced random guessing success rate
+- [WebDev Arena Leaderboard](https://web.lmarena.ai/leaderboard) is an open-source benchmark evaluating AI capabilities in web development, developed by LMArena
+- [CodeArena Leaderboard](https://www.llmcodearena.com/top-models) a battle arena for Code LLMs, that allows user to see results of two models and rate them
+- [ZebraLogic](https://huggingface.co/spaces/allenai/ZebraLogic) benchmark leaderboard for LLM logical reasoning evaluation via Logic Grid Puzzles (Zebra Puzzles), uses Constraint Satisfaction Problem to simulate LSAT-like human reasoning tests
 
 ### Benchmark Suites
 
@@ -844,6 +850,8 @@
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) a contamination-free benchmark for coding capabilities automatically getting new LeetCode, AtCoder and CodeForces questions, with tasks such as code generation, code execution, and test output prediction
 - [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) Benchmark evaluates LLMs using harder reasoning-focused questions with increased multiple choices answers spanning 14 expert domains such as Chemistry, Business, CS, Health, Law, Math etc
 - [WindowsAgentArena](https://github.com/microsoft/windowsagentarena) scalable Windows 11 VMs for benchmarking multi-modal AI agents
+- [CodeArena](https://github.com/Nutlope/codearena) a battle arena for Code LLMs, that allows user to see results of two models and rate them
+- [ZeroEval](https://github.com/WildEval/ZeroEval) is an unified evaluation framework for zero-shot performance of instruction-tuned LLMs on reasoning tasks like MMLU, GSM, ZebraLogic Puzzles, controls prompting, sampling, output parsing, instructs LM for json-formatted reasoning
 
 ## AI DevOps
 
