@@ -91,6 +91,7 @@
 - [slickgpt](https://github.com/ShipBit/slickgpt) light-weight BYOK web client for the OpenAI API written in Svelte offering a userless share feature, chat history in localStorage, message editing, cost calculation
 - [ai-chatbot](https://github.com/vercel/ai-chatbot) fully featured LLM chat UI that can be used as a template using next.js, tailwind css, vercel blob storage and nextauth.js
 - [ChuanhChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) Web UI for local and remote LLMs with support for autonomous agents, online search and knowledge base RAG
+- [Abbey](https://github.com/US-Artificial-Intelligence/abbey) Web UI server for notebooks, documents, YouTube videos – supports search engines, text-to-speech, OCR, and other integrations.
 
 ## Backends
 
