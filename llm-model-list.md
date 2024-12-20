@@ -8,8 +8,10 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 ## Noteworthy
 
 | Model | Link | Description | Date added |
-|QwQ-32b|https://qwenlm.github.io/blog/qwq-32b-preview/|Apache 2 licensed LLM from Alibaba Cloud's Qwen team, inspired by OpenAI's o1 reasoning model for test time compute via reasoning tokens to improve performance|2024-12-02|
 |---|---|---|---|
+| DeepSeek-V2.5-1210-236B | https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210 | 1210 improvement over original V2.5 with Math, Coding and Reasoning improvements | 2024-12-20 |
+| Granite-3.0-8b-lab-community | https://huggingface.co/instructlab/granite-3.0-8b-lab-community | community-driven, openly-reproducible base and instruct model with open data and method | 2024-12-20 |
+|QwQ-32b|https://qwenlm.github.io/blog/qwq-32b-preview/|Apache 2 licensed LLM from Alibaba Cloud's Qwen team, inspired by OpenAI's o1 reasoning model for test time compute via reasoning tokens to improve performance|2024-12-02|
 | Sparse-Llama-3.1-8B-2of4|https://neuralmagic.com/blog/24-sparse-llama-smaller-models-for-efficient-gpu-inference/|2:4 Sparse Llama: Smaller Models for Efficient GPU Inference|2024-12-02|
 | CursorCore | https://huggingface.co/collections/TechxGenus/cursorcore-series-6706618c38598468866b60e2 | Coding LLMs for use within [CursorCore](https://github.com/TechxGenus/CursorCore) and [CursorWeb](https://github.com/TechxGenus/CursorWeb) |  |
 | ichigo | https://huggingface.co/homebrewltd | an open research project extending text-based llama3 to have native "listening" ability, using an early fusion technique, with improved multiturn capabilities and refusal to process inaudible queries |  |
@@ -20,7 +22,7 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 | gemma2 2b | https://huggingface.co/bartowski/gemma-2-2b-it-GGUF | 2b small language model by google achieving SOTA performance for sub 3b models on LLM Leaderboard 2 |  |
 | DeepSeekCoderv2 | https://github.com/deepseek-ai/DeepSeek-Coder-V2?tab=readme-ov-file#2-model-downloads | 16b and 236b mixture of experts coding models with 128k context length |  |
 | codegemma | https://huggingface.co/google/codegemma-7b | google's coding models from 2b base, 7b base and 7b instruct |  |
-| grantie | https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330 | IBMs code models available in 3b, 8b, 20b size as base and instruct variants with up to 128k context size |  |
+| granite | https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330 | IBMs code models available in 3b, 8b, 20b size as base and instruct variants with up to 128k context size |  |
 | codeqwen1.5 | https://huggingface.co/Qwen/CodeQwen1.5-7B | base and chat models with 7B parameters and good quality |  |
 | Qwen2 | https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f | English and Chinese models from 0.5b, 1.5b, 7b, and 72b sizes with great performance and 128k context windows for the 7 and 72b models |  |
 | Phi | https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3 | Microsoft's small language and vision models with small and medium parameter sizes, short and long context lengths and great performance |  |
