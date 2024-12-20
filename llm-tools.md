@@ -404,6 +404,8 @@
 - [CursorCore](https://github.com/TechxGenus/CursorCore) open source Cursor clone with [CursorWeb](https://github.com/TechxGenus/CursorWeb) demo UI for LLM assisted programming supporting automated editing and inline chat, with own CursorCore [Models](https://huggingface.co/collections/TechxGenus/cursorcore-series-6706618c38598468866b60e2)
 - [codai](https://github.com/meysamhadeli/codai) VS Code extension code assistant for code suggestions, refactoring and code review based on the full code base supporting local LLMs and remote APIs and tree-sitter using only function signatures instead of full implementations to save tokens
 - [cline](https://github.com/cline/cline) autonomous coding agent for VS Code doing fully automated code-base wide code generation, refactoring and bug fixing supportin local and API models
+- [refact.ai vscode](https://github.com/smallcloudai/refact-vscode) Code Assistant Extension for VS Code refactoring, debugging, chat and generation, best to be used with their hosted [refact](https://github.com/smallcloudai/refact) inference server
+- [WatsonX Code Assistant](https://github.com/ibm-granite/watsonx-code-assistant-individual) Code Assistant for VS Code connecting to Ollama and locally hosted IBM Granite Code models for Code generation, debugging and refactoring
 
 ## Libraries and Wrappers
 
@@ -903,6 +905,7 @@
 - [Cortex.cpp](https://github.com/janhq/cortex.cpp) local AI platform for running LLMs such as phi-3.5, llama3.2, codestral, pulls from Huggingface, supports backend engines like llamacpp, ONNXRuntime, TensorRT-LLM, provides standalone API server, aims for full OpenAI API implementation
 - [inspectus](https://github.com/labmlai/inspectus) visualize attention mechanisms in deep learning models within jupyter providing a visual attention matrix, token heatmap and dimension heatmap
 - [inferit](https://github.com/devidw/inferit) visualize LLM inference for multiple models simultaneously to compare side by side inference for parameter tuning and optimization
+- [refact](https://github.com/smallcloudai/refact) WebUI for Fine-Tuning and Serving Open Weights LLMs for Coding supporting LoRA, sharding, parallel multi model serving on single GPU, OpenAI and Anthropic use for chat
 
 ### Optimization
 
