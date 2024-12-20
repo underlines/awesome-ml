@@ -9,6 +9,8 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 
 | Model | Link | Description | Date added |
 |---|---|---|---|
+| Moxin LLM | https://huggingface.co/moxin-org/moxin-llm-7b | Fully open data, open training 7B base and chat fine tuned model | 2024-12-20 |
+| Bamba-9b | https://huggingface.co/blog/bamba | Hybrid Mamba2 model by IBM, Princeton, CMU, UIUC trained on open data with 2.5x throughput available for vLLM, TRL, llama and transformers | 2024-12-20 |
 | granite 3.1 | https://huggingface.co/collections/ibm-granite/granite-31-language-models-6751dbbf2f3389bec5c6f02d | apache 2 licenced models from 1b, 2b, 3b and 8b with 128K context from IBM | 2024-12-20 |
 | Command R7B | https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024 | open weights research 7B model with reasoning, summarization, question answering, coding, tool use and RAG capabilities | 2024-12-20 |
 | DeepSeek-V2.5-1210-236B | https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210 | 1210 improvement over original V2.5 with Math, Coding and Reasoning improvements | 2024-12-20 |
