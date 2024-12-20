@@ -25,6 +25,7 @@
 - [audapolis](https://github.com/bugbakery/audapolis) an audio/video editor for spoken word media editing like a text editor using speech recognition
 - [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) is a multi lingual voice generation model that supports inference, training, and deployment, zero-shot, cross-lingual voice cloning, and instruction-following capabilities, with features like Flow matching training, Repetition Aware Sampling inference, and streaming inference mode
 - [Speech-AI-Forge](https://github.com/lenML/Speech-AI-Forge) is a gradio GUI and API server supporting multiple tasks and models such as ChatTTS, FishSpeech, CosyVoice, FireRedTTS for TTS, Whisper for ASR, and OpenVoice for voice conversion, with functionalities like speaker switching, style controls, long text inference, SSML scripting, and voice creation
+- [voice-pro](https://github.com/abus-aikorea/voice-pro) Gradio GUI for audio processing using whisper supporting YouTube Downloading, voice separation via UVR5, Speech recognition via Whisper, faster-whisper and whisper-timestamped, voice cloning via F5-TTS and E2-TTS, TTS via Edge-TTS
 
 ## Speech Recognition
 
@@ -64,6 +65,10 @@ subtitle generation:
 
 - [subtitler](https://github.com/dmtrKovalenko/subtitler) on-device web app for audio transcribing and rendering subtitles
 - [pyvideotrans](https://github.com/jianchang512/pyvideotrans) is a video translation and voiceover tool supporting STT, translation, TTS synthesis and audio separation, capable of translating videos into multiple languages while retaining background audio, and offering functionalities such as subtitle creation, batch translation, and audio-video merging
+- [Whisper-WebUI](https://github.com/jhj0517/Whisper-WebUI) Video Subtitle Generation via Gradio Interface supporting whisper, faster-whisper, insanely-fast-whisper, SRT, WebVTT, translation with Facebook NLLB or DeepL, Preprocessing via Silero VAD, UVR audio separation and speaker diarization via pyannote
+- [noScribe](https://github.com/kaixxx/noScribe) Windows Mac and Linux GUI for audio transcription supporting whisper, faster-whisper, pyannote with built in GUI Editor
+- [Vibe](https://github.com/thewh1teagle/vibe) GUI for audio transcription supporting batch mode, SRT, VTT, HTML, JSON, realtime preview, summarization via Claude or Ollama, Whisper translation to English, custom Whisper Models, Transcribe system audio or microphone, CLI support, diarization, Swagger API,optimized for GPU (Mac, Windows, Linux) supporting Nvidia, AMD, Intel GPUs and Vulkan or CoreML
+- [buzz](https://github.com/chidiwilliams/buzz) Mac, Windows and Linux native GUI for whisper, whisper.cpp, faster-whisper and whisper-API supporting audio, microphone, txt, srt, vtt, transcription and translation and CLI
 
 ## TextToSpeech
 
