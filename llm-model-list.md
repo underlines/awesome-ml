@@ -9,6 +9,8 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 
 | Model | Link | Description | Date added |
 |---|---|---|---|
+| granite 3.1 | https://huggingface.co/collections/ibm-granite/granite-31-language-models-6751dbbf2f3389bec5c6f02d | apache 2 licenced models from 1b, 2b, 3b and 8b with 128K context from IBM | 2024-12-20 |
+| Command R7B | https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024 | open weights research 7B model with reasoning, summarization, question answering, coding, tool use and RAG capabilities | 2024-12-20 |
 | DeepSeek-V2.5-1210-236B | https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210 | 1210 improvement over original V2.5 with Math, Coding and Reasoning improvements | 2024-12-20 |
 | Granite-3.0-8b-lab-community | https://huggingface.co/instructlab/granite-3.0-8b-lab-community | community-driven, openly-reproducible base and instruct model with open data and method | 2024-12-20 |
 |QwQ-32b|https://qwenlm.github.io/blog/qwq-32b-preview/|Apache 2 licensed LLM from Alibaba Cloud's Qwen team, inspired by OpenAI's o1 reasoning model for test time compute via reasoning tokens to improve performance|2024-12-02|
