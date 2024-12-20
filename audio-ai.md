@@ -51,6 +51,7 @@
 - [Facebook MMS: Speech recognition of over 1000 languages](https://github.com/facebookresearch/fairseq/tree/main/examples/mms)
 - [Moonshine](https://github.com/usefulsensors/moonshine) Speech to text models optimized for fast and accurate inference on edge devices outperforming Whisper
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) is a low-latency real time speech-to-text library, with advanced voice activity detection, wake word activation, and instant transcription using a combination of WebRTCVAD, SileroVAD, Faster_Whisper, and Porcupine or OpenWakeWord
+- [FunASR](https://github.com/modelscope/FunASR) speech recognition toolkit supports training, fine-tuning of models, offers features like ASR, VAD, Punctuation Restoration, Language Models, Speaker Verification, Diarization, multi-talker ASR, provides pre-trained models including Paraformer-large
 
 voice activity detection (VAD):
 
