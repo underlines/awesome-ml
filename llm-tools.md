@@ -323,6 +323,8 @@
 - [Agents](https://github.com/livekit/agents) is a framework for building real-time multimodal AI applications, supporting OpenAI's MultimodalAgent / Realtime API, for low latency WebRTC transport, and offering plugins for various services, high-level abstractions for voice agents, compatibility with LiveKit's telephony stack, and an integrated load balancing system
 - [TinyTroupe](https://github.com/microsoft/TinyTroupe) LLM powered multiagend persona and world simulation
 - [ArchGW](https://github.com/katanemo/archgw) is an intelligent gateway for agents engineered with (fast) LLMs for secure handling, rich observability, and seamless integration of prompts with your APIs outside business logic
+- [steel-browser](https://github.com/steel-dev/steel-browser) containerized browser sandbox with stealth capabilities, text-to-markdown, UI for view and debug, anti-detection, to help your AI Apps and Agents use and automate browser interactions, supports Puppeteer, Playwright and Selenium
+- [stagehand](https://github.com/browserbase/stagehand) AI successor to Playwright as a web browsing framework focused on simplicity and extensibility 
 
 ## Multi Modal
 
@@ -475,6 +477,7 @@
 - [fastembed](https://github.com/qdrant/fastembed) fast, Accurate, Lightweight Python library to serve State of the Art Embeddings locally supporting GPU and CPUs, dense and sparse models, colbert, clip and more
 - [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio) visual graph/flow/node based LLM app development IDE from LangChain using LangGraph and LangSmith
 - [TEN-Agent](https://github.com/TEN-framework/TEN-Agent) is a multimodal AI agent builder with a graph / node interface, using OpenAI Realtime API and RTC for low-latency, high-quality interactions, supporting multiple platforms and languages, and offering real-time state management
+- [llama-stack](https://github.com/meta-llama/llama-stack) complete stack with core building blocks to build AI apps providing Agents, Memory, Inference, Eval, Safety, Inference, Telemetry etc. for local and remote providers
 
 ### Prompt templating / Grammar
 
@@ -906,6 +909,7 @@
 - [inspectus](https://github.com/labmlai/inspectus) visualize attention mechanisms in deep learning models within jupyter providing a visual attention matrix, token heatmap and dimension heatmap
 - [inferit](https://github.com/devidw/inferit) visualize LLM inference for multiple models simultaneously to compare side by side inference for parameter tuning and optimization
 - [refact](https://github.com/smallcloudai/refact) WebUI for Fine-Tuning and Serving Open Weights LLMs for Coding supporting LoRA, sharding, parallel multi model serving on single GPU, OpenAI and Anthropic use for chat
+- [aisuite](https://github.com/andrewyng/aisuite) thin wrapper around python client libraries to seamlessly swap out different LLM providers without changing their code
 
 ### Optimization
 
