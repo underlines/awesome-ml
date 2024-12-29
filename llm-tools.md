@@ -56,6 +56,7 @@
 - [shell_gpt](https://github.com/TheR1D/shell_gpt) Linux, Mac and Windows compatible shell application for PowerShell, CMD, Bash, Zsh etc helping you write shell code with context awareness
 - [aichat](https://github.com/sigoden/aichat) Shell Assistant with Chat REPL, RAG and Agents helping you write shell code in Windows, Linux, Android and Mac
 - [gptme](https://github.com/ErikBjare/gptme) is a CLI assistant as a local alternative to ChatGPT's Code Interpreter, a personal AI assistant in the terminal that can execute and edit code, browse the web, handle vision tasks, with self-correction capabilities, support for multiple local and API LLM providers, and extensibility
+- [GPTLocalhost](https://gptlocalhost.com/demo) is a local Word Add-in for using local LLMs in Microsoft Word locally. Alternative to Microsoft's [Colipot in Word](https://support.microsoft.com/en-us/copilot-word)
 
 ## Web GUIs
 
