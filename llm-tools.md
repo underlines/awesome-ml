@@ -182,7 +182,7 @@
 - [morphic](https://github.com/miurla/morphic) slick RAG / Perplexity inspired stack built on next.js and tailwind
 - [jina-reader](https://github.com/jina-ai/reader) web app that scrapes/crawsl and parses websites then converts the content to an LLM-friendly input to use in RAG and Tool/Agent workflows
 - [supermemory](https://github.com/Dhravya/supermemory) second brain with memory for your browser bookmarks and tweets
-- [storm](https://github.com/stanford-oval/storm) Stanford created LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web
+- [storm](https://github.com/stanford-oval/storm) Stanford created LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web, basically the Deep Research
 - [Firecrawl](https://github.com/mendableai/firecrawl) scrapes/crawls and parses websites and turns them into LLM-ready markdown
 - [llm-scraper](https://github.com/mishushakov/llm-scraper) scrape and turn any webpage into structured data using LLMs
 - [reor](https://github.com/reorproject/reor) LLM assisted note taking with RAG capabilities
@@ -245,6 +245,7 @@
 - [superpower-chatgpt](https://github.com/saeedezzati/superpower-chatgpt) chrome extension / firefox addon to add missing features like Folders, Search, and Community Prompts to ChatGPT
 - [Lumos](https://github.com/andrewnguonly/Lumos) Chrome Extension with OLlama Backend as a RAG LLM co-pilot for browsing the web
 - [chatGPTBox](https://github.com/josStorer/chatGPTBox) add useful LLM chat-boxes to github and other websites, supporting self-hosted model (RWKV, llama.cpp, ChatGLM)
+- [page-assist](https://github.com/n4ze3m/page-assist) Local AI-powered browsing assistant supporting Ollama, gemini Nano (in chrome), LM Studio etc. with a sidebar interface and ChatGPT-style Web UI for interacting with AI models directly from any webpage in Chrome, Firefox, or Edge
 
 ## Agents / Automatic GPT
 
@@ -325,6 +326,16 @@
 - [ArchGW](https://github.com/katanemo/archgw) is an intelligent gateway for agents engineered with (fast) LLMs for secure handling, rich observability, and seamless integration of prompts with your APIs outside business logic
 - [steel-browser](https://github.com/steel-dev/steel-browser) containerized browser sandbox with stealth capabilities, text-to-markdown, UI for view and debug, anti-detection, to help your AI Apps and Agents use and automate browser interactions, supports Puppeteer, Playwright and Selenium
 - [stagehand](https://github.com/browserbase/stagehand) AI successor to Playwright as a web browsing framework focused on simplicity and extensibility 
+- [gpt-researcher](https://github.com/assafelovic/gpt-researcher)  LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations similar to OpenAI Deep Research
+- [node-DeepResearch](https://github.com/jina-ai/node-DeepResearch) this agent keeps searching, reading webpages, reasoning until it finds the answer but doesn't compile a long article compared to OpenAIs Deep Research
+- [deep-research](https://github.com/dzhng/deep-research) an AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models. The goal of this repo is to provide the simplest open source implementation of OpenAIs Deep Research agent
+- [open-deep-research](https://github.com/nickscamara/open-deep-research) an open source deep research clone as an Agent that reasons large amounts of web data extracted with Firecrawl
+- [open-deep-research](https://github.com/btahir/open-deep-research) open source alternative to Gemini Deep Research to enerate reports with AI based on search results
+- [PaSa](https://github.com/bytedance/pasa) a scientific paper search agent that autonomously makes decisions, invokes search tools, reads papers, and selects relevant references, to obtain results for complex scholarly queries
+- [smolagents](https://github.com/huggingface/smolagents) huggingface's barebones library for agents that write python code to call tools and orchestrate other agents
+- [mcp-agent](https://github.com/lastmile-ai/mcp-agent) framework following simple, composable patterns described in "Building Effective Agents" and using Model Context Protocol for Agent Tool Interaction
+- [modelcontextprotocol](https://github.com/modelcontextprotocol/specification) or MCP is an open protocol that integrates LLM applications and external data sources and tools
+- [Jobs_Applier_AI_Agent](https://github.com/feder-cr/Jobs_Applier_AI-Agent) is an LLM-powered agent designed to automate and streamline the job application process, helping users apply for multiple jobs in a tailored and efficient manner
 
 ## Multi Modal
 
@@ -362,6 +373,7 @@
 - [Aria](https://github.com/rhymes-ai/Aria) is a lightweight, multimodal native MoE model with 25B parameters and 3.9B activated parameters per token, offering state-of-the-art performance in multimodal, language, and coding tasks, with a long multimodal context window of 64K tokens and efficient encoding of visual input for fast inference and low fine-tuning cost
 - [Ichigo](https://github.com/homebrewltd/ichigo) an open research project extending a text-based LLM to have native listening ability, using an early fusion technique, with improved multiturn capabilities and refusal to process inaudible queries
 - [hertz](https://github.com/Standard-Intelligence/hertz-dev) open base model for duplex conversational audio and text generation
+- [Ultravox](https://github.com/fixie-ai/ultravox) is a fast multimodal LLM enabling real-time voice interactions by directly converting audio into the high-dimensional space of open-weight models, eliminating the need for separate ASR components
 
 ## Code generation
 
@@ -408,6 +420,8 @@
 - [cline](https://github.com/cline/cline) autonomous coding agent for VS Code doing fully automated code-base wide code generation, refactoring and bug fixing supportin local and API models
 - [refact.ai vscode](https://github.com/smallcloudai/refact-vscode) Code Assistant Extension for VS Code refactoring, debugging, chat and generation, best to be used with their hosted [refact](https://github.com/smallcloudai/refact) inference server
 - [WatsonX Code Assistant](https://github.com/ibm-granite/watsonx-code-assistant-individual) Code Assistant for VS Code connecting to Ollama and locally hosted IBM Granite Code models for Code generation, debugging and refactoring
+- [potpie](https://github.com/potpie-ai/potpie) Create specialized AI agents that understand and automate tasks in your codebase through comprehensive knowledge graph construction
+- [Code2Prompt](https://github.com/mufeedvh/Code2Prompt) is a CLI tool that converts codebases into LLM prompts, generating structured Markdown with source trees, prompt templates, and token counts while supporting Git diff, file exclusions, and clipboard integration 
 
 ## Libraries and Wrappers
 
@@ -532,6 +546,7 @@
 - [Mergoo](https://github.com/Leeroo-AI/mergoo) merge multiple LLM experts and fine-tune them. Support for MoE, MoA for Llama1-3, Mistral, Phi3 and BERT models
 - [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) help automatically creating structured instruction or classifier data sets from unstructured text
 - [abliteration](https://huggingface.co/blog/mlabonne/abliteration) altering the refusal direction between harmless and harmful prompts to change an existing model alignment without fine-tuning, based in parts on blogpost [refusal in llms is mediated by a single direction](https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction) and FailSpy's [abliterator](https://github.com/FailSpy/abliterator) script
+- [Oumi](https://github.com/oumi-ai/oumi) Unified open-source framework enabling seamless training, fine-tuning, and deployment of foundation models across text and multimodal use cases with support for SFT, LoRA, QLoRA, and more.  
 
 ## Merging & Quantization
 
@@ -770,6 +785,8 @@
 - [OpenThought - System 2 Research Links](https://github.com/open-thought/system-2-research) a comprehensive collection of resources for researchers and AI developers, compiled from various sources such as books, papers, blog posts, and community contributions, to provide a valuable resource for understanding and improving cognition and reasoning in AI systems
 - [Answering Legal Questions with LLMs](https://hugodutka.com/posts/answering-legal-questions-with-llms/) great blog post explaining the difficulties creating RAG based law Q&A
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) is an awesome-type collection of LLM apps with RAG using OpenAI, Anthropic, Gemini and opensource models
+- [Building effective agents](https://www.anthropic.com/research/building-effective-agents) Antropic's seminal blog post with the industries best practices and design patterns for LLM Apps in the age of agents
+- [K/V Cache Quantizatoin](https://smcleod.net/2024/12/bringing-k/v-context-quantisation-to-ollama/) Article explaining K/V Cache Quanitzation and an interactive model VRAM Estimator/Calculator
 
 ## Product Showcases
 
@@ -789,13 +806,27 @@
 
 - [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) by HuggingFace
 - [LMSys Chatbot Arena Leaderboard](https://chat.lmsys.org/?leaderboard), [blogpost](https://lmsys.org/blog/2023-05-03-arena/) is an anonymous benchmark platform for LLMs that features randomized battles in a crowdsourced manner. Careful: This just measures human preference, not accuracy or other factors
+- [Aider LLM Leaderboard](https://aider.chat/docs/leaderboards/) for Code Editing following instructions, not just code generation
+- [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) holistic and Contamination Free Evaluation of LLMs for Code automatically using new LeetCode, AtCoder and Codeforces questions
+- [oobabooga benchmark](https://oobabooga.github.io/benchmark.html) a black box, closed source and private 48 questions benchmark from oobabooga
+- [SWE-bench](https://www.swebench.com/) curated and annotated software development tests for LLMs sourced from 2k real github issues and pull requests, asking LLMs to solve issues in a codebase with an emphasis on understanding and coordinating changes across multiple functions, classes and files simultaneously requiring solutions with code execution environments, long contexts and multi step reasoning that goes beyond code generation
+- [WebDev Arena Leaderboard](https://web.lmarena.ai/leaderboard) is an open-source benchmark evaluating AI capabilities in web development, developed by LMArena
+- [MMLU-Pro](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro) is an LLM evaluation benchmark, focusing on harder reasoning questions from various domains such as Math, Chemistry, CS, Physics and more with curated data for increased evaluation quality and reduced random guessing success rate
+- [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
+- [LiveBench](https://livebench.ai/) is a dynamic, contamination-free benchmark for Large Language Models (LLMs) that updates regularly to evaluate model performance across diverse tasks, ensuring relevance by refreshing its dataset every 6 months.
+- [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html) evaluates AI Coders with rigorous tests
+- [CodeArena Leaderboard](https://www.llmcodearena.com/top-models) a battle arena for Code LLMs, that allows user to see results of two models and rate them
+- [Dubesor LLM Benchmark](https://dubesor.de/benchtable) Small-scale manual performance comparison benchmark with closed source questions
+- [Humanity's Last Exam](https://agi.safe.ai/) is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
+- [Wolfram LLM Benchmarking Project](https://www.wolfram.com/llm-benchmarking-project/) is a coding benchmark from Wolfram Alpha
+- [Kagi LLM Benchmarking Project](https://help.kagi.com/kagi/ai/llm-benchmark.html) is an unpolluted benchmark trying to avoid training data leak through novel tasks that measure reasoning, coding and instruction following capabilities
+- [ZebraLogic](https://huggingface.co/spaces/allenai/ZebraLogic) benchmark leaderboard for LLM logical reasoning evaluation via Logic Grid Puzzles (Zebra Puzzles), uses Constraint Satisfaction Problem to simulate LSAT-like human reasoning tests
 - [paperswithcode](https://paperswithcode.com/) LLM SOTA leaderboards, but usually just for foundation models
 - [Can AI code](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results) a self-evaluating interview for AI coding models. [code](https://github.com/the-crypt-keeper/can-ai-code)
 - [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html) Chinese focused LLM Eval Leaderboard
 - [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) Massive Text Embedding Benchmark (MTEB) Leaderboard (Vector Embeddings)
 - [hallucination-leaderboard](https://huggingface.co/spaces/vectara/leaderboard) Hughes Hallucination Evaluation Model (HHEM) evaluates how often an LLM introduces hallucinations when summarizing a document [code](https://github.com/vectara/hallucination-leaderboard)
 - [Big Code Models Leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard) evaluates base coding models
-- [EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html) evaluates AI Coders with rigorous tests
 - [Enterprise Scenarios Leaderboard](https://huggingface.co/spaces/PatronusAI/enterprise_scenarios_leaderboard) evaluates the performance of LLMs on real-world enterprise use cases, some of the test sets are closed source to prevent cheating (stale)
 - [NP Hard Eval Leaderboard](https://huggingface.co/spaces/NPHardEval/NPHardEval-leaderboard) benchmark for assessing the reasoning abilities of LLMs by using NP Hard problems
 - [Toqan Leaderboard](https://prollm.toqan.ai/leaderboard) Coding leaderboard with benchmarks for Coding Assistant, Q&A, Summarization, Entity extraction, Function calling and SQL
@@ -803,23 +834,14 @@
 - [NIAN](http://nian.llmonpy.ai/) Needle in a Needlestack for GPT-4o, GPT-4o-mini, Claude vs others
 - [SEAL Leaderboards](https://scale.com/leaderboard) Expert-Driven Private Evaluations
 - [AIR-bench](https://huggingface.co/spaces/AIR-Bench/leaderboard) Automated Heterogeneous Information Retrieval Benchmark focused on RAG and Retrieval tasks, automatically testing with synthetic random generated tasks
+- [Tabby Coding LLMs Leaderboard](https://leaderboard.tabbyml.com/) to evaluate Coding tasks
 - [Leaderboards and benchmarks](https://huggingface.co/collections/clefourrier/leaderboards-and-benchmarks-64f99d2e11e92ca5568a7cce) collection of leaderboards and benchmarks for Text, vision, audio etc.
 - [Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) Leaderboard of LLMs following function calling instructions
 - [Vision-Arena](https://huggingface.co/spaces/WildVision/vision-arena) Leaderboard for benchmarking Multimodal LLMs in the Wild for Vision and Text tasks.
-- [Aider LLM Leaderboard](https://aider.chat/docs/leaderboards/) for Code Editing following instructions, not just code generation
 - [RepoQA](https://evalplus.github.io/repoqa.html) Leaderboard evaluationg LLMs ability to find specific code in a long context code haystack
 - [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
 - [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
-- [oobabooga benchmark](https://oobabooga.github.io/benchmark.html) a black box, closed source and private 48 questions benchmark from oobabooga
-- [LiveBench](https://livebench.ai/) is a dynamic, contamination-free benchmark for Large Language Models (LLMs) that updates regularly to evaluate model performance across diverse tasks, ensuring relevance by refreshing its dataset every 6 months.
-- [Dubesor LLM Benchmark](https://dubesor.de/benchtable) Small-scale manual performance comparison benchmark with closed source questions
-- [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) holistic and Contamination Free Evaluation of LLMs for Code automatically using new LeetCode, AtCoder and Codeforces questions
-- [SWE-bench](https://www.swebench.com/) curated and annotated software development tests for LLMs sourced from 2k real github issues and pull requests, asking LLMs to solve issues in a codebase with an emphasis on understanding and coordinating changes across multiple functions, classes and files simultaneously requiring solutions with code execution environments, long contexts and multi step reasoning that goes beyond code generation
-- [MMLU-Pro](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro) is an LLM evaluation benchmark, focusing on harder reasoning questions from various domains such as Math, Chemistry, CS, Physics and more with curated data for increased evaluation quality and reduced random guessing success rate
-- [WebDev Arena Leaderboard](https://web.lmarena.ai/leaderboard) is an open-source benchmark evaluating AI capabilities in web development, developed by LMArena
-- [CodeArena Leaderboard](https://www.llmcodearena.com/top-models) a battle arena for Code LLMs, that allows user to see results of two models and rate them
-- [ZebraLogic](https://huggingface.co/spaces/allenai/ZebraLogic) benchmark leaderboard for LLM logical reasoning evaluation via Logic Grid Puzzles (Zebra Puzzles), uses Constraint Satisfaction Problem to simulate LSAT-like human reasoning tests
 
 ### Benchmark Suites
 
@@ -857,6 +879,8 @@
 - [WindowsAgentArena](https://github.com/microsoft/windowsagentarena) scalable Windows 11 VMs for benchmarking multi-modal AI agents
 - [CodeArena](https://github.com/Nutlope/codearena) a battle arena for Code LLMs, that allows user to see results of two models and rate them
 - [ZeroEval](https://github.com/WildEval/ZeroEval) is an unified evaluation framework for zero-shot performance of instruction-tuned LLMs on reasoning tasks like MMLU, GSM, ZebraLogic Puzzles, controls prompting, sampling, output parsing, instructs LM for json-formatted reasoning
+- [GAIA Benchmark](https://huggingface.co/collections/gaia-benchmark/gaia-release-655f74fd6e89f16ecc16d7be) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
+- [hle](https://github.com/centerforaisafety/hle) Humanity's Last Exam is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
 
 ## AI DevOps
 
@@ -910,6 +934,7 @@
 - [inferit](https://github.com/devidw/inferit) visualize LLM inference for multiple models simultaneously to compare side by side inference for parameter tuning and optimization
 - [refact](https://github.com/smallcloudai/refact) WebUI for Fine-Tuning and Serving Open Weights LLMs for Coding supporting LoRA, sharding, parallel multi model serving on single GPU, OpenAI and Anthropic use for chat
 - [aisuite](https://github.com/andrewyng/aisuite) thin wrapper around python client libraries to seamlessly swap out different LLM providers without changing their code
+- [SCUDA](https://github.KeVmo314/Scuda) enables GPU-over-IP connectivity, allowing remote GPUs to be utilized by CPU-only machines for accelerated computing tasks such as model training and inference.  
 
 ### Optimization
 

@@ -53,6 +53,7 @@
 - [Moonshine](https://github.com/usefulsensors/moonshine) Speech to text models optimized for fast and accurate inference on edge devices outperforming Whisper
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) is a low-latency real time speech-to-text library, with advanced voice activity detection, wake word activation, and instant transcription using a combination of WebRTCVAD, SileroVAD, Faster_Whisper, and Porcupine or OpenWakeWord
 - [FunASR](https://github.com/modelscope/FunASR) speech recognition toolkit supports training, fine-tuning of models, offers features like ASR, VAD, Punctuation Restoration, Language Models, Speaker Verification, Diarization, multi-talker ASR, provides pre-trained models including Paraformer-large
+- [Moonshine](https://github.com/usefulsensors/moonshine) ASR and Speech to Text for real time and edge device usecases beating Whisper tiny
 
 voice activity detection (VAD):
 
@@ -69,6 +70,8 @@ subtitle generation:
 - [noScribe](https://github.com/kaixxx/noScribe) Windows Mac and Linux GUI for audio transcription supporting whisper, faster-whisper, pyannote with built in GUI Editor
 - [Vibe](https://github.com/thewh1teagle/vibe) GUI for audio transcription supporting batch mode, SRT, VTT, HTML, JSON, realtime preview, summarization via Claude or Ollama, Whisper translation to English, custom Whisper Models, Transcribe system audio or microphone, CLI support, diarization, Swagger API,optimized for GPU (Mac, Windows, Linux) supporting Nvidia, AMD, Intel GPUs and Vulkan or CoreML
 - [buzz](https://github.com/chidiwilliams/buzz) Mac, Windows and Linux native GUI for whisper, whisper.cpp, faster-whisper and whisper-API supporting audio, microphone, txt, srt, vtt, transcription and translation and CLI
+- [Video Subtitle Master](https://github.com/buxuku/video-subtitle-master) Cross-platform subtitle generator and translator with batch processing, support for local LLMs, and integration of various APIs for seamless multilingual subtitling
+- [VideoLingo](https://github.com/Huanshere/VideoLingo) End-to-end video localization solution for generating high-quality subtitles and dubbing with AI-powered processing, supporting multi-language workflows and integrating tools like yt-dlp, WhisperX, and GPT-SoVITS
 
 ## TextToSpeech
 
