@@ -53,6 +53,7 @@
 - [Moonshine](https://github.com/usefulsensors/moonshine) Speech to text models optimized for fast and accurate inference on edge devices outperforming Whisper
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) is a low-latency real time speech-to-text library, with advanced voice activity detection, wake word activation, and instant transcription using a combination of WebRTCVAD, SileroVAD, Faster_Whisper, and Porcupine or OpenWakeWord
 - [FunASR](https://github.com/modelscope/FunASR) speech recognition toolkit supports training, fine-tuning of models, offers features like ASR, VAD, Punctuation Restoration, Language Models, Speaker Verification, Diarization, multi-talker ASR, provides pre-trained models including Paraformer-large
+- [Moonshine](https://github.com/usefulsensors/moonshine) ASR and Speech to Text for real time and edge device usecases beating Whisper tiny
 
 voice activity detection (VAD):
 
@@ -69,6 +70,8 @@ subtitle generation:
 - [noScribe](https://github.com/kaixxx/noScribe) Windows Mac and Linux GUI for audio transcription supporting whisper, faster-whisper, pyannote with built in GUI Editor
 - [Vibe](https://github.com/thewh1teagle/vibe) GUI for audio transcription supporting batch mode, SRT, VTT, HTML, JSON, realtime preview, summarization via Claude or Ollama, Whisper translation to English, custom Whisper Models, Transcribe system audio or microphone, CLI support, diarization, Swagger API,optimized for GPU (Mac, Windows, Linux) supporting Nvidia, AMD, Intel GPUs and Vulkan or CoreML
 - [buzz](https://github.com/chidiwilliams/buzz) Mac, Windows and Linux native GUI for whisper, whisper.cpp, faster-whisper and whisper-API supporting audio, microphone, txt, srt, vtt, transcription and translation and CLI
+- [Video Subtitle Master](https://github.com/buxuku/video-subtitle-master) Cross-platform subtitle generator and translator with batch processing, support for local LLMs, and integration of various APIs for seamless multilingual subtitling
+- [VideoLingo](https://github.com/Huanshere/VideoLingo) End-to-end video localization solution for generating high-quality subtitles and dubbing with AI-powered processing, supporting multi-language workflows and integrating tools like yt-dlp, WhisperX, and GPT-SoVITS
 
 ## TextToSpeech
 
@@ -125,6 +128,10 @@ subtitle generation:
 - [Parler-TTS](https://github.com/huggingface/parler-tts) Huggingface's Parler TTS model can generate high quality natural speech by using two prompts one for the text and one for the style supporting gender, pitch, speaking style etc, with a Mini 0.8B and 2.3B Large model released and ready for fine tuning supporting SDPA and Flash Attention 2
 - [MeloTTS](https://github.com/myshell-ai/MeloTTS/tree/main) multi lingual multi accent TTS for English, Spanish, French, Chinese, Korean and Japanese even working on CPU inference and support for training new languages
 - [F5-TTS](https://github.com/SWivid/F5-TTS) is a text-to-speech system that utilizes Diffusion Transformer with ConvNeXt V2 for fast training and inference, and implements Sway Sampling strategy to significantly enhance performance
+- [Zonos](https://github.com/Zyphra/Zonos) open-weight multilingual, expressive TTS model with instant voice cloning, fine control over speaking rate, pitch variation, audio quality, and emotions implemented with a pipeline of text normalization and phonemization via eSpeak, followed by DAC token prediction through a transformer or hybrid backbone
+- [Step-Audio](https://github.com/stepfun-ai/Step-Audio) model and inference for speech understanding and generation supporting multilingual conversations, emotions, dialects, adjustable speech rates and prosody
+- [Llasa](https://huggingface.co/HKUSTAudio/Llasa-3B) TTS model with real time voice cloning, fine tuning, with 1B,3B, and 8B models and Chinese-English support 
+  - [local-llasa-tts](https://github.com/nivibilla/local-llasa-tts) WebUI for llasa TTS with model switch, text or audio input, generation parameter control
 
 ## Voice Conversion
 
@@ -203,6 +210,7 @@ subtitle generation:
 - [AudioLDM](https://audioldm.github.io/) Generate speech, sound effects, music and beyond, with text [code](https://github.com/haoheliu/AudioLDM), [paper](https://arxiv.org/abs/2301.12503), [HF demo](https://huggingface.co/spaces/haoheliu/audioldm-text-to-audio-generation)
 - [StableAudio](https://github.com/Stability-AI/stable-audio-tools) Stability AI's Stable Audio only providing Training and Inference code, no models
 - [SoundStorm-Pytorch](https://github.com/lucidrains/soundstorm-pytorch) a Pytorch implementation of Google Deepmind's SoundStorm, applying MaskGiT to residual vector quantized codes from Soundstream, using a Conformer transformer architecture for efficient parallel audio generation from text instructions
+- [YuE](https://github.com/multimodal-art-projection/YuE) foundation models designed for music generation, specifically for transforming lyrics into full songs lasting several minutes, that includes both a catchy vocal track and accompaniment track an open source Suno alternative
 
 ## Audio Source Separation
 
