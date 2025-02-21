@@ -9,6 +9,15 @@ Due to projects like [Explore the LLMs](https://llm.extractum.io/) specializing 
 
 | Model | Link | Description | Date added |  |
 |---|---|---|---|---|
+| Sky-T1-7B-Mini | Trained with simple RL applied on DeepSeek-R1-Distill-Qwen-7B model, achieving close to OpenAI o1-mini performance on math benchmarks | https://huggingface.co/NovaSky-AI/Sky-T1-mini | 2025-02-21 ||
+| OmniParser-v2 | https://huggingface.co/microsoft/OmniParser-v2.0 | A VLM converting screenshots of Phone and Desktop UIs into structured list of interactable elements for Computer-Use | 2025-02-21 ||
+| R1-1776 | https://huggingface.co/perplexity-ai/r1-1776 | Deepseek-R1 671B Param model with removed Chinese Communist Party Censorship | 2025-02-21 ||
+| Step-Audio-Chat | https://huggingface.co/stepfun-ai/Step-Audio-Chat | Multimodal Large Language Model with 130B parameters for speech recognition, semantic understanding, dialogue management, voice cloning, and speech generation | 2025-02-21 ||
+| Qwen2.5-VL | https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct | 3B, 7B and 72B Vision Text Multimodal Model with support for bounding boxes, structured output, OCR for tables, forms etc, long video understanding, agentic computer and phone use, visual and text understanding | 2025-02-21 ||
+| Arcee-Maestro-7B | https://huggingface.co/arcee-ai/Arcee-Maestro-7B-Preview | RL trained reasoning model based on DeepSeek-R1-Distill-Qwen-7B with further GPRO training for reasoning, math and coding | 2025-02-21 ||
+| Arcee-Blitz | https://huggingface.co/arcee-ai/Arcee-Blitz | Mistral-Small-24B-Instruct base distilled with DeepSeek-R1 for fast and efficient resaoning with 32k context | 2025-02-21 ||
+| OpenThinker-32B | https://huggingface.co/open-thoughts/OpenThinker-32B | fine-tuned reasoning model of Qwen/Qwen2.5-32B-Instruct on the DeepSeek-R1 distilled OpenThoughts-114k dataset | 2025-02-21 ||
+| MiniCPM-o | https://huggingface.co/openbmb/MiniCPM-o-2_6 | GPT-4o Level MLLM for Vision, Speech and Multimodal Live Streaming on Your Phone | 2025-02-21 | |
 | DeepSeek-R1 | https://huggingface.co/deepseek-ai/DeepSeek-R1 | Ground Breaking reasoning model from DeepSeek trained on novel method to decrease RLHF efforts with distilled variants of various sizes | 2025-02-01 |  |
 | Sky-T1 | https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview | UC Berkeley's reasoning model with 32B parameters | 2025-01-15 |  |
 | QwQ | https://huggingface.co/Qwen/QwQ-32B-Preview | Qwen's reasoning model with 32B parameter | 2025-01-15 |  |

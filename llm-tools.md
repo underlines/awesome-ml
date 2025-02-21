@@ -56,6 +56,7 @@
 - [shell_gpt](https://github.com/TheR1D/shell_gpt) Linux, Mac and Windows compatible shell application for PowerShell, CMD, Bash, Zsh etc helping you write shell code with context awareness
 - [aichat](https://github.com/sigoden/aichat) Shell Assistant with Chat REPL, RAG and Agents helping you write shell code in Windows, Linux, Android and Mac
 - [gptme](https://github.com/ErikBjare/gptme) is a CLI assistant as a local alternative to ChatGPT's Code Interpreter, a personal AI assistant in the terminal that can execute and edit code, browse the web, handle vision tasks, with self-correction capabilities, support for multiple local and API LLM providers, and extensibility
+- [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) is an offline, on-device LLM GUI for iOS and Android, enabling users to run small language models (SLMs) like Phi and Gemma locally with features like Hugging Face Hub integration and real-time performance metrics
 
 ## Web GUIs
 
@@ -199,7 +200,7 @@
 - [FlashRank](https://github.com/PrithivirajDamodaran/FlashRank) allows users to add ultra-light and super-fast re-ranking capabilities to existing search and retrieval pipelines using SoTA LLMs and cross-encoders without needing Torch or Transformers, making it highly efficient for CPU usage and cost-effective for serverless deployments [RAG with Query Expansion, Colbert v2 & FlashRank](https://aksdesai1998.medium.com/improving-rag-with-query-expansion-reranking-models-31d252856580)
 - [GraphRAG](https://github.com/microsoft/graphrag) enhance LLM outputs by utilizing knowledge graph memory structures, leveraging Azure resources for structured data extraction from unstructured text.
 - [GraphRAG-Local-UI](https://github.com/severian42/GraphRAG-Local-UI) UI for GraphRAG supporting local LLMs with an interactive Gradio-based UI, offering real-time graph visualization and flexible querying without reliance on cloud models.
-- [vanna](https://github.com/vanna-ai/vanna) generates vector embeddings of your DB schema, documentation and example queries in order to do generate matching Queries based on a user input for RAG
+- [vanna](https://github.com/vanna-ai/vanna) open text to sql agent supporting few shot examples retrieved from generated documentation such as DDL, Documentation, SQL Examples and embeddings for improved text2sql performance
 - [indexify](https://github.com/tensorlakeai/indexify) building fast data pipelines for unstructured data (video, audio, images and documents) using extractors for embedding, transformation and feature extraction allowing real time and incremental extraction for RAG workflows
 - [MindSearch](https://github.com/InternLM/MindSearch) AI Search Engine and question answering framework with Perplexity.ai Pro performance using a graph based detailed solution path (multi turn), web search, providing a sleek Web UI
 - [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) turning unstructured data from pdfs, docs, txt, videos, websites into a knowledge graph in neo4j using LLMs to extract entities, nodes, relationships and properties. Built on Langchain.
@@ -236,6 +237,7 @@
 - [MegaParse](https://github.com/quivrhq/megaparse) document parser for multiple formats like PDF, docx and pptx with layout detection for tables, ToC, Headers and Footers and images
 - [farfalle](https://github.com/rashadphz/farfalle) perplexity inspired AI search engine with support for external search APIs like tavily, serper, bing or local searxng and remote and local LLMs
 - [LazyGraphRAG](https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/) new graph-enabled RAG approach, avoids upfront data summarization, offers low indexing cost, outperforms on local queries, comparable quality to GraphRAG, RAPTOR and other methods, blends best-first and breadth-first search, for scalable cost-quality performance
+- [NVIDIA-Ingest](https://github.com/NVIDIA/nv-ingest) Scalable microservice for multi-modal document content extraction using NVIDIA NIM for LLM inference, supporting PDFs, Word, PowerPoint, and OCR with optional embedding and vector database integration
 
 ## Browser Extensions
 
@@ -336,6 +338,15 @@
 - [mcp-agent](https://github.com/lastmile-ai/mcp-agent) framework following simple, composable patterns described in "Building Effective Agents" and using Model Context Protocol for Agent Tool Interaction
 - [modelcontextprotocol](https://github.com/modelcontextprotocol/specification) or MCP is an open protocol that integrates LLM applications and external data sources and tools
 - [Jobs_Applier_AI_Agent](https://github.com/feder-cr/Jobs_Applier_AI-Agent) is an LLM-powered agent designed to automate and streamline the job application process, helping users apply for multiple jobs in a tailored and efficient manner
+- [browser-use](https://github.com/browser-use/browser-use/) connect AI agents with browsers for automation tasks
+- [UI-TARS](https://github.com/bytedance/UI-TARS) GUI agent and custom model integrating vision-language capabilities for cross-platform operating system automation, supporting real-time interaction and complex task execution
+- [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) agent framework with tool usage, planning, and memory capabilities using the Qwen LLM family but providing atomic components for isolated use in your solution
+- [Midscene.js](https://github.com/web-infra-dev/midscene) LLM and VLLM driven browser automation via natural language with open weight models like UI-TARS, Qwen2.5-VL or proprietary model providers, integrating with Puppeteer/Playwright/Chrome Bridge and supporting private deployment
+- [WrenAI](https://github.com/Canner/WrenAI) GenBI Agent enabling data-driven teams to generate Text-to-SQL, charts, analysis and reports with multilingual support and integration with various LLMs like OpenAI and DeepSeek
+- [PydanticAI](https://github.com/fixie-ai/ultravox) Python agent framework leveraging Pydantic for type-safe, structured, and streamed responses with support for most model providers like OpenAI, Anthropic, and Mistral, designed to simplify GenAI app development
+- [open-cuak](https://github.com/Aident-AI/open-cuak) Computer Use Agent Kit for creating automation agents at scale with browsers, think k8s for browser agent automation, centralized account access, cookie management, bot detection bypass, agnostic VLM choice using OmniParser V2
+- [OmniParser](https://github.com/microsoft/OmniParser) and OmniTool from Microsoft extracts structured UI Element information from UI Screenshots to be used within LLMs for Agentic Computer Use reasoning and action
+- [Eliza](https://github.com/elizaOS/eliza) Multi-agent framework with connectors for Discord, X, and Telegram, supporting models like Llama and OpenAI, designed for chatbots, autonomous agents, and generative game NPCs
 
 ## Multi Modal
 
@@ -374,6 +385,8 @@
 - [Ichigo](https://github.com/homebrewltd/ichigo) an open research project extending a text-based LLM to have native listening ability, using an early fusion technique, with improved multiturn capabilities and refusal to process inaudible queries
 - [hertz](https://github.com/Standard-Intelligence/hertz-dev) open base model for duplex conversational audio and text generation
 - [Ultravox](https://github.com/fixie-ai/ultravox) is a fast multimodal LLM enabling real-time voice interactions by directly converting audio into the high-dimensional space of open-weight models, eliminating the need for separate ASR components
+- [InternVideo](https://github.com/OpenGVLab/InternVideo) Foundational Models for Video understanding through Video and Text modality
+- [StepAudio](https://github.com/stepfun-ai/Step-Audio) 132B Multimodal Audio-LLM for understanding and generating audio and text and a separated 3B TTS model
 
 ## Code generation
 
@@ -400,7 +413,7 @@
 - [tlm](https://github.com/yusufcanb/tlm) Local CLI Copilot, powered by CodeLLaMa
 - [llm-cmd](https://github.com/simonw/llm-cmd) Use LLM to generate and execute commands in your terminal/shell/cli
 - [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
-- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) system for autonomously solving issues in GitHub repos. Gets similar accuracy to Devin on SWE-bench, takes 93 seconds on avg
+- [SWE-agent](https://github.com/princeton-nlp/SWE-agent) software engineering and coding agent with code execution capabilities
 - [openui](https://github.com/wandb/openui) v0.dev alternative for text guided UI creation for HTML/React,Svelte, Web Components, etc.
 - [codel](https://github.com/semanser/codel) autonomus agent performing tasks and projects using terminal, browser and editor
 - [AutoCodeRover](https://github.com/nus-apr/auto-code-rover) automated GitHub issue resolver for bug fixes and feature addition
@@ -417,11 +430,13 @@
 - [Cline](https://github.com/cline/cline) is an open-source, coding assistant for VS Code using LLMs to perform complex development tasks, integrating with various APIs and models like OpenAI, Claude, ollama etc with human-in-the-loop interface for agentic AI workflows and API cost awareness 
 - [CursorCore](https://github.com/TechxGenus/CursorCore) open source Cursor clone with [CursorWeb](https://github.com/TechxGenus/CursorWeb) demo UI for LLM assisted programming supporting automated editing and inline chat, with own CursorCore [Models](https://huggingface.co/collections/TechxGenus/cursorcore-series-6706618c38598468866b60e2)
 - [codai](https://github.com/meysamhadeli/codai) VS Code extension code assistant for code suggestions, refactoring and code review based on the full code base supporting local LLMs and remote APIs and tree-sitter using only function signatures instead of full implementations to save tokens
-- [cline](https://github.com/cline/cline) autonomous coding agent for VS Code doing fully automated code-base wide code generation, refactoring and bug fixing supportin local and API models
 - [refact.ai vscode](https://github.com/smallcloudai/refact-vscode) Code Assistant Extension for VS Code refactoring, debugging, chat and generation, best to be used with their hosted [refact](https://github.com/smallcloudai/refact) inference server
 - [WatsonX Code Assistant](https://github.com/ibm-granite/watsonx-code-assistant-individual) Code Assistant for VS Code connecting to Ollama and locally hosted IBM Granite Code models for Code generation, debugging and refactoring
 - [potpie](https://github.com/potpie-ai/potpie) Create specialized AI agents that understand and automate tasks in your codebase through comprehensive knowledge graph construction
 - [Code2Prompt](https://github.com/mufeedvh/Code2Prompt) is a CLI tool that converts codebases into LLM prompts, generating structured Markdown with source trees, prompt templates, and token counts while supporting Git diff, file exclusions, and clipboard integration 
+- [goose](https://github.com/block/goose) locally run AI coding agent that autonomously handles tasks like debugging and deployment, customizable with any LLM and external APIs
+- [Roo Code](https://github.com/RooVetGit/Roo-Code) coding agent in VS Code enabling file manipulation, command execution, and browser automation with customizable modes for specialized roles
+- [Cursor](https://github.com/getcursor/cursor) AI-powered code editor and fork of VS Code enhancing programming with smart rewrites, context-aware chat, terminal command generation, and automated error detection and fixing
 
 ## Libraries and Wrappers
 
@@ -492,6 +507,8 @@
 - [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio) visual graph/flow/node based LLM app development IDE from LangChain using LangGraph and LangSmith
 - [TEN-Agent](https://github.com/TEN-framework/TEN-Agent) is a multimodal AI agent builder with a graph / node interface, using OpenAI Realtime API and RTC for low-latency, high-quality interactions, supporting multiple platforms and languages, and offering real-time state management
 - [llama-stack](https://github.com/meta-llama/llama-stack) complete stack with core building blocks to build AI apps providing Agents, Memory, Inference, Eval, Safety, Inference, Telemetry etc. for local and remote providers
+- [rig](https://github.com/0xPlaygrounds/rig) Rust library for building scalable, modular, and ergonomic LLM-powered applications with support for completion, embedding, abstraction for llm providers and vector stores
+- [pipecat](https://github.com/pipecat-ai/pipecat) python framework for building voice and multi modal conversational agents handling orchestration, network transport, audio processing and multimodal interactions
 
 ### Prompt templating / Grammar
 
@@ -514,6 +531,7 @@
 - [ell](https://github.com/MadcowD/ell) is a lightweight programming library for developers and researchers using language models, treating prompts as functions and providing tools for prompt engineering optimization, multimodal input and output processing, and capturing various uses of language model invocations, to systematize prompt engineering and seamlessly fit into existing workflows
 - [g1](https://github.com/bklieger-groq/g1) early prototype to replicate OpenAI o1 step by step reasoning and reflection (system 2 thinking) capabilities without using a fine tuned model
 - [genaiscript](https://github.com/microsoft/genaiscript) javascript-ish programmable LLM prompts for prompting, orchestration, ingestion and extraction
+- [BAML](https://github.com/BoundaryML/baml) new LLM grammar that works with your default language where every prompt is a function and supports schema-aligned parsing, structured outputs, streaming and more 
 
 ## Fine Tuning & Training
 
@@ -547,6 +565,7 @@
 - [augmentoolkit](https://github.com/e-p-armstrong/augmentoolkit) help automatically creating structured instruction or classifier data sets from unstructured text
 - [abliteration](https://huggingface.co/blog/mlabonne/abliteration) altering the refusal direction between harmless and harmful prompts to change an existing model alignment without fine-tuning, based in parts on blogpost [refusal in llms is mediated by a single direction](https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction) and FailSpy's [abliterator](https://github.com/FailSpy/abliterator) script
 - [Oumi](https://github.com/oumi-ai/oumi) Unified open-source framework enabling seamless training, fine-tuning, and deployment of foundation models across text and multimodal use cases with support for SFT, LoRA, QLoRA, and more.  
+- [R1-V](https://github.com/Deep-Agent/R1-V) Reinforcement Learning framework for vision-language models, optimizing generalization and efficiency with RLVR, outperforming CoT-SFT in OOD tests using cost-effective training
 
 ## Merging & Quantization
 
@@ -724,6 +743,7 @@
 - [Late Chunking](https://arxiv.org/abs/2409.04701) introduces "late chunking," which improves the retrieval of smaller portions of text in dense vector-based retrieval systems using long context embedding models, providing superior results across various retrieval tasks without the need for additional training and can be applied to any long-context embedding model
 - [MemoRAG](https://arxiv.org/abs/2409.05591) hybrid retrieval strategy using cheap LLM summarized memory over the whole document corpus to improve retrieval and then use an expensive LLM call for the final answer
 - [LightRAG](https://arxiv.org/abs/2410.05779) hybrid indexing and retrieval strategy using graphs for high level retrieval and vectors for granular retrieval to improve answer quality
+- [NoLiMa](https://arxiv.org/abs/2502.05167) Long-Context Evaluation Beyond Literal Matching extends NIAH tests to assess LLMs long-context capabilities without lexical shortcuts, showing most LLMs attention mechanisms struggle at 32K+ token contexts
 
 # Other awesome resources
 
@@ -786,7 +806,7 @@
 - [Answering Legal Questions with LLMs](https://hugodutka.com/posts/answering-legal-questions-with-llms/) great blog post explaining the difficulties creating RAG based law Q&A
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) is an awesome-type collection of LLM apps with RAG using OpenAI, Anthropic, Gemini and opensource models
 - [Building effective agents](https://www.anthropic.com/research/building-effective-agents) Antropic's seminal blog post with the industries best practices and design patterns for LLM Apps in the age of agents
-- [K/V Cache Quantizatoin](https://smcleod.net/2024/12/bringing-k/v-context-quantisation-to-ollama/) Article explaining K/V Cache Quanitzation and an interactive model VRAM Estimator/Calculator
+- [K/V Cache Quantization](https://smcleod.net/2024/12/bringing-k/v-context-quantisation-to-ollama/) Article explaining K/V Cache Quanitzation and an interactive model VRAM Estimator/Calculator
 
 ## Product Showcases
 
@@ -842,6 +862,7 @@
 - [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
 - [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
+- [Leaderboards and Arenas](https://huggingface.co/collections/zh-ai-community/leaderboards-and-arenas-664b6913bfd9b93ba4ac242e) a hf collection of Benchmarks and Leaderboars for LLM Evaluation
 
 ### Benchmark Suites
 
@@ -881,6 +902,7 @@
 - [ZeroEval](https://github.com/WildEval/ZeroEval) is an unified evaluation framework for zero-shot performance of instruction-tuned LLMs on reasoning tasks like MMLU, GSM, ZebraLogic Puzzles, controls prompting, sampling, output parsing, instructs LM for json-formatted reasoning
 - [GAIA Benchmark](https://huggingface.co/collections/gaia-benchmark/gaia-release-655f74fd6e89f16ecc16d7be) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
 - [hle](https://github.com/centerforaisafety/hle) Humanity's Last Exam is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
+- [LV-Eval](https://github.com/infinigence/LVEval) Long-context benchmark for LLMs with up to 256k words, featuring QA tasks and techniques like confusing facts insertion and keyword-recall metrics for accurate evaluation
 
 ## AI DevOps
 
@@ -950,6 +972,7 @@
 - [KTransformers](https://github.com/kvcache-ai/ktransformers) KTransformers (QuickTransformers) is a framework for cutting-edge LLM Inference Optimizations
 - [Optimum](https://github.com/huggingface/optimum) Huggingface's accelerated traning and inference library for Transformers and Diffusers supporting onnx, intel NPU, openVINO, TensorRT, AMD NPU and cloud Hardware and features graph optimization, post training quantization, quantized training with QAT, pruning and knowledge distillation
 - [ipex-llm](https://github.com/intel-analytics/ipex-llm) intel CPU optimizations for local LLM acceleration supporting llama, mistral, chatglm, qwen, mixtral, gemma and phi for Intel XPU, iGPU, NPU and Arc running within llama.cpp, ollama, HF, LangChain, vLLM, DeepSpeed, Axolotl and more
+- [KVPress](https://huggingface.co/blog/nvidia/kvpress) Nvidia KVPress compresses long context K/V Cache with minimal attention degradation while significantly lower memory footprint by pruning KV pairs with low importance
 
 ## Databases for ML
 
