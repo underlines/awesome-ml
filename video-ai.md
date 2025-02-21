@@ -19,6 +19,7 @@
 - [Open-Sora](https://github.com/hpcaitech/Open-Sora) Open implementation approach for video generation
 - [CogVideo](https://github.com/THUDM/CogVideo) SOTA video generation and consistency generating 6 seconds of video with 8fps at 720x480 using 18-36GB vRAM
 - [Pyramid-Flow](https://github.com/jy0205/Pyramid-Flow) is a highly efficient autoregressive video generation method that leverages flow matching for improved computational efficiency, capable of generating high-quality 10-second videos at 768p resolution and 24 FPS, and supporting image-to-video generation.
+- [HunyuanVideo](https://huggingface.co/tencent/HunyuanVideo) Tencent's open-weight video-generation model
 
 ## Frame Interpolation (Temporal Interpolation)
 
