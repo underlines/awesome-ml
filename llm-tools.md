@@ -862,6 +862,7 @@
 - [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
 - [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
+- [RepairBench](https://repairbench.github.io/) is an open-source leaderboard for evaluating frontier models on automated program repair ([paper](http://arxiv.org/pdf/2409.18952))
 - [Leaderboards and Arenas](https://huggingface.co/collections/zh-ai-community/leaderboards-and-arenas-664b6913bfd9b93ba4ac242e) a hf collection of Benchmarks and Leaderboars for LLM Evaluation
 
 ### Benchmark Suites
@@ -902,6 +903,7 @@
 - [ZeroEval](https://github.com/WildEval/ZeroEval) is an unified evaluation framework for zero-shot performance of instruction-tuned LLMs on reasoning tasks like MMLU, GSM, ZebraLogic Puzzles, controls prompting, sampling, output parsing, instructs LM for json-formatted reasoning
 - [GAIA Benchmark](https://huggingface.co/collections/gaia-benchmark/gaia-release-655f74fd6e89f16ecc16d7be) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
 - [hle](https://github.com/centerforaisafety/hle) Humanity's Last Exam is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
+- [RepairBench](https://github.com/ASSERT-KTH/repairbench-framework) Automated Code-Repairing benchmarks for LLMs
 - [LV-Eval](https://github.com/infinigence/LVEval) Long-context benchmark for LLMs with up to 256k words, featuring QA tasks and techniques like confusing facts insertion and keyword-recall metrics for accurate evaluation
 
 ## AI DevOps
