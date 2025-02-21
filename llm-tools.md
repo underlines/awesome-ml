@@ -810,7 +810,6 @@
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) holistic and Contamination Free Evaluation of LLMs for Code automatically using new LeetCode, AtCoder and Codeforces questions
 - [oobabooga benchmark](https://oobabooga.github.io/benchmark.html) a black box, closed source and private 48 questions benchmark from oobabooga
 - [SWE-bench](https://www.swebench.com/) curated and annotated software development tests for LLMs sourced from 2k real github issues and pull requests, asking LLMs to solve issues in a codebase with an emphasis on understanding and coordinating changes across multiple functions, classes and files simultaneously requiring solutions with code execution environments, long contexts and multi step reasoning that goes beyond code generation
-- [RepairBench](https://repairbench.github.io/) is an open-source leaderboard for evaluating frontier models on automated program repair ([paper](http://arxiv.org/pdf/2409.18952))
 - [WebDev Arena Leaderboard](https://web.lmarena.ai/leaderboard) is an open-source benchmark evaluating AI capabilities in web development, developed by LMArena
 - [MMLU-Pro](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro) is an LLM evaluation benchmark, focusing on harder reasoning questions from various domains such as Math, Chemistry, CS, Physics and more with curated data for increased evaluation quality and reduced random guessing success rate
 - [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
@@ -843,6 +842,7 @@
 - [BigCodeBench-Hard](https://bigcode-bench.github.io/) Leaderboard evaluates LLMs with practical and challenging programming tasks, [HF Pages](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard)
 - [vellum leaderboard](https://www.vellum.ai/llm-leaderboard) general, coding and long context benchmarks
 - [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
+- [RepairBench](https://repairbench.github.io/) is an open-source leaderboard for evaluating frontier models on automated program repair ([paper](http://arxiv.org/pdf/2409.18952))
 
 ### Benchmark Suites
 
@@ -882,6 +882,7 @@
 - [ZeroEval](https://github.com/WildEval/ZeroEval) is an unified evaluation framework for zero-shot performance of instruction-tuned LLMs on reasoning tasks like MMLU, GSM, ZebraLogic Puzzles, controls prompting, sampling, output parsing, instructs LM for json-formatted reasoning
 - [GAIA Benchmark](https://huggingface.co/collections/gaia-benchmark/gaia-release-655f74fd6e89f16ecc16d7be) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
 - [hle](https://github.com/centerforaisafety/hle) Humanity's Last Exam is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
+- [RepairBench](https://github.com/ASSERT-KTH/repairbench-framework) Automated Code-Repairing benchmarks for LLMs
 
 ## AI DevOps
 
