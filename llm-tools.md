@@ -238,6 +238,7 @@
 - [farfalle](https://github.com/rashadphz/farfalle) perplexity inspired AI search engine with support for external search APIs like tavily, serper, bing or local searxng and remote and local LLMs
 - [LazyGraphRAG](https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/) new graph-enabled RAG approach, avoids upfront data summarization, offers low indexing cost, outperforms on local queries, comparable quality to GraphRAG, RAPTOR and other methods, blends best-first and breadth-first search, for scalable cost-quality performance
 - [NVIDIA-Ingest](https://github.com/NVIDIA/nv-ingest) Scalable microservice for multi-modal document content extraction using NVIDIA NIM for LLM inference, supporting PDFs, Word, PowerPoint, and OCR with optional embedding and vector database integration
+- [Airweave](https://github.com/airweave-ai/airweave) Turn any app into vector and graph data for agentic RAG
 
 ## Browser Extensions
 
