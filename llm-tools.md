@@ -820,6 +820,7 @@
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) is an awesome-type collection of LLM apps with RAG using OpenAI, Anthropic, Gemini and opensource models
 - [Building effective agents](https://www.anthropic.com/research/building-effective-agents) Antropic's seminal blog post with the industries best practices and design patterns for LLM Apps in the age of agents
 - [K/V Cache Quantization](https://smcleod.net/2024/12/bringing-k/v-context-quantisation-to-ollama/) Article explaining K/V Cache Quanitzation and an interactive model VRAM Estimator/Calculator
+- [Gemini by Example](https://geminibyexample.com) - Learn the Gemini SDK through (annotated) code examples.
 
 ## Product Showcases
 
