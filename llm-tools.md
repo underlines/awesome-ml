@@ -50,6 +50,7 @@
 - [torchchat](https://github.com/pytorch/torchchat) CLI interaction with LLMs such as llama, mistral and more using pytorch execution on linux, android, osx and ios supporting multiple quantization types, rest API, gat and generate
 - [MaxsAistudio](https://github.com/stringandstickytape/MaxsAistudio/) Maxime Labonne's Windows native C# based LLM UI for chatting with ollama, OpenAI, Anthropic, Groq and Gemini models with many features including conversation management, templating, embedding retrieval, diagramming etc
 - [Screen Pipe](https://github.com/louis030195/screen-pipe) library providing screen, audio and microphone capture stored in an embedding DB and used during query time via a web and desktop frontend as a rewind ai or windows copilot alternative
+- [HammerAI](https://www.hammerai.com/desktop) Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration.
 - [gollama](https://github.com/sammcj/gollama) command line tool to manage ollama models and linking them to LMStudio
 - [gpt_mobile](https://github.com/Taewan-P/gpt_mobile) android mobile app to chat with multiple LLMs at once supporting BYOK for OpenAI, Anthropic and Gemini API with local chat history
 - [llm](https://github.com/simonw/llm) is a CLI utility and Python library that facilitates interaction with LLMs, both remotely and locally, offering functionalities such as running prompts, storing results, generating embeddings and more
@@ -89,6 +90,7 @@
 - [ollama-ui](https://github.com/ollama-ui/ollama-ui) Simple HTML UI for Ollama
 - [ollama-ui](https://github.com/ollama-webui/ollama-webui) ChatGPT-Style Responsive Chat Web UI Client (GUI) for Ollama
 - [big-AGI](https://github.com/enricoros/big-AGI) Web Browse, Search, Sharing, Tracking, supporting LocalAI, Ollama, LM Studio, Azure, Gemini, OpenAI, Groq, Mistral, OpenRouter etc.
+- [HammerAI](https://www.hammerai.com) Simple character-chat interface to run LLMs in your browser using WebGPU. Uses WebLLM under the hood and is free to chat and requires zero configuration.
 - [slickgpt](https://github.com/ShipBit/slickgpt) light-weight BYOK web client for the OpenAI API written in Svelte offering a userless share feature, chat history in localStorage, message editing, cost calculation
 - [ai-chatbot](https://github.com/vercel/ai-chatbot) fully featured LLM chat UI that can be used as a template using next.js, tailwind css, vercel blob storage and nextauth.js
 - [ChuanhChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) Web UI for local and remote LLMs with support for autonomous agents, online search and knowledge base RAG
