@@ -20,12 +20,17 @@
 - [CogVideo](https://github.com/THUDM/CogVideo) SOTA video generation and consistency generating 6 seconds of video with 8fps at 720x480 using 18-36GB vRAM
 - [Pyramid-Flow](https://github.com/jy0205/Pyramid-Flow) is a highly efficient autoregressive video generation method that leverages flow matching for improved computational efficiency, capable of generating high-quality 10-second videos at 768p resolution and 24 FPS, and supporting image-to-video generation.
 - [HunyuanVideo](https://huggingface.co/tencent/HunyuanVideo) Tencent's open-weight video-generation model
+- [mochi-1](https://huggingface.co/genmo/mochi-1-preview) state of the art video generation model with high-fidelity motion and strong prompt adherence by Genmo
+- [Wan2.1](https://github.com/Wan-Video/Wan2.1) is an open large-scale video generative model that excels in multiple tasks, including text-to-video and video editing, while achieving SOTA performance on consumer-grade GPUs
+- [SkyReels-V2](https://huggingface.co/collections/Skywork/skyreels-v2-6801b1b93df627d441d0d0d9) an advanced video generation model available in 1.3B and 14B variants, capable of producing unlimited duration videos for both text-to-video and image-to-video tasks, and demonstrating superior performance compared to leading models like HunyuanVideo-13B and Wan2.1-14B
+- [Magi-1](https://github.com/SandAI-org/MAGI-1) autoregressive video generation model that enables unlimited duration video creation with precise control over timing and dynamics, supporting text-to-video, image-to-video, and video-to-video tasks while leading the Physics-IQ Benchmark for its exceptional performance
 
 ## Frame Interpolation (Temporal Interpolation)
 
 - https://github.com/google-research/frame-interpolation
 - https://github.com/ltkong218/ifrnet
 - https://github.com/megvii-research/ECCV2022-RIFE
+- [Framer](https://github.com/aim-uofa/Framer) Interactive User Guided Flow Frame Interpolation
 
 ## Segmentation & Tracking
 

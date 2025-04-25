@@ -65,6 +65,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [PRQL | a modern language for transforming data — a simple, powerful, pipelined SQL replacement](https://prql-lang.org/)
 - [YoBulk | Opensource CSV importer powered by GPT3, flatfile alternative](https://github.com/yobulkdev/yobulkdev)
 - [meltano | Extract & Load /with joy/ — CLI & version control for ELT without limitations](https://github.com/meltano/meltano)
+- [superglue | Self healing LLM based API and Data integration](https://github.com/superglue-ai/superglue)
 
 ### Cloud ETL
 - [Singer | Open-source composable data extraction for many sources and destinations]([https://www.singer.io/](https://github.com/singer-io))

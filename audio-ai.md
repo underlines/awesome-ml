@@ -55,14 +55,14 @@
 - [FunASR](https://github.com/modelscope/FunASR) speech recognition toolkit supports training, fine-tuning of models, offers features like ASR, VAD, Punctuation Restoration, Language Models, Speaker Verification, Diarization, multi-talker ASR, provides pre-trained models including Paraformer-large
 - [Moonshine](https://github.com/usefulsensors/moonshine) ASR and Speech to Text for real time and edge device usecases beating Whisper tiny
 
-voice activity detection (VAD):
+### Voice Activity Detection (VAD):
 
 - [Silero-VAD](https://github.com/snakers4/silero-vad) pre-trained enterprise-grade real tie Voice Activity Detector
 - [libfvad](https://github.com/dpirch/libfvad) fork of WebRTC VAD engine as a standalone library independent from other WebRTC features
 - [voice_activity_detection](https://github.com/filippogiruzzi/voice_activity_detection) Voice Activity Detection based on Deep Learning & TensorFlow
 - [rVADfast](https://github.com/zhenghuatan/rVADfast) unsupervised, robust voice activity detection
 
-subtitle generation:
+### Subtitle Generation
 
 - [subtitler](https://github.com/dmtrKovalenko/subtitler) on-device web app for audio transcribing and rendering subtitles
 - [pyvideotrans](https://github.com/jianchang512/pyvideotrans) is a video translation and voiceover tool supporting STT, translation, TTS synthesis and audio separation, capable of translating videos into multiple languages while retaining background audio, and offering functionalities such as subtitle creation, batch translation, and audio-video merging
@@ -132,6 +132,10 @@ subtitle generation:
 - [Step-Audio](https://github.com/stepfun-ai/Step-Audio) model and inference for speech understanding and generation supporting multilingual conversations, emotions, dialects, adjustable speech rates and prosody
 - [Llasa](https://huggingface.co/HKUSTAudio/Llasa-3B) TTS model with real time voice cloning, fine tuning, with 1B,3B, and 8B models and Chinese-English support 
   - [local-llasa-tts](https://github.com/nivibilla/local-llasa-tts) WebUI for llasa TTS with model switch, text or audio input, generation parameter control
+- [OuteTTS](https://github.com/edwko/OuteTTS) unified transformer based TTS models treating audio as language running within llama.cpp
+- [Orpheus-TTS](https://github.com/canopyai/Orpheus-TTS) state-of-the-art open-source TTS system based on the Llama-3b backbone, featuring human-like speech synthesis, zero-shot voice cloning, and low-latency streaming capabilities
+- [CSM-1b](https://huggingface.co/sesame/csm-1b) s a conversational speech generation model that utilizes a Llama backbone to produce RVQ audio codes from text and audio inputs, enabling versatile audio output capabilities
+- [Dia](https://github.com/nari-labs/dia) a 1.6B parameter text-to-speech model that generates highly realistic dialogue from transcripts, allowing for conditioning on audio to control emotion and tone, and capable of producing nonverbal sounds like laughter and coughing
 
 ## Voice Conversion
 
@@ -211,6 +215,7 @@ subtitle generation:
 - [StableAudio](https://github.com/Stability-AI/stable-audio-tools) Stability AI's Stable Audio only providing Training and Inference code, no models
 - [SoundStorm-Pytorch](https://github.com/lucidrains/soundstorm-pytorch) a Pytorch implementation of Google Deepmind's SoundStorm, applying MaskGiT to residual vector quantized codes from Soundstream, using a Conformer transformer architecture for efficient parallel audio generation from text instructions
 - [YuE](https://github.com/multimodal-art-projection/YuE) foundation models designed for music generation, specifically for transforming lyrics into full songs lasting several minutes, that includes both a catchy vocal track and accompaniment track an open source Suno alternative
+- [DiffRhythm](https://huggingface.co/spaces/ASLP-lab/DiffRhythm) open-source diffusion-based music generation model capable of creating full-length songs, featuring innovative capabilities like text-based style prompts and instrumental mode for diverse musical compositions
 
 ## Audio Source Separation
 

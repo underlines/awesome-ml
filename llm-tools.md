@@ -154,7 +154,7 @@
 - [ChatDocs](https://github.com/marella/chatdocs) PrivateGPT + Web UI + GPU Support + ggml, transformers, webui
 - [PAutoBot](https://github.com/nrl-ai/pautobot) document question-answering engine developed with LangChain, GPT4All, LlamaCpp, ChromaDB, PrivateGPT, CPU only
 - [AIDE](https://github.com/vsraptor/aide/tree/main) CLI based privateGPT fork, improved, refactored, multiline support, model switch support, non question command support
-- [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain, supporting multiple data sources, web search, models etc.
+- [khoj](https://github.com/khoj-ai/khoj) Chat offline with your second brain, supporting multiple data sources, web search, models and Deep Research
 - [secondbrain](https://github.com/juliooa/secondbrain) Multi-platform desktop app to download and run LLMs locally in your computer
 - [local-rag](https://github.com/jonfairbanks/local-rag) Ingest files for RAG with open LLMs, without 3rd parties or data leaving your network
 - [Paper QA](https://github.com/whitead/paper-qa) LLM Chain for answering questions from documents with citations, using OpenAI Embeddings or local llama.cpp, langchain and FAISS Vector DB
@@ -183,7 +183,7 @@
 - [morphic](https://github.com/miurla/morphic) slick RAG / Perplexity inspired stack built on next.js and tailwind
 - [jina-reader](https://github.com/jina-ai/reader) web app that scrapes/crawsl and parses websites then converts the content to an LLM-friendly input to use in RAG and Tool/Agent workflows
 - [supermemory](https://github.com/Dhravya/supermemory) second brain with memory for your browser bookmarks and tweets
-- [storm](https://github.com/stanford-oval/storm) Stanford created LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web, basically the Deep Research
+- [storm](https://github.com/stanford-oval/storm) is the O.G. Deep Research from Stanford providing an LLM-powered knowledge curation system that researches a topic and generates a full-length reports with citations from the web
 - [Firecrawl](https://github.com/mendableai/firecrawl) scrapes/crawls and parses websites and turns them into LLM-ready markdown
 - [llm-scraper](https://github.com/mishushakov/llm-scraper) scrape and turn any webpage into structured data using LLMs
 - [reor](https://github.com/reorproject/reor) LLM assisted note taking with RAG capabilities
@@ -238,6 +238,12 @@
 - [farfalle](https://github.com/rashadphz/farfalle) perplexity inspired AI search engine with support for external search APIs like tavily, serper, bing or local searxng and remote and local LLMs
 - [LazyGraphRAG](https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/) new graph-enabled RAG approach, avoids upfront data summarization, offers low indexing cost, outperforms on local queries, comparable quality to GraphRAG, RAPTOR and other methods, blends best-first and breadth-first search, for scalable cost-quality performance
 - [NVIDIA-Ingest](https://github.com/NVIDIA/nv-ingest) Scalable microservice for multi-modal document content extraction using NVIDIA NIM for LLM inference, supporting PDFs, Word, PowerPoint, and OCR with optional embedding and vector database integration
+- [node-DeepResearch](https://github.com/jina-ai/node-DeepResearch) Open Deep Research alternative focusing on web search and reading with query refinement until an answer has been found
+- [deep-research](https://github.com/dzhng/deep-research) simple open Deep research assistant implementation that performs iterative research on search engines, web scraping and reasoning using LLMs
+- [deep-researcher](https://github.com/zilliztech/deep-searcher) open deep search alternative with web crawling, document ingestion and vector store capabilities
+- [Auto-Deep-Research](https://github.com/HKUDS/Auto-Deep-Research) open deep research assistant with extensibility supporting all local and API LLM providers, is blazing fast, supports function calling and non-function calling LLMs, local file support and more
+- [open_deep_research](https://github.com/langchain-ai/open_deep_research) open deep research assistant from langchain with extensibility and support for web search, arxiv search and more
+- [gpt-researcher](https://github.com/assafelovic/gpt-researcher) open deep research assistant performing autonomous web searches to complie long reports
 
 ## Browser Extensions
 
@@ -338,7 +344,7 @@
 - [mcp-agent](https://github.com/lastmile-ai/mcp-agent) framework following simple, composable patterns described in "Building Effective Agents" and using Model Context Protocol for Agent Tool Interaction
 - [modelcontextprotocol](https://github.com/modelcontextprotocol/specification) or MCP is an open protocol that integrates LLM applications and external data sources and tools
 - [Jobs_Applier_AI_Agent](https://github.com/feder-cr/Jobs_Applier_AI-Agent) is an LLM-powered agent designed to automate and streamline the job application process, helping users apply for multiple jobs in a tailored and efficient manner
-- [browser-use](https://github.com/browser-use/browser-use/) connect AI agents with browsers for automation tasks
+- [browser-use](https://github.com/browser-use/browser-use/) connect AI agents with browsers for automation tasks using playwright and LLMs
 - [UI-TARS](https://github.com/bytedance/UI-TARS) GUI agent and custom model integrating vision-language capabilities for cross-platform operating system automation, supporting real-time interaction and complex task execution
 - [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) agent framework with tool usage, planning, and memory capabilities using the Qwen LLM family but providing atomic components for isolated use in your solution
 - [Midscene.js](https://github.com/web-infra-dev/midscene) LLM and VLLM driven browser automation via natural language with open weight models like UI-TARS, Qwen2.5-VL or proprietary model providers, integrating with Puppeteer/Playwright/Chrome Bridge and supporting private deployment
@@ -347,6 +353,13 @@
 - [open-cuak](https://github.com/Aident-AI/open-cuak) Computer Use Agent Kit for creating automation agents at scale with browsers, think k8s for browser agent automation, centralized account access, cookie management, bot detection bypass, agnostic VLM choice using OmniParser V2
 - [OmniParser](https://github.com/microsoft/OmniParser) and OmniTool from Microsoft extracts structured UI Element information from UI Screenshots to be used within LLMs for Agentic Computer Use reasoning and action
 - [Eliza](https://github.com/elizaOS/eliza) Multi-agent framework with connectors for Discord, X, and Telegram, supporting models like Llama and OpenAI, designed for chatbots, autonomous agents, and generative game NPCs
+- [OpenManus](https://github.com/mannaandpoem/OpenManus) open-source Manus alternative allowing users to let an autonomous Agent with access to code generation, Console and Browser to execute long duration tasks
+- [OWL](https://github.com/camel-ai/owl) OWL-Agent framework for multi-agent collaboration in task automation, achieving state-of-the-art performance with a GAIA benchmark score of 69.09, and supporting diverse functionalities like online search, multimodal file processing, code execution, MCP support and browser automation
+- [HyperAgent](https://github.com/hyperbrowserai/HyperAgent) browser automation agent with an LLM steering playwright with stealth mode to avoid detection and regular playwright fallback for non AI tasks
+- [Dive](https://github.com/OpenAgentPlatform/Dive) agent desktop application to integrate Tool Calling LLMs with an MCP Server as part of the Open Agent Platform project
+- [LLM Sandbox](https://github.com/vndee/llm-sandbox) lightweight sandbox designed to run LLM generated code in a safe and isolated manner using Docker
+- [desktop](https://github.com/e2b-dev/desktop) E2B Desktop Sandbox for LLMs providing a virtual linux desktop for LLM Agents Computer Use abilities
+- [SuperAGI](https://github.com/SuperAGI/SuperAGI) is a framework to build and run AI agents with support for concurrent operation, tool / function calling, telemetry and a GUI
 
 ## Multi Modal
 
@@ -959,6 +972,7 @@
 - [refact](https://github.com/smallcloudai/refact) WebUI for Fine-Tuning and Serving Open Weights LLMs for Coding supporting LoRA, sharding, parallel multi model serving on single GPU, OpenAI and Anthropic use for chat
 - [aisuite](https://github.com/andrewyng/aisuite) thin wrapper around python client libraries to seamlessly swap out different LLM providers without changing their code
 - [SCUDA](https://github.KeVmo314/Scuda) enables GPU-over-IP connectivity, allowing remote GPUs to be utilized by CPU-only machines for accelerated computing tasks such as model training and inference.  
+- [BitNet](https://github.com/microsoft/BitNet) bitnet.cpp is the official inference framework based on llama.cpp to run 1-Bit LLMs for fast and lossless inference of 1.58-bit models on CPU, NPU and GPU
 
 ### Optimization
 
