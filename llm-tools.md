@@ -580,6 +580,10 @@
 - [Oumi](https://github.com/oumi-ai/oumi) Unified open-source framework enabling seamless training, fine-tuning, and deployment of foundation models across text and multimodal use cases with support for SFT, LoRA, QLoRA, and more.  
 - [R1-V](https://github.com/Deep-Agent/R1-V) Reinforcement Learning framework for vision-language models, optimizing generalization and efficiency with RLVR, outperforming CoT-SFT in OOD tests using cost-effective training
 
+## Observability
+- [Helicone AI](https://github.com/Helicone/helicone) Open-source LLM observability platform for logging, monitoring, and debugging AI applications. Simple 1-line integration to get started.
+
+
 ## Merging & Quantization
 
 - [mergekit](https://github.com/cg123/mergekit) Tools for merging pretrained large language models.
