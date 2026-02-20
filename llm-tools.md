@@ -484,6 +484,7 @@
 - [auto-gptq](https://github.com/PanQiWei/AutoGPTQ) easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ for GPU inference
 - [exllama](https://github.com/turboderp/exllama) Memory-Efficient Llama Rewrite in Python/C++/CUDA for 4bit quantized GPTQ weights, running on GPU, faster than llama.cpp ([2023-06-13](https://www.reddit.com/r/LocalLLaMA/comments/147z6as/llamacpp_just_got_full_cuda_acceleration_and_now/)), autoGPTQ and GPTQ-for-llama
 - [SimpleAI](https://github.com/lhenault/SimpleAI) Self-Hosted Alternative to openAI API
+- [OmniRoute](https://github.com/diegosouzapw/OmniRoute) Self-hostable AI gateway with 4-tier automatic fallback routing across 36+ providers, OpenAI-compatible API, quota tracking, and zero-cost fallback to free tiers
 - [rustformer llm](https://github.com/rustformers/llm) Rust-based ecosystem for llms like BLOOM, GPT-2/J/NeoX, LLaMA and MPT offering a CLI for easy interaction and powered by ggml
 - [Haven](https://github.com/havenhq/haven) Fine-Tune and Deploy LLMs On Your Own Infrastructure
 - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) Python Bindings for llama.cpp with low level C API interface, python API, openai like API and LangChain compatibility
