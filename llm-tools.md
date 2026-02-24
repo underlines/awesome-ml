@@ -60,6 +60,7 @@
 
 ## Web GUIs
 
+- [Atlas UI 3](https://github.com/sandialabs/atlas-ui-3) full-stack LLM chat UI by Sandia National Laboratories with MCP tool integration, multi-provider support (OpenAI, Anthropic, Google), RAG, agentic workflows, Docker and PyPI deployment
 - [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
 - [no8081/chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
 - [IPython-gpt](https://github.com/santiagobasulto/ipython-gpt) use chatGPT directly inside jupyter notebooks
