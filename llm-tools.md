@@ -928,6 +928,7 @@
 - [skypilot](https://github.com/skypilot-org/skypilot) Run LLMs, AI, and Batch jobs on any cloud. Get maximum savings, highest GPU availability, and managed execution
 - [ONNX Runtime](https://github.com/microsoft/onnxruntime) cross-platform inference and training machine-learning accelerator compatible with PyTorch, TensorFlow/Keras, scikit-learn, LightGBM, XGBoost, etc. and runs with different hardware, drivers, and operating systems
 - [vllm](https://github.com/vllm-project/vllm) high-throughput and memory-efficient inference and serving engine for LLMs, [paper](https://arxiv.org/pdf/2309.06180v1.pdf)
+- [iscooked](https://github.com/dinosoup1/iscooked) One-command security scanner for local AI setups (Ollama, LM Studio, Open WebUI). Checks network exposure, API auth, file permissions, Docker risks, firewall status. Runs locally, zero dependencies.
 - [openllmetry](https://github.com/traceloop/openllmetry) observability for your LLM application, based on OpenTelemetry
 - [DeepSpeed-FastGen](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen) High-throughput Text Generation for LLMs at 2x vLLM speeds
 - [DeepSparse](https://github.com/neuralmagic/deepsparse) Sparsity-aware deep learning inference runtime for CPUs
