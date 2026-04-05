@@ -417,6 +417,7 @@
 - [continue](https://github.com/continuedev/continue) open-source copilot alternative for software development as a VS Code plugin, can use gpt-4 API or local codellama and other models
 - [chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) vscode extension to use unofficial chatGPT API for a code context based chat side bar within the editor
 - [codeshell-vscode](https://github.com/WisdomShell/codeshell-vscode) vscode extension to use the CodeShell-7b models
+- [local-cli-agent](https://github.com/suebi76/local-cli-agent) Terminal coding agent with master orchestrator, 15 specialist profiles, undo system and watch mode. Runs on Ollama or LM Studio. No API key required.
 - [localpilot](https://github.com/danielgross/localpilot) vscode copilot alternative using local llama.cpp/ggml models on Mac
 - [sweep](https://github.com/sweepai/sweep) AI-powered Junior Developer for small features and bug fixes.
 - [devika](https://github.com/stitionai/devika) Open Source Devin clone. Software Engineer that takes high level human instructions, breaks them down, plans ahead and creates a software product out of it
