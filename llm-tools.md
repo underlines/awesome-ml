@@ -107,6 +107,7 @@
 - [sherpa](https://github.com/Bip-Rep/sherpa) llama.cpp on android
 - [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) C++ implementation of ChatGLM-6B & ChatGLM2-6B
 - [MLX](https://github.com/ml-explore/mlx) Apple's ML Toolkit supporting Transformers in the MLX format for faster inference
+- [LLMKube](https://github.com/defilantech/LLMKube) Kubernetes operator for LLM inference with pluggable runtimes (llama.cpp, PersonaPlex/Moshi, generic), multi-GPU sharding, NVIDIA CUDA and Apple Silicon Metal support, and GGUF/MLX/SafeTensors model formats
 
 ## Voice Assistants
 
