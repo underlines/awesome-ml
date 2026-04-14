@@ -446,6 +446,7 @@
 - [refact.ai vscode](https://github.com/smallcloudai/refact-vscode) Code Assistant Extension for VS Code refactoring, debugging, chat and generation, best to be used with their hosted [refact](https://github.com/smallcloudai/refact) inference server
 - [WatsonX Code Assistant](https://github.com/ibm-granite/watsonx-code-assistant-individual) Code Assistant for VS Code connecting to Ollama and locally hosted IBM Granite Code models for Code generation, debugging and refactoring
 - [potpie](https://github.com/potpie-ai/potpie) Create specialized AI agents that understand and automate tasks in your codebase through comprehensive knowledge graph construction
+- [repowise](https://github.com/repowise-dev/repowise) indexes codebases into dependency graphs, git history, auto-generated docs and architectural decisions, providing 7 MCP tools for AI coding agents with dead code detection, hotspot analysis and ownership tracking
 - [Code2Prompt](https://github.com/mufeedvh/Code2Prompt) is a CLI tool that converts codebases into LLM prompts, generating structured Markdown with source trees, prompt templates, and token counts while supporting Git diff, file exclusions, and clipboard integration 
 - [goose](https://github.com/block/goose) locally run AI coding agent that autonomously handles tasks like debugging and deployment, customizable with any LLM and external APIs
 - [Roo Code](https://github.com/RooVetGit/Roo-Code) coding agent in VS Code enabling file manipulation, command execution, and browser automation with customizable modes for specialized roles
