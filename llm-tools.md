@@ -360,6 +360,7 @@
 - [LLM Sandbox](https://github.com/vndee/llm-sandbox) lightweight sandbox designed to run LLM generated code in a safe and isolated manner using Docker
 - [desktop](https://github.com/e2b-dev/desktop) E2B Desktop Sandbox for LLMs providing a virtual linux desktop for LLM Agents Computer Use abilities
 - [SuperAGI](https://github.com/SuperAGI/SuperAGI) is a framework to build and run AI agents with support for concurrent operation, tool / function calling, telemetry and a GUI
+- [Promptise Foundry](https://github.com/promptise-com/foundry) production Python framework for agentic AI with a real MCP server SDK (JWT/OAuth2 auth, capability guards, middleware, versioning, dashboard), autonomous agent runtime with cron/event/webhook/file triggers, journaling and replay, governance (budget, health, mission, secrets), memory (Chroma/Mem0), guardrails, semantic caching, and observability
 
 ## Multi Modal
 
