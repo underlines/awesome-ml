@@ -522,6 +522,7 @@
 - [llama-stack](https://github.com/meta-llama/llama-stack) complete stack with core building blocks to build AI apps providing Agents, Memory, Inference, Eval, Safety, Inference, Telemetry etc. for local and remote providers
 - [rig](https://github.com/0xPlaygrounds/rig) Rust library for building scalable, modular, and ergonomic LLM-powered applications with support for completion, embedding, abstraction for llm providers and vector stores
 - [pipecat](https://github.com/pipecat-ai/pipecat) python framework for building voice and multi modal conversational agents handling orchestration, network transport, audio processing and multimodal interactions
+- [FuturMix](https://futurmix.ai) Unified AI API gateway with OpenAI-compatible endpoint for 22+ models (OpenAI, Anthropic, Google). 99.99% SLA, automatic failover
 
 ### Prompt templating / Grammar
 
