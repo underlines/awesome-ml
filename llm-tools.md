@@ -137,6 +137,7 @@
 
 - [sqlchat](https://github.com/sqlchat/sqlchat) Use OpenAI GPT3/4 to chat with your database
 - [chat-with-github-repo](https://github.com/peterw/Chat-with-Github-Repo) which uses streamlit, gpt3.5-turbo and deep lake to answer questions about a git repo
+- [chunktuner](https://github.com/shantanu-deshmukh/chunktuner) python library, CLI, and MCP server to benchmark chunking strategies for RAG and recommend configs using retrieval metrics (optional RAGAS)
 - [mpoon/gpt-repository-loader](https://github.com/mpoon/gpt-repository-loader) uses Git and GPT-4 to convert a repository into a text format for various tasks, such as code review or documentation generation.
 - [chat-your-data](https://github.com/hwchase17/chat-your-data) Create a ChatGPT like experience over your custom docs using LangChain
 - [embedchain](https://github.com/embedchain/embedchain) python based RAG Framework
