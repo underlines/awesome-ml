@@ -1008,6 +1008,7 @@
 - [vector-admin](https://github.com/Mintplex-Labs/vector-admin) universal tool suite for vector database management. Manage Pinecone, Chroma, Qdrant, Weaviate and more vector databases with ease
 - [vectordb](https://github.com/kagisearch/vectordb) a simple, lightweight, local end to end DB for embeddings-based text retrieval
 - [sqlite-vec](https://github.com/asg017/sqlite-vec/) SQLite extension written in C without any dependencies for vector search support in SQLite
+- [Dakera](https://github.com/dakera-ai/dakera-mcp) MCP-native persistent agent memory server with HNSW vector indexing, RocksDB-backed storage, decay-weighted recall, and cross-agent knowledge sharing — self-hosted and production-ready
 
 ## Safety, Responsibility and Red Teaming
 
