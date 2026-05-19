@@ -960,6 +960,7 @@
 - [SGLang](https://github.com/sgl-project/sglang) fast serving framework for LLMs and vision LMs using fast radixAttention for caching, continuous batching, paged attention, tensor parallelism and quantization like AWQ, FP8, GPTQ on GPU only inference via native pip deployment or docker
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) serving and evaluating LLM routers to find optimal cost vs. quality depending on the query
 - [langfuse](https://github.com/langfuse/langfuse) LLM Observability, monitoring, evaluation, analytics, prompt management, playground
+- [agenttrace](https://github.com/luoyuctl/agenttrace) local TUI for AI coding-agent session logs, showing tokens, estimated cost, tool failures, latency, health, diffs, and CI gates across Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, OpenClaw, and more
 - [LitServe](https://github.com/Lightning-AI/LitServe) easy, flexible and enterprise scale serving engine to deploy any ML, embedding, language, vision or audio model with support for batching, streaming and GPU autoscaling
 - [LitGPT](https://github.com/Lightning-AI/litgpt) easy, flexible and enterprise scale finetune, pretrain, deploy and serving of LLMs
 - [Nexa-SDK](https://github.com/NexaAI/nexa-sdk) toolkit for local ONNX and GGML model deployment for Text Generation, Image Generation, VLMs, TTS and STT and an OpenAI compatible API server with JSON schema mode, function calling and streaming support and a Streamlit UI and its own Model Hub / Zoo
