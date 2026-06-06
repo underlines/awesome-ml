@@ -361,6 +361,8 @@
 - [desktop](https://github.com/e2b-dev/desktop) E2B Desktop Sandbox for LLMs providing a virtual linux desktop for LLM Agents Computer Use abilities
 - [SuperAGI](https://github.com/SuperAGI/SuperAGI) is a framework to build and run AI agents with support for concurrent operation, tool / function calling, telemetry and a GUI
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native MCP server for agent trust scoring and identity verification. 4 free preflight tools score any Solana wallet (on-chain activity, transaction patterns, network age, recurring behavior); paid tools return signed trust receipts via HTTP 402 + USDC on Solana (<1s settlement). Install: `pip install twzrd-agent-intel`.
+
 ## Multi Modal
 
 - [huggingGPT / JARVIS](https://github.com/microsoft/JARVIS) Connects LLMs with huggingface specialized models
