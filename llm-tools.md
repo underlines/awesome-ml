@@ -5,6 +5,7 @@
 - Want to know which one is "the best"? Have a look at the [🏆 Leaderboards](llm-tools.md#benchmarking) in the Benchmarking section.
 - [llm.extractum.io](https://llm.extractum.io/) The LLM Explorer, a Large Language Model Directory with filters for trending, downloads and latest showing details like quantizations, model types and sizes
 - [can-it-run-llm](https://huggingface.co/spaces/Vokturz/can-it-run-llm) Check most Huggingface LLMs and quants for hardware requirements like vram, ram and memory requirements
+- [What LLM Can I Run?](https://whatsmy.fyi/what-llm-can-i-run) Detects your hardware live in the browser and checks it against 70+ open-weight models, showing per-quantization sizes, minimum RAM and tok/s estimates
 
 # Tools
 
