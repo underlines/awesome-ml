@@ -973,6 +973,7 @@
 - [aisuite](https://github.com/andrewyng/aisuite) thin wrapper around python client libraries to seamlessly swap out different LLM providers without changing their code
 - [SCUDA](https://github.KeVmo314/Scuda) enables GPU-over-IP connectivity, allowing remote GPUs to be utilized by CPU-only machines for accelerated computing tasks such as model training and inference.  
 - [BitNet](https://github.com/microsoft/BitNet) bitnet.cpp is the official inference framework based on llama.cpp to run 1-Bit LLMs for fast and lossless inference of 1.58-bit models on CPU, NPU and GPU
+- [khazad](https://github.com/GuglielmoCerri/khazad) Transparent semantic cache for LLM API calls, powered by Redis Vector Sets
 
 ### Optimization
 
