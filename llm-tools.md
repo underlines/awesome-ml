@@ -428,7 +428,7 @@
 - [gorilla-cli](https://github.com/gorilla-llm/gorilla-cli) use natural language in the terminal to assist with command writing, gorilla writes the commands based on a user prompt, while the user just approves them
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) software engineering and coding agent with code execution capabilities
 - [openui](https://github.com/wandb/openui) v0.dev alternative for text guided UI creation for HTML/React,Svelte, Web Components, etc.
-- [codel](https://github.com/semanser/codel) autonomus agent performing tasks and projects using terminal, browser and editor
+- [codel](https://github.com/semanser/codel) autonomous agent performing tasks and projects using terminal, browser and editor
 - [AutoCodeRover](https://github.com/nus-apr/auto-code-rover) automated GitHub issue resolver for bug fixes and feature addition
 - [plandex](https://github.com/plandex-ai/plandex) terminal-based AI coding agent for complex tasks with planning and execution capabilities
 - [AutoCoder](https://github.com/bin123apple/AutoCoder) Agentic code generation, execution and verification allowing external packages and using a fine tuned deepseeker-coder model AutoCoder-33B and 6.7B model
