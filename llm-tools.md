@@ -57,6 +57,7 @@
 - [aichat](https://github.com/sigoden/aichat) Shell Assistant with Chat REPL, RAG and Agents helping you write shell code in Windows, Linux, Android and Mac
 - [gptme](https://github.com/ErikBjare/gptme) is a CLI assistant as a local alternative to ChatGPT's Code Interpreter, a personal AI assistant in the terminal that can execute and edit code, browse the web, handle vision tasks, with self-correction capabilities, support for multiple local and API LLM providers, and extensibility
 - [pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai) is an offline, on-device LLM GUI for iOS and Android, enabling users to run small language models (SLMs) like Phi and Gemma locally with features like Hugging Face Hub integration and real-time performance metrics
+- [Off Grid AI Desktop](https://github.com/off-grid-ai/off-grid-ai-desktop) private, local-first macOS GUI for on-device LLM chat, image generation, whisper dictation, and memory/RAG over your own data, all offline via llama.cpp
 
 ## Web GUIs
 
