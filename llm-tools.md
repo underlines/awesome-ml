@@ -496,6 +496,7 @@
 - [gorilla](https://github.com/ShishirPatil/gorilla) Enables LLMs to use tools by semantically and syntactically correctly invoking APIs. Reduces hallucination, custom trained model [weights](https://huggingface.co/TheBloke/gorilla-7B-fp16) based on llama-7b
 - [agency](https://github.com/operand/agency) A fast and minimal actor model framework allows humans, AIs, and other computing systems to communicate with each other through shared environments called "spaces".
 - [Vercel AI SDK](https://github.com/vercel-labs/ai) a library for building edge-ready AI-powered streaming text and chat UIs in React, Svelte and Vue supporting LangChain, OpenAI, Anthropic and HF
+- [Markstream](https://github.com/Simon-He95/markstream-vue) streaming Markdown renderers for AI chat interfaces, with packages for Vue, React, Svelte, Angular and Vue 2 plus Mermaid, KaTeX, Shiki, Monaco and safe HTML
 - [tinygrad](https://github.com/geohot/tinygrad) Geohot's implementation for a PyTorch killer with the target to be 2x faster
 - [Xorbits Inference (Xinference)](https://github.com/xorbitsai/inference) versatile library designed to deploy and serve language, speech recognition, and multimodal models
 - [data-juicer](https://github.com/alibaba/data-juicer) zero code, low code and off the shelf data processing for LLMs
