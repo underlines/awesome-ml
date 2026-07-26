@@ -914,6 +914,7 @@
 - [WindowsAgentArena](https://github.com/microsoft/windowsagentarena) scalable Windows 11 VMs for benchmarking multi-modal AI agents
 - [CodeArena](https://github.com/Nutlope/codearena) a battle arena for Code LLMs, that allows user to see results of two models and rate them
 - [ZeroEval](https://github.com/WildEval/ZeroEval) is an unified evaluation framework for zero-shot performance of instruction-tuned LLMs on reasoning tasks like MMLU, GSM, ZebraLogic Puzzles, controls prompting, sampling, output parsing, instructs LM for json-formatted reasoning
+- [StructEval](https://github.com/TIGER-AI-Lab/StructEval) evaluates LLM structural-output generation and conversion across 2,035 examples, 18 formats including JSON, YAML, HTML, React and SVG, and 44 task types, with separate scoring for text structures and rendered outputs, [paper](https://openreview.net/forum?id=buDwV7LUA7)
 - [GAIA Benchmark](https://huggingface.co/collections/gaia-benchmark/gaia-release-655f74fd6e89f16ecc16d7be) General AI Assistants Benchmark real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency
 - [hle](https://github.com/centerforaisafety/hle) Humanity's Last Exam is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
 - [RepairBench](https://github.com/ASSERT-KTH/repairbench-framework) Automated Code-Repairing benchmarks for LLMs
