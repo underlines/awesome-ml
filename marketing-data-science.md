@@ -68,7 +68,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [superglue | Self healing LLM based API and Data integration](https://github.com/superglue-ai/superglue)
 
 ### Cloud ETL
-- [Singer | Open-source composable data extraction for many sources and destinations]([https://www.singer.io/](https://github.com/singer-io))
+- [Singer | Open-source composable data extraction for many sources and destinations](https://github.com/singer-io)
 - [Fivetran](https://fivetran.com/)
 - [Stitchdata](https://www.stitchdata.com/)
 - [Panoply](https://panoply.io/)
@@ -208,6 +208,7 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 
 ## Web Scraping
 - [EasySpider](https://github.com/NaiboWang/EasySpider)  visual code-free/no-code web crawler/spider
+- [Xquik | X data automation with REST API, MCP tools, and webhooks. Not affiliated with X Corp.](https://docs.xquik.com/api-reference/overview)
 
 # Libraries
 ## Web
