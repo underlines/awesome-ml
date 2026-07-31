@@ -255,6 +255,7 @@
 - [chatGPTBox](https://github.com/josStorer/chatGPTBox) add useful LLM chat-boxes to github and other websites, supporting self-hosted model (RWKV, llama.cpp, ChatGLM)
 - [page-assist](https://github.com/n4ze3m/page-assist) Local AI-powered browsing assistant supporting Ollama, gemini Nano (in chrome), LM Studio etc. with a sidebar interface and ChatGPT-style Web UI for interacting with AI models directly from any webpage in Chrome, Firefox, or Edge
 
+- [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) Open-source autonomous AI pentesting agent (MCP server, 12 tools) that runs on local LLMs (Ollama, llama.cpp) or cloud, with a local Privacy Gateway; covers web, API, AD and Kubernetes. GPL-3.0.
 ## Agents / Automatic GPT
 
 - [Auto GPT](https://github.com/Torantulino/Auto-GPT)
