@@ -25,6 +25,7 @@
 - [gpt4all-chat](https://github.com/nomic-ai/gpt4all-chat) Cross platform desktop GUI for GPT4All  models (gpt-j)
 - [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
 - [LM Studio](https://lmstudio.ai/) closed-source but very easy to use Native Mac, Windows, Linux GUI, supporting ggml, MPT, StarCoder, Falcon, Replit, GPT-Neu-X, gguf
+- [GI JI](https://giji.agency/) closed-source native Mac GUI for asking questions of your own documents, runs two local models through Ollama, shows the exact source passage behind each answer and refuses when the documents do not contain it
   - [lms](https://github.com/lmstudio-ai/lms) CLI version of LMStudio
 - [pinokio](https://pinokio.computer/) Template based 1 Click installer for ML inference (LLMs, Audio, Text, Video)
 - [Lit-llama](https://github.com/Lightning-AI/lit-llama) training, fine tuning and inference of llama
