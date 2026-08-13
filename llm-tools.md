@@ -360,6 +360,7 @@
 - [LLM Sandbox](https://github.com/vndee/llm-sandbox) lightweight sandbox designed to run LLM generated code in a safe and isolated manner using Docker
 - [desktop](https://github.com/e2b-dev/desktop) E2B Desktop Sandbox for LLMs providing a virtual linux desktop for LLM Agents Computer Use abilities
 - [SuperAGI](https://github.com/SuperAGI/SuperAGI) is a framework to build and run AI agents with support for concurrent operation, tool / function calling, telemetry and a GUI
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) local-first CLI and TUI agent running open-weight models entirely on your machine through a llama.cpp fork, with 56 built-in tools (browser, filesystem, git, memory, vision), MCP support and a five layer local memory system, no account or API key required, for macOS, Linux and Windows
 
 ## Multi Modal
 
@@ -450,6 +451,7 @@
 - [goose](https://github.com/block/goose) locally run AI coding agent that autonomously handles tasks like debugging and deployment, customizable with any LLM and external APIs
 - [Roo Code](https://github.com/RooVetGit/Roo-Code) coding agent in VS Code enabling file manipulation, command execution, and browser automation with customizable modes for specialized roles
 - [Cursor](https://github.com/getcursor/cursor) AI-powered code editor and fork of VS Code enhancing programming with smart rewrites, context-aware chat, terminal command generation, and automated error detection and fixing
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) local-first coding agent with a CLI and a React/ink TUI, running open-weight models entirely on your machine through a llama.cpp fork, with 56 built-in tools, MCP support and local memory, no account or API key required, install with `curl -fsSL https://atomicagent.io/install | sh`
 
 ## Libraries and Wrappers
 
