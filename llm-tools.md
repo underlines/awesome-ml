@@ -42,6 +42,7 @@
 - [minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp) to run minigpt4 using 4-bit quantization with using the ggml library in pure C/C++
 - [Windows AI Studio](https://github.com/microsoft/windows-ai-studio) Visual Studio Code extension for Fine-tuning, RAG development and inference of local models
 - [jan](https://github.com/janhq/jan) an open source alternative to ChatGPT that runs 100% offline on Windows, Intel/Apple Silicon Mac, Linux and Mobile
+- [DSH Studio](https://github.com/Moresyl/dsh-studio) is a local-first cross-platform desktop manager for DeepSeek Harness with installation, start/stop controls, health checks, logs and process supervision
 - [open-interpreter](https://github.com/KillianLucas/open-interpreter) lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal
 - [ClipboardConqueror](https://github.com/aseichter2007/ClipboardConqueror) a novel omnipresent copilot alternative designed to bring your very own LLM AI assistant to any text field
 - [Chat With RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) by NVIDIA using Tensore Cores locally to run LLMs fast with a local RAG workflow.
