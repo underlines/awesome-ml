@@ -26,6 +26,7 @@
 - [ollama](https://github.com/jmorganca/ollama) Run, create, and share llms on macOS, win/linux with a simple cli interface and portable modelfile package
 - [LM Studio](https://lmstudio.ai/) closed-source but very easy to use Native Mac, Windows, Linux GUI, supporting ggml, MPT, StarCoder, Falcon, Replit, GPT-Neu-X, gguf
   - [lms](https://github.com/lmstudio-ai/lms) CLI version of LMStudio
+- [Llama Desktop](https://github.com/ChevalGrand520/llama-desktop) portable, zero-dependency Windows desktop shell for the official llama.cpp llama-server with embedded official Web UI, hardware-based auto-tuning, and PID-verified safe process lifecycle
 - [pinokio](https://pinokio.computer/) Template based 1 Click installer for ML inference (LLMs, Audio, Text, Video)
 - [Lit-llama](https://github.com/Lightning-AI/lit-llama) training, fine tuning and inference of llama
 - [Dalai](https://github.com/cocktailpeanut/dalai) LLaMA-based ChatGPT for single GPUs
