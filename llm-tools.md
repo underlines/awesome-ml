@@ -447,6 +447,7 @@
 - [WatsonX Code Assistant](https://github.com/ibm-granite/watsonx-code-assistant-individual) Code Assistant for VS Code connecting to Ollama and locally hosted IBM Granite Code models for Code generation, debugging and refactoring
 - [potpie](https://github.com/potpie-ai/potpie) Create specialized AI agents that understand and automate tasks in your codebase through comprehensive knowledge graph construction
 - [Code2Prompt](https://github.com/mufeedvh/Code2Prompt) is a CLI tool that converts codebases into LLM prompts, generating structured Markdown with source trees, prompt templates, and token counts while supporting Git diff, file exclusions, and clipboard integration 
+- [DevProjex](https://github.com/Avazbek22/DevProjex) builds controlled, redacted, token-efficient repository context for LLM workflows through GUI, TUI, CLI, and a read-only MCP server.
 - [goose](https://github.com/block/goose) locally run AI coding agent that autonomously handles tasks like debugging and deployment, customizable with any LLM and external APIs
 - [Roo Code](https://github.com/RooVetGit/Roo-Code) coding agent in VS Code enabling file manipulation, command execution, and browser automation with customizable modes for specialized roles
 - [Cursor](https://github.com/getcursor/cursor) AI-powered code editor and fork of VS Code enhancing programming with smart rewrites, context-aware chat, terminal command generation, and automated error detection and fixing
