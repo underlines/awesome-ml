@@ -918,6 +918,7 @@
 - [hle](https://github.com/centerforaisafety/hle) Humanity's Last Exam is a multi-modal benchmark at the frontier of human knowledge, designed to be the final closed-ended academic benchmark of its kind with broad subject coverage across academic subjects designed by experts
 - [RepairBench](https://github.com/ASSERT-KTH/repairbench-framework) Automated Code-Repairing benchmarks for LLMs
 - [LV-Eval](https://github.com/infinigence/LVEval) Long-context benchmark for LLMs with up to 256k words, featuring QA tasks and techniques like confusing facts insertion and keyword-recall metrics for accurate evaluation
+- [STRATA-Bench](https://github.com/movahedi-ca/strata-bench) 36-task benchmark for AI agents on fragmented spatial-temporal market intelligence; scores whether agents disclose, tag, refuse, or model instead of hallucinating
 
 ## AI DevOps
 
