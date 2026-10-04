@@ -877,6 +877,7 @@
 - [EQBench](https://eqbench.com/) a black box closed source and private Emotional Intelligence Benchmark for LLMs
 - [RepairBench](https://repairbench.github.io/) is an open-source leaderboard for evaluating frontier models on automated program repair ([paper](http://arxiv.org/pdf/2409.18952))
 - [Leaderboards and Arenas](https://huggingface.co/collections/zh-ai-community/leaderboards-and-arenas-664b6913bfd9b93ba4ac242e) a hf collection of Benchmarks and Leaderboars for LLM Evaluation
+- [ModelBenchmark](https://modelbenchmark.io) — Independent rankings of AI models: composite of 16 public benchmarks, prices, context windows.
 
 ### Benchmark Suites
 
