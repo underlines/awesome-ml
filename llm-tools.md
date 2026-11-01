@@ -785,6 +785,7 @@
 - [RAG is more than just embedding search](https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/) learnings for building a good RAG-based LLM Application, [HN](https://news.ycombinator.com/item?id=37599873)
 - [llm-agent-paper-list](https://github.com/woooodyy/llm-agent-paper-list) The paper list of the 86-page paper "The Rise and Potential of Large Language Model Based Agents: A Survey" by Zhiheng Xi et al., [paper](https://arxiv.org/abs/2309.07864)
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) open and closed source agents by categories and industries
+- [ListAIHub](https://listaihub.com/) Curated platform and registry for AI agents, multi-agent frameworks, tool endpoints, and autonomous workflows
 - [Azure OpenAI resources](https://github.com/kimtth/azure-openai-llm-vector-langchain) Azure OpenAI, LLMs +🌌 Brief overview,🦙Summary notes,🔎References, and 🎋Cheatsheet
 - [alignment-handbook](https://github.com/huggingface/alignment-handbook) Huggingface's robust recipes for to align language models with human and AI preferences
 - [llama-recipes](https://github.com/facebookresearch/llama-recipes) Llama 2 demo apps, recipes etc for RAG, Fine tuning, inference etc.

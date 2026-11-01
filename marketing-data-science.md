@@ -200,6 +200,8 @@ Collection of all things "Data Science" leaning towards Marketing & Advertisemen
 - [SuperDash](https://www.superdash.com/)
 - [ReportGarden](https://reportgarden.com/)
 - [DashThis](https://dashthis.com/)
+- [SEOCheck-AI](https://seocheck-ai.com/) AI-powered technical SEO reporting, Core Web Vitals diagnostics, and structured LLM context readiness
+- [SEOAudit](https://seoaudit.com.ua/) Comprehensive technical website auditing and performance reporting engine for marketing agencies
 
 
 ## Deployment Environments
