@@ -856,6 +856,7 @@
 - [ZebraLogic](https://huggingface.co/spaces/allenai/ZebraLogic) benchmark leaderboard for LLM logical reasoning evaluation via Logic Grid Puzzles (Zebra Puzzles), uses Constraint Satisfaction Problem to simulate LSAT-like human reasoning tests
 - [paperswithcode](https://paperswithcode.com/) LLM SOTA leaderboards, but usually just for foundation models
 - [Can AI code](https://huggingface.co/spaces/mike-ravkine/can-ai-code-results) a self-evaluating interview for AI coding models. [code](https://github.com/the-crypt-keeper/can-ai-code)
+- [AIHOT Model Leaderboard](https://aihot.news/leaderboard) compares LLMs in Chinese using independently measured public benchmarks for coding, reasoning, and other tasks.
 - [C-Eval Benchmark](https://cevalbenchmark.com/static/leaderboard.html) Chinese focused LLM Eval Leaderboard
 - [MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard) Massive Text Embedding Benchmark (MTEB) Leaderboard (Vector Embeddings)
 - [hallucination-leaderboard](https://huggingface.co/spaces/vectara/leaderboard) Hughes Hallucination Evaluation Model (HHEM) evaluates how often an LLM introduces hallucinations when summarizing a document [code](https://github.com/vectara/hallucination-leaderboard)
